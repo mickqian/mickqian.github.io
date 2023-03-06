@@ -34,6 +34,14 @@
 	* Starts with maximum value, get the next-smaller values by (1). removing/adding the smallest positive/biggest negative value (2). removing previous selecition, move to next s/b value
 	* [Find the K-Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array/solutions/2457384/priority-queue-c/?orderBy=most_votes)
 
+* Hard
+	* Find number of subsequences with max and min fixed
+	* Three-pointer sliding window, number in window is within range, considering the valid range ending with i while iterating, which is $min(prevMin, prevMax) - prevBad$
+	* [Count Subarrays with fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/solutions/2708099/java-c-python-sliding-window-with-explanation/?orderBy=most_votes)
+
+
+
+
 
 ## Strategy
 * 
