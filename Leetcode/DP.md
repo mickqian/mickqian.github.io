@@ -62,19 +62,32 @@ recursive iterative loop, moving forward at each index based on prev results
 	
 
 
-* 
-	* 
-	* 
+
 
 
 ## Memoization | Permutation
 
+
 * 
-	* Ways to choose numbers(duplication), no order
-	* With vector<int> as used numbers key
+	* 
+	* 
+
+* Classic
+	* If possible to fit numbers into boxes
+	* Try combinations of items on each boxes, bit mask
+	* [distribute repeated numbers](https://leetcode.com/problems/distribute-repeating-integers/solutions/935522/step-by-step-optimization-more-than-10-methods/?orderBy=most_votes)
+
+
 
 
 * 
 	* Ways to choose numbers(duplication), no order
 	* With vector<int> as used numbers key, and trying every type of num in each call
 	* [Maximum Number of Groups Getting  Fresh Donuts](https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/solutions/1140644/c-0-ms-greedy-dp/?orderBy=most_votes)
+
+* 
+	* 
+
+*  Classic
+	* 
+	* 
