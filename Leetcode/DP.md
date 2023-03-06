@@ -59,8 +59,22 @@ recursive iterative loop, moving forward at each index based on prev results
 * 
 	* 
 	* 
+	
+
 
 * 
 	* 
 	* 
 
+
+## Memoization | Permutation
+
+* 
+	* Ways to choose numbers(duplication), no order
+	* With vector<int> as used numbers key
+
+
+* 
+	* Ways to choose numbers(duplication), no order
+	* With vector<int> as used numbers key, and trying every type of num in each call
+	* [Maximum Number of Groups Getting  Fresh Donuts](https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/solutions/1140644/c-0-ms-greedy-dp/?orderBy=most_votes)
