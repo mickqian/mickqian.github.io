@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms.md",
+                "file": "Data Structures.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DP.md",
+                "file": "Data Structures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DP.md",
+                "file": "Data Structures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DP.md"
+                "file": "Data Structures.md"
               }
             }
           },
@@ -193,17 +193,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c58d57b6b172033",
+  "active": "79139e4d0cf32566",
   "lastOpenFiles": [
+    "Basic Algorithms you must memorize.md",
     "Algorithms.md",
-    "Miscallenous.md",
-    "DP.md",
-    "Data Structures.md",
     "Bit.md",
+    "DP.md",
+    "Miscallenous.md",
+    "Data Structures.md",
     "Search.md",
     "2023-03-05.md",
     "Sequence.md",
-    "Basic Algorithms you must memorize.md",
     "2023-03-02.md",
     "Untitled.canvas",
     "Untitled"
