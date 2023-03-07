@@ -258,7 +258,7 @@ def find_lcsubstr(s1, s2):
                 dp[++pos]=nums[i];
             else
                 // 当前值更小，替换子序列串
-                dp[lower_bound(dp,dp+pos+1,nums[i])-dp]=nums[i];
+        dp[lower_bound(dp,dp+pos+1,nums[i])-dp]=nums[i];
          }
          return pos;
      }```

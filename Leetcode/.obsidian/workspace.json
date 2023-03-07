@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures.md",
+                "file": "Basic Algorithms you must memorize.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures.md",
+                "file": "Basic Algorithms you must memorize.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures.md",
+                "file": "Basic Algorithms you must memorize.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures.md"
+                "file": "Basic Algorithms you must memorize.md"
               }
             }
           },
@@ -195,12 +195,12 @@
   },
   "active": "79139e4d0cf32566",
   "lastOpenFiles": [
+    "Data Structures.md",
     "Basic Algorithms you must memorize.md",
     "Algorithms.md",
     "Bit.md",
     "DP.md",
     "Miscallenous.md",
-    "Data Structures.md",
     "Search.md",
     "2023-03-05.md",
     "Sequence.md",
