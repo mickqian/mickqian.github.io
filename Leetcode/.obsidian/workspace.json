@@ -54,9 +54,17 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "70b102ddb62fe110",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -123,7 +131,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +147,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,9 +168,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algorithms.md"
-              }
+              "state": {}
             }
           },
           {
@@ -193,10 +197,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "79139e4d0cf32566",
+  "active": "70b102ddb62fe110",
   "lastOpenFiles": [
-    "Miscallenous.md",
     "Algorithms.md",
+    "Miscallenous.md",
     "DP.md",
     "Data Structures.md",
     "Bit.md",
