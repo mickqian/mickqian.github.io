@@ -1,0 +1,2 @@
+Qian Chengliang(English name as Mick) is a person, pursuiting jobs of creativity and crave for learning and exploring new technologies and skills.
+Graduated as a bachelor in Computer Sciende at ZJU(Zhejiang University), his acedemic record is among the top 20% in CS College, 10% in the last two years, which proves his ability to learn. At school, he interns at a big tech company in china, and 
