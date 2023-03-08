@@ -4,4 +4,6 @@ Graduated as a bachelor in Computer Sciende at ZJU(Zhejiang University), his ace
 
 And because of that expierence, he found that a lot can be learnt from work, so he joined that company after graduating. In the two years of working there, he was a major contributor to some important projects, say, for example, an IDE written in Rust developed from scratch. He built the text-editor on his own, which is the essential part of the IDE, and its performance outbeats some of the most popular editors. Learning from the best-practice of the design of them, he put a lot of work to make the editor light and responsive, by exploiting the most suitable data structure and the advantage of Rust as a programming language.
 
-But his real interst may lay elsewhere.
+
+
+Detail-oriented, organized and meticulous employee. Remains consistently abreast of cutting-edge development and technology advancements. Always works the most effective in the team, to meet tight deadlines. Stepping out when there's high-maintenance bugs. Values functionality, stability as well as performance of the software. Giving out creative & practical ideas on user-experience or technology problems.
