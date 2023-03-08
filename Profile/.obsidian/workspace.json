@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "85323cdc4c2f2d44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Skills.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3a1aa2e70a48d221",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Third-Person self-introduction.md",
+                "file": "Skills.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Third-Person self-introduction.md",
+                "file": "Skills.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Third-Person self-introduction.md"
+                "file": "Skills.md"
               }
             }
           }
@@ -158,9 +171,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "469d98ee08c10c34",
+  "active": "85323cdc4c2f2d44",
   "lastOpenFiles": [
-    "Role Numbers.md",
-    "Third-Person self-introduction.md"
+    "Third-Person self-introduction.md",
+    "Skills.md",
+    "Role Numbers.md"
   ]
 }
