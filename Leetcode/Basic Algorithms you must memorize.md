@@ -191,13 +191,6 @@ for (int k = 0; k < n; k++)
  directed graph shortest path of Hamilton path
 
 
-### Merge sort
-
-
-
-
-### Topological sort
-
 
 
 ### Sequence

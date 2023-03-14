@@ -56,6 +56,11 @@ recursive iterative loop, moving forward at each index based on prev results
 	* The final result is calculated in one-pass, storing the possible extreme sub-result, assuming taking special conditions all-the-way 
 	* [Minimum Time to Remove All Cars Containing Illegal Goods]
 
+* 
+	* \[n-th song\]\[different songs cnt\] = number of playlists
+	* storing the cnt of different songs is enough, for us to calculate the plans for next song, as the next-song choice is only constrained by that.
+	* [Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/description/)
+
 
 
 
@@ -72,16 +77,36 @@ recursive iterative loop, moving forward at each index based on prev results
 	* [distribute repeated numbers](https://leetcode.com/problems/distribute-repeating-integers/solutions/935522/step-by-step-optimization-more-than-10-methods/?orderBy=most_votes)
 
 
+*  Classic
+	* BitMasking to perform DFS
+	* \[courses taken\]\[courses last semester\] = minimum days
+		the courses of last semester should be stored, since it affects the courses available next semester.
+		```cpp
+		  for(int i = 0; i < (1 << n); i += 1){
+            int ex = 0;
+            // get the possible next semesters courses
+            for(int j = 0; j < n; j += 1) if((i & pre[j]) == pre[j]) ex |= 1 << j;
+            // get the unlearnt next semester courses
+            ex &= ~i;
+            // next semester, learn courses from ex
+            for(int s = ex; s; s = (s - 1) & ex) if(__builtin_popcount(s) <= k){
+                dp[i | s] = min(dp[i | s], dp[i] + 1);
+            }
+        }
+		```
+
+
+	* [Parallel Coursues2](https://leetcode.com/problems/parallel-courses-ii/)
+
+* 
+	* Recursively choose each item, top-down
+	* iterate over each choice, recursive call
+	* [Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/solutions/108318/c-java-python-dp-memoization-with-optimization-29-ms-c/?orderBy=most_votes)
+
+
 
 
 * 
 	* Ways to choose numbers(duplication), no order
 	* With vector<int> as used numbers key, and trying every type of num in each call
-	* [Maximum Number of Groups Getting  Fresh Donuts](https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/solutions/1140644/c-0-ms-greedy-dp/?orderBy=most_votes)
-
-* 
-	* 
-
-*  Classic
-	* 
-	* 
+	 [Maximum Number of Groups Getting  Fresh Donuts](https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/solutions/1140644/c-0-ms-greedy-dp/?orderBy=most_votes)
