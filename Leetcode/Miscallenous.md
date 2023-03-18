@@ -10,6 +10,13 @@
 	* 
 
 
+* **Classic** 
+	* Find patterns of the solutions of the problem
+	* There are two patterns which meets the requirements: (1). two circled person, and two arms. (2). an entire circle
+	* [Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/solutions/1660944/c-dfs-with-illustration/?orderBy=most_votes)
+
+
+
 * 
 	* Find the required pattern for the result
 	* [Transform to Chessborad](https://leetcode.com/problems/transform-to-chessboard/solutions/114847/c-java-python-solution-with-explanation/)
@@ -39,6 +46,11 @@
 	* Three-pointer sliding window, number in window is within range, considering the valid range ending with i while iterating, which is $min(prevMin, prevMax) - prevBad$
 	* [Count Subarrays with fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/solutions/2708099/java-c-python-sliding-window-with-explanation/?orderBy=most_votes)
 
+* 
+	*  Gudge if there's element appears odd times
+	* xor
+	* Seems like other kinds of appearing pattern can't be decided in O(N) easily
+	* [Find Longest Awesome Substring](https://leetcode.com/problems/find-longest-awesome-substring/)
 
 
 

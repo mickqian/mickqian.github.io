@@ -66,6 +66,28 @@ for (auto& num : nums){
 
 
 ## KMP
+Generate the table
+
+```c++
+	// kmp: [the index of the matching string] = [the index in the pattern string]
+	vector<int> kmp(evil.size());
+    for (auto j = 0, i = 1; i < kmp.size(); ++i) {
+        if (evil[i] == evil[j])
+            kmp[i] = ++j;
+        else if (j > 0) {
+            j = kmp[j - 1];
+            // recursive step back, to get the max matching len
+            --i;
+        }
+    }
+```
+use the table as a tool, to determine if a string contains a pattern
+```c++
+      while (n_ep > 0 && ch != evil[n_ep]){
+	     // calculate the max matching len of the character
+         n_ep = kmp[n_ep - 1];
+	 }
+```
 
 
 ## Rabin-Karp

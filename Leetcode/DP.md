@@ -45,11 +45,28 @@ recursive iterative loop, moving forward at each index based on prev results
 2. d[i] = d[j] + d[i - j] : 双循环
 
 
+状态压缩：转移方程中若存在类似 dp[i] += dp[i - k]  的格式，考虑状态是否可压缩。最常用的状态压缩方式为求前缀和等
+
+
 ## One pass dp
 
 * 
 	* 
 	* 
+
+
+*  Hard
+	*  \[0 ~ i chars\]\[j ~ end chars in the pattern\] = number of matches
+	* From the contraints, we should fix with all the possibilities, which is not a big space
+	*  Apply **Fixed Possibilities**, **store the states associated with that**
+	* [Count Palindromic Subsequences](https://leetcode.com/problems/count-palindromic-subsequences/solutions/2851160/dp-vs-prefix-suffix/?orderBy=most_votes)
+
+
+
+* 
+	* \[first i groups\]\[mask of chosen value \] = numbers that can't be changed
+	* **Inspiration**: using an index, and a mask marking the entire state affecting the next step, and iterate over all the possible mask is a regular operation
+	* [Make the XOR of All Segments Equal to Zero](https://leetcode.com/problems/make-the-xor-of-all-segments-equal-to-zero/solutions/1097796/python-3-another-short-dp-7-lines-explained/?orderBy=most_votes)
 
 
 * 
@@ -75,6 +92,12 @@ recursive iterative loop, moving forward at each index based on prev results
 	* If possible to fit numbers into boxes
 	* Try combinations of items on each boxes, box-size to numbers mask
 	* [distribute repeated numbers](https://leetcode.com/problems/distribute-repeating-integers/solutions/935522/step-by-step-optimization-more-than-10-methods/?orderBy=most_votes)
+
+* 
+	* Subsequence sums
+	* \[first i numbers\]\[choosing j numbers\] = possible sums as set, check if sum == j * average
+	* Basically a NP problem, O($N^2 * m$), but we need only check the sums of less than n/2 numbers
+	* [Split Array With Same Average](https://leetcode.com/problems/split-array-with-same-average/solutions/120667/c-solution-with-explanation-early-termination-updated-for-new-test-case/?orderBy=most_votes)
 
 
 *  Classic

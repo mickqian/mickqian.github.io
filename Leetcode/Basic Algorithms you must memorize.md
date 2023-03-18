@@ -53,61 +53,6 @@ class Solution:
 
 
 
-### Binary Search
-
-find i such that :
-
-* if low < i, f(low) = true,
-* if high > i, f(high) = false
-
-if i is in a certain range, we can narrow the range depending on the return value of the f()
-
-Used when the compare is cheap, that is whether the middle value e.g:
-
-1. the values in a sorted array
-2. the maximum avaible i, where there exists a k
-
-```rust
-  		//  0 <= left <= left + size = right <= self.len()
-		let mut size = self.len();
-        let mut left = 0;
-        let mut right = size;
-        while left < right {
-            let mid = left + size / 2;
-            let cmp = cmp([mid], v);
-
-            if cmp == Less {
-                left = mid + 1;
-            } else if cmp == Greater {
-                right = mid;
-            } else {
-                return Ok(mid);
-            }
-
-            size = right - left;
-        }
-
-        Err(left)
-```
-
-### Kadane Algorithm(Maximum subarray problem)
-
-[Maximum subarray problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
-
-```c++
-int max_subarray(vector<int>& numbers){
-    // Find the largest sum of any contiguous subarray.
-    int best_sum = 0
-    int current_sum = 0
-    for (auto x : numbers){
-        current_sum = max(0, current_sum + x);
-        best_sum = max(best_sum, current_sum);
-    }
-    return best_sum;
-}
-```
-
-
 
 
 ### A star(Heuristic)
@@ -196,7 +141,6 @@ for (int k = 0; k < n; k++)
 ### Sequence
 
 #### LCS
-
 
 ```python
 def find_lcsubstr(s1, s2):
