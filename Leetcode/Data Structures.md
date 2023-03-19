@@ -140,3 +140,55 @@ public:
 };
 ```
 
+## Bit Trie
+effectively judge the:
+1. order
+2. difference of different digits,
+with the new value and previously inserted values.
+Which shows the usage of Trie: Situation of first different item on the **prefix** sequence
+
+
+```cpp
+struct Trie {
+    Trie* t[2] = {};
+    int cnt = 0;
+    void insert(int n, int i = 1 << 14) {
+        ++cnt;
+        bool b = n & i;
+        if (t[b] == nullptr)
+            t[b] = new Trie();
+        if (i > 0)
+            t[b]->insert(n, i / 2);
+    }
+    // e.g. for an application
+    int countLess(int n, int lim, int i = 1 << 14) {
+        bool n_b = n & i, lim_b = lim & i, x = (n xor lim) & i;
+        return (lim_b && t[n_b] != nullptr ? t[n_b]->cnt : 0) +
+            (t[x] != nullptr ? t[x]->countLess(n, lim, i / 2) : 0);
+    } 
+};
+```
+
+```cpp
+  int countPairs(vector<int>& A, int low, int high) {
+        return test(A, high + 1) - test(A, low);
+    }
+
+    int test(vector<int>& A, int x) {
+        unordered_map<int, int> count, count2;
+        for (int a : A) count[a]--;
+        int res = 0;
+        while (x) {
+            for (auto const& [k, v] : count) {
+                count2[k >> 1] += v;
+                if (x & 1)
+                    if (count.find((x - 1) ^ k) != count.end())
+                        res += v * count[(x - 1) ^ k];
+            }
+            swap(count, count2);
+            count2.clear();
+            x >>= 1;
+        }
+        return res / 2;
+    }
+```

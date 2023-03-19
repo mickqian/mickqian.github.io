@@ -23,32 +23,7 @@ Choosed when there is some useless states, or no actual index concepts
    * only the previous uncovered tiles, even not of carpetLen, since all of the former states can contribute to the previous one [Minimum White Tiles After Covering With Carpets](https://leetcode.com/problems/minimum-white-tiles-after-covering-with-carpets/)
 
 
-Rough process:
-
-1. Iterate over the indices of the state, may be 2D even 3D
-2. Take all possible (optimal) actions on the current state
-3. build the relation from results of current state and the state after the action is taken.
-    * the relation may be derived from the natural thinking, and do a little math can contribute to ?
-        * In the [Edit Distance](https://leetcode.com/problems/edit-distance/solutions/25846/c-o-n-space-dp/?orderBy=most_votes) case, the current state's best result comes from 3 actions, and **think about from prev state, apply 3 actions will lead to which future state's best results**. After the thinking is done,  think backwards, build the reverse relation, by taking the future state as current state, and look for the 3 pre-action, and which one from the pre-state is the best results.
-        * 
-
-#### forwarding
-
-recursive iterative loop, moving forward at each index based on prev results
-
-
-
-
-1. d[i] = d[j] + k： 
-   1. 使用 top_down 或 单次迭代可完成
-   2. top_down 可以忽略一些不必要的值
-2. d[i] = d[j] + d[i - j] : 双循环
-
-
-状态压缩：转移方程中若存在类似 dp[i] += dp[i - k]  的格式，考虑状态是否可压缩。最常用的状态压缩方式为求前缀和等
-
-
-## One pass dp
+## Bottom up
 
 * 
 	* 
@@ -60,8 +35,6 @@ recursive iterative loop, moving forward at each index based on prev results
 	* From the contraints, we should fix with all the possibilities, which is not a big space
 	*  Apply **Fixed Possibilities**, **store the states associated with that**
 	* [Count Palindromic Subsequences](https://leetcode.com/problems/count-palindromic-subsequences/solutions/2851160/dp-vs-prefix-suffix/?orderBy=most_votes)
-
-
 
 * 
 	* \[first i groups\]\[mask of chosen value \] = numbers that can't be changed
@@ -78,10 +51,17 @@ recursive iterative loop, moving forward at each index based on prev results
 	* storing the cnt of different songs is enough, for us to calculate the plans for next song, as the next-song choice is only constrained by that.
 	* [Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/description/)
 
+* 
+	* Zuma game, merging the continuous same boxes
+	* \[left box index\]\[right box index\]\[the remaining boxes with the same as left in between\] = maximum point
+	* [Remove Boxes](https://leetcode.com/problems/remove-boxes/solutions/?orderBy=most_votes)
+	* [Burst Balloons](https://leetcode.com/problems/burst-balloons/#/description)
 
 
 
-## Memoization | Permutation
+
+
+## Top down
 
 
 * 
@@ -133,3 +113,28 @@ recursive iterative loop, moving forward at each index based on prev results
 	* Ways to choose numbers(duplication), no order
 	* With vector<int> as used numbers key, and trying every type of num in each call
 	 [Maximum Number of Groups Getting  Fresh Donuts](https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/solutions/1140644/c-0-ms-greedy-dp/?orderBy=most_votes)
+
+
+Rough process:
+
+1. Iterate over the indices of the state, may be 2D even 3D
+2. Take all possible (optimal) actions on the current state
+3. build the relation from results of current state and the state after the action is taken.
+    * the relation may be derived from the natural thinking, and do a little math can contribute to ?
+        * In the [Edit Distance](https://leetcode.com/problems/edit-distance/solutions/25846/c-o-n-space-dp/?orderBy=most_votes) case, the current state's best result comes from 3 actions, and **think about from prev state, apply 3 actions will lead to which future state's best results**. After the thinking is done,  think backwards, build the reverse relation, by taking the future state as current state, and look for the 3 pre-action, and which one from the pre-state is the best results.
+        * 
+
+#### forwarding
+
+recursive iterative loop, moving forward at each index based on prev results
+
+
+
+
+1. d[i] = d[j] + k： 
+   1. 使用 top_down 或 单次迭代可完成
+   2. top_down 可以忽略一些不必要的值
+2. d[i] = d[j] + d[i - j] : 双循环
+
+
+状态压缩：转移方程中若存在类似 dp[i] += dp[i - k]  的格式，考虑状态是否可压缩。最常用的状态压缩方式为求前缀和等

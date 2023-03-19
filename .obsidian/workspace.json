@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Leetcode/Algorithms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d79e96d9054c8a86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Leetcode/DP.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,16 +159,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de97241e2480bde5",
+  "active": "d79e96d9054c8a86",
   "lastOpenFiles": [
-    "Leetcode/Basic Algorithms you must memorize.md",
-    "Leetcode/Algorithms.md",
-    "Leetcode/DP.md",
-    "Leetcode/Bit.md",
     "Leetcode/Data Structures.md",
-    "Leetcode/Miscallenous.md",
     "Leetcode/Sequence.md",
     "Leetcode/Search.md",
+    "Leetcode/Miscallenous.md",
+    "Leetcode/Intuitions.md",
+    "Leetcode/Graph.md",
+    "Leetcode/Algorithms.md",
+    "Untitled",
+    "Leetcode/Graph",
+    "Leetcode/DP.md",
+    "Leetcode/Basic Algorithms you must memorize.md",
+    "Leetcode/Bit.md",
     "Profile/Role Numbers.md"
   ]
 }
