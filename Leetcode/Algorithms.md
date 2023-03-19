@@ -225,8 +225,23 @@ Forming an array of size n, with m consecutive unique numbers = placing m bars a
 
 
 ## Re Rooting
+
+It says so on the post:
+> 1.  Arbitrary root the tree, lets take `node 0` for explanation.
+> 2.  Solve the given problem as if it was rooted at `node 0`.
+> 3.  Similarily solve the problem for all nodes
+
+But I think it's still very vague.
+
+
 DFS for once, use information from previous visit, to simulate differnt roots
 * 
 	*  Max Root Path Sum - Root
 	*  ans\[i\] = max(subtree sum, parent and its other subtree sum) - v\[i\]
 	* [Difference Between Maximum and Minimum Price Sum](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/solutions/3052596/re-rooting-o-n-explained/?orderBy=most_votes)
+
+
+* 
+	*  Possible roots, given at least k of the parent-children query is correct( what the heck is this problem? )
+	*  Follow the steps, (1). assume 0 as the root, (2). calculate correct guess (3). DFS. While visiting a new child, correct guess changes atmost 1, updating corrent gusses and update final answer
+	* [Count Number of Possible Root Nodes](https://leetcode.com/problems/count-number-of-possible-root-nodes/solutions/3256065/re-rooting-o-n-explained/?orderBy=most_votes)
