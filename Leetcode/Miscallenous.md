@@ -87,6 +87,11 @@
 	* Maintain two data structure, to make the update/query more efficient
 	* [Design a Text Editor](https://leetcode.com/problems/design-a-text-editor/description/)
 
+* 
+	*  Calculate 2d prefix, to judge if a rectangular contains something
+	* The last 2d prefix sum is tricky, since to make a cell stamped, that cell is not the only place to place the top-left of the stamp.The top-left can be placed anywhere within (x - w, y - h) ~ (x,y)
+	* [Stamping The Grid](https://leetcode.com/problems/stamping-the-grid/description/)
+
 
 ## Strategy
 * 
