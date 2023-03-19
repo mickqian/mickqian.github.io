@@ -53,9 +53,19 @@ Choosed when there is some useless states, or no actual index concepts
 
 * 
 	* Zuma game, merging the continuous same boxes
-	* \[left box index\]\[right box index\]\[the remaining boxes with the same as left in between\] = maximum point
+	* \[i\]\[j\]\[the remaining boxes with the same as left in between\] = maximum point
 	* [Remove Boxes](https://leetcode.com/problems/remove-boxes/solutions/?orderBy=most_votes)
 	* [Burst Balloons](https://leetcode.com/problems/burst-balloons/#/description)
+
+* 
+	* Get Product of three consecutive numbers and remove, return max product sum
+	* $[i][j] = max([i][k-1] + [k+1][j] + k * [i-1] * [j + 1]$, for k being the **last** number picked
+	* [Burst Balloons](https://leetcode.com/problems/burst-balloons/#/description)
+
+* 
+	* Max(N * Neighbouring numbers count bigger than  N)
+	* use  a stack to store increasing numbers, calculate N * (i - poped_number_index) to get answer
+	* [ Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)
 
 
 
