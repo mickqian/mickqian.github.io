@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,7 +158,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d79e96d9054c8a86",
+  "active": "de97241e2480bde5",
   "lastOpenFiles": [
     "Leetcode/DP.md",
     "Leetcode/Data Structures.md",
