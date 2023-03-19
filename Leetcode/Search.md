@@ -17,3 +17,15 @@
 3. dfs + memorization roughly equals to bfs?
    1. dfs needs to enumerate all possibilities, and use cache to shorten search space
    2. bfs gives best solutions naturally
+
+
+### 0-1 BFS
+[0-1 BFS](https://cp-algorithms.com/graph/01_bfs.html)
+Djikstra without priority queue: [Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/solutions/2086235/0-1-bfs-c/?orderBy=most_votes)
+1. Push unvisited neighbour with cost, to end of the queue
+2. Push unvisited neighbour with cost, to beginning of the queue
+So that the neighbor with lower cost will be visited first, and the cost of first visited is the minimum cost
+
+## Optimization In BFS 
+1. Store the visited path
+2. Store \[visited notes\]\[ending node\]

@@ -13,6 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Leetcode/Miscallenous.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3b134cba78ed5211",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Leetcode/Algorithms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9cde4ec00fecb3fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Leetcode/Algorithms.md",
                 "mode": "source",
                 "source": false
@@ -31,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -158,16 +183,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de97241e2480bde5",
+  "active": "9cde4ec00fecb3fb",
   "lastOpenFiles": [
-    "Leetcode/DP.md",
     "Leetcode/Data Structures.md",
-    "Leetcode/Sequence.md",
-    "Leetcode/Search.md",
-    "Leetcode/Miscallenous.md",
-    "Leetcode/Intuitions.md",
     "Leetcode/Graph.md",
     "Leetcode/Algorithms.md",
+    "Leetcode/Intuitions.md",
+    "Leetcode/Miscallenous.md",
+    "Leetcode/Miscallenous~.md",
+    "Leetcode/DP.md",
+    "Leetcode/Sequence.md",
+    "Leetcode/Search.md",
     "Untitled",
     "Leetcode/Graph",
     "Leetcode/Basic Algorithms you must memorize.md",

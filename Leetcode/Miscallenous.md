@@ -16,7 +16,6 @@
 	* [Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/solutions/1660944/c-dfs-with-illustration/?orderBy=most_votes)
 
 
-
 * 
 	* Find the required pattern for the result
 	* [Transform to Chessborad](https://leetcode.com/problems/transform-to-chessboard/solutions/114847/c-java-python-solution-with-explanation/)
@@ -52,7 +51,41 @@
 	* Seems like other kinds of appearing pattern can't be decided in O(N) easily
 	* [Find Longest Awesome Substring](https://leetcode.com/problems/find-longest-awesome-substring/)
 
+  
+* Hard, Classics
+	* Ways to fill rectange with square
+	* Again, finding patterns help. The special case can be formed by 4 normal rectangular, and 1 rectangular in the middle
+	* [Tiling a Rectangle with the Fewest Squares](https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/solutions/414260/8ms-memorized-backtrack-solution-without-special-case/?orderBy=most_votes)
 
+
+* 
+	* Find Number of different GCDs
+	* A number N can be a GCD, if and only if the gcd of all numbers divisible by N, is N itself. If g(N) = N already, it will holds later
+	* [Number of Different Subsequences GCDs](https://leetcode.com/problems/number-of-different-subsequences-gcds/description/)
+
+
+* 
+	* Reverse pairs
+	* A number N can be a GCD, if and only if the gcd of all numbers divisible by N, is N itself. If g(N) = N already, it will holds later
+	* [Number of Pairs Satisfying Inequality](https://leetcode.com/problems/number-of-pairs-satisfying-inequality/solutions/2646606/python-reverse-pairs/?orderBy=most_votes)
+
+
+
+* 
+	* If exists path with max edge length
+	* If exists, the paths consists of shorter edge <-> exist shorter edge make the path <-> exist shorter edge connects the point <-> All shorter edge connects the point
+	* [https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/submissions/917168157/](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/submissions/917168157/)
+
+
+* 
+	* If exists path with max edge length
+	* If exists, the paths consists of shorter edge <-> exist shorter edge make the path <-> exist shorter edge connects the point <-> All shorter edge connects the point
+	* [https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/submissions/917168157/](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/submissions/917168157/)
+
+* Classic
+	* Two-approach
+	* Maintain two data structure, to make the update/query more efficient
+	* [Design a Text Editor](https://leetcode.com/problems/design-a-text-editor/description/)
 
 
 ## Strategy
@@ -70,3 +103,29 @@
 	* Find the least starting value
 	* The **time** we have the least money is, aftering finishing the last lossing-money cost, but not gaining the cashback yet (1). make sure we get through before, needs prev_loss + this_cost (2). make sure get the money to start next transaction
 	* [Minimum Money Required Before Transactions](https://leetcode.com/problems/minimum-money-required-before-transactions/solutions/2588034/java-c-python-easy-and-coincise/?orderBy=most_votes)
+
+
+* 
+	* find path
+	* 1XXXXXXX -> ... -> 11000000 -> 1000000 -> ... -> 0
+	* [Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/solutions/877741/c-solution-with-explanation/?orderBy=most_votes)
+
+* 
+	* maximum Value of intervals
+	* (1). Priority Queue on value, line sweep, put start and end separatedly (2). Segment Tree
+	* [Skyline](https://leetcode.com/problems/the-skyline-problem/solutions/61273/c-69ms-19-lines-o-nlogn-clean-solution-with-comments/)
+
+* 
+	* Maximum times of multiple subtraction
+	* Very intuitive: a battery can no be taken more than answer hours 
+	* [Maximum Running Time of N Computers](https://leetcode.com/problems/maximum-running-time-of-n-computers/solutions/1693347/heap-vs-binary-search/?orderBy=most_votes )
+
+
+* 
+	*  normalize, means indexing different numbers with unique id
+	* a
+
+* 
+	* Minimum number to pick up, with sum >= k
+	* Greedy, calculate max sum with i numbers picking up, always picking up the maximum number within reach
+	* [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/submissions/917314858/)

@@ -140,6 +140,12 @@ public:
 };
 ```
 
+  
+MAXBIT?
+https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/solutions/1390159/c-python-same-with-longest-increasing-subsequence-problem-clean-concise/?orderBy=most_votes
+
+
+
 ## Bit Trie
 effectively judge the:
 1. order
@@ -192,3 +198,36 @@ struct Trie {
         return res / 2;
     }
 ```
+
+
+  
+
+## Monotonic Queue
+
+*  
+	* 
+	* Attribute: there're no smaller elements after item in an increasing stack
+	* 
+
+
+
+A queue which:
+
+* the attribute A of items is monotonic, and unique
+* the attribute B of items is also monotonic
+
+It neglects all items smaller than before, since they are useless.
+
+Attribute:
+
+* the item at the beginning is the max one in a range, if the begining one gets poped when the window left
+* the adjacent items are the next smaller/bigger one to each other
+* while pushing new item, the new value is the next bigger one to the value being pushed
+* the insert item will repeated incounter only and all the previous bigger element
+
+Can be used to solve questions like
+
+* sliding window with max/min values: the index of the max value is always kept at the beginning. If there is some bigger items with bigger index, the smaller in-between items are useless, because they will not be max values before the bigger items are removed, when they will be removed before.
+* next index with bigger value: after removing smaller value in the end, the new value is the next-bigger value of the last value in queue
+* finding the next smaller/bigger element of each: [Subarray With Elements Greater Than Varying Threshold](https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/solutions/2259557/monostack/?orderBy=most_votes)
+*
