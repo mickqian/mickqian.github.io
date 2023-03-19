@@ -124,3 +124,6 @@ ReservoirSample(S[1..n], R[1..k])
 
 
 ## Z-function
+
+
+## Re Rooting
