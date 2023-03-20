@@ -32,7 +32,7 @@
 * 
 	* Find number of intervals covering a value
 	* Meeting Roomes Template: Given some intervals and an array of value, returns the number of intervals covering that value
-	* Record the starting and endings of intervals with an array(arr[s]++, arr[e]--). Iterate over value, adding the value of arr, sum of that will be number of intervals convering that value.
+	* Record the starting and endings of intervals with an array(arr\[s\]++, arr\[e\]--). Iterate over value, adding the value of arr, sum of that will be **number of intervals convering that value**.
 	* [Number of Flowers in Full Bloom]
 
 * Hard
@@ -92,6 +92,12 @@
 	* The last 2d prefix sum is tricky, since to make a cell stamped, that cell is not the only place to place the top-left of the stamp.The top-left can be placed anywhere within (x - w, y - h) ~ (x,y)
 	* [Stamping The Grid](https://leetcode.com/problems/stamping-the-grid/description/)
 
+* 
+	* Minimum number to pick up, with sum >= k
+	* Greedy, calculate max sum with i numbers picking up, always picking up the maximum number within reach
+	* [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/submissions/917314858/)
+
+
 
 ## Strategy
 * 
@@ -116,7 +122,7 @@
 	* [Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/solutions/877741/c-solution-with-explanation/?orderBy=most_votes)
 
 * 
-	* maximum Value of intervals
+	* maximum value of intervals
 	* (1). Priority Queue on value, line sweep, put start and end separatedly (2). Segment Tree
 	* [Skyline](https://leetcode.com/problems/the-skyline-problem/solutions/61273/c-69ms-19-lines-o-nlogn-clean-solution-with-comments/)
 
