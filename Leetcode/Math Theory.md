@@ -1,0 +1,4 @@
+* finding factors
+```cpp
+```
+
