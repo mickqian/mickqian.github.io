@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/Miscallenous.md",
+                "file": "Leetcode/Mathematical.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode/Miscallenous.md",
+                "file": "Leetcode/Mathematical.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode/Miscallenous.md",
+                "file": "Leetcode/Mathematical.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leetcode/Miscallenous.md"
+                "file": "Leetcode/Mathematical.md"
               }
             }
           }
@@ -198,9 +198,9 @@
   "active": "307c6c0b76534ff9",
   "lastOpenFiles": [
     "Leetcode/Algorithms.md",
+    "Leetcode/Mathematical.md",
     "Leetcode/Miscallenous.md",
     "Leetcode/Basic Algorithms you must memorize.md",
-    "Leetcode/Math Theory.md",
     "Untitled",
     "Leetcode/DP.md",
     "Leetcode/Data Structures.md",
