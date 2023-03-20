@@ -1,76 +1,35 @@
 {
   "main": {
-    "id": "6e65a95c596ca7ed",
+    "id": "d380ac250644092a",
     "type": "split",
     "children": [
       {
-        "id": "09e43becf6130a3f",
+        "id": "09ca1c728a90ba3d",
         "type": "tabs",
         "children": [
           {
-            "id": "de97241e2480bde5",
+            "id": "0a936695a1457dfc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Leetcode/Miscallenous.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b134cba78ed5211",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Leetcode/Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9cde4ec00fecb3fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Leetcode/Miscallenous.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d79e96d9054c8a86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Leetcode/Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "003194585f44a69e",
+    "id": "90af7e3e5af9f664",
     "type": "split",
     "children": [
       {
-        "id": "03153e6920374973",
+        "id": "8a382ad22ac4793f",
         "type": "tabs",
         "children": [
           {
-            "id": "54df4643c6fdb9ab",
+            "id": "e5af9858356d0dd2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -80,7 +39,7 @@
             }
           },
           {
-            "id": "7027376d1ff05c71",
+            "id": "02a219bfaabd3e5b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -95,7 +54,7 @@
             }
           },
           {
-            "id": "f6c2d6a200aafb8c",
+            "id": "39be2aece2ad2ccd",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -109,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "36b3a773da65b963",
+    "id": "1943ba4425714913",
     "type": "split",
     "children": [
       {
-        "id": "1cb9bd94e95bd07c",
+        "id": "a34f8e989301976b",
         "type": "tabs",
         "children": [
           {
-            "id": "96bd5bb6e2f14639",
+            "id": "3937c37d430e1ea1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode/Miscallenous.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,19 +92,18 @@
             }
           },
           {
-            "id": "03916c18bb6caab2",
+            "id": "2f75753475f75eef",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode/Miscallenous.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "1192da09fdc844a7",
+            "id": "d1bb4fb78afd87fd",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -157,13 +114,11 @@
             }
           },
           {
-            "id": "8cc4e70c35f7624d",
+            "id": "56eac7268ad4acde",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Leetcode/Miscallenous.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -183,21 +138,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9cde4ec00fecb3fb",
+  "active": "0a936695a1457dfc",
   "lastOpenFiles": [
-    "Leetcode/DP.md",
     "Leetcode/Algorithms.md",
-    "Leetcode/Basic Algorithms you must memorize.md",
+    "Leetcode/DP.md",
+    "Leetcode/Miscallenous.md",
+    "新建文本文档.txt",
     "Leetcode/Data Structures.md",
+    "Leetcode/Intuitions.md",
+    "Leetcode/Basic Algorithms you must memorize.md",
     "Leetcode/Bit.md",
     "Leetcode/Graph.md",
-    "Leetcode/Intuitions.md",
-    "Leetcode/Miscallenous.md",
-    "Leetcode/Miscallenous~.md",
     "Leetcode/Sequence.md",
     "Leetcode/Search.md",
-    "Untitled",
-    "Leetcode/Graph",
-    "Profile/Role Numbers.md"
+    "Work/Integrate GPT Into VNext.md",
+    "Profile/Role Numbers.md",
+    "Profile/Skills.md",
+    "Profile/Third-Person self-introduction.md",
+    "[.md",
+    "Untitled 1.md",
+    "2023-03-15.md",
+    "Work/Untitled.md",
+    "Work",
+    "Untitled"
   ]
 }
