@@ -140,7 +140,11 @@ public:
 };
 ```
 
-  
+
+DS can be used to build connectivity of partial nodes.
+Just think of it as a way to **query indepedent group nodes and size(via voting)**
+
+
 MAXBIT?
 https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/solutions/1390159/c-python-same-with-longest-increasing-subsequence-problem-clean-concise/?orderBy=most_votes
 
