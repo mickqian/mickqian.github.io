@@ -305,3 +305,6 @@ DFS for once, use information from previous visit, to simulate differnt roots
 	* [Count Number of Possible Root Nodes](https://leetcode.com/problems/count-number-of-possible-root-nodes/solutions/3256065/re-rooting-o-n-explained/?orderBy=most_votes)
 
 ## Eulerian Path
+-   A graph has an Eulerian Path if and only if
+    1.  we have `out[i] == in[i]` for each node `i`. Or
+    2.  we have `out[i] == in[i]` for all nodes `i` except **exactly two** nodes `x` and `y`, with `out[x] = in[x] + 1`, `out[y] = in[y] - 1`, where x being the head, y being the tail
