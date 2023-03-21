@@ -98,6 +98,11 @@
 	* [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/submissions/917314858/)
 
 
+* 
+	* Finding min(A[i], A[j]) * ( j - i ) - sum(A[i:j])
+	* sum(h\[front\] - h\[middle\]), when h[i] > h[front],  a new boundary starts, since the prev boundaray(h[front]) is lower
+	* [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+
 
 ## Strategy
 * 
