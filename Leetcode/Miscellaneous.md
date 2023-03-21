@@ -140,3 +140,10 @@
 	* Minimum number to pick up, with sum >= k
 	* Greedy, calculate max sum with i numbers picking up, always picking up the maximum number within reach
 	* [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/submissions/917314858/)
+
+* 
+	* Minimum prefix\[A\[i\]\] +  B\[i\]
+	* Fixing the first i index, the answer is k(prefix\[i\] is also fixed) + B\[i\], so the minimum B should be selected last
+	* I nearly think of this solution, but skip that thought after taking the un-certainty of the prefix  into consider. However, if we only focused at last position, the prefix is always fix
+	* Maybe only focus on one part, the remaining parts will be handled
+	* [Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/description/)
