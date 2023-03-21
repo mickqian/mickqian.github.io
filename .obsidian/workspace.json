@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b609a320a2071691",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Work/全流程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode/Mathematical.md",
+                "file": "Work/全流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode/Mathematical.md",
+                "file": "Work/全流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leetcode/Mathematical.md"
+                "file": "Work/全流程.md"
               }
             }
           }
@@ -146,13 +159,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a936695a1457dfc",
+  "active": "b609a320a2071691",
   "lastOpenFiles": [
+    "Leetcode/Mathematical.md",
+    "Work/全流程.md",
+    "Work",
     "Leetcode/Algorithms.md",
     "Leetcode/Data Structures.md",
     "Leetcode/Miscellaneous.md",
     "conflict-files-obsidian-git.md",
-    "Leetcode/Mathematical.md",
     "Profile/Third-Person self-introduction.md",
     "Leetcode/Bit.md",
     "Leetcode/DP.md",
@@ -168,8 +183,6 @@
     "[.md",
     "Untitled 1.md",
     "2023-03-15.md",
-    "Work/Untitled.md",
-    "Work",
-    "Untitled"
+    "Work"
   ]
 }
