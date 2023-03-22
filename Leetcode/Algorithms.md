@@ -307,3 +307,6 @@ DFS for once, use information from previous visit, to simulate differnt roots
 -   A graph has an Eulerian Path if and only if
     1.  we have `out[i] == in[i]` for each node `i`. Or
     2.  we have `out[i] == in[i]` for all nodes `i` except **exactly two** nodes `x` and `y`, with `out[x] = in[x] + 1`, `out[y] = in[y] - 1`, where x being the head, y being the tail
+
+
+## Hamilton Path

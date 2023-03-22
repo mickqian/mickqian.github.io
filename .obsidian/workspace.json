@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/全流程.md",
+                "file": "Leetcode/Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/全流程.md",
+                "file": "Leetcode/Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/全流程.md",
+                "file": "Leetcode/Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/全流程.md"
+                "file": "Leetcode/Algorithms.md"
               }
             }
           }
@@ -161,9 +161,9 @@
   },
   "active": "b609a320a2071691",
   "lastOpenFiles": [
+    "Work/全流程.md",
     "Leetcode/Algorithms.md",
     "Leetcode/Miscellaneous.md",
-    "Work/全流程.md",
     "Leetcode/Mathematical.md",
     "Work",
     "Leetcode/Data Structures.md",
