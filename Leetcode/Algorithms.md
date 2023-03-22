@@ -291,7 +291,6 @@ It says so on the post:
 
 But I think it's still very vague.
 
-
 DFS for once, use information from previous visit, to simulate differnt roots
 * 
 	*  Max Root Path Sum - Root
