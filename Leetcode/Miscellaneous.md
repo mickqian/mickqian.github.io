@@ -127,9 +127,11 @@
 	* [Minimum One Bit Operations to Make Integers Zero](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/solutions/877741/c-solution-with-explanation/?orderBy=most_votes)
 
 * 
-	* maximum value of intervals
-	* (1). Priority Queue on value, line sweep, put start and end separatedly (2). Segment Tree
+	* Maximum value(Or Sum) of intervals
+	* (1). Priority Queue on value, line sweep, put start and end separatedly. 
+	* (2). Segment Tree
 	* [Skyline](https://leetcode.com/problems/the-skyline-problem/solutions/61273/c-69ms-19-lines-o-nlogn-clean-solution-with-comments/)
+	* [Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii/solutions/137941/java-treemap-solution-inspired-by-skyline-and-meeting-room/?orderBy=most_votes) Sort on interval pair {x1,  +y1}  ~ {x2, -y2}, with map<height, count>, all interval in-between will have the most height.
 
 * 
 	* Maximum times of multiple subtraction

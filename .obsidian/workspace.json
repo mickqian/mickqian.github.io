@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/Mathematical.md",
+                "file": "Leetcode/Miscellaneous.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "skyline",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -159,11 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b609a320a2071691",
+  "active": "0a936695a1457dfc",
   "lastOpenFiles": [
     "Leetcode/Mathematical.md",
-    "conflict-files-obsidian-git.md",
     "Leetcode/Miscellaneous.md",
+    "conflict-files-obsidian-git.md",
     "Leetcode/Algorithms.md",
     "Leetcode/DP.md",
     "Work/全流程.md",
