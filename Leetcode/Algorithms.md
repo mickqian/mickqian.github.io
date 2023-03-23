@@ -310,3 +310,6 @@ DFS for once, use information from previous visit, to simulate differnt roots
 
 
 ## Hamilton Path
+
+
+## De Brujin

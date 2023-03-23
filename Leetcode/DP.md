@@ -63,7 +63,7 @@ recursive iterative loop, moving forward at each index based on prev results
 
 
 * 
-	*  Optimize, by compressing the common state(length, value, etc) and **try on that possible state**
+		*  Optimize, by compressing the common state(length, value, etc) and **try on that possible state**
 	* [Selling Pieces of Wood](https://leetcode.com/problems/selling-pieces-of-wood/description/)
 
 
@@ -77,6 +77,14 @@ recursive iterative loop, moving forward at each index based on prev results
 	* Minimum Intervals covering the range
 	* \[position\] = minimum num of intervals to cover 0~ position
 	* [Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/)
+
+
+* 
+	* Valid permutations with relative order between consecutives
+	* (1). Top-down: choosing every ID as the biggest, the remaining numbers can be chosed randomly, C(n, k)
+	* (2). Bottom-up: Next State should care about the unused digits, and the number of ways to choose next digits. Since the relative order of the previous digit in the unused digit is the only state we care about, the next digit can choose from every previous dp, from the previous relative index. dp\[i\]\[k\] = dp\[i - 1\]\[k + 1: n - 1\]
+	* It is tricky, but the remaining permutation can be viewed as permutation of random different digits, actually we don't care about the exact values. **For each possibility where the index of last digit  is the same, the next-permutation is also the same**
+	* [Valid Permutations for DI Sequence](https://leetcode.com/problems/valid-permutations-for-di-sequence/solutions/?orderBy=most_votes)
 
 
 
