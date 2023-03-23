@@ -103,6 +103,12 @@
 	* sum(h\[front\] - h\[middle\]), when h[i] > h[front],  a new boundary starts, since the prev boundaray(h[front]) is lower
 	* [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 
+* 
+	* DFS in disguise, actually top-sort
+	* each color A can not exist in B, while surrounding B at the same time. Use DFS to visit A, mark A as invalid after searching, if exists B, while visiting B, A will be in B's covering with invalid mark
+	* Essential part: A surrounds B => A > B, B surrounds A => B > A, mark A = B + 1 when A surrounds B, then when visiting B, later-found A shoud have smaller value, which conflicts with A = B + 1
+	* [Strange Printer 2](https://leetcode.com/problems/strange-printer-ii/submissions/920702448/)
+
 
 ## Strategy
 * 
