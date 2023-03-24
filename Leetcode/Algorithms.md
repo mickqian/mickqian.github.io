@@ -123,7 +123,7 @@ use the table as a tool, to determine if a string contains a pattern
 ## Rabin-Karp
 To check existence of  **exactly equal** substrings
 Time Complexity: O(len)
-Rolling-hash to encode the seen string pattern in the set, check each hash value with the set
+Rolling-hash to encode the string pattern in the set, check each hash value within the set
 
 ```c++
 for (int i = 0; i < n; i++){
@@ -132,9 +132,17 @@ for (int i = 0; i < n; i++){
 ```
 
 *  
-	*  Find the longest duplicate substring
+	* Find the longest duplicate substring
 	* Binary Search + Rabin-Karp will do
 	* [Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/solutions/?orderBy=most_votes)
+
+
+*  
+	* Check if a string pattern occurs repeatedly
+	* Binary Search + Rabin-Karp will do
+	* Need binary search to fix the length first, and rolling-hash is perfect for finding hash for fixed length(just append the char at the end)
+	* [Longest Common Subpath](https://leetcode.com/problems/longest-common-subpath/solutions/1314826/rolling-hash-vs-suffix-automation/?orderBy=most_votes)
+
 
 
 
