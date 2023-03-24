@@ -1,6 +1,8 @@
 ## Sweep Line
 
 ## Meet In the Middle
+To find the shortest dist to target num, we have possibilities from 2 parts. 
+Fix choice on each possibility on the first one, Binary Search (T - P(A)) in P(B)
 
 *  
 	* Find minimum diffs
@@ -11,8 +13,12 @@
 *  
 	* 
 	* 
-	* 
 
+
+*  
+	* 
+	* 
+	* 
 
 ## Kadane's Algorithm
 
@@ -45,7 +51,7 @@ Valid, when :
 
 *  
 	* Find minimum diffs
-	* Calculate the sum, get the target, iterator num_cnt on one part of the half
+	* Calculate the sum, store map\<count, set\<sum\>\> for 2 parts, iterate num_cnt on one part of the half
 	* [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/description/)
 
 ```cpp
