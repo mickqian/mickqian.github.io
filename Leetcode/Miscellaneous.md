@@ -136,7 +136,7 @@
 	* Maximum value(Or Sum) of intervals
 	* (1). Priority Queue on value, line sweep, put start and end separatedly. 
 	* (2). Segment Tree
-	* [Skyline](https://leetcode.com/problems/the-skyline-problem/solutions/61273/c-69ms-19-lines-o-nlogn-clean-solution-with-comments/)
+	* [Skyline](https://leetcode.com/problems/the-skyline-problem/solutions/61273/c-69ms-19-lines-o-nlogn-clean-solution-with-comments/)[]()
 	* [Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii/solutions/137941/java-treemap-solution-inspired-by-skyline-and-meeting-room/?orderBy=most_votes) Sort on interval pair {x1,  +y1}  ~ {x2, -y2}, with map<height, count>, for each interval, scan through the map to get the valid y_range with x_covered. The essential part is to, set {y, 1} when y becomes valid, and {y, - 1} when invalid, adding that counter when pass through, check the sign of the counter
 	* [Falling Squares](https://leetcode.com/problems/falling-squares/solutions/108764/easy-and-concise-python-solution-97/?orderBy=most_votes) 
 
