@@ -46,7 +46,7 @@
 	* [Count Subarrays with fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/solutions/2708099/java-c-python-sliding-window-with-explanation/?orderBy=most_votes)
 
 * 
-	*  Gudge if there's element appears odd times
+	* Gudge if there's element appears odd times
 	* xor
 	* Seems like other kinds of appearing pattern can't be decided in O(N) easily
 	* [Find Longest Awesome Substring](https://leetcode.com/problems/find-longest-awesome-substring/)
@@ -147,7 +147,7 @@
 
 * 
 	*  normalize, means indexing different numbers with unique id
-	* a
+	* 
 
 * 
 	* Minimum number to pick up, with sum >= k

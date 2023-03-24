@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/Algorithms.md",
+                "file": "Leetcode/Miscellaneous.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode/Algorithms.md",
+                "file": "Leetcode/Miscellaneous.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode/Algorithms.md",
+                "file": "Leetcode/Miscellaneous.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leetcode/Algorithms.md"
+                "file": "Leetcode/Miscellaneous.md"
               }
             }
           }
@@ -160,10 +160,10 @@
   },
   "active": "0a936695a1457dfc",
   "lastOpenFiles": [
-    "Leetcode/Miscellaneous.md",
     "Leetcode/Mathematical.md",
-    "conflict-files-obsidian-git.md",
     "Leetcode/Algorithms.md",
+    "Leetcode/Miscellaneous.md",
+    "conflict-files-obsidian-git.md",
     "Leetcode/DP.md",
     "Work/全流程.md",
     "Work",
