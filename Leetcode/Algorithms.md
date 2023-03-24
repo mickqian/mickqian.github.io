@@ -124,6 +124,7 @@ use the table as a tool, to determine if a string contains a pattern
 To check existence of  **exactly equal** substrings
 Time Complexity: O(len)
 Rolling-hash to encode the string pattern in the set, check each hash value within the set
+Rolling-hash can reduce the compare time from O(N) to O(1) ( if the hash can be computed in O(1))
 
 ```c++
 for (int i = 0; i < n; i++){
