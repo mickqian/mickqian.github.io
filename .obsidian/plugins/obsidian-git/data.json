@@ -1,9 +1,9 @@
 {
   "commitMessage": "vault backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 10,
+  "autoSaveInterval": 30,
   "autoPushInterval": 0,
-  "autoPullInterval": 10,
+  "autoPullInterval": 30,
   "autoPullOnBoot": true,
   "disablePush": false,
   "pullBeforePush": true,
@@ -25,5 +25,6 @@
   "setLastSaveToLastCommit": false,
   "submoduleRecurseCheckout": false,
   "gitDir": "",
+  "showFileMenu": true,
   "autoCommitMessage": "vault backup: {{date}}"
 }
