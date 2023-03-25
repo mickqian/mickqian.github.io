@@ -29,3 +29,10 @@ So that the neighbor with lower cost will be visited first, and the cost of firs
 ## Optimization In BFS 
 1. Store the visited path
 2. Store \[visited notes\]\[ending node\]
+
+
+
+* 
+	* If a position is surrounded by wall of points
+	* There are two patterns which meets the requirements: (1). two circled person, and two arms. (2). an entire circle
+	* [Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/solutions/1660944/c-dfs-with-illustration/?orderBy=most_votes)
