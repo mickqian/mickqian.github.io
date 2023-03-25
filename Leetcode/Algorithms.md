@@ -15,11 +15,6 @@ Fix choice on each possibility on the first one, Binary Search (T - P(A)) in P(B
 	* 
 
 
-*  
-	* 
-	* 
-	* 
-
 ## Kadane's Algorithm
 
 * 
@@ -331,18 +326,19 @@ DFS for once, use information from previous visit, to simulate differnt roots
 
 
 ## Investors
-### Intention
+
+#### Intention
 \[cost, threadshold\] pair, return the:
 (1). minimum start up, in some order, or
 (2). minimum start up, in any order
-### Intuition
+#### Intuition
 turn to a new story:
 > If you want to invest on a project `[x,y]`, you must have `y` money. Once finished, you gain `y-x` money. So, which project you should invest first to build up a good capital for the next investments?
-
 
 Cause a task's gonna be done anyway. Anytime it got done, we want to borrow money(from the startup money), and the done the deal. The profit is t - c. To do more investment, take the most profitable transaction first
 
 Do the task with largrest profits(y - x) first
 
-
 [Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/description/)
+
+## Graham scan
