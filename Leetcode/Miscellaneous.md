@@ -147,8 +147,8 @@
 
 
 * 
-	*  normalize, means indexing different numbers with unique id
-	* 
+	* Normalize, means indexing different numbers with unique id
+	* You can move a char to anywhere, if you can swap adjacent chars in a string
 
 * 
 	* Minimum number to pick up, with sum >= k
