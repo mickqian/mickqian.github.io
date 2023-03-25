@@ -161,3 +161,6 @@
 	* I nearly think of this solution, but skip that thought after taking the un-certainty of the prefix  into consider. However, if we only focused at last position, the prefix is always fix
 	* Maybe only focus on one part, the remaining parts will be handled
 	* [Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/description/)
+
+
+![[Pasted image 20230325113448.png]]
