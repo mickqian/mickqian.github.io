@@ -342,3 +342,13 @@ Do the task with largrest profits(y - x) first
 [Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/description/)
 
 ## Graham scan
+
+
+## Knapsack
+
+### Multi-knapsack
+NP-complete
+* 
+	*  Max Root Path Sum - Root
+	*  ans\[i\] = max(subtree sum, parent and its other subtree sum) - v\[i\]
+	* [Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/solutions/1009768/c-0ms-use-greedy-to-prune/?orderBy=most_votes)
