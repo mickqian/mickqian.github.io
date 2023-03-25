@@ -163,4 +163,12 @@
 	* [Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/description/)
 
 
+* 
+	* Shortest interval convering query points
+	* Regular solution: sort query and intervals, while iterating queries, update all available(covering) intervals( by pushing intervals which start <= q, and popping those end <= q), retrive the smallest. Like a sliding window
+	* Intuitive solution: check each interval from short to long, check if it covers some queries
+	* [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/solutions/?orderBy=most_votes)
+
+
+
 ![[Pasted image 20230325113448.png]]
