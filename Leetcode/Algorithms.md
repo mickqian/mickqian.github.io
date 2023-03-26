@@ -138,10 +138,9 @@ for (int i = 0; i < n; i++){
 	* Binary Search + Rabin-Karp will do
 	* [Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/solutions/?orderBy=most_votes)
 
-
 *  
 	* Check if a string pattern occurs repeatedly
-	* Binary Search + Rabin-Karp will do
+	* Binary Search + Rabin-Karp will find the longest identical strings
 	* Need binary search to fix the length first, and rolling-hash is perfect for finding hash for fixed length(just append the char at the end)
 	* [Longest Common Subpath](https://leetcode.com/problems/longest-common-subpath/solutions/1314826/rolling-hash-vs-suffix-automation/?orderBy=most_votes)
 
