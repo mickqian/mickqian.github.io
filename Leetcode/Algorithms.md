@@ -348,7 +348,15 @@ Do the task with largrest profits(y - x) first
 
 ### Multi-knapsack
 NP-complete
+Most of the multi knapsack problems is solved by **pruning**
 * 
 	*  Max Root Path Sum - Root
 	*  ans\[i\] = max(subtree sum, parent and its other subtree sum) - v\[i\]
 	* [Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/solutions/1009768/c-0ms-use-greedy-to-prune/?orderBy=most_votes)
+
+* 
+	* Two Subarray with same average
+	* dp\[length]\[s+A\[i]] = true is the sum exists for length 
+	* dp\[sum] = bitmask of subaray with length as i 
+	* [Split Array With Same Average](https://leetcode.com/problems/split-array-with-same-average/solutions/120667/c-solution-with-explanation-early-termination-updated-for-new-test-case/?orderBy=most_votes)
+
