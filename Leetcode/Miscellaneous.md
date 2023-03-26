@@ -171,4 +171,12 @@
 
 
 
+* 
+	* Sequence ending with number
+	* dp\[ending character\] = sum(all dp) + new sequence with single new character
+	* [Number of Unique Good Subsequences](https://leetcode.com/problems/number-of-unique-good-subsequences/)
+
+
+
+
 ![[Pasted image 20230325113448.png]]
