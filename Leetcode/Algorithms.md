@@ -96,14 +96,14 @@ for (auto& num : nums){
 ```
 
 
-## KMP
+## KMP aka  Prefix Suffix Subarray
 Generate the table
 
 ```c++
 	// kmp: [the index of the matching string] = [the index in the pattern string]
-	vector<int> kmp(evil.size());
+	vector<int> kmp(s.size());
     for (auto j = 0, i = 1; i < kmp.size(); ++i) {
-        if (evil[i] == evil[j])
+        if (s[i] == s[j])
             kmp[i] = ++j;
         else if (j > 0) {
             j = kmp[j - 1];
@@ -114,7 +114,7 @@ Generate the table
 ```
 use the table as a tool, to determine if a string contains a pattern
 ```c++
-      while (n_ep > 0 && ch != evil[n_ep]){
+      while (n_ep > 0 && ch != s[n_ep]){
 	     // calculate the max matching len of the character
          n_ep = kmp[n_ep - 1];
 	 }
@@ -195,7 +195,6 @@ Forming an array of size n, with m consecutive unique numbers = placing m bars a
 `std::next_permutation`
 
 ## LIS
-
 
 1. dp1:
 
@@ -290,6 +289,23 @@ int *buildSuffixArray(char *txt, int n)
 
 
 ## Z-function
+  $z[i]$  is the length of the longest string that is, at the same time, a prefix of   $s$  and a prefix of the suffix of   $s$  starting at i
+```cpp
+vector<int> z(string &s) {
+    vector<int> z(s.size());
+    int l = 0, r = 1;
+    for (int i = 1; i < s.size(); ++i) {
+        z[i] = i > r ? 0 : min(r - i, z[i - l]);
+        while (i + z[i] < s.size() && s[z[i]] == s[z[i] + i])
+            ++z[i];
+       if (z[i] + i > r) {
+           l = i;
+           r = z[i] + i;
+        }
+    }
+    return z;
+}
+```
 
 
 ## Re Rooting

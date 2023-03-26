@@ -177,6 +177,12 @@
 	* [Number of Unique Good Subsequences](https://leetcode.com/problems/number-of-unique-good-subsequences/)
 
 
+* 
+	* Convex Function 
+	* Binary Search for the bottom
+	* [Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/solutions/2734091/dp-vs-w-median-vs-binary-search/?orderBy=most_votes)
+
+
 
 
 ![[Pasted image 20230325113448.png]]
