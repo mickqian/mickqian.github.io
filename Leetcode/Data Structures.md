@@ -235,3 +235,10 @@ Can be used to solve questions like
 * next index with bigger value: after removing smaller value in the end, the new value is the next-bigger value of the last value in queue
 * finding the next smaller/bigger element of each: [Subarray With Elements Greater Than Varying Threshold](https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/solutions/2259557/monostack/?orderBy=most_votes)
 *
+
+
+*  
+	* Largest histogram
+	* Increasing Queue, pop and calc
+	* Attribute: Later-Smaller value are useless, they can't make rectangle larger than prev
+	* 
