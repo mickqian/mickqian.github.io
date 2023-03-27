@@ -200,4 +200,11 @@
 
 
 
+	* Count digits
+	* Set\<prefix integers\>
+	* [Count Ways to Make Array With Product](https://leetcode.com/problems/count-special-integers/solutions/2425271/java-python-math/?orderBy=most_votes)
+
+
+
+
 ![[Pasted image 20230325113448.png]]
