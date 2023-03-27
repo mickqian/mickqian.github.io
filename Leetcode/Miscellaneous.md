@@ -184,8 +184,17 @@
 
 * 
 	* Ways to make fixed-length array with product
-	* (1). Prime factorization (2). Stars and bars (3). 
-	* Combination -> Contribution
+	* (1). Prime factorization (2). Stars and bars (3). Distinguishable stars
+	```cpp
+    for (auto p : primes) {
+            int r = 0;
+            while (k % p == 0) {
+                ++r;
+                k /= p;
+		    }     
+    }
+```
+	* The Ways to put **r** factors into **N** numbers, is $Comb(N+r, r)$
 	* [Count Ways to Make Array With Product](https://leetcode.com/problems/count-ways-to-make-array-with-product)
 
 
