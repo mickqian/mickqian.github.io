@@ -201,8 +201,8 @@
 
 
 	* Count digits
-	* Set\<prefix integers\>
-	* [Count Ways to Make Array With Product](https://leetcode.com/problems/count-special-integers/solutions/2425271/java-python-math/?orderBy=most_votes)
+	* Set\<prefix integers\>, use permutation to calculate possibilities with prefix given
+	* [Count Special Integers](https://leetcode.com/problems/count-special-integers/solutions/2425271/java-python-math/?orderBy=most_votes)
 
 
 
