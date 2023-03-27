@@ -375,3 +375,5 @@ Most of the multi knapsack problems is solved by **pruning**
 	* dp\[sum] = bitmask of subaray with length as i 
 	* [Split Array With Same Average](https://leetcode.com/problems/split-array-with-same-average/solutions/120667/c-solution-with-explanation-early-termination-updated-for-new-test-case/?orderBy=most_votes)
 
+### 0-1 Knapsack
+pick a candidate, or not
