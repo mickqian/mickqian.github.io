@@ -184,8 +184,9 @@
 
 * 
 	* Ways to make fixed-length array with product
+	* (1). Prime factorization (2). Stars and bars (3). 
 	* Combination -> Contribution
-	* [Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/solutions/2734091/dp-vs-w-median-vs-binary-search/?orderBy=most_votes)
+	* [Count Ways to Make Array With Product](https://leetcode.com/problems/count-ways-to-make-array-with-product)
 
 
 
