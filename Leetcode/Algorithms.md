@@ -379,3 +379,6 @@ Most of the multi knapsack problems is solved by **pruning**
 pick a candidate, or not
 
 https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns#Merging-Intervalshttp://
+
+
+## Game(of thrones)
