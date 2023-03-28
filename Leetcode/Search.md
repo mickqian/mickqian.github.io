@@ -36,3 +36,28 @@ So that the neighbor with lower cost will be visited first, and the cost of firs
 	* If a position is surrounded by wall of points
 	* There are two patterns which meets the requirements: (1). two circled person, and two arms. (2). an entire circle
 	* [Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/solutions/1660944/c-dfs-with-illustration/?orderBy=most_votes)
+
+* 
+	* Graphic search, move in 4 directions
+	```cpp
+	 double ans = DBL_MAX;
+        vector<double> p(2, 0);
+        double step = 100, eps = 1e-6;
+        // dir = 1
+        while (step > eps) {
+            bool found = false;
+            for (auto &dir : dirs) {
+                vector<double> next = {p[0] + step * dir[0], p[1] + step * dir[1]};
+                double d = all(A, next);
+                if (d < ans) {
+                    ans = d;
+                    p = next;
+                    found = true;
+                    break;
+                }
+            }
+            if (!found) step /= 2;
+        }
+	```
+	* [Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/solutions/1660944/c-dfs-with-illustration/?orderBy=most_votes)
+
