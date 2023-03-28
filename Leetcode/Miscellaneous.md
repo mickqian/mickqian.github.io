@@ -194,5 +194,10 @@
 	* [Cherry Pickup](https://leetcode.com/problems/cherry-pickup/solutions/1912865/c-detailed-explanation-clear-intuitions-memoization-dp-good-question/?orderBy=most_votes)
 
 
+	* Count f\[i:j\] can be simplified as count f\[0:j] - f\[0:i]
+	* Count range can be simplified as substraction from prefixes
+	* Prefix Sum
+	* [Count Pairs With XOR in a Range](https://leetcode.com/problems/count-pairs-with-xor-in-a-range/)
+
 
 ![[Pasted image 20230325113448.png]]
