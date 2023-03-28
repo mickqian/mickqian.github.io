@@ -382,3 +382,34 @@ https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patte
 
 
 ## Game(of thrones)
+
+Most straighforward method: enumerate each possible move on each player
+```c++
+bool winnerSquareGame(int n) {
+        will =vector<int>(n + 1, -1);
+        if (will[n] != -1) {
+            return will[n];
+        }
+
+        bool win = false;
+        int maxSF = findMaxSquareFoot(n);
+        if (maxSF * maxSF == n) {
+            win = true;
+        } else {
+            for (int i = 1; i <= maxSF; i++) {
+                int nextMove = i * i;
+                if (!winnerSquareGame(n - nextMove)) {
+                    // Bob will loose
+                    win = true;
+                    break;
+                }
+            }
+        }
+        will[n] = win ? 1: 0;
+        return win;
+}
+
+int findMaxSquareFoot(int n) {
+    return ::floor(::sqrt(n));
+}
+```
