@@ -242,3 +242,9 @@ Can be used to solve questions like
 	* Increasing Queue, pop and calc
 	* Attribute: Later-Smaller value are useless, they can't make rectangle larger than prev
 	* 
+
+*  
+	* Min Length of Subarray with Sum at Least K
+	* Keep index of increasing prefix Sum
+	* Attribute:  In an increasing deque, prev-large indexes are discarded, which is useless in this case, since larger prefix sum will bring smaller subarray sum
+	* 
