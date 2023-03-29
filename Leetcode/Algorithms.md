@@ -413,3 +413,7 @@ int findMaxSquareFoot(int n) {
     return ::floor(::sqrt(n));
 }
 ```
+
+## Random Pick
+Reduce the probability by random-pick several times is acceptable
+One-time miss being p, 5 time miss will be p^5, which will be very small
