@@ -61,3 +61,8 @@ So that the neighbor with lower cost will be visited first, and the cost of firs
 	```
 	* [Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/solutions/1660944/c-dfs-with-illustration/?orderBy=most_votes)
 
+
+* 
+	* BFS on a node with more than one ancestors
+	* BFS: Only push the node with indegree as 0, because the node with indegree > 0 can wait until it becomes 0(can take the max), and it should wait(avoid re-visit the following path)
+	* [Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/solutions/1200575/topological-sort-vs-dfs-vs-dijkstra/?orderBy=most_votes)
