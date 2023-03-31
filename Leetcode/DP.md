@@ -195,6 +195,11 @@ recursive iterative loop, moving forward at each index based on prev results
 
 
 * 
+	* \[first i-hats]\[assigned people] = ways
+	* [Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)
+
+
+* 
 	*  Optimize, by compressing the common state(length, value, etc) and **try on that possible state**
 	* [Selling Pieces of Wood](https://leetcode.com/problems/selling-pieces-of-wood/description/)
 
