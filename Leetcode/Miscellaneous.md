@@ -38,6 +38,28 @@
 * Hard
 	* Finding the K-th biggest sum from an array
 	* Starts with maximum value, get the next-smaller values by (1). removing/adding the smallest positive/biggest negative value (2). removing previous selecition, move to next s/b value
+	```cpp
+	sort(begin(nums), end(nums), [](int a, int b){ return abs(a) < abs(b); });
+    priority_queue<pair<long long, int>> pq;
+    // 01111
+    // 00111 \-\> 00011 + 001011
+    // 10111
+    pq.push({total_sum \- abs(nums[0]), 0});
+    while(--k) {
+        // each sum will be starting with 01 pattern, generate 00 and 10
+        auto [sum, i] = pq.top(); pq.pop();
+        if (i + 1 < nums.size()) {
+            // for xxxxxx0111: 1 for choosing, 0 for abandoning
+            // abandoning next, move i forward
+            // xxxxxx0011
+            pq.push({sum - abs(nums[i + 1]), i + 1});
+            // abandoning next, applying first, move i forward
+            // xxxxxx1011
+            pq.push({sum + abs(nums[i]) - abs(nums[i + 1]), i + 1});
+        }
+        res = sum;
+    }
+	```
 	* [Find the K-Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array/solutions/2457384/priority-queue-c/?orderBy=most_votes)
 
 * Hard
@@ -198,6 +220,7 @@
 	* Count range can be simplified as substraction from prefixes
 	* Prefix Sum
 	* [Count Pairs With XOR in a Range](https://leetcode.com/problems/count-pairs-with-xor-in-a-range/)
+
 
 
 ![[Pasted image 20230325113448.png]]

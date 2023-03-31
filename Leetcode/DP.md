@@ -211,6 +211,13 @@ recursive iterative loop, moving forward at each index based on prev results
 	* [Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/)
 
 
+* Classic
+	* Merge intervals
+	* Minimum Cost to Merge Stones: $[i][j] = min([i][mid] + [mid + 1][j]) + range\_sum[i][j]$. The range sum is for, after merge sub-range, the number is replaced by sub_range
+	* Burst Ballon: 
+	* Zuma: 
+
+
 
 
 

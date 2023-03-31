@@ -131,10 +131,6 @@ for (int k = 0; k < n; k++)
 ```
 
 
-### Traveling Salesman
-
- directed graph shortest path of Hamilton path
-
 
 
 

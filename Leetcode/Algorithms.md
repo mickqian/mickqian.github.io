@@ -384,13 +384,15 @@ https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patte
 
 
 ## Game(of thrones)
-
 Most straighforward method: enumerate each possible move on each player
 
+### Combinatory Game Theory
 First you need understand the N position and P postion from Combinatorial Game Theory.  
 P-Position is previous player win, N-Position is next player (current player) win.  
-A position is a N-Position as long as one of its following positions is P-Position, i.e. if current player take this move, in next turn he as the previous player is guaranteed to win.  
-A position is a P-Position only if all its following positions are N-Position, i.e. no matter how current player move, the previous player is guaranteed to win in next turn.
+
+A position is a N-Position as long as **one of** its following positions is P-Position, i.e. if current player take this move, in next turn he as the previous player is guaranteed to win.  
+
+A position is a P-Position only if **all** its following positions are N-Position, i.e. no matter how current player move, the previous player is guaranteed to win in next turn.
 ```c++
 bool winnerSquareGame(int n) {
         will =vector<int>(n + 1, -1);
@@ -427,3 +429,14 @@ One-time miss being p, 5 time miss will be p^5, which will be very small
 
 
 ## Tarjan's Algorithm
+
+## Traveling Salesman
+
+ directed graph shortest path of Hamilton path
+ each node is visited once
+
+* 
+	*  
+	* precalculate the overlapped length as weight of the path
+	* I wonder if a = "abc",  b = "xyabc", then ab = 3, then the dfs won't work. But that's wrong, since in this case, the ba sequence will yield the correct answer
+	* [Find The Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/solutions/194932/travelling-salesman-problem/?orderBy=most_votes)
