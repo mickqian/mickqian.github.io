@@ -62,7 +62,7 @@ long long countSubarrays(vector<int>& nums, long long k) {
 }
 ```
 
-## Merge Sorts
+## Merge Sort
 
 merge process naturally fetch every two items from two sorted sub-arrays, and **each** item get to combined each item from the right at least once.
 
@@ -80,6 +80,7 @@ while (i < mid && j < n){
 }
 ```
 
+Utilize the attribute that, in a `merge(lo, mid, hi)`, the lo:mid and mid:hi is already **ordered**.
 
 ## Boyer-Morre majority Vote
 for elements appear at least n / k times, maintain k candidates:
