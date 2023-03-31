@@ -81,6 +81,7 @@ while (i < mid && j < n){
 ```
 
 Utilize the attribute that, in a `merge(lo, mid, hi)`, the lo:mid and mid:hi is already **ordered**.
+Each element gets to compare with to-the-right number's range at least one time
 
 ## Boyer-Morre majority Vote
 for elements appear at least n / k times, maintain k candidates:
