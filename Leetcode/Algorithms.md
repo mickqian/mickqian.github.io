@@ -386,6 +386,11 @@ https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patte
 ## Game(of thrones)
 
 Most straighforward method: enumerate each possible move on each player
+
+First you need understand the N position and P postion from Combinatorial Game Theory.  
+P-Position is previous player win, N-Position is next player (current player) win.  
+A position is a N-Position as long as one of its following positions is P-Position, i.e. if current player take this move, in next turn he as the previous player is guaranteed to win.  
+A position is a P-Position only if all its following positions are N-Position, i.e. no matter how current player move, the previous player is guaranteed to win in next turn.
 ```c++
 bool winnerSquareGame(int n) {
         will =vector<int>(n + 1, -1);
