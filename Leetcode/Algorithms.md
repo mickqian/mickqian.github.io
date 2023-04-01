@@ -429,6 +429,27 @@ One-time miss being p, 5 time miss will be p^5, which will be very small
 
 
 ## Tarjan's Algorithm
+Find the cycle(with edges) of a given graph
+```cpp
+ int time = 1;
+ void dfs(int curr, int prev) {
+		// disc: the first time curr is visited
+		// low: the first time cycle of curr is visited
+        disc[curr] = low[curr] = time++;
+        for (int next : adj[curr]) {
+            if (disc[next] == 0) {
+	            // unvisited next
+                dfs(next, curr);
+                low[curr] = min(low[curr], low[next]);
+            } else if (next != prev)
+                low[curr] = min(low[curr], disc[next]);
+            if (low[next] > disc[curr]) {
+	            // next has been visited, with low[next] marked as length of that  cycle
+                ans.push_back({curr, next});
+            }
+        }
+    }
+```
 
 ## Traveling Salesman
 
