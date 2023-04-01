@@ -461,3 +461,84 @@ Find the cycle(with edges) of a given graph
 	* precalculate the overlapped length as weight of the path
 	* I wonder if a = "abc",  b = "xyabc", then ab = 3, then the dfs won't work. But that's wrong, since in this case, the ba sequence will yield the correct answer
 	* [Find The Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/solutions/194932/travelling-salesman-problem/?orderBy=most_votes)
+
+## Topological sort
+```c++
+vector<int> top_sort(int k, vector<vector<int>> &conditions) {
+
+        vector<int> order(k, -1);
+
+        vector<int> sorted;
+
+        vector<int> q;
+
+        vector<vector<int>> adj(k);
+
+        vector<int> in(k);
+
+        for (auto &condition: conditions) {
+
+            adj[condition[0] - 1].push_back(condition[1] - 1);
+
+            in[condition[1] - 1]++;
+
+        }
+
+        for (auto i = 0; i < k; i++) {
+
+            if (in[i] == 0) {
+
+                q.push_back(i);
+
+            }
+
+        }
+
+  
+
+        while (!q.empty()) {
+
+            // q: current unvisited list
+
+             vector<int> q1;
+
+             for (auto i: q) {
+
+                 sorted.push_back(i + 1);
+
+                 for (auto& j: adj[i])
+
+                     if (--in[j] == 0)
+
+                         q1.push_back(j);
+
+             }
+
+             swap(q, q1);
+
+         }
+
+         if (sorted.size() != k)
+
+             return {};
+
+  
+
+        // vector<int> location(k);
+
+        // for (int i = 0; i < k; i++) {
+
+        //     int o = sorted[i];
+
+        //     location[o] = i + 1;
+
+        // }
+
+  
+
+        // location[order] = number
+
+        return sorted;
+
+    }
+```
