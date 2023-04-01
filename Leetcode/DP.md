@@ -220,7 +220,10 @@ recursive iterative loop, moving forward at each index based on prev results
 	* Merge intervals
 	* Minimum Cost to Merge Stones: $[i][j] = min([i][mid] + [mid + 1][j]) + range\_sum[i][j]$. The range sum is for, after merge sub-range, the number is replaced by sub_range
 	* Burst Ballon:  Iterate on the **last** ballon to pop
-	* Zuma: 
+	* Zuma:  More like a dfs search with memo, not strictly dp?
+	* String Compression: 
+		1.  Try to make the first i character the same, keep the max_occurence chars as the group, \[first i character\]\[move\] = min length
+		2. \[first i chars\]\[prev char\]\[prev char cnt\]\[remain moves\] = min len
 
 
 
