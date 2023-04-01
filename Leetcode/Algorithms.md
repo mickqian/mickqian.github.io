@@ -109,16 +109,16 @@ Generate the table
             kmp[i] = ++j;
         else if (j > 0) {
             j = kmp[j - 1];
-            // recursive step back, to get the max matching len
+            // recursive step back, to get the max matching len with the prefix
             --i;
         }
     }
 ```
-use the table as a tool, to determine if a string contains a pattern
+use the table as a tool, to determine if an another string contains a pattern
 ```c++
-      while (n_ep > 0 && ch != s[n_ep]){
+     while (n_ep > 0 && ch != s[i]){
 	     // calculate the max matching len of the character
-         n_ep = kmp[n_ep - 1];
+         common_prefix_len = kmp[i - 1];
 	 }
 ```
 
