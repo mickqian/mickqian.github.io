@@ -222,5 +222,12 @@
 	* [Count Pairs With XOR in a Range](https://leetcode.com/problems/count-pairs-with-xor-in-a-range/)
 
 
+	* Count f\[i:j\] can be simplified as count f\[0:j] - f\[0:i]
+	* \[i workers\]\[taken jobs\] = \[i - workers\]\[submask of taken jobs\] + \[sum of remaining jobs\]
+	* \[first i person\]\[taken jobs\], with cost\[mask\] prepared as cost of given jobs, **and assign each person a submask of jobs**
+	* I use \[All person's time in vector \]\[taken jobs\], which is expensive to implement a memo, and got TLE
+	* [Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/solutions/1010451/python-2-solutions-o-2-n-n-log-m-and-o-3-n-k-explained/?orderBy=most_votes)
+
+
 
 ![[Pasted image 20230325113448.png]]
