@@ -224,6 +224,7 @@ recursive iterative loop, moving forward at each index based on prev results
 	* String Compression: 
 		1.  Try to make the first i character the same, keep the max_occurence chars as the group, \[first i character\]\[move\] = min length
 		2. \[first i chars\]\[prev char\]\[prev char cnt\]\[remain moves\] = min len
+	* Strange Printer: 
 
 
 
