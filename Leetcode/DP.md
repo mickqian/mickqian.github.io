@@ -238,28 +238,6 @@ recursive iterative loop, moving forward at each index based on prev results
 	* Try combinations of items on each boxes, box-size to numbers mask
 	* [distribute repeated numbers](https://leetcode.com/problems/distribute-repeating-integers/solutions/935522/step-by-step-optimization-more-than-10-methods/?orderBy=most_votes)
 
-
-*  Classic
-	* BitMasking to perform DFS
-	* \[courses taken\]\[courses last semester\] = minimum days
-		the courses of last semester should be stored, since it affects the courses available next semester.
-		```cpp
-		  for(int i = 0; i < (1 << n); i += 1){
-            int ex = 0;
-            // get the possible next semesters courses
-            for(int j = 0; j < n; j += 1) if((i & pre[j]) == pre[j]) ex |= 1 << j;
-            // get the unlearnt next semester courses
-            ex &= ~i;
-            // next semester, learn courses from ex
-            for(int s = ex; s; s = (s - 1) & ex) if(__builtin_popcount(s) <= k){
-                dp[i | s] = min(dp[i | s], dp[i] + 1);
-            }
-        }
-		```
-
-
-	* [Parallel Coursues2](https://leetcode.com/problems/parallel-courses-ii/)
-
 * 
 	* Recursively choose each item, top-down
 	* iterate over each choice, recursive call
