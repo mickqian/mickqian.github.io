@@ -98,7 +98,7 @@ for (auto& num : nums){
 ```
 
 
-## KMP aka  Prefix Suffix Subarray
+## KMP aka Prefix Suffix Subarray
 Generate the table
 
 ```c++
