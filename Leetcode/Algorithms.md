@@ -171,7 +171,7 @@ ReservoirSample(S[1..n], R[1..k])
 
 
 ## Binomial Coefficients
- Stars and Bars: placing m bars in n numbers = choosing n locations from m = number of partition array of n into m **subarray**
+Stars and Bars: placing m bars in n numbers = choosing n locations from m = number of partition array of n into m **subarray**
 
 Forming an array of size n, with m consecutive unique numbers = placing m bars as transition in n numbers
 
