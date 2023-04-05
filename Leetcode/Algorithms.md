@@ -450,6 +450,7 @@ Find the cycle(with edges) of a given graph
         }
     }
 ```
+
 ### Appendix: Find Cycles
 ```cpp
 int bfs(int n,vector<int> adj[]){
@@ -497,79 +498,38 @@ int bfs(int n,vector<int> adj[]){
 ## Topological sort
 ```c++
 vector<int> top_sort(int k, vector<vector<int>> &conditions) {
-
         vector<int> order(k, -1);
-
         vector<int> sorted;
-
         vector<int> q;
-
         vector<vector<int>> adj(k);
-
         vector<int> in(k);
-
         for (auto &condition: conditions) {
-
             adj[condition[0] - 1].push_back(condition[1] - 1);
-
             in[condition[1] - 1]++;
-
         }
 
         for (auto i = 0; i < k; i++) {
-
             if (in[i] == 0) {
-
                 q.push_back(i);
-
             }
-
         }
 
   
 
         while (!q.empty()) {
-
             // q: current unvisited list
-
              vector<int> q1;
-
              for (auto i: q) {
-
                  sorted.push_back(i + 1);
-
                  for (auto& j: adj[i])
-
                      if (--in[j] == 0)
-
                          q1.push_back(j);
-
              }
-
              swap(q, q1);
-
          }
 
          if (sorted.size() != k)
-
              return {};
-
-  
-
-        // vector<int> location(k);
-
-        // for (int i = 0; i < k; i++) {
-
-        //     int o = sorted[i];
-
-        //     location[o] = i + 1;
-
-        // }
-
-  
-
-        // location[order] = number
-
         return sorted;
 
     }
