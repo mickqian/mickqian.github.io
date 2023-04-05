@@ -5,23 +5,23 @@
 ### Fenwick tree
 
 ```c++
-struct BIT {
+struct Fenwick {
     vector<int> arr;
 
     int N;
 
-    BIT(int n) {
+    Fenwick(int n) {
         N = n + 1;
         arr = vector<int>(N, 0);
     }
 
-    void add(int i) {
-        i += 1;
-        while (i < N) {
-            arr[i] += 1;
-            i += i & (-i);
-        }
-    }
+    void add(int i, int diff){  
+		i += 1;  
+		while (i < N) {  
+			arr[i] += diff;  
+			i += i & (-i);  
+		}  
+	}
 
     int query(int i) {
         int sum = 0;
@@ -76,6 +76,47 @@ class SegmentTree {
   }
 };
 ```
+
+#### Lazy Segment TRee
+```cpp
+int tree[400000] = {}, lazy[400000] = {};  
+  
+int build(vector<int> &arr, int n, int a, int b){  
+	if(a == b)  
+		return tree[n] = arr[a];  
+	return tree[n] = build(arr, 2 * n, a, (a + b) / 2) + build(arr, 2 * n + 1, (a + b) / 2 + 1, b);  
+}  
+
+// n : update cnt
+// a, b: subtree range
+// i, j : range to update
+int update_tree(int n, int a, int b, int i, int j){  
+	if(b < i || a > j) // outside  
+		return lazy[n] ? b - a + 1 - tree[n] : tree[n];  
+	if(lazy[n]) {  
+		tree[n] = b - a + 1 - tree[n];  
+		if(a != b) {  
+			lazy[n * 2] = !lazy[n * 2];  
+			lazy[n * 2 + 1] = !lazy[n * 2 + 1];  
+		}  
+	lazy[n] = 0;  
+	}
+	if(a >= i && b <= j) { // inside  
+		if(a != b) {  
+			lazy[n * 2] = !lazy[n * 2];  
+			lazy[n * 2 + 1] = !lazy[n * 2 + 1];  
+		}  
+	return tree[n] = b - a + 1 - tree[n];  
+	}  
+	return tree[n] = update_tree(n * 2, a, (a + b) / 2, i, j) +  update_tree(n * 2 + 1, (a + b) / 2 + 1, b, i, j);  
+}  
+  
+build(n1, 1, 0, sz - 1);  
+update_tree(1, 0, sz - 1, q[1], q[2]);  
+sum += (long long) tree[1] * q[1];  
+
+```
+
 
 ### Trie
 
