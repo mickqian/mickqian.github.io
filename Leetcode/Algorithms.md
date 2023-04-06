@@ -478,8 +478,7 @@ int bfs(int n,vector<int> adj[]){
             return -1;
         else
             return ans;
-    }
-
+}
 ```
 
 
@@ -494,6 +493,8 @@ int bfs(int n,vector<int> adj[]){
 	* precalculate the overlapped length as weight of the path
 	* I wonder if a = "abc",  b = "xyabc", then ab = 3, then the dfs won't work. But that's wrong, since in this case, the ba sequence will yield the correct answer
 	* [Find The Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/solutions/194932/travelling-salesman-problem/?orderBy=most_votes)
+
+
 
 ## Topological sort
 ```c++
@@ -513,8 +514,6 @@ vector<int> top_sort(int k, vector<vector<int>> &conditions) {
                 q.push_back(i);
             }
         }
-
-  
 
         while (!q.empty()) {
             // q: current unvisited list
