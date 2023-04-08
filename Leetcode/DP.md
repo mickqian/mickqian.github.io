@@ -226,6 +226,9 @@ recursive iterative loop, moving forward at each index based on prev results
 		1.  Try to make the first i character the same, keep the max_occurence chars as the group, \[first i character\]\[move\] = min length
 		2. \[first i chars\]\[prev char\]\[prev char cnt\]\[remain moves\] = min len
 	* Strange Printer: 
+	* Remove boxes: try to merge to the left, with an additional state with extra boxes the same as r, $[l][r][k\ boxes\ same\ as\ r] = max([l + 1][mid - 1][0] + [mid][r][k]$, with b\[mid\] == b\[l\]:
+		* l+1 | mid-1 | 0: merge these boxes, with 0 boxes same as l + 1, and leave the l box to merge with mid:r
+		* mid | r | k + 1: since there are already **k** boxes on the right the same with b[r], so the current mid gives it a one more, making it k + 1. Use *mid*, not *mid + 1*, since the *mid* box will be needed to identify the same boxes to the b\[l]
 
 
 
