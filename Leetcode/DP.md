@@ -61,11 +61,9 @@ recursive iterative loop, moving forward at each index based on prev results
 	* storing the cnt of different songs is enough, for us to calculate the plans for next song, as the next-song choice is only constrained by that.
 	* [Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/description/)
 
-
 * 
-		*  Optimize, by compressing the common state(length, value, etc) and **try on that possible state**
+	* Optimize, by compressing the common state(length, value, etc) and **try on that possible state**
 	* [Selling Pieces of Wood](https://leetcode.com/problems/selling-pieces-of-wood/description/)
-
 
 * 
 	*  $dp[n] = min(max(A[i], B[i])$, A\[i\] increase, B\[i\] decrease
