@@ -19,10 +19,9 @@ Fix choice on each possibility on the first one, Binary Search (T - P(A)) in P(B
 
 * 
 	*  Maximum Subarray, find the subarray with the largest sum, and return its sum
-	*  Just like sliding window, but in this case, the sum of the subarray is calculated. So when current subarray's sum is negative, instead of moving the start pointer forward until invalid, the remaining window is always empty, so we should set the start pointer to current end pointer
+	*  Just like sliding window, but in this case, the sum of the subarray is calculated. So when current subarray's sum is negative, instead of moving the start pointer forward until invalid(positive), the remaining window(start:mid) is always positive, so mid:end is always negative, so we should set the start pointer to current end pointer
 	*  Applies to all kinds of subarray, counting the max subarray value(could be occurence)
-
-[Maximum subarray problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
+	* [Maximum subarray problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
 
 ```c++
 int max_subarray(vector<int>& numbers){
@@ -43,11 +42,9 @@ To find range that meets requirement
 Valid, when :
 1. after a valid window, the end pointer needs to move forward to accept new elements
 2. when the end pointer moves forward, the start pointer has to move forward to make the window valid again.
-
 *  
 	* Find minimum diffs
 	* Calculate the sum, store map\<count, set\<sum\>\> for 2 parts, iterate num_cnt on one part of the half
-	* [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/description/)
 
 ```cpp
 long long countSubarrays(vector<int>& nums, long long k) {
@@ -69,7 +66,6 @@ merge process naturally fetch every two items from two sorted sub-arrays, and **
 ```c++
 int i = 0, mid = ( i + n ) / 2, j = mid;
 
-
 while (i < mid && j < n){
 		// each i in 0~mid have at least one combination to mid~n - 1
 	if (nums[i++] < nums[j++]){
@@ -80,21 +76,19 @@ while (i < mid && j < n){
 }
 ```
 
-Utilize the attribute that, in a `merge(lo, mid, hi)`, the lo:mid and mid:hi is already **ordered**.
+Utilize the attribute that, in a `merge(lo, mid, hi)`, the lo:mid-1 and mid:hi is already **ordered**.
 Each element gets to compare with to-the-right number's range at least one time
 
 ## Boyer-Morre majority Vote
 for elements appear at least n / k times, maintain k candidates:
 ```c++
 for (auto& num : nums){
-	for (auto& [can,cnt]: candidates){
-		if (cnt == 0){
+	for (auto& [can, cnt]: candidates){
+		if (--cnt == 0){
 			can = num, cnt = 0;
 		}
 	}
 }
-
-// check if the candidate appears at leask k times
 ```
 
 

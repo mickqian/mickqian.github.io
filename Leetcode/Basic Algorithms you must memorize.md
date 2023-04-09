@@ -32,28 +32,6 @@ Can be used to solve questions like
 * next index with bigger value: after removing smaller value in the end, the new value is the next-bigger value of the last value in queue
 * LIS: the queue maintains the items of increasing items, in order
 
-### Parametric Search
-
-```python
-class Solution:
-    def splitArray(self, nums: List[int], m: int) -> int:
-        lo, hi = max(nums), sum(nums)
-        while lo < hi:
-            mid = (lo+hi)//2
-            tot, cnt = 0, 1
-            for num in nums:
-                if tot+num<=mid: 
-                    tot += num
-                else:
-                    tot = num
-                    cnt += 1
-            if cnt>m: lo = mid+1
-            else: hi = mid
-```
-
-
-
-
 
 ### A star(Heuristic)
 
@@ -181,7 +159,6 @@ def find_lcsubstr(s1, s2):
      {
          int n;
          vector<int> dp(n, INT_MAX);
-     
          int pos=0;    // 记录dp当前最后一位的下标
          dp[0]=nums[0];
          for(int i=1; i<n; i++)
@@ -191,14 +168,11 @@ def find_lcsubstr(s1, s2):
                 dp[++pos]=nums[i];
             else
                 // 当前值更小，替换子序列串
-        dp[lower_bound(dp,dp+pos+1,nums[i])-dp]=nums[i];
+		        dp[lower_bound(dp,dp+pos+1,nums[i])-dp]=nums[i];
          }
          return pos;
      }```
 
-
-
-### KMP
 
 
 ### Divisors

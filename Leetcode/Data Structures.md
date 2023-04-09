@@ -77,7 +77,7 @@ class SegmentTree {
 };
 ```
 
-#### Lazy Segment TRee
+#### Lazy Segment Tree
 ```cpp
 int tree[400000] = {}, lazy[400000] = {};  
   
@@ -116,6 +116,10 @@ update_tree(1, 0, sz - 1, q[1], q[2]);
 sum += (long long) tree[1] * q[1];  
 
 ```
+
+MAXBIT?
+https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/solutions/1390159/c-python-same-with-longest-increasing-subsequence-problem-clean-concise/?orderBy=most_votes
+
 
 
 ### Trie
@@ -186,9 +190,6 @@ DS can be used to build connectivity of partial nodes.
 Just think of it as a way to **query indepedent group nodes and size(via voting)**
 
 
-MAXBIT?
-https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/solutions/1390159/c-python-same-with-longest-increasing-subsequence-problem-clean-concise/?orderBy=most_votes
-
 
 
 ## Bit Trie
@@ -197,7 +198,6 @@ effectively judge the:
 2. difference of different digits,
 with the new value and previously inserted values.
 Which shows the usage of Trie: Situation of first different item on the **prefix** sequence
-
 
 ```cpp
 struct Trie {
@@ -221,7 +221,7 @@ struct Trie {
 ```
 
 ```cpp
-  int countPairs(vector<int>& A, int low, int high) {
+	int countPairs(vector<int>& A, int low, int high) {
         return test(A, high + 1) - test(A, low);
     }
 
