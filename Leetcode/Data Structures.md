@@ -43,7 +43,7 @@ class SegmentTree {
  public:
   int n;
   vector<int> tree;
-  MaxSegmentTree(int n_) : n(n_) {
+  SegmentTree(int n_) : n(n_) {
     int size = (int)(ceil(log2(n)));
     size = (2 * pow(2, size)) - 1;
     tree = vector<int>(size);
@@ -114,7 +114,6 @@ int update_tree(int n, int a, int b, int i, int j){
 build(n1, 1, 0, sz - 1);  
 update_tree(1, 0, sz - 1, q[1], q[2]);  
 sum += (long long) tree[1] * q[1];  
-
 ```
 
 MAXBIT?
