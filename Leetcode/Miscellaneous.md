@@ -15,7 +15,6 @@
 	* There are two patterns which meets the requirements: (1). two circled person, and two arms. (2). an entire circle
 	* [Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/solutions/1660944/c-dfs-with-illustration/?orderBy=most_votes)
 
-
 * 
 	* Find the required pattern for the result
 	* [Transform to Chessborad](https://leetcode.com/problems/transform-to-chessboard/solutions/114847/c-java-python-solution-with-explanation/)
@@ -79,30 +78,21 @@
 	* Again, finding patterns help. The special case can be formed by 4 normal rectangular, and 1 rectangular in the middle
 	* [Tiling a Rectangle with the Fewest Squares](https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/solutions/414260/8ms-memorized-backtrack-solution-without-special-case/?orderBy=most_votes)
 
-
 * 
 	* Find Number of different GCDs
 	* A number N can be a GCD, if and only if the gcd of all numbers divisible by N, is N itself. If g(N) = N already, it will holds later
 	* [Number of Different Subsequences GCDs](https://leetcode.com/problems/number-of-different-subsequences-gcds/description/)
 
-
 * 
 	* Reverse pairs
-	* A number N can be a GCD, if and only if the gcd of all numbers divisible by N, is N itself. If g(N) = N already, it will holds later
-	* [Number of Pairs Satisfying Inequality](https://leetcode.com/problems/number-of-pairs-satisfying-inequality/solutions/2646606/python-reverse-pairs/?orderBy=most_votes)
-
-
+	* 
+	* 
 
 * 
 	* If exists path with max edge length
 	* If exists, the paths consists of shorter edge <-> exist shorter edge make the path <-> exist shorter edge connects the point <-> All shorter edge connects the point
-	* [https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/submissions/917168157/](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/submissions/917168157/)
+	* [Checking Existence of Edge Length Limited Paths](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/description/)
 
-
-* 
-	* If exists path with max edge length
-	* If exists, the paths consists of shorter edge <-> exist shorter edge make the path <-> exist shorter edge connects the point <-> All shorter edge connects the point
-	* [https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/submissions/917168157/](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/submissions/917168157/)
 
 * Classic
 	* Two-approach
