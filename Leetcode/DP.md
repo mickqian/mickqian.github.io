@@ -92,12 +92,6 @@ recursive iterative loop, moving forward at each index based on prev results
 ## Memoization 
 
 
-* Classic
-	* If possible to fit numbers into boxes
-	* Try combinations of items on each boxes, box-size to numbers mask
-	* [distribute repeated numbers](https://leetcode.com/problems/distribute-repeating-integers/solutions/935522/step-by-step-optimization-more-than-10-methods/?orderBy=most_votes)
-
-
 *  Classic
 	* BitMasking to perform DFS
 	* \[courses taken\]\[courses last semester\] = minimum days
