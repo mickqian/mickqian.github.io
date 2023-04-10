@@ -107,7 +107,7 @@
 * 
 	* Minimum number to pick up, with sum >= k
 	* Greedy, calculate max sum with i numbers picking up, always picking up the maximum number within reach
-	* [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/submissions/917314858/)
+	* [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops)
 
 
 * 
@@ -211,8 +211,6 @@
 	* Prefix Sum
 	* [Count Pairs With XOR in a Range](https://leetcode.com/problems/count-pairs-with-xor-in-a-range/)
 
-
-	* Count f\[i:j\] can be simplified as count f\[0:j] - f\[0:i]
 	* \[i workers\]\[taken jobs\] = \[i - workers\]\[submask of taken jobs\] + \[sum of remaining jobs\]
 	* \[first i person\]\[taken jobs\], with cost\[mask\] prepared as cost of given jobs, **and assign each person a submask of jobs**
 	* I use \[All person's time in vector \]\[taken jobs\], which is expensive to implement a memo, and got TLE
