@@ -318,7 +318,6 @@ DFS for once, use information from previous visit, to simulate differnt roots
 	*  ans\[i\] = max(subtree sum, parent and its other subtree sum) - v\[i\]
 	* [Difference Between Maximum and Minimum Price Sum](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/solutions/3052596/re-rooting-o-n-explained/?orderBy=most_votes)
 
-
 * 
 	*  Possible roots, given at least k of the parent-children query is correct( what the heck is this problem? )
 	*  Follow the steps, (1). assume 0 as the root, (2). calculate correct guess (3). DFS. While visiting a new child, correct guess changes atmost 1, updating corrent gusses and update final answer

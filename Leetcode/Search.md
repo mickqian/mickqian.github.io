@@ -59,7 +59,7 @@ So that the neighbor with lower cost will be visited first, and the cost of firs
             if (!found) step /= 2;
         }
 	```
-	* [Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/solutions/1660944/c-dfs-with-illustration/?orderBy=most_votes)
+	* [Best Position for a Service Centre](https://leetcode.com/problems/best-position-for-a-service-centre/description/)
 
 
 * 

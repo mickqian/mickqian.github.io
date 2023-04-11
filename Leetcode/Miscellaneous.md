@@ -105,12 +105,6 @@
 	* [Stamping The Grid](https://leetcode.com/problems/stamping-the-grid/description/)
 
 * 
-	* Minimum number to pick up, with sum >= k
-	* Greedy, calculate max sum with i numbers picking up, always picking up the maximum number within reach
-	* [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops)
-
-
-* 
 	* Finding min(A[i], A[j]) * ( j - i ) - sum(A[i:j])
 	* sum(h\[front\] - h\[middle\]), when h[i] > h[front],  a new boundary starts, since the prev boundaray(h[front]) is lower
 	* [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
@@ -128,7 +122,6 @@
 	* Strategy:
 	* 
 
-
 * 
 	* 
 	* 
@@ -137,7 +130,6 @@
 	* Find the least starting value
 	* The **time** we have the least money is, aftering finishing the last lossing-money cost, but not gaining the cashback yet (1). make sure we get through before, needs prev_loss + this_cost (2). make sure get the money to start next transaction
 	* [Minimum Money Required Before Transactions](https://leetcode.com/problems/minimum-money-required-before-transactions/solutions/2588034/java-c-python-easy-and-coincise/?orderBy=most_votes)
-
 
 * 
 	* find path
@@ -157,7 +149,6 @@
 	* Very intuitive: a battery can no be taken more than answer hours 
 	* [Maximum Running Time of N Computers](https://leetcode.com/problems/maximum-running-time-of-n-computers/solutions/1693347/heap-vs-binary-search/?orderBy=most_votes )
 
-
 * 
 	* Normalize, means indexing different numbers with unique id
 	* You can move a char to anywhere, if you can swap adjacent chars in a string
@@ -174,27 +165,21 @@
 	* Maybe only focus on one part, the remaining parts will be handled
 	* [Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/description/)
 
-
 * 
 	* Shortest interval convering query points
 	* Regular solution: sort query and intervals, while iterating queries, update all available(covering) intervals( by pushing intervals which start <= q, and popping those end <= q), retrive the smallest. Like a sliding window
 	* Intuitive solution: check each interval from short to long, check if it covers some queries
 	* [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/solutions/?orderBy=most_votes)
 
-
-
 * 
 	* Sequence ending with number
 	* dp\[ending character\] = sum(all dp) + new sequence with single new character
 	* [Number of Unique Good Subsequences](https://leetcode.com/problems/number-of-unique-good-subsequences/)
 
-
 * 
 	* Convex Function 
 	* Binary Search for the bottom
 	* [Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/solutions/2734091/dp-vs-w-median-vs-binary-search/?orderBy=most_votes)
-
-
 
 	* Count digits
 	* Set\<prefix integers\>, use permutation to calculate possibilities with prefix given
