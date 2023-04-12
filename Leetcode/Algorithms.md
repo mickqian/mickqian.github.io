@@ -181,11 +181,6 @@ Forming an array of size n, with m consecutive unique numbers = placing m bars a
 
 ## Permutation
 
-* 
-	*  Permutation of index
-	*  Recusive with bitmask, finding the next ununsed index
-	* [Minimum XOR SUM Of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/solutions/1238641/bit-mask/?orderBy=most_votes)
-
 
 `std::next_permutation`
 
