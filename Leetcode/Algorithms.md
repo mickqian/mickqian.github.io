@@ -163,6 +163,25 @@ ReservoirSample(S[1..n], R[1..k])
 ```
 
 
+## Sieve
+
+```c++
+for (int i = 0; i <= mx; i++) sieve[i] = i;
+	for (int i = 2; i <= mx; i++) {
+        if (sieve[i] != i) {
+             continue
+        }
+        for (int j = i * i; j <= mx; j += i) {
+            if (sieve[j] > i) {
+                sieve[j] = i;
+            }
+        }
+    }
+}
+```
+
+
+
 
 ## Binomial Coefficients
 Stars and Bars: placing m bars in n numbers = choosing n locations from m = number of partition array of n into m **subarray**
