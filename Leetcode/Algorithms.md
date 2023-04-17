@@ -540,3 +540,6 @@ vector<int> top_sort(int k, vector<vector<int>> &conditions) {
 
     }
 ```
+
+
+## Manacher's Algorithm
