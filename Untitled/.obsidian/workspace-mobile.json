@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "1c0545e4c6bf3ef7",
+    "id": "ec04290f531b0f56",
     "type": "split",
     "children": [
       {
-        "id": "9f86e259ee549cc7",
+        "id": "9ebdd85952fa1835",
         "type": "tabs",
         "children": [
           {
-            "id": "f186ed020c371cb9",
+            "id": "22ce605d513dcb16",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,11 +21,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "33e4fa271caf3ea1",
+    "id": "f6c86d5b2d0b6ce7",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "89e47140b724b987",
+        "id": "31d2ff86cf23191d",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -39,7 +35,7 @@
         }
       },
       {
-        "id": "1293fd7ba2068a82",
+        "id": "45dd5eb8c8478405",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -54,7 +50,7 @@
         }
       },
       {
-        "id": "afd229c42937b759",
+        "id": "8e0cd62a6afe7c72",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -65,26 +61,26 @@
         }
       },
       {
-        "id": "1643a3f1f7074b50",
+        "id": "44d57941689063e1",
         "type": "leaf",
         "state": {
           "type": "starred",
           "state": {}
         }
       }
-    ]
+    ],
+    "currentTab": 0
   },
   "right": {
-    "id": "ccdabb22fe91384e",
+    "id": "2ec39d34c6a13e0a",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "650bbead135a8d53",
+        "id": "c65babf49994a9af",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Algorithms.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -96,25 +92,22 @@
         }
       },
       {
-        "id": "54ec71478e59b980",
+        "id": "bc5b931ad2851453",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Algorithms.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "6d07b471a0262756",
+        "id": "f6037096dbfcb1ee",
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Algorithms.md"
-          }
+          "state": {}
         }
       }
     ],
@@ -130,17 +123,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f186ed020c371cb9",
-  "lastOpenFiles": [
-    "DP.md",
-    "Search.md",
-    "Miscallenous.md",
-    "Algorithms.md",
-    "Data Structures.md",
-    "2023-03-05.md",
-    "Bit.md",
-    "Sequence.md",
-    "Basic Algorithms you must memorize.md",
-    "2023-03-02.md"
-  ]
+  "active": "22ce605d513dcb16",
+  "lastOpenFiles": []
 }

@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "1c0545e4c6bf3ef7",
+    "id": "585fed1ae33af18f",
     "type": "split",
     "children": [
       {
-        "id": "9f86e259ee549cc7",
+        "id": "0e91108f90461327",
         "type": "tabs",
         "children": [
           {
-            "id": "f186ed020c371cb9",
+            "id": "0ff64bcfb07c22bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms.md",
+                "file": "Why do you want to work at.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,11 +25,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "33e4fa271caf3ea1",
+    "id": "d6069089394a6459",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "89e47140b724b987",
+        "id": "a3d9b9156f7d2b74",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -39,7 +39,7 @@
         }
       },
       {
-        "id": "1293fd7ba2068a82",
+        "id": "0d0b7610c244bf80",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -54,7 +54,7 @@
         }
       },
       {
-        "id": "afd229c42937b759",
+        "id": "c75135516524290d",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -65,26 +65,27 @@
         }
       },
       {
-        "id": "1643a3f1f7074b50",
+        "id": "76b7f2cda81b3c41",
         "type": "leaf",
         "state": {
           "type": "starred",
           "state": {}
         }
       }
-    ]
+    ],
+    "currentTab": 0
   },
   "right": {
-    "id": "ccdabb22fe91384e",
+    "id": "56e8961252a2cb10",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "650bbead135a8d53",
+        "id": "0874c73cb310ed93",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Algorithms.md",
+            "file": "Why do you want to work at.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -96,24 +97,24 @@
         }
       },
       {
-        "id": "54ec71478e59b980",
+        "id": "80fc72293c107562",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Algorithms.md",
+            "file": "Why do you want to work at.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "6d07b471a0262756",
+        "id": "0dc62dd0c8f4c1ec",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "Algorithms.md"
+            "file": "Why do you want to work at.md"
           }
         }
       }
@@ -130,17 +131,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f186ed020c371cb9",
+  "active": "0ff64bcfb07c22bc",
   "lastOpenFiles": [
-    "DP.md",
-    "Search.md",
-    "Miscallenous.md",
-    "Algorithms.md",
-    "Data Structures.md",
-    "2023-03-05.md",
-    "Bit.md",
-    "Sequence.md",
-    "Basic Algorithms you must memorize.md",
-    "2023-03-02.md"
+    "Third-Person self-introduction.md",
+    "Skills.md",
+    "Role Numbers.md",
+    "Behavorial.md",
+    "咨询问题1.md",
+    "Why do you want to work at.md"
   ]
 }
