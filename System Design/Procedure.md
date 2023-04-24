@@ -4,5 +4,7 @@
 	* the amount of data the sytem should work with
 	* the traffic the system should handle, request/month
 2. draw a diagram on abstract design
-3. 
+	service layer
+	data storage layer
+1. 
 	
