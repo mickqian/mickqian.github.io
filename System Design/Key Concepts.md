@@ -50,6 +50,21 @@ techniques used to accelerate some specific querys/performance, including:
 
 
 ### Not Only SQL
+#### features
+partitions based on hash
+
+#### pros
+* scale easily 
+* write fast
+
+
+
+#### cons
+* query only on primary key
+* consistency
+
+
+
 * Not tabular relations
 * More flexible
 * Compromise consitency, in favor of availability and speed
