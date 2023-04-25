@@ -111,7 +111,7 @@ recursive iterative loop, moving forward at each index based on prev results
 		```
 
 
-	* [Parallel Coursues2](https://leetcode.com/problems/parallel-courses-ii/)
+	* [Parallel Courses2](https://leetcode.com/problems/parallel-courses-ii/)
 
 * 
 	* Recursively choose each item, top-down

@@ -161,7 +161,7 @@
 * 
 	* Minimum prefix\[A\[i\]\] +  B\[i\]
 	* Fixing the first i index, the answer is k(prefix\[i\] is also fixed) + B\[i\], so the minimum B should be selected last
-	* I nearly think of this solution, but skip that thought after taking the un-certainty of the prefix  into consider. However, if we only focused at last position, the prefix is always fix
+	* I almost think of this solution, but skipped that thought after taking the un-certainty of the prefix  into consider. However, if we only focused at last position, the prefix is always fix
 	* Maybe only focus on one part, the remaining parts will be handled
 	* [Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/description/)
 
