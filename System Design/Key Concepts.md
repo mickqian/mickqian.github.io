@@ -68,3 +68,13 @@ partitions based on hash
 * Not tabular relations
 * More flexible
 * Compromise consitency, in favor of availability and speed
+* Eventual but not linear consistency
+
+#### Pros
+* speed, availabilities
+
+
+#### Cons
+* lack of consistency
+* lack of ACID transactions
+* lack of standard Structued Query Language interface

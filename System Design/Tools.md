@@ -1,5 +1,9 @@
 ## Database
 
+#### pros
+* topic: distribute to different workers
+#### cons
+
 ### Dynamo
 leaderless, de-centralization
 always writeable
@@ -23,8 +27,9 @@ To do this, we need to quickly compare two copies of a range of data residing on
 #### MySQL
 pro: software support
 
-#### Redis
-pro: has persistence & replication
+### Redis
+#### pros
+has persistence & replication
 
 
 ### Cassandra
