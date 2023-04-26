@@ -11,6 +11,8 @@
 	* huge (user) request: load balancer
 	* huge data: distribution
 	* latency: caching
+	* single point failure ?
+	* fault tolerance
 	Address by Scale:
 	 
 	It's all about trade-off
