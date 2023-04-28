@@ -17,5 +17,38 @@ The basic process can be:
 ## Distributed lock
 
 ## TopK
+top-k frequent items in a data stream
+
+#### Naive solution
+hashmap: store frequency of elements
+heap: (cnt, elements) of top k
+
+#### Improved of huge data
+shard the data with hash, calculate top-k seperately
+
+#### Lossy Counting
+Like a Boyer-Moore, with hashmap
 
 ## Rate limiter
+
+
+## News Feed
+
+Read much more than write
+
+Discussed in different conditions:
+
+#### Pull: read only when needed
+high fan out: many followers
+k-way merge, to get top-100
+Cons: If a user subscribed many (N), N read can be rather slow
+solution? add cache
+
+#### Push: write
+low fan out: few followers
+“Disk is cheap”，不要怕浪费数据库存储，为了加速查询，多存一些东西是没关系的。
+
+Cons: if a user has many subscribers, can be slow
+
+
+Pull method is populer

@@ -4,8 +4,8 @@
 	* the amount of data the sytem should work with
 	* the traffic the system should handle, request/month
 2. Draw a diagram on abstract design
-	application service layer
-	data storage layer
+	application **service** layer
+	data **storage** layer
 3. Scalabilities
 	Think about bottlenecks:
 	* huge (user) request: load balancer
