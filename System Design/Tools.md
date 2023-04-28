@@ -32,6 +32,7 @@ pro: software support
 has persistence & replication
 
 
+
 ### Cassandra
 clustering: automatically scale, easy to set up, young
 each node can be read/write, so one-node failure is avoid
@@ -79,11 +80,12 @@ If a element miss -> return true or false
 
 ### Redis
 in-mem key/value 
-various types
-eventually persistent
+**various types**
+**eventually persistent**
 pub/sub
 async
 master-slave
 atomic operations
 ### Memcached
 key/value
+**high scalability**
