@@ -121,7 +121,7 @@ recursive iterative loop, moving forward at each index based on prev results
 
 
 * 
-	* Choose numbers(duplication), with no order in duplications
+	* Choose numbers(duplication allowed), with no order in duplications
 	* With vector\<int\> as used numbers key
 	* Pick one type of number at a time(to simulate the nature of 'order'), and update the cnt as cnt - 1
 	 [Maximum Number of Groups Getting  Fresh Donuts](https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/solutions/1140644/c-0-ms-greedy-dp/?orderBy=most_votes)

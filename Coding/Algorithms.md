@@ -18,8 +18,8 @@ Fix choice on each possibility on the first one, Binary Search (T - P(A)) in P(B
 ## Kadane's Algorithm
 
 * 
-	*  Maximum Subarray, find the subarray with the largest sum, and return its sum
-	*  Just like sliding window, but in this case, the sum of the subarray is calculated. So when current subarray's sum is negative, instead of moving the start pointer forward until invalid(positive), the remaining window(start:mid) is always positive, so mid:end is always negative, so we should set the start pointer to current end pointer
+	* Maximum Subarray, find the subarray with the largest sum, and return its sum
+	* Just like sliding window, but in this case, the sum of the subarray is calculated. So when current subarray's sum is negative, instead of moving the start pointer forward until invalid(positive), the remaining window(start:mid) is always positive, so mid:end is always negative, so we should set the start pointer to current end pointer
 	*  Applies to all kinds of subarray, counting the max subarray value(could be occurence)
 	* [Maximum subarray problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
 
