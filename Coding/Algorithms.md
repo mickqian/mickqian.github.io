@@ -560,3 +560,63 @@ for (int i = 0; i < n; i++) {
   }
 }
 ```
+
+## Bellman-Ford
+Single-source shortest paths
+
+
+```java
+public boolean SSSP(int s, Edge[] edges) {
+        //初始化
+        for (int i = 0; i < n; i++) {
+            dis[i] = i == s ? 0 : INF;
+        }
+        //每一轮的顶点，对所有的edges做松弛
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < e; j++) {
+                if (dis[edges[j].v] > dis[edges[j].u] + edges[j].w) {//relax操作
+                    dis[edges[j].v] = dis[edges[j].u] + edges[j].w;
+                    pre[edges[j].v] = edges[j].u;
+                }
+            }
+        }
+        //
+        boolean f = false;
+        for (auto& e: edges) {
+            if (dis[e.v] > dis[e.u] + e.w) {
+                f = true;
+                break;
+            }
+        }
+        return f;
+    }
+```
+
+
+
+```c++
+int SPFA(int s) {
+	queue<int> q;
+	bool inq[maxn] = {false};
+	for(int i = 1; i <= N; i++) dis[i] = 2147483647;
+	dis[s] = 0;
+	q.push(s); inq[s] = true;
+	while(!q.empty()) {
+		int x = q.front(); q.pop();
+		inq[x] = false;
+		for(int i = front[x]; i !=0 ; i = e[i].next) {
+			int k = e[i].v;
+			if(dis[k] > dis[x] + e[i].w) {
+				dis[k] = dis[x] + e[i].w;
+				if(!inq[k]) {
+					inq[k] = true;
+					q.push(k);
+				}
+			}
+		}
+	}
+	for(int i =  1; i <= N; i++) std::cout << dis[i] << ' ';
+	std::cout << std::endl;
+	return 0;
+}
+```
