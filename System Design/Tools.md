@@ -85,6 +85,7 @@ producers balance load to brokers
 * number of partitions cannot be easily changed
 * lots of topics can hurt IO
 
+
 ## Cache
 
 ### Redis

@@ -14,11 +14,9 @@ aka atomic consistency/strong consistency/immediate consistency/external consist
 
 常用实现手段：
 * 读修复： 消除副本数据不一致问题
-* 写修复
+* 写修复: primary 的写操作直到 follower 的写成功后才完成
 * async repair：running data consistency checks
 
-
-* anti-entropy
 
 ### Leaderless 无主
 peer-to-peer
