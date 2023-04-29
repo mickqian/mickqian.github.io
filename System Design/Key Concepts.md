@@ -50,6 +50,13 @@ techniques used to accelerate some specific querys/performance, including:
 
 
 ### Not Only SQL
+types:
+* kv
+* column
+* document-based
+* graph
+
+
 #### features
 partitions based on hash
 
@@ -70,5 +77,8 @@ partitions based on hash
 * Compromise consitency, in favor of availability and speed
 
 ### Graph Database
-
+SQL Server
+highly-related
+pro:
+1. fast relation-query operation
 
