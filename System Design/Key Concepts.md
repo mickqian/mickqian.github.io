@@ -68,3 +68,7 @@ partitions based on hash
 * Not tabular relations
 * More flexible
 * Compromise consitency, in favor of availability and speed
+
+### Graph Database
+
+
