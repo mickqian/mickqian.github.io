@@ -85,10 +85,6 @@ producers balance load to brokers
 * number of partitions cannot be easily changed
 * lots of topics can hurt IO
 
-### BloomFilter
-If a element exists -> return true
-If a element miss -> return true or false
-
 ## Cache
 
 ### Redis
