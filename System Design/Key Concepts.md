@@ -80,3 +80,6 @@ highly-related
 pro:
 1. fast relation-query operation
 
+
+### Cache
+write-through: strong consistency
