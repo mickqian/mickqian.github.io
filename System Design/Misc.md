@@ -7,3 +7,8 @@
 If a element exists -> return true
 If a element miss -> return true or false
 applied in sparse scenarios
+
+
+## Zookeeper
+分布式共识算法
+filesystem + listener pattern
