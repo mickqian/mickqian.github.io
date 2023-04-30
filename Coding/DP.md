@@ -91,7 +91,6 @@ recursive iterative loop, moving forward at each index based on prev results
 
 ## Memoization 
 
-
 *  Classic
 	* BitMasking to perform DFS
 	* \[courses taken\]\[courses last semester\] = minimum days
@@ -188,16 +187,13 @@ recursive iterative loop, moving forward at each index based on prev results
 	* storing the cnt of different songs is enough, for us to calculate the plans for next song, as the next-song choice is only constrained by that.
 	* [Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/description/)
 
-
 * 
 	* \[first i-hats]\[assigned people] = ways
 	* [Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)
 
-
 * 
 	*  Optimize, by compressing the common state(length, value, etc) and **try on that possible state**
 	* [Selling Pieces of Wood](https://leetcode.com/problems/selling-pieces-of-wood/description/)
-
 
 * 
 	*  $dp[n] = min(max(A[i], B[i])$, A\[i\] increase, B\[i\] decrease
@@ -209,7 +205,6 @@ recursive iterative loop, moving forward at each index based on prev results
 	* Minimum Intervals covering the range
 	* \[position\] = minimum num of intervals to cover 0~ position
 	* [Minimum Number of Taps to Open to Water a Garhttps://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/den](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/)
-
 
 * Classic
 	* Merge intervals
@@ -226,11 +221,7 @@ recursive iterative loop, moving forward at each index based on prev results
 	* The score of students solving match expression: 
 
 
-
-
-
 ## Memoization 
-
 
 * Classic
 	* If possible to fit numbers into boxes
@@ -241,7 +232,6 @@ recursive iterative loop, moving forward at each index based on prev results
 	* Recursively choose each item, top-down
 	* iterate over each choice, recursive call
 	* [Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/solutions/108318/c-java-python-dp-memoization-with-optimization-29-ms-c/?orderBy=most_votes)
-
 
 * 
 	* Ways to choose numbers(duplication), no order

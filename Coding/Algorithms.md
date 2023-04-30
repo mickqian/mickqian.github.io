@@ -118,7 +118,7 @@ use the table as a tool, to determine if an another string contains a pattern
 
 
 ## Rabin-Karp
-To check existence of  **exactly equal** substrings
+To check existence of **exactly equal** substrings
 Time Complexity: O(len)
 Rolling-hash to encode the string pattern in the set, check each hash value within the set
 Rolling-hash can reduce the compare time from O(N) to O(1) ( if the hash can be computed in O(1))
