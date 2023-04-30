@@ -4,18 +4,29 @@
 环形hash
 
 
-### Linear Consistency 线性一致性
+### Consistency 一致性
+
+强度从高到低：
+1. strong consistency
+2. linear consistency/read-after-write    write-write consistency
+3. 单调读一致性 前缀一致性 
+4. Casual consistency
+5. eventual consistency
+
+#### Linear Consistency
 aka atomic consistency/strong consistency/immediate consistency/external consistency
 #### Basic idea
 让一个系统看起来好像只有**一个**数据副本，且所有操作均为原子性
 
 
-### Eventual Consistency
+#### Eventual Consistency
 
 常用实现手段：
-* 读修复： 消除副本数据不一致问题
-* 写修复: primary 的写操作直到 follower 的写成功后才完成
+* 读修复：从replicas中读，将缺失变更发送给相应replica, 消除副本数据不一致问题
+* 写修复:  primary 的写操作直到 follower 的写成功后才完成
 * async repair：running data consistency checks
+
+
 
 
 ### Leaderless 无主
@@ -82,4 +93,25 @@ pro:
 
 
 ### Cache
-write-through: strong consistency
+#### Write/read-through
+update cache & database
+由缓存作为数据库的代理，和数据库进行交互
+**strong consistency**
+##### Read through
+check cache
+* hit: return
+* miss: load from database, return
+##### Write through
+check cache
+* hit: update cached value, sync update database
+* miss: update database
+
+##### Write invalidate
+update database, invalidate cache
+
+
+#### Write back/Write behind
+update cache only, **async** update database
+used in write heavy scenarios
+
+
