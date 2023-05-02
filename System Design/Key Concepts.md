@@ -1,8 +1,18 @@
 
-## Consistent Hashing
+### Consistent Hashing
 保证当机器增加或者减少时，节点之间的数据迁移只限于两个节点之间，不会造成全局的网络问题
 环形hash
 
+### Partition
+failover:
+	1. detect
+	2. elect new leader:consensus algo
+	3. reconfigure
+
+*split brain*
+
+logical log: decoupled from the storage engine internals
+write-ahead log:
 
 ### Consistency 一致性
 
@@ -113,6 +123,8 @@ used in write-heavy scenarios
 ### Transaction
 group read/writes into a logical unit, to avoid worrying about partial failure
 
+Atomic is for abort
+
 multi-object transactions: difficult to implement. object here means table, file, mq, etc. Put data of a transaction into a single partition to speedup.
 
 foreign key: avoid
@@ -126,13 +138,14 @@ transactions are allowed in repeatable reads(which can be combined as a single t
 solution: reads from a *consistent snpashot* of the database
 
 
-isolation
-read-committed: 
+isolation-levels
+* read uncommitted: 
+* read committed: 
 
 concurrency control
 isolation-level
 
-multi-version concurrency control：无锁实现，时间早的优先，只能读比当前🍜早的 transaction，
+**multi-version concurrency control**：clock-based, 无锁实现，时间早的优先，只能读比当前🍜早的 transaction，
 
 visibility rule: object not visible/deleted until finally commited
 
@@ -140,9 +153,14 @@ visibility rule: object not visible/deleted until finally commited
 #### Read modify write/Lost Update
 cause: two writes depends on the same old read data, and write accordingly
 Solution: 
-	1. atomic write， `update cnt set v = v + 1`
+		1. atomic write, `update cnt set v = v + 1`
+	1. locking, starvation
 	2. Automatically detect lost updates, abort and retry
 	3. CAS: compare(old value and latest value) and swap
+		* not working for snapshots
 	4. CRDT: writes in a replicated context, especially if thery are commulative/swappable
 
 LWW could cause lost update
+
+
+#### Write skew
