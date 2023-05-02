@@ -51,4 +51,4 @@ low fan out: few followers
 Cons: if a user has many subscribers, can be slow
 
 
-Pull method is populer
+Pull method is popular
