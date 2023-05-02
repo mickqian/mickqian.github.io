@@ -18,7 +18,9 @@ To do this, we need to quickly compare two copies of a range of data residing on
 
 ![[Pasted image 20230426192152.png]]
 
+max item size: 400KB
 
+S3 lot bigger
 
 ### MySQL
 pro: software support
