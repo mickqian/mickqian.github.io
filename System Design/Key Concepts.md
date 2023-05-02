@@ -62,9 +62,8 @@ techniques used to accelerate some specific querys/performance, including:
 types:
 * kv
 * column
-* document-based
-* graph
-
+* document-based: json, Dynamo
+* graph: Neo4j, complex relations
 
 #### features
 partitions based on hash
@@ -73,12 +72,9 @@ partitions based on hash
 * scale easily 
 * write fast
 
-
-
 #### cons
 * query only on primary key
 * consistency
-
 
 
 * Not tabular relations
@@ -109,9 +105,44 @@ check cache
 ##### Write invalidate
 update database, invalidate cache
 
-
 #### Write back/Write behind
 update cache only, **async** update database
-used in write heavy scenarios
+used in write-heavy scenarios
 
 
+### Transaction
+group read/writes into a logical unit, to avoid worrying about partial failure
+
+multi-object transactions: difficult to implement. object here means table, file, mq, etc. Put data of a transaction into a single partition to speedup.
+
+foreign key: avoid
+
+dirty read/write, solved by :
+1. locking before read/write/commit, not work well when there's a long-running write transaction
+2. or 
+
+#### Snapshot Isolation/read skew
+transactions are allowed in repeatable reads(which can be combined as a single transaction)
+solution: reads from a *consistent snpashot* of the database
+
+
+isolation
+read-committed: 
+
+concurrency control
+isolation-level
+
+multi-version concurrency control：无锁实现，时间早的优先，只能读比当前🍜早的 transaction，
+
+visibility rule: object not visible/deleted until finally commited
+
+
+#### Read modify write/Lost Update
+cause: two writes depends on the same old read data, and write accordingly
+Solution: 
+	1. atomic write， `update cnt set v = v + 1`
+	2. Automatically detect lost updates, abort and retry
+	3. CAS: compare(old value and latest value) and swap
+	4. CRDT: writes in a replicated context, especially if thery are commulative/swappable
+
+LWW could cause lost update
