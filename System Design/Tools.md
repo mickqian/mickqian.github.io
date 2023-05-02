@@ -52,21 +52,22 @@ read: row key -> column key -> 根据 colomn 以及 version 确定具体读取�
 -   然后，子表服务器会从 GFS 中获取数据，并将结果返回给客户端。
 
 
-
-
-
-
-
 ## Message Queue
 
 ### RabbitMQ
 
 
 ### Kafka
-at least one time delivery: apply sequence number to each message to avoid duplicates
+at least once delivery: apply sequence number to each message to avoid duplicates
 pub/sub
 NIO allows for fast transfer of data in and out of the system
 zero-copy: nio
+2-phase commit
+
+
+at most once:
+exactly once: require producer idompotent
+at least once: **retry** until succeed
 
 #### Brokers
 * receive messages from producers, deliver messages to consumer
