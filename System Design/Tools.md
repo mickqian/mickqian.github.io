@@ -11,6 +11,7 @@ The list of nodes that is responsible for storing a particular key is called the
 temporarily stores the key in other nodes. When node recovered, deliver the data back the delete the temporary replica
 
 #### Anti entropy(replica synchronization)
+background process
 Merkle Tree: parent node stores the hash of children
 Each node contains merkle tree of key range it stores
 To do this, we need to quickly compare two copies of a range of data residing on different replicas and figure out exactly which parts are different.
@@ -53,6 +54,9 @@ read: row key -> column key -> 根据 colomn 以及 version 确定具体读取�
 
 
 ## Message Queue
+
+### SQS
+low availability
 
 ### RabbitMQ
 

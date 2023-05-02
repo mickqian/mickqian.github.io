@@ -71,7 +71,7 @@ techniques used to accelerate some specific querys/performance, including:
 ### Not Only SQL
 types:
 * kv
-* column
+* column-based: 
 * document-based: json, Dynamo
 * graph: Neo4j, complex relations
 
@@ -141,6 +141,7 @@ solution: reads from a *consistent snpashot* of the database
 isolation-levels
 * read uncommitted: 
 * read committed: 
+* serializability
 
 concurrency control
 isolation-level
@@ -153,14 +154,27 @@ visibility rule: object not visible/deleted until finally commited
 #### Read modify write/Lost Update
 cause: two writes depends on the same old read data, and write accordingly
 Solution: 
-		1. atomic write, `update cnt set v = v + 1`
-	1. locking, starvation
-	2. Automatically detect lost updates, abort and retry
-	3. CAS: compare(old value and latest value) and swap
+	1. atomic write, `update cnt set v = v + 1`
+	2. locking, starvation
+	3. Automatically detect lost updates, abort and retry
+	4. CAS: compare(old value and latest value) and swap
 		* not working for snapshots
-	4. CRDT: writes in a replicated context, especially if thery are commulative/swappable
+	5. Conflict resolving: 
+		* CRDT: writes in a replicated context, especially if thery are commulative/swappable
 
 LWW could cause lost update
 
 
 #### Write skew
+read-update-write 
+
+* optimistic locking: instead of blocking, transactions continues anyway, and database check when committing
+	* contention low
+* pessmisitic locking: wait until the situation is safe(no race condition)
+	* contention high
+
+
+* 2-phase locking/read-write lock: provides serializebility
+all reads - all writes
+* predicate lock: not perform well
+* index range lock: allows database to lock access to all rows matching some query
