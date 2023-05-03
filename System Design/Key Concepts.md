@@ -71,7 +71,7 @@ techniques used to accelerate some specific querys/performance, including:
 ### Not Only SQL
 types:
 * kv
-* column-based: 
+* column-based: column data stored in separated files, when reading few columns, reading all columns from transactional-database can be too much. Column files can be compressed as bitmap, or run-length if it's sparse
 * document-based: json, Dynamo
 * graph: Neo4j, complex relations
 
