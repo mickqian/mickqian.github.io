@@ -24,14 +24,6 @@ To do this, we need to quickly compare two copies of a range of data residing on
 
 
 
-#### MySQL
-pro: software support
-
-### Redis
-#### pros
-has persistence & replication
-
-
 
 ### Cassandra
 clustering: automatically scale, easy to set up, young
@@ -39,7 +31,19 @@ each node can be read/write, so one-node failure is avoid
 tunable consistency: 用户在读写数据时可以指定要求成功写到多少个节点才算写入成功(设为W)，以及成功从多少个节点读取到了数据才算成功(设为R)
 
 
+### GFS
+availability:  redunted master + redundancy
+performance: metadata only + in-mem to reduce single-master write bottleneck
 
+### Bigtable
+memtable: in-mem
+ss table: persistent
+
+table: \[tablet\]+
+tablet: \[memtable|sstable\]+
+tablet server
+
+Master + Tablet Server
 
 
 ## Message Queue
@@ -82,6 +86,7 @@ If a element miss -> return true or false
 in-mem key/value 
 **various types**
 **eventually persistent**
+replication
 pub/sub
 async
 master-slave
