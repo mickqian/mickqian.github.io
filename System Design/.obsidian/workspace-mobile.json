@@ -11,11 +11,9 @@
             "id": "22ce605d513dcb16",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Key Concepts.md",
-                "mode": "source",
-                "source": false
+                "file": "Thesis/amazon-dynamo-sosp2007.pdf"
               }
             }
           }
@@ -71,6 +69,14 @@
           "type": "starred",
           "state": {}
         }
+      },
+      {
+        "id": "66819b2bdb211eff",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
       }
     ],
     "currentTab": 0
@@ -85,7 +91,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Key Concepts.md",
+            "file": "Thesis/amazon-dynamo-sosp2007.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +108,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Key Concepts.md",
+            "file": "Thesis/amazon-dynamo-sosp2007.pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +120,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Key Concepts.md"
+            "file": "Thesis/amazon-dynamo-sosp2007.pdf"
           }
         }
       }
@@ -133,12 +139,13 @@
   },
   "active": "22ce605d513dcb16",
   "lastOpenFiles": [
+    "Key Concepts.md",
+    "Procedure.md",
+    "Pasted image 20230426203231.png.md",
+    "Misc.md",
     "Thesis/amazon-dynamo-sosp2007.pdf",
     "Thesis/Bigtable.pdf",
     "Use cases.md",
-    "Key Concepts.md",
-    "Tools.md",
-    "Misc.md",
-    "Procedure.md"
+    "Tools.md"
   ]
 }

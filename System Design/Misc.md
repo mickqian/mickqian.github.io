@@ -3,6 +3,8 @@
 
 ![[Pasted image 20230426203231.png]]
 
+SQL: 500 GB
+
 ### BloomFilter
 If a element exists -> return true
 If a element miss -> return true or false
