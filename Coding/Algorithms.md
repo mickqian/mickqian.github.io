@@ -18,8 +18,8 @@ Fix choice on each possibility on the first one, Binary Search (T - P(A)) in P(B
 ## Kadane's Algorithm
 
 * 
-	*  Maximum Subarray, find the subarray with the largest sum, and return its sum
-	*  Just like sliding window, but in this case, the sum of the subarray is calculated. So when current subarray's sum is negative, instead of moving the start pointer forward until invalid(positive), the remaining window(start:mid) is always positive, so mid:end is always negative, so we should set the start pointer to current end pointer
+	* Maximum Subarray, find the subarray with the largest sum, and return its sum
+	* Just like sliding window, but in this case, the sum of the subarray is calculated. So when current subarray's sum is negative, instead of moving the start pointer forward until invalid(positive), the remaining window(start:mid) is always positive, so mid:end is always negative, so we should set the start pointer to current end pointer
 	*  Applies to all kinds of subarray, counting the max subarray value(could be occurence)
 	* [Maximum subarray problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
 
@@ -118,7 +118,7 @@ use the table as a tool, to determine if an another string contains a pattern
 
 
 ## Rabin-Karp
-To check existence of  **exactly equal** substrings
+To check existence of **exactly equal** substrings
 Time Complexity: O(len)
 Rolling-hash to encode the string pattern in the set, check each hash value within the set
 Rolling-hash can reduce the compare time from O(N) to O(1) ( if the hash can be computed in O(1))
@@ -558,5 +558,65 @@ for (int i = 0; i < n; i++) {
         s[i - d2[i] - 1] == s[i + d2[i]]) {
     d2[i]++;
   }
+}
+```
+
+## Bellman-Ford
+Single-source shortest paths
+
+
+```java
+public boolean SSSP(int s, Edge[] edges) {
+        //初始化
+        for (int i = 0; i < n; i++) {
+            dis[i] = i == s ? 0 : INF;
+        }
+        //每一轮的顶点，对所有的edges做松弛
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < e; j++) {
+                if (dis[edges[j].v] > dis[edges[j].u] + edges[j].w) {//relax操作
+                    dis[edges[j].v] = dis[edges[j].u] + edges[j].w;
+                    pre[edges[j].v] = edges[j].u;
+                }
+            }
+        }
+        //
+        boolean f = false;
+        for (auto& e: edges) {
+            if (dis[e.v] > dis[e.u] + e.w) {
+                f = true;
+                break;
+            }
+        }
+        return f;
+    }
+```
+
+
+
+```c++
+int SPFA(int s) {
+	queue<int> q;
+	bool inq[maxn] = {false};
+	for(int i = 1; i <= N; i++) dis[i] = 2147483647;
+	dis[s] = 0;
+	q.push(s); inq[s] = true;
+	while(!q.empty()) {
+		int x = q.front(); q.pop();
+		inq[x] = false;
+		for(int i = front[x]; i !=0 ; i = e[i].next) {
+			int k = e[i].v;
+			if(dis[k] > dis[x] + e[i].w) {
+				dis[k] = dis[x] + e[i].w;
+				if(!inq[k]) {
+					inq[k] = true;
+					q.push(k);
+				}
+			}
+		}
+	}
+	for(int i =  1; i <= N; i++) std::cout << dis[i] << ' ';
+	std::cout << std::endl;
+	return 0;
 }
 ```

@@ -40,7 +40,7 @@ So that the neighbor with lower cost will be visited first, and the cost of firs
 * 
 	* Graphic search, move in 4 directions
 	```cpp
-	 double ans = DBL_MAX;
+		double ans = DBL_MAX;
         vector<double> p(2, 0);
         double step = 100, eps = 1e-6;
         // dir = 1

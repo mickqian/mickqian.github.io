@@ -91,7 +91,6 @@ recursive iterative loop, moving forward at each index based on prev results
 
 ## Memoization 
 
-
 *  Classic
 	* BitMasking to perform DFS
 	* \[courses taken\]\[courses last semester\] = minimum days
@@ -121,7 +120,7 @@ recursive iterative loop, moving forward at each index based on prev results
 
 
 * 
-	* Choose numbers(duplication), with no order in duplications
+	* Choose numbers(duplication allowed), with no order in duplications
 	* With vector\<int\> as used numbers key
 	* Pick one type of number at a time(to simulate the nature of 'order'), and update the cnt as cnt - 1
 	 [Maximum Number of Groups Getting  Fresh Donuts](https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/solutions/1140644/c-0-ms-greedy-dp/?orderBy=most_votes)
@@ -188,16 +187,13 @@ recursive iterative loop, moving forward at each index based on prev results
 	* storing the cnt of different songs is enough, for us to calculate the plans for next song, as the next-song choice is only constrained by that.
 	* [Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists/description/)
 
-
 * 
 	* \[first i-hats]\[assigned people] = ways
 	* [Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)
 
-
 * 
 	*  Optimize, by compressing the common state(length, value, etc) and **try on that possible state**
 	* [Selling Pieces of Wood](https://leetcode.com/problems/selling-pieces-of-wood/description/)
-
 
 * 
 	*  $dp[n] = min(max(A[i], B[i])$, A\[i\] increase, B\[i\] decrease
@@ -209,7 +205,6 @@ recursive iterative loop, moving forward at each index based on prev results
 	* Minimum Intervals covering the range
 	* \[position\] = minimum num of intervals to cover 0~ position
 	* [Minimum Number of Taps to Open to Water a Garhttps://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/den](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/)
-
 
 * Classic
 	* Merge intervals
@@ -226,22 +221,17 @@ recursive iterative loop, moving forward at each index based on prev results
 	* The score of students solving match expression: 
 
 
-
-
-
 ## Memoization 
-
 
 * Classic
 	* If possible to fit numbers into boxes
 	* Try combinations of items on each boxes, box-size to numbers mask
-	* [distribute repeated numbers](https://leetcode.com/problems/distribute-repeating-integers/solutions/935522/step-by-step-optimization-more-than-10-methods/?orderBy=most_votes)
+	* [Distribute repeated numbers](https://leetcode.com/problems/distribute-repeating-integers/solutions/935522/step-by-step-optimization-more-than-10-methods/?orderBy=most_votes)
 
 * 
 	* Recursively choose each item, top-down
 	* iterate over each choice, recursive call
 	* [Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/solutions/108318/c-java-python-dp-memoization-with-optimization-29-ms-c/?orderBy=most_votes)
-
 
 * 
 	* Ways to choose numbers(duplication), no order

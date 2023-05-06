@@ -8,11 +8,11 @@
 	data **storage** layer
 3. Scalabilities
 	Think about bottlenecks:
-	* huge (user) request: load balancer
-	* huge data: distribution
+	* (user) request(qps): load balancer
+	* data size: distribution
 	* latency: caching
 	* single point failure ?
-	* fault tolerance
+	* fault tolerance(idopotent)
 	Address by Scale:
 	 
 	It's all about trade-off

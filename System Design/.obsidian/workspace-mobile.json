@@ -11,8 +11,12 @@
             "id": "22ce605d513dcb16",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Key Concepts.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Key Concepts.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Key Concepts.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,7 +113,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Key Concepts.md"
+          }
         }
       }
     ],
@@ -124,5 +132,13 @@
     }
   },
   "active": "22ce605d513dcb16",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Thesis/amazon-dynamo-sosp2007.pdf",
+    "Thesis/Bigtable.pdf",
+    "Use cases.md",
+    "Key Concepts.md",
+    "Tools.md",
+    "Misc.md",
+    "Procedure.md"
+  ]
 }

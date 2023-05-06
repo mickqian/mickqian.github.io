@@ -23,6 +23,7 @@ struct Fenwick {
 		}  
 	}
 
+	// query the prefix ( i excluded )
     int query(int i) {
         int sum = 0;
         while (i > 0) {
