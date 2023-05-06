@@ -1,33 +1,44 @@
 {
   "main": {
-    "id": "585fed1ae33af18f",
+    "id": "cfd6e91d12a7d341",
     "type": "split",
     "children": [
       {
-        "id": "0e91108f90461327",
+        "id": "21d993d3178ddce6",
         "type": "tabs",
         "children": [
           {
-            "id": "0ff64bcfb07c22bc",
+            "id": "7134b4f1a6f786e8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "6a8be83e563e14ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
               "state": {
-                "file": "Resume/钱诚亮_浙大_软件工程师_简历.pdf"
+                "file": "Actress.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d6069089394a6459",
+    "id": "7605ecfd4bf4893f",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "a3d9b9156f7d2b74",
+        "id": "c248eba9d4f3eeae",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -37,7 +48,7 @@
         }
       },
       {
-        "id": "0d0b7610c244bf80",
+        "id": "f1846a8c046b7637",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -52,7 +63,7 @@
         }
       },
       {
-        "id": "c75135516524290d",
+        "id": "8156869183aeb2d8",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -63,15 +74,7 @@
         }
       },
       {
-        "id": "76b7f2cda81b3c41",
-        "type": "leaf",
-        "state": {
-          "type": "starred",
-          "state": {}
-        }
-      },
-      {
-        "id": "43cfe9b7736edeb6",
+        "id": "cc6aeaa516c3a089",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -82,16 +85,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "56e8961252a2cb10",
+    "id": "5381d3d26b80c632",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "0874c73cb310ed93",
+        "id": "6e3a7739b495060f",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Resume/钱诚亮_浙大_软件工程师_简历.pdf",
+            "file": "Actress.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,24 +106,24 @@
         }
       },
       {
-        "id": "80fc72293c107562",
+        "id": "4a014700e4f04dba",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Resume/钱诚亮_浙大_软件工程师_简历.pdf",
+            "file": "Actress.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "0dc62dd0c8f4c1ec",
+        "id": "24f93375fafdfdfa",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "Resume/钱诚亮_浙大_软件工程师_简历.pdf"
+            "file": "Actress.md"
           }
         }
       }
@@ -137,25 +140,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ff64bcfb07c22bc",
+  "active": "6a8be83e563e14ca",
   "lastOpenFiles": [
-    "Resume/钱诚亮_resume.pdf",
-    "Resume/钱诚亮_浙大_软件工程师_简历.pdf",
-    "Resume/README.md",
-    "Resume/resume_preview.png",
-    "Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.pdf",
-    "Resume/钱诚亮_浙大_软件工程师_简历.log",
-    "Resume/钱诚亮_浙大_软件工程师_简历.out",
-    "Resume/钱诚亮_浙大_软件工程师_简历.synctex(busy)",
-    "Resume/钱诚亮_浙大_软件工程师_简历.tex",
-    "Resume/钱诚亮_浙大_软件工程师_简历.synctex.gz",
-    "Resume/钱诚亮_浙大_软件工程师_简历.aux",
-    "Resume/resume.pdf",
-    "Why do you want to work at.md",
-    "Third-Person self-introduction.md",
-    "Skills.md",
-    "Role Numbers.md",
-    "Behavorial.md",
-    "咨询问题1.md"
+    "Actress.md"
   ]
 }
