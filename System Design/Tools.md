@@ -38,7 +38,8 @@ pro: has persistence & replication
 clustering: automatically scale, easy to set up, young
 each node can be read/write, so single-point failure is avoid
 tunable consistency: 用户在读写数据时可以指定要求成功写到多少个节点才算写入成功(设为W)，以及成功从多少个节点读取到了数据才算成功(设为R)
-con: eventual consistency, data size 250GB
+con: eventual consistency, data size 250GB, proportional to node
+
 
 ### Bigtable
 Applicability, Scalability, Performance, Availability

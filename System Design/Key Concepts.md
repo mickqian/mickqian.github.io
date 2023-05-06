@@ -38,7 +38,6 @@ aka atomic consistency/strong consistency/immediate consistency/external consist
 
 
 
-
 ### Leaderless 无主
 peer-to-peer
 dynamo, riak, cassandra, voldemort
@@ -150,16 +149,16 @@ solution: reads from a *consistent snpashot* of the database
 
 isolation-levels
 * read uncommitted: 
-* read committed: 
-* serializability
-
-concurrency control
-isolation-level
+* read committed(default): 1.  读数据库时，只会读到已提交的数据。(无脏读), 写数据库时，只会覆盖已经提交的数据。(无脏写)
+* repeatable read: 只能读到该事务启动时已经提交的其他事务修改的数据
+	* con: phantom read: 由于只锁住旧数据，同一查询语句可能返回新数据
+* serializability:
+* snapshot isolation: 使用 mvcc 的无锁特性来提高性能，因为对一个 key 能够保存多个版本的数据，SI 能够做到读不阻塞写，甚至写也不阻塞写。
+	* con: write skew
 
 **multi-version concurrency control**：clock-based, 无锁实现，时间早的优先，只能读比当前🍜早的 transaction，
 
 visibility rule: object not visible/deleted until finally commited
-
 
 #### Read modify write/Lost Update
 cause: two writes depends on the same old read data, and write accordingly

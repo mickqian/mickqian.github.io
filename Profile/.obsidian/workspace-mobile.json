@@ -11,10 +11,8 @@
             "id": "0ff64bcfb07c22bc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,6 +67,14 @@
           "type": "starred",
           "state": {}
         }
+      },
+      {
+        "id": "43cfe9b7736edeb6",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
       }
     ],
     "currentTab": 0
@@ -83,7 +89,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -100,7 +105,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -111,9 +115,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.pdf"
-          }
+          "state": {}
         }
       }
     ],
@@ -131,14 +133,14 @@
   },
   "active": "0ff64bcfb07c22bc",
   "lastOpenFiles": [
-    "Why do you want to work at.md",
-    "Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.tex",
-    "Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.log",
-    "Resume/钱诚亮_resume.pdf",
-    "Resume/missfont.log",
-    "Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.pdf",
-    "Resume/resume_preview.png",
     "Resume/resume.pdf",
+    "Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.tex",
+    "Resume/钱诚亮_resume.pdf",
+    "Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.pdf",
+    "Resume/missfont.log",
+    "Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.log",
+    "Resume/resume_preview.png",
+    "Why do you want to work at.md",
     "Resume/README.md",
     "Resume/Dockerfile",
     "Resume/LICENSE",
