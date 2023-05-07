@@ -4,12 +4,6 @@
 	* Key point:
 	* 
 
-
-* 
-	* 
-	* 
-
-
 * **Classic** 
 	* Find patterns of the solutions of the problem
 	* There are two patterns which meets the requirements: (1). two circled person, and two arms. (2). an entire circle
