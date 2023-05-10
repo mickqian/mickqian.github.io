@@ -163,7 +163,6 @@ Solution:
 
 LWW could cause lost update
 
-
 #### Write skew
 read-update-write 
 
