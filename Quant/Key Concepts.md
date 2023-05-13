@@ -119,8 +119,17 @@ t 时刻，频率为 a 的正弦波的振幅
 
 ![[Pasted image 20230513113606.png]]
 
-#### 多分辨率分析
+#### Sampling
+upsampling: 时间序列从低频到高频（每月到每天）重新采样
+downsampling: 时间序列从高频重新采样到低频（每周一次到每月一次）
+
+频谱： frequency-amplitude 的二维平面
+上采样：过采样/信号插值，频谱压缩
+下采样：欠采样/信号抽取，频谱扩展
 
 ### References:
 [小波变换（wavelet transform）的通俗解释](https://www.cnblogs.com/jfdwd/p/9249850.html)
 
+
+
+## 马尔可夫过程
