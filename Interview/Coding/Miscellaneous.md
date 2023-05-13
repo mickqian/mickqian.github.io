@@ -35,11 +35,11 @@
 	sort(begin(nums), end(nums), [](int a, int b){ return abs(a) < abs(b); });
     priority_queue<pair<long long, int>> pq;
     // 01111
-    // 00111 \-\> 00011 + 001011
+    // 00111 -> 00011 + 00101
     // 10111
-    pq.push({total_sum \- abs(nums[0]), 0});
+    pq.push({total_sum - abs(nums[0]), 0});
     while(--k) {
-        // each sum will be starting with 01 pattern, generate 00 and 10
+        // each sum will be 01xxxx, generate 00xxxx and 10xxxx
         auto [sum, i] = pq.top(); pq.pop();
         if (i + 1 < nums.size()) {
             // for xxxxxx0111: 1 for choosing, 0 for abandoning
@@ -57,17 +57,18 @@
 
 * Hard
 	* Find number of subsequences with max and min fixed
-	* Three-pointer sliding window, number in window is within range, considering the valid range ending with i while iterating, which is $min(prevMin, prevMax) - prevBad$
+	* Three-pointer sliding window, number in window is within range, updating final count by considering the valid range ending with i while iterating, which is $min(prevMin, prevMax) - prevBad$
 	* [Count Subarrays with fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/solutions/2708099/java-c-python-sliding-window-with-explanation/?orderBy=most_votes)
 
 * 
-	* Gudge if there's element appears odd times
+	* Gudge if there's element appearing odd times
 	* xor
 	* Seems like other kinds of appearing pattern can't be decided in O(N) easily
+	* dp\[the number appearing odd time\] = the first index of number to meet that
 	* [Find Longest Awesome Substring](https://leetcode.com/problems/find-longest-awesome-substring/)
 
   
-* Hard, Classics
+* Hard, Classic 
 	* Ways to fill rectange with square
 	* Again, finding patterns help. The special case can be formed by 4 normal rectangular, and 1 rectangular in the middle
 	* [Tiling a Rectangle with the Fewest Squares](https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/solutions/414260/8ms-memorized-backtrack-solution-without-special-case/?orderBy=most_votes)
