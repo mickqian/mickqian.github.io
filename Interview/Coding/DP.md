@@ -77,7 +77,6 @@ recursive iterative loop, moving forward at each index based on prev results
 	* [Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/)
 	* ...Tiles 
 
-
 * 
 	* Valid permutations with relative order between consecutives
 	* (1). Top-down: choosing every ID as the biggest, the remaining numbers can be chosed randomly, C(n, k)

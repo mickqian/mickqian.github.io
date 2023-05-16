@@ -22,14 +22,13 @@
 ### 0-1 BFS
 [0-1 BFS](https://cp-algorithms.com/graph/01_bfs.html)
 Djikstra without priority queue: [Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/solutions/2086235/0-1-bfs-c/?orderBy=most_votes)
-1. Push unvisited neighbour with cost, to end of the queue
+1. Push unvisited neighbour with more additional cost, to end of the queue
 2. Push unvisited neighbour with cost, to beginning of the queue
 So that the neighbor with lower cost will be visited first, and the cost of first visited is the minimum cost
 
 ## Optimization In BFS 
 1. Store the visited path
 2. Store \[visited notes\]\[ending node\]
-
 
 
 * 
@@ -64,5 +63,6 @@ So that the neighbor with lower cost will be visited first, and the cost of firs
 
 * 
 	* BFS on a node with more than one ancestors
+	* Basically a topological sort
 	* BFS: Only push the node with indegree as 0, because the node with indegree > 0 can wait until it becomes 0(can take the max), and it should wait(avoid re-visit the following path)
 	* [Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/solutions/1200575/topological-sort-vs-dfs-vs-dijkstra/?orderBy=most_votes)

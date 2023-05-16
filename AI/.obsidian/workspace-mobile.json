@@ -1,44 +1,35 @@
 {
   "main": {
-    "id": "cfd6e91d12a7d341",
+    "id": "5c3fb50a416c01d9",
     "type": "split",
     "children": [
       {
-        "id": "21d993d3178ddce6",
+        "id": "b28667fcd9a528e0",
         "type": "tabs",
         "children": [
           {
-            "id": "7134b4f1a6f786e8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "6a8be83e563e14ca",
+            "id": "093b1851d4abd88c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Actress.md",
+                "file": "Attention is All You Need.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "7605ecfd4bf4893f",
+    "id": "97be0a31b0a6d57d",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "c248eba9d4f3eeae",
+        "id": "e83b6d2fd7facda1",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -48,12 +39,12 @@
         }
       },
       {
-        "id": "f1846a8c046b7637",
+        "id": "395ad54c1aa74de0",
         "type": "leaf",
         "state": {
           "type": "search",
           "state": {
-            "query": "tag:#perfectbreast",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -63,7 +54,7 @@
         }
       },
       {
-        "id": "8156869183aeb2d8",
+        "id": "dfdb6a8c1c8e9b83",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -74,7 +65,7 @@
         }
       },
       {
-        "id": "cc6aeaa516c3a089",
+        "id": "3bf8310d5bb83bdc",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -82,19 +73,19 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
-    "id": "5381d3d26b80c632",
+    "id": "05fb8ed9d439c91c",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "6e3a7739b495060f",
+        "id": "2b52847ffd755c88",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Actress.md",
+            "file": "Attention is All You Need.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -106,24 +97,24 @@
         }
       },
       {
-        "id": "4a014700e4f04dba",
+        "id": "1836712d5d317bd6",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Actress.md",
+            "file": "Attention is All You Need.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "24f93375fafdfdfa",
+        "id": "091d42c160c362fb",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "Actress.md"
+            "file": "Attention is All You Need.md"
           }
         }
       }
@@ -140,20 +131,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1846a8c046b7637",
+  "active": "093b1851d4abd88c",
   "lastOpenFiles": [
-    "Humiliate.md",
-    "Orgasm.md",
-    "Pretty.md",
-    "Perfect Breast.md",
-    "Nipple.md",
-    "Favorite.md",
-    "Bounce.md",
-    "Films.md",
-    "Untitled.md",
-    "Big Breast.md",
-    "Oral.md",
-    "Standing.md",
-    "Actress.md"
+    "基本概念.md",
+    "thesis/Attention is All You Need.pdf",
+    "Attention is All You Need.md"
   ]
 }
