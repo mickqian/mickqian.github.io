@@ -24,13 +24,13 @@
 
 * 
 	* Find number of intervals covering a value
-	* Meeting Roomes Template: Given some intervals and an array of value, returns the number of intervals covering that value
-	* Record the starting and endings of intervals with an array(arr\[s\]++, arr\[e\]--). Iterate over value, adding the value of arr, sum of that will be **number of intervals convering that value**.
+	* Meeting Rooms Template: Given some intervals and an array of value, returns the number of intervals covering that value
+	* Record the starting and endings of intervals with an array(arr\[s\]++, arr\[e\]--). Iterate over value, adding the value of arr, counter of that will be **number of intervals covering that value**.
 	* [Number of Flowers in Full Bloom]
 
 * Hard
 	* Finding the K-th biggest sum from an array
-	* Starts with maximum value, get the next-smaller values by (1). removing/adding the smallest positive/biggest negative value (2). removing previous selecition, move to next s/b value
+	* Starts with maximum value, get the next-smaller values by (1). removing/adding the smallest positive/biggest negative value (2). removing previous selection, move to next s/b value
 	```cpp
 	sort(begin(nums), end(nums), [](int a, int b){ return abs(a) < abs(b); });
     priority_queue<pair<long long, int>> pq;
@@ -61,7 +61,7 @@
 	* [Count Subarrays with fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/solutions/2708099/java-c-python-sliding-window-with-explanation/?orderBy=most_votes)
 
 * 
-	* Gudge if there's element appearing odd times
+	* Judge if there's element appearing odd times
 	* xor
 	* Seems like other kinds of appearing pattern can't be decided in O(N) easily
 	* dp\[the number appearing odd time\] = the first index of number to meet that
@@ -101,7 +101,7 @@
 
 * 
 	* Finding min(A[i], A[j]) * ( j - i ) - sum(A[i:j])
-	* sum(h\[front\] - h\[middle\]), when h[i] > h[front],  a new boundary starts, since the prev boundaray(h[front]) is lower
+	* sum(h\[front\] - h\[past\]), when h[i] > h[front],  a new boundary starts, since the prev boundary(h[front]) is lower
 	* [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 
 * 

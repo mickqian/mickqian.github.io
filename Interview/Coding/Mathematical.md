@@ -8,7 +8,7 @@ permutation of N1, N2... Nn numbers, with Sum(Ni) = M:
 $M! / N1! * N2! * ... * Nn!$
 
 ## Modular Multiplicative Inverse
-$(A / B) \% mod = A * ( B ^ -1 ) \% mod = A * (b \^ (mod -2))$
+$(A / B) \% mod = A * ( B ^ -1 ) \% mod = A * (b ^ (mod -2))$
 
 ```cpp
 	// the order of a sequence in all its permutation
