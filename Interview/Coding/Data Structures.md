@@ -288,4 +288,6 @@ Can be used to solve questions like
 	* Min Length of Subarray with Sum at Least K
 	* Keep index of increasing prefix Sum
 	* Attribute:  In an increasing deque, prev-large indexes are discarded, which is useless in this case, since larger prefix sum will bring smaller subarray sum
-	* 
+	* 对于普通 MQ, 弹出A\[i\] <= V, 可以得到离 V 最近的 A\[i\] <= V（第一个弹出的）
+	* 对于改进 MQ, 弹出 A\[i\] + K <= V, 可以得到离 V 最近的 A\[i\] + K <= V（第一个弹出的）
+	* [Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/solutions/143726/c-java-python-o-n-using-deque/)
