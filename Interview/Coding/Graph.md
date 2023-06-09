@@ -7,7 +7,6 @@
 	* [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/description/)
 
 
-
 *  
 	* Max 4 neighbors sum
 	* To construct a valid sequence, start by selecting the middle part and extend it, with each node's top 3 neighbors(a's neighbor + a + b + the max remaining neighbour)

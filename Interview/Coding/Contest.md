@@ -2,6 +2,7 @@
  * 一下子想不出来的尝试用 Binary Search(能够快速判定一个数字能否满足条件的情况)
  * medium/参数范围很小的题目，优先用暴力
  * 即使时间复杂度相同，bottom-up 仍然比 top-down 快不少
+ * [思考逆向](https://leetcode.com/problems/sum-of-matrix-after-queries/solutions/3594928/last-query-wins/)
 
 
 ### W 339
