@@ -44,7 +44,7 @@ Valid, when :
 2. when the end pointer moves forward, the start pointer has to move forward to make the window valid again.
 *  
 	* Find minimum diffs
-	* Calculate the sum, store map\<count, set\<sum\>\> for 2 parts, iterate num_cnt on one part of the half
+	* Calculate the sum, store map\<num_count, set\<sum\>\> for 2 parts, iterate num_cnt on one part of the half
 
 ```cpp
 long long countSubarrays(vector<int>& nums, long long k) {
@@ -145,7 +145,7 @@ for (int i = 0; i < n; i++){
 
 ## Reservior Sampling
 
-chance of placing cur item into reservior is $reservior_cnt/item_index$
+chance of placing cur item into reservior is $reservior\_cnt/item\_index$
 
 ```c++
 (* S has items to sample, R will contain the result *)
@@ -226,7 +226,6 @@ Forming an array of size n, with m consecutive unique numbers = placing m bars a
      {
          int n;
          vector<int> dp(n, INT_MAX);
-     
          int pos=0;    // 记录dp当前最后一位的下标
          dp[0]=nums[0];
          for(int i=1; i<n; i++)
@@ -236,7 +235,7 @@ Forming an array of size n, with m consecutive unique numbers = placing m bars a
                 dp[++pos]=nums[i];
             else
                 // 当前值更小，替换子序列串
-        dp[lower_bound(dp,dp+pos+1,nums[i])-dp]=nums[i];
+			    dp[lower_bound(dp,dp+pos+1,nums[i])-dp]=nums[i];
          }
          return pos;
      }
@@ -326,7 +325,7 @@ It says so on the post:
 
 But I think it's still very vague.
 
-DFS for once, use information from previous visit, to simulate differnt roots
+DFS for once, use information from previous visit, to simulate different roots
 * 
 	*  Max Root Path Sum - Root
 	*  ans\[i\] = max(subtree sum, parent and its other subtree sum) - v\[i\]
@@ -564,7 +563,6 @@ for (int i = 0; i < n; i++) {
 ## Bellman-Ford
 Single-source shortest paths
 
-
 ```java
 public boolean SSSP(int s, Edge[] edges) {
         //初始化
@@ -580,7 +578,6 @@ public boolean SSSP(int s, Edge[] edges) {
                 }
             }
         }
-        //
         boolean f = false;
         for (auto& e: edges) {
             if (dis[e.v] > dis[e.u] + e.w) {
