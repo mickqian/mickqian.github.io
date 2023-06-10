@@ -48,3 +48,15 @@ memory cell/cell: similar to latent state, 记录附加的信息
 
 与 GRU 类似，能够通过专用机制决定什么时候记忆或忽略**隐状态中的输入**
 ![[Pasted image 20230609220125.png]]
+
+
+# Multimodal
+
+# CNN
+强大的 inductive bias
+
+## VIT Vision Transformer 2020
+transformer 视觉，数据足够多时，突破 *transformer 缺少 Inductive Bias(一种先验知识）* 的限制，超过 CNN
+
+推理：
+224 * 224 * 3 => 14 * 14  = 196 个 , 16 * 16 * 3 = 768 的 patch => patch 投影 + postion embedding + extra \[class=cls\] embedding => encoder =>  cls 对应的输出 $z^{0}_{L}$ 作为最终输出的类别预测(logits)
