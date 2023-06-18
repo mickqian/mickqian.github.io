@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "5c3fb50a416c01d9",
+    "id": "0ec2a239d59bafdd",
     "type": "split",
     "children": [
       {
-        "id": "b28667fcd9a528e0",
+        "id": "b8e8f01cb3e3fb32",
         "type": "tabs",
         "children": [
           {
-            "id": "093b1851d4abd88c",
+            "id": "37ef7aee814cb3d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Attention is All You Need.md",
+                "file": "System Design/Tools.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,11 +25,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "97be0a31b0a6d57d",
+    "id": "a5530b4f19ceae00",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "e83b6d2fd7facda1",
+        "id": "42d125a6b88e54e2",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -39,7 +39,7 @@
         }
       },
       {
-        "id": "395ad54c1aa74de0",
+        "id": "cfc7059d3dd4d987",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -54,7 +54,7 @@
         }
       },
       {
-        "id": "dfdb6a8c1c8e9b83",
+        "id": "137c7a12273041cf",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -65,7 +65,7 @@
         }
       },
       {
-        "id": "3bf8310d5bb83bdc",
+        "id": "8848debd8938a34f",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -76,16 +76,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "05fb8ed9d439c91c",
+    "id": "83fcaeaf08a89113",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "2b52847ffd755c88",
+        "id": "7b791da1e4a796c3",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Attention is All You Need.md",
+            "file": "System Design/Tools.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,24 +97,24 @@
         }
       },
       {
-        "id": "1836712d5d317bd6",
+        "id": "f8d3d4e87592e781",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Attention is All You Need.md",
+            "file": "System Design/Tools.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "091d42c160c362fb",
+        "id": "38aec38a463d57ec",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "Attention is All You Need.md"
+            "file": "System Design/Tools.md"
           }
         }
       }
@@ -131,21 +131,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e83b6d2fd7facda1",
+  "active": "37ef7aee814cb3d4",
   "lastOpenFiles": [
-    "thesis/Attention is All You Need.pdf",
-    "Model.md",
-    "DL theory.md",
-    "thesis/ViT Vision Transformer.md",
-    "Techniques.md",
-    "thesis/VAE.md",
-    "thesis/Diffusion.md",
-    "CNN.md",
-    "RNN.md",
-    "ML Ops.md",
-    "SVM Support Vector Machine.md",
-    "Misc.md",
-    "基本概念.md",
-    "Attention is All You Need.md"
+    "Coding/Data Structures.md",
+    "System Design/Key Concepts.md",
+    "System Design/Misc.md",
+    "Coding/Algorithms.md",
+    "Coding/DP.md",
+    "Profile/Resume/钱诚亮_浙大_软件工程师_简历.pdf",
+    "Profile/Resume/钱诚亮_浙大_软件工程师_简历.log",
+    "Profile/Resume/钱诚亮_resume.pdf",
+    "Coding/Contest.md",
+    "Profile/Resume/钱诚亮_浙大_软件工程师_简历.tex",
+    "Profile/Resume/missfont.log",
+    "System Design/Thesis/amazon-dynamo-sosp2007.pdf",
+    "Coding/Miscellaneous.md",
+    "Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.tex",
+    "Language Tests/Speaking.md",
+    "Coding/Basic Algorithms you must memorize.md",
+    "Profile/Resume/钱诚亮_浙大_软件工程师_简历.synctex.gz",
+    "Coding/Intuitions.md",
+    "Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.log",
+    "Profile/Resume/resume_preview.png",
+    "Profile/Resume/resume.pdf",
+    "Language Tests/Writing.md"
   ]
 }
