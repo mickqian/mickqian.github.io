@@ -1,4 +1,4 @@
-Normalize
+ Normalize
 Apply one-hot encoding to categorical column
 
 1. Outliers 甄别和去除
