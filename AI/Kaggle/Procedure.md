@@ -7,7 +7,7 @@
 	* Correlation:
 		* 特征 - 特征关系： `d.plot.scatter`
 		* 特征 - 特征关系(category): `sns.boxplot`
-	* **Pearson Correlation Plot**:   `sns.heatmap`
+	* **Pearson Correlation Plot**:   `sns.heatmap(d.corr())`
 	* 特征 - 标签关系：`sns.pairplot`
 2. 处理异常值
 	* na: `d.isnull().sum().sort_values(ascending=False)`
@@ -16,7 +16,7 @@
 		* **boxplot**
 		* 判断方法：`StandardScaler`， 多变量 scatter 图
 3. 处理数据
-	* norm
+	* norm: `StandardScaler([[]]`
 	* 降维和聚类 
 		* scatter plot
 		* 降维：PCA, LDA, t-SNE
