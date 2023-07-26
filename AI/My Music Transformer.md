@@ -5,6 +5,22 @@ timing and pitch
 JSB Chorale
 
 
+## Encode Methods
+Analogies:
+lower-dimensional: 
+Codes/Encodings/Representations/Style/Feature/Bottleneck?  in the latent space
+
+### Transformer Encoder
+* bi-directional
+* auto-regerssive
+
+### Auto Encoder
+* encode at once
+
+### Decoder
+* uni directional
+
+
 ## LSTM
 问题： 较短时间内还较合理，在更长的时间维度上，没有整体性
 
