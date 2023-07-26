@@ -1,9 +1,9 @@
 
 
 # 数据处理 Feature Exploration, Engineering and Cleaning
-省略默认步骤（读取，确认问题类型等）
+省略默认步骤（读取，确认问题类型,， Data Quality Check, Data Type Check等）
 1. Plot
-	* 分布: histogram, `sns.distplot`, `.skew()`, `.kurt()`
+	* 分布: histogram, `sns.distplot(hue)`, `.skew()`, `.kurt()`, `sns.FacetGrid`
 	* Correlation:
 		* 特征 - 特征关系： `d.plot.scatter`
 		* 特征 - 特征关系(category): `sns.boxplot`
@@ -11,6 +11,7 @@
 	* 特征 - 标签关系：`sns.pairplot`
 2. 处理异常值
 	* na: `d.isnull().sum().sort_values(ascending=False)`
+		* `missingno.matrix`
 	* nan: Impute
 	* outliers
 		* **boxplot**
@@ -44,18 +45,55 @@
 ## 模型
 
 * classifier
+	* Ensemble
+		* ensemble.AdaBoostClassifier()
+		* ensemble.BaggingClassifier()
+		* ensemble.ExtraTreesClassifier()
+		* ensemble.GradientBoostingClassifier()
+		* ensemble.RandomForestClassifier()
+	* Gaussian Processes
+		* GaussianProcessClassifier()
+	* GLM
+		* linear_model.LogisticRegressionCV()
+		* linear_model.PassiveAggressiveClassifier()
+		* linear_model.RidgeClassifierCV()
+		* linear_model.SGDClassifier()
+		* linear_model.Perceptron()
+	* Navies Bayes
+		* BernoulliNB()
+		* GaussianNB()
+	* Neighbor
+		* KNeighborsClassifier()
+	* SVM
+		* svm.SVC(probability=True)
+		* svm.NuSVC(probability=True)
+		* svm.LinearSVC()
+	* Trees
+		* tree.DecisionTreeClassifier()
+		* tree.ExtraTreeClassifier()
+	* Discriminant Analysis
+		* LinearDiscriminantAnalysis()
+		* QuadraticDiscriminantAnalysis(),
 	* Logistic Regressor
 	* Grid Search CV
 	* perceptron
-	* SVC
-	* Random Forest
-	* Extra Trees Classifier
-	* SVM
 	* GBM
-	* AdaBoost Classifier
 	* 
 
-
+* regressor
+	* ensemble
+		* GradientBoostingRegressor
+	* linear model
+		* ElasticNet
+		* SGDRegressor
+		* BayesianRidge
+		* LinearRegression
+	* svm
+		* SVR
+	* kernel_ridge
+		* KernelRidge
+	* XGBRegressor
+	* lightgbm
 
 ensembles
 * averaging: 取平均值
@@ -81,7 +119,7 @@ ensembles
 	* 删除 / 添加 features(mean?)
 
 ## Ensemble
-ensemble from un-related models
+ensemble from un-related models(Correlation of models output)
 * Voting: 
 
 

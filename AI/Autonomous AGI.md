@@ -34,7 +34,7 @@ backed by vector database
 
 
   
-  
+
 
 ## Characteristic
 * Data-aware
@@ -55,6 +55,10 @@ backed by vector database
 2. 不确定，不可控： 提出不切实际的方案，列如选择自己训练模型而不是 ICT
 3. 对于复杂任务：陷入循环
 4. 固化知识的能力弱
+
+### Commands:
+1. git clone, terminal execute(分析依赖，自动安装)
+2. 自动根据错误进行修复
 
 
 
