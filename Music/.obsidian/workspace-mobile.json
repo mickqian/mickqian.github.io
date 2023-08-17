@@ -33,14 +33,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Band Playlistsong2Come togetherDesafinadoCoffer & tvcherub rockdamaged goods1979don’t let me downall you need is love.md",
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1acfefe9db5cd368",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Favorites.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Band Playlistsong2Come togetherDesafinadoCoffer & tvcherub rockdamaged goods1979don’t let me downall you need is love.md",
+            "file": "Favorites.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Band Playlistsong2Come togetherDesafinadoCoffer & tvcherub rockdamaged goods1979don’t let me downall you need is love.md",
+            "file": "Favorites.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -135,7 +147,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Band Playlistsong2Come togetherDesafinadoCoffer & tvcherub rockdamaged goods1979don’t let me downall you need is love.md"
+            "file": "Favorites.md"
           }
         }
       }
@@ -152,9 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7080a20c5c39ac21",
+  "active": "1acfefe9db5cd368",
   "lastOpenFiles": [
+    "Band Playlistsong2Come togetherDesafinadoCoffer & tvcherub rockdamaged goods1979don’t let me downall you need is love.md",
+    "Favorites.md",
     "Untitled.md",
-    "Band Playlistsong2Come togetherDesafinadoCoffer & tvcherub rockdamaged goods1979don’t let me downall you need is love.md"
+    "Untitled"
   ]
 }
