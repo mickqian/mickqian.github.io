@@ -1,3 +1,54 @@
+## Music
+Lastly, music and being in a band bring me joy and pleasure. 
+Playing an instrument and creating beautiful music with other band members, **while bring joy to the audiences, is a gratifying experience**.
+Music and being in a band **become a means of self-expression, stress relief, and finding enjoyment**
+
+
+## Computer Science
+These aspects of computer science **provide me with a great sense of satisfaction and fulfillment**.
+
+
+
+## Phrases 
+Kanye is a genius *albeit* a *self-proclaimed* one
+**relevant**: important
+main source of relevance: xxx 重要的主要原因
+legacy to...: 对 ... 的深远影响
+
+
+
+showed a penchant: 嗜好
+But it isn't only words that Shakespeare showed a *penchant* for creating
+
+Brevity is the soul of Wit 
+Bated breath
+full circle:周而复始
+in a pickle: 深陷困境
+
+**undisputed**: 不容置疑的
+
+be as adj as sb ever was
+
+**in terms of**
+
+is a paramount importance to: 至关重要的
+
+
+if snow be white why then her breasts are **dun**
+
+
+hyperbolic praise: 夸张
+
+obsequious language: 奉承
+
+enact the experience of the poet: 使...的形象跃然纸上
+
+selectively: 偏颇
+
+boring and mundane
+
+wholeheartedly
+
 
 
 ## Short Phreases
