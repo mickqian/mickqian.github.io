@@ -68,11 +68,10 @@ I believe that ...
     -   Based on my firsthand experience
     -   From what I have witnessed
     -   According to my observations
-    -   In my direct observation
-
-1.  Discussing trends or changes:
+    -   In my direct observation.
+4. Discussing trends or changes:
     -   Evolve
-    -   Prevailing
+    -   Prevailing： 流行
     -   Prominent
     -   Transformative
     -   Paradigm shift
@@ -80,12 +79,11 @@ I believe that ...
 2.  Providing examples:
     -   For instance
     -   Consider, for example
-
 3.  Discussing alternatives or options:
     -   Viable alternatives
     -   Plausible options
     -   Feasible choices
-    -   Viable courses of action
+    -   **Viable courses of action**
     -   Workable solutions
     -   Potential avenues
 4.  Presenting contrasting viewpoints:
@@ -93,10 +91,18 @@ I believe that ...
     -   Conversely
     -   Nevertheless
     -   Despite the aforementioned, one could argue
+5. Advantage / Disadvantages
+    * address the challenge it poses
+    * harness the benefits, while mitigating its negative impacts/risks
+    * social cohesion/ social isolation
+    * foster digital literacy 
 
+stance: 
 
 ### Replacements
 nice - profound
+very - significantly
+focus - engross
 ![[Pasted image 20230508195637.png]]
 
 ![[Pasted image 20230508195726.png]]

@@ -51,7 +51,7 @@ wholeheartedly
 
 
 
-## Short Phreases
+## Short Phrases
 
 In beautiful irony
 
@@ -66,10 +66,9 @@ underwent a transformation: 经历...
 
 unfathomable
 
-
 ## AI
 
-### Oppotunities:
+### Opportunities:
 Enhance productivity
 industrial revolution
 knowledge dissemination
