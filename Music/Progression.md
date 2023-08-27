@@ -22,3 +22,7 @@
 	* Marry You
 * Let's get it on
 	* I iii IV V
+* Eight Days a Week
+	* I II IV I
+	* II -> #4 -> Lydian
+	* 
