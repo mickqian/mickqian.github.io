@@ -1,26 +1,3 @@
-## Music
-Lastly, music and being in a band bring me joy and pleasure. 
-Playing an instrument and creating beautiful music with other band members, **while bring joy to the audiences, is a gratifying experience**.
-Music and being in a band **become a means of self-expression, stress relief, and finding enjoyment**
-
-
-## Computer Science
-These aspects of computer science **provide me with a great sense of satisfaction and fulfillment**.
-
-
-## Job
-From brainstorming with other tech-geeks at a startup weekend, building a new support network wasn't as daunting as I had initially thought.
-
-## Hometown
-Often related to as "Heaven of Earth",
-The city skyline showcases modern development with impressive high rise buildings, whereas ancient water towns echo the life of old times. It's also known as the "Silicon Valley of China", hosting numerous tech companies including Alibaba.
-
-The traditional cuisine, known as Hangbang style, **pleases both the palate and ey**e with its unique zesty **flavors** and **vibrant** colors. With the local tradition of tea drinking, you can often spot locals enjoying a leisurely cup of Longjing tea.
-
-Boasting a rich cultural heritage, Hangzhou is an iconic city that **presents** abundant ancient folklores 民间传说. It not only respects its traditions but also embraces innovations, making it an exciting and fulfilling place to live in or visit.
-
-Hangzhou, nestled in the southeastern part of China, experiences a humid subtropical climate **characterized by** four distinct seasons.
-
 
 
 
