@@ -79,7 +79,7 @@ Moreover, it could ease the burden of student loans, which are a major financial
 反向
 However, the feasibility hinges crucially on how this **initiative** would be funded. The resources needed to **sustain** a tuition-free system are immense. **Simply shifting these costs to taxpayers could breed its own inequalities and controversies.**
 
-It's certainly a complex issue and needs careful scrutinization. It might not be a magic bullet to all educational issues, but it’s an idea worth exploring as we strive for making higher education accessible to all.
+It's certainly a complex issue and needs careful scrutinization. It might not be a **magic bullet** to all educational issues, but it’s an idea worth exploring as we strive for making higher education accessible to all.
 ## All students should have an after-school job or internship
 Instilling the concept that all students should engage in an after-school job or internship **offers** several potential benefits.
 
@@ -91,3 +91,48 @@ moreover 连接词
 However, a one-size-fits-all approach might not be seamless. Balancing schoolwork, job duties, and extracurricular activities might **overwhelm** some students. Also, it is crucial that such working opportunities are safe, fair, and do not exploit young people.
 
 Suffice it to say, the **acquisition** 获取 of an after-school job or internship can be an enriching experience. It should be encouraged, but the final decision should be based on the **individual circumstances** 个人具体情况  and capacities of each student.
+
+
+## All student loan debt should be eliminated.
+Eliminating all student loan debt is an idea with profound implications.
+
+This dramatic proposition could bring immediate financial relief to millions of **individuals**, boost consumer spending, and stimulate economic growth. and have far-reaching consequences on individual's finances and overall economic health.
+
+Moreover, by lifting the burden of student loan debt, more people could be encouraged to pursue higher education, leading to a more educated workforce and potentially catalyze social mobility.
+
+However, there are **significant** challenges to consider. The cost of eliminating existing student loan debt is enormous and raises notable questions about fairness and finance. Who will bear the cost? Is it just to **shift the burden to taxpayers**, including those who never attended college?
+
+Additionally, while it could relieve current borrowers, it does not **address the underlying issue** of inflated tuition fees and the high cost of higher education, which need to be reformed to ensure sustainable solutions.
+
+Indeed, although the elimination of student loan debt holds promise, it cannot be considered in isolation. It should be part of a broader, more in-depth reform that addresses the fundamental issues of the higher education system.
+
+## Self-discipline is the best discipline.
+In my opinion, self-discipline unquestionably holds the highest regard among all **forms** of discipline. It's essentially governing oneself for the eventual aim of improvement. Unlike imposed discipline, which often feels coercive, self-discipline breeds responsibility and self-accountability.
+
+It encourages us to develop habits independently, enhancing our personal growth. This independence provides the liberty to set our own rules, thereby giving discipline a more personal touch. Additionally, our self-set rules and regulations drive us farther, as they mirror our individual objectives and aspirations.
+
+Moreover, self-discipline acts as a catalyst for success. It helps maintain constancy 不屈不挠 in our endeavors, increasing our productivity and effectiveness. In my experience, when I needed to prepare for the IELTS test, it was my self-discipline that aided me in adhering 坚持 to a proper study plan, delivering success in the end.
+
+To conclude, self-discipline is the best discipline, as it **encourages self-improvement, independence, and success**. It may not be the easiest path to tread on but certainly provides long-term gratification and personal progress.
+
+
+## Reading
+Reading is an extremely powerful tool as it opens doors to knowledge, imagination, and a greater understanding of the world around us. By diving into the pages of a book, we travel to new locations, meet different cultures, and explore varied viewpoints without even having to physically move.
+
+Books are a repository of wisdom gathered over centuries. By reading, we are essentially tapping into the intellect of countless authors, thinkers, and philosophers, augmenting our own understanding in the process. Through each piece of literature, we learn lessons, alter perceptions, and gain insights that would otherwise be inaccessible.
+
+**Moreover**, reading enhances our cognitive capabilities. It improves our vocabulary, equips us with better communication skills, and develops critical thinking, thereby, positively impacting our personal and professional lives. The power of reading is quite visible in language tests like IELTS, where reading extensively can catapult your scores significantly.
+
+In essence, reading is no less than a superpower. It connects us with the world, enriches our minds with knowledge, boosts our **intellectual abilities**, and thus, ultimately shapes our lives for the better.
+
+
+## All schools should be private schools
+While the argument for all schools to be private has some merits, I strongly believe that both public and private schools **play crucial roles in society**.
+
+Private schools, with their funding sources, often provide superior resources and smaller class sizes, potentially **facilitating** 提供 better educational environments. Equipped with advanced technologies, global curriculums, and consequent higher academic achievements, they can indeed **appeal as preferable**.
+
+However, the exclusivity of private schools also signifies hefty 重 tuitions which many families may not afford, thereby, risking the denial of access to quality education for all. The core mission of public schools, on the other hand, is to provide free education for everyone, e**nsuring the right** to education regardless of the financial situation.
+
+Moreover, public schools generally reflect a broader spectrum of society, encouraging diversity and inclusivity. These learning environments help students to comprehend social dynamics better than homogenous private schools.
+
+**Conclusively**, I believe that advocating for all schools to be private **undermines** 削弱，损坏 the essential democratic and inclusive views that public education upholds 支持. Therefore, the focus should be on improving the standard of education across all schools, regardless of their types.
