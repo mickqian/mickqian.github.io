@@ -262,6 +262,35 @@ reduce -> mitigate
 
 instill
 
+
+
+## Some people believe that unpaid community service should be a compulsory part of high school programs (for example, working for a charity, improving the neighborhood or teaching sports to younger children). To what extent do you agree or disagree?
+It is argued by some that high school curricula should mandatorily include unpaid community service, such as charity work, neighborhood improvement, or sports coaching for younger children. I **wholeheartedly** **concur** with this view due to the **multifaceted** benefits it offers to students and society.
+
+Firstly, engaging in community service activities **fosters** a sense of social responsibility in students. By participating in charity work, they understand the struggles faced by the less fortunate, thereby developing empathy and compassion. This emotional intelligence is essential for their overall personal development.
+
+Secondly, such activities also provide practical knowledge and skills that are not typically covered in traditional classroom settings. For instance, teaching sports to younger children can enhance their leadership and communication skills, which are invaluable in their future careers.
+
+Lastly, **a community that encourages its youth to contribute to its betterment is likely to prosper**. When students improve their neighborhoods, they not only enhance the physical environment but also strengthen the community spirit.
+
+In conclusion, I **firmly** believe that unpaid community service should be an integral part of high school programs due to its potential in **nurturing socially responsible citizens**, **imparting practical skills**, and fostering community development.
+
+impart practical skills
+foster development
+
+
+## Do you agree or disagree with the following statement? Technology has made children less creative than they were in the past.
+The advent of technology has undeniably revolutionized our lives, but its impact on children's creativity is a topic of contention. I, however, disagree with the assertion that technology has made children less creative.
+
+Firstly, technology has provided children with a plethora of platforms to express their creativity. For instance, apps like 'Tynker' and 'Scratch' allow children to learn coding in a fun and interactive way, thereby fostering their creativity and problem-solving skills.
+
+Secondly, technology has made information and learning resources readily accessible. Children can now learn about different cultures, arts, and sciences at the click of a button. This exposure broadens their horizons and stimulates their imagination, thereby enhancing their creativity.
+
+However, it is crucial to ensure that children's use of technology is appropriately supervised. Excessive screen time can lead to a lack of physical activity and social interaction, which are also vital for a child's overall development.
+
+In conclusion, technology, when used judiciously, can be a powerful tool to boost children's creativity. It is our responsibility as adults to guide children in harnessing the potential of technology effectively and safely.
+
+
 promote, enhance, faciliate, cultivate, stimulate
 产生：breed
 直接赞成：

@@ -1,10 +1,14 @@
 
-
+## Hard to pronounce
+the advancement of technology has significantly influenced our lives.
+information and services are now at our fingertips
+the rapid pace of technological change can also cause stress and anxiety
+I wholeheartedly concur with this view
 
 
 ## Vocabulary
 
-
+physical **inactivity** and social **isolation**
 Ludicrous: unreasonable
 Pinnacle
 Proponent
