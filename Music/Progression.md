@@ -1,10 +1,31 @@
-
-
-
-
-## Scale
-
-
+Glarity Summary
+* Odo shinko
+	* IV V iii vi
+	* Japan
+	* V 具有 dominant function，可以提供最多的 tension
+* axis progression
+	* I V vi IV
+	* Let it Be, Someone like you
+* the other axis progression
+	* vi IV I V
+* Andalusian Cadence
+	* i bVII bVI V 
+	* Happy Together
+	* descending
+* Another Andalusian Cadence
+	* i bVII bVI bVII
+	* All Along the Watchtower
+* Doo-wop progression
+	* I vi IV V
+	* Stand by me, Happiness is a warm gum
+	* tonic -> six -> subdominant -> dominant -> tonic
+* another
+	* I V IV V
+* Mixolydian Vamp
+	* I bVII IV I
+	* Hey Jude, Sweet Child O' Mine, Sweet Home Alabama
+* Dorian Vamp
+	* i IV
 * Mixolydian
 	* 1 2 3 4 5 6 b7
 	* mellow, relax, bold
