@@ -1,4 +1,4 @@
-Glarity Summary
+
 * Odo shinko
 	* IV V iii vi
 	* Japan
