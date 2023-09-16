@@ -306,7 +306,7 @@ In conclusion, while the need to respect individuality is important, the benefit
 
 stifle
 ## Sexual education should be mandatory in schools.
-indispensible 不可或缺
+indispensable 不可或缺
 Sexual education is a contentious issue, with divergent views on its inclusion in the school curriculum. However, I firmly believe that it should be mandatory in schools.
 
 Primarily, sexual education **equips students with knowledge** about their bodies, enabling them to make informed decisions about their health and well-being. It provides information about safe sex practices, thereby reducing the risk of sexually transmitted infections and unwanted pregnancies.
@@ -402,7 +402,6 @@ Advocates for control underline the potential detriments 损害 mobile phones ca
 On the contrary, a segment of society views mobile phones as essential tools for children. They argue that phones **equip children with skills** necessary for the 21st century, such as digital literacy 数码素养. Furthermore, phones can serve as safety devices, providing parents the ability to track their children's location.
 
 In my perspective, a balanced approach is required. While acknowledging the indispensable role of mobiles in today's world, it's crucial to establish boundaries for children's usage. Parents and educators should **instill responsible digital habits**, ensuring the advantages of mobile phones are harnessed and potential threats mitigated.
-
 
 ## School should be in session year-round
 I vehemently 强烈地 disagree with the notion of having schools in session all year round. The primary reason for my disagreement is the necessity for children to have recreational time. **A break is essential for students to recharge and rejuvenate**. This is best provided by school holidays which often coincide with family vacations, allowing for quality family time. This **aids** in their social development and **emotional well-being**.
@@ -530,6 +529,14 @@ Therefore, rather than banning homework, it should be thoughtfully assigned and 
 
 supplement to regular curricula
 
+## Some people think that too much money has been spent looking after and repairing old buildings, so we should knock down old buildings and build modern ones instead. To what extent do you agree or disagree?
+While it's true that maintaining and repairing old buildings can be costly, it's essential to consider the cultural, historical, and aesthetic value they hold. These buildings serve as tangible links to our past, offering insights into different eras and architectural styles. They contribute to a city's unique identity and charm, often becoming significant tourist attractions.
+
+Conversely, replacing them with modern structures may lead to cities losing their distinct character, resulting in a homogenized 一致的 urban landscape. Moreover, sustainable practices like adaptive reuse of old buildings can be both economically and environmentally beneficial.
+
+However, not all old buildings may warrant 使...合理  preservation. Decisions should be based on factors like historical significance, architectural value, and structural safety. In cases where old buildings pose safety risks or lack historical value, replacement with modern, energy-efficient structures could be justified.
+
+In conclusion, a balanced approach, considering both the preservation of heritage and the need for modern infrastructure, is necessary.
 
 ## 表态：
 直接赞成: 
@@ -581,22 +588,38 @@ Highlight:
 	* cultivates discipline, character, tolerance
 	* breed inequalities, responsibilities, controversies
 	* bolster emotional stability
-* revolutionized
-* mandatory
-* equipped sb with
-* detrimental to the (emotional) well-being of students
-* profound implications 
 * it provide/equip .. that is essential for/require for
-* stress and anxiety
-* holistic view of 
-* the accelerated pace of modern life/the advent of digital culture
-* host wealth/benefits of
-* Educating the public about the environmental implications of ... decisions **alongside** encouragement towards eco-friendly ... will enable a shift to sustainable living.
-* stringent punishment can deter
-* stifle/undermine/deter/stagnate/act as a deterrent
-* amplify/exacerbate inequalities
-* empathy
+* 快速发展/节奏：the accelerated pace of modern life/the advent of digital culture
+* 现代新技术：
+	* privacy concerns and social isolation
+* 描述优点: essential/holds benefits/irreplaceable/indispensable
+	* revolutionized
+* 描述阻碍/损害：
+	* stifle creativity/undermine/deter abuse/stagnate growth/act as a deterrent
+* 减轻负面影响: mitigate, curtail
+* 严格的法律/惩罚：stringent punishment can deter
+* 教育的本质驱动作用：Should recycled material disposal be clearly explained and recycling become part of school curricula 课程, it may proliferate 扩散 organically without the need for regulation.
+	*  Educating the public about the environmental implications of ... decisions **alongside** encouragement towards eco-friendly ... will enable a shift to sustainable living.
+* 心理
+	* 积极情绪：empathy, compassion, mutual respect
+	* 消极情绪：stress, anxiety
+* 不公平：amplify/exacerbate educational/socio-economic disparities/inequalities, equitable
+* 校园教育：
+	* detrimental to the (emotional) well-being of students
+	* supplement to classroom lessons/regular curricula
+	* extracurricular activities
+ * 整体总结：
+	 * idea with profound implications 
+	 * holistic view of 
+ * 连接词：
+	 * 并列：Additionally, Nevertheless, Besides, Moreover, Furthermore, Lastly
+	 * 引导：Leading to, Hence, Therefore, As a Consequence, Consequentially
+	 * 转折：However, whereas, Contrarily, Conversely
+	 * 总结：Conclusively, Personally
+ * misc:
+	 * cultural/historical/aesthetical
+	 * cultural landmarks
 
-privacy concerns and social isolation
+
 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
 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
