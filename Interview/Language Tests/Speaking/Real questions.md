@@ -52,9 +52,18 @@ How do you stay focused?
 * creating a quiet environment, setting clearer goals, taking regular breaks
 
 
+### why do some people like planting flowers?
+People enjoy planting flowers for their **aesthetic appeal**, **therapeutic benefits**, environmental impact, and the **satisfaction gained from nurturing growth**.
+
+
+
+## Parks 
+Yes, many young people enjoy visiting parks. They offer a place for **relaxation**, **exercise**, socializing, and **connecting with nature**, contributing to their overall well-being.
+Older individuals often enjoy walking, **bird watching**, reading, or simply **relaxing** in parks. They may also participate in group activities such as tai chi, yoga, or chess.
+Parks enhance a city by providing recreational spaces, improving air quality, promoting physical health, fostering community, and increasing property values.
+
 
 why do some people like planting flowers?
 * People enjoy planting flowers for their aesthetic appeal, therapeutic benefits, environmental impact, and the satisfaction gained from nurturing growth.
 
 what benefits can parks bring to a city ?
-* Parks enhance a city by providing recreational spaces, improving air quality, promoting physical health, fostering community, and increasing property values.

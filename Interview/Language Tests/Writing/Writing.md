@@ -583,7 +583,7 @@ Highlight:
 	* enhance environment, productivity, well-being, ability, mental-clarity, leadership, skills
 	* foster environment, independent, understanding, growth
 	* stimulate creativity, growth, imagination
-	* promote environment, usage
+	* promote environment, usage, health
 	* facilitate opportunity, collaboration
 	* cultivates discipline, character, tolerance
 	* breed inequalities, responsibilities, controversies
@@ -607,7 +607,7 @@ Highlight:
 * 校园教育：
 	* detrimental to the (emotional) well-being of students
 	* supplement to classroom lessons/regular curricula
-	* extracurricular activities
+	* extracurricular/recreational activities
  * 整体总结：
 	 * idea with profound implications 
 	 * holistic view of 
