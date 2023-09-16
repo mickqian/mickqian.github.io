@@ -599,9 +599,9 @@ Highlight:
 * 减轻负面影响: mitigate, curtail
 * 严格的法律/惩罚：stringent punishment can deter
 * 教育的本质驱动作用：Should recycled material disposal be clearly explained and recycling become part of school curricula 课程, it may proliferate 扩散 organically without the need for regulation.
-	*  Educating the public about the environmental implications of ... decisions **alongside** encouragement towards eco-friendly ... will enable a shift to sustainable living.
+	* Educating the public about the environmental implications of ... decisions **alongside** encouragement towards eco-friendly ... will enable a shift to sustainable living.
 * 心理
-	* 积极情绪：empathy, compassion, mutual respect
+	* 积极情绪：empathy, compassion, mutual respect, discipline, 
 	* 消极情绪：stress, anxiety
 * 不公平：amplify/exacerbate educational/socio-economic disparities/inequalities, equitable
 * 校园教育：
@@ -615,7 +615,7 @@ Highlight:
 	 * 并列：Additionally, Nevertheless, Besides, Moreover, Furthermore, Lastly
 	 * 引导：Leading to, Hence, Therefore, As a Consequence, Consequentially
 	 * 转折：However, whereas, Contrarily, Conversely
-	 * 总结：Conclusively, Personally
+	 * 总结：Conclusively, Personally, In essense
  * misc:
 	 * cultural/historical/aesthetical
 	 * cultural landmarks
