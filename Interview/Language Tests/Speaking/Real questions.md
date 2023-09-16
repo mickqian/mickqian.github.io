@@ -46,3 +46,9 @@ While freedom of expression is a right, it must be balanced with others' rights 
 
 
 
+How do you stay focused? 
+* by disconnecting from distractions
+* concentrate on the task at hand
+
+
+
