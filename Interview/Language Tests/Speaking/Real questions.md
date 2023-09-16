@@ -49,6 +49,12 @@ While freedom of expression is a right, it must be balanced with others' rights 
 How do you stay focused? 
 * by disconnecting from distractions
 * concentrate on the task at hand
+* creating a quiet environment, setting clearer goals, taking regular breaks
 
 
 
+why do some people like planting flowers?
+* People enjoy planting flowers for their aesthetic appeal, therapeutic benefits, environmental impact, and the satisfaction gained from nurturing growth.
+
+what benefits can parks bring to a city ?
+* Parks enhance a city by providing recreational spaces, improving air quality, promoting physical health, fostering community, and increasing property values.
