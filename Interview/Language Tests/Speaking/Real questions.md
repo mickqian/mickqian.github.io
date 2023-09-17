@@ -1,4 +1,13 @@
 
+常用：
+* characterized by its international flair, vibrant atmosphere, and dynamic energy
+* I reside in Hangzhou, a city tucked away in the southeastern region of China, characterized by its international flair, vibrant atmosphere, and dynamic energy
+* tranquil 安静的
+* offer me an ideal environment for practicing and listening to music, while **engaging** in recreational music creation
+* i once met xxx at a concert, when he was playing as the lead guitarist
+
+
+
 ## What kind of clothes do you like to wear?
 As a fan of Margaret Howell's designs, my clothing preference leans towards **minimalistic and timeless** pieces. I appreciate the subtle elegance and functionality that characterizes Howell's collections. Her designs, often inspired by the natural world and traditional British **craftsmanship**, resonate with my personal style ethos 精神.
 

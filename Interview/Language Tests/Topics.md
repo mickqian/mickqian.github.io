@@ -1,6 +1,4 @@
 
-
-
 ## Phrases 
 Kanye is a genius *albeit* a *self-proclaimed* one
 **relevant**: important
