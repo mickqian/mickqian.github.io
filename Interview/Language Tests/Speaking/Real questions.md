@@ -5,6 +5,10 @@
 * tranquil 安静的
 * offer me an ideal environment for practicing and listening to music, while **engaging** in recreational music creation
 * i once met xxx at a concert, when he was playing as the lead guitarist
+* his business range from ... to
+* considering that <-> given that
+* the companies he runs have all achieved global leadership
+* gain an advantage
 
 
 
