@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "0ec2a239d59bafdd",
+    "id": "4a645b7f4ce10f33",
     "type": "split",
     "children": [
       {
-        "id": "b8e8f01cb3e3fb32",
+        "id": "a42e3baec631c1df",
         "type": "tabs",
         "children": [
           {
-            "id": "37ef7aee814cb3d4",
+            "id": "1a1592f3d308bd86",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -25,11 +25,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a5530b4f19ceae00",
+    "id": "2cae730d6f8399a5",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "42d125a6b88e54e2",
+        "id": "9a8986ca024dd09e",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -39,7 +39,7 @@
         }
       },
       {
-        "id": "cfc7059d3dd4d987",
+        "id": "dca9fc1ab390f100",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -54,7 +54,7 @@
         }
       },
       {
-        "id": "137c7a12273041cf",
+        "id": "e3b572467fe63fdf",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -65,7 +65,7 @@
         }
       },
       {
-        "id": "8848debd8938a34f",
+        "id": "8f4bcb1a77c7efba",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -76,11 +76,11 @@
     "currentTab": 0
   },
   "right": {
-    "id": "83fcaeaf08a89113",
+    "id": "f9d856a713af0f8d",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "7b791da1e4a796c3",
+        "id": "64ad14293493e3a8",
         "type": "leaf",
         "state": {
           "type": "backlink",
@@ -97,7 +97,7 @@
         }
       },
       {
-        "id": "f8d3d4e87592e781",
+        "id": "95d6c7b0b8d10555",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
@@ -109,7 +109,7 @@
         }
       },
       {
-        "id": "38aec38a463d57ec",
+        "id": "7adc9e91f1cf57af",
         "type": "leaf",
         "state": {
           "type": "outline",
@@ -131,35 +131,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37ef7aee814cb3d4",
+  "active": "9a8986ca024dd09e",
   "lastOpenFiles": [
-    "Coding/DP.md",
-    "Coding/Data Structures.md",
-    "Coding/Algorithms.md",
-    "Profile/Resume/missfont.log",
-    "Language Tests/Topics.md",
-    "Profile/Resume/钱诚亮_浙大_软件工程师_简历.log",
-    "Profile/Resume/钱诚亮_浙大_软件工程师_简历.pdf",
-    "System Design/Key Concepts.md",
-    "Language Tests/Writing/Writing.md",
-    "Profile/Resume/钱诚亮_浙大_软件工程师_简历.tex",
-    "System Design/Thesis/amazon-dynamo-sosp2007.pdf",
-    "Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.tex",
-    "Language Tests/Speaking/Real questions.md",
-    "Language Tests/Writing/Real Questions.md",
-    "Language Tests/Misc.md",
-    "Coding/Miscellaneous.md",
-    "Profile/Resume/钱诚亮_浙大_软件工程师_简历.synctex.gz",
-    "System Design/Thesis/Bigtable.pdf",
-    "Coding/Basic Algorithms you must memorize.md",
-    "Profile/Resume/钱诚亮_resume.pdf",
-    "Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.log",
+    "Language Tests/Speaking/Speaking.md",
+    "Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.pdf",
     "Profile/Resume/resume_preview.png",
-    "Language Tests/Writing.md",
-    "System Design/Tools.md",
-    "System Design/Misc.md",
-    "Coding/Contest.md",
-    "Language Tests/Speaking.md",
-    "Coding/Intuitions.md"
+    "System Design/Thesis/Bigtable.pdf",
+    "Language Tests/Writing/Task1.md",
+    "Language Tests/Writing/Writing.md",
+    "Language Tests/Synonyms.md"
   ]
 }
