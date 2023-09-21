@@ -20,7 +20,7 @@
 * really like <-> am obsessed with/am fascinated with/be fond of/be really into/be keen on
 * good <-> beneficial, rewarding
 * interesting <-> intriguing, fascinating, exciting, inspiring
-* be located/situted/seated in
+* be located/situated/seated in
 * **It's intriguing 令人感兴趣的 to gain a deep understanding about different locations, cultures, and the physical characteristics of our world.** Gain respect for people from different backgrounds
 
 
