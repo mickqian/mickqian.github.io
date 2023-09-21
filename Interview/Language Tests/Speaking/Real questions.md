@@ -52,7 +52,6 @@
 	* i prefer
 
 
-
 ## Part 1
 ### Do people like tea and coffee nowadays?
 Well,  I would say that the love for tea and coffee is still going strong these days. Many people enjoy sipping a cup of tea or coffee to start their day or have a break.
@@ -66,16 +65,10 @@ Absolutely, I enjoy science fiction movies. Movies like 2001: Space Odyssey,  **
 
 
 ### Do you want to know more about outer space?
-Indeed, I'm always eager to learn more about outer space. It's a realm full of endless wonders and discoveries.
-
-
+Indeed, I'm always **eager to** learn more about outer space. It's a realm full of endless wonders and discoveries.
 
 ### Have you ever learnt about outer spaces and stars?
 Yes, I find the vastness and mysteries of outer space fascinating. Stars, galaxies, and the universe truly captivate my interest.
-
-
-
-
 
 
 ### Do you think you are good at choosing gifts?
@@ -246,12 +239,10 @@ He's also devoted to work, leading a team on AI music generation and has gained 
 Moreover, we quickly discovered we both love Italian cuisine and, often **find ourselves at a nearby restaurant**, discussing everything from music to life. 
 
 
-
 ### Job
 
-
 #### Skills
-One job I find particularly interesting is being a guitarist in a band. This role not only requires sophisticated guitar-playing skills but also involves music composition, which can be a deeply creative  process. 
+One job I find particularly interesting is being a guitarist in a band. This role not only requires sophisticated guitar-playing skills but also involves music composition, which can be a deeply creative process. 
 
 #### Exciting and interesting part
 The most exciting aspect of this job is the opportunity to perform all around the world. This global exposure allows me to experience a **variety of cultures, meet diverse people**, and draw inspiration from different environments. It's an incredible way to expand one's horizons and **gain a deeper understanding** of the world.
