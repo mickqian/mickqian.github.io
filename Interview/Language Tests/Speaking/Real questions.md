@@ -13,6 +13,44 @@
 * happy <-> thrilled, delighted, overjoyed
 * offers/provide
 * 不用正面回答，不用以第一人称主语开始
+* it's always a **delight**
+* a variety of 
+* delight
+* encounter
+* really like <-> am obsessed with/am fascinated with/be fond of/be really into/be keen on
+* good <-> beneficial, rewarding
+* interesting <-> intriguing, fascinating, exciting, inspiring
+* be located/situted/seated in
+* **It's intriguing 令人感兴趣的 to gain a deep understanding about different locations, cultures, and the physical characteristics of our world.** Gain respect for people from different backgrounds
+
+
+
+
+
+>[!Info] 慎用
+> Well I never thought about this before but from what I have witnessed, I guess to some extent it can be very indispensable
+
+
+
+>[!Note] 连接词
+>What I mean is
+>So, I would say
+>When it comes to
+>On top of that
+
+
+## 提问句式
+* 回答 yes or no:
+	* 正面: 改写 + 简短原因
+		* 原因不一定要是 主系表(Coffee is refreshing)，还可以是 主动宾(People enjoy a cup of coffee to...)
+	* 反面: 
+* prefer:
+	* my preference would be
+	* I go with
+	* ... would be my first choice
+	* ... is preferable
+	* i prefer
+
 
 
 ## Part 1
@@ -47,7 +85,7 @@ Well, I like to think so! I always try to pick gifts that are thoughtful and mea
 ### Have you ever sent handmade gifts to others?
 Yes, I've made and sent origami gifts. It's a thoughtful, personal touch that people seem to appreciate.
 
-## What do you consider when choosing a gift?
+### What do you consider when choosing a gift?
 I consider the recipient's personal interests, the gift's uniqueness, its quality, and my budget. It's about **matching** the gift to the person.
 
 
@@ -58,10 +96,55 @@ I believe so. I **put thought into** understanding the recipient's preferences, 
 ### How do you help people around you, such as neighbour, family and friends?
 I always try to lend a helping hand to those around me. Whether it's helping my neighbor with their groceries, supporting my family in their endeavors, or being there for my friends when they need someone to talk to, I believe that small acts of kindness can make a big difference in someone's day.
 
-
+### Do you like ice cream?
+Absolutely, I adore ice cream! The variety of flavors and its creamy texture make it a **delightful** treat.
 
 ### How far is it from your home to work or to school?
 It takes me around 20 minutes to get to work/school from my home. It's not too far, so it's quite convenient for me.
+
+### Do you think people will drive more in the future?
+I believe the future might see less individual driving due to the rise of autonomous vehicles and shared transportation services. Environmental concerns may also promote the use of public transportation.
+
+### Are there wild animals in your country?
+Oh, absolutely! In my country, we have a wide variety of wild animals, ranging from majestic tigers and elephants to playful monkeys and colorful birds. It's always a **delight** to encounter them in their natural habitat.
+
+### Do you usually carry a bag(I usually carry a tote bag, which is a convenient version of a bag. It can contain a lot of stuff that I use frequently, like umbreallas and wallet and some snacks)
+Yes, I usually carry a bag. It helps me keep important items like my wallet, keys, and phone organized and easily accessible.
+Yes, I do. I find a denim tote bag quite **handy** for carrying my **essentials** like books, wallet, and phone. It's both **practical and stylish.**
+
+
+### What kinds of bags do you like to carry?
+I prefer convenient and small bags. They're easy to **carry around** and suit my needs without being overly bulky or expensive.
+
+### Do you change your bags often?
+No, I don't change my bags often. I **prefer** sticking to one that's durable and fits my daily needs.
+
+
+
+### Have you ever been to a zoo or a safari park?
+Oh, absolutely! I've been to both a zoo and a safari park. I love seeing all the different animals up close and learning more about them. It's such a fun and educational experience!
+
+
+### Running
+I typically go running in a park nearby, or just around workplace after i finish my work. Occasionlly I would go running around malls with my friends.
+**last time running?**
+The last time I went running was two months ago. I ran with my colleagues across some hills near WestLake. It's bit more of hiking, though. It was exhausting but fun.
+
+Running not only keeps my physically fit, but also mentally rejuvanated. I always feel recharged and rejuvanated after running. It's a low-cost sport that everybody should try.
+
+连接词:
+* regarding/as for/as to/with  regard to/in respect to/concerning/move onto
+
+### What is the animal you would like to see in the wild?
+I would absolutely love to see a majestic lion in the wild. The thought of **witnessing** their raw power and witnessing their beauty up close gives me a sense of excitement and awe 肃然起敬.
+
+### Are there TV programs about wild animals in your country?
+Yes, definitely! We have plenty of TV shows showcasing wild animals in my country, ranging from documentaries **exploring** the unique wildlife in our national parks to entertaining series **featuring** wildlife experts and their adventures in the wilderness.
+
+
+### What's the most popular means of transportation in your hometown?
+In China, the most popular means of transportation are public buses, subways, and bicycles, including e-bikes. High-speed trains are also widely used for long-distance travel.
+
 
 
 ### What kind of clothes do you like to wear?
@@ -80,12 +163,17 @@ I believe running is a wonderful sport. **It promotes endurance, discipline, and
 
 **It promotes endurance, discipline, perseverance, mental strength**
 
+### Computer
+I chose computer science as my major because I've always been fascinated by technology and its potential to solve complex problems.
+
+
+
 ### How do you help people around you, such as neighbors, family and friends ?
 I assist by offering emotional support, sharing knowledge, helping with tasks, and being a reliable presence in their lives.
 
 offering
 
-### How do you like (geography)
+### How do you like (geography)/Travel
 Geography fascinates me. **It's intriguing 令人感兴趣的 to learn about different locations, cultures, and the physical characteristics of our world.**
 
 Absolutely, geography is crucial. It helps us understand the world's physical features, cultures, and the impact of human activity on Earth.
@@ -141,6 +229,36 @@ Up until that point, I had never ventured into the realm of exotic cuisines, so 
 
 What made this meal unusual, and indeed transformative, was that it opened the door for me to explore cooking on my own. This dining experience ignited a culinary curiosity in me that I had not known before, and it continues to influence my food choices and cooking ventures.
 
+### Person
+* work/study with
+* interesting
+* share common interests
+* etc
+
+#### Music & band: 
+I'd like to talk about my friend, Eric, who I met during a band audition. Eric was applying for the guitarist position then, and his passion for music impressed me.
+
+Besides the fact that he's a fantastic musician, he's also a person with charm and charisma. 
+#### Work
+He's also devoted to work, leading a team on AI music generation and has gained reputation in that field. His communication skills impressed me, which makes working with him an exciting and rewarding experience.
+
+#### Interest
+Moreover, we quickly discovered we both love Italian cuisine and, often **find ourselves at a nearby restaurant**, discussing everything from music to life. 
+
+
+
+### Job
+
+
+#### Skills
+One job I find particularly interesting is being a guitarist in a band. This role not only requires sophisticated guitar-playing skills but also involves music composition, which can be a deeply creative  process. 
+
+#### Exciting and interesting part
+The most exciting aspect of this job is the opportunity to perform all around the world. This global exposure allows me to experience a **variety of cultures, meet diverse people**, and draw inspiration from different environments. It's an incredible way to expand one's horizons and **gain a deeper understanding** of the world.
+
+
+#### Express
+What makes this job fascinating is 
 
 ### Interesting person
 One individual who constantly impresses me with his fascinating ideas and opinions is a gentleman I encountered in my band, where he plays the role of lead guitarist. Our paths crossed during an interview session for our band, where his sophisticated musical skills, deep understanding of the art, and innovative ideas took me by surprise.
@@ -151,6 +269,28 @@ Subsequently, we welcomed him as the lead guitarist of our band. During rehearsa
 
 
 ## Part 3
+
+
+### Why should children be kind to their classmates?
+Children should be kind to classmates because it **fosters a positive/harmonious learning environment**. It's crucial to build good relationships between classmates. Besides, kindness also lead to empathy and understanding, which is good for overall well-being and personal growth for children.
+
+### Colleagues
+The most important aspect of a colleague's personality is their ability to communicate effectively and work collaboratively. When it comes to team work, communication and collaboration is the key to productivity. Based on my previous work experience, working with uncooperative colleagues could be exausting.
+
+Proficient colleages could also greatly enhance produtivity.
+
+
+### What are the most popular jobs for yound people in your country(fast food delivery)
+Fast food delivery has indeed become a popular job among young people in many countries, thanks  to the rise of gig economy platforms. Other popular jobs include roles in retail and tech-related jobs, such as app development or marketing.
+
+
+### What is the difference from high-income and low-income jobs in your country?
+High-income jobs in many countries typically **require** advanced **skills**, **degrees**. These jobs often related to profound thinking and management.
+
+Low-income jobs, in comparison, often require less education or specialized skills, may be more related to physical activity and meaningless repeat.
+
+### Do you prefer a job you dislike or just stay unemployed?
+I would prefer the latter. I believe it's better to improve myself unemployed than doing something I hate. I mean, what's the meaning of a job if it doesn't appeal to you? We should be open to change careers.
 
 ### What do you think is the best way to lose weight?
 A balanced approach is best for weight loss. **This includes** a healthy diet, regular exercise, and maintaining a consistent sleep schedule. It's also important to stay hydrated.
@@ -184,3 +324,9 @@ The artifacts from the past do not **necessarily imply** that the ideas containe
 
 ### What kind of people have lots of great ideas in your country? (Innovative people in my country usually come from professions related to computers, media and science. The nature of their jobs drives them to come up with innovative ideas and it is the only way for them to thrive. )
 Innovative thinkers, often found **in fields like** technology, science, and arts, typically have many great ideas. Entrepreneurs and educators also contribute significantly with their creative solutions and approaches.
+
+### What should youngsters do if theyfind the job they are doing does not suit them well?
+* sekk advice from mentors
+* consider further education for new skills
+* exploring new job opportunities
+* Ultimately, the goal is to find a career path that aligns with their interests, skills, and aspirations.
