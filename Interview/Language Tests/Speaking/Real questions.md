@@ -400,10 +400,17 @@ High-income jobs in many countries typically **require** advanced **skills** and
 Low-income jobs, in comparison, often require less education or specialized skills, are often linked to physical activity and meaningless repeat.
 
 #### Do you prefer a job you dislike or just stay unemployed?
-I would prefer the latter. I believe it's better to improve myself unemployed than doing something I hate. I mean, what's the meaning of a job if it doesn't appeal to you? We should be open to change careers.
+I would prefer the latter. I believe it's better to improve myself using the time saved from quitting previous job than doing something I hate. It's helps to choose a better job.
 
 ### What do you think is the best way to lose weight?
 A balanced approach is best for weight loss. **This includes** a healthy diet, regular exercise, and maintaining a consistent sleep schedule. It's also important to stay hydrated.
+
+#### How should young people find a suitable job？ 
+Firstly, young people should **identify** their interests and skills. Besides, resorting to friends and mentors for suggestion is also required. Gaining relevant experience through internships or volunteering can be helpful too. Remember to make good use of job apps, as they provide valuable information.
+
+#### What should youngsters do if they find the job they are doing does not suit them well? 
+They should not be hesitated to change their job. Spending some time seeking dream job and acquiring higher degree is totally worth it. It's essential to keep learning and adapting until they find a job that suits them well.
+
 
 
 ### What do you think of the vegetarians
