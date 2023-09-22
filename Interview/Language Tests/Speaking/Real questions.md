@@ -283,7 +283,6 @@ Another key aspect of the Duanwu Festival is the making and eating of zongzi, wh
 #### Conclusion
 The Duanwu Festival is a time of excitement and camaraderie. It's a unique blend of history, sport, and culinary 烹饪 tradition that makes it a truly special event in the Chinese calendar.
 
-
 ### Public Figure
 * successful
 * popular
