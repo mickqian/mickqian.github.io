@@ -123,6 +123,11 @@ I'd love to live in a neighbor with easy access to amenities like supermarket, c
 ##### Transport facilities
 I live close to city center. The metro station is just 1km away, so it's quite convenient to commute.
 
+
+##### Changes
+Because of the Asian Olympics, some new buildings are rising. Also, the road seems to be more crowded than before, make commuting even harder.
+
+
 ### Have you ever been to a zoo or a safari park?
 Oh, absolutely! I've been to both a zoo and a safari park. I love seeing all the different animals up close and learning more about them. It's such a fun and educational experience!
 
@@ -238,12 +243,10 @@ Moreover, we quickly discovered we both love Italian cuisine and, often **find o
 ### Job
 
 #### Skills
-One job I find particularly interesting is being a guitarist in a band. This role not only requires sophisticated guitar-playing skills but also involves music composition, which can be a deeply creative process. 
-
+One job I find particularly interesting is being a guitarist in a band. I always dream myself as Eric Clapton, although I can never be as good as the guitar God. Anyway, this role not only requires sophisticated guitar-playing skills but also involves music composition, which is a deeply creative process. 
 #### Exciting and interesting part
-The most exciting aspect of this job is the opportunity to perform all around the world. This global exposure allows me to experience a **variety of cultures, meet diverse people**, and draw inspiration from different environments. It's an incredible way to expand one's horizons and **gain a deeper understanding** of the world.
-
-
+The most exciting aspect of this job is the opportunity to perform all around the world. This global exposure allows me to experience a **variety of cultures, meet diverse people**. It's an incredible way to expand one's horizons and **gain a deeper understanding** of the world.
+Also, I get to meet different musicians around the world. **Hopefully I can draw some inspirations and learn from them.**
 #### Express
 What makes this job fascinating is 
 
@@ -388,17 +391,15 @@ The most important aspect of a colleague's personality is their ability to commu
 
 Proficient colleagues could also greatly enhance productivity.
 
+### Jobs
+#### What are the most popular jobs for young people in your country(fast food delivery)
+In my country, fast food delivery has indeed become a popular job among young people, thanks to the rise of delivery platforms and electronic vehicles. Other popular jobs include roles in retail and tech-related jobs, such as app development or marketing.
 
-### What are the most popular jobs for young people in your country(fast food delivery)
-Fast food delivery has indeed become a popular job among young people in many countries, thanks  to the rise of gig economy platforms. Other popular jobs include roles in retail and tech-related jobs, such as app development or marketing.
+#### What is the difference from high-income and low-income jobs in your country?
+High-income jobs in many countries typically **require** advanced **skills** and higher **degrees**. These jobs often related to profound thinking and management.
+Low-income jobs, in comparison, often require less education or specialized skills, are often linked to physical activity and meaningless repeat.
 
-
-### What is the difference from high-income and low-income jobs in your country?
-High-income jobs in many countries typically **require** advanced **skills**, **degrees**. These jobs often related to profound thinking and management.
-
-Low-income jobs, in comparison, often require less education or specialized skills, may be more related to physical activity and meaningless repeat.
-
-### Do you prefer a job you dislike or just stay unemployed?
+#### Do you prefer a job you dislike or just stay unemployed?
 I would prefer the latter. I believe it's better to improve myself unemployed than doing something I hate. I mean, what's the meaning of a job if it doesn't appeal to you? We should be open to change careers.
 
 ### What do you think is the best way to lose weight?
