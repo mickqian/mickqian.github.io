@@ -70,14 +70,14 @@ Indeed, I'm always **eager to** learn more about outer space. It's a realm full 
 ### Have you ever learnt about outer spaces and stars?
 Yes, I find the vastness and mysteries of outer space fascinating. Stars, galaxies, and the universe truly captivate my interest.
 
-
-### Have you ever sent handmade gifts to others?
+### Gifts
+#### Have you ever sent handmade gifts to others?
 Yes, I've made and sent origami gifts. It's a thoughtful, personal touch that people seem to appreciate.
 
-### What do you consider when choosing a gift?
+#### What do you consider when choosing a gift?
 I consider the recipient's personal interests, the gift's uniqueness, its quality, and my budget. It's about **matching** the gift to the person.
 
-### Do you think you are good at choosing gifts? 
+#### Do you think you are good at choosing gifts? 
 I believe so. I **put thought into** understanding the recipient's preferences, which helps me choose meaningful gifts.
 
 Well, I like to think so! I always try to pick gifts that are thoughtful and meaningful to the person I'm giving them to. **It's all about** knowing their interests and preferences, and putting some effort into finding something they'll truly appreciate.
@@ -107,11 +107,27 @@ I prefer convenient and small bags. They're easy to **carry around** and suit my
 ### Do you change your bags often?
 No, I don't change my bags often. I **prefer** sticking to one that's durable and fits my daily needs.
 
+
+### Where you live
+I live in Hangzhou, a vibrant and modern city situated in the southeast of China. Hangzhou is known for its landscape and IT industry. Although the work pace is fast, I think, Hangzhou is still suitable to live in.
+
+I live on my own, enjoying a high-quality bachelor life.
+
+##### Flat or House
+I prefer living in a flat. The **compact nature** of smaller rooms appeals to me. **I hate spending too much  time cleaning and organizing.** 
+Besides, flats are usually closer to city center, making the transportation more easier.
+
+##### Neighbours
+I'd love to live in a neighbor with easy access to amenities like supermarket, caffe and livehouse. Needless to say, I'm a coffee guy and enjoy live music.
+
+##### Transport facilities
+I live close to city center. The metro station is just 1km away, so it's quite convenient to commute.
+
 ### Have you ever been to a zoo or a safari park?
 Oh, absolutely! I've been to both a zoo and a safari park. I love seeing all the different animals up close and learning more about them. It's such a fun and educational experience!
 
 ### Running
-I typically go running in a park nearby, or just around workplace after i finish my work. Occasionlly I would go running around malls with my friends.
+I typically go running in a park nearby, or just around workplace after i finish my work. Occasionally I would go running around malls with my friends.
 **last time running?**
 The last time I went running was two months ago. I ran with my colleagues across some hills near WestLake. It's bit more of hiking, though. It was exhausting but fun.
 
@@ -335,21 +351,33 @@ LiverPool, United Kingdown
 * water sports
 
 #### Kayaking
-* my colleage used to offer Kayaking classes, it was like very popular, so I never get the chance to try it. I occasionally see them kayaking in the river
+* my colleague used to offer Kayaking classes, it was like very popular, so I never get the chance to try it. I occasionally see them kayaking in the river
 * What it is like: It requires paddling through water in a narrow boat.
 * Why want: It's a physical challenge which keeps me fit. I know this sport is tiring. Also, I'm afraid of the water.
 * Why watch: The game can be quite exciting to watch, for the competition and strategy shown by players. The suspense of competition often continues until the end.
 
 
 
-### Bad Experience 
+### Experience 
 
-#### Service
-
+#### Bad Service
+* At an Italian restaurant where I had planned to take my then-girlfriend on our first date. It was two years ago and we were both excited about the night.
+ *  Once seated, the waiter took a long time to take our orders, despite the restaurant not being particularly busy.
+* When our food finally arrived, I was in huge shock. I love Italian food and know how to cook some dishes myself, but the carbonara presented to me was the worst I even seen. Salty, burnt and raw at the same time. Also, my pasta was lukewarm
+* We don't leave plenty of time for the problem to be solved, as we immediately paid our bill and left with disappointment.
+* I will never enter that restaurant again, I swear to god.
 
 
 
 ## Part 3
+
+
+### Bad services 
+#### Types
+* with bringing the wrong food the major one
+* delayed response also count for bad services 
+* negative service attitude annoys customer too
+* lack of professionalism  
 
 
 ### Why should children be kind to their classmates?
