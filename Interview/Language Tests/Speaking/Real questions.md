@@ -81,9 +81,21 @@ I consider the recipient's personal interests, the gift's uniqueness, its qualit
 I believe so. I **put thought into** understanding the recipient's preferences, which helps me choose meaningful gifts.
 
 Well, I like to think so! I always try to pick gifts that are thoughtful and meaningful to the person I'm giving them to. **It's all about** knowing their interests and preferences, and putting some effort into finding something they'll truly appreciate.
+### Help
+#### How do you help people around you, such as neighbour, family and friends?
+I always try to lend a helping hand to those around me. I would help my friends by offering financial support, as well as lending them stuffs they need. Also, I could help them emotionally by encouraging them when they feel depressed or sad.
 
-### How do you help people around you, such as neighbour, family and friends?
-I always try to lend a helping hand to those around me. Whether it's helping my neighbor with their groceries, supporting my family in their endeavors, or being there for my friends when they need someone to talk to, I believe that small acts of kindness can make a big difference in someone's day.
+I assist by offering emotional support, sharing knowledge, helping with tasks, and being a reliable presence in their lives.
+
+#### Do your parents teach you how to help others
+Yes, instead of plain talking, they teach by setting role models for me, instilling me the value of empathy and kindness.
+
+#### Did your parents help you a lot when you were young? 
+Absolutely, my parent help me with homework, or by picking me up to school. These actions of help shape my personalities.
+
+
+#### What have you done to help the elderly? 
+I don't get too much time to spend with elderly actually, but I do went to a nursing home to deliver gifts and food once.
 
 ### Do you like ice cream?
 Absolutely, I adore ice cream! The variety of flavors and its creamy texture make it a **delightful** treat.
@@ -168,10 +180,7 @@ elegance, quality, unisex, minimalistic, timeless
 I chose computer science as my major because I've always been fascinated by technology and its potential to solve complex problems.
 
 
-### How do you help people around you, such as neighbors, family and friends ?
-I assist by offering emotional support, sharing knowledge, helping with tasks, and being a reliable presence in their lives.
 
-offering
 
 ### How do you like (geography)/Travel
 Geography fascinates me. **It's intriguing 令人感兴趣的 to learn about different locations, cultures, and the physical characteristics of our world.**
@@ -370,6 +379,14 @@ LiverPool, United Kingdown
 * We don't leave plenty of time for the problem to be solved, as we immediately paid our bill and left with disappointment.
 * I will never enter that restaurant again, I swear to god.
 
+#### With a young child
+* an occasion when I spent time with a young child. 
+* This happened at my colleague's son's birthday party. I decided to bring a guitar as a gift, knowing the child's interest in music.
+* We ended up spending the entire afternoon together, where I taught him some basic guitar chords and picking technique.
+* By the end of the day, he was able to strum a few simple songs including twinkle twinkle little star. Seeing his sense of achievement and the joy on his face was truly rewarding. 
+* Not only did he feel satisfied, I also experience a great sense of fulfillment by teaching others,  sparking a new passion in a young mind.
+
+
 
 
 ## Part 3
@@ -402,7 +419,7 @@ Low-income jobs, in comparison, often require less education or specialized skil
 #### Do you prefer a job you dislike or just stay unemployed?
 I would prefer the latter. I believe it's better to improve myself using the time saved from quitting previous job than doing something I hate. It's helps to choose a better job.
 
-### What do you think is the best way to lose weight?
+#### What do you think is the best way to lose weight?
 A balanced approach is best for weight loss. **This includes** a healthy diet, regular exercise, and maintaining a consistent sleep schedule. It's also important to stay hydrated.
 
 #### How should young people find a suitable job？ 
@@ -411,6 +428,12 @@ Firstly, young people should **identify** their interests and skills. Besides, r
 #### What should youngsters do if they find the job they are doing does not suit them well? 
 They should not be hesitated to change their job. Spending some time seeking dream job and acquiring higher degree is totally worth it. It's essential to keep learning and adapting until they find a job that suits them well.
 
+### Children
+
+#### Do you think children should have a lot of toys? 
+While proper amount of toys can stimulate creativity, too many may lead to distraction. It's about balance and quality, not quantity.
+##### Do you think children should follow all the rules? 
+While proper amount of rules help regulate children's behavior and cultivate discipline, following all of them may hinder creativity and go against the free nature of children.
 
 
 ### What do you think of the vegetarians
