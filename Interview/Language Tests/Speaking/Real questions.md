@@ -237,6 +237,112 @@ One individual who constantly impresses me with his fascinating ideas and opinio
 Subsequently, we welcomed him as the lead guitarist of our band. During rehearsals, he **consistently** brought unique ideas to the table, whether it was about the song's design, the composition of the chord progression, or nuanced suggestions about the tone. He even **offered insights** into our stage presence, suggesting specific movements and poses for us. This advice not only impressed me but also led to remarkable outcomes. 
 
 
+### Person
+* work/study with
+* interesting
+* share common interests
+* etc
+
+#### Music & band: 
+I'd like to talk about my friend, Eric, who I met during a band audition. Eric was applying for the guitarist position then, and his passion for music impressed me.
+
+Besides the fact that he's a fantastic musician, he's also a person with charm and charisma. 
+#### Work
+He's also devoted to work, leading a team on AI music generation and has gained reputation in that field. His communication skills impressed me, which makes working with him an exciting and rewarding experience.
+
+#### Interest
+Moreover, we quickly discovered we both love Italian cuisine and, often **find ourselves at a nearby restaurant**, discussing everything from music to life. 
+
+
+#### Help others
+As an inexperienced amateur band, we often encounter numerous problems, involving equipment, effects, skills or music transcription. He's always the one to step up with his expertise. Thanks to his help, we managed to produce our original song and perform in local concerns, which turned out to be quite successful.
+
+#### Decision & What makes you proud
+* I've always been fascinated by the beauty of music. I enjoy listening to a variety of genre of music, but I never thought of performing those music.
+* About two years ago, I decided to pick up an instrument and learn by myself, just out of self-expression and fullfilment
+* Due to long working hours during the day, I don't have the time to attend any music classes. Thanks to various resouces on social media such as Youtube, BiliBili, I can learn from guitar masters anytime anywhere I want, and my guitar skills improved very quickly.
+* Luckily, through lots of practice, I managed to join a local band and play as the lead guitarist. We managed to produce our original song and perform in local concerns, which turned out to be quite successful.
+
+#### Late for a meeting
+* a band with members all colleagues
+* 2 days before performing in a local concert, last rehearsal before performance.
+* was held up by a emergency task from work, couldn't make it to rehearsal on time
+* I felt very sorry and embarrased for breaking my own promise. Luckily the rehearsal and performance went out well, without major incidents.
+
+### Festival
+
+#### Date
+The Duanwu Festival, also known as the Dragon Boat Festival, is a traditional celebration in China. It's held annually on the 5th day of the 5th month of the lunar calendar, which usually falls in June.
+
+#### Dragon boat race
+The festival is **rich in history and culture**, **and it's known for its dragon boat races**. Teams of boats moveforward in rhythm to the beats of a drum, racing to reach the finish line first. It's a thrilling event that draws crowds of spectators.
+
+#### Zongzi
+Another key aspect of the Duanwu Festival is the making and eating of zongzi, which are sticky rice dumplings wrapped in bamboo leaves. They're often filled with ingredients like meats, beans, and nuts. In fact, there is a debate over whether Zongzi should be sweet or salty between north and south part of the country.
+
+#### Conclusion
+The Duanwu Festival is a time of excitement and camaraderie. It's a unique blend of history, sport, and culinary 烹饪 tradition that makes it a truly special event in the Chinese calendar.
+
+
+### Public Figure
+* successful
+* popular
+
+I'like to talk about a legendary figure in the music world, David Bowie, who is widely recognized for his distinctive voice, eclectic musical style, and innovative approach to artistry. He's an intriguing character because of his constant reinvention and his ability to blend various musical genres, including rock, pop, electronic, and experimental music.
+
+Bowie's popularity stems from his unique persona and his groundbreaking music. He created numerous iconic albums like "The Rise and Fall of Ziggy Stardust and the Spiders from Mars" and "Heroes", which have influenced countless musicians and left a lasting impact on the music industry. His alter ego, Ziggy Stardust, a flamboyant and androgynous extraterrestrial being, challenged societal norms and contributed to his fame.
+
+What made Bowie particularly helpful was his openness to change and his courage to push boundaries. He was unafraid to experiment with different styles and personas, opening the door for future artists to explore their identities and creativity without fear of judgment. His influence extends beyond music to fashion, film, and visual art, making him an enduring cultural icon. David Bowie's legacy continues to inspire and captivate audiences worldwide.
+
+### Clothes
+As a big fan of Margaret Howell, my wardrobe mainly features her classic pieces.
+
+Personally, I'm fond of neutral tones, such as blacks, white, brown and gray, which aligns with the tone in Howell's collection. I find these colors low-profile, **versatile** and easy to pair. Besides, the high-quality of the material also make it pratical and endurable.
+
+Furthermore, Howell's clothes allow me to express myself without being confined to traditional gender norms, as they blend masculinity and femininity, creating a unisex appeal.
+
+It's the **minimalist**, **quality** and **versatility** of Howell's clothes that attract me.
+
+### Place
+#### Distant places I want to go in the future
+LiverPool, United Kingdown
+* Hometown of the The Beatles & Merceybeat, which is a genre of music.
+* Liverpool F.C. is also quite competitive, and I'd love to watch Salah score.
+* I can't wait to explore those locations mentioned in the songs, strawberry field, eleanor rigby, penny lane and so much more I can't recall at the momenet
+
+#### Relax | Aparment
+* I don't live my own apartment now, I'm living in rent house, so the space is limited
+* For the kitchen part: As I'm a cooking person and my favourism towards Italian food, pizza oven should be in my kitchen
+* As for the overall decoration style: I prefer Scandinavian, for its blend of light and wood furniture
+* Besides: 
+	* though I do leave a cornor of the room to place my guitar, amplifier and pedals, allowing me to
+	* play guitar or doing some improvisation to a backing track when I want to
+* relaxing, gratifying, satisfactory
+
+#### Store
+* a new guitar flagship shop, **featuring** my favorite guitar brand
+* It sells a variety of guitars, as well as related accessories including guitar amp, pick, string and strapes
+* Based on my observation there, most of the customers are musicians or guitar players. Random walkers will occasionlly come in, out of curiosity.
+* With the rising of music industry and musical aesthetics, I believe more and more people will have their own guitars, making this shop thrive in business
+### Trip to Xinjiang
+* With some of my colleagues and friends, 5 in total, just enough to fill a car
+* Car journey: We drove all the way from Urumqi to Yili, which is on the border of Xinjiang. Long hours in the car made us all exhausted both mentally and physically. Luckily we had shifts, so we each get to have a break.
+* The hardship was totally worth it, as we not only get to **experience exotic landscapes and culture**, but also had to chance to try local food, which can't be seen in Hangzhou.
+
+
+### Sport
+
+* watch 
+* water sports
+
+#### Kayaking
+* my colleage used to offer Kayaking classes, it was like very popular, so I never get the chance to try it. I occasionally see them kayaking in the river
+* What it is like: It requires paddling through water in a narrow boat.
+* Why want: It's a physical challenge which keeps me fit. I know this sport is tiring. Also, I'm afraid of the water.
+* Why watch: The game can be quite exciting to watch, for the competition and strategy shown by players. The suspense of competition often continues until the end.
+
+
+
 
 
 ## Part 3
