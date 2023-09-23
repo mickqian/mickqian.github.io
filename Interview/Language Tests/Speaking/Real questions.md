@@ -320,6 +320,9 @@ What made Bowie particularly helpful was his openness to change and his courage 
 
 
 #### Wear most often 
+
+I adhere to the principle of quality over quantity.
+
 * Denim jacket, made by LVC
 * For its style, It's a Type-II Trucker jacket, featuring classical American postwar retro style 
 * Denim Cloth is my favorite material for a jacket, I like the rigid nature of it
