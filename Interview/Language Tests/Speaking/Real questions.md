@@ -124,8 +124,7 @@ It takes me around 20 minutes to get to work/school from my home. It's not too f
 ### Do you think people will drive more in the future?
 I believe the future might see less individual driving due to the rise of autonomous vehicles and shared transportation services. Environmental concerns may also promote the use of public transportation.
 
-### Are there wild animals in your country?
-Oh, absolutely! In my country, we have a wide variety of wild animals, ranging from majestic tigers and elephants to playful monkeys and colorful birds. It's always a **delight** to encounter them in their natural habitat.
+
 
 ### Do you usually carry a bag(I usually carry a tote bag, which is a convenient version of a bag. It can contain a lot of stuff that I use frequently, like umbrellas and wallet and some snacks)
 Yes, I usually carry a bag. It helps me keep important items like my wallet, keys, and phone organized and easily accessible.
@@ -157,10 +156,17 @@ I live close to city center. The metro station is just 1km away, so it's quite c
 ##### Changes
 Because of the Asian Olympics, some new buildings are rising. Also, the road seems to be more crowded than before, make commuting even harder.
 
+### Animals
+#### Have you ever been to a zoo or a safari park?
+Oh, absolutely! I've been to a local zoo here in Hangzhou, where I rode a tiger and took some pictures. Although at that time I was not aware of the danger of these animals.
 
-### Have you ever been to a zoo or a safari park?
-Oh, absolutely! I've been to both a zoo and a safari park. I love seeing all the different animals up close and learning more about them. It's such a fun and educational experience!
 
+#### Animal want to see
+I always want to seeing a gorilla, for I've heard about there intellect, and also, has a name similar  to one of my favorite band, Gorillaz.
+
+
+#### Are there TV programs about wild animals in your country?
+Yes, definitely! We have plenty of TV shows showcasing wild animals in my country, ranging from documentaries **exploring** the unique wildlife in our national parks to entertaining series **featuring** wildlife experts and their adventures in the wilderness.
 ### Running
 I typically go running in a park nearby, or just around workplace after i finish my work. Occasionally I would go running around malls with my friends.
 **last time running?**
@@ -174,15 +180,9 @@ Running not only keeps my physically fit, but also mentally rejuvenated. I alway
 连接词:
 * regarding/as for/as to/with regard to/in respect to/concerning/move onto
 
-### What is the animal you would like to see in the wild?
-I would absolutely love to see a majestic lion in the wild. The thought of **witnessing** their raw power and witnessing their beauty up close gives me a sense of excitement and awe 肃然起敬.
-
-### Are there TV programs about wild animals in your country?
-Yes, definitely! We have plenty of TV shows showcasing wild animals in my country, ranging from documentaries **exploring** the unique wildlife in our national parks to entertaining series **featuring** wildlife experts and their adventures in the wilderness.
 
 ### What's the most popular means of transportation in your hometown?
 In China, the most popular means of transportation are public buses, subways, and bicycles, including e-bikes. High-speed trains are also widely used for long-distance travel.
-
 
 
 ### What kind of clothes do you like to wear?
@@ -314,6 +314,16 @@ Bowie's popularity stems from his unique persona and his groundbreaking music. H
 What made Bowie particularly helpful was his openness to change and his courage to push boundaries. He was unafraid to experiment with different styles and personas, opening the door for future artists to explore their identities and creativity without fear of judgment. His influence extends beyond music to fashion, film, and visual art, making him an enduring cultural icon. David Bowie's legacy continues to inspire and captivate audiences worldwide.
 
 ### Clothes
+
+
+#### Wear most often 
+* Denim jacket, made by LVC
+* For its style, It's a Type-II Trucker jacket, featuring classical American postwar retro style 
+* Denim Cloth is my favorite material for a jacket, I like the rigid nature of it
+* I'm obsessed with denim blue, it encapsulates both masculinity and energy
+* Since it's quite thick, I wear them only in Autumn and Spring, about once a weak
+
+#### Brand
 As a big fan of Margaret Howell, my wardrobe mainly features her classic pieces.
 
 Personally, I'm fond of neutral tones, such as blacks, white, brown and gray, which aligns with the tone in Howell's collection. I find these colors low-profile, **versatile** and easy to pair. Besides, the high-quality choice of the material also make it practical and endurable.
