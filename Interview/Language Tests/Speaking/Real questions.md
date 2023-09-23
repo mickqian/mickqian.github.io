@@ -407,6 +407,10 @@ What made this meal unusual, and indeed transformative, was that it opened the d
 
 
 ## Part 3
+### Help
+It teaches about responsibility and teamwork.
+
+Empathy, respect, friendship **motivate** children to help **voluntarily**. 
 
 ### Bad services 
 #### Types
