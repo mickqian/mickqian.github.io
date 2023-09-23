@@ -440,6 +440,19 @@ Firstly, young people should **identify** their interests and skills. Besides, r
 #### What should youngsters do if they find the job they are doing does not suit them well? 
 They should not be hesitated to change their job. Spending some time seeking dream job and acquiring higher degree is totally worth it. It's essential to keep learning and adapting until they find a job that suits them well.
 
+
+### Fashion 
+elderly: prefer comfortable clothing 
+young: lean towards modern fashion 
+
+express personality, boost confidence, show their aesthetic
+
+#### Women and men
+perceived.
+The major variety of clothing is designed for women, for their superior spending power
+
+
+
 ### Children
 
 #### Do you think children should have a lot of toys? 
