@@ -383,7 +383,7 @@ What made this meal unusual, and indeed transformative, was that it opened the d
 * music about surf rock
 * second year of college, in a school club
 * prepare keynote, videos
-* not so many people, but satistified, self-expression
+* not so many people, but satisfied, self-expression
 
 
 
@@ -447,6 +447,18 @@ Fast food like hamburgers are often convenient, affordable, and tasty. They also
 
 ### What are the advantage and disadvantages of eating in restaurants?
 Eating in restaurants offers variety, convenience, and a chance to socialize. However, it can be expensive and less healthy due to hidden ingredients and large portion sizes.
+
+### Internet
+#### Communication
+Indeed, the internet has revolutionized communication. In the past, the communication is subjected to geographical boundaries. But nowadays, communication can occur virtually anywhere, **provided it has access to internet.**
+
+
+#### How do we handle stress?
+Managing stress can involve a balanced diet, regular exercise, sleep regularly, or meditation. Talking with friends about concerns can also help.
+
+
+#### Why mental breakdown
+I guess that's due to the rapid pace of modern city. Everyone is strained 紧张的 financially and mentally. Besides, communication via internet lacks  personal touch compared to face-to-face interactions.
 
 
 ### When do you think children start to have their own opinions?
