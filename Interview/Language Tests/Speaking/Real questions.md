@@ -320,8 +320,9 @@ What made Bowie particularly helpful was his openness to change and his courage 
 
 
 #### Wear most often 
+I prefer wearing clothes of high quality, with a little bit vintage vibe, and also they are better to be unisex 
 
-I adhere to the principle of quality over quantity.
+I adhere to the principle of/choose quality over quantity.
 
 * Denim jacket, made by LVC
 * For its style, It's a Type-II Trucker jacket, featuring classical American postwar retro style 
@@ -401,7 +402,13 @@ What made this meal unusual, and indeed transformative, was that it opened the d
 * prepare keynote, videos
 * not so many people, but satisfied, self-expression
 
+#### Learn 
+I used to play notes mechanically, like a machine without anything original.
+With platforms like Youtube, which provide numerous valuable lessons on music theory, I can learn it online, without having to go to traditional music schools.
 
+
+However, it's **challenging** as it demands hard work and continuous effort 坚持努力.
+So it's about perseverance. 
 
 
 
@@ -517,3 +524,18 @@ Innovative thinkers, often found **in fields like** technology, science, and art
 * consider further education for new skills
 * exploring new job opportunities
 * Ultimately, the goal is to find a career path that aligns with their interests, skills, and aspirations.
+
+### Skills
+To keep up with the trend of AI
+
+
+There's no such thing as a starting point for children to make decisions. Children can make decisions as long as they are able to understand the consequences and they have gone through thorough thought.
+
+
+#### Income or interest
+Since in the **post-pandemic era**, the economy is **declining**/remaining at a low level. Apparently, young people's choice of study is largely influenced by potential income
+
+
+#### advice
+offer mature and practical guidance based on their own experiences. However, in the end, students need to consider where their interests lie on. Take myself as example, I choose CS as my major out of my passion towards computer.
+
