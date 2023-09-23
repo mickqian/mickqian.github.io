@@ -17,7 +17,7 @@
 * a variety of 
 * delight
 * encounter
-* really like <-> am obsessed with/am fascinated with/be fond of/be really into/be keen on
+* really like <-> am obsessed with/am fascinated with/be fond of/be really into/be keen on/appreciate
 * good <-> beneficial, rewarding
 * interesting <-> intriguing, fascinating, exciting, inspiring
 * be located/situated/seated in
@@ -54,10 +54,27 @@
 
 
 ## Part 1
-### Do people like tea and coffee nowadays?
+
+
+
+### Dream 
+
+#### Why
+His sophisticated guitar playing skills and outstanding composition abilities admires me. I wish I was the fourth member of Cream.
+
+#### Has your dream changed?
+Yes, my dream has evolved from, trying to be a fantastic guitarist, to composing my own original music.
+
+
+
+
+
+
+### Drinks
+#### Do people like tea and coffee nowadays?
 Well,  I would say that the love for tea and coffee is still going strong these days. Many people enjoy sipping a cup of tea or coffee to start their day or have a break.
 
-### Do you prefer to use tea or coffee to serve your guests?
+#### Do you prefer to use tea or coffee to serve your guests?
 I usually go with coffee because most of my guests prefer it over tea. I like to have a variety of coffees available to cater to different tastes
 
 
@@ -188,9 +205,14 @@ Geography fascinates me. **It's intriguing 令人感兴趣的 to learn about dif
 
 Absolutely, geography is crucial. It helps us understand the world's physical features, cultures, and the impact of human activity on Earth.
 
-
-### Films (Music)
+### Art
+#### Films (Music)
 Yes, films are beneficial. They provide entertainment, stimulate creativity, and can educate us about different **cultures, histories, and perspectives.**
+
+
+#### Modern or Traditional 
+
+I appreciate both. While modern art fits well into modern life, thus easier to understand, traditional art provides historical experience.
 
 ### Urbanization
 #urban
@@ -357,6 +379,19 @@ One of the most unusual meals I've ever had holds significant meaning to me. I c
 Up until that point, I had never ventured into the realm of exotic cuisines, so **this encounter with Italian food** marked a **novel** experience for me. I was captivated by the rich flavors and unique ingredients that characterized the dishes in this restaurant. I **particularly enjoyed** the Margherita pizza and Carbonara; they remain my favorites to this day.
 
 What made this meal unusual, and indeed transformative, was that it opened the door for me to explore cooking on my own. This dining experience ignited a culinary curiosity in me that I had not known before, and it continues to influence my food choices and cooking ventures.
+#### Speech
+* music about surf rock
+* second year of college, in a school club
+* prepare keynote, videos
+* not so many people, but satistified, self-expression
+
+
+
+
+
+
+
+
 
 ## Part 3
 
