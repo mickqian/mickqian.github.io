@@ -269,7 +269,10 @@ Moreover, we quickly discovered we both love Italian cuisine and, often **find o
 * During rehearsals, he **consistently** brought unique ideas to the table, whether it was about the song's design, or subtle suggestions about the tone of the guitar. Moreover, he even **offered insights** into our stage design, suggesting specific movements and poses for us. All of these ideas sound interesting and intriguing
 
 #### Help others
-As an inexperienced amateur band, we often encounter numerous problems, involving equipment, effects, skills or music transcription. He's always the one to step up with his expertise. Thanks to his help, we managed to produce our original song and perform in local concerns, which turned out to be quite successful.
+As an inexperienced amateur band, we often encounter numerous problems, involving equipment, effects, skills or music transcription. Since he's a semi-professional player, he always manage to solve our equipment problems within seconds. 
+He never seems annoyed or refuse to help, 
+
+Thanks to his help, we managed to produce our original song and perform in local concerns, which turned out to be quite successful.
 
 ### Job
 
