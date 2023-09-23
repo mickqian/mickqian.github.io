@@ -61,25 +61,3 @@ What qualities ..
 总：重申
 
 
-### 小作文
-
-多使用：
-* 定语从句
-* 被动语态
-* 衔接词
-
-写到每一步
-一般现在时
-
-It's clear that there are five distinct stages in this process, beginning with ...,. The final two steps show how...
-
-It's also noticeable that there are five main stages in the development of honey bee, from egg to mature adult insect.
-
-上升： rise/increase/grow/climb/jump/skyrocket
-dramatic increase
-increase uniformly/continuously
-
-see a small rise
-a negligible amount
-
-which was followed by/Next came/which was not far behind
