@@ -11,9 +11,7 @@
 * This includes
 * I particularly
 * happy <-> thrilled, delighted, overjoyed
-* offers/provide
 * 不用正面回答，不用以第一人称主语开始
-* it's always a **delight**
 * a variety of 
 * delight
 * encounter
@@ -137,8 +135,10 @@ I prefer convenient and small bags. They're easy to **carry around** and suit my
 No, I don't change my bags often. I **prefer** sticking to one that's durable and fits my daily needs.
 
 
-### Where you live
-I live in Hangzhou, a vibrant and modern city situated in the southeast of China. Hangzhou is known for its landscape and IT industry. Although the work pace is fast, I think, Hangzhou is still suitable to live in.
+### Where do you live
+Currently I live in an one-room apartment near where I work. It's also close to coffee shops, shopping malls and livehouses, where I can enjoy live music. 
+
+Although the work pace is fast, I think, Hangzhou is still suitable to live in.
 
 I live on my own, enjoying a high-quality bachelor life.
 
@@ -198,9 +198,15 @@ elegance, quality, unisex, minimalistic, timeless
 I chose computer science as my major because I've always been fascinated by technology and its potential to solve complex problems.
 
 
+### Travel
 
+#### Where usually travel?
+For longer vocations, I prefer to **travel to distant places**, like last year when I went to Xinjiang. But for shorter vocations, I usually choose destinations within the subways' reach, such as Shaoxing or Yuhang.
+#### Feeling
 
-### How do you like (geography)/Travel
+I feel relaxed, recharged, and exited when traveling. Especially when I try tasty local food, I feel rather satisfied.
+
+#### How do you like (geography)/Travel
 Geography fascinates me. **It's intriguing 令人感兴趣的 to learn about different locations, cultures, and the physical characteristics of our world.**
 
 Absolutely, geography is crucial. It helps us understand the world's physical features, cultures, and the impact of human activity on Earth.
@@ -406,21 +412,58 @@ What made this meal unusual, and indeed transformative, was that it opened the d
 I used to play notes mechanically, like a machine without anything original.
 With platforms like Youtube, which provide numerous valuable lessons on music theory, I can learn it online, without having to go to traditional music schools.
 
-
 However, it's **challenging** as it demands hard work and continuous effort 坚持努力.
-So it's about perseverance. 
+It's all about perseverance. 
 
-
-
-
+#### Pollution
+* during a visit to my hometown 2 years ago, when I was on a vocation
+* At one time, I'm shocked to notice that I can hardly  see anything, through the heavy fog
+* I looked for the source of this through difficulty, and suddenly some chimneys came into my sight. I suddenly realized that it's power plant that is producing this polluted air.
+* It emitted untreated polluted air, straight into the surroundings.
+* Seeing my hometown suffer from pollution was disheartening and frustrating. It made me more conscious of environmental issues
 
 
 
 ## Part 3
+I Suppose there are several... Firstly... Additionally
+There could be some... For one thing ... For another 
+
+One that i can think of is... Another reason is...
+
+
+
+
+### Pollution
+
+#### Ways to reduce
+
+* promote renewable energy 
+* encourage public transportation
+* educate people about the importance of environment
+* implement strict government regulations
+* recycle waste
+
+
+#### Kinds of pollution
+* air <-> industrial emission
+* water 
+* soil <-> pesticides
+* noise <-> urban areas
+* light <-> affecting wildlife
+
+
+#### Individuals
+play an important role in combating pollution 
+* implement recycling
+* reduce energy consumption by resorting to public transportation 
+* support sustainable products
+
+
+
 ### Help
 It teaches about responsibility and teamwork.
 
-Empathy, respect, friendship **motivate** children to help **voluntarily**. 
+Empathy, compassion, respect, friendship **motivate** children to help **voluntarily**. 
 
 ### Bad services 
 #### Types
