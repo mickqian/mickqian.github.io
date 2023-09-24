@@ -138,7 +138,7 @@ No, I don't change my bags often. I **prefer** sticking to one that's durable an
 ### Where do you live
 Currently I live in an one-room apartment near where I work. It's also close to coffee shops, shopping malls and livehouses, where I can enjoy live music. 
 
-Although the work pace is fast, I think, Hangzhou is still suitable to live in.
+Although the work pace is rapid, I think, Hangzhou is still suitable to live in.
 
 I live on my own, enjoying a high-quality bachelor life.
 
@@ -244,11 +244,6 @@ How do you stay focused?
 * concentrate on the task at hand
 * creating a quiet environment, setting clearer goals, taking regular breaks
 
-
-### Parks 
-Yes, many young people enjoy visiting parks. They offer a place for **relaxation**, **exercise**, socializing, and **connecting with nature**, contributing to their overall well-being.
-Older individuals often enjoy walking, **bird watching**, reading, or simply **relaxing** in parks. They may also participate in group activities such as tai chi, yoga, or chess.
-Parks enhance a city by providing recreational spaces, improving air quality, promoting physical health, fostering community, and increasing property values.
 
 
 ## Part 2
@@ -366,10 +361,11 @@ LiverPool, United Kingdown
 
 
 #### Park
-* xinaghu, not far from where I live
+* xianghu, not far from where I live
 * basically a lake surrounded by grass field, where
-* Not so many people, making it tranquil
-* 
+* Far from the city center, is often not very crounded, making it tranquil
+* bring guitar, enjoy music throughout the day
+* beautiful landscape and **untouched nature**
 
 
 
@@ -504,13 +500,36 @@ It depends on how the tech is being used
 
 ### Parks
 
+#### Do young people like to go?
+From what I've observed, though young people would love to spend some time in the park, (you know), get close to nature, the rapid pace  of modern work life wouldn't allow them to do so. They get off late, and are only available on weekends, and they'd rather spending them at home.
+
+
+* jogging
+* bird-watching, dog-walking
+* Some may choose less tensive activities : chessing, reading, dancing 
+
 
 #### Is making noise one of people's rights?
 While making sound is a right, it must be balanced with others' rights to peace and quiet, especially in shared spaces.
-
-
 #### Why do some people like planting flowers?
-People enjoy planting flowers for their **aesthetic appeal**, **therapeutic benefits**, environmental impact, and the **satisfaction gained from nurturing growth**.
+People enjoy planting flowers for their **aesthetic appeal**, **therapeutic benefits**, environmental impact, and the **satisfaction gained from nurturing growth**. Flowers can cheer me up whole day.
+
+#### Benefits
+* children: promotes physical activity, social **interaction**, connection with **nature**
+* adult: physical exercise, **relieve** **stress**, get them away from the hustle-bustle
+
+improve **mental wellbeing**
+
+#### Would you say people should help maintain public parks and gardens? 
+* ensures clean, safe spaces for everyone to enjoy 
+* fosters a sense of community
+* it encourages environmental stewardship, teaching us to respect and care for our natural surroundings. So, people's involvement is highly beneficial.
+
+#### What benefits can parks bring to a city? 
+* provide green spaces for citizens to relax and recharge
+* foster social interactions
+* Environmentally, reduce pollution, provide habitats for wildlife, improve air quality 
+* provide recreational space, I know central park is a great place for enjoying music, for several people would gather together to remember John Lennon
 
 
 ### Opinions 
