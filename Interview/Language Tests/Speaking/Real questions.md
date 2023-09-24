@@ -27,7 +27,7 @@
 
 
 >[!Info] 慎用
-> Well I never thought about this before but from what I have witnessed, I guess to some extent it can be very indispensable
+> Well I never thought about this before. But from what I have witnessed, I guess to some extent it can be very indispensable
 
 
 
@@ -70,8 +70,11 @@ Well,  I would say that the love for tea and coffee is still going strong these 
 #### Do you prefer to use tea or coffee to serve your guests?
 I usually go with coffee because most of my guests prefer it over tea. I like to have a variety of coffees available to cater to different tastes
 #### How often do you buy a drink
-
 I don't buy drinks on a regular basis. Whenever I see some drinks and I feel like drinking, I'll grab some.
+
+#### Chocolate as gifts
+No. While chocolate as a gift can make nice, I find it a little bit cliche, as it's so common a choice. I find it better to personalize the gifts aligned on the  recipient's interests.
+
 
 ### Do you like science fiction movies?
 Absolutely, I enjoy science fiction movies. Movies like 2001: Space Odyssey,  **stimulate imagination**, present innovative ideas, and offer a unique blend of science and storytelling.
@@ -613,7 +616,24 @@ While proper amount of toys can stimulate creativity, too many may lead to distr
 #### Do you think children should follow all the rules? 
 While proper amount of rules help regulate children's behavior and cultivate discipline, following all of them may hinder creativity and go against the free nature of children.
 
+
+#### Help at home
+* assist with household tasks: laundry, dishwashing, grocery shipping
+* mind their own task: tidying rooms, making beds
+
+
 #### What makes children help each other at school
+* foster empathy, compassion and collaboration, which is good for their teamwork.
+* promote a sense of community and understanding
+
+* empathy, understanding and desire drive them to help spontaneously/voluntarily
+* positive **reinforcement**, rewards and punishment from teachers can motivate them to assist/guide their behavior
+
+#### Community service
+* learn about empathy, responsibility and the  importance of giving back to society
+* teach practical and valuable skills which may be beneficial to there career.
+
+
 
 
 
