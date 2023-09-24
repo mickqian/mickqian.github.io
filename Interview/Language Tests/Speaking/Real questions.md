@@ -724,11 +724,18 @@ Indeed, the internet has revolutionized communication. In the past, the communic
 
 
 #### How do we handle stress?
-Managing stress can involve a balanced diet, regular exercise, sleep regularly, or meditation. Talking with friends about concerns can also help.
+Managing stress can involve 
+* a balanced diet, 
+* regular exercise,
+* sleep regularly, 
+* or meditation. 
+* Talking with friends about concerns can also help.
 
 
 #### Why mental breakdown
-I guess that's due to the rapid pace of modern city. Everyone is strained 紧张的 financially and mentally. Besides, communication via internet lacks  personal touch compared to face-to-face interactions.
+fast-paced working environment places increasing stress on people.
+struggle
+I guess that's due to the rapid pace of modern city. Everyone is strained 紧张的 financially and mentally. Besides, communication via internet lacks personal touch compared to face-to-face interactions.
 
 
 
