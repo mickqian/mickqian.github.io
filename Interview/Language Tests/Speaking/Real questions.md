@@ -239,18 +239,11 @@ hustle and bustle
 With the rise/trend/advent of remote work and sustainable transportation, driving might decrease. However, it largely depends on future societal and technological developments.
 
 
-### Is making noise one of people's rights?
-While making sound is a right, it must be balanced with others' rights to peace and quiet, especially in shared spaces.
-
-
 How do you stay focused? 
 * by disconnecting from distractions
 * concentrate on the task at hand
 * creating a quiet environment, setting clearer goals, taking regular breaks
 
-
-Why do some people like planting flowers?
-People enjoy planting flowers for their **aesthetic appeal**, **therapeutic benefits**, environmental impact, and the **satisfaction gained from nurturing growth**.
 
 ### Parks 
 Yes, many young people enjoy visiting parks. They offer a place for **relaxation**, **exercise**, socializing, and **connecting with nature**, contributing to their overall well-being.
@@ -508,6 +501,16 @@ It depends on how the tech is being used
 * set a role model by managing their own screen time, which seems very hard
 
 
+
+### Parks
+
+
+#### Is making noise one of people's rights?
+While making sound is a right, it must be balanced with others' rights to peace and quiet, especially in shared spaces.
+
+
+#### Why do some people like planting flowers?
+People enjoy planting flowers for their **aesthetic appeal**, **therapeutic benefits**, environmental impact, and the **satisfaction gained from nurturing growth**.
 
 
 ### Opinions 
