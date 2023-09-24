@@ -370,6 +370,17 @@ LiverPool, United Kingdown
 * It sells a variety of guitars, as well as related accessories including guitar amp, pick, string and straps
 * Based on my observation there, most of the customers are musicians or guitar players. They came for better guitars or back-up ones. Random walkers will occasionally come in, out of curiosity.
 * With the rising of music industry and growing level of musical aesthetics, I believe more and more people will have their own guitars, making this shop thrive in business
+
+
+#### Park
+* xinaghu, not far from where I live
+* basically a lake surrounded by grass field, where
+* Not so many people, making it tranquil
+* 
+
+
+
+
 ### Trip to Xinjiang
 * With some of my colleagues and friends, 5 in total, just enough to fill a car
 * Car journey: We drove all the way from Urumqi to Yili, which is on the border of Xinjiang. Long hours in the car made us all exhausted both mentally and physically. Luckily we had shifts, so we each get to have a break.
