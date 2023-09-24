@@ -15,7 +15,7 @@
 * a variety of 
 * delight
 * encounter
-* attractive <-> alluring
+* attractive, appealing <-> alluring
 * really like <-> am obsessed with/am fascinated with/be fond of/be really into/be keen on/appreciate
 * good <-> beneficial, rewarding
 * interesting <-> intriguing, fascinating, exciting, inspiring
@@ -181,6 +181,14 @@ The last time I went running was two months ago. I ran with my colleagues across
 Running not only keeps my physically fit, but also mentally rejuvenated. I always feel recharged and rejuvenated after running. It's a low-cost and therapeutic sport that everybody should try.
 
 **It promotes endurance, discipline, perseverance, mental strength**
+
+
+### Clothes 
+#### T shirt
+Yes, I have a lot of T-shirts in my wardrobe, they are mostly made out of Giza, which is a type of pure cotton and plain color. I find them easy to wear and casual. I love their simplicity.
+
+#### Prints or pictures 
+Actually, I don't find any of them appealing. I prefer T-shirts with no prints or pictures, just pure color, for I enjoy the essence of simplicity. Decorations can easily make them tacky 俗气的.
 
 
 连接词:
