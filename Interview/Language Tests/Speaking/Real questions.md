@@ -63,18 +63,15 @@ His sophisticated guitar playing skills and outstanding composition abilities ad
 #### Has your dream changed?
 Yes, my dream has evolved from, trying to be a fantastic guitarist, to composing my own original music.
 
-
-
-
-
-
 ### Drinks
 #### Do people like tea and coffee nowadays?
 Well,  I would say that the love for tea and coffee is still going strong these days. Many people enjoy sipping a cup of tea or coffee to start their day or have a break.
 
 #### Do you prefer to use tea or coffee to serve your guests?
 I usually go with coffee because most of my guests prefer it over tea. I like to have a variety of coffees available to cater to different tastes
+#### How often do you buy a drink
 
+I don't buy drinks on a regular basis. Whenever I see some drinks and I feel like drinking, I'll grab some.
 
 ### Do you like science fiction movies?
 Absolutely, I enjoy science fiction movies. Movies like 2001: Space Odyssey,  **stimulate imagination**, present innovative ideas, and offer a unique blend of science and storytelling.
@@ -142,19 +139,24 @@ Although the work pace is fast, I think, Hangzhou is still suitable to live in.
 
 I live on my own, enjoying a high-quality bachelor life.
 
-##### Flat or House
+#### Flat or House
 I prefer living in a flat. The **compact nature** of smaller rooms appeals to me. **I hate spending too much time cleaning and organizing.** 
 Besides, flats are usually closer to city center, making the transportation more easier.
 
-##### Neighbours
-I'd love to live in a neighbor with easy access to amenities like supermarket, caffe and livehouse. Needless to say, I'm a coffee guy and enjoy live music.
+#### Neighbours
+I'd love to live in a neighbor with easy access to amenities like supermarket, caffe and livehouses where I can enjoy live music. Besides, it's better if there is a subway station nearby.
 
-##### Transport facilities
+Needless to say, I'm a coffee guy and enjoy live music.
+
+#### Transport facilities
 I live close to city center. The metro station is just 1km away, so it's quite convenient to commute.
+#### Live for a long time?
+As I have no plan for moving now, I think I might live here for some time. I tend to not making any long-term plans.
 
-
-##### Changes
+#### Changes
 Because of the Asian Olympics, some new buildings are rising. Also, the road seems to be more crowded than before, make commuting even harder.
+#### Compare to have lived in the past
+The space was **rather restricted** for I had to share with 3 other people. Also, It was not as clean either.
 
 ### Animals
 #### Have you ever been to a zoo or a safari park?
@@ -434,18 +436,22 @@ It's all about perseverance.
 
 ## Part 3
 
+
+### What How 
 I suppose/think there are several/couple of  ways/reasons to ...
 There could be some... 
 I can come up with/think of several...
 Well, in my estimation,
-* Firstly... Additionally
+* Firstly... Additionally/Secondly
 * First... Then
 * For one thing ... For another 
 * One is to... Another way/strategy would be
 * the most ... way is to ..., an alternative ways is to
+* mainly because..., for instance ..., Another reason being that..., by contrast...
+* .. can .... Besides, they can ...
 
+a wide range of/a variety of
 
-I suppose it's mainly because..., for instance ..., Another reason being that..., by contrast...
 
 
 
@@ -468,8 +474,24 @@ So, those are the thoughts I've had about this question by now.
 
 
 #### What technology do people currently use?
+* traditional digital devices, smartphones, laptops, TVs
+* wearable: smartwatches, augmented-reality glasses
+* As for information technology, there are software technology and Machine Learning
 
 
+#### Big companies release new products 
+The main reason is to attract customer's attention to encourage them to purchase
+Another reason is that, in today's highly competitive market, need to ... to gain an advantage over their rivals.
+
+#### A good thing?
+It depends on how the tech is being used
+* If used properly, such as smartphones and laptops, the geographical boundaries can be broken, the productivity can also be significantly enhanced
+* However, uncontrolled use of tech can lead to job displacement and unemployment, creating more society issues
+
+
+#### Limit screen time
+* encourage children to engage in more outdoor activities 
+* set a role model by managing their own screen time, which seems very hard
 
 
 
