@@ -15,11 +15,12 @@
 * a variety of 
 * delight
 * encounter
+* attractive <-> alluring
 * really like <-> am obsessed with/am fascinated with/be fond of/be really into/be keen on/appreciate
 * good <-> beneficial, rewarding
 * interesting <-> intriguing, fascinating, exciting, inspiring
-* be located/situated/seated in
-* **It's intriguing 令人感兴趣的 to gain a deep understanding about different locations, cultures, and the physical characteristics of our world.** Gain respect for people from different backgrounds
+* I think <-> I find
+g* **It's intriguing 令人感兴趣的 to gain a deep understanding about different locations, cultures, and the physical characteristics of our world.** Gain respect for people from different backgrounds
 * most .. aspect of...
 
 
@@ -703,16 +704,20 @@ The artifacts from the past do not **necessarily imply** that the ideas containe
 
 
 ### Skills
-To keep up with the trend of AI
+#### Popular things to learn
+With the breakthrough achievements of AI, such as ChatGPT and StableDiffusion, more and more people, including my colleagues, are starting to  learn about AI. It's an interesting and promising, and I'm sure it will participate in the next industrial revolution.
 
 
-There's no such thing as a starting point for children to make decisions. Children can make decisions as long as they are able to understand the consequences and they have gone through thorough thought.
+#### Children make decisions 
+There's no such thing as a starting point for children to make decisions. Children can make decisions as long as they are able to understand the consequences and they have gone through thorough thought. It helps them boost confidence and responsibility.
 
 
 #### Income or interest
-Since in the **post-pandemic era**, the economy is **declining**/remaining at a low level. Apparently, young people's choice of study is largely influenced by potential income
+Since in the **post-pandemic era**, the economy is **declining**/remaining at a low level. As a result, young people are tend to choose their majors out of financial concerns. I, myself, choose CS to be major, which is interesting and rewarding to me.
 
+#### Advice
+The answer depends on individual circumstances. For some students who lack a comprehensive understanding of the job market, their parents' advice play an important role. 
+However, for those who have a clear **vision** of their future.
 
-#### advice
-offer mature and practical guidance based on their own experiences. However, in the end, students need to consider where their interests lie on. Take myself as example, I choose CS as my major out of my passion towards computer.
+Take myself as example, I choose CS as my major out of my passion towards computer.
 
