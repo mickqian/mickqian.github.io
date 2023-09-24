@@ -305,12 +305,11 @@ Also, I get to meet different musicians around the world. **Hopefully I can draw
 
 ### Festival
 #### Date
-The Duanwu Festival, also known as the Dragon Boat Festival, is a traditional celebration in China. It's held annually on the 5th day of the 5th month of the lunar calendar, which usually falls in June.
+The Duanwu Festival, also known as the Dragon Boat Festival, is a traditional **celebration** in China. It's held annually on the 5th day of the 5th month of the lunar calendar, which usually falls in June.
 #### Dragon boat race
 The festival is **rich in history and culture**, **and it's known for its dragon boat races**. Teams of boats move forward in rhythm to the beats of a drum, racing to reach the finish line first. It's a thrilling event that draws crowds of spectators.
-
 #### Zongzi
-Another key aspect of the Duanwu Festival is the making and eating of zongzi, which are sticky rice dumplings wrapped in bamboo leaves. They're often filled with ingredients like meats, beans, and nuts. In fact, there is actually a debate over whether Zongzi should be sweet or salty between north and south part of the country.
+Another key aspect of the Duanwu Festival is the making and eating of zongzi, which are sticky rice dumplings wrapped in bamboo leaves. They're **often filled with** ingredients like meats, beans, and nuts. In fact, there is actually a debate over whether Zongzi should be sweet or salty between north and south part of the country.
 #### Conclusion
 The Duanwu Festival is a time of excitement and camaraderie. It's a unique blend of history, sport, and culinary 烹饪 tradition that makes it a truly special event in the Chinese calendar.
 
@@ -480,6 +479,23 @@ So, those are the thoughts I've had about this question by now.
  
 >[!Caution] Careful to use
 >I really have no idea about this question as I've never thought about this before
+
+
+### Festival 
+
+#### Traditional
+* provides them a deep **understanding** of their cultural heritage
+* **foster** respect and appreciation **for** other cultures
+* These festivals are often rich with history and values, which can be educational and inspiring for children.
+
+#### Why events
+
+* history is preserved and kept down
+
+
+
+
+
 
 
 ### Tech
