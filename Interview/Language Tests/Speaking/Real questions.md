@@ -417,9 +417,10 @@ Up until that point, I had never ventured into the realm of exotic cuisines, so 
 What made this meal unusual, and indeed transformative, was that it opened the door for me to explore cooking on my own. This dining experience ignited a culinary curiosity in me that I had not known before, and it continues to influence my food choices and cooking ventures.
 #### Speech
 * music about surf rock
-* second year of college, in a school club
-* prepare keynote, videos
-* not so many people, but satisfied, self-expression
+* I was then a sophomore student in a school club, which is basically people with shared interests towards arts. We hold salon occasionally.
+* To prepare for the speech, keynote, transcript, and visual aids are required. It took me several weeks to organize.
+* not so many people, great interaction with the audience
+* but satisfied, self-expression
 
 #### Learn 
 I used to play notes mechanically, like a machine without anything original.
