@@ -610,8 +610,11 @@ The major variety of clothing is designed for women, for their superior spending
 
 #### Do you think children should have a lot of toys? 
 While proper amount of toys can stimulate creativity, too many may lead to distraction. It's about balance and quality, not quantity.
-##### Do you think children should follow all the rules? 
+#### Do you think children should follow all the rules? 
 While proper amount of rules help regulate children's behavior and cultivate discipline, following all of them may hinder creativity and go against the free nature of children.
+
+#### What makes children help each other at school
+
 
 
 ### What do you think of the vegetarians
