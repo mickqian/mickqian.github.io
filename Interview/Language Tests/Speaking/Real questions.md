@@ -430,10 +430,18 @@ There could be some... For one thing ... For another
 
 One that i can think of is... Another reason is...
 
+### Opinions 
+
+#### Old ideas from books?
+Indeed, there are some ideas that seem "old" or out of styles from previous books. However, there are also timeless principles hidden.
 
 
 
 ### Pollution
+
+
+
+
 
 #### Ways to reduce
 
