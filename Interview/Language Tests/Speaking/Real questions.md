@@ -422,10 +422,17 @@ It's all about perseverance.
 * It emitted untreated polluted air, straight into the surroundings.
 * Seeing my hometown suffer from pollution was disheartening and frustrating. It made me more conscious of environmental issues
 
+#### Tech difficult to use
+* though I work in tech industry, I always find it hard to use sports camera
+* go pro
+* Plan was to stick it to the top my guitar for first-perspective video
+* find it hard to switch mode, fix and lost some part
+* 
+
+
 
 
 ## Part 3
-
 
 I suppose/think there are several/couple of  ways/reasons to ...
 There could be some... 
@@ -455,6 +462,15 @@ So, those are the thoughts I've had about this question by now.
  
 >[!Caution] Careful to use
 >I really have no idea about this question as I've never thought about this before
+
+
+### Tech
+
+
+#### What technology do people currently use?
+
+
+
 
 
 
