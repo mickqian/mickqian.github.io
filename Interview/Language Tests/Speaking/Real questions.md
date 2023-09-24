@@ -75,17 +75,17 @@ I don't buy drinks on a regular basis. Whenever I see some drinks and I feel lik
 #### Chocolate as gifts
 No. While chocolate as a gift can make nice, I find it a little bit cliche, as it's so common a choice. I find it better to personalize the gifts aligned on the  recipient's interests.
 
-
-### Do you like science fiction movies?
+### Space 
+#### Do you like science fiction movies?
 Absolutely, I enjoy science fiction movies. Movies like 2001: Space Odyssey,  **stimulate imagination**, present innovative ideas, and offer a unique blend of science and storytelling.
 
 
-### Do you want to know more about outer space?
+#### Do you want to know more about outer space?
 Indeed, I'm always **eager to** learn more about outer space. It's a realm full of endless wonders and discoveries.
 
-### Have you ever learnt about outer spaces and stars?
+#### Have you ever learnt about outer spaces and stars?
 Yes, I find the vastness and mysteries of outer space fascinating. Stars, galaxies, and the universe truly captivate my interest.
-
+´
 ### Gifts
 #### Have you ever sent handmade gifts to others?
 Yes, I've made and sent origami gifts. It's a thoughtful, personal touch that people seem to appreciate.
