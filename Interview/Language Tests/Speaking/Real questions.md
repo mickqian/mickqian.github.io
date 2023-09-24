@@ -463,7 +463,8 @@ Well, in my estimation,
 
 a wide range of/a variety of
 
-
+I have mixed feelings about this.
+It's a bit of a mixed bag
 
 
 One(reason, factor) that i can think of is... Another reason is...
@@ -489,13 +490,24 @@ So, those are the thoughts I've had about this question by now.
 * These festivals are often rich with history and values, which can be educational and inspiring for children.
 
 #### Why events
-
+* to have something to look forward to throughout the year
+* by holding events, people gather together so that they can share joy and create lasting memories
 * history is preserved and kept down
 
+#### Disappearing?
 
+While they have faced some challenges, I wouldn't say they are disappearing. In fact, I think the term "revolutionized" is more appropriate.
 
+Yes, there’s no denying that modernization and changing lifestyles have had an impact on traditional festivals. 
 
+However, people are now celebrating festival through new ways. For example, posting about festival in social media.
 
+So basically, it's the form of the celebration that is changing.
+
+#### Music
+Absolutely, music plays a pivotal role in traditional festivals. 
+* enhances the festive atmosphere 
+* often carries significant cultural symbolism. Several tunes pop into my mind whenever I think about New Year, and that's the power of music
 
 
 ### Tech
