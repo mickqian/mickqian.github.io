@@ -425,15 +425,58 @@ It's all about perseverance.
 
 
 ## Part 3
-I Suppose there are several... Firstly... Additionally
-There could be some... For one thing ... For another 
 
-One that i can think of is... Another reason is...
+
+I suppose/think there are several/couple of  ways/reasons to ...
+There could be some... 
+I can come up with/think of several...
+Well, in my estimation,
+* Firstly... Additionally
+* First... Then
+* For one thing ... For another 
+* One is to... Another way/strategy would be
+* the most ... way is to ..., an alternative ways is to
+
+
+I suppose it's mainly because..., for instance ..., Another reason being that..., by contrast...
+
+
+
+One(reason, factor) that i can think of is... Another reason is...
+
+
+
+In summary/Anyway
+So, those are the thoughts I've had about this question by now.
+
+>[!Tip] It depends/ It's a little stereotyped to think
+>It various from people to people
+>
+ 
+>[!Caution] Careful to use
+>I really have no idea about this question as I've never thought about this before
+
+
 
 ### Opinions 
 
 #### Old ideas from books?
-Indeed, there are some ideas that seem "old" or out of styles from previous books. However, there are also timeless principles hidden.
+
+Indeed, there are some ideas that are considered as  "old" or out of styles from previous books. However, there are also timeless principles hidden.
+
+
+#### When do you think children start to have their own opinions?
+Children begin forming opinions around age 4-5, when they start understanding the world around them. However, these opinions become more complex and independent during adolescence, as they gain more experience and knowledge.
+
+#### Are children's opinions influenced by their parents? (The behavior and the language of parents will significantly affect their children's opinions as they are the main source of influence in their children's growing environment.)
+Absolutely, parents significantly shape their children's perspectives. They're the primary influence during early years, shaping their worldview, values, and beliefs through their actions and language.
+
+#### Who are smart children likely to be influenced by?
+Smart children are likely to be influenced by a variety of sources, including **parents**, **teachers**, and **peers**. They also tend to be influenced by their own curiosity and independent research.
+
+#### What kind of people have lots of great ideas in your country? (Innovative people in my country usually come from professions related to computers, media and science. The nature of their jobs drives them to come up with innovative ideas and it is the only way for them to thrive. )
+Innovative thinkers, often found **in fields like** technology, science, and arts, typically have many great ideas. Entrepreneurs and educators also contribute significantly with their creative solutions and approaches.
+
 
 
 
@@ -507,6 +550,10 @@ Firstly, young people should **identify** their interests and skills. Besides, r
 
 #### What should youngsters do if they find the job they are doing does not suit them well? 
 They should not be hesitated to change their job. Spending some time seeking dream job and acquiring higher degree is totally worth it. It's essential to keep learning and adapting until they find a job that suits them well.
+* seek advice from mentors
+* consider further education for new skills
+* exploring new job opportunities
+* Ultimately, the goal is to find a career path that aligns with their interests, skills, and aspirations.
 
 
 ### Fashion 
@@ -552,14 +599,6 @@ Managing stress can involve a balanced diet, regular exercise, sleep regularly, 
 I guess that's due to the rapid pace of modern city. Everyone is strained 紧张的 financially and mentally. Besides, communication via internet lacks  personal touch compared to face-to-face interactions.
 
 
-### When do you think children start to have their own opinions?
-Children begin forming opinions around age 4-5, when they start understanding the world around them. However, these opinions become more complex and independent during adolescence, as they gain more experience and knowledge.
-
-### Are children's opinions influenced by their parents? (The behavior and the language of parents will significantly affect their children's opinions as they are the main source of influence in their children's growing environment.)
-Absolutely, parents significantly shape their children's perspectives. They're the primary influence during early years, shaping their worldview, values, and beliefs through their actions and language.
-
-### Who are smart children likely to be influenced by?
-Smart children are likely to be influenced by a variety of sources, including **parents**, **teachers**, and **peers**. They also tend to be influenced by their own curiosity and independent research.
 
 
 The artifacts from the old times doesn't mean that the thoughts included in them are also old. Some thoughts are quite timeless. For instance, Newton's law about force has never gone out of style, out of time, since he published it.  ->
@@ -567,14 +606,7 @@ The artifacts from the old times doesn't mean that the thoughts included in them
 The artifacts from the past do not **necessarily imply** that the ideas contained within them are also outdated. Some thoughts are truly timeless. For example, Newton's law of force has never fallen out of fashion or lost its relevance since its publication.
 
 
-### What kind of people have lots of great ideas in your country? (Innovative people in my country usually come from professions related to computers, media and science. The nature of their jobs drives them to come up with innovative ideas and it is the only way for them to thrive. )
-Innovative thinkers, often found **in fields like** technology, science, and arts, typically have many great ideas. Entrepreneurs and educators also contribute significantly with their creative solutions and approaches.
 
-### What should youngsters do if they find the job they are doing does not suit them well?
-* seek advice from mentors
-* consider further education for new skills
-* exploring new job opportunities
-* Ultimately, the goal is to find a career path that aligns with their interests, skills, and aspirations.
 
 ### Skills
 To keep up with the trend of AI
