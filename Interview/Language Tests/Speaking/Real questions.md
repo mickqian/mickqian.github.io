@@ -143,7 +143,7 @@ Although the work pace is fast, I think, Hangzhou is still suitable to live in.
 I live on my own, enjoying a high-quality bachelor life.
 
 ##### Flat or House
-I prefer living in a flat. The **compact nature** of smaller rooms appeals to me. **I hate spending too much  time cleaning and organizing.** 
+I prefer living in a flat. The **compact nature** of smaller rooms appeals to me. **I hate spending too much time cleaning and organizing.** 
 Besides, flats are usually closer to city center, making the transportation more easier.
 
 ##### Neighbours
