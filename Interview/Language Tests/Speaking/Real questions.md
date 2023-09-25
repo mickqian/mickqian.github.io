@@ -109,19 +109,34 @@ I believe so. I **put thought into** understanding the recipient's preferences, 
 
 Well, I like to think so! I always try to pick gifts that are thoughtful and meaningful to the recipient. **It's all about** knowing their interests and preferences, and putting some effort into finding something they'll truly appreciate.
 ### Help
+#### Do you?
+* I think I've always been a helpful person 
+* I'm always there to help where someone around me needs it
+* It's a virtue, so why not
+
 #### How do you help people around you, such as neighbour, family and friends?
-I always try to lend a helping hand to those around me. I would help my friends by offering financial support, as well as lending them stuffs they need. Also, I could help them emotionally by encouraging them when they feel depressed or sad.
+There are actually many ways
+* like if I see a passenger/our neighbors **struggling with** a package, I'll just offer to help
+* Or I'm very happy to look after their pets when they are unavailable
 
 I assist by offering emotional support, sharing knowledge, helping with tasks, and being a reliable presence in their lives.
 
 #### Do your parents teach you how to help others
-Yes, instead of plain talking, they teach by setting role models for me, instilling me the value of empathy and kindness.
+When I was young, my parents always taught me being **kind** and **helpful**.
+
+For example , such as  looking after a relative's child or his pet.
+
+Yes, instead of plain talking, they teach by setting role models for me.
 
 #### Did your parents help you a lot when you were young? 
-Absolutely, my parent help me with homework, or by picking me up to school. These actions of help shape my personalities.
+Absolutely, my parents help me with 
+* like helping me fix my bike
+* picking me up to school
+* helping me with my homework
+
 
 #### What have you done to help the elderly? 
-I don't get too much time to spend with elderly actually, but I do went to a nursing home to deliver gifts and food once.
+I don't have too much opportunities to spend with elderly actually, but I did go to a nursing home to deliver gifts and food once, as part of a school program.
 ### Do you like ice cream?
 Absolutely, I adore ice cream! The variety of flavors and its creamy texture make it a **delightful** treat. My favorite ice-cream is Gelato, which is the Italian version. In fact, I don't know if that is considered as "Ice cream".
 
@@ -275,6 +290,11 @@ How do you stay focused?
 * work/study with
 * interesting
 * share common interests
+* met at a party
+
+
+
+#### Party 
 
 #### Music & band: 
 I'd like to talk about my friend, Eric, who I met during a band audition. Eric was applying for the guitarist position then, and his passion for music impressed me.
@@ -496,6 +516,27 @@ So, those are the thoughts I've had about this question by now.
 >[!Caution] Careful to use
 >I really have no idea about this question as I've never thought about this before
 
+### Party 
+
+#### when we don't know anyone
+I find it totally fine if we don't know anymore, because that's not the purpose of parties. Party is a time for us to relax and enjoy, not some kind of social activity.
+
+#### Uninvited rude?
+* It can be rude, depending on the party organizer
+
+
+#### Uninvited guests, negative intentions
+
+
+#### Should you go to the party if you only know one person?  
+
+
+#### 
+
+
+
+
+
 
 ### Festival 
 
@@ -646,7 +687,21 @@ Empathy, compassion, respect, friendship **motivate** children to help **volunta
 #### Respond
 * speak to the manager and complain about
 * give bad reviews and write
-* resort to boycotting, post about it on social media
+* resortƒ to boycotting, post about it on social media
+
+#### Who responsible
+* restaurant/shop
+* employee
+
+
+
+
+
+#### Employers can do...
+* build a feedback system, hear from employee's advice
+* offer proper training course or job opportunity
+* establishing employee **incentive programs** **can encourage/motivate employees to behave better**
+
 
 
 
