@@ -561,7 +561,27 @@ So, those are the thoughts I've had about this question by now.
 >[!Caution] Careful to use
 >I really have no idea about this question as I've never thought about this before
 
+
+
+### Ads
+* an effective marketing strategy to promote product
+* spread the awareness among potential customers
+* increase sales and demand
+
+#### celebrity endorsement
+* fans consider them as role models, purchase the product based on trust
+
+#### Online ads vs newspaper
+Nowadays, online media is much more prevalent than newspaper, the traditional media. Everytime people open an app, watching a video or reading an article, ads can be there, which is good exposure.
+
 ### Party 
+
+
+
+
+
+
+
 
 #### when we don't know anyone
 I find it totally fine if we don't know anymore, because that's not the purpose of parties. Party is a time for us to relax and enjoy, not some kind of social activity.
