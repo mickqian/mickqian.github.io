@@ -255,12 +255,17 @@ Geography fascinates me. **It's intriguing 令人感兴趣的 to learn about dif
 Absolutely, geography is crucial. It helps us understand the world's physical features, cultures, and the impact of human activity on Earth.
 
 ### Art
+
+#### Gallery
+Yes, I never miss the graduation exhibition of the Academy of Fine Arts. I get to see a variety of arts
+
 #### Films (Music)
 Yes, films are beneficial. They provide entertainment, stimulate creativity, and can educate us about different **cultures, histories, and perspectives.**
 
 #### Modern or Traditional 
-
-I appreciate both. While modern art fits well into modern life, thus easier to understand, traditional art provides historical experience.
+Honestly, I’m **an outsider** to art, but I should say, I just love both because each **has its strong points**. 
+To my understanding, traditional art provides a basis for **aesthetic** level, showing people the details of the artwork. 
+And modern art is sort of like, **breaking the mould** and reflecting the artists’ thoughts.
 
 ### Urbanization
 #urban
@@ -282,7 +287,29 @@ How do you stay focused?
 * creating a quiet environment, setting clearer goals, taking regular breaks
 
 
+### Rainy 
 
+
+#### like?
+I prefer sunny days as I feel more energetic when the sun comes out and motivated. And I believe I'm not the only one who feels that way.
+
+Although after long sunny days, rain seems to be refreshing.
+
+
+#### Does?
+
+The place where I live is **super wet** all **year round**. It rains all the time. Sometimes it can rain for a fortnight continuously.
+
+#### live dry or west
+
+Personally, I prefer to live in a dry place.
+
+
+#### Umbrella or raincoat
+
+
+
+#### Heavy rain
 ## Part 2
 
 
@@ -476,8 +503,12 @@ It's all about perseverance.
 * though I work in tech industry, I always find it hard to use sports camera
 * go pro
 * Plan was to stick it to the top my guitar for first-perspective video
-* Unfornately, several problems occured. I find it hard to switch mode, fix and lost some part
+* Unfortunately, several problems occurred. I find it hard to switch mode, fix and lost some part
+#### Book
 
+* Harry Potter
+* waving my wand, chanting a spell, fighting death eaters
+* 
 
 
 ## Part 3
@@ -753,6 +784,22 @@ The major variety of clothing is designed for women, for their superior spending
 
 
 ### Children
+
+
+#### Books 
+
+finder inner peace
+
+
+
+Well, based on my observation I can say that comics, detective books, fairy tales, science fictions, story-telling books are the most popular among children. Since they don't present complex ideas, and are easy to comprehend even for children.
+#### E-books
+of long length: 长篇幅
+
+Undeniably, e-books like kindle have advantage in both space and price
+
+If the books are of long length, people would choose e-book version for it saves space, and is easy to carry with
+
 
 #### Do you think children should have a lot of toys? 
 While proper amount of toys can stimulate creativity, too many may lead to distraction. It's about balance and quality, not quantity.
