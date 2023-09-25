@@ -413,7 +413,8 @@ LiverPool, United Kingdown
 * At an Italian restaurant where I had planned to take my then-girlfriend on our first date. It was two years ago and we were both excited about the night.
 * Once seated, the waiter took a long time to take our orders, despite the restaurant not being particularly busy.
 * When our food finally arrived, I was in huge shock. I love Italian food and know how to cook some dishes myself, but the Carbonara presented to me was the worst I even seen. **Salty**, burnt **and** raw at the same time. Also, my pasta was lukewarm.
-* We don't leave plenty of time for the problem to be solved, as we immediately paid our bill and left with disappointment.
+* We don't leave plenty of time for the problem to be solved, as we immediately paid our bill and left with disappointment. 
+* ruined my day
 * I will never enter that restaurant again, I swear to god.
 
 #### With a young child
@@ -641,6 +642,15 @@ Empathy, compassion, respect, friendship **motivate** children to help **volunta
 * delayed response also count for bad services
 * negative service attitude annoys customer too
 * lack of professionalism  
+
+#### Respond
+* speak to the manager and complain about
+* give bad reviews and write
+* resort to boycotting, post about it on social media
+
+
+
+
 
 ### Why should children be kind to their classmates?
 Children should be kind to classmates because it **fosters a positive/harmonious learning environment**. It's crucial to build good relationships between classmates. Besides, kindness also lead to empathy and understanding, which is good for overall well-being and personal growth for children.
