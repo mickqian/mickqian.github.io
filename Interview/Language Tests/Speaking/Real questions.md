@@ -1,10 +1,10 @@
+
 常用：
 * I reside in Hangzhou, a city tucked away in the southeastern region of China, **characterized by** its international flair, vibrant atmosphere, and dynamic energy
 * tranquil 安静的
 * offer me an ideal environment for practicing and listening to music, while **engaging** in recreational music creation
 * i once met xxx at a concert, when he was playing as the lead guitarist
 * his business range from ... to
-* considering that <-> given that
 * the companies he runs have all achieved global leadership
 * gain an advantage
 * captivate my interests
@@ -16,19 +16,24 @@
 * delight
 * encounter
 * attractive, appealing <-> alluring
-* really like <-> am obsessed with/am fascinated with/be fond of/be really into/be keen on/appreciate
+* really like <-> am obsessed with/am fascinated with/be fond of/be really into/be keen on/appreciate/was very involved with
 * good <-> beneficial, rewarding
 * interesting <-> intriguing, fascinating, exciting, inspiring
 * I think <-> I find
-g* **It's intriguing 令人感兴趣的 to gain a deep understanding about different locations, cultures, and the physical characteristics of our world.** Gain respect for people from different backgrounds
+* **It's intriguing 令人感兴趣的 to gain a deep understanding about different locations, cultures, and the physical characteristics of our world.** Gain respect for people from different backgrounds
 * most .. aspect of...
+* be surprised <-> be taken aback
+* in the sense that
+* all the day <-> throughout the day
+* if i'm not mistaken
 
 
 
 
 
 >[!Info] 慎用
-> Well I never thought about this before. But from what I have witnessed, I guess to some extent it can be very indispensable
+> Well I never thought about this before. But from what I have witnessed, I guess to some extent it can be very indispensable.
+> I have never thought about...
 
 
 
@@ -54,8 +59,6 @@ g* **It's intriguing 令人感兴趣的 to gain a deep understanding about diffe
 
 ## Part 1
 
-
-
 ### Dream 
 
 #### Why
@@ -77,16 +80,23 @@ I don't buy drinks on a regular basis. Whenever I see some drinks and I feel lik
 No. While chocolate as a gift can make nice, I find it a little bit cliche, as it's so common a choice. I find it better to personalize the gifts aligned on the  recipient's interests.
 
 ### Space 
+
+#### Have you ever learnt about outer spaces and stars?
+Yes, I learned about those things in High School, when I was taught Astronomy. I learned about solar system, different nebulas and galaxies. Out of curiosity, I watched 2001: A Space Odyssey, and it has been one of my favorite movies till this day.
+
 #### Do you like science fiction movies?
-Absolutely, I enjoy science fiction movies. Movies like 2001: Space Odyssey,  **stimulate imagination**, present innovative ideas, and offer a unique blend of science and storytelling.
+Absolutely, I enjoy science fiction movies. I'm a big fan of David Kubrick, and his movies like 2001: Space Odyssey. Also, my favortie TV episode is Black Mirror, which shows me what the future will be like. One of the episode that most impressed me is about a programmer creating an imagenery spaceship based on a computer program.
+
 
 
 #### Do you want to know more about outer space?
 Indeed, I'm always **eager to** learn more about outer space. It's a realm full of endless wonders and discoveries.
 
-#### Have you ever learnt about outer spaces and stars?
-Yes, I find the vastness and mysteries of outer space fascinating. Stars, galaxies, and the universe truly captivate my interest.
-´
+
+#### Travel to space
+Oh wow, I have never thought about it. First thing to do is definitely record everything I see with a proper sports camera. **If I have the chance, I would like to see the dark side of the moon for every Pink Floyd fan.** Also, trying to find aliens on Mars sounds fun.
+
+
 ### Gifts
 #### Have you ever sent handmade gifts to others?
 Yes, I've made and sent origami gifts. It's a thoughtful, personal touch that people seem to appreciate.
@@ -97,7 +107,7 @@ I consider the recipient's personal interests, the gift's uniqueness, its qualit
 #### Do you think you are good at choosing gifts? 
 I believe so. I **put thought into** understanding the recipient's preferences, which helps me choose meaningful gifts.
 
-Well, I like to think so! I always try to pick gifts that are thoughtful and meaningful to the person I'm giving them to. **It's all about** knowing their interests and preferences, and putting some effort into finding something they'll truly appreciate.
+Well, I like to think so! I always try to pick gifts that are thoughtful and meaningful to the recipient. **It's all about** knowing their interests and preferences, and putting some effort into finding something they'll truly appreciate.
 ### Help
 #### How do you help people around you, such as neighbour, family and friends?
 I always try to lend a helping hand to those around me. I would help my friends by offering financial support, as well as lending them stuffs they need. Also, I could help them emotionally by encouraging them when they feel depressed or sad.
@@ -110,15 +120,13 @@ Yes, instead of plain talking, they teach by setting role models for me, instill
 #### Did your parents help you a lot when you were young? 
 Absolutely, my parent help me with homework, or by picking me up to school. These actions of help shape my personalities.
 
-
 #### What have you done to help the elderly? 
 I don't get too much time to spend with elderly actually, but I do went to a nursing home to deliver gifts and food once.
-
 ### Do you like ice cream?
-Absolutely, I adore ice cream! The variety of flavors and its creamy texture make it a **delightful** treat.
+Absolutely, I adore ice cream! The variety of flavors and its creamy texture make it a **delightful** treat. My favorite ice-cream is Gelato, which is the Italian version. In fact, I don't know if that is considered as "Ice cream".
 
 ### How far is it from your home to work or to school?
-It takes me around 20 minutes to get to work/school from my home. It's not too far, so it's quite convenient for me.
+It takes me around 20 minutes to get to work/school from my home. I usually go on electric bycicle. I prefer living near the workspace, saving me time for commuting.
 
 ### Do you think people will drive more in the future?
 I believe the future might see less individual driving due to the rise of autonomous vehicles and shared transportation services. Environmental concerns may also promote the use of public transportation.
@@ -161,6 +169,12 @@ As I have no plan for moving now, I think I might live here for some time. I ten
 Because of the Asian Olympics, some new buildings are rising. Also, the road seems to be more crowded than before, make commuting even harder.
 #### Compare to have lived in the past
 The space was **rather restricted** for I had to share with 3 other people. Also, It was not as clean either.
+#### Weather
+The weather here is called "Sub tropical monsoon climate", that's the techinal term. To be specific, we have distinctive seasons here. And it's humid throughout the year, making the winter rather cold. Also, there's a lot of rain in September, which I hate.
+
+
+
+
 
 ### Animals
 #### Have you ever been to a zoo or a safari park?
@@ -169,7 +183,6 @@ Oh, absolutely! I've been to a local zoo here in Hangzhou, where I rode a tiger 
 
 #### Animal want to see
 I always want to seeing a gorilla, for I've heard about there intellect, and also, has a name similar  to one of my favorite band, Gorillaz.
-
 
 #### Are there TV programs about wild animals in your country?
 Yes, definitely! We have plenty of TV shows showcasing wild animals in my country, ranging from documentaries **exploring** the unique wildlife in our national parks to entertaining series **featuring** wildlife experts and their adventures in the wilderness.
@@ -202,17 +215,18 @@ In China, the most popular means of transportation are public buses, subways, an
 ### What kind of clothes do you like to wear?
 As a fan of Margaret Howell's designs, my clothing preference leans towards **minimalistic and timeless** pieces. I appreciate the subtle elegance and functionality that characterizes Howell's collections. Her designs, often inspired by the natural world and traditional British **craftsmanship**, resonate with my personal style ethos 精神.
 
-I gravitate towards 倾向于 neutral tones, such as blacks, whites, and earthy hues, which are a staple 主要产品  in Howell's collections. I find these colors **versatile**, easy to **pair**, and suitable for various occasions. The high-quality materials used, like linen, wool, and cotton, ensure comfort and durability, which are paramount for me.
+I have a preference for neutral tones, such as blacks, whites, and earthy hues, which are a staple 主要产品  in Howell's collections. I find these colors **versatile**, easy to **pair**, and suitable for various occasions. The high-quality materials used, like linen, wool, and cotton, ensure comfort and durability, which are paramount for me.
 
-Furthermore, I admire how Howell's **clothes effortlessly** **blend masculinity and femininity**, creating a unique unisex appeal. This fluidity 流动性 allows me to express my style without being confined to traditional gender norms. In essence, my preference for Margaret Howell's clothing is rooted in its understated **elegance**, quality, and **versatility**, reflecting my personal style and values.
+### Computer
+I chose computer science as my major because I find the process of programming, seeing the program run without mistake a satisfying experience. I've always been fascinated by technology and its potential to solve complex problems.
 
-elegance, quality, unisex, minimalistic, timeless
+
+### Travel
 
 ### Computer
 I chose computer science as my major because I've always been fascinated by technology and its potential to solve complex problems.
 
 
-### Travel
 
 #### Where usually travel?
 For longer vocations, I prefer to **travel to distant places**, like last year when I went to Xinjiang. But for shorter vocations, I usually choose destinations within the subways' reach, such as Shaoxing or Yuhang.
@@ -228,7 +242,6 @@ Absolutely, geography is crucial. It helps us understand the world's physical fe
 ### Art
 #### Films (Music)
 Yes, films are beneficial. They provide entertainment, stimulate creativity, and can educate us about different **cultures, histories, and perspectives.**
-
 
 #### Modern or Traditional 
 
@@ -250,7 +263,7 @@ With the rise/trend/advent of remote work and sustainable transportation, drivin
 
 How do you stay focused? 
 * by disconnecting from distractions
-* concentrate on the task at hand
+* concentrate on the task at hand, using an app called Tomato clock, which reminds me to relax every 30 minutes.
 * creating a quiet environment, setting clearer goals, taking regular breaks
 
 
@@ -285,7 +298,7 @@ Thanks to his help, we managed to produce our original song and perform in local
 ### Job
 
 #### Skills
-One job I find particularly interesting is being a guitarist in a band. I always dream myself as Eric Clapton, although I can never be as good as the guitar God. Anyway, this role not only requires sophisticated guitar-playing skills but also involves music composition, which requires a thorough understanding of music history.
+One job I find particularly interesting is being a guitarist in a band. I always dream about being on the stage as Eric Clapton, **although I know clearly I can never be as good as** the guitar God. **Anyway**, this role not only requires sophisticated guitar-playing skills but also involves music composition, which requires a thorough understanding of music history.
 #### Exciting and interesting part
 The most exciting aspect of this job is the opportunity to perform all around the world. This global exposure allows me to experience a **variety of cultures, meet diverse people**. It's an incredible way to expand one's horizons and **gain a deeper understanding** of the world.
 Also, I get to meet different musicians around the world. **Hopefully I can draw some inspirations and learn from them.**
@@ -309,7 +322,7 @@ The Duanwu Festival, also known as the Dragon Boat Festival, is a traditional **
 #### Dragon boat race
 The festival is **rich in history and culture**, **and it's known for its dragon boat races**. Teams of boats move forward in rhythm to the beats of a drum, racing to reach the finish line first. It's a thrilling event that draws crowds of spectators.
 #### Zongzi
-Another key aspect of the Duanwu Festival is the making and eating of zongzi, which are sticky rice dumplings wrapped in bamboo leaves. They're **often filled with** ingredients like meats, beans, and nuts. In fact, there is actually a debate over whether Zongzi should be sweet or salty between north and south part of the country.
+**Another key aspect** of the Duanwu Festival is the making and eating of zongzi, which are sticky rice dumplings wrapped in bamboo leaves. They're **often filled with** ingredients like meats, beans, and nuts. In fact, there is actually a debate over whether Zongzi should be sweet or salty between north and south part of the country.
 #### Conclusion
 The Duanwu Festival is a time of excitement and camaraderie. It's a unique blend of history, sport, and culinary 烹饪 tradition that makes it a truly special event in the Chinese calendar.
 
@@ -319,22 +332,26 @@ The Duanwu Festival is a time of excitement and camaraderie. It's a unique blend
 
 I'like to talk about a legendary figure in the music world, David Bowie, who is widely recognized for his distinctive voice, eclectic musical style, and innovative approach to artistry. He's an intriguing character because of his constant reinvention and his ability to blend various musical genres, including rock, pop, electronic, and experimental music.
 
+He's a man with great charm and charisma, presenting a unisex vibe.
+
+Not only does he has an appealing appearance, but he also has a beautiful voice, perfect for the mysterious theme of his songs.
+
 Bowie's popularity stems from his unique persona and his groundbreaking music. He created numerous iconic albums like "The Rise and Fall of Ziggy Stardust and the Spiders from Mars" and "Heroes", which have influenced countless musicians and left a lasting impact on the music industry. His alter ego, Ziggy Stardust, a flamboyant and androgynous extraterrestrial being, challenged societal norms and contributed to his fame.
 
 What made Bowie particularly helpful was his openness to change and his courage to push boundaries. He was unafraid to experiment with different styles and personas, opening the door for future artists to explore their identities and creativity without fear of judgment. His influence extends beyond music to fashion, film, and visual art, making him an enduring cultural icon. David Bowie's legacy continues to inspire and captivate audiences worldwide.
 
 ### Clothes
 
-
 #### Wear most often 
-I prefer wearing clothes of high quality, with a little bit vintage vibe, and also they are better to be unisex 
+I prefer wearing clothes of high quality, with a little bit **vintage** vibe, and also they are better to be unisex 
 
 I adhere to the principle of/choose quality over quantity.
 
+
 * Denim jacket, made by LVC
-* For its style, It's a Type-II Trucker jacket, featuring classical American postwar retro style 
+* For the style, It's a Type-II Trucker jacket, which is a classic model. It features classical American postwar retro style 
 * Denim Cloth is my favorite material for a jacket, I like the rigid nature of it
-* I'm obsessed with denim blue, it encapsulates both masculinity and energy
+* Apart from the material, I'm obsessed with denim blue, it encapsulates both masculinity and energy
 * Since it's quite thick, I wear them only in Autumn and Spring, about once a weak
 
 #### Brand
@@ -350,32 +367,30 @@ It's the **minimalist**, **quality** and **versatility** of Howell's clothes tha
 #### Distant places I want to go in the future
 LiverPool, United Kingdown
 * Hometown of the The Beatles & Merceybeat, which is a genre of music.
-* Liverpool F.C. is also quite competitive, and I'd love to watch Salah score.
+* Liverpool F.C. is also a quite competitive one in the Campion's League, and I'd love to watch Salah score.
 * I can't wait to explore those locations mentioned in the songs, strawberry field, Eleanor Rigby, penny lane and so much more I can't recall at the moment
 
 #### Relax | Apartment
 * I don't have my own apartment now, I'm living in rent house, so the space is limited
-* For the kitchen part: As I'm a cooking person and my favour towards Italian food, pizza oven should be in my kitchen
-* As for the overall decoration style: I prefer Scandinavian, for its blend of light and wooden furniture
+* For the kitchen part: **As I'm a cooking person and given my preference towards Italian food, pizza oven is a must-have in my kitchen**
+* As for/In terms of the overall decoration style/interior design: I prefer Scandinavian, for its harmonious blend of light and wooden furniture
 * Besides: 
 	* though I do leave a corner of the living room to settle my guitar, amplifier and pedals, allowing me to
-	* enjoy music, play guitar or improvise to a backing track whenever I want to
+	* enjoy music, play guitar or improvise to a backing track whenever I want to/I feel like it
 * relaxing, gratifying, satisfactory
 #### Store
 * a new guitar flagship shop, **featuring** my favorite guitar brand
 * It sells a variety of guitars, as well as related accessories including guitar amp, pick, string and straps
 * Based on my observation there, most of the customers are musicians or guitar players. They came for better guitars or back-up ones. Random walkers will occasionally come in, out of curiosity.
-* With the rising of music industry and growing level of musical aesthetics, I believe more and more people will have their own guitars, making this shop thrive in business
+* With the rising of music industry and growing level of musical aesthetics among people, I believe more and more people will have their own guitars, making this shop **thrive in business**
 
 
 #### Park
 * xianghu, not far from where I live
 * basically a lake surrounded by grass field, where
-* Far from the city center, is often not very crounded, making it tranquil
-* bring guitar, enjoy music throughout the day
+* Far from the city center, makeing it away from the hustle and bustle. Therefore, it is often not very crounded, making it tranquil
+* bring guitar, enjoy music **throughout** the day
 * beautiful landscape and **untouched nature**
-
-
 
 
 ### Trip to Xinjiang
@@ -388,18 +403,16 @@ LiverPool, United Kingdown
 * watch 
 * water sports
 #### Kayaking
-* my colleague used to offer Kayaking classes, it was like very popular, so I never get the chance to try it. I occasionally see them kayaking in the river
+* my colleague used to offer Kayaking classes, it was like very popular, so I never get the chance to register. I occasionally see them kayaking in the river
 * What it is like: It requires paddling through water in a narrow boat.
-* Why want: It's a physical challenge which keeps me fit. I know this sport is tiring. Also, I'm afraid of the water.
+* Why want: It's a physical challenge which keeps me fit. I know this sport is tiring. Also, I'm afraid of the water. Fosters collaboration and team work.
 * Why watch: The game can be quite exciting to watch, for the competition and strategy shown by players. The suspense of competition often continues until the end.
 
-
 ### Experience 
-
 #### Bad Service
 * At an Italian restaurant where I had planned to take my then-girlfriend on our first date. It was two years ago and we were both excited about the night.
- *  Once seated, the waiter took a long time to take our orders, despite the restaurant not being particularly busy.
-* When our food finally arrived, I was in huge shock. I love Italian food and know how to cook some dishes myself, but the carbonara presented to me was the worst I even seen. Salty, burnt and raw at the same time. Also, my pasta was lukewarm
+* Once seated, the waiter took a long time to take our orders, despite the restaurant not being particularly busy.
+* When our food finally arrived, I was in huge shock. I love Italian food and know how to cook some dishes myself, but the Carbonara presented to me was the worst I even seen. **Salty**, burnt **and** raw at the same time. Also, my pasta was lukewarm.
 * We don't leave plenty of time for the problem to be solved, as we immediately paid our bill and left with disappointment.
 * I will never enter that restaurant again, I swear to god.
 
@@ -414,12 +427,12 @@ One of the most unusual meals I've ever had holds significant meaning to me. I c
 
 Up until that point, I had never ventured into the realm of exotic cuisines, so **this encounter with Italian food** marked a **novel** experience for me. I was captivated by the rich flavors and unique ingredients that characterized the dishes in this restaurant. I **particularly enjoyed** the Margherita pizza and Carbonara; they remain my favorites to this day.
 
-What made this meal unusual, and indeed transformative, was that it opened the door for me to explore cooking on my own. This dining experience ignited a culinary curiosity in me that I had not known before, and it continues to influence my food choices and cooking ventures.
+What made this meal unusual, and indeed transformative, was that **it opened the door for me to explore cooking on my own**. This dining experience ignited a culinary curiosity in me that I had not known before, and it continues to influence my food choices and cooking ventures.
 #### Speech
 * music about surf rock
-* I was then a sophomore student in a school club, which is basically people with shared interests towards arts. We hold salon occasionally.
+* I was then a sophomore student and I was in a school club, which is basically people with shared interests towards arts. **We hold salon occasionally.**
 * To prepare for the speech, keynote, transcript, and visual aids are required. It took me several weeks to organize.
-* not so many people, great interaction with the audience
+* As for the speech, not so many people, great interaction with the audience. We have a nice conversation.
 * but satisfied, self-expression
 
 #### Learn 
@@ -427,6 +440,8 @@ I used to play notes mechanically, like a machine without anything original.
 With platforms like Youtube, which provide numerous valuable lessons on music theory, I can learn it online, without having to go to traditional music schools.
 
 However, it's **challenging** as it demands hard work and continuous effort 坚持努力.
+
+
 It's all about perseverance. 
 
 #### Pollution
@@ -440,9 +455,7 @@ It's all about perseverance.
 * though I work in tech industry, I always find it hard to use sports camera
 * go pro
 * Plan was to stick it to the top my guitar for first-perspective video
-* find it hard to switch mode, fix and lost some part
-* 
-
+* Unfornately, several problems occured. I find it hard to switch mode, fix and lost some part
 
 
 
@@ -589,13 +602,7 @@ Smart children are likely to be influenced by a variety of sources, including **
 #### What kind of people have lots of great ideas in your country? (Innovative people in my country usually come from professions related to computers, media and science. The nature of their jobs drives them to come up with innovative ideas and it is the only way for them to thrive. )
 Innovative thinkers, often found **in fields like** technology, science, and arts, typically have many great ideas. Entrepreneurs and educators also contribute significantly with their creative solutions and approaches.
 
-
-
-
 ### Pollution
-
-
-
 
 
 #### Ways to reduce
@@ -631,7 +638,7 @@ Empathy, compassion, respect, friendship **motivate** children to help **volunta
 ### Bad services 
 #### Types
 * with bringing the wrong food the major one
-* delayed response also count for bad services 
+* delayed response also count for bad services
 * negative service attitude annoys customer too
 * lack of professionalism  
 
@@ -764,4 +771,3 @@ The answer depends on individual circumstances. For some students who lack a com
 However, for those who have a clear **vision** of their future.
 
 Take myself as example, I choose CS as my major out of my passion towards computer.
-
