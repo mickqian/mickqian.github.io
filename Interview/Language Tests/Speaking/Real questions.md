@@ -146,17 +146,23 @@ It takes me around 20 minutes to get to work/school from my home. I usually go o
 ### Do you think people will drive more in the future?
 I believe the future might see less individual driving due to the rise of autonomous vehicles and shared transportation services. Environmental concerns may also promote the use of public transportation.
 
+### Bag
 
-
-### Do you usually carry a bag(I usually carry a tote bag, which is a convenient version of a bag. It can contain a lot of stuff that I use frequently, like umbrellas and wallet and some snacks)
+#### Do you usually carry a bag(I usually carry a tote bag, which is a convenient version of a bag. It can contain a lot of stuff that I use frequently, like umbrellas and wallet and some snacks)
 Yes, I usually carry a bag. It helps me keep important items like my wallet, keys, and phone organized and easily accessible.
 Yes, I do. I find a denim tote bag quite **handy** for carrying my **essentials** like books, wallet, and phone. It's both **practical and stylish.**
 
-### What kinds of bags do you like to carry?
+#### What kinds of bags do you like to carry?
 I prefer convenient and small bags. They're easy to **carry around** and suit my needs without being overly bulky or expensive.
 
-### Do you change your bags often?
-No, I don't change my bags often. I **prefer** sticking to one that's durable and fits my daily needs.
+#### Do you change your bags often?
+No, I don't change my bags. I **prefer** sticking to one that's durable and fits my daily needs. I tend to only replace my bags when they are worn out or broken. Also, I find it hard to choose
+
+#### Expensive bags
+find luxury bags premium 溢价 is serious.
+
+They are just, not worth the price.
+
 
 
 ### Where do you live
@@ -508,7 +514,15 @@ It's all about perseverance.
 
 * Harry Potter
 * waving my wand, chanting a spell, fighting death eaters
-* 
+
+
+#### Ads don't like
+I really enjoy watching advertisements, as some are very creative and attractive. However, there is one advertisement I dislike that I’ve seen on television about a toilet cleaner. A celebrity visit randomly picked homes and asks the owner if the toilet is clean or not. Everyone replies that their toilets are clean, but then the celebrity zooms in with their camera and reveals some dirt. They proceed to clean the toilet with a new liquid, making it sparkle. Seeing this ad during mealtime is disgusting and annoying, sometimes even making me feel nauseous.
+
+
+
+cheesy
+
 
 
 ## Part 3
