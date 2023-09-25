@@ -1,4 +1,15 @@
+* proven by <-> as evidenced by
+* huge impact <-> profound impact 
+* as a result <-> consequently
+* solely
+* motivation <-> passion
+* drive <-> propels them forward
+* selfless effort <-> selfless dedication
+* aim, pursuit, goal
+
+
 ## Music
+
 #music
 Lastly, music and being in a band bring me joy and pleasure. 
 Playing an instrument and creating beautiful music with other band members, **while bring joy to the audiences, is a gratifying experience**.
