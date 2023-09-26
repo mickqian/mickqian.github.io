@@ -109,6 +109,12 @@ In summary/Anyway
 
 ## Part 1
 
+
+### Music
+catchy, memorable tunes
+
+#### One type
+
 ### Dream 
 
 #### Why
@@ -515,7 +521,7 @@ LiverPool, United Kingdown
 #### Park
 * xianghu, not far from where I live
 * basically a lake surrounded by grass field, where
-* Far from the city center, making it away from the hustle and bustle. Therefore, it is often not very crounded, making it tranquil
+* Far from the city center, making it away from the hustle and bustle. Therefore, it is often not very crowded, making it tranquil
 * bring guitar, enjoy music **throughout** the day
 * beautiful landscape and **untouched nature**
 #### Noisy
@@ -534,7 +540,8 @@ unbearable
 * I looked for the source of this through difficulty, and suddenly some chimneys came into my sight. I suddenly realized that it's power plant that is producing this polluted air.
 * It emitted untreated polluted air, straight into the surroundings.
 * Seeing my hometown suffer from pollution was disheartening and frustrating. It made me more conscious of environmental issues
-
+* environment is compromised/sacrificed to economic development
+* at the cost of the 
 ### Trip to Xinjiang
 * With some of my colleagues and friends, 5 in total, just enough to fill a car
 * Car journey: We drove all the way from Urumqi to Yili, which is on the border of Xinjiang. Long hours in the car made us all exhausted both mentally and physically. Luckily we had shifts, so we each get to have a break.
@@ -619,8 +626,14 @@ cheesy
 * airpods, which is a bluetooth headphone
 * It's a headphone/noise isolator
 * I love it for its convenience, without the bothering of the line.
-* Also, as a music lover, the denoise feature ensure me enjoying music in a undisturbed way, disconneting me from the noise.
+* Also, as a music lover, the denoise feature ensure me enjoying music in a undisturbed way, disconnecting me from the noise.
 * Pretty easy to use, you just put the headphones on the ears, than they will be automatically connected with apple devices
+
+
+
+Looking back, I think it reflects the different mindsets of the young generation and their parents in China.
+It's probably due to the hardships the parents experienced in the past.
+They should enjoy life like, a bit, after working hard
 
 
 ## Part 3

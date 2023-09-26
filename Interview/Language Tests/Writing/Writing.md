@@ -672,7 +672,7 @@ Highlight:
 	 * 并列：Additionally, Nevertheless, Besides, Moreover, Furthermore, Lastly
 	 * 引导：Leading to, Hence, Therefore, As a Consequence, Consequentially
 	 * 转折：However, whereas, Contrarily/On the contrary, Conversely,
-	 * 总结：Conclusively, Personally, In essense
+	 * 总结：Conclusively, Personally, In essence
 	 * 据我：in my book, in my opinion, From where  I stand
  * adjectives: #adjectives 
 	 * **undisputed**: 不容置疑的
