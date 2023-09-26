@@ -1,4 +1,3 @@
-
 常用：
 * I reside in Hangzhou, a city tucked away in the southeastern region of China, **characterized by** its international flair, vibrant atmosphere, and dynamic energy
 * tranquil 安静的
@@ -6,43 +5,73 @@
 * i once met xxx at a concert, when he was playing as the lead guitarist
 * his business range from ... to
 * the companies he runs have all achieved global leadership
-* gain an advantage
+* gain an advantage/edge over rivals
 * captivate my interests
 * This includes
 * I particularly
 * happy <-> thrilled, delighted, overjoyed
 * 不用正面回答，不用以第一人称主语开始
-* a variety of 
+* a variety of/various kinds of
 * delight
 * encounter
 * attractive, appealing <-> alluring
 * really like <-> am obsessed with/am fascinated with/be fond of/be really into/be keen on/appreciate/was very involved with
 * good <-> beneficial, rewarding
+* problematic <-> detrimental, counterproductive
+* boring <-> mundan, tedious
 * interesting <-> intriguing, fascinating, exciting, inspiring
 * I think <-> I find
 * **It's intriguing 令人感兴趣的 to gain a deep understanding about different locations, cultures, and the physical characteristics of our world.** Gain respect for people from different backgrounds
 * most .. aspect of...
 * be surprised <-> be taken aback
+* many <-> a large proportion of
+* cheer me up
 * in the sense that
 * all the day <-> throughout the day
-* if i'm not mistaken
-
-
+* encourage/propel into/motivate
+* should <-> ought to
+* a wide range of/a variety of
+* retrain yourself to pay attention for **longer periods of time**
+* entertainment, education and empathy
+* I don't have a set schedule for cleaning my house.
+* housekeeping service
+* express my gratitude towards, who supported me all along the way
+* serve as a recognition of one's hard work, dedication and perseverance
+* motivate me to **strive for excellence** in my future endeavor
+* celebrating these milestones **reinforces the importance of goal setting and working towards them**
+* it gives me a sense of enormous well-being
 
 
 
 >[!Info] 慎用
-> Well I never thought about this before. But from what I have witnessed, I guess to some extent it can be very indispensable.
+> Well, I never thought about this before. But from what I have witnessed, I guess to some extent it can be very indispensable.
 > I have never thought about...
+> I really have no idea about this question as I've never thought about this before.
+> So, those are the thoughts I've had about this question by now.
 
-
-
->[!Note] 连接词
+>[!Tip] 口癖/fillers
+>I mean
+>What I'm trying to say is that
+>Well, in my estimation,
+>It's very important, I must say.
 >What I mean is
+>If i'm not mistaken
+
+>[!Tip] 连接词
+>
 >So, I would say
 >When it comes to
 >On top of that
 
+
+
+>[!Tip] 
+>It/The final answer depends ...
+>It is a circumstantial/conditional question
+>It various from people to people
+>It's a little stereotyped to think
+>
+ 
 
 ## 提问句式
 * 回答 yes or no:
@@ -51,10 +80,31 @@
 	* 反面: 
 * prefer:
 	* my preference would be
-	* I go with
+	* I usually  go with
 	* ... would be my first choice
 	* ... is preferable
 	* i prefer
+	* I would opt to
+* what/how
+	* I suppose/think there are several/couple of  ways/reasons to ...
+	* There could be some... 
+		* I can come up with/think of several...
+		* Well, in my estimation,
+	* Firstly... Additionally/Secondly
+	* First... Then
+	* For one thing ... For another 
+	* One is to... Another way/strategy would be
+	* the most ... way is to ..., an alternative ways is to
+	* mainly because..., for instance ..., Another reason being that..., by contrast...
+	* .. can .... Besides, they can ...
+	* One(reason, factor) that i can think of is... Another reason is...
+* should/opinion
+	* I have mixed feelings about this.
+	* It's a bit of a mixed bag
+
+
+结尾: 
+In summary/Anyway
 
 
 ## Part 1
@@ -124,7 +174,7 @@ I assist by offering emotional support, sharing knowledge, helping with tasks, a
 #### Do your parents teach you how to help others
 When I was young, my parents always taught me being **kind** and **helpful**.
 
-For example , such as  looking after a relative's child or his pet.
+For example , such as looking after a relative's child or his pet.
 
 Yes, instead of plain talking, they teach by setting role models for me.
 
@@ -134,12 +184,15 @@ Absolutely, my parents help me with
 * picking me up to school
 * helping me with my homework
 
-
 #### What have you done to help the elderly? 
 I don't have too much opportunities to spend with elderly actually, but I did go to a nursing home to deliver gifts and food once, as part of a school program.
 ### Do you like ice cream?
+
 Absolutely, I adore ice cream! The variety of flavors and its creamy texture make it a **delightful** treat. My favorite ice-cream is Gelato, which is the Italian version. In fact, I don't know if that is considered as "Ice cream".
 
+However, it's calorie-dense, and lack in nutrients. contains a large proportion of saturated fat
+
+dopamine
 ### How far is it from your home to work or to school?
 It takes me around 20 minutes to get to work/school from my home. I usually go on electric bycicle. I prefer living near the workspace, saving me time for commuting.
 
@@ -191,15 +244,13 @@ Because of the Asian Olympics, some new buildings are rising. Also, the road see
 #### Compare to have lived in the past
 The space was **rather restricted** for I had to share with 3 other people. Also, It was not as clean either.
 #### Weather
-The weather here is called "Sub tropical monsoon climate", that's the techinal term. To be specific, we have distinctive seasons here. And it's humid throughout the year, making the winter rather cold. Also, there's a lot of rain in September, which I hate.
-
-
+The weather here is called "Sub tropical monsoon climate", that's the technical term. To be specific, we have distinctive seasons here, with the summer being scorching hot. And it's humid throughout the year, making the winter rather cold. Also, there's a lot of rain in September, which I hate.
 
 
 
 ### Animals
 #### Have you ever been to a zoo or a safari park?
-Oh, absolutely! I've been to a local zoo here in Hangzhou, where I rode a tiger and took some pictures. Although at that time I was not aware of the danger of these animals.
+**Oh, absolutely! I've been to a local zoo here in Hangzhou, where I rode a tiger and took some pictures. Although at that time I was not aware of the danger of these animals.**
 
 
 #### Animal want to see
@@ -238,13 +289,14 @@ As a fan of Margaret Howell's designs, my clothing preference leans towards **mi
 
 I have a preference for neutral tones, such as blacks, whites, and earthy hues, which are a staple 主要产品  in Howell's collections. I find these colors **versatile**, easy to **pair**, and suitable for various occasions. The high-quality materials used, like linen, wool, and cotton, ensure comfort and durability, which are paramount for me.
 
-### Computer
-I chose computer science as my major because I find the process of programming, seeing the program run without mistake a satisfying experience. I've always been fascinated by technology and its potential to solve complex problems.
-
 
 ### Travel
 
 ### Computer
+I chose computer science as my major because I find the process of programming, seeing the program run without mistake a satisfying experience. I've always been fascinated by technology and its potential to solve complex problems.
+
+
+
 I chose computer science as my major because I've always been fascinated by technology and its potential to solve complex problems.
 
 
@@ -261,6 +313,9 @@ Geography fascinates me. **It's intriguing 令人感兴趣的 to learn about dif
 Absolutely, geography is crucial. It helps us understand the world's physical features, cultures, and the impact of human activity on Earth.
 
 ### Art
+**Art is a display of people's imagination.**
+**People explore a imaginary world evolved from artist's/musician's mind.**
+
 
 #### Gallery
 Yes, I never miss the graduation exhibition of the Academy of Fine Arts. I get to see a variety of arts
@@ -317,19 +372,29 @@ Personally, I prefer to live in a dry place.
 
 #### Heavy rain
 ## Part 2
+So, I'm going to talk about
+### Robots
 
+Using robots in agriculture or production is a smart choice, being faster, cheaper than some sophisticated workers. However, robots don't know how to learn, so they won't replace human, at least in the near future.
 
+#### Jobs
+Robots can easily replace workers that involve mechanical repotition or physical actions, such as cleaners, typewriters, drivers, plumbers. On the other hand, jobs require empathy can't be replaced by robots, for instance, teachers.
+
+#### Risk
+As the techologies are not mature and have not gone through thourough tests, they can get out of control. Also, they can lead to job displacement and more societal issues.
 ### Person
 * work/study with
 * interesting
 * share common interests
 * met at a party
 
+#### Sportsman
+
 
 
 #### Party 
 
-#### Music & band: 
+#### Music & band
 I'd like to talk about my friend, Eric, who I met during a band audition. Eric was applying for the guitarist position then, and his passion for music impressed me.
 
 Besides the fact that he's a fantastic musician, he's also a person with charm and charisma. 
@@ -347,12 +412,21 @@ As an inexperienced amateur band, we often encounter numerous problems, involvin
 He never seems annoyed or refuse to help, 
 
 Thanks to his help, we managed to produce our original song and perform in local concerns, which turned out to be quite successful.
+#### Happy Photos
+
+
+
+
 
 ### Job
 
 #### Skills
 One job I find particularly interesting is being a guitarist in a band. I always dream about being on the stage as Eric Clapton, **although I know clearly I can never be as good as** the guitar God. **Anyway**, this role not only requires sophisticated guitar-playing skills but also involves music composition, which requires a thorough understanding of music history.
 #### Exciting and interesting part
+
+expand one's horizons
+
+
 The most exciting aspect of this job is the opportunity to perform all around the world. This global exposure allows me to experience a **variety of cultures, meet diverse people**. It's an incredible way to expand one's horizons and **gain a deeper understanding** of the world.
 Also, I get to meet different musicians around the world. **Hopefully I can draw some inspirations and learn from them.**
 
@@ -373,11 +447,11 @@ Also, I get to meet different musicians around the world. **Hopefully I can draw
 #### Date
 The Duanwu Festival, also known as the Dragon Boat Festival, is a traditional **celebration** in China. It's held annually on the 5th day of the 5th month of the lunar calendar, which usually falls in June.
 #### Dragon boat race
-The festival is **rich in history and culture**, **and it's known for its dragon boat races**. Teams of boats move forward in rhythm to the beats of a drum, racing to reach the finish line first. It's a thrilling event that draws crowds of spectators.
+The festival is **rich in history and culture**, **and it's known for its dragon boat races**. Teams of boats move forward in rhythm to the beats of a drum, racing to reach the finish line first. It's a thrilling event that **draws crowds of spectators.**
 #### Zongzi
 **Another key aspect** of the Duanwu Festival is the making and eating of zongzi, which are sticky rice dumplings wrapped in bamboo leaves. They're **often filled with** ingredients like meats, beans, and nuts. In fact, there is actually a debate over whether Zongzi should be sweet or salty between north and south part of the country.
 #### Conclusion
-The Duanwu Festival is a time of excitement and camaraderie. It's a unique blend of history, sport, and culinary 烹饪 tradition that makes it a truly special event in the Chinese calendar.
+The Duanwu Festival is a time of excitement and camaraderie. **It's a unique blend of history, sport, and culinary 烹饪 tradition that makes it a truly special event in the Chinese calendar.**
 
 ### Public Figure
 * successful
@@ -441,10 +515,25 @@ LiverPool, United Kingdown
 #### Park
 * xianghu, not far from where I live
 * basically a lake surrounded by grass field, where
-* Far from the city center, makeing it away from the hustle and bustle. Therefore, it is often not very crounded, making it tranquil
+* Far from the city center, making it away from the hustle and bustle. Therefore, it is often not very crounded, making it tranquil
 * bring guitar, enjoy music **throughout** the day
 * beautiful landscape and **untouched nature**
+#### Noisy
+I would like to talk about a night bar/mexical restaurant near my college. It was **a local landmark**  地标 actually, located on the street next to our campus. People would go there to relieve stress and anxiety from school,  or celebrate the end of a season. But my last visit there proved me wrong.
 
+Before my friend and I entered the bar, I could already hear the loud sound from the stereos which played **the catchy and cheesy music**. The tone quality was rather awful so all I heard was **high pitch of soun**d rather than nice and **gentle melodies**.  Besides, after sitting down at a small table, there're too many people talking in a loud voice that I can hardly here my friend was saying. 
+
+Though the food there was tasty, I love the Fajita and Mojito, the atmosphere in the bar **was too awful to endure**. I was expecting a quiet listening experience but everything was out of my imagination. **People were raising their voice as the background music was overwhelming**, which made the place all the more **unbearable**.
+
+unbearable
+
+
+#### Pollution
+* during a visit to my hometown 2 years ago, when I was on a vocation
+* At one time, I'm shocked to notice that I can hardly  see anything, through the heavy fog
+* I looked for the source of this through difficulty, and suddenly some chimneys came into my sight. I suddenly realized that it's power plant that is producing this polluted air.
+* It emitted untreated polluted air, straight into the surroundings.
+* Seeing my hometown suffer from pollution was disheartening and frustrating. It made me more conscious of environmental issues
 
 ### Trip to Xinjiang
 * With some of my colleagues and friends, 5 in total, just enough to fill a car
@@ -463,6 +552,7 @@ LiverPool, United Kingdown
 
 ### Experience 
 #### Bad Service
+* indifference, impatience
 * At an Italian restaurant where I had planned to take my then-girlfriend on our first date. It was two years ago and we were both excited about the night.
 * Once seated, the waiter took a long time to take our orders, despite the restaurant not being particularly busy.
 * When our food finally arrived, I was in huge shock. I love Italian food and know how to cook some dishes myself, but the Carbonara presented to me was the worst I even seen. **Salty**, burnt **and** raw at the same time. Also, my pasta was lukewarm.
@@ -498,12 +588,6 @@ However, it's **challenging** as it demands hard work and continuous effort 坚�
 
 It's all about perseverance. 
 
-#### Pollution
-* during a visit to my hometown 2 years ago, when I was on a vocation
-* At one time, I'm shocked to notice that I can hardly  see anything, through the heavy fog
-* I looked for the source of this through difficulty, and suddenly some chimneys came into my sight. I suddenly realized that it's power plant that is producing this polluted air.
-* It emitted untreated polluted air, straight into the surroundings.
-* Seeing my hometown suffer from pollution was disheartening and frustrating. It made me more conscious of environmental issues
 
 #### Tech difficult to use
 * though I work in tech industry, I always find it hard to use sports camera
@@ -517,49 +601,30 @@ It's all about perseverance.
 
 
 #### Ads don't like
-I really enjoy watching advertisements, as some are very creative and attractive. However, there is one advertisement I dislike that I’ve seen on television about a toilet cleaner. A celebrity visit randomly picked homes and asks the owner if the toilet is clean or not. Everyone replies that their toilets are clean, but then the celebrity zooms in with their camera and reveals some dirt. They proceed to clean the toilet with a new liquid, making it sparkle. Seeing this ad during mealtime is disgusting and annoying, sometimes even making me feel nauseous.
-
-
+I really enjoy watching advertisements, as some are very creative and attractive. 
+However, there is one advertisement I dislike that I’ve seen on television about a toilet cleaner. A celebrity visit randomly picked homes and asks the owner if the toilet is clean or not. Everyone replies that their toilets are clean, but then the celebrity zooms in with their camera and reveals some dirt. They proceed to clean the toilet with a new liquid, making it sparkle.
+Seeing this ad during mealtime is disgusting and annoying, sometimes even making me feel nauseous.
 
 cheesy
 
+#### Useful ad
+#### Lost
+* on the way to a local music festival with my friend
+* We take a cab to the location described on the ticket, but it was a deserted place of power plant
+* Unable to find on the map, so we had to walk aimlessly, hoping to find someone to help
+* Luckily, it was close to the actual location. We managed to get close step by step, by following the sound made by amplifiers.
+* Although I was pretty frustrated and annoyed by the false information provided by the organizer, but finally found it by ourselves has solved the problem
+
+#### Invention
+* airpods, which is a bluetooth headphone
+* It's a headphone/noise isolator
+* I love it for its convenience, without the bothering of the line.
+* Also, as a music lover, the denoise feature ensure me enjoying music in a undisturbed way, disconneting me from the noise.
+* Pretty easy to use, you just put the headphones on the ears, than they will be automatically connected with apple devices
 
 
 ## Part 3
 
-
-### What How 
-I suppose/think there are several/couple of  ways/reasons to ...
-There could be some... 
-I can come up with/think of several...
-Well, in my estimation,
-* Firstly... Additionally/Secondly
-* First... Then
-* For one thing ... For another 
-* One is to... Another way/strategy would be
-* the most ... way is to ..., an alternative ways is to
-* mainly because..., for instance ..., Another reason being that..., by contrast...
-* .. can .... Besides, they can ...
-
-a wide range of/a variety of
-
-I have mixed feelings about this.
-It's a bit of a mixed bag
-
-
-One(reason, factor) that i can think of is... Another reason is...
-
-
-
-In summary/Anyway
-So, those are the thoughts I've had about this question by now.
-
->[!Tip] It depends/ It's a little stereotyped to think
->It various from people to people
->
- 
->[!Caution] Careful to use
->I really have no idea about this question as I've never thought about this before
 
 
 
@@ -568,18 +633,23 @@ So, those are the thoughts I've had about this question by now.
 * spread the awareness among potential customers
 * increase sales and demand
 
-#### celebrity endorsement
+* creativeness
+* present features, attract customers
+
+#### Feeling
+* drawback: some companies mislead consumers by presenting some features that don't exist
+
+
+#### Online
+* annoying, disrupting the experience
+* 
+#### Celebrity endorsement
 * fans consider them as role models, purchase the product based on trust
 
 #### Online ads vs newspaper
 Nowadays, online media is much more prevalent than newspaper, the traditional media. Everytime people open an app, watching a video or reading an article, ads can be there, which is good exposure.
 
 ### Party 
-
-
-
-
-
 
 
 
@@ -594,10 +664,6 @@ I find it totally fine if we don't know anymore, because that's not the purpose 
 
 
 #### Should you go to the party if you only know one person?  
-
-
-#### 
-
 
 
 
@@ -710,11 +776,9 @@ Smart children are likely to be influenced by a variety of sources, including **
 Innovative thinkers, often found **in fields like** technology, science, and arts, typically have many great ideas. Entrepreneurs and educators also contribute significantly with their creative solutions and approaches.
 
 ### Pollution
-
-
 #### Ways to reduce
 
-* promote renewable energy 
+* promote renewable energy, provide subsidy for new energy vehicles
 * encourage public transportation
 * educate people about the importance of environment
 * implement strict government regulations
@@ -743,6 +807,8 @@ It teaches about responsibility and teamwork.
 Empathy, compassion, respect, friendship **motivate** children to help **voluntarily**. 
 
 ### Bad services 
+
+That was a rare case 
 #### Types
 * with bringing the wrong food the major one
 * delayed response also count for bad services
@@ -750,15 +816,16 @@ Empathy, compassion, respect, friendship **motivate** children to help **volunta
 * lack of professionalism  
 
 #### Respond
+I believe it is circumstantial.
+* just leave
 * speak to the manager and complain about
 * give bad reviews and write
-* resortƒ to boycotting, post about it on social media
+* resort to boycotting, post about it on social media
+It depends on the level of severity of the **unsatisfactory** service
 
 #### Who responsible
 * restaurant/shop
 * employee
-
-
 
 
 
@@ -769,7 +836,7 @@ Empathy, compassion, respect, friendship **motivate** children to help **volunta
 
 
 
-
+may not like confrontation, deem it best to just avoid any conflicts. Everyone reacts in different ways that match their personalities.
 
 
 ### Why should children be kind to their classmates?
@@ -786,7 +853,7 @@ In my country, fast food delivery has indeed become a popular job among young pe
 
 #### What is the difference from high-income and low-income jobs in your country?
 High-income jobs in many countries typically **require** advanced **skills** and higher **degrees**. These jobs often related to profound thinking and management.
-Low-income jobs, in comparison, often require less education or specialized skills, are often linked to physical activity and meaningless repeat.
+Low-income jobs, in comparison, often require less education or specialized skills, are often linked to physical activity and meaningless repetition.
 
 #### Do you prefer a job you dislike or just stay unemployed?
 I would prefer the latter. I believe it's better to improve myself using the time saved from quitting previous job than doing something I hate. It's helps to choose a better job.
@@ -842,6 +909,9 @@ While proper amount of rules help regulate children's behavior and cultivate dis
 
 
 #### Help at home
+fostere a sense of team work
+teach them the importantce of responsibilities
+
 * assist with household tasks: laundry, dishwashing, grocery shipping
 * mind their own task: tidying rooms, making beds
 
@@ -917,3 +987,23 @@ The answer depends on individual circumstances. For some students who lack a com
 However, for those who have a clear **vision** of their future.
 
 Take myself as example, I choose CS as my major out of my passion towards computer.
+
+### Public figures
+#### Privacy
+Some even approach them and take photo without a bottom line, especially the so-called paparazzi. These kind of actions raise serious privacy concern issues.
+
+
+#### Influences on fans
+* physical change: hairstyle, dress style, makeup
+* affect the way people think, values of fans: 
+	* Lisa, a famous dancer adored by many
+* endorsement make their fans buy products based on trust
+### Food
+People in my country eat foods that are rich in carbohydrates, like rice or noodles. Sometimes it's meat or other ingredients wrapped in carbohydrates, such as dumplings or pancake
+
+
+### Science
+#### After school 
+It can be **advisable** for individuals to pursue further studies and science **beyond their school year**s.
+By doing this, people can...
+Without doing ...

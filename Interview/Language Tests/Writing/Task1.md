@@ -18,7 +18,7 @@ The ...
 
 line graph/given layouts/picture
 
-depicts/illustrates/classifies/compares
+depicts/illustrates/classifies/compares/provide information about
 
 the alternations that an airport will go through
 ## Paragraph 2
@@ -50,7 +50,7 @@ decline/fall
 
 A small rise occurred in Jan.
 underwent a small rise in Jan
-
+**whilst** other sources accouted for
 
 
 连接词：
@@ -60,12 +60,19 @@ Followed by/Next Came/Which was not far behind/Subsequent/After/After which/Foll
 respectively/ranging from/
 
 
+提及diff:
+0.5 million more than the previous year
+
+
 Misc:
 The process ends/commence with these cups being labeled and sealed
 The largest category consisted of
 approximately
 Not until around 1950 did ...
 The corresponding figures for ... were 
+expenditure<-> spending, money spent
+
+whereas, whereby,whilst
 
 替换：
 percentage <-> ratio
