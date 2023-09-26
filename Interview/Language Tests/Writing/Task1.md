@@ -43,14 +43,14 @@ experience/undergo/witness/see/occur/show
 副词/形容词：
 small/dramatic/uniformly/continuously/negligible/ significant/substantial 可观的
 
-趋势：rise/increase/boost/grow/climb/jump/skyrocket/accelerate/hike/
+趋势：rise/increase/boost/grow/climb/jump/skyrocket/accelerate/hike/surge
 rebound/
 consistent/stability 
 decline/fall
 
 A small rise occurred in Jan.
 underwent a small rise in Jan
-**whilst** other sources accouted for
+**whilst** other sources accounted for
 
 
 连接词：
