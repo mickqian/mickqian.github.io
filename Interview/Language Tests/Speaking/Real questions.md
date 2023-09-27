@@ -68,6 +68,7 @@
 >[!Tip] 
 >It/The final answer depends ...
 >It is a circumstantial/conditional question
+>Not everyone, As ... is a personal practice that varies based on individual preferences, circumstances, and personality traits. 
 >It various from people to people
 >It's a little stereotyped to think
 >
@@ -421,7 +422,10 @@ Thanks to his help, we managed to produce our original song and perform in local
 #### Happy Photos
 
 
-
+#### Move to community 
+* About a fortnight ago
+* invite us to party, where we enjoyed some soothing bossa nova, and had a great dinner made by himself, which was Italian and quite tasty, I would say
+* He quickly integrated into our group with his humor. We were happy to accept him as our new neighbor
 
 
 ### Job
@@ -586,7 +590,11 @@ What made this meal unusual, and indeed transformative, was that **it opened the
 * As for the speech, not so many people, great interaction with the audience. We have a nice conversation.
 * but satisfied, self-expression
 
-#### Learn 
+#### Learn ｜ Play in a band
+* During my college years, I'm really into music and spent **countless** time listening to it. But it never occurred to me that I can play the music myself.
+* After graduating
+* Despite all these obstacles
+* By relying on self-confident, perseverance, one can achieve anything
 I used to play notes mechanically, like a machine without anything original.
 With platforms like Youtube, which provide numerous valuable lessons on music theory, I can learn it online, without having to go to traditional music schools.
 
@@ -854,6 +862,25 @@ may not like confrontation, deem it best to just avoid any conflicts. Everyone r
 
 ### Why should children be kind to their classmates?
 Children should be kind to classmates because it **fosters a positive/harmonious learning environment**. It's crucial to build good relationships between classmates. Besides, kindness also lead to empathy and understanding, which is good for overall well-being and personal growth for children.
+### Goals 
+
+#### Personal or Work
+
+personal: contribute to happiness and well-being 
+work: financial stability and professional growth
+
+
+#### Does everyone set
+Not everyone sets explicit goals for themselves, as goal-setting is a personal practice that varies based on individual preferences, circumstances, and personality traits. 
+
+Some individuals are naturally more goal-oriented and proactive in setting and achieving objectives, while others may be more content with a **flexible approach to life.**
+
+#### Rewards 
+* material: bonus, gifs
+* emotional: recognition, encouragement, acknowledgement
+
+
+
 
 ### Colleagues
 The most important aspect of a colleague's personality is their ability to communicate effectively and work collaboratively. When it comes to team work, communication and collaboration is the key to productivity. Based on my previous work experience, working with uncooperative colleagues could be exhausting and nasty.
