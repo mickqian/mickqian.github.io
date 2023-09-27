@@ -424,6 +424,8 @@ Thanks to his help, we managed to produce our original song and perform in local
 
 #### Move to community 
 * About a fortnight ago
+* When I was helping him moving, I saw his new place.
+* Everything is digitalized
 * invite us to party, where we enjoyed some soothing bossa nova, and had a great dinner made by himself, which was Italian and quite tasty, I would say
 * He quickly integrated into our group with his humor. We were happy to accept him as our new neighbor
 
@@ -1013,7 +1015,20 @@ The artifacts from the past do not **necessarily imply** that the ideas containe
 ### Skills
 #### Popular things to learn
 With the breakthrough achievements of AI, such as ChatGPT and StableDiffusion, more and more people, including my colleagues, are starting to  learn about AI. It's an interesting and promising, and I'm sure it will participate in the next industrial revolution.
+#### Living alone
+Allows young people to gain self independence
 
+#### Besides cooking
+besides <-> Apart from
+
+
+Apart from cooking, other skills are also essential include repairing, doing dishes, online shopping. Additionally, financial skills such as budgeting and managing bills, is crucial to ensure a stable living situation.
+
+
+#### What kind of 
+* financially capable to support themselves 
+* value freedom and **privacy**
+* bachelor or unmarried
 
 #### Children make decisions 
 There's no such thing as a starting point for children to make decisions. Children can make decisions as long as they are able to understand the consequences and they have gone through thorough thought. It helps them boost confidence and responsibility.
