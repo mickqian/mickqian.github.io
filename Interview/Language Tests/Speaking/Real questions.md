@@ -504,7 +504,7 @@ It's the **minimalist**, **quality** and **versatility** of Howell's clothes tha
 
 ### Place
 #### Distant places I want to go in the future
-LiverPool, United Kingdown
+LiverPool, United Kingdom
 * Hometown of the The Beatles & Merceybeat, which is a genre of music.
 * Liverpool F.C. is also a quite competitive one in the Campion's League, and I'd love to watch Salah score.
 * I can't wait to explore those locations mentioned in the songs, strawberry field, Eleanor Rigby, penny lane and so much more I can't recall at the moment
@@ -524,7 +524,7 @@ LiverPool, United Kingdown
 * With the rising of music industry and growing level of musical aesthetics among people, I believe more and more people will have their own guitars, making this shop **thrive in business**
 
 
-#### Park
+#### Park | Interestng
 * xianghu, not far from where I live
 * basically a lake surrounded by grass field, where
 * Far from the city center, making it away from the hustle and bustle. Therefore, it is often not very crowded, making it tranquil
@@ -549,6 +549,8 @@ unbearable
 * environment is compromised/sacrificed to economic development
 * at the cost of the 
 ### Trip to Xinjiang
+* exotic: clothes, food, their markets, fruits
+* local people being friendly and modesty, hospitable
 * With some of my colleagues and friends, 5 in total, just enough to fill a car
 * Car journey: We drove all the way from Urumqi to Yili, which is on the border of Xinjiang. Long hours in the car made us all exhausted both mentally and physically. Luckily we had shifts, so we each get to have a break.
 * The hardship was totally worth it, as we not only get to **experience exotic landscapes and culture**, but also had to chance to try local food, which can't be seen in Hangzhou.
