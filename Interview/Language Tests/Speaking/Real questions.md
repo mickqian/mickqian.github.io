@@ -626,8 +626,8 @@ cheesy
 
 #### Useful ad
 #### Lost | False information
-* on the way to a local music festival with my friend
-* We take a cab to the location described on the ticket, but it was a deserted place of power plant
+* It happened several months ago when my friend and I are on the way to a local music festival with my friend
+* The concerted was supposed to start in the afternoon, so We took a cab to the location described on the ticket at noon, but it was a deserted place which turned out to be a used power plant
 * Unable to find on the map, so we had to walk aimlessly, hoping to find someone to help
 * Luckily, it was close to the actual location. We managed to get close step by step, by following the sound made by amplifiers.
 * Although I was pretty frustrated and annoyed by the false information provided by the organizer, but finally found it by ourselves has solved the problem
@@ -982,7 +982,11 @@ Fast food like hamburgers are often convenient, affordable, and tasty. They also
 
 ### What are the advantage and disadvantages of eating in restaurants?
 Eating in restaurants offers variety, convenience, and a chance to socialize. However, it can be expensive and less healthy due to hidden ingredients and large portion sizes.
-
+### Getting Lost
+* get anxious and start to panic: 描述心理
+* resort to help from passers-by or digital maps
+#### Go without preparation
+* prefer spontaneity, enjoy the novelty and its unpredictable nature 
 ### Internet
 #### Communication
 Indeed, the internet has revolutionized communication. In the past, the communication is subjected to geographical boundaries. But nowadays, communication can occur virtually anywhere, **provided it has access to internet.**
