@@ -625,7 +625,7 @@ Seeing this ad during mealtime is disgusting and annoying, sometimes even making
 cheesy
 
 #### Useful ad
-#### Lost
+#### Lost | False information
 * on the way to a local music festival with my friend
 * We take a cab to the location described on the ticket, but it was a deserted place of power plant
 * Unable to find on the map, so we had to walk aimlessly, hoping to find someone to help
