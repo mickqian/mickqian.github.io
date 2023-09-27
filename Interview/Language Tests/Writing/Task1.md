@@ -18,7 +18,7 @@ The ...
 
 line graph/given layouts/picture
 
-depicts/illustrates/classifies/compares/provide information about
+depicts/illustrates/classifies/compares/provide information about/presents
 
 the alternations that an airport will go through
 ## Paragraph 2
@@ -41,12 +41,22 @@ separate by: time or type
 experience/undergo/witness/see/occur/show
 
 副词/形容词：
-small/dramatic/uniformly/continuously/negligible/ significant/substantial 可观的
+small/dramatic/uniformly/continuously/negligible/moderate significant/substantial 可观的
 
-趋势：rise/increase/boost/grow/climb/jump/skyrocket/accelerate/hike/surge
+趋势：rise/increase/boost/grow/climb/jump/skyrocket/accelerate/hike/surge/escalate/upward/
 rebound/
 consistent/stability 
-decline/fall
+decline/fall/dip
+
+
+trajectory
+
+
+不变：
+remain stable/consistent throughout the period
+
+上升后下降：
+escalating from ... in ... to a peak of  ...  in ..., despite a slight dip to ... recorded in ....
 
 A small rise occurred in Jan.
 underwent a small rise in Jan
@@ -71,8 +81,9 @@ approximately
 Not until around 1950 did ...
 The corresponding figures for ... were 
 expenditure<-> spending, money spent
+recorded in 2015
 
-whereas, whereby,whilst
+whereas, whereby, whilst
 
 替换：
 percentage <-> ratio
@@ -81,5 +92,6 @@ takes up <-> comprise
 bought <-> sales in, buyers
 use <-> consumed, consumer, consumption
 per person <-> per capita
+highest income group
 
 ![[Pasted image 20230918221255.png]]
