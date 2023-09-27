@@ -549,9 +549,11 @@ unbearable
 * environment is compromised/sacrificed to economic development
 * at the cost of the 
 ### Trip to Xinjiang
+* makes it **intriguing/capivating**
 * exotic: clothes, food, their markets, fruits
 * local people being friendly and modesty, hospitable
 * With some of my colleagues and friends, 5 in total, just enough to fill a car
+* instruments: unique and delicate, I bought some and play frequently
 * Car journey: We drove all the way from Urumqi to Yili, which is on the border of Xinjiang. Long hours in the car made us all exhausted both mentally and physically. Luckily we had shifts, so we each get to have a break.
 * The hardship was totally worth it, as we not only get to **experience exotic landscapes and culture**, but also had to chance to try local food, which can't be seen in Hangzhou.
 
@@ -649,6 +651,31 @@ They should enjoy life like, a bit, after working hard
 
 
 ## Part 3
+
+
+### Travel 
+
+#### Information
+* on the internet, navigation maps, official websites
+* travel agencies
+* resort to friends
+
+#### What cause the difference 
+* geographical: in plain tends to have better economy 
+* cultural: this includes religion, music, language, habits, etc
+* weather
+
+
+
+
+
+#### Tourist destination = place to live?
+ad: rich landscapes, cultural events and entertainments
+disad: higher cost of living, noisy and crowded
+
+
+#### Small towns more interesting
+ad: slow pace of living, lead peaceful and comfortable life, low-cost, connection within neighbours 
 
 
 
