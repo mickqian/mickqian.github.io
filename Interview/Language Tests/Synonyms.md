@@ -41,7 +41,7 @@ versatility - diversity
 happy - thrilled, delighted, overjoyed
 good - beneficial, rewarding
 problematic - detrimental, counterproductive
-boring - mundan, tedious
+boring - mundane, tedious
 attractive, appealing - alluring
 interesting - intriguing, fascinating, exciting, inspiring
 many - plenty of, countless, vast
