@@ -40,6 +40,12 @@
 * motivate me to **strive for excellence** in my future endeavor
 * celebrating these milestones **reinforces the importance of goal setting and working towards them**
 * it gives me a sense of enormous well-being
+* What fascinates me the most is the
+* 正面感受:
+	* 
+* 负面感受：
+	* disheartening
+* 
 
 
 
@@ -445,8 +451,8 @@ Also, I get to meet different musicians around the world. **Hopefully I can draw
 
 ### Decision & What makes you proud
 * I've always been fascinated by the beauty of music. I enjoy listening to a variety of genre of music, but I never thought of performing those music.
-* About two years ago, I decided to pick up an instrument and learn by myself, just out of self-expression and fullfilment
-* Due to long working hours during the day, I don't have the time to attend any music classes. Thanks to various resouces on social media such as Youtube, BiliBili, I can learn from guitar masters anytime anywhere I want, and my guitar skills improved very quickly.
+* About two years ago, I decided to pick up an instrument and learn by myself, just out of self-expression and fulfillment
+* Due to long working hours during the day, I don't have the time to attend any music classes. Thanks to various resources on social media such as Youtube, BiliBili, I can learn from guitar masters anytime anywhere I want, and my guitar skills improved very quickly.
 * Luckily, through lots of practice, I managed to join a local band and play as the lead guitarist. We managed to produce our original song and perform in local concerns, which turned out to be quite successful.
 
 ### Late for a meeting
