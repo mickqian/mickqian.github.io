@@ -687,8 +687,8 @@ ad: slow pace of living, lead peaceful and comfortable life, low-cost, connectio
 
 
 ### Ads
-* an effective marketing strategy to promote product
-* spread the awareness among potential customers
+* an effective **marketing strategy** to promote product
+* **spread the awareness** among potential customers
 * increase sales and demand
 
 * creativeness
@@ -705,7 +705,7 @@ ad: slow pace of living, lead peaceful and comfortable life, low-cost, connectio
 * fans consider them as role models, purchase the product based on trust
 
 #### Online ads vs newspaper
-Nowadays, online media is much more prevalent than newspaper, the traditional media. Everytime people open an app, watching a video or reading an article, ads can be there, which is good exposure.
+Nowadays, online media is much more prevalent than newspaper, the traditional media. Every time people open an app, watching a video or reading an article, ads can be there, which is good exposure.
 
 ### Party 
 
@@ -948,6 +948,19 @@ They should not be hesitated to change their job. Spending some time seeking dre
 * exploring new job opportunities
 * Ultimately, the goal is to find a career path that aligns with their interests, skills, and aspirations.
 
+### Decision
+people tend to be objective and short-minded when they make decisions on their own.
+* advice from other people provide a different perspective, making the decision more reliable and multifaceted
+* we should be opened to receive advice from others, when making decisions, even if they don’t **serve our purposes** in the present since there is always a chance that they would benefit us in the future.
+#### Children
+ * whether they’ll become serious in their studies 
+ * continue hanging out with so-called friends that bring them down.
+
+#### After graduation
+* whether to pursue a higher degree
+* which job will they choose and which city to live in 
+
+
 
 ### Fashion 
 elderly: prefer comfortable clothing 
@@ -957,7 +970,7 @@ express personality, boost confidence, show their aesthetic
 
 #### Women and men
 perceived.
-The major variety of clothing is designed for women, for their superior spending power
+The major variety of clothing is designed for women, for their superior **spending power**
 
 
 
