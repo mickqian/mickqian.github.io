@@ -46,7 +46,8 @@
 	* 
 * 负面感受：
 	* disheartening
-* 
+* The idea of celebrating with people, some of whom I may not know, can induce feelings of nervousness and anxiety
+* t
 
 
 
@@ -282,9 +283,10 @@ The last time I went running was two months ago. I ran with my colleagues across
 
 Running not only keeps my physically fit, but also mentally rejuvenated. I always feel recharged and rejuvenated after running. It's a low-cost and therapeutic sport that everybody should try.
 
-**It promotes endurance, discipline, perseverance, mental strength**
-
-
+#### Think 
+I find it to be **an excellent way to stay in shape and relieve stress**. 
+Physically, it helps us to build a healthy body, and promote endurance, improves cardiac functionality 
+Mentally, It stimulates perseverance and mental strength
 ### Clothes 
 #### T shirt
 Yes, I have a lot of T-shirts in my wardrobe, they are mostly made out of Giza, which is a type of pure cotton and plain color. I find them easy to wear and casual. I love their simplicity.
@@ -395,10 +397,10 @@ So, I'm going to talk about
 Using robots in agriculture or production is a smart choice, being faster, cheaper than some sophisticated workers. However, robots don't know how to learn, so they won't replace human, at least in the near future.
 
 #### Jobs
-Robots can easily replace workers that involve mechanical repotition or physical actions, such as cleaners, typewriters, drivers, plumbers. On the other hand, jobs require empathy can't be replaced by robots, for instance, teachers.
+Robots can easily replace workers that involve mechanical repetition or physical actions, such as cleaners, typewriters, drivers, plumbers. On the other hand, jobs require empathy can't be replaced by robots, for instance, teachers.
 
 #### Risk
-As the techologies are not mature and have not gone through thourough tests, they can get out of control. Also, they can lead to job displacement and more societal issues.
+As the technologies are not mature and have not gone through thorough tests, they can get out of control. Also, they can lead to job displacement and more societal issues.
 ### Person
 * work/study with
 * interesting
@@ -600,7 +602,7 @@ unbearable
 * ruined my day
 * I will never enter that restaurant again, I swear to god.
 
-#### With a young child
+#### With a young child | Party
 * an occasion when I spent time with a young child. 
 * This happened at my colleague's son's birthday party. I decided to bring a guitar as a gift, knowing the child's interest in music.
 * We ended up spending the entire afternoon together, where I taught him some basic guitar chords and picking technique.

@@ -5,7 +5,6 @@ information and services are now at our fingertips
 the rapid pace of technological change can also cause stress and anxiety
 I wholeheartedly concur with this view
 as well as the specific needs and capabilities of a school and its students.
-as well as the specific needs and capabilities of a school and its students
 
 ## Vocabulary
 

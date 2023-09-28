@@ -56,6 +56,7 @@ for sustained periods of time <-> for longer periods of time
 temporary <-> ad-hoc
 disadvantage <-> downside
 substantial <-> considerable
+the meaning of <-> the essence of 
 ## Speaking
 like - prefer, enjoy
 attractive, appealing <-> alluring
