@@ -8,19 +8,12 @@
 * gain an advantage/edge over rivals
 * captivate my interests
 * This includes
-* I particularly
 * happy <-> thrilled, delighted, overjoyed
 * 不用正面回答，不用以第一人称主语开始
 * a variety of/various kinds of
 * delight
 * encounter
-* attractive, appealing <-> alluring
-* really like <-> am obsessed with/am fascinated with/be fond of/be really into/be keen on/appreciate/was very involved with
-* good <-> beneficial, rewarding
-* problematic <-> detrimental, counterproductive
-* boring <-> mundan, tedious
-* interesting <-> intriguing, fascinating, exciting, inspiring
-* I think <-> I find
+* fascinated with/be fond of/be really into/be keen on/appreciate/was very involved with
 * **It's intriguing 令人感兴趣的 to gain a deep understanding about different locations, cultures, and the physical characteristics of our world.** Gain respect for people from different backgrounds
 * most .. aspect of...
 * be surprised <-> be taken aback
@@ -42,34 +35,47 @@
 * it gives me a sense of enormous well-being
 * What fascinates me the most is the
 * stimulate creativity
+* have a negative affect on
 * 正面感受:
 	* 
 * 负面感受：
-	* disheartening
+	* disheartening, frustrating, disgusting, annoying, 
 * The idea of celebrating with people, some of whom I may not know, can induce feelings of nervousness and anxiety
-* t
+* partly because ... but also
 
 
 
->[!Info] 慎用
-> Well, I never thought about this before. But from what I have witnessed, I guess to some extent it can be very indispensable.
-> I have never thought about...
+>[!Info] Idioms
+> Well, to be totally honest, I never really thought about this before. But from what I have witnessed, I guess to some extent it can be very indispensable.
+> I guess you could say
 > I really have no idea about this question as I've never thought about this before.
 > So, those are the thoughts I've had about this question by now.
+> Well, I think nowadays it’s a difficult question because…
+> Yes definitely, there are a few reasons for this, firstly….   and secondly…
+> fresh as a daisy/couch potato/full of beans/down to earth/party pooper/in somebody's shoes
 
->[!Tip] 口癖/fillers
+>[!Tip] 口癖/filler
 >I mean
 >What I'm trying to say is that
 >Well, in my estimation,
 >It's very important, I must say.
 >What I mean is
 >If i'm not mistaken
-
->[!Tip] 连接词
->
+>If I remember correctly It was ( part 2 )
+>If my memory serves me well ( part 2 )
+>I can't remember exactly but I think it was(2)
 >So, I would say
 >When it comes to
->On top of that
+>On top of that/最重要的
+>I suppose you could say he's probably
+
+>[!Tip] Inversion
+>Never have I been this tired/tasted such good food.
+>Rarely is she so rude.
+>Hardly did I get to sleep.
+>Never did I even think of playing music myself.
+>
+>
 
 
 
@@ -96,6 +102,7 @@
 	* i prefer
 	* I would opt to
 * what/how
+	* I imagine
 	* I suppose/think there are several/couple of  ways/reasons to ...
 	* There could be some... 
 		* I can come up with/think of several...
@@ -107,7 +114,9 @@
 	* the most ... way is to ..., an alternative ways is to
 	* mainly because..., for instance ..., Another reason being that..., by contrast...
 	* .. can .... Besides, they can ...
-	* One(reason, factor) that i can think of is... Another reason is...
+	* One(reason, factor) that I can think of is... Another reason is...
+* favorite/hate:
+	* What I really enjoy/hate the most is 
 * should/opinion
 	* I have mixed feelings about this.
 	* It's a bit of a mixed bag
@@ -126,7 +135,13 @@ grilled salmon
 
 ### Music
 catchy, memorable tunes
+**uplift my spirit**, **recharge my battery and energy**
+**exuberant**
+fall under the classification of blues rock
 
+maintaining a positive state of mind
+
+**What I really enjoy** the most is bossa nova. **No sooner do** I start listening to it **than** I get really obsessed about it/
 #### One type
 
 ### Dream 
@@ -391,7 +406,26 @@ Personally, I prefer to live in a dry place.
 
 #### Heavy rain
 ## Part 2
-So, I'm going to talk about
+
+
+>[! Tip] 
+>Focus on first and last line on the cue card.
+>If don't know how to end, "In the future, I'll probably..."
+
+
+**Yes**
+So, I'm going to talk about/I would like to tell you about 
+an experience I had/happened to me/one of my teachers
+
+when I was at university.
+
+
+It was interesting for two reasons.
+
+In the future, I will probably study business management, so my experience in the flower shop will be very useful to me.
+
+
+And that's my talk about.
 ### Robots
 
 Using robots in agriculture or production is a smart choice, being faster, cheaper than some sophisticated workers. However, robots don't know how to learn, so they won't replace human, at least in the near future.
@@ -465,7 +499,7 @@ Also, I get to meet different musicians around the world. **Hopefully I can draw
 * Due to long working hours during the day, I don't have the time to attend any music classes. Thanks to various resources on social media websites such as Youtube, BiliBili, I can learn from guitar masters anytime anywhere I want, without having to go to traditional music schools. As a result, my guitar skills improved very quickly.
 * Despite all these obstacles, Luckily, through lots of practice, I managed to join a local band and play as the lead guitarist. We successfully  produce our original song and perform in local concerns, which turned out to be quite successful.
 * looking back, I'm grateful that I made the decision to learn to play guitar and overcame various challenges, for the outcome has been wonderful
-* If it have not been my perseverance and devotion, I would never have the change to perform in front of a huge crowd.
+* **If it had not been my perseverance and devotion, I would never have the change to perform in front of a huge crowd.**
 * By relying on self-confident, perseverance, one can achieve anything
 
 
@@ -648,7 +682,7 @@ cheesy
 * Although I was pretty frustrated and annoyed by the false information provided by the organizer, but finally found it by ourselves has solved the problem
 
 #### Invention
-* airpods, which is a bluetooth headphone
+* AirPods, which is a bluetooth headphone
 * It's a headphone/noise isolator
 * I love it for its convenience, without the bothering of the line.
 * Also, as a music lover, the denoise feature ensure me enjoying music in a undisturbed way, disconnecting me from the noise.
@@ -660,7 +694,10 @@ Looking back, I think it reflects the different mindsets of the young generation
 It's probably due to the hardships the parents experienced in the past.
 They should enjoy life like, a bit, after working hard
 
-
+#### Art
+**The piece of work that I like the most is** Sunflowers by Vincent Van Gogh. 
+I first saw it when I went to a local museum .In fact, it was a replica. **No sooner had I seen it than I fell** in love with it. Only **when I arrived in Amsterdam did I learn**the full story of Van Gogh’s life. 
+**Rarely had I seen** anything as striking and distinctive. **What I love about it** is the colour 
 ## Part 3
 
 
@@ -686,15 +723,17 @@ disad: higher cost of living, noisy and crowded
 
 
 #### Small towns more interesting
-ad: slow pace of living, lead peaceful and comfortable life, low-cost, connection within neighbours 
+ad: slow pace of living, lead peaceful and comfortable life, low-cost, connection within neighbours
 
 
 
 
-### Ads
+### Ads | Endorsement
 * an effective **marketing strategy** to promote product
 * **spread the awareness** among potential customers
 * increase sales and demand
+* promote the brand, helps in market expansion
+* positively affect the perception and purchase intentions of the customers
 
 * creativeness
 * present features, attract customers

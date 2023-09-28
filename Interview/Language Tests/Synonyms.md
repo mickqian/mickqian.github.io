@@ -57,6 +57,13 @@ temporary <-> ad-hoc
 disadvantage <-> downside
 substantial <-> considerable
 the meaning of <-> the essence of 
+attractive, appealing <-> alluring
+really like <-> am obsessed with/am 
+good <-> beneficial, rewarding
+problematic <-> detrimental, counterproductive
+boring <-> mundane, tedious
+interesting <-> intriguing, fascinating, exciting, inspiring
+I think <-> I find
 ## Speaking
 like - prefer, enjoy
 attractive, appealing <-> alluring
