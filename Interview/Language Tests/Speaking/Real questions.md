@@ -118,6 +118,10 @@ In summary/Anyway
 
 ## Part 1
 
+### Fish
+nutritious
+grilled salmon
+
 
 ### Music
 catchy, memorable tunes
@@ -441,6 +445,10 @@ Thanks to his help, we managed to produce our original song and perform in local
 #### Skills
 One job I find particularly interesting is being a guitarist in a band. I always dream about being on the stage as Eric Clapton, **although I know clearly I can never be as good as** the guitar God. **Anyway**, this role not only requires sophisticated guitar-playing skills but also involves music composition, which requires a thorough understanding of music history.
 #### Exciting and interesting part
+#### Change job
+* doesn't meet their needs, or align with their interest, or the salary is not satisfactory
+* 
+
 
 expand one's horizons
 
@@ -449,11 +457,13 @@ The most exciting aspect of this job is the opportunity to perform all around th
 Also, I get to meet different musicians around the world. **Hopefully I can draw some inspirations and learn from them.**
 
 
-### Decision & What makes you proud
+### Decision | What makes you proud Period change life
 * I've always been fascinated by the beauty of music. I spent **countless** hours listening to various genres of music. But it never occurred to me that I can play the music myself.
 * After graduating, I decided to pick up an instrument and learn by myself, just out of self-expression and fulfillment
 * Due to long working hours during the day, I don't have the time to attend any music classes. Thanks to various resources on social media websites such as Youtube, BiliBili, I can learn from guitar masters anytime anywhere I want, without having to go to traditional music schools. As a result, my guitar skills improved very quickly.
 * Despite all these obstacles, Luckily, through lots of practice, I managed to join a local band and play as the lead guitarist. We successfully  produce our original song and perform in local concerns, which turned out to be quite successful.
+* looking back, I'm grateful that I made the decision to learn to play guitar and overcame various challenges, for the outcome has been wonderful
+* If it have not been my perseverance and devotion, I would never have the change to perform in front of a huge crowd.
 * By relying on self-confident, perseverance, one can achieve anything
 
 
@@ -1034,11 +1044,18 @@ Eating in restaurants offers variety, convenience, and a chance to socialize. Ho
 * resort to help from passers-by or digital maps
 #### Go without preparation
 * prefer spontaneity, enjoy the novelty and its unpredictable nature 
+
+### Changes 
+
+It's a bit stereotyped to decide whether an individual adapt well to changes based their ages. It's unrelated to their ages, but about their flexibility, how they view changes, how do they prepare and handle them.
+Generally speaking, children are more flexible, making them accepting the changes more naturally and easily
+
+
+
+#### consider
 ### Internet
 #### Communication
 Indeed, the internet has revolutionized communication. In the past, the communication is subjected to geographical boundaries. But nowadays, communication can occur virtually anywhere, **provided it has access to internet.**
-
-
 #### How do we handle stress?
 Managing stress can involve 
 * a balanced diet, 
@@ -1110,6 +1127,6 @@ People in my country eat foods that are rich in carbohydrates, like rice or nood
 
 ### Science
 #### After school 
-It can be **advisable** for individuals to pursue further studies and science **beyond their school year**s.
+It can be **advisable** for individuals to pursue further studies and science **beyond their school years**.
 By doing this, people can...
 Without doing ...
