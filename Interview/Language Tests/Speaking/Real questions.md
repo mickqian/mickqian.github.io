@@ -425,7 +425,7 @@ It was interesting for two reasons.
 In the future, I will probably study business management, so my experience in the flower shop will be very useful to me.
 
 
-And that's my talk about.
+And that's my talk about
 ### Robots
 
 Using robots in agriculture or production is a smart choice, being faster, cheaper than some sophisticated workers. However, robots don't know how to learn, so they won't replace human, at least in the near future.
