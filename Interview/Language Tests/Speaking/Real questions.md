@@ -41,6 +41,7 @@
 * celebrating these milestones **reinforces the importance of goal setting and working towards them**
 * it gives me a sense of enormous well-being
 * What fascinates me the most is the
+* stimulate creativity
 * 正面感受:
 	* 
 * 负面感受：
@@ -77,6 +78,7 @@
 >Not everyone, As ... is a personal practice that varies based on individual preferences, circumstances, and personality traits. 
 >It various from people to people
 >It's a little stereotyped to think
+>It's a **personal practice** that varies based on individual preferences, circumstances, and personality traits. 
 >
  
 
@@ -127,8 +129,6 @@ catchy, memorable tunes
 #### Why
 His sophisticated guitar playing skills and outstanding composition abilities admires me. I wish I was the fourth member of Cream.
 
-#### Has your dream changed?
-Yes, my dream has evolved from, trying to be a fantastic guitarist, to composing my own original music.
 
 ### Drinks
 #### Do people like tea and coffee nowadays?
@@ -450,10 +450,17 @@ Also, I get to meet different musicians around the world. **Hopefully I can draw
 
 
 ### Decision & What makes you proud
-* I've always been fascinated by the beauty of music. I enjoy listening to a variety of genre of music, but I never thought of performing those music.
-* About two years ago, I decided to pick up an instrument and learn by myself, just out of self-expression and fulfillment
-* Due to long working hours during the day, I don't have the time to attend any music classes. Thanks to various resources on social media such as Youtube, BiliBili, I can learn from guitar masters anytime anywhere I want, and my guitar skills improved very quickly.
-* Luckily, through lots of practice, I managed to join a local band and play as the lead guitarist. We managed to produce our original song and perform in local concerns, which turned out to be quite successful.
+* I've always been fascinated by the beauty of music. I spent **countless** hours listening to various genres of music. But it never occurred to me that I can play the music myself.
+* After graduating, I decided to pick up an instrument and learn by myself, just out of self-expression and fulfillment
+* Due to long working hours during the day, I don't have the time to attend any music classes. Thanks to various resources on social media websites such as Youtube, BiliBili, I can learn from guitar masters anytime anywhere I want, without having to go to traditional music schools. As a result, my guitar skills improved very quickly.
+* Despite all these obstacles, Luckily, through lots of practice, I managed to join a local band and play as the lead guitarist. We successfully  produce our original song and perform in local concerns, which turned out to be quite successful.
+* By relying on self-confident, perseverance, one can achieve anything
+
+
+However, it's **challenging** as it demands hard work and continuous effort 坚持努力.
+
+
+It's all about perseverance. 
 
 ### Late for a meeting
 * a band with members all colleagues
@@ -601,20 +608,6 @@ What made this meal unusual, and indeed transformative, was that **it opened the
 * To prepare for the speech, keynote, transcript, and visual aids are required. It took me several weeks to organize.
 * As for the speech, not so many people, great interaction with the audience. We have a nice conversation.
 * but satisfied, self-expression
-
-#### Learn ｜ Play in a band
-* During my college years, I'm really into music and spent **countless** time listening to it. But it never occurred to me that I can play the music myself.
-* After graduating
-* Despite all these obstacles
-* By relying on self-confident, perseverance, one can achieve anything
-I used to play notes mechanically, like a machine without anything original.
-With platforms like Youtube, which provide numerous valuable lessons on music theory, I can learn it online, without having to go to traditional music schools.
-
-However, it's **challenging** as it demands hard work and continuous effort 坚持努力.
-
-
-It's all about perseverance. 
-
 
 #### Tech difficult to use
 * though I work in tech industry, I always find it hard to use sports camera
@@ -908,12 +901,17 @@ work: financial stability and professional growth
 
 
 #### Does everyone set
-Not everyone sets explicit goals for themselves, as goal-setting is a personal practice that varies based on individual preferences, circumstances, and personality traits. 
+Not everyone sets explicit goals for themselves, as goal-setting is a **personal practice** that varies based on individual preferences, circumstances, and personality traits. 
 
 Some individuals are naturally more goal-oriented and proactive in setting and achieving objectives, while others may be more content with a **flexible approach to life.**
 
+
+
+#### Has your dream changed?
+Yes, my dream has evolved from, trying to be a successful Software Engineer, to an influential AI Scientist, while moonlighting as a guitarist in a local pub./
+
 #### Rewards 
-* material: bonus, gifs
+* material: bonus, gifts
 * emotional: recognition, encouragement, acknowledgement
 
 
@@ -973,38 +971,39 @@ perceived.
 The major variety of clothing is designed for women, for their superior **spending power**
 
 
+### Music
 
-### Children
+#### Music education 
+* foster creativity and musical aesthetic
+* enhance cognitive abilities
+* an efficient approach to provide emotional values,  serve as a source of comfort
+
+
+### Children 
+
 
 
 #### Books 
 
 finder inner peace
-
-
-
-Well, based on my observation I can say that comics, detective books, fairy tales, science fictions, story-telling books are the most popular among children. Since they don't present complex ideas, and are easy to comprehend even for children.
+Well, based on my observation I can say that comics, detective books, fairy tales, science fictions, story-telling books are the most popular among children. Since they don't present complex ideas, and are **easy to comprehend** even for children.
 #### E-books
 of long length: 长篇幅
 
 Undeniably, e-books like kindle have advantage in both space and price
-
 If the books are of long length, people would choose e-book version for it saves space, and is easy to carry with
-
 
 #### Do you think children should have a lot of toys? 
 While proper amount of toys can stimulate creativity, too many may lead to distraction. It's about balance and quality, not quantity.
 #### Do you think children should follow all the rules? 
 While proper amount of rules help regulate children's behavior and cultivate discipline, following all of them may hinder creativity and go against the free nature of children.
 
-
 #### Help at home
-fostere a sense of team work
-teach them the importantce of responsibilities
+foster a sense of team work
+teach them the importance of responsibilities
 
 * assist with household tasks: laundry, dishwashing, grocery shipping
 * mind their own task: tidying rooms, making beds
-
 
 #### What makes children help each other at school
 * foster empathy, compassion and collaboration, which is good for their teamwork.
