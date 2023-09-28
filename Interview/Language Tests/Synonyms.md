@@ -8,27 +8,57 @@ focus - engross
 food - cuisine
 big - enormous
 tasty - delicious
-i like - fond of, keen on, into
+I like - fond of, keen on, into
 good - excellent, amazing, incredible
 bad - terrible
 happy-ecstatic
 sad - depressed, miserable
-important - crucial, essential
+important - crucial, essential, pivotal
 nice - enjoyable
-pretty - attractive, georgeous
+pretty - attractive, gorgeous
 little - tiny
 hard - challenging
 easy - no-brainer like ABC
-interresting - entertaining
+interesting - entertaining
 funny - hilarious
 clean - spotless
 hot - boiling
 cold - freezing
-i was tired - i was exhausted
+tired - exhausted
 old - ancient
 facilities - amenities
 carried out/done - implemented
-
+proven by - as evidenced by
+huge impact - profound impact 
+as a result - consequently
+solely
+motivation - passion
+drive - propels them forward
+selfless effort - selfless dedication
+aim, pursuit, goal
+attracted to - engrossed in
+versatility - diversity
+happy - thrilled, delighted, overjoyed
+good - beneficial, rewarding
+problematic - detrimental, counterproductive
+boring - mundan, tedious
+attractive, appealing - alluring
+interesting - intriguing, fascinating, exciting, inspiring
+many - plenty of, countless, vast
+impeccable <-> flawless
+allows for, require
+spark creativity and innovative ideas
+always - constantly
+exceptional - extraordinary
+choose <-> opt for
+I often procrastinate <-> I often delay
+for sustained periods of time <-> for longer periods of time
+temporary <-> ad-hoc
+disadvantage <-> downside
+substantial <-> considerable
+## Speaking
+like - prefer, enjoy
+attractive, appealing <-> alluring
 
 
 ![[Pasted image 20230508195726.png]]

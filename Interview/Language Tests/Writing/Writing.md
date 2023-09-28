@@ -1,15 +1,5 @@
-* proven by <-> as evidenced by
-* huge impact <-> profound impact 
-* as a result <-> consequently
-* solely
-* motivation <-> passion
-* drive <-> propels them forward
-* selfless effort <-> selfless dedication
-* aim, pursuit, goal
-
 
 ## Music
-
 #music
 Lastly, music and being in a band bring me joy and pleasure. 
 Playing an instrument and creating beautiful music with other band members, **while bring joy to the audiences, is a gratifying experience**.
@@ -37,7 +27,7 @@ Introduction: In today's **rapidly advancing** world, technology has become an i
 
 Advantages: One major advantage of technology is its positive impact on communication. **With the advent of** smartphones and social media platforms, people can connect with each other effortlessly regardless of geographical barriers. This has revolutionized business collaboration, friendships, and family relationships, promoting global connectivity and cultural exchange.
 
-Moreover, technology has **significantly** **enhanced** productivity in various sectors. Automation and sophisticated tools have streamlined manufacturing processes, **resulting in** higher output and economic growth. In addition, information technology has revolutionized education, allowing access to vast knowledge resources and online learning opportunities for students worldwide.
+Moreover, technology has **significantly** **enhanced** productivity in various sectors. Automation and sophisticated tools have streamlined manufacturing processes, **resulting in** higher output and economic growth. In addition, information technology has revolutionized education, **allowing access to vast knowledge resources and online learning opportunities for students worldwide**.
 
 Disadvantages: Despite the advantages, technology has its **drawbacks**. Privacy concerns have **arisen** due to the widespread use of digital devices and online platforms. Personal data breaches and **surveillance** have become real threats, raising questions about individual privacy rights and data protection regulations. **Striking a balance** between technological advancements and privacy safeguards is crucial for the well-being of individuals and society as a whole.
 
@@ -129,9 +119,6 @@ Indeed, while character alone does not guarantee success, it creates the foundat
 
 In conclusion, it is critical to cultivate character in our lives. Developing the traits that constitute good character represents an investment in continual personal growth. This is the springboard to long-lasting and meaningful success. As famously stated by renowned motivational speaker, Zig Ziglar, "Character gets you out of bed; commitment moves you to action. Together, they drive you towards your dreams". **In other words, character and success exist not as two separate entities, but as interconnected fragments of the same journey.**
 
-
-... is paramount, but it's important to strike a balance between ... and ....
-
 ## All schools should be armed
 
 ^9e0ee5
@@ -142,7 +129,7 @@ Proponents 支持者 argue that such security measures **act as** a deterrent to
 
 On the contrary, critics note that the presence of armed guards could potentially **escalate** violence, opposed to quelling it. **Furthermore**, critics argue that resources would be better invested in tackling the root causes of violence like educational disparities, mental health issues, and socio-economic inequalities.
 
-Ultimately, ensuring one's safety in a learning environment is paramount. Whether this warrants investing in armed security guards or focusing more on preventative measures will depend largely on the sociocultural context of each school and its surrounding community. Balancing safety and the nurturing environment schools ought to provide remains a complex, nuanced 微妙的 conundrum 难题.
+Ultimately, ensuring one's safety in a learning environment is paramount. Whether this warrants investing in armed security guards or focusing more on preventative measures will depend largely on the sociocultural context of each school and its surrounding community. **Balancing safety and the nurturing environment schools ought to provide remains a complex, nuanced 微妙的 conundrum 难题.**
 
 
 contentious
@@ -262,7 +249,7 @@ deviate from xx goals
 
 ## In some countries, young people are encouraged to work or travel for a year between finishing high school and starting university studies. Discuss the advantages and disadvantages of taking a gap year.
 
-A gap year, a year off between high school and university, is a common practice in some countries, and it has its own advantages and disadvantages.
+A gap year, a year off between high school and university, is a common **practice** in some countries, and it has its own advantages and disadvantages.
 
 **On the positive side**, a gap year can provide young people with valuable life experiences that can't be gained within the classroom. They can explore different cultures, learn new languages, and develop independence and resilience. Moreover, it can be a chance to gain work experience, which can be beneficial for their future careers.
 
@@ -330,7 +317,7 @@ Sexual education is a contentious issue, with divergent views on its inclusion i
 
 Primarily, sexual education **equips students with knowledge** about their bodies, enabling them to make informed decisions about their health and well-being. It provides information about safe sex practices, thereby reducing the risk of sexually transmitted infections and unwanted pregnancies.
 
-Moreover, sexual education **fosters** a culture of respect and consent. It teaches students about the importance of mutual consent in relationships, thereby helping to prevent sexual assault and harassment. **This is particularly crucial in the wake of the #MeToo movement, which has highlighted the prevalence of sexual misconduct in society.**
+Moreover, sexual education **fosters** a culture of respect and consent. It teaches students about the importance of mutual consent in relationships, thereby helping to prevent sexual assault and harassment. **This is particularly crucial in the wake of the #MeToo movement, which has highlighted the prevalence of sexual misconduct 不当行为 in society.**
 
 Additionally, sexual education can help to dispel myths and misconceptions about sex, which are often propagated by unreliable sources such as the internet and peers. This can prevent misinformation and reduce feelings of confusion and fear among adolescents.
 
@@ -364,7 +351,7 @@ However, this is not to undermine the validity of allocating funds to other sect
 ## Some people claim that not enough of the waste from homes is recycled. They say that the only way to increase recycling is for governments to make it a legal requirement. To what extent do you think laws are needed to make people recycle more of their waste?
 While there is widespread consensus on the need for greater waste recycling, the proposition of implementing laws to mandate it is quite thought-provoking. According to the standpoint endorsing legislation, the current voluntary system appears inefficient and systematic state intervention is necessitated. **Nevertheless, it is equally significant to consider the effectiveness of other ways before resorting 求助于 to such a harsh measure.**
 
-The conviction 信念 that laws would boost recycling probably emanates 来自于 from the belief in their deterrent 威慑力 potential. If non-compliance resulted in penalties, households might be more motivated to recycle. However, it seems precarious 危险，不稳定 to overly rely on laws, as this possibly overlooks 忽略 the importance of awareness and education. Should recycled material disposal be clearly explained and recycling become part of school curricula 课程, it may proliferate 扩散 organically without the need for regulation.
+The **conviction** 信念 that laws would boost recycling probably emanates 来自于 from the belief in their deterrent 威慑力 potential. If non-compliance resulted in penalties, households might be more motivated to recycle. However, it seems precarious 危险，不稳定 to overly rely on laws, as this possibly overlooks 忽略 the importance of awareness and education. Should recycled material disposal be clearly explained and recycling become part of school curricula 课程, it may proliferate 扩散 organically without the need for regulation.
 
 提出不同的措施
 Moreover, better recycling facilities and services could also be a **viable** solution. In locations where these are already available, recycling rates tend to be impressive. Thus, it is not laws, but lack of infrastructure and awareness that deter recycling.
@@ -372,8 +359,10 @@ Moreover, better recycling facilities and services could also be a **viable** so
 想得更长远
 In conclusion, while legislation might produce a short-term spike in recycling, fostering a culture of sustainability through education and improving infrastructure promises a more effective and long-lasting solution.
 
-
-Should recycled material disposal be clearly explained and recycling become part of school curricula, it may proliferate organically without the need for regulation.
+>[!Tip]
+>If non-compliance resulted in penalties, households might be more motivated to recycle.
+>
+  Should recycled material disposal be clearly explained and recycling become part of school curricula, it may proliferate organically without the need for regulation.
 
 ## Some people believe that it is best to accept a bad situation, such as an unsatisfactory job or shortage of money. Others argue that it is better to try and improve such situations. Discuss both views and give your own opinion.
 
@@ -386,10 +375,8 @@ However, this mindset might stagnate 阻碍，停滞 growth and innovation. Tryi
 Therefore, while accepting unpleasant circumstances can sometimes be wise, the drive to make things better should not be labeled as insatiable 无法满足的 ambition. This attitude, if directed sensibly, could yield substantial 实质性的 personal and societal progress.
 
 stagnate
-proactive
+proactive 主动
 ameliorate
-
-
 ## The increasing production of consumer goods results in damage to the natural environment. What are the causes of this? What can be done to solve this problem?
 The surge in the production of consumer goods is inevitably impacting the natural environment considerably. The central causes are industrial advancements and widespread consumerism.
 
@@ -400,9 +387,6 @@ Several tactful measures can be taken to counter these issues. Firstly, industri
 To curtail 消减 the environmental harm from mass production, a concerted effort from both industries and individuals is pivotal. While industries adopt sustainable practices, society must transition to thoughtful and minimalistic consumption.
 
 a concerted effort from ... is pivotal 
-pivotal - paramount
-
-
 ## Some people think that it is better to educate boys and girls in separate schools. Others, however, believe that boys and girls benefit more from attending mixed schools. Discuss both these views and give your own opinion.
 
 To foster comprehensive educational experiences, it has always been debated whether segregating 隔离 boys and girls in different schools enhances their learning capabilities, or if co-educational environments are more beneficial.
@@ -422,6 +406,8 @@ On the contrary, a segment of society views mobile phones as essential tools for
 
 In my perspective, a balanced approach is required. While acknowledging the indispensable role of mobiles in today's world, it's crucial to establish boundaries for children's usage. Parents and educators should **instill responsible digital habits**, ensuring the advantages of mobile phones are harnessed and potential threats mitigated.
 
+equip sb with skills
+instill habits
 ## School should be in session year-round
 I vehemently 强烈地 disagree with the notion of having schools in session all year round. The primary reason for my disagreement is the necessity for children to have recreational time. **A break is essential for students to recharge and rejuvenate**. This is best provided by school holidays which often coincide with family vacations, allowing for quality family time. This **aids** in their social development and **emotional well-being**.
 
@@ -439,7 +425,8 @@ Contrarily, some individuals argue that time management is not indispensable for
 
 In my opinion, while spontaneity has its merits, time management is a crucial skill for success. It is a flexible tool that can be adapted to one's unique needs and circumstances. It doesn't necessarily entail 需要 rigid schedules; instead, it emphasizes the judicious 明智 use of time. Therefore, mastering time management can significantly **contribute** to success in life.
 
-
+>[! Tip]
+   It doesn't necessarily entail rigid schedules
 ## Some people suggests that young adults should be encouraged to do some unpaid work for a periods of time for the community to help people. Does it bring more benefits or drawbacks to the community and the young people?
 
 Encouraging young adults to engage in unpaid community work indeed has significant benefits for both the community and the individuals involved. For the community, it can address local issues, **foster a sense of unity**, and build social capital. The work done by these young adults might range from environmental conservation to supporting local charities, **which can have a profound positive impact on community development**.
