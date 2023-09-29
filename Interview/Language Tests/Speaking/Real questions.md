@@ -365,7 +365,7 @@ Yes, films are beneficial. They provide entertainment, stimulate creativity, and
 
 #### Modern or Traditional 
 Honestly, I’m **an outsider** to art, but I should say, I just love both because each **has its strong points**. 
-To my understanding, traditional art provides a basis for **aesthetic** level, showing people the details of the artwork. 
+To my understanding, traditional art provides a basis for **aesthetic** level, showing people the details of the artwork, and provide a glimpse into the past.
 And modern art is sort of like, **breaking the mould** and reflecting the artists’ thoughts.
 
 ### Urbanization
