@@ -788,13 +788,29 @@ I find it totally fine if we don't know anymore, because that's not the purpose 
 
 
 
-### Festival | History
+### Festival | History Place
 
 #### Traditional
 * provides them a deep **understanding** of their cultural heritage
 * And people can learn from the lessons and mistakes from the past, thus avoid making mistakes
 * **foster** respect and appreciation **for** other cultures
 * These festivals are often rich with history and values, which can be educational and inspiring for children.
+#### Protect
+do want to protect and preserve except maybe a few who **put business ahead of their morality and rational thinking**
+
+We had our moments when people spontaneously protested the plan to demolish such sites in the past.
+#### History taught in primary school
+main difference: level of detail and complexity.
+primary: with a focus on helping students understand the basic concepts
+high school: taught in more depth, understand perspectives, examining the causes and consequences of historical events.
+
+
+
+#### Is it hard to protect
+
+
+* **natural wear and tear** that occurs **over time**, which can lead to deterioration and unrepairable damage
+* balancing the need for preservation with the need for modernization and development. For example, there may be pressure from developers or local authorities to **demolish** or **alter** historical buildings in order to make way for **new infrastructure or buildings**
 
 #### How to learn 
 
