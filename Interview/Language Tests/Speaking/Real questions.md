@@ -624,11 +624,12 @@ unbearable
 * Seeing my hometown suffer from pollution was disheartening and frustrating. It made me more conscious of environmental issues
 * environment is compromised/sacrificed to economic development
 * at the cost of the 
-### Trip to Xinjiang
-* makes it **intriguing/capivating**
+### Trip to Xinjiang | Car journey
+* makes it **intriguing/captivating**
 * exotic: clothes, food, their markets, fruits
 * local people being friendly and modesty, hospitable
 * With some of my colleagues and friends, 5 in total, just enough to fill a car
+* first flew to Xinjiang, then rent a local car
 * instruments: unique and delicate, I bought some and play frequently
 * Car journey: We drove all the way from Urumqi to Yili, which is on the border of Xinjiang. Long hours in the car made us all exhausted both mentally and physically. Luckily we had shifts, so we each get to have a break.
 * The hardship was totally worth it, as we not only get to **experience exotic landscapes and culture**, but also had to chance to try local food, which can't be seen in Hangzhou.
@@ -1163,6 +1164,9 @@ I guess that's due to the rapid pace of modern city. Everyone is strained 紧张
 The artifacts from the old times doesn't mean that the thoughts included in them are also old. Some thoughts are quite timeless. For instance, Newton's law about force has never gone out of style, out of time, since he published it.  ->
 
 The artifacts from the past do not **necessarily imply** that the ideas contained within them are also outdated. Some thoughts are truly timeless. For example, Newton's law of force has never fallen out of fashion or lost its relevance since its publication.
+
+
+### Traffic
 
 
 
