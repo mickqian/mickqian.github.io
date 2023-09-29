@@ -1167,8 +1167,17 @@ The artifacts from the past do not **necessarily imply** that the ideas containe
 
 
 ### Traffic
+#### Road rage
+I believe road rage is certainly a behavior that should be avoided and discouraged. It has a significant negative impact on the safety of other drivers and pedestrians. 
 
+People often exhibit road rage due to their mood, personality, or **poor traffic conditions**. 
+Therefore, to prevent road rage, the government should take responsibility for organizing traffic to reduce accidents.
 
+#### Road accident
+* life comes first,  assess the scene and the condition of the people involved 
+* if anyone's hurt
+* call police or ambulance,
+* set up some signs to prevent further accidents/damage
 
 
 ### Skills
