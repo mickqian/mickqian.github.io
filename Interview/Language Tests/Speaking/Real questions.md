@@ -1,16 +1,12 @@
 常用：
 * I reside in Hangzhou, a city tucked away in the southeastern region of China, **characterized by** its international flair, vibrant atmosphere, and dynamic energy
-* tranquil 安静的
 * offer me an ideal environment for practicing and listening to music, while **engaging** in recreational music creation
-* i once met xxx at a concert, when he was playing as the lead guitarist
-* his business range from ... to
 * the companies he runs have all achieved global leadership
 * gain an advantage/edge over rivals
 * captivate my interests
 * This includes
 * happy <-> thrilled, delighted, overjoyed
 * 不用正面回答，不用以第一人称主语开始
-* a variety of/various kinds of
 * delight
 * encounter
 * fascinated with/be fond of/be really into/be keen on/appreciate/was very involved with
@@ -25,7 +21,7 @@
 * should <-> ought to
 * a wide range of/a variety of
 * retrain yourself to pay attention for **longer periods of time**
-* entertainment, education and empathy
+* empathy, compassion, respect, consent, entertainment, education and empathy
 * I don't have a set schedule for cleaning my house.
 * housekeeping service
 * express my gratitude towards, who supported me all along the way
@@ -33,7 +29,7 @@
 * motivate me to **strive for excellence** in my future endeavor
 * celebrating these milestones **reinforces the importance of goal setting and working towards them**
 * it gives me a sense of enormous well-being
-* What fascinates me the most is the
+* 
 * stimulate creativity
 * have a negative affect on
 * 正面感受:
@@ -74,8 +70,8 @@
 >Rarely is she so rude.
 >Hardly did I get to sleep.
 >Never did I even think of playing music myself.
->
->
+>What fascinates me the most is the
+
 
 
 
@@ -84,6 +80,7 @@
 >It is a circumstantial/conditional question
 >Not everyone, As ... is a personal practice that varies based on individual preferences, circumstances, and personality traits. 
 >It various from people to people
+>It's contingent on whether
 >It's a little stereotyped to think
 >It's a **personal practice** that varies based on individual preferences, circumstances, and personality traits. 
 >
