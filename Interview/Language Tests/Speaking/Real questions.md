@@ -188,6 +188,15 @@ I consider the recipient's personal interests, the gift's uniqueness, its qualit
 I believe so. I **put thought into** understanding the recipient's preferences, which helps me choose meaningful gifts.
 
 Well, I like to think so! I always try to pick gifts that are thoughtful and meaningful to the recipient. **It's all about** knowing their interests and preferences, and putting some effort into finding something they'll truly appreciate.
+
+
+### Key
+Yes, I always have a bunch of keys with me.
+
+#### Lost
+spare key
+
+
 ### Help
 #### Do you?
 * I think I've always been a helpful person 
@@ -378,16 +387,21 @@ How do you stay focused?
 * concentrate on the task at hand, using an app called Tomato clock, which reminds me to relax every 30 minutes.
 * creating a quiet environment, setting clearer goals, taking regular breaks
 
+### Robots
 
+Using robots in agriculture or production is a smart choice, being faster, cheaper than some sophisticated workers. However, robots don't know how to learn, so they won't replace human, at least in the near future.
+
+#### Jobs
+Robots can easily replace workers that involve mechanical repetition or physical actions, such as cleaners, typewriters, drivers, plumbers. On the other hand, jobs require empathy can't be replaced by robots, for instance, teachers.
+
+#### Risk
+As the technologies are not mature and have not gone through thorough tests, they can get out of control. Also, they can lead to job displacement and more societal issues.
 ### Rainy 
 
-
 #### like?
-I prefer sunny days as I feel more energetic when the sun comes out and motivated. And I believe I'm not the only one who feels that way.
+I prefer sunny days as I feel more energetic when the sun comes out and motivated. **And I believe I'm not the only one who feels that way.**
 
 Although after long sunny days, rain seems to be refreshing.
-
-
 #### Does?
 
 The place where I live is **super wet** all **year round**. It rains all the time. Sometimes it can rain for a fortnight continuously.
@@ -395,7 +409,6 @@ The place where I live is **super wet** all **year round**. It rains all the 
 #### live dry or west
 
 Personally, I prefer to live in a dry place.
-
 
 #### Umbrella or raincoat
 
@@ -423,15 +436,24 @@ In the future, I will probably study business management, so my experience in th
 
 
 And that's my talk about
-### Robots
 
-Using robots in agriculture or production is a smart choice, being faster, cheaper than some sophisticated workers. However, robots don't know how to learn, so they won't replace human, at least in the near future.
 
-#### Jobs
-Robots can easily replace workers that involve mechanical repetition or physical actions, such as cleaners, typewriters, drivers, plumbers. On the other hand, jobs require empathy can't be replaced by robots, for instance, teachers.
 
-#### Risk
-As the technologies are not mature and have not gone through thorough tests, they can get out of control. Also, they can lead to job displacement and more societal issues.
+### Historical Period
+
+Three Kingdoms Period
+I occurred at round  200 AD, and lasted for less than 100 years, If my memory serves me right
+It was a time of great turmoil, with the power struggle between 3 kingdoms, Wei, Shu and Wu.
+
+
+The stories of the strategy, and the political intrigue/drama has contributed to this epic novel called "Romance of the Three Kingdoms", which is a must-read for students in China. It also had profound implications on the Chinese literature landscape, inspiring countless writers in subsequent generations. 
+
+I'm interested in learning more about the Three Kingdoms Period because it offers insights into human nature, which remain relevant today.
+
+
+
+
+
 ### Person
 * work/study with
 * interesting
@@ -524,16 +546,14 @@ The Duanwu Festival is a time of excitement and camaraderie. **It's a unique ble
 ### Public Figure
 * successful
 * popular
+Paul McCartney
 
-I'like to talk about a legendary figure in the music world, David Bowie, who is widely recognized for his distinctive voice, eclectic musical style, and innovative approach to artistry. He's an intriguing character because of his constant reinvention and his ability to blend various musical genres, including rock, pop, electronic, and experimental music.
+* talented song-writer, sophisticated bass player,  gifted singer, a generous philanthropist
+* He's able to produce intriguing melody. In fact, he and John Lennon are considered the greatest songwritting duo ever. He had made considerable amount of hit songs, unmatched by any other musicians later
+* Besides his talent in music, He was keen on attending charity events, by donating or writing songs.
+* He  had left an inedible imprint on the  rock & roll history, inspiring numerous fellow musicians to follow in their steps.
 
-He's a man with great charm and charisma, presenting a unisex vibe.
 
-Not only does he has an appealing appearance, but he also has a beautiful voice, perfect for the mysterious theme of his songs.
-
-Bowie's popularity stems from his unique persona and his groundbreaking music. He created numerous iconic albums like "The Rise and Fall of Ziggy Stardust and the Spiders from Mars" and "Heroes", which have influenced countless musicians and left a lasting impact on the music industry. His alter ego, Ziggy Stardust, a flamboyant and androgynous extraterrestrial being, challenged societal norms and contributed to his fame.
-
-What made Bowie particularly helpful was his openness to change and his courage to push boundaries. He was unafraid to experiment with different styles and personas, opening the door for future artists to explore their identities and creativity without fear of judgment. His influence extends beyond music to fashion, film, and visual art, making him an enduring cultural icon. David Bowie's legacy continues to inspire and captivate audiences worldwide.
 
 ### Clothes
 
@@ -768,13 +788,20 @@ I find it totally fine if we don't know anymore, because that's not the purpose 
 
 
 
-### Festival 
+### Festival | History
 
 #### Traditional
 * provides them a deep **understanding** of their cultural heritage
+* And people can learn from the lessons and mistakes from the past, thus avoid making mistakes
 * **foster** respect and appreciation **for** other cultures
 * These festivals are often rich with history and values, which can be educational and inspiring for children.
 
+#### How to learn 
+
+* they can always learn history from school, which is a mandatory course that every should provide 
+* books and literature
+* **movies and documentaries**
+* museums and historial sites
 #### Why events
 * to have something to look forward to throughout the year
 * by holding events, people gather together so that they can share joy and create lasting memories
