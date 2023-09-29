@@ -38,6 +38,7 @@
 	* disheartening, frustrating, disgusting, annoying, 
 * The idea of celebrating with people, some of whom I may not know, can induce feelings of nervousness and anxiety
 * partly because ... but also
+* put sth head of anything else.
 
 
 
