@@ -75,7 +75,6 @@
 
 
 
-
 >[!Tip] 
 >It/The final answer depends ...
 >It is a circumstantial/conditional question
@@ -792,10 +791,12 @@ I find it totally fine if we don't know anymore, because that's not the purpose 
 ### Festival | History Place
 
 #### Traditional
-* provides them a deep **understanding** of their cultural heritage
+* provides them a deep **understanding** of their cultural and heritage. For example, during Chinese New year, kids learn about the traditions like red envelopes and eating dumplings.
 * And people can learn from the lessons and mistakes from the past, thus avoid making mistakes
 * **foster** respect and appreciation **for** other cultures
 * These festivals are often rich with history and values, which can be educational and inspiring for children.
+
+I think it's a **heartwarming** experience for kids to **learn about the stories and symbols behind the festivals.**
 #### Protect
 do want to protect and preserve except maybe a few who **put business ahead of their morality and rational thinking**
 
@@ -832,13 +833,17 @@ Yes, there’s no denying that modernization and changing lifestyles have had an
 
 However, people are now celebrating festival through new ways. For example, posting about festival in social media.
 
-So basically, it's the form of the celebration that is changing.
+So basically, it's the way of the celebration that is changing, not the festivals themselves.
 
 #### Music
 Absolutely, music plays a pivotal role in traditional festivals. 
-* enhances the festive atmosphere 
-* often carries significant cultural symbolism. Several tunes pop into my mind whenever I think about New Year, and that's the power of music
+* enhances the festival atmosphere 
+* often **carries** significant cultural symbolism. Several tunes pop into my mind whenever I think about New Year, and that's the power of music
 
+#### Dislike
+
+Some children may find certain aspects of festivals overwhelming or scary.
+For instance, some children might dislike Halloween because they find the costumes and decorations frightening
 
 ### Tech
 
