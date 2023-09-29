@@ -100,7 +100,7 @@
 	* I would opt to
 * what/how
 	* I imagine
-	* I suppose/think there are several/couple of  ways/reasons to ...
+	* I **suppose**/think there are several/couple of  ways/reasons to ...
 	* There could be some... 
 		* I can come up with/think of several...
 		* Well, in my estimation,
@@ -443,13 +443,11 @@ And that's my talk about
 
 Three Kingdoms Period
 I occurred at round  200 AD, and lasted for less than 100 years, If my memory serves me right
-It was a time of great turmoil, with the power struggle between 3 kingdoms, Wei, Shu and Wu.
+It was a time of great turmoil, with the whole region separated into power struggle between 3 kingdoms, Wei, Shu and Wu.
 
-
-The stories of the strategy, and the political intrigue/drama has contributed to this epic novel called "Romance of the Three Kingdoms", which is a must-read for students in China. It also had profound implications on the Chinese literature landscape, inspiring countless writers in subsequent generations. 
+The stories of the strategy, and the political intrigue/drama happened in that period has contributed to this epic novel called "Romance of the Three Kingdoms", which is a must-read for students in China. It also had profound implications on the Chinese literature landscape, inspiring countless writers in subsequent generations. 
 
 I'm interested in learning more about the Three Kingdoms Period because it offers insights into human nature, which remain relevant today.
-
 
 
 
@@ -793,21 +791,23 @@ I find it totally fine if we don't know anymore, because that's not the purpose 
 
 #### Traditional
 * provides them a deep **understanding** of their cultural and heritage. For example, during Chinese New year, kids learn about the traditions like red envelopes and eating dumplings.
-* And people can learn from the lessons and mistakes from the past, thus avoid making mistakes
+* And people can learn from the lessons and mistakes have been made from the past, thus avoid making mistakes
 * **foster** respect and appreciation **for** other cultures
-* These festivals are often rich with history and values, which can be educational and inspiring for children.
+* These festivals are often rich with history and values, which can be educational and inspiring for children, and is a good way to entertain
 
 I think it's a **heartwarming** experience for kids to **learn about the stories and symbols behind the festivals.**
+
+
+#### History taught in primary school
+main difference: level of detail and complexity.
+primary: with a focus on helping students understand the basic concepts
+high school: taught in more depth, understand **perspectives**, **examining the causes and consequences of historical events**.
+
+
 #### Protect
 do want to protect and preserve except maybe a few who **put business ahead of their morality and rational thinking**
 
 We had our moments when people spontaneously protested the plan to demolish such sites in the past.
-#### History taught in primary school
-main difference: level of detail and complexity.
-primary: with a focus on helping students understand the basic concepts
-high school: taught in more depth, understand perspectives, examining the causes and consequences of historical events.
-
-
 
 #### Is it hard to protect
 
