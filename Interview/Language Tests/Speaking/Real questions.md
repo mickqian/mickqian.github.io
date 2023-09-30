@@ -541,12 +541,14 @@ He's also devoted to work, leading a team on AI music generation and has gained 
 #### Interest
 Moreover, we quickly discovered we both love Italian cuisine and, often **find ourselves at a nearby restaurant**, discussing everything from music to life. 
 
-#### Interesting
-* During rehearsals, he **consistently** brought unique ideas to the table, whether it was about the song's design, or subtle suggestions about the tone of the guitar. Moreover, he even **offered insights** into our stage design, suggesting specific movements and poses for us. All of these ideas sound interesting and intriguing
+#### Interesting idea
+* During rehearsals, he **consistently** brought unique ideas to the table, whether it was about the song's design, or subtle suggestions about the tone of the guitar. 
+* Once during a rehearsal, the bassist accidentally kick down the chair near her, making a high-pitched sound. He immediately captured this, suggested integrating that note into the song, which turned out to be surprisingly weird but harmonious. The **melody** and the **groove** of the song is **enriched** by this **genius design**.
+* Moreover, he even **offered insights** into our **stage design**, suggesting specific movements and poses for us when performing. All of these ideas sound interesting and captivating
 
 #### Help others
 As an inexperienced amateur band, we often encounter numerous problems, involving equipment, effects, skills or music transcription. Since he's a semi-professional player, he always manage to solve our equipment problems within seconds. 
-He never seems annoyed or refuse to help, 
+* Once before a performance, the bassist accidentally got a flu, and was unable to give a performance. Though at that time he had heavy work to do, but he offered to help even though he had to work overtime. He not only attended all the emergent rehearsals, but also practiced in his spare time.
 
 Thanks to his help, we managed to produce our original song and perform in local concerns, which turned out to be quite successful.
 #### Happy Photos
