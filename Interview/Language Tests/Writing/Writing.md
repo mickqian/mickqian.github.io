@@ -335,7 +335,7 @@ Home-schooling provides children with one-to-one attention, opportunities for pe
 
 Contrarily, traditional schooling offers structured learning, exposure to a variety of subjects, professional teachers with pedagogical 教育学 knowledge, and the benefit of social interaction. Schools provide opportunities for teamwork, competition, and foster a sense of belonging. Such experiences develop social skills and emotional intelligence.
 
-In my perspective, both methods offer more than just academic development. The decision should be based on individual child needs and family circumstances. Further, a blend of both approaches could be ideal, ensuring children develop acadically, socially, and emotionally. For instance, encouraging extracurricular activities while homeschooling or private tuition to support traditional schooling. Hence balancing both methods could deliver the most balanced education.
+In my perspective, both methods offer more than just academic development. The decision should be based on individual child needs and family circumstances. Further, a blend of both approaches could be ideal, ensuring children develop academically, socially, and emotionally. For instance, encouraging extracurricular activities while homeschooling or private tuition to support traditional schooling. Hence balancing both methods could deliver the most balanced education.
 
 ## Some people think that the government is wasting money on the arts and that this money could be better spent elsewhere. Do you agree or disagree with this viewpoint?
 
@@ -461,7 +461,7 @@ Firstly, **detention often fails to address the root cause of misbehavior. It me
 
 Secondly, detention can exacerbate 恶化 educational inequalities. Students who are frequently detained may miss out on valuable learning time, **further widening the academic gap. **
 
-Lastly, detention can exacerbate. The **punitive** nature of detention can lead to stress and anxiety, which are **detrimental** to a student's overall wellbeing and academic performance. 
+Lastly, detention can exacerbate. The **punitive** nature of detention can lead to stress and anxiety, which are **detrimental** to a student's overall well-being and academic performance. 
 
 Instead of detention, schools should adopt restorative justice practices that encourage students to understand the **impact** of their actions and make amends. This approach fosters empathy, responsibility, and positive behavioral change, promoting a healthier learning environment.
 
@@ -674,7 +674,7 @@ Highlight:
  * disadvantages: #disadvantes
 	 * ethical concerns
 	 * job: job displacement, changes in the job market, **particularly in industries that heavily rely on language-related tasks.**
-	 * **inadvertently** **perpetuate** biases or **propagate** false infromation
+	 * **inadvertently** **perpetuate** biases or **propagate** false information
 	 * boring and mundane
  * misc:
 	 * cultural landmarks

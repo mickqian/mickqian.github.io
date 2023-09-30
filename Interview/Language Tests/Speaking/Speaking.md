@@ -44,14 +44,14 @@ I believe that ...
 -   I subscribe to the notion that
 -   I find it difficult to endorse the idea
 
-1.  Describing positive and negative impacts:
+1. Describing positive and negative impacts:
     -   **Exemplary**
     -   Detrimental
     -   Pivotal
     -   Promising
     -   Adverse
     -   Augment
-1.  Emphasizing importance:
+2. Emphasizing importance:
     -   Crucial
     -   **Imperative**
     -   Vital
@@ -60,14 +60,14 @@ I believe that ...
     -   Fundamental 
 
 
-1.  Expressing cause and effect:
+1. Expressing cause and effect:
     -   Consequently
     -   Accordingly
     -   Hence
     -   As a result
     -   Therefore
     -   Owing to
-3.  Expressing opinions:
+2. Expressing opinions:
     -   From my standpoint
     -   In my view
     -   I am of the opinion that
@@ -79,29 +79,29 @@ I believe that ...
     -   From what I have witnessed
     -   According to my observations
     -   In my direct observation.
-4. Discussing trends or changes:
+3. Discussing trends or changes:
     -   Evolve
     -   Prevailing： 流行
     -   Prominent
     -   Transformative
     -   Paradigm shift
     -   Evolving landscape
-2.  Providing examples:
+4. Providing examples:
     -   For instance
     -   Consider, for example
-3.  Discussing alternatives or options:
+5. Discussing alternatives or options:
     -   Viable alternatives
     -   Plausible options
     -   Feasible choices
     -   **Viable courses of action**
     -   Workable solutions
     -   Potential avenues
-4.  Presenting contrasting viewpoints:
+6. Presenting contrasting viewpoints:
     -   On the contrary
     -   Conversely
     -   Nevertheless
     -   Despite the aforementioned, one could argue
-5. Advantage / Disadvantages
+7. Advantage / Disadvantages
     * address the challenge it poses
     * harness the benefits, while mitigating its negative impacts/risks
     * social cohesion/ social isolation

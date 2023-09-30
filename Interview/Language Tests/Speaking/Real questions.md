@@ -57,7 +57,7 @@ Why enjoy/interested?
 > I really have no idea about this question as I've never thought about this before.
 > So, those are the thoughts I've had about this question by now.
 > Well, I think nowadays it’s a difficult question because…
-> Yes definitely, there are a few reasons for this, firstly….   and secondly…
+> Yes definitely, there are a few reasons for this, firstly…. and secondly…
 > fresh as a daisy/couch potato/full of beans/down to earth/party pooper/in somebody's shoes
 
 >[!Tip] 口癖/filler
@@ -141,7 +141,7 @@ In summary/Anyway
 provide a refuge from the stresses of everyday life
 
 among certain groups of people.
-In China, most people enjoy fishing as **a relaxing activity**.
+In China, most people enjoy fishing as **a relaxing activity**.
 #### Food
 Today, there's more emphasis on **nutrition balance** and dietary 饮食 restrictions.  People tend to have a more balanced diet. Salty and sweet food is avoided.
 It's highly nutritious, containing a lot of protein and unsaturated fat.
@@ -153,7 +153,7 @@ grilled salmon
 
 #### Many fish around you 
 
-For example, I’ve visited **aquariums** many times and diving in areas with **diverse marine life**.
+For example, I’ve visited **aquariums** many times and diving in areas with **diverse marine life**.
 
 But since I have a strong fear of sea, I don't like the feeling of surrounded by a lot of fishes.
 #### Movie
@@ -166,7 +166,7 @@ fall under the classification of blues rock
 
 maintaining a positive state of mind
 
-**What I really enjoy** the most is bossa nova. **No sooner do** I start listening to it **than** I get really obsessed about it/
+**What I really enjoy** the most is bossa nova. **No sooner do** I start listening to it **than** I get really obsessed about it/
 #### One type
 
 ### Dream 
@@ -233,13 +233,13 @@ spare key
 
 #### How do you help people around you, such as neighbour, family and friends?
 There are actually many ways
-* like if I see a passenger/our neighbors **struggling with** a package, I'll just offer to help
+* like if I see a passenger/our neighbors **struggling with** a package, I'll just offer to help
 * Or I'm very happy to look after their pets when they are unavailable
 
 I assist by offering emotional support, sharing knowledge, helping with tasks, and being a reliable presence in their lives.
 
 #### Do your parents teach you how to help others
-When I was young, my parents always taught me being **kind** and **helpful**.
+When I was young, my parents always taught me being **kind** and **helpful**.
 
 For example , such as looking after a relative's child or his pet.
 
@@ -261,7 +261,7 @@ However, it's calorie-dense, and lack in nutrients. contains a large proportion 
 
 dopamine
 ### How far is it from your home to work or to school?
-It takes me around 20 minutes to get to work/school from my home. I usually go on electric bycicle. I prefer living near the workspace, saving me time for commuting.
+It takes me around 20 minutes to get to work/school from my home. I usually go on electric bicycle. I prefer living near the workspace, saving me time for commuting.
 
 ### Do you think people will drive more in the future?
 I believe the future might see less individual driving due to the rise of autonomous vehicles and shared transportation services. Environmental concerns may also promote the use of public transportation.
@@ -276,7 +276,7 @@ Yes, I do. I find a denim tote bag quite **handy** for carrying my **essentials*
 I prefer convenient and small bags. They're easy to **carry around** and suit my needs without being overly bulky or expensive.
 
 #### Do you change your bags often?
-No, I don't change my bags. I **prefer** sticking to one that's durable and fits my daily needs. I tend to only replace my bags when they are worn out or broken. Also, I find it hard to choose
+No, I don't change my bags. I **prefer** sticking to one that's durable and fits my daily needs. I tend to only replace my bags when they are worn out or broken. Also, I find it hard to choose
 
 #### Expensive bags
 find luxury bags premium 溢价 is serious.
@@ -335,7 +335,7 @@ The last time I went running was two months ago. I ran with my colleagues across
 Running not only keeps my physically fit, but also mentally rejuvenated. I always feel recharged and rejuvenated after running. It's a low-cost and therapeutic sport that everybody should try.
 
 #### Think 
-I find it to be **an excellent way to stay in shape and relieve stress**. 
+I find it to be **an excellent way to stay in shape and relieve stress**. 
 Physically, it helps us to build a healthy body, and promote endurance, **improves cardiac functionality** 
 Mentally, It stimulates perseverance and mental strength
 ### Clothes 
@@ -410,7 +410,7 @@ Absolutely, geography is crucial. It helps us understand the world's physical fe
 **Art is a display of people's imagination.**
 **People explore a imaginary world evolved from artist's/musician's mind.**
 
-_Yes, I do, but I have to admit that, with all my works right now, I don’t have a lot of time to **curl up with a book**. When I do, for example on holiday, I love **thrillers or action books with a strong plot line** which I can read **cover to cover** in a few hours**.**_
+_Yes, I do, but I have to admit that, with all my works right now, I don’t have a lot of time to **curl up with a book**. When I do, for example on holiday, I love **thrillers or action books with a strong plot line** which I can read **cover to cover** in a few hours**.**_
 
 #### Gallery
 Yes, I never miss the graduation exhibition of the Academy of Fine Arts. I get to see a variety of arts
@@ -419,9 +419,9 @@ Yes, I never miss the graduation exhibition of the Academy of Fine Arts. I get t
 Yes, films are beneficial. They provide entertainment, stimulate creativity, and can educate us about different **cultures, histories, and perspectives.**
 
 #### Modern or Traditional 
-Honestly, I’m **an outsider** to art, but I should say, I just love both because each **has its strong points**. 
-To my understanding, traditional art provides a basis for **aesthetic** level, showing people the details of the artwork, and provide a glimpse into the past.
-And modern art is sort of like, **breaking the mould** and reflecting the artists’ thoughts.
+Honestly, I’m **an outsider** to art, but I should say, I just love both because each **has its strong points**. 
+To my understanding, traditional art provides a basis for **aesthetic** level, showing people the details of the artwork, and provide a glimpse into the past.
+And modern art is sort of like, **breaking the mould** and reflecting the artists’ thoughts.
 
 ### Urbanization
 #urban
@@ -466,7 +466,7 @@ I prefer sunny days as I feel more energetic when the sun comes out and motivate
 Although after long sunny days, rain seems to be refreshing.
 #### Does?
 
-The place where I live is **super wet** all **year round**. It rains all the time. Sometimes it can rain for a fortnight continuously.
+The place where I live is **super wet** all **year round**. It rains all the time. Sometimes it can rain for a fortnight continuously.
 
 #### live dry or west
 
@@ -574,7 +574,7 @@ Dustin Hoffman is an actor I greatly admire for his remarkable versatility and d
 	* The story talks about Benjamin Braddock, **fresh out of** college and **unsure about** his future.
 	* Dustin Hoffman plays Benjamin brilliantly, with his portrayal of **youthful confusion** and disillusionment.
 	* Explores the themes of generation gap and identity/existential crisis. 
-	* Added to this was a **haunting musical score**, written by my favorite folk duo, Simon & Garfunkel.  The music is good enough for itself, but also integrated into the plots so well, especially the one with Benjamin's infamous poolside drifting scene.
+	* Added to this was a **haunting musical score**, written by my favorite folk duo, Simon & Garfunkel.  The music is good enough for itself, but also integrated into the plots so well, especially the one with Benjamin's infamous poolside drifting scene.
 	* In essence, "The Graduate," with its **compelling story arc** and **iconic soundtrack by Simon and Garfunkel**, remains a timeless masterpiece. 
 	* ==***As much as it's entertaining, it's also educational and deeply thought-provoking.***==
 
@@ -636,24 +636,23 @@ Paul McCartney
 * talented song-writer, sophisticated bass player,  gifted singer, a generous philanthropist
 * He's able to produce intriguing melody. In fact, he and John Lennon are considered the greatest songwritting duo ever. He had made considerable amount of hit songs, unmatched by any other musicians later
 * Besides his talent in music, He was keen on attending charity events, by donating or writing songs.
-* he has been at the **pinnacle** of music throughout his whole career
+* he has been at the **pinnacle** of music throughout his whole career
 * He  had left an inedible imprint on the  rock & roll history, inspiring numerous fellow musicians to follow in their steps.
 
 
 
 ### Clothes
-
 #### Wear most often 
 I prefer wearing clothes of high quality, with a little bit **vintage** vibe, and also they are better to be unisex 
 
 I adhere to the principle of/choose quality over quantity.
-
 
 * Denim jacket, made by LVC
 * For the style, It's a Type-II Trucker jacket, which is a classic model. It features classical American postwar retro style 
 * Denim Cloth is my favorite material for a jacket, I like the rigid nature of it
 * Apart from the material, I'm obsessed with denim blue, it encapsulates both masculinity and energy
 * Since it's quite thick, I wear them only in Autumn and Spring, about once a weak
+* What fascinated me most is the cowboy spirit it displays: casual, natural, unrestrained - that's my interpretation.
 
 #### Brand
 As a big fan of Margaret Howell, my wardrobe mainly features her classic pieces.
@@ -696,11 +695,11 @@ LiverPool, United Kingdom
 * beautiful landscape and **untouched nature**
 #### Noisy
 
-I would like to talk about a night bar/Mexican restaurant near my college. It was **a local landmark**  地标 actually, located on the street next to our campus. People would go there to **relieve stress and anxiety from school**, or celebrate the end of a season. But my last visit there proved me wrong.
+I would like to talk about a night bar/Mexican restaurant near my college. It was **a local landmark**  地标 actually, located on the street next to our campus. People would go there to **relieve stress and anxiety from school**, or celebrate the end of a season. But my last visit there proved me wrong.
 
-Before my friend and I entered the bar, I could already hear the loud sound from the stereos which played **the catchy and cheesy music**. **The tone quality** was rather awful so all I heard was **high pitch of sound** rather than nice and **gentle melodies**.  Besides, after sitting down at a small table, there're too many people talking in a loud voice that I can hardly here my friend was saying. 
+Before my friend and I entered the bar, I could already hear the loud sound from the stereos which played **the catchy and cheesy music**. **The tone quality** was rather awful so all I heard was **high pitch of sound** rather than nice and **gentle melodies**.  Besides, after sitting down at a small table, there are too many people talking in a loud voice that I can hardly here my friend was saying. 
 
-Though the food there was tasty, I love the Fajita and Mojito, the atmosphere in the bar **was too awful to endure**. I was expecting a quiet listening experience but everything was out of my imagination. **People were raising their voice as the background music was overwhelming**, which made the place all the more **unbearable**.
+Though the food there was tasty, I love the Fajita and Mojito, the atmosphere in the bar **was too awful to endure**. I was expecting a quiet listening experience but everything was out of my imagination. **People were raising their voice as the background music was overwhelming**, which made the place all the more **unbearable**.
 
 unbearable
 
@@ -715,7 +714,7 @@ unbearable
 * at the cost of the 
 ### Trip to Xinjiang | Car journey | Childhood happy
 * makes it **captivating**
-* _We visited colourful_ **_craft markets_** _and brought back souvenirs, to remind us of our trip. One of my most_ **_memorable experiences_** _was to the Sailimu Lake. It is a little bit_ **_off the beaten track_** _but it is surrounded by great_ **_scenic beauty_** _and_ **_magnificent landscapes._**
+* _We visited colourful_ **_craft markets_** _and brought back souvenirs, to remind us of our trip. One of my most_ **_memorable experiences_** _was to the Sailimu Lake. It is a little bit_ **_off the beaten track_** _but it is surrounded by great_ **_scenic beauty_** _and_ **_magnificent landscapes._**
 * natural landscape is nothing short of breathtaking. One of my favorite spots is the Sailimu Lake, hidden inside the peaks of the Tianshan range.
 * exotic: clothes, food, their markets, fruits
 * local people being friendly and modesty, hospitable
@@ -727,7 +726,7 @@ unbearable
 ### Rule
 alcohol is not allowed, to avoid unexpected  issues
 * get punishment, criticized, probably will take a pay cut
-* rehearsal room, after rehearsal brandy and vodca
+* rehearsal room, after rehearsal brandy and vodka
 * I find it necessary and far-sighted
 
 
@@ -836,13 +835,13 @@ It's probably due to the hardships the parents experienced in the past.
 They should enjoy life like, a bit, after working hard
 
 #### Art
-**The piece of work that I like the most is** Sunflowers by Vincent Van Gogh. 
+**The piece of work that I like the most is** Sunflowers by Vincent Van Gogh. 
 
 Among the countless pieces of art that have been created **over centuries**, one painting that has always **captivated** me is “The Starry Night” by Vincent van Gogh.
 
-I first encountered “The Starry Night” during a school trip to a local [Museum](https://ieltsrewind.com/describe-a-museum-you-have-visited-and-liked/) , where a replica is being exhibited.
+I first encountered “The Starry Night” during a school trip to a local [Museum](https://ieltsrewind.com/describe-a-museum-you-have-visited-and-liked/) , where a replica is being exhibited.
 
-Its **vibrant colors and unique style** stood out among the other artworks.
+Its **vibrant colors and unique style** stood out among the other artworks.
 ![[Pasted image 20230930103128.png]]
 
 Painted in 1889, it presents an image of a night sky filled with **swirling** stars, overlooking a quaint 古色古香 town.The night sky could be seen as a representation of his inner feelings and emotional state.
@@ -853,7 +852,7 @@ In fact, not only did I enjoy the painting itself,  **I also adore** a beautiful
 
 I find most fascinating about “The Starry Night” is how it resonates with me on an emotional level. It serves as a **reminder** that **beauty can be found even in dark times**, and that creativity can flourish **amidst adversity 逆境**.
 
-It serves as an inspiration, **reminding** us of the power of perseverance and the unlimited potential of human [creativity](https://ieltsrewind.com/describe-a-creative-person-whose-work-you-admire/).
+It serves as an inspiration, **reminding** us of the power of perseverance and the unlimited potential of human [creativity](https://ieltsrewind.com/describe-a-creative-person-whose-work-you-admire/).
 
 
 
@@ -919,7 +918,7 @@ products placement 植入广告
 
 buying power 购买力
 
- _I can’t really say what was so memorable about these commercials – perhaps the **imagery** or the **jingle**, but years later I most definitely remember them._
+ _I can’t really say what was so memorable about these commercials – perhaps the **imagery** or the **jingle**, but years later I most definitely remember them._
 #### Feeling
 * drawback: some companies mislead consumers by presenting some features that don't exist
 
@@ -995,7 +994,7 @@ We had our moments when people spontaneously protested the plan to demolish such
 
 While they have faced some challenges, I wouldn't say they are disappearing. In fact, I think the term "revolutionized" is more appropriate.
 
-Yes, there’s no denying that modernization and changing lifestyles have had an impact on traditional festivals. 
+Yes, there’s no denying that modernization and changing lifestyles have had an impact on traditional festivals. 
 
 However, people are now celebrating festival through new ways. For example, posting about festival in social media.
 
@@ -1093,10 +1092,10 @@ Innovative thinkers, often found **in fields like** technology, science, and art
 People these days are all about green living and **reducing their carbon footprint.**
 
 
-_Factories use_ **_fossil fuels_** _to run machines and the **_carbon monoxide_** _released lead to air pollution. 
-Factories_ **_dispose_** _of their waste in nearby_ **_waterways_**_, creating water pollution._
+_Factories use_ **_fossil fuels_** _to run machines and the **_carbon monoxide_** _released lead to air pollution. 
+Factories_ **_dispose_** _of their waste in nearby_ **_waterways_**_, creating water pollution._
 This in turn affects the entire **_ecosystem_**.
-Many animals abandon their_ **_natural habitats_** once a factory is built, creating an imbalance in the ecosystem.
+Many animals abandon their_ **_natural habitats_** once a factory is built, creating an imbalance in the ecosystem.
 #### Ways to reduce
 
 * promote renewable energy, provide subsidy for new energy vehicles
@@ -1219,20 +1218,20 @@ They should not be hesitated to change their job. Spending some time seeking dre
 * exploring new job opportunities
 * Ultimately, the goal is to find a career path that aligns with their interests, skills, and aspirations.
 ### Accommodation
-Over the past twenty years, there has been a **surge in property prices**.
-_for the average person, many years of renting is needed to save enough for a_ **_deposit 首付._**
+Over the past twenty years, there has been a **surge in property prices**.
+_for the average person, many years of renting is needed to save enough for a_ **_deposit 首付._**
 **_unscrupulous_** 不道德的
 
 
-improved legal protection _be provided for_
+improved legal protection _be provided for_
 
 ### Decision
 people tend to be objective and short-minded when they make decisions on their own.
 * advice from other people provide a different perspective, making the decision more reliable and multifaceted
 * we should be opened to receive advice from others, when making decisions, even if they don’t **serve our purposes** in the present since there is always a chance that they would benefit us in the future.
 #### Children
- * whether they’ll become serious in their studies 
- * continue hanging out with so-called friends that bring them down.
+ * whether they’ll become serious in their studies 
+ * continue hanging out with so-called friends that bring them down.
 
 #### After graduation
 * whether to pursue a higher degree
@@ -1293,7 +1292,7 @@ teach them the importance of responsibilities
 * positive **reinforcement**, rewards and punishment from teachers can motivate them to assist/guide their behavior
 
 #### Community service
-* learn about empathy, responsibility and the  importance of giving back to society
+* learn about empathy, responsibility and the  importance of giving back to society
 * teach practical and valuable skills which may be beneficial to there career.
 
 
@@ -1315,7 +1314,7 @@ Eating in restaurants offers variety, convenience, and a chance to socialize. Ho
 #### Go without preparation
 
 
-**_spectacular beaches_** _and_ **_lush forests._**
+**_spectacular beaches_** _and_ **_lush forests._**
 
 
 * prefer spontaneity, enjoy the novelty and its unpredictable nature. Liking the randomness and freshness provided by random choices. 
