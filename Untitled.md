@@ -1,2 +1,0 @@
-
-situation task action result

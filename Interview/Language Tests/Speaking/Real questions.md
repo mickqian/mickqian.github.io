@@ -14,7 +14,6 @@
 * most .. aspect of...
 * be surprised <-> be taken aback
 * many <-> a large proportion of
-* cheer me up
 * in the sense that
 * all the day <-> throughout the day
 * encourage/propel into/motivate
@@ -29,17 +28,27 @@
 * motivate me to **strive for excellence** in my future endeavor
 * celebrating these milestones **reinforces the importance of goal setting and working towards them**
 * it gives me a sense of enormous well-being
-* 
-* stimulate creativity
 * have a negative affect on
 * 正面感受:
-	* 
+	* therapeutic, invigorates 鼓舞 me/vibrant, gratifying, stunning, spectacular, compelling
 * 负面感受：
-	* disheartening, frustrating, disgusting, annoying, 
-* The idea of celebrating with people, some of whom I may not know, can induce feelings of nervousness and anxiety
+	* disheartening/frustrating, disgusting, annoying, upsetting
 * partly because ... but also
 * put sth head of anything else.
+* making it impossible to
+* have created a ubiquitous presence of information 
+* profound skills
 
+
+Why enjoy/interested?
+* ... allows for/allows people to/stimulate creativity
+* 休息: the process of cooking can be therapeutic, providing a break from daily stresses
+* 加强沟通: can be a communal activity, fostering connections with family and friends. brings people closer/connect with others
+* 气氛组：contribute to the festive atmosphere
+* 对人的帮助：equip people with skill
+* 认可： recognition
+* 成就： a sense of accomplishment
+* 同理心：empathy/express 
 
 
 >[!Info] Idioms
@@ -63,7 +72,7 @@
 >I can't remember exactly but I think it was(2)
 >So, I would say
 >When it comes to
->On top of that/最重要的
+>On top of that 最重要的
 >I suppose you could say he's probably
 
 >[!Tip] Inversion
@@ -93,7 +102,7 @@
 	* 反面: 
 * prefer:
 	* my preference would be
-	* I usually  go with
+	* I usually go with
 	* ... would be my first choice
 	* ... is preferable
 	* i prefer
@@ -101,6 +110,7 @@
 * what/how
 	* I imagine
 	* I **suppose**/think there are several/couple of  ways/reasons to ...
+	* .. for a variety of/various reasons
 	* There could be some... 
 		* I can come up with/think of several...
 		* Well, in my estimation,
@@ -125,11 +135,29 @@ In summary/Anyway
 
 ## Part 1
 
-### Fish
-nutritious
+### Fishing
+
+**free themselves away from hectic 繁忙的 work schedule**.
+provide a refuge from the stresses of everyday life
+
+among certain groups of people.
+In China, most people enjoy fishing as **a relaxing activity**.
+#### Food
+Today, there's more emphasis on **nutrition balance** and dietary 饮食 restrictions.  People tend to have a more balanced diet. Salty and sweet food is avoided.
+It's highly nutritious, containing a lot of protein and unsaturated fat.
+
+I love grilled or saw salmon.
+Some of the freshwater fish  are  delicious too.
+
 grilled salmon
 
+#### Many fish around you 
 
+For example, I’ve visited **aquariums** many times and diving in areas with **diverse marine life**.
+
+But since I have a strong fear of sea, I don't like the feeling of surrounded by a lot of fishes.
+#### Movie
+Moby Dick, which is a classic move talking about the story of a whale, **depicting** the fight between human and nature.
 ### Music
 catchy, memorable tunes
 **uplift my spirit**, **recharge my battery and energy**
@@ -165,7 +193,7 @@ No. While chocolate as a gift can make nice, I find it a little bit cliche, as i
 Yes, I learned about those things in High School, when I was taught Astronomy. I learned about solar system, different nebulas and galaxies. Out of curiosity, I watched 2001: A Space Odyssey, and it has been one of my favorite movies till this day.
 
 #### Do you like science fiction movies?
-Absolutely, I enjoy science fiction movies. I'm a big fan of David Kubrick, and his movies like 2001: Space Odyssey. Also, my favortie TV episode is Black Mirror, which shows me what the future will be like. One of the episode that most impressed me is about a programmer creating an imagenery spaceship based on a computer program.
+Absolutely, I enjoy science fiction movies. I'm a big fan of David Kubrick, and his movies like 2001: Space Odyssey. Also, my favorite TV episode is Black Mirror, which shows me what the future will be like. One of the episode that most impressed me is about a **programmer** creating an imaginary spaceship based on a computer program.
 
 
 
@@ -182,7 +210,7 @@ Oh wow, I have never thought about it. First thing to do is definitely record ev
 Yes, I've made and sent origami gifts. It's a thoughtful, personal touch that people seem to appreciate.
 
 #### What do you consider when choosing a gift?
-I consider the recipient's personal interests, the gift's uniqueness, its quality, and my budget. It's about **matching** the gift to the person.
+I consider the recipient's personal interests, the gift's uniqueness, its quality, and my budget. It's all about **matching** the gift to the person.
 
 #### Do you think you are good at choosing gifts? 
 I believe so. I **put thought into** understanding the recipient's preferences, which helps me choose meaningful gifts.
@@ -240,7 +268,7 @@ I believe the future might see less individual driving due to the rise of autono
 
 ### Bag
 
-#### Do you usually carry a bag(I usually carry a tote bag, which is a convenient version of a bag. It can contain a lot of stuff that I use frequently, like umbrellas and wallet and some snacks)
+#### Do you usually carry a bag
 Yes, I usually carry a bag. It helps me keep important items like my wallet, keys, and phone organized and easily accessible.
 Yes, I do. I find a denim tote bag quite **handy** for carrying my **essentials** like books, wallet, and phone. It's both **practical and stylish.**
 
@@ -283,13 +311,15 @@ Because of the Asian Olympics, some new buildings are rising. Also, the road see
 #### Compare to have lived in the past
 The space was **rather restricted** for I had to share with 3 other people. Also, It was not as clean either.
 #### Weather
-The weather here is called "Sub tropical monsoon climate", that's the technical term. To be specific, we have distinctive seasons here, with the summer being scorching hot. And it's humid throughout the year, making the winter rather cold. Also, there's a lot of rain in September, which I hate.
+The weather here is called "Sub tropical monsoon climate", that's the technical term. 
+To be specific, we have **distinctive** seasons here, with the summer being **scorching** hot. 
+And it's humid throughout the year, making the winter rather cold and clothes hard to dry. Also, there's a lot of rain in September, which I hate.
 
 
 
 ### Animals
 #### Have you ever been to a zoo or a safari park?
-**Oh, absolutely! I've been to a local zoo here in Hangzhou, where I rode a tiger and took some pictures. Although at that time I was not aware of the danger of these animals.**
+**Oh, absolutely! I've been to a local zoo here in Hangzhou, where I rode a tiger and took some pictures. Although at that time I was not aware of how dangerous these animals are.**
 
 
 #### Animal want to see
@@ -306,7 +336,7 @@ Running not only keeps my physically fit, but also mentally rejuvenated. I alway
 
 #### Think 
 I find it to be **an excellent way to stay in shape and relieve stress**. 
-Physically, it helps us to build a healthy body, and promote endurance, improves cardiac functionality 
+Physically, it helps us to build a healthy body, and promote endurance, **improves cardiac functionality** 
 Mentally, It stimulates perseverance and mental strength
 ### Clothes 
 #### T shirt
@@ -320,7 +350,31 @@ Actually, I don't find any of them appealing. I prefer T-shirts with no prints o
 * regarding/as for/as to/with regard to/in respect to/concerning/move onto
 
 
-### What's the most popular means of transportation in your hometown?
+### Hometown 
+
+Huzhou, A small city nested in south east part of China. 
+It is next to Tai Lake, which is one of the biggest freshwater lake in China.
+And though it is **undeveloped** compared to surrounding cities, people there are leading a comfortable life.
+
+Known for the beautiful scenery near Tai Lake, where you can see fishing boats, habitats of wildlives.
+
+#### Good for youngsters?
+
+Not many job opportunities, I think I can't find a job with salary as high as I have in Hangzhou.
+Also, the facilities and transportation are not as good.
+Besides, there aren't many entertainment places.
+
+
+
+#### Changes
+
+Yes, some skyscrapers and amenities like hospitals, theaters, shopping malls are built.
+Also, the transportation has been easier, thanks to the newly-built railway station.
+
+
+
+
+#### most popular means of transportation
 In China, the most popular means of transportation are public buses, subways, and bicycles, including e-bikes. High-speed trains are also widely used for long-distance travel.
 
 
@@ -356,6 +410,7 @@ Absolutely, geography is crucial. It helps us understand the world's physical fe
 **Art is a display of people's imagination.**
 **People explore a imaginary world evolved from artist's/musician's mind.**
 
+_Yes, I do, but I have to admit that, with all my works right now, I don’t have a lot of time to **curl up with a book**. When I do, for example on holiday, I love **thrillers or action books with a strong plot line** which I can read **cover to cover** in a few hours**.**_
 
 #### Gallery
 Yes, I never miss the graduation exhibition of the Academy of Fine Arts. I get to see a variety of arts
@@ -388,11 +443,18 @@ How do you stay focused?
 * creating a quiet environment, setting clearer goals, taking regular breaks
 
 ### Robots
+automated driving is **still in its early stages**
+not a developed tech
+
+
 
 Using robots in agriculture or production is a smart choice, being faster, cheaper than some sophisticated workers. However, robots don't know how to learn, so they won't replace human, at least in the near future.
 
+
+raise **privacy and ethical** concerns
 #### Jobs
-Robots can easily replace workers that involve mechanical repetition or physical actions, such as cleaners, typewriters, drivers, plumbers. On the other hand, jobs require empathy can't be replaced by robots, for instance, teachers.
+Robots can easily replace workers that involve mechanical repetition or physical actions, such as cleaners, typewriters, drivers, plumbers. 
+On the other hand, jobs require empathy and emotions can't be replaced by robots, for instance, teachers.
 
 #### Risk
 As the technologies are not mature and have not gone through thorough tests, they can get out of control. Also, they can lead to job displacement and more societal issues.
@@ -435,7 +497,7 @@ It was interesting for two reasons.
 In the future, I will probably study business management, so my experience in the flower shop will be very useful to me.
 
 
-And that's my talk about
+And that's my talk about..
 
 
 
@@ -447,9 +509,7 @@ It was a time of great turmoil, with the whole region separated into power strug
 
 The stories of the strategy, and the political intrigue/drama happened in that period has contributed to this epic novel called "Romance of the Three Kingdoms", which is a must-read for students in China. It also had profound implications on the Chinese literature landscape, inspiring countless writers in subsequent generations. 
 
-I'm interested in learning more about the Three Kingdoms Period because it offers insights into human nature, which remain relevant today.
-
-
+I'm interested in learning more about the Three Kingdoms Period because it offers **insights**  洞悉 into human nature, which remain relevant today.
 
 
 ### Person
@@ -459,6 +519,13 @@ I'm interested in learning more about the Three Kingdoms Period because it offer
 * met at a party
 
 #### Sportsman
+Thomas Muller, who is the striker of the german football team, also of bayern Munchen F.C.
+* Well, I don't have much time to watch sports now, but
+* I first knew him from the TV broadcast of the 2018 world cup. It was German vc Portugal. And Thomas, with his great sense of the penalty area, scored 3 goals.
+* He has won a Golden and Silver Boot.
+* thought he isn't  equipped with exquisite shooting skills, he has led the team to success
+* In his normal life, he is also a pound husband and father
+* optimistic
 
 
 
@@ -492,7 +559,32 @@ Thanks to his help, we managed to produce our original song and perform in local
 * invite us to party, where we enjoyed some soothing bossa nova, and had a great dinner made by himself, which was Italian and quite tasty, I would say
 * He quickly integrated into our group with his humor. We were happy to accept him as our new neighbor
 
+#### Actor | Movie
+Dustin Hoffman.
+portrayal of diverse characters
 
+
+
+Dustin Hoffman is an actor I greatly admire for his remarkable versatility and depth. 
+* He's considered to be one of the most talented actors, along with Al Pacino and Jack Nicholson
+* He has **starred in countless** story-telling films and documentaries, and "The graduate" is one of my favorite films, which explores the theme of generation gap and identity crisis. 
+* I really admire his ability to immerse himself into diverse characters, from the intellectually brilliant expertise 专家 in "Rain Man" to the confusing college student in "The graduate,". These performances are truly remarkable/extraordinary/exceptional.
+* He was able to portray the character with *nuanced expressions* and body language, which all contribute to his exceptional acting skills, making him a truly inspirational figure in the world of cinema.
+* The Graduate: 
+	* The story talks about Benjamin Braddock, **fresh out of** college and **unsure about** his future.
+	* Dustin Hoffman plays Benjamin brilliantly, with his portrayal of **youthful confusion** and disillusionment.
+	* Explores the themes of generation gap and identity/existential crisis. 
+	* Added to this was a **haunting musical score**, written by my favorite folk duo, Simon & Garfunkel.  The music is good enough for itself, but also integrated into the plots so well, especially the one with Benjamin's infamous poolside drifting scene.
+	* In essence, "The Graduate," with its **compelling story arc** and **iconic soundtrack by Simon and Garfunkel**, remains a timeless masterpiece. 
+	* ==***As much as it's entertaining, it's also educational and deeply thought-provoking.***==
+
+#### Movies that disappoint
+
+Once upon a time in Hollywood
+* already a big fan
+* I found the plots cheesy, cliche, and kind of boring 
+* performance of learnardo and brad pitt is not satisfying, unworthy of their fames
+* 
 ### Job
 
 #### Skills
@@ -510,13 +602,13 @@ The most exciting aspect of this job is the opportunity to perform all around th
 Also, I get to meet different musicians around the world. **Hopefully I can draw some inspirations and learn from them.**
 
 
-### Decision | What makes you proud Period change life
+### Decision | What makes you proud Period change life | Physically Tired
 * I've always been fascinated by the beauty of music. I spent **countless** hours listening to various genres of music. But it never occurred to me that I can play the music myself.
 * After graduating, I decided to pick up an instrument and learn by myself, just out of self-expression and fulfillment
 * Due to long working hours during the day, I don't have the time to attend any music classes. Thanks to various resources on social media websites such as Youtube, BiliBili, I can learn from guitar masters anytime anywhere I want, without having to go to traditional music schools. As a result, my guitar skills improved very quickly.
 * Despite all these obstacles, Luckily, through lots of practice, I managed to join a local band and play as the lead guitarist. We successfully  produce our original song and perform in local concerns, which turned out to be quite successful.
 * looking back, I'm grateful that I made the decision to learn to play guitar and overcame various challenges, for the outcome has been wonderful
-* **If it had not been my perseverance and devotion, I would never have the change to perform in front of a huge crowd.**
+* **If it had not been my perseverance and devotion, I would never have the change to perform in front of such a huge crowd.**
 * By relying on self-confident, perseverance, one can achieve anything
 
 
@@ -525,11 +617,6 @@ However, it's **challenging** as it demands hard work and continuous effort 坚�
 
 It's all about perseverance. 
 
-### Late for a meeting
-* a band with members all colleagues
-* 2 days before we ought to perform in a local concert, last rehearsal before performance.
-* was held up by a emergency task from work, which is a bug-fix, and so I couldn't make it to rehearsal on time
-* I felt very sorry and embarrassed for breaking my own promise. Luckily the rehearsal and performance went out well, without major incidents.
 
 ### Festival
 #### Date
@@ -549,6 +636,7 @@ Paul McCartney
 * talented song-writer, sophisticated bass player,  gifted singer, a generous philanthropist
 * He's able to produce intriguing melody. In fact, he and John Lennon are considered the greatest songwritting duo ever. He had made considerable amount of hit songs, unmatched by any other musicians later
 * Besides his talent in music, He was keen on attending charity events, by donating or writing songs.
+* he has been at the **pinnacle** of music throughout his whole career
 * He  had left an inedible imprint on the  rock & roll history, inspiring numerous fellow musicians to follow in their steps.
 
 
@@ -582,6 +670,7 @@ LiverPool, United Kingdom
 * Hometown of the The Beatles & Merceybeat, which is a genre of music.
 * Liverpool F.C. is also a quite competitive one in the Campion's League, and I'd love to watch Salah score.
 * I can't wait to explore those locations mentioned in the songs, strawberry field, Eleanor Rigby, penny lane and so much more I can't recall at the moment
+* In conclusion, liverpool is appealing to me in many ways, **its enriched football culture and music history have haunted me ever since I was a boy.**
 
 #### Relax | Apartment
 * I don't have my own apartment now, I'm living in rent house, so the space is limited
@@ -591,6 +680,7 @@ LiverPool, United Kingdom
 	* though I do leave a corner of the living room to settle my guitar, amplifier and pedals, allowing me to
 	* enjoy music, play guitar or improvise to a backing track whenever I want to/I feel like it
 * relaxing, gratifying, satisfactory
+* after my lease of current apartment runs out
 #### Store
 * a new guitar flagship shop, **featuring** my favorite guitar brand
 * It sells a variety of guitars, as well as related accessories including guitar amp, pick, string and straps
@@ -598,16 +688,17 @@ LiverPool, United Kingdom
 * With the rising of music industry and growing level of musical aesthetics among people, I believe more and more people will have their own guitars, making this shop **thrive in business**
 
 
-#### Park | Interestng
+#### Park | Interesting
 * xianghu, not far from where I live
 * basically a lake surrounded by grass field, where
 * Far from the city center, making it away from the hustle and bustle. Therefore, it is often not very crowded, making it tranquil
 * bring guitar, enjoy music **throughout** the day
 * beautiful landscape and **untouched nature**
 #### Noisy
-I would like to talk about a night bar/mexical restaurant near my college. It was **a local landmark**  地标 actually, located on the street next to our campus. People would go there to relieve stress and anxiety from school,  or celebrate the end of a season. But my last visit there proved me wrong.
 
-Before my friend and I entered the bar, I could already hear the loud sound from the stereos which played **the catchy and cheesy music**. The tone quality was rather awful so all I heard was **high pitch of soun**d rather than nice and **gentle melodies**.  Besides, after sitting down at a small table, there're too many people talking in a loud voice that I can hardly here my friend was saying. 
+I would like to talk about a night bar/Mexican restaurant near my college. It was **a local landmark**  地标 actually, located on the street next to our campus. People would go there to **relieve stress and anxiety from school**, or celebrate the end of a season. But my last visit there proved me wrong.
+
+Before my friend and I entered the bar, I could already hear the loud sound from the stereos which played **the catchy and cheesy music**. **The tone quality** was rather awful so all I heard was **high pitch of sound** rather than nice and **gentle melodies**.  Besides, after sitting down at a small table, there're too many people talking in a loud voice that I can hardly here my friend was saying. 
 
 Though the food there was tasty, I love the Fajita and Mojito, the atmosphere in the bar **was too awful to endure**. I was expecting a quiet listening experience but everything was out of my imagination. **People were raising their voice as the background music was overwhelming**, which made the place all the more **unbearable**.
 
@@ -619,11 +710,13 @@ unbearable
 * At one time, I'm shocked to notice that I can hardly  see anything, through the heavy fog
 * I looked for the source of this through difficulty, and suddenly some chimneys came into my sight. I suddenly realized that it's power plant that is producing this polluted air.
 * It emitted untreated polluted air, straight into the surroundings.
-* Seeing my hometown suffer from pollution was disheartening and frustrating. It made me more conscious of environmental issues
+* Seeing my hometown suffer from pollution was **disheartening** and **frustrating**. It made me more conscious of environmental issues
 * environment is compromised/sacrificed to economic development
 * at the cost of the 
-### Trip to Xinjiang | Car journey
-* makes it **intriguing/captivating**
+### Trip to Xinjiang | Car journey | Childhood happy
+* makes it **captivating**
+* _We visited colourful_ **_craft markets_** _and brought back souvenirs, to remind us of our trip. One of my most_ **_memorable experiences_** _was to the Sailimu Lake. It is a little bit_ **_off the beaten track_** _but it is surrounded by great_ **_scenic beauty_** _and_ **_magnificent landscapes._**
+* natural landscape is nothing short of breathtaking. One of my favorite spots is the Sailimu Lake, hidden inside the peaks of the Tianshan range.
 * exotic: clothes, food, their markets, fruits
 * local people being friendly and modesty, hospitable
 * With some of my colleagues and friends, 5 in total, just enough to fill a car
@@ -631,6 +724,15 @@ unbearable
 * instruments: unique and delicate, I bought some and play frequently
 * Car journey: We drove all the way from Urumqi to Yili, which is on the border of Xinjiang. Long hours in the car made us all exhausted both mentally and physically. Luckily we had shifts, so we each get to have a break.
 * The hardship was totally worth it, as we not only get to **experience exotic landscapes and culture**, but also had to chance to try local food, which can't be seen in Hangzhou.
+### Rule
+alcohol is not allowed, to avoid unexpected  issues
+* get punishment, criticized, probably will take a pay cut
+* rehearsal room, after rehearsal brandy and vodca
+* I find it necessary and far-sighted
+
+
+
+
 
 ### Sport
 
@@ -643,6 +745,18 @@ unbearable
 * Why watch: The game can be quite exciting to watch, for the competition and strategy shown by players. The suspense of competition often continues until the end.
 
 ### Experience 
+
+
+#### Local concert | Late for a meeting | Exciting activity
+
+* a band with members all colleagues
+* 2 days before we ought to perform in a local concert, last rehearsal before performance.
+* was held up by a emergency task from work, which is a bug-fix, and so I couldn't make it to rehearsal on time
+* my hands felt a huge pain, and had callouses from touching the steel strings constantly
+* We rehearsed for quite a long time. At first we couldn't even make our rhythms meet.
+* Through a lot of practice, we developed a sort of dynamics or tacit understanding between us, making the performance easier.
+* I felt very sorry and embarrassed for breaking my own promise. Luckily the rehearsal and performance went out well, without major incidents.
+* We performed several britpop songs, though I made a few minor mistakes, the audience seemed to enjoy it. It was satisfactory to share the music I love with people
 #### Bad Service
 * indifference, impatience
 * At an Italian restaurant where I had planned to take my then-girlfriend on our first date. It was two years ago and we were both excited about the night.
@@ -652,12 +766,14 @@ unbearable
 * ruined my day
 * I will never enter that restaurant again, I swear to god.
 
-#### With a young child | Party
+#### With a young child | Party | Teach
 * an occasion when I spent time with a young child. 
 * This happened at my colleague's son's birthday party. I decided to bring a guitar as a gift, knowing the child's interest in music.
 * We ended up spending the entire afternoon together, where I taught him some basic guitar chords and picking technique.
 * By the end of the day, he was able to strum a few simple songs including twinkle twinkle little star. Seeing his sense of achievement and the joy on his face was truly rewarding. 
 * **Not only did he feel satisfied, I also experience a great sense of fulfillment by teaching others,  sparking a new passion in a young mind.**
+* It's **gratifying** to witness someone's progress.
+* If I hadn't decide, I wouldn't spark the passion towards music in a young mind.
 #### Meals
 One of the most unusual meals I've ever had holds significant meaning to me. I can't recall the exact date, but it was approximately three years ago, **shortly after my college graduation**. It happened on a Friday night when my then-girlfriend took me to a local Italian restaurant. 
 
@@ -677,19 +793,28 @@ What made this meal unusual, and indeed transformative, was that **it opened the
 * Plan was to stick it to the top my guitar for first-perspective video
 * Unfortunately, several problems occurred. I find it hard to switch mode, fix and lost some part
 #### Book
-
-* Harry Potter
-* waving my wand, chanting a spell, fighting death eaters
+* As many others might have say, the novel I enjoy the most is Harry Potter
+* Harry Potter basically talk about how a boy, Harry Potter grow up with his friends, facing countless challenges, and finally beat Voldemort, the biggest villain
+* The courage and perseverance has encouraged me to take the same attitude towards obstacles I encountered in my life
+* Waving my **wand**, **chanting** a spell, fighting death eaters
 
 
 #### Ads don't like
 I really enjoy watching advertisements, as some are very creative and attractive. 
-However, there is one advertisement I dislike that I’ve seen on television about a toilet cleaner. A celebrity visit randomly picked homes and asks the owner if the toilet is clean or not. Everyone replies that their toilets are clean, but then the celebrity zooms in with their camera and reveals some dirt. They proceed to clean the toilet with a new liquid, making it sparkle.
+However, there is one advertisement I dislike that I’ve seen on television about a toilet cleaner. 
+A celebrity visit randomly picked homes and asks the owner if the toilet is clean or not. Everyone replies that their toilets are clean, but then the celebrity zooms in with their camera and reveals some dirt. They proceed to clean the toilet with a new liquid, making it sparkle.
+
 Seeing this ad during mealtime is disgusting and annoying, sometimes even making me feel nauseous.
 
 cheesy
 
 #### Useful ad
+To be honest, I don’t watch a lot of television/ if I'm honest,  but I do watch some TV episodes on Stream Media. 
+I remember one time I was watching a  popular music TV show, and it's basically severals band competing with each others. In the middle of the show, an ad popped out. Now usually, I would be annoyed by ads, but it was about an electric guitar. I saw a musician playing beautiful notes with this guitar, and it haunted me throughout the rest of the show. And I was not aware of what happened in that show.
+After watching, I immediately bought one on online shop. And I was happy and content about the guitar
+
+
+
 #### Lost | False information
 * It happened several months ago when my friend and I are on the way to a local music festival with my friend
 * The concerted was supposed to start in the afternoon, so We took a cab to the location described on the ticket at noon, but it was a deserted place which turned out to be a used power plant
@@ -712,9 +837,45 @@ They should enjoy life like, a bit, after working hard
 
 #### Art
 **The piece of work that I like the most is** Sunflowers by Vincent Van Gogh. 
-I first saw it when I went to a local museum .In fact, it was a replica. **No sooner had I seen it than I fell** in love with it. Only **when I arrived in Amsterdam did I learn**the full story of Van Gogh’s life. 
-**Rarely had I seen** anything as striking and distinctive. **What I love about it** is the colour 
+
+Among the countless pieces of art that have been created **over centuries**, one painting that has always **captivated** me is “The Starry Night” by Vincent van Gogh.
+
+I first encountered “The Starry Night” during a school trip to a local [Museum](https://ieltsrewind.com/describe-a-museum-you-have-visited-and-liked/) , where a replica is being exhibited.
+
+Its **vibrant colors and unique style** stood out among the other artworks.
+![[Pasted image 20230930103128.png]]
+
+Painted in 1889, it presents an image of a night sky filled with **swirling** stars, overlooking a quaint 古色古香 town.The night sky could be seen as a representation of his inner feelings and emotional state.
+
+
+In fact, not only did I enjoy the painting itself,  **I also adore** a beautiful song called Vincent by Don Mclean too. Its lyric starts with "Starry Starry night", which is a tribute to the greatness and extraordinary skills to Van Gogh.
+
+
+I find most fascinating about “The Starry Night” is how it resonates with me on an emotional level. It serves as a **reminder** that **beauty can be found even in dark times**, and that creativity can flourish **amidst adversity 逆境**.
+
+It serves as an inspiration, **reminding** us of the power of perseverance and the unlimited potential of human [creativity](https://ieltsrewind.com/describe-a-creative-person-whose-work-you-admire/).
+
+
+
 ## Part 3
+
+### Social Media
+
+seeking **recognition**
+
+#### Is it good
+it's important to consider what you're sharing.
+
+Personal information, **sensitive topics**, or unverified news should be handled with care.
+#### Good news?
+It's there responsibility to provide **unbiased** and accurate information to the public.
+Only reporting good news would be a **disservice to their journalistic duties** 伤害记者的职业道德
+
+#### How do people share
+in-person conversations.
+
+
+The mode of communication often depends on the relationship between the individuals and their preferences.
 
 
 ### Travel 
@@ -743,7 +904,6 @@ ad: slow pace of living, lead peaceful and comfortable life, low-cost, connectio
 
 
 
-
 ### Ads | Endorsement
 * an effective **marketing strategy** to promote product
 * **spread the awareness** among potential customers
@@ -754,9 +914,14 @@ ad: slow pace of living, lead peaceful and comfortable life, low-cost, connectio
 * creativeness
 * present features, attract customers
 
+products placement 植入广告 
+
+
+buying power 购买力
+
+ _I can’t really say what was so memorable about these commercials – perhaps the **imagery** or the **jingle**, but years later I most definitely remember them._
 #### Feeling
 * drawback: some companies mislead consumers by presenting some features that don't exist
-
 
 #### Online
 * annoying, disrupting the experience
@@ -820,7 +985,7 @@ We had our moments when people spontaneously protested the plan to demolish such
 * they can always learn history from school, which is a mandatory course that every should provide 
 * books and literature
 * **movies and documentaries**
-* museums and historial sites
+* museums and historical sites
 #### Why events
 * to have something to look forward to throughout the year
 * by holding events, people gather together so that they can share joy and create lasting memories
@@ -924,7 +1089,14 @@ Smart children are likely to be influenced by a variety of sources, including **
 #### What kind of people have lots of great ideas in your country? (Innovative people in my country usually come from professions related to computers, media and science. The nature of their jobs drives them to come up with innovative ideas and it is the only way for them to thrive. )
 Innovative thinkers, often found **in fields like** technology, science, and arts, typically have many great ideas. Entrepreneurs and educators also contribute significantly with their creative solutions and approaches.
 
-### Pollution
+### Pollution 
+People these days are all about green living and **reducing their carbon footprint.**
+
+
+_Factories use_ **_fossil fuels_** _to run machines and the **_carbon monoxide_** _released lead to air pollution. 
+Factories_ **_dispose_** _of their waste in nearby_ **_waterways_**_, creating water pollution._
+This in turn affects the entire **_ecosystem_**.
+Many animals abandon their_ **_natural habitats_** once a factory is built, creating an imbalance in the ecosystem.
 #### Ways to reduce
 
 * promote renewable energy, provide subsidy for new energy vehicles
@@ -1035,7 +1207,10 @@ I would prefer the latter. I believe it's better to improve myself using the tim
 A balanced approach is best for weight loss. **This includes** a healthy diet, regular exercise, and maintaining a consistent sleep schedule. It's also important to stay hydrated.
 
 #### How should young people find a suitable job？ 
-Firstly, young people should **identify** their interests and skills. Besides, resorting to friends and mentors for suggestion is also required. Gaining relevant experience through internships or volunteering can be helpful too. Remember to make good use of job apps, as they provide valuable information.
+Firstly, young people should **identify** their interests and skills. 
+Besides, resorting to friends and mentors for suggestion is also required. 
+Gaining relevant experience through internships or volunteering can be helpful too. 
+Remember to **make good use of job apps**, as they **provide valuable information**.
 
 #### What should youngsters do if they find the job they are doing does not suit them well? 
 They should not be hesitated to change their job. Spending some time seeking dream job and acquiring higher degree is totally worth it. It's essential to keep learning and adapting until they find a job that suits them well.
@@ -1043,6 +1218,13 @@ They should not be hesitated to change their job. Spending some time seeking dre
 * consider further education for new skills
 * exploring new job opportunities
 * Ultimately, the goal is to find a career path that aligns with their interests, skills, and aspirations.
+### Accommodation
+Over the past twenty years, there has been a **surge in property prices**.
+_for the average person, many years of renting is needed to save enough for a_ **_deposit 首付._**
+**_unscrupulous_** 不道德的
+
+
+improved legal protection _be provided for_
 
 ### Decision
 people tend to be objective and short-minded when they make decisions on their own.
@@ -1131,19 +1313,29 @@ Eating in restaurants offers variety, convenience, and a chance to socialize. Ho
 * get anxious and start to panic: 描述心理
 * resort to help from passers-by or digital maps
 #### Go without preparation
-* prefer spontaneity, enjoy the novelty and its unpredictable nature 
 
+
+**_spectacular beaches_** _and_ **_lush forests._**
+
+
+* prefer spontaneity, enjoy the novelty and its unpredictable nature. Liking the randomness and freshness provided by random choices. 
+ 
 ### Changes 
 
 It's a bit stereotyped to decide whether an individual adapt well to changes based their ages. It's unrelated to their ages, but about their flexibility, how they view changes, how do they prepare and handle them.
 Generally speaking, children are more flexible, making them accepting the changes more naturally and easily
 
+### Actor
+The disparity in earnings among actors often comes down to factors like industry recognition, experience, and demand. 
+High-earning actors typically have a proven track record of successful roles, widespread recognition, and the ability to attract large audiences. 
+In contrast, actors who earn less may be newer to the industry, have fewer notable roles, or work in less commercialized sectors of the industry.
 
 
-#### consider
+
+#### Consider
 ### Internet
 #### Communication
-Indeed, the internet has revolutionized communication. In the past, the communication is subjected to geographical boundaries. But nowadays, communication can occur virtually anywhere, **provided it has access to internet.**
+Indeed, the internet has revolutionized communication. In the past, the communication is **subjected** to geographical boundaries. But nowadays, communication can occur virtually anywhere, **provided it has access to internet.**
 #### How do we handle stress?
 Managing stress can involve 
 * a balanced diet, 
@@ -1152,13 +1344,10 @@ Managing stress can involve
 * or meditation. 
 * Talking with friends about concerns can also help.
 
-
 #### Why mental breakdown
 fast-paced working environment places increasing stress on people.
 struggle
 I guess that's due to the rapid pace of modern city. Everyone is strained 紧张的 financially and mentally. Besides, communication via internet lacks personal touch compared to face-to-face interactions.
-
-
 
 
 The artifacts from the old times doesn't mean that the thoughts included in them are also old. Some thoughts are quite timeless. For instance, Newton's law about force has never gone out of style, out of time, since he published it.  ->
@@ -1179,6 +1368,12 @@ Therefore, to prevent road rage, the government should take responsibility for o
 * call police or ambulance,
 * set up some signs to prevent further accidents/damage
 
+### Arch
+
+Ancient Architecture: Known for its wooden structures,
+Modern and Postmodern Architecture: Seen in China's **rapidly developing** cities, featuring innovative designs and **skyscrapers**
+
+
 
 ### Skills
 #### Popular things to learn
@@ -1192,10 +1387,9 @@ besides <-> Apart from
 
 Apart from cooking, other skills are also essential include repairing, doing dishes, online shopping. Additionally, financial skills such as budgeting and managing bills, is crucial to ensure a stable living situation.
 
-
 #### What kind of 
-* financially capable to support themselves 
-* value freedom and **privacy**
+* financially **capable** to support themselves 
+* **value** freedom and **privacy**
 * bachelor or unmarried
 
 #### Children make decisions 

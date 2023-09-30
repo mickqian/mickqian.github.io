@@ -13,13 +13,12 @@ good - excellent, amazing, incredible
 bad - terrible
 happy-ecstatic
 sad - depressed, miserable
-important - crucial, essential, pivotal
+important - crucial, essential, pivotal, integral
 nice - enjoyable
 pretty - attractive, gorgeous
 little - tiny
 hard - challenging
 easy - no-brainer like ABC
-interesting - entertaining
 funny - hilarious
 clean - spotless
 hot - boiling
@@ -43,7 +42,7 @@ good - beneficial, rewarding
 problematic - detrimental, counterproductive
 boring - mundane, tedious
 attractive, appealing - alluring
-interesting - intriguing, fascinating, exciting, inspiring
+interesting - intriguing, fascinating, exciting, inspiring, entertaining, **captivating**
 many - plenty of, countless, vast
 impeccable <-> flawless
 allows for, require
@@ -62,7 +61,6 @@ really like <-> am obsessed with/am
 good <-> beneficial, rewarding
 problematic <-> detrimental, counterproductive
 boring <-> mundane, tedious
-interesting <-> intriguing, fascinating, exciting, inspiring
 I think <-> I find
 ## Speaking
 like - prefer, enjoy

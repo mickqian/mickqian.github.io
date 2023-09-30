@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "0584cfed4673aad5",
+    "type": "split",
+    "children": [
+      {
+        "id": "c614e6bcd551b597",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8bfc602e96007153",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interview/Language Tests/Speaking/Real questions.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7edbb2c4bff01895",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interview/Language Tests/Synonyms.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3ee6ef38d3b4d5da",
+    "type": "split",
+    "children": [
+      {
+        "id": "b178d8c28c28b380",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b86655ee1075c4b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "32ee1ab6a4f63cd2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Interview/Language Tests/Speaking/Real questions.md"
+              }
+            }
+          },
+          {
+            "id": "37b6d9b49b7a841a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "contempla",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d896a8e527c5a931",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "d41d30311be6e68c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 260.5
+  },
+  "right": {
+    "id": "47168004564bfdc1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1439c1b26f58d0f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f1e0218f17dee23",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Interview/Language Tests/Speaking/Real questions.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "26cb76cc8d628802",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Interview/Language Tests/Speaking/Real questions.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4219f5305a9a85a0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8d7f3380461204a5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0b86655ee1075c4b",
+  "lastOpenFiles": [
+    "Interview/Language Tests/Writing/Writing.md",
+    "Interview/Language Tests/Speaking/Real questions.md",
+    "Attachments/Pasted image 20230930103128.png",
+    "Attachments/Pasted image 20230930103109.png",
+    "Attachments/Pasted image 20230930103052.png",
+    "Attachments/Pasted image 20230930103050.png",
+    "Attachments/Pasted image 20230930103015.png",
+    "Interview/Language Tests/Synonyms.md",
+    "Interview/Language Tests/Writing/Radiohead.md",
+    "Interview/Language Tests/Speaking/Speaking.md",
+    "Untitled.md",
+    "Interview/Language Tests/Writing/Task1.md",
+    "Interview/Language Tests/Writing/Real Questions.md",
+    "Interview/Profile/Resume/README.md",
+    "Interview/Language Tests/Topics.md",
+    "Interview/Profile/Resume/sourabh_bajaj_resume.tex",
+    "Interview/Profile/Resume/resume_preview.png",
+    "Interview/Profile/Resume/sourabh_bajaj_resume.pdf",
+    "Interview/Profile/Resume/钱诚亮_浙大_软件工程师_简历.synctex.gz",
+    "Interview/Profile/Resume/钱诚亮_浙大_软件工程师_简历.pdf",
+    "Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.pdf",
+    "Interview/Profile/Resume/glyphtounicode.tex",
+    "Interview/Profile/Resume/钱诚亮_浙大_软件工程师_简历.tex",
+    "Interview/Profile/Resume/resume.tex",
+    "Attachments/Pasted image 20230918221255.png",
+    "Attachments/Pasted image 20230918221246.png",
+    "Interview/Language Tests/Misc.md",
+    "Music/Progression.md",
+    "Music/Favorites.md",
+    "Music/Band Playlistsong2Come togetherDesafinadoCoffer & tvcherub rockdamaged goods1979don’t let me downall you need is love.md",
+    "AI/thesis/Music Transformer.pdf",
+    "AI/Misc.md",
+    "AI/thesis/Attention is All You Need.pdf",
+    "Music/Untitled.md",
+    "AI/Agent/LLM Powered Auto-Agent - A Survey.md",
+    "AI/Kaggle/Procedure.md",
+    "AI/DL theory.md",
+    "AI/Autonomous AGI.md",
+    "AI/Attention is All You Need.md",
+    "AI/Kaggle/Tricks.md",
+    "Namesless/Actress.md",
+    "conflict-files-obsidian-git.md",
+    "AI/Kaggle/Models.md",
+    "Attachments/Pasted image 20230623112408.png",
+    "Attachments/Pasted image 20230618154911.png"
+  ]
+}
