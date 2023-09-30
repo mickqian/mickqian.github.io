@@ -809,9 +809,8 @@ cheesy
 
 #### Useful ad
 To be honest, I don’t watch a lot of television/ if I'm honest,  but I do watch some TV episodes on Stream Media. 
-I remember one time I was watching a  popular music TV show, and it's basically severals band competing with each others. In the middle of the show, an ad popped out. Now usually, I would be annoyed by ads, but it was about an electric guitar. I saw a musician playing beautiful notes with this guitar, and it haunted me throughout the rest of the show. And I was not aware of what happened in that show.
-After watching, I immediately bought one on online shop. And I was happy and content about the guitar
-
+I remember one time I was watching a  popular music TV show, and it's basically several bands competing with each others. In the middle of the show, an ad popped out. Now usually, I would be annoyed by ads, but it was about an electric guitar. I saw a musician playing beautiful notes with this guitar, and it haunted me throughout the rest of the show. And I was not aware of what happened in that show.
+After watching, I immediately bought one on online shop. And I was happy and content about the guitar. Throughout the time, it has totally proved that it worth the price, and looking back,  I'm thankful for that encounter with the ad.
 
 
 #### Lost | False information
