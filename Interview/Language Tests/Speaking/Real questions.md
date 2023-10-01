@@ -793,14 +793,15 @@ alcohol is not allowed, to avoid unexpected issues
 * We immediately paid our bill and left with disappointment. 
 * It has totally ruined my day, I sweared I'll never enter that restaurant ever again.
 
-#### With a young child | Party | Teach
+#### With a young child | Party | Teach | Enjoyable experience
 * an occasion when I spent time with a young child. 
 * This happened at my colleague's son's birthday party. I decided to bring a guitar as a gift, knowing the child's interest in music.
 * We ended up spending the entire afternoon together, where I taught him some basic guitar chords and picking technique.
 * By the end of the day, he was able to strum a few simple songs including twinkle twinkle little star. Seeing his sense of achievement and the joy on his face was truly rewarding. 
-* **Not only did he feel satisfied, I also experience a great sense of fulfillment by teaching others,  sparking a new passion in a young mind.**
+* **Not only did he feel satisfied, I also experience a great sense of fulfillment by teaching others,  sparking a new passion in a young mind, which leads to my obsession toward music till today**
 * It's **gratifying** to witness someone's progress.
 * If I hadn't decide, I wouldn't spark the passion towards music in a young mind.
+* kind teaching
 #### Meals
 One of the most unusual meals I've ever had holds significant meaning to me. I can't recall the exact date, but it was approximately three years ago, **shortly after my college graduation**. It happened on a Friday night when my then-girlfriend took me to a local Italian restaurant. 
 
