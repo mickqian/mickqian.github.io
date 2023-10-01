@@ -505,9 +505,9 @@ And that's my talk about..
 
 Three Kingdoms Period
 I occurred at round  200 AD, and lasted for less than 100 years, If my memory serves me right
-It was a time of great turmoil, with the whole region separated into power struggle between 3 kingdoms, Wei, Shu and Wu.
+It was a time of great **turmoil**, with the whole **region** separated into power struggle between 3 kingdoms, Wei, Shu and Wu.
 
-The stories of the strategy, and the political intrigue/drama happened in that period has contributed to this epic novel called "Romance of the Three Kingdoms", which is a must-read for students in China. It also had profound implications on the Chinese literature landscape, inspiring countless writers in subsequent generations. 
+The **stories** of the **strategy**, and the **political** intrigue/**drama** happened in that period has contributed to this epic novel called "Romance of the Three Kingdoms", which is a must-read, classic literacy work for students in China. It also had **profound** implications on the Chinese literature landscape, inspiring countless writers in subsequent generations. 
 
 I'm interested in learning more about the Three Kingdoms Period because it offers **insights**  洞悉 into human nature, which remain relevant today.
 
@@ -534,7 +534,7 @@ Thomas Muller, who is the striker of the german football team, also of bayern Mu
 #### Music & band
 I'd like to talk about my friend, Eric, who I met during a band audition. Eric was applying for the guitarist position then, and his passion for music impressed me.
 
-Besides the fact that he's a fantastic musician, he's also a person with charm and charisma. 
+Besides the fact that he's a fantastic musician, he's also a person with **great charm and charisma.** 
 #### Work
 He's also devoted to work, leading a team on AI music generation and has gained reputation in that field. His communication skills impressed me, which makes working with him an exciting and rewarding experience.
 
@@ -552,6 +552,13 @@ As an inexperienced amateur band, we often encounter numerous problems, involvin
 
 Thanks to his help, we managed to produce our original song and perform in local concerns, which turned out to be quite successful.
 #### Happy Photos
+* So I was in a local band, of a local company, and all of the band members are colleagues.
+* And about 3 months ago, as a band from the local company, we were told that we were provided an opportunity to perform in front of a **massive audience**, to celebrate the upcoming Olympics.
+* As we are all inexperienced amateur musicians, this news not only surprised us, but also got us very nervous. We definitely wanted to grasp the opportunity, and needed to practice.
+* So we started to rehearse 2 times a week, improving every possible aspects.
+* At the night we delivered the performance, before we went on stage, we took a brief photo of ourselves. The composition of photo is quite simple: A photo of all our band members, standing in front of a huge logo of that concert
+* but the story behind it had already **left an indelible imprint in my mind**, which I truly treasured.
+
 
 
 #### Move to community 
@@ -580,7 +587,19 @@ Dustin Hoffman is an actor I greatly admire for his remarkable versatility and d
 	* In essence, "The Graduate," with its **compelling story arc** and **iconic soundtrack by Simon and Garfunkel**, remains a timeless masterpiece. 
 	* ==***As much as it's entertaining, it's also educational and deeply thought-provoking.***==
 
-#### Movies that disappoint
+#### Foreigner speaking fluent Chinese
+
+#### Businessman
+
+Sam Altman
+* I got to knew him because of OpenAI. After the power and intelligence of ChatGPT has been shown, I began to be interested  in the CEO of OpenAI, and I did some research. It turned out he's quite a far-sighted leader.
+* He started his business as the former president of Y Combinator which is a startup accelerator.
+ * Apart from YC, he had some other successful projects too, including Airbnb, Dropbox, and Strip. It showed his **exceptional** talent of **identifying** and **nurturing** these concepts.
+* And finally, he founded OpenAI,  where he guided cutting-edge research in AI.
+* Altman truly **embodies success in the business world**.  Someone would call him the father of GPT, but I think that credit goes to those scientist. However, it embodied the role he played in this huge AI wave and how successful he is.
+
+
+### Movies that disappoint
 
 Once upon a time in Hollywood
 * already a big fan
@@ -630,16 +649,16 @@ The festival is **rich in history and culture**, **and it's known for its dragon
 #### Conclusion
 The Duanwu Festival is a time of excitement and camaraderie. **It's a unique blend of history, sport, and culinary 烹饪 tradition that makes it a truly special event in the Chinese calendar.**
 
-### Public Figure
+### Public Figure | Interesting
 * successful
 * popular
 Paul McCartney
 
-* talented song-writer, sophisticated bass player,  gifted singer, a generous philanthropist
-* He's able to produce intriguing melody. In fact, he and John Lennon are considered the greatest songwritting duo ever. He had made considerable amount of hit songs, unmatched by any other musicians later
-* Besides his talent in music, He was keen on attending charity events, by donating or writing songs.
+* talented song-writer, sophisticated bass player,  **gifted singer**, a generous philanthropist
+* He's able to produce intriguing melody. In fact, he and John Lennon are considered the greatest song-writting duo ever. He had made **considerable amount** of hit songs, unmatched by any other musicians later
+* Besides his talent in music, **He was keen on attending charity events, by donating or writing songs.**
 * he has been at the **pinnacle** of music throughout his whole career
-* He  had left an inedible imprint on the  rock & roll history, inspiring numerous fellow musicians to follow in their steps.
+* He  had left an inedible imprint on the  rock & roll history, **inspiring numerous fellow musicians to follow in their steps.**
 
 
 
@@ -759,13 +778,11 @@ alcohol is not allowed, to avoid unexpected  issues
 * I felt very sorry and embarrassed for breaking my own promise. Luckily the rehearsal and performance went out well, without major incidents.
 * We performed several britpop songs, though I made a few minor mistakes, the audience seemed to enjoy it. It was satisfactory to share the music I love with people
 #### Bad Service
-* indifference, impatience
 * At an Italian restaurant where I had planned to take my then-girlfriend on our first date. It was two years ago and we were both excited about the night.
-* Once seated, the waiter took a long time to take our orders, despite the restaurant not being particularly busy.
-* When our food finally arrived, I was in huge shock. I love Italian food and know how to cook some dishes myself, but the Carbonara presented to me was the worst I even seen. **Salty**, burnt **and** raw at the same time. Also, my pasta was lukewarm.
-* We don't leave plenty of time for the problem to be solved, as we immediately paid our bill and left with disappointment. 
-* ruined my day
-* I will never enter that restaurant again, I swear to god.
+* Once seated, the waiter **took a long time** to take our orders, despite the restaurant not being particularly busy.
+* When our food finally arrived, I was in huge shock. I love Italian food and know how to cook some dishes myself, but the Carbonara presented to me was the worst I even seen. I don't know how they managed to make that dish **Salty**, **burnt** and raw at the same time. Also, my pasta was lukewarm, I can't even swallow. Even If I complained about it, they seemed   **indifference** and **impatience**
+* We immediately paid our bill and left with disappointment. 
+* It has totally ruined my day, I sweared I'll never enter that restaurant ever again.
 
 #### With a young child | Party | Teach
 * an occasion when I spent time with a young child. 
@@ -821,6 +838,15 @@ After watching, I immediately bought one on online shop. And I was happy and con
 * Unable to find on the map, so we had to walk aimlessly, hoping to find someone to help
 * Luckily, it was close to the actual location. We managed to get close step by step, by following the sound made by amplifiers.
 * Although I was pretty frustrated and annoyed by the false information provided by the organizer, but finally found it by ourselves has solved the problem
+#### Advice | Proud
+* So about 3 years ago, my company is holding a competition called "Hackathon". It's basically a group of people gathering together, solving an issue within 48 hours or so. Later, all the work will be evaluated by some judges.
+* Some of my colleagues call out me to join their team. Why not?
+* But we encountered countless issues, as we had no experience participating in any hackathon before. One of the major problem was, we found ourselves working on separated computers, so  information sharing was a struggle. I immediately suggested we started the "collaborated development" feature on our computers. As a result, the efficient was doubled.
+* After working **tirelessly** on the issue for several days, We were thrilled and overwhelmed to receive an honorable mention for that competition, for the competition had been fierce. Looking up, we were proud that we managed to solve a problem outside our area of expertise.
+
+
+
+
 
 #### Invention
 * AirPods, which is a bluetooth headphone
