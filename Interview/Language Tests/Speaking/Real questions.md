@@ -1080,7 +1080,7 @@ From what I've observed, though young people would love to spend some time in th
 
 
 * jogging
-* bird-watching, dog-walking
+* bird-watching, dog-walking, taichi
 * Some may choose less tensive activities : chessing, reading, dancing 
 
 
