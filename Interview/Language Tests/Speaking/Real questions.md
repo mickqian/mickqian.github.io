@@ -588,6 +588,13 @@ Dustin Hoffman is an actor I greatly admire for his remarkable versatility and d
 	* ==***As much as it's entertaining, it's also educational and deeply thought-provoking.***==
 
 #### Foreigner speaking fluent Chinese
+* During a band audition, applying for theGuitarist/Vocal 
+* After a brief introduction in fluent English, We knew he was transferred to China to work here for several weeks. He originally worked in Finland.
+* However, as he started to sing, he changed to Chinese. I believe it's the most fluent Chinese I've heard coming out of a foreigner's mouth, including those on TV.
+* As we were in a shock, he explained that he had always been a fan of Chinese culture, and had taught himself Chinese.
+* Anyway, we spent a few months together, happily, and even delivered some performances. We insisted on performing English songs, as nowadays it's harder to find fluent English speaker than Chinese speaker.
+
+
 
 #### Businessman
 
