@@ -560,11 +560,10 @@ Thanks to his help, we managed to produce our original song and perform in local
 * but the story behind it had already **left an indelible imprint in my mind**, which I truly treasured.
 
 
-
 #### Move to community 
 * About a fortnight ago
-* When I was helping him moving, I saw his new place. Compact, clean space. Decorated in Scandinavian style, just like those in the Black Mirror.
-* Everything is digitalized
+* When I was helping him moving, I saw his new place. Compact, clean space. **Decorated in Scandinavian style**, just like those in the Black Mirror.
+* Everything is highly digitalized, suitable for tech-geeks to live in
 * invite us to party, where we enjoyed some soothing bossa nova, and had a great dinner made by himself, which was Italian and quite tasty, I would say
 * He quickly integrated into our group with his humor and warm heart. We were happy to accept him as our new neighbor
 
@@ -592,6 +591,12 @@ Dustin Hoffman is an actor I greatly admire for his remarkable versatility and d
 * As we were in a shock, he explained that he had always been a fan of Chinese culture, and had taught himself Chinese.
 * Anyway, we spent a few months together, happily, and even delivered some performances. We insisted on performing English songs, as nowadays it's harder to find fluent English speaker than Chinese speaker.
 
+
+#### Like to cook
+* has an **incredible passion** for cooking
+* His dishes mainly features Italian food, one of his special dish is Carbonara, pasta with creamy texture. I once witnessed the whole process of him making this dish, and was astonished by how meticulous and careful about every steps. I guess that's the essential requirements to make a good meal.
+* Out of admiration, I couldn't help asking where did he learn to cook. 
+* **The reason behind** his commitment to cooking is his belief in **the profound impact of food** on human connections.
 
 
 #### Businessman
@@ -1223,6 +1228,17 @@ Yes, my dream has evolved from, trying to be a successful Software Engineer, to 
 The most important aspect of a colleague's personality is their ability to communicate effectively and work collaboratively. When it comes to team work, communication and collaboration is the key to productivity. Based on my previous work experience, working with uncooperative colleagues could be exhausting and nasty.
 
 Proficient colleagues could also greatly enhance productivity.
+### Food
+Festival and events are celebrated with special food to portend/signify good luck.
+Reminder of the happy memory enjoyed by family.
+
+#### Mandatory class
+introduce into the **academic curriculum**.
+important life skill
+stimulate creativity 
+
+accumulate academic knowledge
+
 
 ### Jobs
 #### What are the most popular jobs for young people in your country(fast food delivery)
@@ -1336,7 +1352,8 @@ teach them the importance of responsibilities
 I respect vegetarians for their ethical and health choices. Everyone has the right to choose their diet based on personal beliefs and values. It's essential to show empathy and respect to all lifestyles.
 
 ### Why are people drawn to fast food like hamburgers?
-Fast food like hamburgers are often convenient, affordable, and tasty. They also provide immediate satisfaction, which can be appealing in our fast-paced society. However, moderation 自制 is key due to health concerns.
+Fast food like hamburgers are often convenient, **affordable, and tasty**. 
+They also provide immediate satisfaction, which can be appealing in our fast-paced society. However, moderation 自制 is key due to health concerns.
 
 
 ### What are the advantage and disadvantages of eating in restaurants?
@@ -1448,7 +1465,7 @@ Some even approach them and take photo without a bottom line, especially the so-
 	* Lisa, a famous dancer adored by many
 * endorsement make their fans buy products based on trust
 ### Food
-People in my country eat foods that are rich in carbohydrates, like rice or noodles. Sometimes it's meat or other ingredients wrapped in carbohydrates, such as dumplings or pancake
+People in my country eat foods that are rich in **carbohydrates**, like rice or noodles. Sometimes it's meat or other ingredients wrapped in carbohydrates, such as dumplings or pancake
 
 
 ### Science
