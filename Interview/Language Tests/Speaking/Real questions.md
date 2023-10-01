@@ -563,16 +563,14 @@ Thanks to his help, we managed to produce our original song and perform in local
 
 #### Move to community 
 * About a fortnight ago
-* When I was helping him moving, I saw his new place.
+* When I was helping him moving, I saw his new place. Compact, clean space. Decorated in Scandinavian style, just like those in the Black Mirror.
 * Everything is digitalized
 * invite us to party, where we enjoyed some soothing bossa nova, and had a great dinner made by himself, which was Italian and quite tasty, I would say
-* He quickly integrated into our group with his humor. We were happy to accept him as our new neighbor
+* He quickly integrated into our group with his humor and warm heart. We were happy to accept him as our new neighbor
 
 #### Actor | Movie
 Dustin Hoffman.
 portrayal of diverse characters
-
-
 
 Dustin Hoffman is an actor I greatly admire for his remarkable versatility and depth. 
 * He's considered to be one of the most talented actors, along with Al Pacino and Jack Nicholson
@@ -587,9 +585,9 @@ Dustin Hoffman is an actor I greatly admire for his remarkable versatility and d
 	* In essence, "The Graduate," with its **compelling story arc** and **iconic soundtrack by Simon and Garfunkel**, remains a timeless masterpiece. 
 	* ==***As much as it's entertaining, it's also educational and deeply thought-provoking.***==
 
-#### Foreigner speaking fluent Chinese
-* During a band audition, applying for theGuitarist/Vocal 
-* After a brief introduction in fluent English, We knew he was transferred to China to work here for several weeks. He originally worked in Finland.
+#### Foreigner speaking fluent Chinese | Different Culture
+* During a band audition, applying for the Guitarist/Vocal 
+* After a brief introduction in fluent English, We knew he was transferred to China to work here for several weeks. He originally worked in Finland, a nordic country I suppose.
 * However, as he started to sing, he changed to Chinese. I believe it's the most fluent Chinese I've heard coming out of a foreigner's mouth, including those on TV.
 * As we were in a shock, he explained that he had always been a fan of Chinese culture, and had taught himself Chinese.
 * Anyway, we spent a few months together, happily, and even delivered some performances. We insisted on performing English songs, as nowadays it's harder to find fluent English speaker than Chinese speaker.
@@ -609,10 +607,10 @@ Sam Altman
 ### Movies that disappoint
 
 Once upon a time in Hollywood
-* already a big fan
+* already a big fan, was expecting the film to be as good as Pulp fiction, at least the reservoir dog
 * I found the plots cheesy, cliche, and kind of boring 
 * performance of learnardo and brad pitt is not satisfying, unworthy of their fames
-* 
+* Some might say the film was Ok compared to other theatrical movies, but I've put very hight expectations into that one, So I' was really disappointed
 ### Job
 
 #### Skills
@@ -620,14 +618,15 @@ One job I find particularly interesting is being a guitarist in a band. I always
 #### Exciting and interesting part
 #### Change job
 * doesn't meet their needs, or align with their interest, or the salary is not satisfactory
-* 
 
 
 expand one's horizons
 
 
 The most exciting aspect of this job is the opportunity to perform all around the world. This global exposure allows me to experience a **variety of cultures, meet diverse people**. It's an incredible way to expand one's horizons and **gain a deeper understanding** of the world.
-Also, I get to meet different musicians around the world. **Hopefully I can draw some inspirations and learn from them.**
+Also, I get to meet different musicians around the world. 
+
+Musicians rely heavily in muse when creating, so **hopefully I can draw some inspirations and learn from them.**
 
 
 ### Decision | What makes you proud Period change life | Physically Tired
@@ -752,12 +751,10 @@ unbearable
 * Car journey: We drove all the way from Urumqi to Yili, which is on the border of Xinjiang. Long hours in the car made us all exhausted both mentally and physically. Luckily we had shifts, so we each get to have a break.
 * The hardship was totally worth it, as we not only get to **experience exotic landscapes and culture**, but also had to chance to try local food, which can't be seen in Hangzhou.
 ### Rule
-alcohol is not allowed, to avoid unexpected  issues
-* get punishment, criticized, probably will take a pay cut
+alcohol is not allowed, to avoid unexpected issues
+* get punishment, criticized, probably will take a pay cut. Although I do understand the consequences of drinking at workplace, somehow I thought it's still too harsh, until an event occurred to me changed my mind about this.
 * rehearsal room, after rehearsal brandy and vodka
 * I find it necessary and far-sighted
-
-
 
 
 
@@ -811,6 +808,8 @@ What made this meal unusual, and indeed transformative, was that **it opened the
 * To prepare for the speech, keynote, transcript, and visual aids are required. It took me several weeks to organize.
 * As for the speech, not so many people, great interaction with the audience. We have a nice conversation.
 * but satisfied, self-expression
+#### Game played 
+
 
 #### Tech difficult to use
 * though I work in tech industry, I always find it hard to use sports camera
@@ -819,9 +818,9 @@ What made this meal unusual, and indeed transformative, was that **it opened the
 * Unfortunately, several problems occurred. I find it hard to switch mode, fix and lost some part
 #### Book
 * As many others might have say, the novel I enjoy the most is Harry Potter
-* Harry Potter basically talk about how a boy, Harry Potter grow up with his friends, facing countless challenges, and finally beat Voldemort, the biggest villain
-* The courage and perseverance has encouraged me to take the same attitude towards obstacles I encountered in my life
-* Waving my **wand**, **chanting** a spell, fighting death eaters
+* Harry Potter basically talk about how a boy, Harry Potter grow up with his friends, facing countless challenges, fighting numerous Death Eaters,  and finally beat Voldemort, the biggest villain in the book.
+* The **courage** and **perseverance** has encouraged me to **take the same attitude towards obstacles** I encountered in my life
+* I couldn't recall how many times I imagine myself, waving my **wand**, **chanting** a spell, fighting death eaters
 
 
 #### Ads don't like
@@ -835,8 +834,8 @@ cheesy
 
 #### Useful ad
 To be honest, I don’t watch a lot of television/ if I'm honest,  but I do watch some TV episodes on Stream Media. 
-I remember one time I was watching a  popular music TV show, and it's basically several bands competing with each others. In the middle of the show, an ad popped out. Now usually, I would be annoyed by ads, but it was about an electric guitar. I saw a musician playing beautiful notes with this guitar, and it haunted me throughout the rest of the show. And I was not aware of what happened in that show.
-After watching, I immediately bought one on online shop. And I was happy and content about the guitar. Throughout the time, it has totally proved that it worth the price, and looking back,  I'm thankful for that encounter with the ad.
+I remember one time I was watching a  popular music TV show, and it's basically several bands competing with each others. In the middle of the show, an ad **popped out**. Now usually, I would be annoyed by ads, but it was about an electric guitar. I saw a musician playing beautiful notes with this guitar, and it haunted me throughout the rest of the show. And I was not aware of what happened in that show.
+After the commercial ended, I immediately bought one on online shop. And I was happy and content about the guitar. Throughout the time, it has totally proved that it worth the price, and looking back,  I'm thankful for that encounter with the ad.
 
 
 #### Lost | False information
