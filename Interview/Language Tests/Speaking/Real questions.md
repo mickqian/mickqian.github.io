@@ -911,6 +911,7 @@ Only reporting good news would be a **disservice to their journalistic duties** 
 
 #### How do people share
 in-person conversations.
+possess interpersonal skills
 
 
 The mode of communication often depends on the relationship between the individuals and their preferences.

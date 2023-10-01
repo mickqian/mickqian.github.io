@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lean towards",
+                "query": "interpersonal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +97,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -178,7 +179,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b86655ee1075c4b",
+  "active": "37b6d9b49b7a841a",
   "lastOpenFiles": [
     "Interview/Language Tests/Synonyms.md",
     "Interview/Language Tests/Writing/Writing.md",
