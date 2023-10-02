@@ -508,7 +508,7 @@ It was a time of great **turmoil**, with the whole **region** separated into pow
 
 The **stories** of the **strategy**, and the **political** intrigue/**drama** happened in that period has contributed to this epic novel called "Romance of the Three Kingdoms", which is a must-read, classic **literacy** work for students in China. It also had **profound** implications on the Chinese literature landscape, inspiring countless writers in **subsequent generations.** 
 
-I'm interested in learning more about the Three Kingdoms Period because it offers **insights**  洞悉 into human nature, which remain relevant today.
+I'm interested in learning more about the Three Kingdoms Period because it offers **insights**  洞悉 into human nature, which remain relevant today. And we can avoid making mistake from learning from the past.
 
 ### Person
 * work/study with
