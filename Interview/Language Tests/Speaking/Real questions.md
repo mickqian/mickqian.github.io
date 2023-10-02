@@ -605,7 +605,7 @@ Sam Altman
 * I got to knew him because of OpenAI. After the power and intelligence of ChatGPT has been shown, I began to be interested  in the CEO of OpenAI, and I did some research. It turned out he's quite a **far-sighted** leader.
 * He started his business as the former president of Y Combinator which is a **startup accelerator**.
 * Apart from YC, he had some other successful projects too, including Airbnb, Dropbox, and Strip. It showed his **exceptional** talent of ==**identifying** and **nurturing** these concepts.==
-* And finally, he founded OpenAI,  where he guided cutting-edge research in AI. **We all know the rest of the story.**
+* And **finally**, he founded OpenAI,  where he guided **cutting-edge** research in AI. **We all know the rest of the story.** I've watch some interviews of him, 
 * Altman truly ==**embodies success in the business world**==.  Someone would call him the father of GPT, but I think that **credit** goes to those scientist. However, it embodied the role he played in this huge AI wave and how successful he is.
 
 
@@ -730,9 +730,16 @@ LiverPool, United Kingdom
 * To conclude , the **charm** of Xianghu **lies** within its beautiful landscape and **untouched nature**, for it provides a refuge from the hectic work schedule
 
 
+##### Should keep them clean?
+Litter and trash can not only be **unsightly** but also **pose** **hazards** to both people and wildlife.
 
+Not just a **responsibility**, but also a way to enhance the qualify of life
 ##### Do young people like to go?
-From what I've observed, though young people would love to spend some time in the park, (you know), get close to nature, the rapid pace  of modern work life wouldn't allow them to do so. They get off late, and are only available on weekends, and they'd rather spending them at home.
+From what I've observed, though young people would love to spend some time in the park, (you know), get close to nature, **feeling the warm breeze and fresh air,** the rapid pace  of modern work life wouldn't allow them to do so. They get off late, and are only available on weekends, and they'd rather spending them at home.
+
+People from **all walks of life** **converge** there, and you end up making connections.
+for them to **unwind**
+
 
 
 * jogging
@@ -745,6 +752,8 @@ keep them in pristine condition
 ##### Is making noise one of people's rights?
 While making sound is a right, it must be balanced with others' rights to peace and quiet, especially in shared spaces.
 ##### Why do some people like planting flowers?
+Daffodil
+==There's something really satisfying== about watching those tiny seeds sprout 发芽.
 People enjoy planting flowers for their **aesthetic appeal**, **therapeutic benefits**, environmental impact, and the **satisfaction gained from nurturing growth**. Flowers can cheer me up whole day.
 
 ##### Benefits
@@ -755,16 +764,14 @@ improve **mental wellbeing**
 
 ##### Would you say people should help maintain public parks and gardens? 
 * ensures clean, safe spaces for everyone to enjoy 
-* fosters a sense of community
+* fosters a sense of community,  community involvement in park maintenance fosters a sense of **pride** and **ownership** among residents. When people take care of their local parks, it **strengthens the bond within the community** and promotes a sense of **unity**.
 * it encourages environmental **stewardship**, teaching us to respect and care for our natural surroundings. So, people's involvement is highly beneficial.
 
 ##### What benefits can parks bring to a city? 
-* provide green **spaces** for citizens to relax and recharge
+* provide green **spaces** for citizens to relax and recharge, relief stress
 * foster social **interactions**
 * Environmentally, reduce pollution, provide habitats for wildlife, improve air quality 
 * provide recreational space, I know central park is a great place for enjoying music, for several people would gather together to remember John Lennon
-
-
 
 #### Noisy
 
