@@ -790,9 +790,48 @@ alcohol is not allowed, to avoid unexpected issues
 
 * At an Italian restaurant where I had planned to take my then-girlfriend on our first date. It was two years ago and we were both excited about the night, I even got some gifts prepared.
 * Once seated, the waiter **took a long time** to take our orders, despite the restaurant not being particularly busy.
-* When our food finally arrived, I was in huge shock. I love Italian food and know how to cook some dishes myself, but the Carbonara presented to me was the worst I even seen. I don't know how they managed to make that dish **salty**, **burnt** and raw at the same time. Also, my pasta was lukewarm, I can't even swallow. Even If I complained about it, they seemed  **indifference** and **impatience**
+* When our food finally arrived, I was in huge shock. I love Italian food and know how to cook some dishes myself, but the Carbonara presented to me was the worst I even seen. I don't know how they managed to make that dish **salty**, **burnt** and raw at the same time. Also, my risotto was lukewarm, I can't even swallow. Even If I complained about it to the manager, they seemed  **indifference** and **impatience**
 * We immediately paid our bill and left with disappointment. 
-* It has totally ruined my day, I **sweared** I'll never enter that restaurant ever again.
+* Dining out is not just about the food, but also about enjoying a relaxing and pleasant experience. We were disappointed and it It has totally ruined my day. I **sweared** I'll never enter that restaurant ever again.
+* Overall, this experience served as a reminder of how crucial good customer service is in shaping a customer’s overall experience.
+
+That was a rare case
+##### Types
+* with bringing the wrong food the major one
+* delayed response also count for bad services
+* negative service attitude annoys customer too
+* lack of professionalism  
+
+##### Respond
+I believe it is circumstantial.
+* may not like confrontation, deem it best to just avoid any **conflicts**. Everyone reacts in different ways that match their personalities.
+* just leave
+* speak to the manager and complain about, express their concerns and unsatisfactory
+* give bad reviews on the social media apps.
+* resort to boycotting, post about it on social media
+
+It depends on the level of severity of the **unsatisfactory** service
+
+##### Better services than past?
+
+Some might still think service in the past were more personal
+
+
+##### Bad services
+any services that fail to satisfy customers' needs
+* poor quality of the dishes or products 
+* attitude
+
+##### Who responsible
+* restaurant/shop
+* employee
+
+##### Employers can do...
+* build a feedback system, hear from customers' advice
+* offer proper training course or job opportunity
+* establishing employee **incentive programs** **can encourage/motivate employees to behave better**
+
+
 
 #### With a young child | Party | Teach | Enjoyable experience
 * an occasion when I spent time with a young child. 
@@ -1170,38 +1209,6 @@ play an important role in combating pollution
 It teaches about responsibility and teamwork.
 
 Empathy, compassion, respect, friendship **motivate** children to help **voluntarily**. 
-
-### Bad services 
-
-That was a rare case 
-#### Types
-* with bringing the wrong food the major one
-* delayed response also count for bad services
-* negative service attitude annoys customer too
-* lack of professionalism  
-
-#### Respond
-I believe it is circumstantial.
-* just leave
-* speak to the manager and complain about
-* give bad reviews and write
-* resort to boycotting, post about it on social media
-It depends on the level of severity of the **unsatisfactory** service
-
-#### Who responsible
-* restaurant/shop
-* employee
-
-
-
-#### Employers can do...
-* build a feedback system, hear from employee's advice
-* offer proper training course or job opportunity
-* establishing employee **incentive programs** **can encourage/motivate employees to behave better**
-
-
-
-may not like confrontation, deem it best to just avoid any conflicts. Everyone reacts in different ways that match their personalities.
 
 
 ### Why should children be kind to their classmates?
