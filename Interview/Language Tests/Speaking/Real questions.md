@@ -532,8 +532,16 @@ Thomas Muller, who is the striker of the Deutsch football team, also of bayern M
 I'd like to talk about my friend, Eric, who I met during a band audition. Eric was applying for the guitarist position then, and his passion for music have a profound impression on me.
 
 Besides the fact that he's a fantastic musician, he's also a person with **great charm and charisma.** 
-#### Work
-He's also devoted to work, leading a team on AI music generation and has gained reputation in that area. I guess all that achievements come from his exceptional communication skills, which makes working with him an exciting and rewarding experience.
+#### Work | Successful
+I met him on a course/conference of AI, where we were going to work on a project.
+
+It was quite a complicated task, I would say, but he was constantly pushing the progress forward, and with his help, we finished the project well ahead of schedule.
+
+He's also devoted to work, leading a team on AI music generation and has gained reputation in that area. 
+
+While others may wonder, his key to success is quite obvious to me: Whenever he gets some free time, he is doing **exercise** on an online-platform, which provides various problems on AI. ==He's doing this out of **genuine** devotion and passion towards AI, not for the sake of utility, which is why I think I can never compare with him==. I **mean, he could sit there learning for ours, just to entertain**.
+
+I guess all that achievements come from his exceptional communication skills, which makes working with him an exciting and rewarding experience.
 
 #### Interest
 Moreover, we quickly discovered we both love Italian cuisine so we often **gather at a nearby  Italian restaurant**,  after rehearsal, discussing everything from music to life. 
@@ -561,9 +569,6 @@ Thanks to his help, we managed to produce our original song and perform in local
 * Everything is highly digitalized, suitable for tech-geeks to live in
 * At that night, he invited us to have a party, where we enjoyed some soothing bossa nova, and had a great dinner made by himself, which was Italian and quite tasty, I would say
 * He quickly integrated into our group with his humor and warm heart. We were happy to accept him as our new neighbor
-
-
-
 
 #### Actor | Movie
 Dustin Hoffman.
@@ -607,15 +612,27 @@ Sam Altman
 * Apart from YC, he had some other successful projects too, including Airbnb, Dropbox, and Strip. It showed his **exceptional** talent of ==**identifying** and **nurturing** these concepts.==
 * And **finally**, he founded OpenAI,  where he guided **cutting-edge** research in AI. **We all know the rest of the story.** I've watch some interviews of him, 
 * Altman truly ==**embodies success in the business world**==.  Someone would call him the father of GPT, but I think that **credit** goes to those scientist. However, it embodied the role he played in this huge AI wave and how successful he is.
+##### Affect the environment
+* directly release the waste into the ... is probably the most **common and cost-effective** way
+* A business thrive not because of itself, but also from the support of public and government. Nowadays government is promoting sustainable development, people are into environmentally friendly products, which encourage those company who pay ..
 
 
-### Movies that disappoint
+##### Family business 
+
+##### 
+
+### Movies 
+
+#### Disappointing
 
 Once upon a time in Hollywood
 * already a big fan, was expecting the film to be as good as Pulp fiction, at least the reservoir dog
-* I found the plots cheesy, cliche, and kind of boring 
-* performance of learnardo and brad pitt is not satisfying, unworthy of their fames
-* Some might say the film was Ok compared to other theatrical movies, but I've put very hight expectations into that one, So I' was really disappointed
+* So it was basically a crime film based on real events.
+* I found the plots **cheesy**, cliche, and kind of boring 
+* performance of **Leonardo** and brad Pitt is not satisfying, unworthy of their fames
+* Besides, the director changed the original ending, making it a revenge story, which was very unreasonable to me.
+* Some might say the film was Ok compared to other **theatrical** movies, but I've put very hight expectations into that one, So I' was really disappointed
+* 
 ### Job
 
 #### Skills
@@ -792,9 +809,9 @@ unbearable
 * Seeing my hometown suffer from pollution was **disheartening** and **frustrating**. It made me more conscious of environmental issues
 * environment is compromised/sacrificed to economic development
 * at the cost of the 
-### Trip to Xinjiang | Car journey | Childhood happy
+### Trip to Xinjiang | Car journey | Childhood happy | Adventure
 * makes it **captivating**
-* _We visited colourful_ **_craft markets_** _and brought back souvenirs, to remind us of our trip. One of my most_ **_memorable experiences_** _was to the Sailimu Lake. It is a little bit_ **_off the beaten track_** _but it is surrounded by great_ **_scenic beauty_** _and_ **_magnificent landscapes._**
+* _We visited colorful_ **_craft markets_** _and brought back souvenirs, to remind us of our trip. One of my most_ **_memorable experiences_** _was to the Sailimu Lake. It is a little bit_ **_off the beaten track_** _but it is surrounded by great_ **_scenic beauty_** _and_ **_magnificent landscapes._**
 * natural landscape is nothing short of breathtaking. One of my favorite spots is the Sailimu Lake, hidden inside the peaks of the Tianshan range.
 * exotic: clothes, food, their markets, fruits
 * local people being friendly and modesty, hospitable
@@ -803,12 +820,23 @@ unbearable
 * instruments: unique and delicate, I bought some and play frequently
 * Car journey: We drove all the way from Urumqi to Yili, which is on the border of Xinjiang. Long hours in the car made us all exhausted both mentally and physically. Luckily we had shifts, so we each get to have a break.
 * The hardship was totally worth it, as we not only get to **experience exotic landscapes and culture**, but also had to chance to try local food, which can't be seen in Hangzhou.
+* Adventure:
+	* I believe this is a fantastic way to really **experience the vastness and variety of my country** and the diverse cultures.
+	* do what? We would: camp out along the way, sometimes stay in family homes, guest houses and lodges along the way.
+	* When: I would like to do this probably in autumn when the weather is generally good but not too hot. Winter would be a cold time of year to do the trip, and most of the road will be shutdown due to security concerns. and the peak of summer might be way too hot, especially in certain regions.
+	* With whom? Friends mostly, for I believe in their driving skills
 ### Rule
 alcohol is not allowed, to avoid unexpected issues
 * get punishment, criticized, probably will take a pay cut. Although I do understand the consequences of drinking at workplace, somehow I thought it's still too harsh, until an event occurred to me changed my mind about this.
 * rehearsal room, after rehearsal brandy and vodka
 * I find it necessary and far-sighted
 
+
+### Area of science
+* Unfortunately, I was incapable of creating music myself, for lacking music theory and talent, maybe 
+* The recent advancement of AIGC music drew my attention. Some of the music piece generated by Meta and Google are making sense now, much better than inaudible pieces from the past.
+* That was the time I noticed the field of AIGC music. I couldn't stop imagine AI generating masterpieces, as I'm unsatisfied with most of the music today. I immediately did some research of how the model work and its principle. After taking several courses in Coursera, I gained an rough understanding of the AI landscape.
+* **But that's not enough, I am considering changing my job to the field of AI, hoping that I can contribute to the advancement of AI with my own efforts.** 
 
 
 ### Sport
@@ -906,13 +934,26 @@ What made this meal unusual, and indeed transformative, was that **it opened the
 * As for the speech, not so many people, great interaction with the audience. We have a nice conversation.
 * but satisfied, self-expression
 #### Game played 
+As a child, I haven't participated in many games. However, I can recall vividly about roller-skating in the playground of my community 
+* Speaking of roller-skating, it's basically skating, but on the **cement roads**. Also, it requires special equipment/appliance, too.
+* Usually, after dinner, some of my friends and I would gather at the playground, skating in circle. Sometimes we would had a informal competition, the first one to complete certain laps would be the Champion. Sometimes we slipped and hurt our knees, so later we had our kneecap on.
+* Though I was really good at it, as I was a little afraid of skating at a high speed, I really enjoyed the happiness and tension from this game.
+
+
 
 
 #### Tech difficult to use
 * though I work in tech industry, I always find it hard to use sports camera
 * go pro
-* Plan was to stick it to the top my guitar for first-perspective video
-* Unfortunately, several problems occurred. I find it hard to switch mode, fix and lost some part
+* Plan was to stick it to the top my guitar for first-perspective video. 
+* At first I thought It would be easy. I mean, what's so hard about recording a video? But the **reality** proved me wrong.
+* Unfortunately, several problems occurred. **I find it hard to switch mode, fix and lost some part**. Also, the videos it recorded are separated into small pieces, because of the memory limit
+* I think I won't use any sports camera currently, I'll use smartphones instead
+
+
+
+
+
 #### Book
 * As many others might have say, the novel I enjoy the most is Harry Potter
 * Harry Potter basically talk about how a boy, Harry Potter grow up with his friends, facing countless challenges, fighting numerous Death Eaters,  and finally beat Voldemort, the biggest villain in the book.
@@ -1142,7 +1183,6 @@ Some children may find certain aspects of festivals overwhelming or scary.
 For instance, some children might dislike Halloween because they find the costumes and decorations frightening
 
 ### Tech
-
 
 #### What technology do people currently use?
 * traditional digital devices, smartphones, laptops, TVs
