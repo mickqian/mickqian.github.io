@@ -555,7 +555,8 @@ Moreover, we quickly discovered we both love Italian cuisine so we often **gathe
 As an inexperienced amateur band, we often encounter numerous problems, involving equipments, effects, skills or music transcription. Since he's a **semi-professional** player, he always managed to solve our problems within seconds. 
 * Once before a performance, the bassist accidentally got a flu, and was unable to give a performance. Though at that time he had heavy work to do, but he offered to help even though  that meant he had to work overtime. He not only attended all the emergent rehearsals, but also practiced in his spare time.
 
-Thanks to his help, we managed to produce our original song and perform in local concerns, which turned out to be quite successful.
+
+Thanks to his help, **we managed to produce our original song and perform in local concerns, which turned out to be quite successful.**
 #### Happy Photos
 * So I was in a local band, of a local company, and all of the band members are colleagues.
 * And about 3 months ago, as a band from the local company, we were told that we were provided an opportunity to perform in front of a **massive audience**, to celebrate the upcoming Olympics.
@@ -1053,17 +1054,12 @@ The mode of communication often depends on the relationship between the individu
 
 #### Information
 * on the internet, navigation maps, official websites
-* travel agencies
+* **travel agencies**
 * resort to friends
-
 #### What cause the difference 
 * geographical: in plain tends to have better economy 
-* cultural: this includes religion, music, language, habits, etc
+* **cultural**: this includes religion, music, language, habits, etc
 * weather
-
-
-
-
 
 #### Tourist destination = place to live?
 ad: rich landscapes, cultural events and entertainments
@@ -1071,8 +1067,7 @@ disad: higher cost of living, noisy and crowded
 
 
 #### Small towns more interesting
-ad: slow pace of living, lead peaceful and comfortable life, low-cost, connection within neighbours
-
+ad: **slow pace of living**, lead peaceful and comfortable life, low-cost, connection within neighbours
 
 
 ### Ads | Endorsement
@@ -1258,7 +1253,7 @@ play an important role in combating pollution
 
 
 ### Help
-It teaches about responsibility and teamwork.
+It teaches about **responsibility and teamwork.**
 
 Empathy, compassion, respect, friendship **motivate** children to help **voluntarily**. 
 
@@ -1407,7 +1402,7 @@ teach them the importance of responsibilities
 * positive **reinforcement**, rewards and punishment from teachers can motivate them to assist/guide their behavior
 
 #### Community service
-* learn about empathy, responsibility and the  importance of giving back to society
+* learn about empathy, **responsibility** and the importance of **giving back to society**
 * teach practical and valuable skills which may be beneficial to there career.
 
 
