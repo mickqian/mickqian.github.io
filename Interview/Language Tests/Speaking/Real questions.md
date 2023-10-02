@@ -115,6 +115,7 @@ Why enjoy/interested?
 		* I can come up with/think of several...
 		* Well, in my estimation,
 	* Firstly... Additionally/Secondly
+	* To begin with
 	* First... Then
 	* For one thing ... For another 
 	* One is to... Another way/strategy would be
@@ -361,7 +362,7 @@ Known for the beautiful scenery near Tai Lake, where you can see fishing boats, 
 
 #### Good for youngsters?
 
-Not many job opportunities, I think I can't find a job with salary as high as I have in Hangzhou.
+Not many **job opportunities and career prospects**, I think I can't find a job with salary as high as I have in Hangzhou.
 Also, the facilities and transportation are not as good.
 Besides, there aren't many entertainment places.
 
@@ -403,7 +404,7 @@ For longer vocations, I prefer to **travel to distant places**, like last year w
 I feel relaxed, recharged, and exited when traveling. Especially when I try tasty local food, I feel rather satisfied.
 
 #### How do you like (geography)/Travel
-Geography fascinates me. **It's intriguing 令人感兴趣的 to learn about different locations, cultures, and the physical characteristics of our world.**
+Geography fascinates me. **It's intriguing 令人感兴趣的 to immerse myself into different locations, cultures, and the physical characteristics of our world.**
 
 Absolutely, geography is crucial. It helps us understand the world's physical features, cultures, and the impact of human activity on Earth.
 
@@ -426,13 +427,26 @@ And modern art is sort of like, **breaking the mould** and reflecting the artist
 
 ### Urbanization
 #urban
-**People often prefer urban areas for their accessibility to jobs, diverse cultural experiences, public services, and social opportunities including health care and education.**
 
+ad:
+* public service
+* job opportunities,
+* social opportunities including health care and education
+* **are hubs of culture and entertainment**
+
+disad:
+* the **cost of living** in cities can be significantly higher
+* noise, pollution, congestion(traffic jam)
+* People may also experience a **lack of personal space and privacy**
+* fast-paced urban lifestyle can lead to high levels of stress
 
 ### Ruralization
 #rural
-**People may prefer rural areas for their tranquility, natural beauty, lower cost of living, and a close-knit community feeling.**
-hustle and bustle
+ad:
+* slow-paced life
+* a stronger sense of close-knit  community
+* tranquility, natural beauty, lower cost of living, and a close-knit 
+
 
 ### Transport
 With the rise/trend/advent of remote work and sustainable transportation, driving might decrease. However, it largely depends on future societal and technological developments.
@@ -508,7 +522,12 @@ It was a time of great **turmoil**, with the whole **region** separated into pow
 
 The **stories** of the **strategy**, and the **political** intrigue/**drama** happened in that period has contributed to this epic novel called "Romance of the Three Kingdoms", which is a must-read, classic **literacy** work for students in China. It also had **profound** implications on the Chinese literature landscape, inspiring countless writers in **subsequent generations.** 
 
-I'm interested in learning more about the Three Kingdoms Period because it offers **insights**  洞悉 into human nature, which remain relevant today. And we can avoid making mistake from learning from the past.
+
+==I would like to learn more about this historical period because it is a **crucial** part of Chinese **history** that **shaped** the country's **culture** and **identity**. Learning about this period would help me appreciate China's **rich heritage** and the wisdom of its people, which remain relevant today. Plus, it's a fascinating era that, I believe, holds many valuable lessons for today's world.==
+
+#### History 
+==provides valuable **insights** into the past, and understanding **historical** **events** and their **consequences** can help individuals make **informed** decisions and avoid further mistakes in the present and future.==
+
 
 ### Person
 * work/study with
@@ -604,6 +623,9 @@ Dustin Hoffman is an actor I greatly admire for his remarkable **versatility** a
 * His dishes mainly **features** Italian food, one of his special dish is Carbonara, pasta with creamy texture. I once witnessed the whole process of him making this dish, and was **astonished** by how **meticulous** and **careful** about every steps. I guess that's the essential requirements to make a good meal.
 * Out of admiration, I couldn't help asking where did he learn to cook. 
 * **The reason behind** his commitment to cooking is ==his belief in **the profound impact of food** on human connections.==
+* ==He finds immense joy and satisfaction in seeing people savoring her food and enjoying every bite. It's not just about preparing a meal; it's about creating memorable dining experiences for those she cares about. Her warmth and generosity shine through her cooking, and it brings people closer together.==
+
+==It's not just about preparing a meal/giving a gift/taking a journey; It's about creating memorable birthday experiences with those I cherish==
 
 #### Businessman
 
@@ -720,6 +742,34 @@ LiverPool, United Kingdom
 * Liverpool F.C. is also a quite competitive one in the Campion's League, and I'd love to watch Salah score.
 * I can't wait to explore those locations mentioned in the songs, strawberry field, Eleanor Rigby, penny lane and so much more I can't recall at the moment
 * In conclusion, liverpool is appealing to me in many ways, **its enriched football culture and music history have haunted me ever since I was a boy.**
+* Nonetheless, even a brief visit to this captivating city would allow me to experience its unique charm and enjoy a relaxing escape from the **hustle and bustle** of daily life.
+##### Travel 
+
+immerse in different cultures, lifestyles, locations, traditions 
+##### Information
+* on the internet, navigation maps, official websites
+* **travel agencies**
+* resort to friends
+##### historical sites 
+* ==offer a glimpse into the past and showcase cultural heritage==
+* As someone who appreciates history and the stories behind these places, walking through cobbled streets and exploring well-preserved structures is truly a captivating experience.
+
+##### Bad Things 
+* tourists may occasionally face **scams** or **petty thefts**
+
+##### What cause the difference 
+* geographical: in plain tends to have better economy 
+* **cultural**: this includes religion, music, language, habits, etc
+* weather
+
+##### Tourist destination = place to live?
+ad: rich landscapes, cultural events and entertainments
+disad: higher cost of living, noisy and crowded
+
+
+##### Small towns more interesting
+ad: **slow pace of living**, lead peaceful and comfortable life, low-cost, connection within neighbours
+
 
 #### Relax | Apartment
 * I don't have my own apartment now, I'm living in rent house, so the space is limited
@@ -743,9 +793,9 @@ LiverPool, United Kingdom
 * Whenever I visit Xianghu, I love to take in the fresh air, and enjoy the refreshing breeze and tranquility away from the bustling city streets. I can often see people picnicking. Some people choose to bring some instruments and deliver an impromptu show.
 * crowded?
 	* It's usually crowded on weekends
-	* Far from the city center, making it away from the hustle and bustle. Therefore, it is often not very crowded, making it tranquil
-* One of the reasons I enjoy visiting Central Park is its **versatility**.
-* To conclude , the **charm** of Xianghu **lies** within its beautiful landscape and **untouched nature**, for it provides a refuge from the hectic work schedule
+	* Far from the city center, making it away from the hustle and bustle. Therefore, it is often not very crowded, making it tranquility
+* To conclude , Xianghu is a delightful oasis in Hangzhou. ==It offers a perfect blend of **nature**, **recreation**, and **cultural experiences**==. Whether you want to relax, exercise, or simply appreciate the beauty of the surroundings, Xianghu has something for everyone. It's truly a cherished gem in our city and a place I always look forward to visiting.
+
 
 
 ##### Should keep them clean?
@@ -1050,26 +1100,6 @@ possess interpersonal skills
 The mode of communication often depends on the relationship between the individuals and their preferences.
 
 
-### Travel 
-
-#### Information
-* on the internet, navigation maps, official websites
-* **travel agencies**
-* resort to friends
-#### What cause the difference 
-* geographical: in plain tends to have better economy 
-* **cultural**: this includes religion, music, language, habits, etc
-* weather
-
-#### Tourist destination = place to live?
-ad: rich landscapes, cultural events and entertainments
-disad: higher cost of living, noisy and crowded
-
-
-#### Small towns more interesting
-ad: **slow pace of living**, lead peaceful and comfortable life, low-cost, connection within neighbours
-
-
 ### Ads | Endorsement
 * an effective **marketing strategy** to promote product
 * **spread the awareness** among potential customers
@@ -1138,7 +1168,20 @@ high school: taught in more depth, understand **perspectives**, **examining the 
 #### Protect
 do want to protect and preserve except maybe a few who **put business ahead of their morality and rational thinking**
 
+
 We had our moments when people spontaneously protested the plan to demolish such sites in the past.
+
+Historic structures often require regular maintenance and **restoration** to prevent **deterioration**. 
+
+Balancing the preservation of historical significance with **the need for modernization and functional use** can be difficult. 
+
+
+Additionally, funding and resources are crucial for preservation efforts, and it can be challenging to secure financial support. 
+
+Legal regulations and zoning laws can also impact preservation decisions, adding complexity to the process. 
+
+Despite these challenges, preserving historic buildings is essential to maintain **cultural heritage** and **architectural history.**
+
 
 #### Is it hard to protect
 
@@ -1294,7 +1337,7 @@ Festival and events are celebrated with special food to portend/signify good luc
 Reminder of the happy memory enjoyed by family.
 
 #### Mandatory class
-introduce into the **academic curriculum**.
+==introduce into the **academic curriculum**.==
 important life skill
 stimulate creativity 
 
