@@ -718,12 +718,16 @@ LiverPool, United Kingdom
 * With the rising of music industry and growing level of musical aesthetics among people, I believe more and more people will have their own guitars, making this shop **thrive in business**
 
 
-#### Park | Interesting
-* xianghu, not far from where I live
-* basically a lake surrounded by grass field, where
-* Far from the city center, making it away from the hustle and bustle. Therefore, it is often not very crowded, making it tranquil
-* bring guitar, enjoy music **throughout** the day
-* beautiful landscape and **untouched nature**
+#### Park | Interesting | Crowded place
+* Xianghu, not far from where I live
+* basically a lake surrounded by grass field, where there're also many wildlives too, including egrets and swans
+* It also has nice and broad grassland near the lake, where many people choose to picnic. Some people choose to bring some instruments and deliver an impromptu show.
+* crowded?
+	* It's usually crowded on weekends
+	* Far from the city center, making it away from the hustle and bustle. Therefore, it is often not very crowded, making it tranquil
+* beautiful landscape and **untouched nature**, for it provides a refuge from the hectic work schedule
+
+
 #### Noisy
 
 I would like to talk about a night bar/Mexican restaurant near my college. It was **a local landmark**  地标 actually, located on the street next to our campus. People would go there to **relieve stress and anxiety from school**, or celebrate the end of a season. But my last visit there proved me wrong.
