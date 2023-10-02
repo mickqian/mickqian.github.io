@@ -550,59 +550,62 @@ Thanks to his help, we managed to produce our original song and perform in local
 #### Happy Photos
 * So I was in a local band, of a local company, and all of the band members are colleagues.
 * And about 3 months ago, as a band from the local company, we were told that we were provided an opportunity to perform in front of a **massive audience**, to celebrate the upcoming Olympics.
-* As we are all inexperienced amateur musicians, this news not only surprised us, but also got us very nervous. We definitely wanted to grasp the opportunity, and needed to practice.
-* So we started to rehearse 2 times a week, improving every possible aspects.
-* At the night we delivered the performance, before we went on stage, we took a brief photo of ourselves. The composition of photo is quite simple: A photo of all our band members, standing in front of a huge logo of that concert
-* but the story behind it had already **left an indelible imprint in my mind**, which I truly treasured.
+* As we are all inexperienced amateur musicians, this news not only surprised us, but also got us very nervous. We definitely wanted to **grasp the opportunity**, and also needed to practice more.
+* So we started to rehearse 2 or 3 times a week, improving every possible aspects of our performance.
+* At the night we delivered the performance, before we went on stage, we took a brief photo of ourselves. The composition of photo is quite simple: A photo of all our band members, standing in front of a huge logo of that concert, but the story behind it had already **left an indelible imprint in my mind**, which I truly treasured.
 
-
-#### Move to community 
+#### Move to community
 * About a fortnight ago
 * When I was helping him moving, I saw his new place. Compact, clean space. **Decorated in Scandinavian style**, just like those in the Black Mirror.
 * Everything is highly digitalized, suitable for tech-geeks to live in
-* invite us to party, where we enjoyed some soothing bossa nova, and had a great dinner made by himself, which was Italian and quite tasty, I would say
+* At that night, he invited us to have a party, where we enjoyed some soothing bossa nova, and had a great dinner made by himself, which was Italian and quite tasty, I would say
 * He quickly integrated into our group with his humor and warm heart. We were happy to accept him as our new neighbor
+
+
+
 
 #### Actor | Movie
 Dustin Hoffman.
 portrayal of diverse characters
 
-Dustin Hoffman is an actor I greatly admire for his remarkable versatility and depth. 
+Dustin Hoffman is an actor I greatly admire for his remarkable **versatility** and depth. 
 * He's considered to be one of the most talented actors, along with Al Pacino and Jack Nicholson
-* He has **starred in countless** story-telling films and documentaries, and "The graduate" is one of my favorite films, which explores the theme of generation gap and identity crisis. 
-* I really admire his ability to immerse himself into diverse characters, from the intellectually brilliant expertise 专家 in "Rain Man" to the confusing college student in "The graduate,". These performances are truly remarkable/extraordinary/exceptional.
-* He was able to portray the character with *nuanced expressions* and body language, which all contribute to his exceptional acting skills, making him a truly inspirational figure in the world of cinema.
+* He has **starred in countless** story-telling films and documentaries, and "The graduate" is one of my favorite films, which explores the theme of generation gap and identity crisis.
+* I really admire his ability to **immerse** himself into **diverse** characters, from the intellectually brilliant expertise 专家 in "Rain Man" to the confusing college student in "The graduate,". These performances are truly remarkable/extraordinary/exceptional.
+* He was able to **portray** the character with *nuanced facial expressions* and body language, which all contribute to his exceptional acting skills, making him a truly inspirational figure in the world of cinema.
 * The Graduate: 
 	* The story talks about Benjamin Braddock, **fresh out of** college and **unsure about** his future.
-	* Dustin Hoffman plays Benjamin brilliantly, with his portrayal of **youthful confusion** and disillusionment.
+	* **Dustin Hoffman** plays Benjamin brilliantly, with his portrayal of **youthful confusion** and disillusionment 醒悟.
 	* Explores the themes of generation gap and identity/existential crisis. 
-	* Added to this was a **haunting musical score**, written by my favorite folk duo, Simon & Garfunkel.  The music is good enough for itself, but also integrated into the plots so well, especially the one with Benjamin's infamous poolside drifting scene.
-	* In essence, "The Graduate," with its **compelling story arc** and **iconic soundtrack by Simon and Garfunkel**, remains a timeless masterpiece. 
+	* Added to this was a **haunting musical score**, written by my favorite folk duo, Simon & Garfunkel.  The music is already good enough for itself, but also integrated into the plots so well, especially the one with Benjamin's infamous poolside drifting scene.
+	* In essence, "The Graduate," with its **compelling story architecture** and **iconic soundtrack by Simon and Garfunkel**, remains a timeless masterpiece. 
 	* ==***As much as it's entertaining, it's also educational and deeply thought-provoking.***==
 
 #### Foreigner speaking fluent Chinese | Different Culture
 * During a band audition, applying for the Guitarist/Vocal 
-* After a brief introduction in fluent English, We knew he was transferred to China to work here for several weeks. He originally worked in Finland, a nordic country I suppose.
+* After a brief **introduction** in fluent English, We knew he was transferred to China to work here for several weeks. He originally worked in Finland, a **nordic** country I suppose.
 * However, as he started to sing, he changed to Chinese. I believe it's the most fluent Chinese I've heard coming out of a foreigner's mouth, including those on TV.
-* As we were in a shock, he explained that he had always been a fan of Chinese culture, and had taught himself Chinese.
-* Anyway, we spent a few months together, happily, and even delivered some performances. We insisted on performing English songs, as nowadays it's harder to find fluent English speaker than Chinese speaker.
+* As we were in a shock, he explained that he had always been a **fan** of Chinese culture, and had **taught** himself Chinese.
+* **Anyway**, we spent a few months together, happily, and even delivered some performances. We insisted on performing English songs, as nowadays it's harder to find fluent English speaker than Chinese speaker.
+
+
+
 
 
 #### Like to cook
 * has an **incredible passion** for cooking
-* His dishes mainly features Italian food, one of his special dish is Carbonara, pasta with creamy texture. I once witnessed the whole process of him making this dish, and was astonished by how meticulous and careful about every steps. I guess that's the essential requirements to make a good meal.
+* His dishes mainly **features** Italian food, one of his special dish is Carbonara, pasta with creamy texture. I once witnessed the whole process of him making this dish, and was **astonished** by how **meticulous** and **careful** about every steps. I guess that's the essential requirements to make a good meal.
 * Out of admiration, I couldn't help asking where did he learn to cook. 
-* **The reason behind** his commitment to cooking is his belief in **the profound impact of food** on human connections.
-
+* **The reason behind** his commitment to cooking is ==his belief in **the profound impact of food** on human connections.==
 
 #### Businessman
 
 Sam Altman
-* I got to knew him because of OpenAI. After the power and intelligence of ChatGPT has been shown, I began to be interested  in the CEO of OpenAI, and I did some research. It turned out he's quite a far-sighted leader.
-* He started his business as the former president of Y Combinator which is a startup accelerator.
- * Apart from YC, he had some other successful projects too, including Airbnb, Dropbox, and Strip. It showed his **exceptional** talent of **identifying** and **nurturing** these concepts.
-* And finally, he founded OpenAI,  where he guided cutting-edge research in AI.
-* Altman truly **embodies success in the business world**.  Someone would call him the father of GPT, but I think that credit goes to those scientist. However, it embodied the role he played in this huge AI wave and how successful he is.
+* I got to knew him because of OpenAI. After the power and intelligence of ChatGPT has been shown, I began to be interested  in the CEO of OpenAI, and I did some research. It turned out he's quite a **far-sighted** leader.
+* He started his business as the former president of Y Combinator which is a **startup accelerator**.
+* Apart from YC, he had some other successful projects too, including Airbnb, Dropbox, and Strip. It showed his **exceptional** talent of ==**identifying** and **nurturing** these concepts.==
+* And finally, he founded OpenAI,  where he guided cutting-edge research in AI. **We all know the rest of the story.**
+* Altman truly ==**embodies success in the business world**==.  Someone would call him the father of GPT, but I think that **credit** goes to those scientist. However, it embodied the role he played in this huge AI wave and how successful he is.
 
 
 ### Movies that disappoint
@@ -821,38 +824,39 @@ What made this meal unusual, and indeed transformative, was that **it opened the
 #### Book
 * As many others might have say, the novel I enjoy the most is Harry Potter
 * Harry Potter basically talk about how a boy, Harry Potter grow up with his friends, facing countless challenges, fighting numerous Death Eaters,  and finally beat Voldemort, the biggest villain in the book.
+* When I was I child, I couldn't recall how many times I imagine myself, waving my **wand**, **chanting** a spell, fighting death eaters
 * The **courage** and **perseverance** has encouraged me to **take the same attitude towards obstacles** I encountered in my life
-* I couldn't recall how many times I imagine myself, waving my **wand**, **chanting** a spell, fighting death eaters
+* 
 
 
 #### Ads don't like
 I really enjoy watching advertisements, as some are very creative and attractive. 
 However, there is one advertisement I dislike that I’ve seen on television about a toilet cleaner. 
-A celebrity visit randomly picked homes and asks the owner if the toilet is clean or not. Everyone replies that their toilets are clean, but then the celebrity zooms in with their camera and reveals some dirt. They proceed to clean the toilet with a new liquid, making it sparkle.
-
-Seeing this ad during mealtime is disgusting and annoying, sometimes even making me feel nauseous.
+A celebrity visit randomly picked homes and asks the owner if the toilet is clean or not. **Everyone** replies that their toilets are clean, but then the celebrity **zooms** in with their camera and **reveals** some dirt. They **proceed** to clean the toilet with a new **liquid**, making it **sparkle**.
+Seeing this ad during mealtime is **disgusting** and **annoying**, sometimes even making me feel nauseous.
 
 cheesy
 
 #### Useful ad
 To be honest, I don’t watch a lot of television/ if I'm honest,  but I do watch some TV episodes on Stream Media. 
-I remember one time I was watching a  popular music TV show, and it's basically several bands competing with each others. In the middle of the show, an ad **popped out**. Now usually, I would be annoyed by ads, but it was about an electric guitar. I saw a musician playing beautiful notes with this guitar, and it haunted me throughout the rest of the show. And I was not aware of what happened in that show.
-After the commercial ended, I immediately bought one on online shop. And I was happy and content about the guitar. Throughout the time, it has totally proved that it worth the price, and looking back,  I'm thankful for that encounter with the ad.
+I remember one time I was watching a  popular music TV show, and it's basically several bands competing with each others. In the middle of the show, an ad **popped out**. Now usually, I would be annoyed by ads, but it was about an electric guitar. I saw a musician playing **beautiful notes** with this guitar, and it **haunted** me throughout the rest of the show. And I was not aware of what happened in that show.
+After the commercial ended, I immediately bought one on online shop. And I was happy and satistied about the guitar. Throughout the time, it has totally proved that it **worth the price**, and looking back,  I'm thankful for that encounter with the ad.
 
 
 #### Lost | False information
-* It happened several months ago when my friend and I are on the way to a local music festival with my friend
-* The concerted was supposed to start in the afternoon, so We took a cab to the location described on the ticket at noon, but it was a deserted place which turned out to be a used power plant
-* Unable to find on the map, so we had to walk aimlessly, hoping to find someone to help
-* Luckily, it was close to the actual location. We managed to get close step by step, by following the sound made by amplifiers.
-* Although I was pretty frustrated and annoyed by the false information provided by the organizer, but finally found it by ourselves has solved the problem
+* It happened several months ago when my friend and I are on the way to a local music festival
+* The concerted was supposed to start in the afternoon, so we took a cab to the location described **on the ticket** at noon, but it was a deserted place which turned out to be a used power plant
+* Unable to find on the map, so we had to walk **aimlessly**, hoping to find someone to help
+* Luckily, it was close to the actual location. We managed to get close step by step, by following the sound made by stereos.
+* Although I was pretty **frustrated** and **annoyed** by the false information provided by the organizer, but finally found it by ourselves has solved the problem
+
+
 #### Advice | Proud
-* So about 3 years ago, my company is holding a competition called "Hackathon". It's basically a group of people gathering together, solving an issue within 48 hours or so. Later, all the work will be evaluated by some judges.
+* So about 3 years ago, my company is holding a competition called "Hackathon". It's basically a group of people gathering together, solving an issue within 48 hours or so. Later, all the work will be **evaluated** by some judges.
 * Some of my colleagues call out me to join their team. Why not?
-* But we encountered countless issues, as we had no experience participating in any hackathon before. One of the major problem was, we found ourselves working on separated computers, so  information sharing was a struggle. I immediately suggested we started the "collaborated development" feature on our computers. As a result, the efficient was doubled.
-* After working **tirelessly** on the issue for several days, We were thrilled and overwhelmed to receive an honorable mention for that competition, for the competition had been fierce. Looking up, we were proud that we managed to solve a problem outside our area of expertise.
-
-
+* But we encountered countless issues, as we had no experience participating in any hackathon before. One of the major problem was, we found ourselves working on **separated** computers, so **information sharing** was a struggle. I immediately suggested we started the "**collaborated development**" feature on our computers. As a result, the efficient was doubled.
+* After working **tirelessly** on the issue for several days, We were thrilled and overwhelmed to **receive** an honorable mention for that competition, for the competition had been fierce. 
+* Looking back, we were proud that we managed to solve a problem **outside our area of expertise** and the perseverance we had put in.
 
 
 
@@ -870,22 +874,21 @@ It's probably due to the hardships the parents experienced in the past.
 They should enjoy life like, a bit, after working hard
 
 #### Art
-**The piece of work that I like the most is** Sunflowers by Vincent Van Gogh. 
+**The piece of work that I like the most is** "The Starry Night" by brilliant Vincent Van Gogh. 
 
 Among the countless pieces of art that have been created **over centuries**, one painting that has always **captivated** me is “The Starry Night” by Vincent van Gogh.
 
 I first encountered “The Starry Night” during a school trip to a local [Museum](https://ieltsrewind.com/describe-a-museum-you-have-visited-and-liked/) , where a replica is being exhibited.
 
-Its **vibrant colors and unique style** stood out among the other artworks.
+I had to say, its **vibrant colors and unique style** stood out among the other artworks.
+from the later research I did, Painted in 1889 in a mental hospital, it **presents an image** of a night sky filled with **swirling** stars, overlooking a quaint 古色古香 town. The night sky could be seen as a representation of his inner feelings and emotional state at that time. 
 ![[Pasted image 20230930103128.png]]
 
-Painted in 1889, it presents an image of a night sky filled with **swirling** stars, overlooking a quaint 古色古香 town.The night sky could be seen as a representation of his inner feelings and emotional state.
+
+In fact, not only did I enjoy the painting itself,  **I also adore** a beautiful song called "Vincent"by Don Mclean too. Its lyric starts with "Starry Starry night", serves as a tribute to Van Gogh.
 
 
-In fact, not only did I enjoy the painting itself,  **I also adore** a beautiful song called Vincent by Don Mclean too. Its lyric starts with "Starry Starry night", which is a tribute to the greatness and extraordinary skills to Van Gogh.
-
-
-I find most fascinating about “The Starry Night” is how it resonates with me on an emotional level. It serves as a **reminder** that **beauty can be found even in dark times**, and that creativity can flourish **amidst adversity 逆境**.
+Resonate & dark times & adversity: I find most fascinating about “The Starry Night” is how it resonates with me on an emotional level. It serves as a **reminder** that **beauty can be found even in dark times**, and that ==creativity can flourish **amidst adversity 逆境**==.
 
 It serves as an inspiration, **reminding** us of the power of perseverance and the unlimited potential of human [creativity](https://ieltsrewind.com/describe-a-creative-person-whose-work-you-admire/).
 
