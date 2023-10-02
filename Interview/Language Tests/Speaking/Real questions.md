@@ -286,7 +286,8 @@ They are just, not worth the price.
 
 
 ### Where do you live
-Currently I live in an one-room apartment near where I work. It's also close to coffee shops, shopping malls and livehouses, where I can enjoy live music. 
+Currently I live in an one-bedroom apartment near where I work. It's also close to coffee shops, shopping malls and livehouses, where I can enjoy live music. 
+It's compact and not that spacious, which is perfect for me.
 
 Although the work pace is rapid, I think, Hangzhou is still suitable to live in.
 
