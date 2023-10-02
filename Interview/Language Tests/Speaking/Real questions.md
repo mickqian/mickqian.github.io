@@ -776,21 +776,23 @@ alcohol is not allowed, to avoid unexpected issues
 
 
 #### Local concert | Late for a meeting | Exciting activity
-
 * a band with members all colleagues
 * 2 days before we ought to perform in a local concert, last rehearsal before performance.
 * was held up by a emergency task from work, which is a bug-fix, and so I couldn't make it to rehearsal on time
 * my hands felt a huge pain, and had callouses from touching the steel strings constantly
-* We rehearsed for quite a long time. At first we couldn't even make our rhythms meet.
-* Through a lot of practice, we developed a sort of dynamics or tacit understanding between us, making the performance easier.
+* We rehearsed for quite a long time. At first we couldn't even **make our rhythms meet**.
+* Through a lot of practice, we **developed a sort of dynamics** or tacit understanding between us, making the performance easier and seamless.
 * I felt very sorry and embarrassed for breaking my own promise. Luckily the rehearsal and performance went out well, without major incidents.
-* We performed several britpop songs, though I made a few minor mistakes, the audience seemed to enjoy it. It was satisfactory to share the music I love with people
+* We performed several britpop songs, though I made a few minor mistakes, the audience seemed to enjoy it. **It was satisfactory to share the music I love with people**.
+* Looking back, it's process of working with my friends and creating fantastic music that captivates me.
+
 #### Bad Service
-* At an Italian restaurant where I had planned to take my then-girlfriend on our first date. It was two years ago and we were both excited about the night.
+
+* At an Italian restaurant where I had planned to take my then-girlfriend on our first date. It was two years ago and we were both excited about the night, I even got some gifts prepared.
 * Once seated, the waiter **took a long time** to take our orders, despite the restaurant not being particularly busy.
-* When our food finally arrived, I was in huge shock. I love Italian food and know how to cook some dishes myself, but the Carbonara presented to me was the worst I even seen. I don't know how they managed to make that dish **Salty**, **burnt** and raw at the same time. Also, my pasta was lukewarm, I can't even swallow. Even If I complained about it, they seemed   **indifference** and **impatience**
+* When our food finally arrived, I was in huge shock. I love Italian food and know how to cook some dishes myself, but the Carbonara presented to me was the worst I even seen. I don't know how they managed to make that dish **salty**, **burnt** and raw at the same time. Also, my pasta was lukewarm, I can't even swallow. Even If I complained about it, they seemed  **indifference** and **impatience**
 * We immediately paid our bill and left with disappointment. 
-* It has totally ruined my day, I sweared I'll never enter that restaurant ever again.
+* It has totally ruined my day, I **sweared** I'll never enter that restaurant ever again.
 
 #### With a young child | Party | Teach | Enjoyable experience
 * an occasion when I spent time with a young child. 
@@ -801,6 +803,10 @@ alcohol is not allowed, to avoid unexpected issues
 * It's **gratifying** to witness someone's progress.
 * If I hadn't decide, I wouldn't spark the passion towards music in a young mind.
 * kind teaching
+
+
+
+
 #### Meals
 One of the most unusual meals I've ever had holds significant meaning to me. I can't recall the exact date, but it was approximately three years ago, **shortly after my college graduation**. It happened on a Friday night when my then-girlfriend took me to a local Italian restaurant. 
 
