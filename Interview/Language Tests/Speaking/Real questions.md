@@ -720,12 +720,49 @@ LiverPool, United Kingdom
 
 #### Park | Interesting | Crowded place
 * Xianghu, not far from where I live, just about 10-minute bike-ride. It remains a  serene natural heaven to me, If I have to say.
-* Landscape: basically a lake surrounded by green grass field, where there're also many wildlives too, including egrets and swans. It also has nice and broad grassland near the lake. 
-* On weekends, it becomes a perfect picnic spot for most of the people. Some people choose to bring some instruments and deliver an impromptu show.
+* Landscape: basically a lake surrounded by a considerable  area of green grass field, where there're also many wildlives too, including egrets and swans. It also has nice and broad grassland near the lake. 
+* Whenever I visit Xianghu, I love to take in the fresh air, and enjoy the refreshing breeze and tranquility away from the bustling city streets. I can often see people picnicking. Some people choose to bring some instruments and deliver an impromptu show.
 * crowded?
 	* It's usually crowded on weekends
 	* Far from the city center, making it away from the hustle and bustle. Therefore, it is often not very crowded, making it tranquil
+* One of the reasons I enjoy visiting Central Park is its **versatility**.
 * To conclude , the **charm** of Xianghu **lies** within its beautiful landscape and **untouched nature**, for it provides a refuge from the hectic work schedule
+
+
+
+##### Do young people like to go?
+From what I've observed, though young people would love to spend some time in the park, (you know), get close to nature, the rapid pace  of modern work life wouldn't allow them to do so. They get off late, and are only available on weekends, and they'd rather spending them at home.
+
+
+* jogging
+* bird-watching, dog-walking, taichi
+* Some may choose less tensive activities : chessing, reading, dancing 
+
+find a sense of **tranquility** in parks,
+, which are excellent for **maintaining** physical and mental well-being.
+keep them in pristine condition
+##### Is making noise one of people's rights?
+While making sound is a right, it must be balanced with others' rights to peace and quiet, especially in shared spaces.
+##### Why do some people like planting flowers?
+People enjoy planting flowers for their **aesthetic appeal**, **therapeutic benefits**, environmental impact, and the **satisfaction gained from nurturing growth**. Flowers can cheer me up whole day.
+
+##### Benefits
+* children: promotes physical activity, social **interaction**, connection with **nature**
+* adult: physical exercise, **relieve** **stress**, get them away from the hustle-bustle
+
+improve **mental wellbeing**
+
+##### Would you say people should help maintain public parks and gardens? 
+* ensures clean, safe spaces for everyone to enjoy 
+* fosters a sense of community
+* it encourages environmental **stewardship**, teaching us to respect and care for our natural surroundings. So, people's involvement is highly beneficial.
+
+##### What benefits can parks bring to a city? 
+* provide green **spaces** for citizens to relax and recharge
+* foster social **interactions**
+* Environmentally, reduce pollution, provide habitats for wildlife, improve air quality 
+* provide recreational space, I know central park is a great place for enjoying music, for several people would gather together to remember John Lennon
+
 
 
 #### Noisy
@@ -1118,41 +1155,6 @@ It depends on how the tech is being used
 #### Limit screen time
 * encourage children to engage in more outdoor activities 
 * set a role model by managing their own screen time, which seems very hard
-
-
-
-### Parks
-
-#### Do young people like to go?
-From what I've observed, though young people would love to spend some time in the park, (you know), get close to nature, the rapid pace  of modern work life wouldn't allow them to do so. They get off late, and are only available on weekends, and they'd rather spending them at home.
-
-
-* jogging
-* bird-watching, dog-walking, taichi
-* Some may choose less tensive activities : chessing, reading, dancing 
-
-
-#### Is making noise one of people's rights?
-While making sound is a right, it must be balanced with others' rights to peace and quiet, especially in shared spaces.
-#### Why do some people like planting flowers?
-People enjoy planting flowers for their **aesthetic appeal**, **therapeutic benefits**, environmental impact, and the **satisfaction gained from nurturing growth**. Flowers can cheer me up whole day.
-
-#### Benefits
-* children: promotes physical activity, social **interaction**, connection with **nature**
-* adult: physical exercise, **relieve** **stress**, get them away from the hustle-bustle
-
-improve **mental wellbeing**
-
-#### Would you say people should help maintain public parks and gardens? 
-* ensures clean, safe spaces for everyone to enjoy 
-* fosters a sense of community
-* it encourages environmental stewardship, teaching us to respect and care for our natural surroundings. So, people's involvement is highly beneficial.
-
-#### What benefits can parks bring to a city? 
-* provide green spaces for citizens to relax and recharge
-* foster social interactions
-* Environmentally, reduce pollution, provide habitats for wildlife, improve air quality 
-* provide recreational space, I know central park is a great place for enjoying music, for several people would gather together to remember John Lennon
 
 
 ### Opinions 
