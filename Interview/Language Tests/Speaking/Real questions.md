@@ -491,7 +491,6 @@ an experience I had/happened to me/one of my teachers
 
 when I was at university.
 
-
 It was interesting for two reasons.
 
 In the future, I will probably study business management, so my experience in the flower shop will be very useful to me.
@@ -500,17 +499,15 @@ In the future, I will probably study business management, so my experience in th
 And that's my talk about..
 
 
-
 ### Historical Period
 
 Three Kingdoms Period
-I occurred at round  200 AD, and lasted for less than 100 years, If my memory serves me right
+It occurred at round  200 AD, and lasted for less than 100 years, If my memory serves me right
 It was a time of great **turmoil**, with the whole **region** separated into power struggle between 3 kingdoms, Wei, Shu and Wu.
 
-The **stories** of the **strategy**, and the **political** intrigue/**drama** happened in that period has contributed to this epic novel called "Romance of the Three Kingdoms", which is a must-read, classic literacy work for students in China. It also had **profound** implications on the Chinese literature landscape, inspiring countless writers in subsequent generations. 
+The **stories** of the **strategy**, and the **political** intrigue/**drama** happened in that period has contributed to this epic novel called "Romance of the Three Kingdoms", which is a must-read, classic **literacy** work for students in China. It also had **profound** implications on the Chinese literature landscape, inspiring countless writers in **subsequent generations.** 
 
 I'm interested in learning more about the Three Kingdoms Period because it offers **insights**  洞悉 into human nature, which remain relevant today.
-
 
 ### Person
 * work/study with
@@ -519,36 +516,35 @@ I'm interested in learning more about the Three Kingdoms Period because it offer
 * met at a party
 
 #### Sportsman
-Thomas Muller, who is the striker of the german football team, also of bayern Munchen F.C.
+Thomas Muller, who is the striker of the Deutsch football team, also of bayern Munchen F.C.
 * Well, I don't have much time to watch sports now, but
-* I first knew him from the TV broadcast of the 2018 world cup. It was German vc Portugal. And Thomas, with his great sense of the penalty area, scored 3 goals.
+* I first get to knew him from the TV broadcast of the 2018 world cup. It was German vc Portugal, if my memory serves me right. And Thomas, with his great sense of the penalty area and **exceptional** moves, scored 3 goals and  was named the best player of that match.
 * He has won a Golden and Silver Boot.
-* thought he isn't  equipped with exquisite shooting skills, he has led the team to success
-* In his normal life, he is also a pound husband and father
-* optimistic
-
+* thought technically speaking, he isn't equipped with exquisite shooting skills, he could led the team to success with his own insights to the situation of the game.
+* In his normal life, he is also a proud husband and father
+* optimistic life attitude and fascinating performance on the court that captivates me.
 
 
 #### Party 
 
 #### Music & band
-I'd like to talk about my friend, Eric, who I met during a band audition. Eric was applying for the guitarist position then, and his passion for music impressed me.
+I'd like to talk about my friend, Eric, who I met during a band audition. Eric was applying for the guitarist position then, and his passion for music have a profound impression on me.
 
 Besides the fact that he's a fantastic musician, he's also a person with **great charm and charisma.** 
 #### Work
-He's also devoted to work, leading a team on AI music generation and has gained reputation in that field. His communication skills impressed me, which makes working with him an exciting and rewarding experience.
+He's also devoted to work, leading a team on AI music generation and has gained reputation in that area. I guess all that achievements come from his exceptional communication skills, which makes working with him an exciting and rewarding experience.
 
 #### Interest
-Moreover, we quickly discovered we both love Italian cuisine and, often **find ourselves at a nearby restaurant**, discussing everything from music to life. 
+Moreover, we quickly discovered we both love Italian cuisine so we often **gather at a nearby  Italian restaurant**,  after rehearsal, discussing everything from music to life. 
 
 #### Interesting idea
-* During rehearsals, he **consistently** brought unique ideas to the table, whether it was about the song's design, or subtle suggestions about the tone of the guitar. 
-* Once during a rehearsal, the bassist accidentally kick down the chair near her, making a high-pitched sound. He immediately captured this, suggested integrating that note into the song, which turned out to be surprisingly weird but harmonious. The **melody** and the **groove** of the song is **enriched** by this **genius design**.
-* Moreover, he even **offered insights** into our **stage design**, suggesting specific movements and poses for us when performing. All of these ideas sound interesting and captivating
+* During rehearsals, he **constantly** brought unique ideas to the table, whether it was about the song's design, or subtle suggestions about the tone of the guitar. 
+* Once during a rehearsal, the bassist accidentally kick down the chair near her, making a high-pitched sound. While most of us ignored it, he immediately captured this, suggested integrating that note into the song, which turned out to be surprisingly weird but somehow melodic and harmonious. The **melody** and the **groove** of the song is **enriched** by this **genius design**. We were all convinced with his talents in music.
+* Moreover, he even **offered insights** into our **stage design**, suggesting specific movements and poses for us when performing. All of these ideas sound interesting and inspiring.
 
 #### Help others
-As an inexperienced amateur band, we often encounter numerous problems, involving equipment, effects, skills or music transcription. Since he's a semi-professional player, he always manage to solve our equipment problems within seconds. 
-* Once before a performance, the bassist accidentally got a flu, and was unable to give a performance. Though at that time he had heavy work to do, but he offered to help even though he had to work overtime. He not only attended all the emergent rehearsals, but also practiced in his spare time.
+As an inexperienced amateur band, we often encounter numerous problems, involving equipments, effects, skills or music transcription. Since he's a **semi-professional** player, he always managed to solve our problems within seconds. 
+* Once before a performance, the bassist accidentally got a flu, and was unable to give a performance. Though at that time he had heavy work to do, but he offered to help even though  that meant he had to work overtime. He not only attended all the emergent rehearsals, but also practiced in his spare time.
 
 Thanks to his help, we managed to produce our original song and perform in local concerns, which turned out to be quite successful.
 #### Happy Photos
