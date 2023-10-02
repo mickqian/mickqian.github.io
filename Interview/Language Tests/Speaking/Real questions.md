@@ -719,13 +719,13 @@ LiverPool, United Kingdom
 
 
 #### Park | Interesting | Crowded place
-* Xianghu, not far from where I live
-* basically a lake surrounded by grass field, where there're also many wildlives too, including egrets and swans
-* It also has nice and broad grassland near the lake, where many people choose to picnic. Some people choose to bring some instruments and deliver an impromptu show.
+* Xianghu, not far from where I live, just about 10-minute bike-ride. It remains a  serene natural heaven to me, If I have to say.
+* Landscape: basically a lake surrounded by green grass field, where there're also many wildlives too, including egrets and swans. It also has nice and broad grassland near the lake. 
+* On weekends, it becomes a perfect picnic spot for most of the people. Some people choose to bring some instruments and deliver an impromptu show.
 * crowded?
 	* It's usually crowded on weekends
 	* Far from the city center, making it away from the hustle and bustle. Therefore, it is often not very crowded, making it tranquil
-* beautiful landscape and **untouched nature**, for it provides a refuge from the hectic work schedule
+* To conclude , the **charm** of Xianghu **lies** within its beautiful landscape and **untouched nature**, for it provides a refuge from the hectic work schedule
 
 
 #### Noisy
