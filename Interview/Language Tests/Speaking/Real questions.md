@@ -872,11 +872,10 @@ improve **mental wellbeing**
 
 I would like to talk about a night bar/Mexican restaurant near my college. It was **a local landmark**  地标 actually, located on the street next to our campus. People would go there to **relieve stress and anxiety from school**, or celebrate the end of a season. But my last visit there proved me wrong.
 
-Before my friend and I entered the bar, I could already hear the loud sound from the stereos which played **the catchy and cheesy music**. **The tone quality** was rather awful so all I heard was **high pitch of sound** rather than nice and **gentle melodies**.  Besides, after sitting down at a small table, there are too many people talking in a loud voice that I can hardly here my friend was saying. 
+Before my friend and I entered the bar, I could already hear the loud sound from the stereos which played **the catchy and cheesy music**. **The tone quality** was rather awful so all I heard was ==**high pitch== of sound** rather than nice and **gentle melodies**.  Besides, after sitting down at a small table, there are too many people talking in a loud voice that I can hardly here my friend was saying. 
 
+Mention food: 
 Though the food there was tasty, I love the Fajita and Mojito, the atmosphere in the bar **was too awful to endure**. I was expecting a quiet listening experience but everything was out of my imagination. **People were raising their voice as the background music was overwhelming**, which made the place all the more **unbearable**.
-
-unbearable
 
 
 #### Pollution
