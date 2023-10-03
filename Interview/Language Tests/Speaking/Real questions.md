@@ -7,7 +7,6 @@
 * **This includes**
 * happy <-> thrilled, delighted, overjoyed
 * 不用正面回答，不用以第一人称主语开始
-* delight
 * encounter
 * fascinated with/be fond of/be really into/be keen on/appreciate/was very involved with
 * **It's intriguing 令人感兴趣的 to gain a deep understanding about different locations, cultures, and the physical characteristics of our world.** Gain respect for people from different backgrounds
@@ -195,18 +194,13 @@ No. While chocolate as a gift can make nice, I find it a little bit cliche, as i
 Yes, I learned about those things in High School, when I was taught Astronomy. I learned about solar system, different nebulas and galaxies. Out of curiosity, I watched 2001: A Space Odyssey, and it has been one of my favorite movies till this day.
 #### Do you like science fiction movies?
 Absolutely, I enjoy science fiction movies. I'm a big fan of David Kubrick, and his movies like 2001: Space Odyssey. Also, my favorite TV episode is Black Mirror, which gives me an insight into the future. One of the episode that most impressed me is about a **programmer** creating an imaginary spaceship based on a computer program.
-
 #### Do you want to know more about outer space?
 Indeed, I'm always **eager to** learn more about outer space. It's a realm full of endless wonders and discoveries.
-
-
 #### Travel to space
 Oh wow, I have never thought about it. First thing to do is definitely record everything I see with a proper sports camera. **If I have the chance, I would like to see the dark side of the like for every Pink Floyd fan.** Also, trying to find aliens on Mars sounds fun.
-
-
 ### Gifts
 #### Have you ever sent handmade gifts to others?
-Yes, I've made and sent origami gifts. It's a thoughtful, personal touch that people seem to appreciate.
+Yes, I've made and sent origami gifts. It's a thoughtful, **personal touch** that people seem to appreciate.
 
 #### What do you consider when choosing a gift?
 I consider the recipient's personal interests, the gift's uniqueness, its quality, and my budget. It's all about **matching** the gift to the person.
@@ -220,8 +214,6 @@ Yes, I always have a bunch of keys with me.
 
 #### Lost
 spare key
-
-
 ### Help
 #### Do you?
 * I think I've always been a helpful person 
@@ -434,7 +426,7 @@ ad:
 * slow-paced life
 * lower cost of living
 * **a stronger sense of close-knit community**
-* For people who favor tranquility and natural beauty
+* For people who favor **tranquility and natural beauty**
 
 
 ### Transport
@@ -830,7 +822,7 @@ ad: **slow pace of living**, lead peaceful and comfortable life, low-cost, conne
 * crowded?
 	* It's usually crowded on weekends
 	* Far from the city center, making it away from the hustle and bustle. Therefore, it is often not very crowded, making it tranquility
-* To conclude , Xianghu is a delightful oasis in Hangzhou. ==It offers a perfect blend of **nature**, **recreation**, and **cultural experiences**==. Whether you want to relax, exercise, or simply appreciate the beauty of the surroundings, Xianghu has something for everyone. It's truly a cherished gem in our city and a place I always look forward to visiting.
+* To conclude , Xianghu is a delightful oasis in Hangzhou. ==It offers a perfect blend of **nature**, **recreation**, and **social connections**==. Whether you want to relax, exercise, or simply appreciate the beauty of the surroundings, Xianghu has something for everyone. It's truly a cherished gem in our city and a place I always look forward to visiting.
 
 
 
@@ -899,8 +891,8 @@ unbearable
 ### Trip to Xinjiang | Car journey | Childhood happy | Adventure | Interesting Places
 * I haven't had the opportunity to explore **many places**, but one **particular** location in my country that has always intrigued me is
 * Through some documentaries on Xinjiang, I get to gain insights into unique characteristics of this place.
-* ==We visited colorful craft markets which are called Baza,  and brought back souvenirs, to remind us of our trip. One of my most memorable experiences was to the Sailimu Lake. It is a little bit off the beaten track but it is surrounded by great scenic beauty and magnificent landscapes.==
-* ==What's more, I got to immerse myself into exotic culture, different traditions, cuisines and meet diverse people, which will be an enriching experience ==
+* ==We visited colorful craft markets which are called Baza, and brought back souvenirs, to remind us of our trip. One of my most memorable experiences was to the Sailimu Lake. It is a little bit off the beaten track but surrounded by great scenic beauty 美景 and magnificent landscapes 壮丽风景.==
+* ==What's more, I got to immerse myself into exotic culture, different traditions, cuisines and meet diverse people, which all contributed to an enriching experience==
 * exotic: clothes, food, their markets, fruits
 * local people being friendly and modesty, hospitable
 * With some of my colleagues and friends, 5 in total, just enough to fill a car
@@ -1016,9 +1008,6 @@ any services that fail to satisfy customers' needs
 * This day had a profound impact on me and rejuvenates my fascination with music every time I recall it.
 * kind teaching
 
-
-
-
 #### Meals
 One of the most unusual meals I've ever had holds significant meaning to me. I can't recall the exact date, but it was approximately three years ago, **shortly after my college graduation**. It happened on a Friday night when my then-girlfriend took me to a local Italian restaurant. 
 
@@ -1117,7 +1106,6 @@ from the later research I did, Painted in 1889 in a mental hospital, it **presen
 
 
 In fact, not only did I enjoy the painting itself,  **I also adore** a beautiful song called "Vincent"by Don Mclean too. Its lyric starts with "Starry Starry night", serves as a tribute to Van Gogh.
-
 
 Resonate & dark times & adversity: I find most fascinating about “The Starry Night” is how it resonates with me on an emotional level. It serves as a **reminder** that **beauty can be found even in dark times**, and that ==creativity can flourish **amidst adversity 逆境**==.
 
