@@ -622,7 +622,7 @@ Sam Altman
 * He started his business as the former president of Y Combinator which is a **startup accelerator**.
 * Apart from YC, he had some other successful projects too, including Airbnb, Dropbox, and Strip. It showed his **exceptional** talent of ==**identifying** and **nurturing** these state-of-the-art concepts.==
 * And **finally**, he founded OpenAI,  where he guided **cutting-edge** research in AI. **We all know the rest of the story.** I've watch some interviews of him, 
-* Altman truly ==**embodies success in the business world**==.  Someone would call him the father of GPT, but I think that **credit** goes to those scientist. However, it embodied the role he played in this huge AI wave and how successful he is.
+* Altman truly ==**embodies success in the business world**==.  Someone would call him the father of GPT, but I think that **credit** goes to those scientist. Nonetheless, it embodied the role he played in this huge AI wave and how successful he is.
 ##### Affect the environment
 * directly release the waste into the ... is probably the most **common and cost-effective** way
 * A business thrive not because of itself, but also from the support of public and government. Nowadays government is promoting sustainable development, people are into environmentally friendly products, which encourage those company who pay ..
@@ -649,17 +649,15 @@ Once upon a time in Hollywood
 #### Skills
 One job I find particularly interesting is being a guitarist in a band. I always dream about being on the stage as Eric Clapton, **although I know clearly I can never be as good as** the guitar God. **Anyway**, this role not only requires sophisticated guitar-playing skills but also involves music composition, which requires a thorough understanding of music history.
 #### Exciting and interesting part
+
+The most exciting aspect of this job is the opportunity to perform all around the world. This global exposure allows me to immense myself in  a **variety of cultures, meet diverse people**. It's an incredible way to expand my horizons and **gain a deeper understanding** of the world.
+
+Besides, I get to meet different musicians around the world, musicians rely heavily in muse when creating, so **hopefully I can draw some inspirations and learn from them.**
 #### Change job
 * doesn't meet their needs, or align with their interest, or the salary is not satisfactory
 
-
 expand one's horizons
 
-
-The most exciting aspect of this job is the opportunity to perform all around the world. This global exposure allows me to experience a **variety of cultures, meet diverse people**. It's an incredible way to expand one's horizons and **gain a deeper understanding** of the world.
-Also, I get to meet different musicians around the world. 
-
-Musicians rely heavily in muse when creating, so **hopefully I can draw some inspirations and learn from them.**
 
 
 ### Decision | What makes you proud Period change life | Physically Tired
@@ -689,23 +687,18 @@ Teenagers enter a phase where they need to make crucial decisions that **shape t
 * whether to pursue a higher degree, the major to study
 * seek for possible job opportunities, which job will they choose and which city to live in 
 ##### Children help
-
 * parents or guardians who have more experience and have a deep understanding of their personalities
-* Teachers and mentors who can provide academic help
-* friends or classmates, who can provide a peer perspective
+* **Teachers and mentors** who can provide academic help
+* friends or classmates, who can provide a peer perspective to the problem
 
 ##### Advertisements 
-
-* highlight the features, unique selling points, **instill** a sense of curiosity
+* highlight the features, unique selling points, **instill** a sense of **curiosity**
 * ==triggering a sense of longing or the fear of missing out, known as FOMO==
 
-
 ##### Influence of ads
-
-* yes: they disseminate information, promote consumption, increase sales & demands
+* yes: they **disseminate** information, promote consumption, increase **sales & demands**
 * no: manipulate consumer's emotions and judgement by providing misinformation or **misleading tactics**, present **idealized** images of beauty and body standards
 ##### Goal
-
 ##### Personal or Work
 
 personal: contribute to happiness and well-being
@@ -739,6 +732,9 @@ The festival is **rich in history and culture**, **and it's known for its dragon
 #### Conclusion
 The Duanwu Festival is a time of excitement and camaraderie. **It's a unique blend of history, sport, and culinary 烹饪 tradition that makes it a truly special event in the Chinese calendar.**
 
+
+==There's no denying that, His/Its unique blend of history/sport/culinary/acting skills/charm/charisma/music talents/instrument playing skills makes him/it a truly remarkable/special/inspirational figure in the movie history/Chinese Calendar.==
+
 ### Public Figure | Interesting
 * successful
 * popular
@@ -760,17 +756,17 @@ I adhere to the principle of/choose quality over quantity.
 
 * Denim jacket, made by LVC
 * For the style, It's a Type-II Trucker jacket, which is a classic model. It features classical American postwar retro style 
-* Denim Cloth is my **favorite material for a jacket**, I like the rigid nature of it, and the silhouette it displays
-* Apart from the material, I'm obsessed with denim blue, it encapsulates both masculinity and energy
-* Since it's quite thick, I wear them only in Autumn and Spring, about once a weak
-* What fascinated me most is the cowboy spirit it displays: casual, natural, unrestrained - that's my interpretation.
+* Cloth: Denim Cloth is my **favorite material for a jacket**, I like the rigid nature of it, and the **silhouette** it displays
+* Color: Apart from the material, I'm obsessed with denim blue, it encapsulates both masculinity and energy
+* Frequency: Since it's quite thick, I wear them only in Autumn and Spring, about once a weak
+* Reason: What fascinated me most is the cowboy spirit it displays: **casual, natural, unrestrained** - that's my interpretation.
 
 #### Brand
 As a big fan of Margaret Howell, my wardrobe mainly features her classic pieces.
 
 Personally, I'm fond of neutral tones, such as blacks, white, brown and gray, which aligns with the tone in Howell's collection. I find these colors low-profile, **versatile** and easy to pair. Besides, the high-quality choice of the material also make it practical and endurable.
 
-**Furthermore, Howell's clothes allow me to express myself without being confined to traditional gender norms, as they seamlessly blend masculinity and femininity, creating a unisex appeal.**
+==**Furthermore, Howell's clothes allow me to express myself without being confined to traditional gender norms, as they seamlessly blend masculinity and femininity, creating a unisex appeal.**==
 
 It's the **minimalist**, **quality** and **versatility** of Howell's clothes that attract me.
 
