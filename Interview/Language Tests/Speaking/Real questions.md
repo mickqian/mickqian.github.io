@@ -584,12 +584,14 @@ Dustin Hoffman is an actor I greatly admire for his remarkable **versatility** a
 * I really admire his ability to **immerse** himself into **diverse** characters, from the intellectually brilliant expertise 专家 in "Rain Man" to the confusing college student in "The graduate,". These performances are truly remarkable/extraordinary/exceptional.
 * He was able to **portray** the character with *nuanced facial expressions* and body language, which all contribute to his exceptional acting skills, making him a truly inspirational figure in the world of cinema.
 * The Graduate: 
+	* critically acclaimed story-telling film
 	* The story talks about Benjamin Braddock, **fresh out of** college and **unsure about** his future.
-	* **Dustin Hoffman** plays Benjamin brilliantly, with his portrayal of **youthful confusion** and disillusionment 醒悟.
-	* Explores the themes of generation gap and identity/existential crisis. 
+	* **Dustin Hoffman** plays Benjamin brilliantly, with his portrayal of **youthful confusion** and **disillusionment** 醒悟.
+	* Explores the themes of **generation gap** and **identity/existential crisis**. 
 	* Added to this was a **haunting musical score**, written by my favorite folk duo, Simon & Garfunkel.  The music is already good enough for itself, but also integrated into the plots so well, especially the one with Benjamin's infamous poolside drifting scene.
-	* In essence, "The Graduate," with its **compelling story architecture** and **iconic soundtrack by Simon and Garfunkel**, remains a timeless masterpiece. 
-	* ==As much as it's entertaining, it's also educational and deeply thought-provoking.==
+	*  ==As much as it's entertaining, it's also educational and deeply thought-provoking.==
+	* ==In essence, "The Graduate," with its **compelling story architecture** and **iconic soundtrack by Simon and Garfunkel**, remains a timeless masterpiece.==  I first watched this film in College, and I spent considerable hours thinking about my future.
+	*
 
 #### Foreigner speaking fluent Chinese | Different Culture
 * During a band audition, applying for the Guitarist/Vocal 
