@@ -8,24 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ebf598afcbd50613",
+            "id": "341a42024fcfe0fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview/Language Tests/Speaking/Real questions.md",
+                "file": "Interview/Language Tests/Writing/Task1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "341a42024fcfe0fc",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -57,7 +49,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview/Language Tests/Speaking/Real questions.md"
+                "file": "Interview/Language Tests/Writing/Task1.md"
               }
             }
           },
@@ -92,8 +84,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -113,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview/Language Tests/Speaking/Real questions.md",
+                "file": "Interview/Language Tests/Writing/Task1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview/Language Tests/Speaking/Real questions.md",
+                "file": "Interview/Language Tests/Writing/Task1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,11 +165,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ebf598afcbd50613",
+  "active": "0b86655ee1075c4b",
   "lastOpenFiles": [
+    "Interview/Coding/Miscellaneous.md",
+    "Interview/Language Tests/Writing/Task1.md",
+    "Interview/Language Tests/Speaking/Real questions.md",
     "Interview/Language Tests/Writing/Writing.md",
     "Interview/Language Tests/Synonyms.md",
-    "Interview/Language Tests/Speaking/Real questions.md",
     "Interview/Language Tests/Writing/Real Questions.md",
     "Interview/Language Tests/Speaking/Speaking.md",
     "Attachments/Pasted image 20230930103128.png",
@@ -188,7 +181,6 @@
     "Attachments/Pasted image 20230930103015.png",
     "Interview/Language Tests/Writing/Radiohead.md",
     "Untitled.md",
-    "Interview/Language Tests/Writing/Task1.md",
     "Interview/Profile/Resume/README.md",
     "Interview/Language Tests/Topics.md",
     "Interview/Profile/Resume/sourabh_bajaj_resume.tex",
