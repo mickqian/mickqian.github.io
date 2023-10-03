@@ -424,16 +424,17 @@ And modern art is sort of like, **breaking the mould** and reflecting the artist
 
 >[!Tip] disad:
 >* the **cost of living** in cities can be significantly higher
->* noise, pollution, congestion(traffic jam)
+>* noise, pollution, traffic congestion(traffic jam)
 >* People may also experience a **lack of personal space and privacy**
->* fast-paced urban lifestyle can lead to high levels of stres
+>* fast-paced urban lifestyle can lead to high levels of stress
 
 ### Ruralization
 #rural
 ad:
 * slow-paced life
+* lower cost of living
 * **a stronger sense of close-knit community**
-* tranquility, natural beauty, lower cost of living, and a close-knit community
+* For people who favor tranquility and natural beauty
 
 
 ### Transport
@@ -511,10 +512,11 @@ The **stories** of the **strategy**, and the **political** intrigue/**drama** ha
 
 ==I would like to learn more about this historical period because it is a **crucial** part of Chinese **history** that **shaped** the country's **culture** and **identity**. 
 Learning about this period would help me appreciate China's **rich heritage** and the wisdom of its people, which remain relevant today. 
-Plus, it's a fascinating era that, I believe, holds countless valuable lessons for today's world.==
+Plus, it's a fascinating era that, I believe, holds countless valuable lessons for people today to make informed decisions.==
 
 #### History 
-==provides valuable **insights** into the past, and understanding **historical** **events** and their **consequences** can help individuals make **informed** decisions and avoid further mistakes in the present and future.==
+==provides valuable **insights** into the past, 
+understanding **historical** **events** and their **consequences** can help individuals make **informed** decisions and avoid further mistakes in the present and future.==
 
 
 ### Person
@@ -580,8 +582,7 @@ As an inexperienced amateur band, we often encounter numerous problems, involvin
 * He quickly integrated into our group with his humor and warm heart. We were happy to accept him as our new neighbor
 
 #### Actor | Movie
-Dustin Hoffman.
-portrayal of diverse characters
+Dustin Hoffman
 
 Dustin Hoffman is an actor I greatly admire for his remarkable **versatility** and depth. 
 * He's considered to be one of the most talented actors, along with Al Pacino and Jack Nicholson
