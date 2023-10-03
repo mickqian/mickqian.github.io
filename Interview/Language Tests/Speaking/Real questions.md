@@ -1004,8 +1004,8 @@ any services that fail to satisfy customers' needs
 #### With a young child | Party | Teach | Enjoyable experience
 * This happened at my colleague's son's birthday party. As I knew his son was in a perfect ago to start playing an instrument, I decided to bring a carefully-selected acoustic guitar as a gift, which was a bit expensive.
 * Instead of regular birthday activities, we ended up spending the entire afternoon together with a kind of impromptu guitar class, where I taught him some basic guitar chords and picking technique. Actually I was quite nervous, since I was merely an inexperienced amateur guitar newbie myself.
-* By the end of the day, he was able to strum a few simple songs including twinkle twinkle little star. Seeing his sense of achievement and the joy on his face was truly rewarding. 
-* Based on the joy on his face, more than just giving him a gift, I was able to pass my obsession towards music to another,  ignite within him a passion for music. **Not only did he feel satisfied, I also experience a great sense of fulfillment from teaching, which leads to my obsession toward music till today**. It's **gratifying** to witness someone's progress.
+* By the end of the day, he was able to strum a few simple songs including twinkle twinkle little star. Seeing such progress, I suggested to have a small live at the party, and based on the joy on his face and those audience, I knew I had made something great here.
+* It's not just about giving a gift, it was about sparking passion towards music in a young mind. **Not only did he feel satisfied, I also experience a great sense of fulfillment from teaching, which leads to my obsession toward music till today**. It's **gratifying** to witness someone's progress.
 * This day had a profound impact on me and rejuvenates my fascination with music every time I recall it.
 * kind teaching
 
