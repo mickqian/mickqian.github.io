@@ -622,7 +622,6 @@ Sam Altman
 
 ##### Family business 
 
-##### 
 
 ### Movies 
 
@@ -630,10 +629,10 @@ Sam Altman
 
 Once upon a time in Hollywood
 * already a big fan, was expecting the film to be as good as Pulp fiction, at least the reservoir dog
-* So it was basically a crime film based on real events.
+* So it was basically a **crime film** based on real events.
 * I found the plots **cheesy**, cliche, and kind of boring 
 * performance of **Leonardo** and brad Pitt is not satisfying, unworthy of their fames
-* Besides, the director changed the original ending, making it a revenge story, which was very unreasonable to me.
+* Besides, the director changed the **original ending**, making it a revenge story, which was very unreasonable to me.
 * Some might say the film was Ok compared to other **theatrical** movies, but I've put very hight expectations into that one, So I' was really disappointed
 * 
 ### Job
