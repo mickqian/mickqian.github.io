@@ -414,24 +414,26 @@ And modern art is sort of like, **breaking the mould** and reflecting the artist
 ### Urbanization
 #urban
 
-ad:
-* public service: transportation
-* job opportunities and career prospects
-* social opportunities including health care and education
-* ==**are hubs of culture and entertainment**==
+>[!Tip]  ad:
+>* public service: transportation
+>* job opportunities and career prospects
+>* social opportunities including health care and education
+>* equipped with more facilities
+>* ==are hubs of culture and entertainment==
 
-disad:
-* the **cost of living** in cities can be significantly higher
-* noise, pollution, congestion(traffic jam)
-* People may also experience a **lack of personal space and privacy**
-* fast-paced urban lifestyle can lead to high levels of stress
+
+>[!Tip] disad:
+>* the **cost of living** in cities can be significantly higher
+>* noise, pollution, congestion(traffic jam)
+>* People may also experience a **lack of personal space and privacy**
+>* fast-paced urban lifestyle can lead to high levels of stres
 
 ### Ruralization
 #rural
 ad:
 * slow-paced life
-* **a stronger sense of close-knit  community**
-* tranquility, natural beauty, lower cost of living, and a close-knit 
+* **a stronger sense of close-knit community**
+* tranquility, natural beauty, lower cost of living, and a close-knit community
 
 
 ### Transport
