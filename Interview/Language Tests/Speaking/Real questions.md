@@ -925,6 +925,8 @@ alcohol is not allowed, to avoid unexpected issues
 * Looking back, it's process of working with my friends and creating fantastic music that captivates me.
 * Late:
 	* ==This experience taught me the importance of planning ahead and **considering unexpected factors** that could affect my schedule. Since then, I have become more **cautious** and proactive in managing my time to avoid similar incidents in the future. I never procrastinate since then.==
+* Advantage for playing
+	* I was grateful for making this important decision to pick up the guitar. If I hadn't made that decision with courage and perseverance, I wouldn't have the chance to express my skills on stage.
 
 
 work, social gatherings, personal appointments
@@ -977,7 +979,6 @@ any services that fail to satisfy customers' needs
 * build a feedback system, hear from customers' advice
 * offer proper training course or job opportunity
 * establishing employee **incentive programs** **can encourage/motivate employees to behave better**
-
 
 
 #### With a young child | Party | Teach | Enjoyable experience
