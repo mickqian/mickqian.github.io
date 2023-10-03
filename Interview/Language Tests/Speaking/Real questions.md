@@ -842,7 +842,7 @@ for them to **unwind**
 * Some may choose less tensive activities : chessing, reading, dancing 
 
 find a sense of **tranquility** in parks,
-, which are excellent for **maintaining** physical and mental well-being.
+**which are excellent for **maintaining** physical and mental well-being.**
 keep them in pristine condition
 ##### Is making noise one of people's rights?
 While making sound is a right, it must be balanced with others' rights to peace and quiet, especially in shared spaces.
@@ -851,7 +851,7 @@ Daffodil
 ==There's something really satisfying== about watching those tiny seeds sprout 发芽.
 People enjoy planting flowers for their **aesthetic appeal**, **therapeutic benefits**, environmental impact, and the **satisfaction gained from nurturing growth**. Flowers can cheer me up whole day.
 
-##### Benefits
+##### Benefits of Parks and outdoor games
 * children: promotes physical activity, social **interaction**, connection with **nature**
 * adult: physical exercise, **relieve** **stress**, get them away from the hustle-bustle
 
