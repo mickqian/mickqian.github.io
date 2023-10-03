@@ -49,6 +49,8 @@ Why enjoy/interested?
 * 认可： recognition
 * 成就： a sense of accomplishment
 * 同理心：empathy & companion
+* 责任心： demonstrates responsibility
+* 尊重：reflects respect for others
 
 
 >[!Info] Idioms
@@ -90,7 +92,7 @@ Why enjoy/interested?
 >Not everyone, As ... is a personal practice that varies based on individual preferences, circumstances, and personality traits. 
 >It various from people to people
 >It's contingent on whether
->It's a little stereotyped to think
+>It's a little stereotypical to think
 >It's a **personal practice** that varies based on individual preferences, circumstances, and personality traits. 
 >
  
@@ -550,10 +552,12 @@ I guess all that achievements come from his exceptional communication skills, wh
 #### Interest
 Moreover, we quickly discovered we both love Italian cuisine so we often **gather at a nearby  Italian restaurant**,  after rehearsal, discussing everything from music to life. 
 
-#### Interesting idea
-* During rehearsals, he **constantly** brought unique ideas to the table, whether it was about the song's design, or subtle suggestions about the tone of the guitar. 
-* Once during a rehearsal, the bassist accidentally kick down the chair near her, making a high-pitched sound. While most of us ignored it, he immediately captured this, suggested integrating that note into the song, which turned out to be surprisingly weird but somehow melodic and harmonious. The **melody** and the **groove** of the song is **enriched** by this **genius design**. We were all convinced with his talents in music.
+#### Interesting idea | Advice
+* During rehearsals, he **constantly** brought unique ideas to the table, whether it was about the song's design, or subtle suggestions about the tone of the guitar.
+* He was composing a new song then, in brit-pop style. But he was **dissatisfied** about the **interim** song, and found it hard to come up with the **main melody**.
+* Once during a rehearsal, the bassist/composer accidentally kick down the chair near her, making a high-pitched sound. While most of us ignored it, he immediately captured this, suggested integrating that note into the song, which turned out to be surprisingly weird but somehow melodic and harmonious. The **melody** and the **groove** of the song is **enriched** by this **genius design**. We were all convinced with his talents in music.
 * Moreover, he even **offered insights** into our **stage design**, suggesting specific movements and poses for us when performing. All of these ideas sound interesting and inspiring.
+* Advice: I think I enjoy helping people and saving them from complex problems. It's not just about **benefiting** others, it's a journey of self-improvement.
 
 #### Help others
 As an inexperienced amateur band, we often encounter numerous problems, involving equipments, effects, skills or music transcription. Since he's a **semi-professional** player, he always managed to solve our problems within seconds. 
@@ -658,6 +662,7 @@ Musicians rely heavily in muse when creating, so **hopefully I can draw some ins
 
 
 ### Decision | What makes you proud Period change life | Physically Tired
+* immensively proud
 * I've always been fascinated by the beauty of music. I spent **countless** hours listening to various genres of music. But it never occurred to me that I can play the music myself.
 * After graduating, I decided to pick up an instrument and learn by myself, just out of self-expression and fulfillment
 * Due to long working hours during the day, I don't have the time to attend any music classes. Thanks to various resources on social media websites such as Youtube, BiliBili, I can learn from guitar masters anytime anywhere I want, without having to go to traditional music schools. As a result, my guitar skills improved very quickly.
@@ -671,6 +676,29 @@ However, it's **challenging** as it demands hard work and continuous effort 坚�
 
 
 It's all about perseverance. 
+##### Goal
+
+##### Personal or Work
+
+personal: contribute to happiness and well-being
+work: financial stability and **professional growth**, career advancements
+
+
+##### Does everyone set
+Not everyone sets explicit goals for themselves, as goal-setting is a **personal practice** that varies based on individual preferences, circumstances, and personality traits. 
+
+Some individuals are naturally more goal-oriented and proactive in setting and achieving objectives, while others 
+	* may be more content with a **flexible approach to life.** 
+	* **lack of direction**, **contentment** with their current situation, or uncertainty about the future.
+
+##### Has your dream changed?
+Yes, my dream has evolved from, trying to be a successful Software Engineer, to an influential AI Scientist, while moonlighting as a guitarist in a local pub./
+
+##### Rewards 
+boost employees' satisfaction and productivity
+
+* material: bonuses, gifts, pay rise
+* emotional: recognition, praise, encouragement, acknowledgement, career advancement
 
 
 ### Festival
@@ -896,6 +924,14 @@ alcohol is not allowed, to avoid unexpected issues
 * I felt very sorry and embarrassed for breaking my own promise. Luckily the rehearsal and performance went out well, without major incidents.
 * We performed several britpop songs, though I made a few minor mistakes, the audience seemed to enjoy it. **It was satisfactory to share the music I love with people**.
 * Looking back, it's process of working with my friends and creating fantastic music that captivates me.
+* Late:
+	* ==This experience taught me the importance of planning ahead and **considering unexpected factors** that could affect my schedule. Since then, I have become more **cautious** and proactive in managing my time to avoid similar incidents in the future. I never procrastinate since then.==
+
+
+work, social gatherings, personal appointments
+punctuality shows **professionalism and reliability**
+
+
 
 #### Bad Service
 
@@ -1019,7 +1055,7 @@ After the commercial ended, I immediately bought one on online shop. And I was h
 * Although I was pretty **frustrated** and **annoyed** by the false information provided by the organizer, but finally found it by ourselves has solved the problem
 
 
-#### Advice | Proud
+#### Proud
 * So about 3 years ago, my company is holding a competition called "Hackathon". It's basically a group of people gathering together, solving an issue within 48 hours or so. Later, all the work will be **evaluated** by some judges.
 * Some of my colleagues call out me to join their team. Why not?
 * But we encountered countless issues, as we had no experience participating in any hackathon before. One of the major problem was, we found ourselves working on **separated** computers, so **information sharing** was a struggle. I immediately suggested we started the "**collaborated development**" feature on our computers. As a result, the efficient was doubled.
@@ -1287,28 +1323,6 @@ Empathy, compassion, respect, friendship **motivate** children to help **volunta
 
 ### Why should children be kind to their classmates?
 Children should be kind to classmates because it **fosters a positive/harmonious learning environment**. It's crucial to build good relationships between classmates. Besides, kindness also lead to empathy and understanding, which is good for overall well-being and personal growth for children.
-### Goals 
-
-#### Personal or Work
-
-personal: contribute to happiness and well-being 
-work: financial stability and professional growth
-
-
-#### Does everyone set
-Not everyone sets explicit goals for themselves, as goal-setting is a **personal practice** that varies based on individual preferences, circumstances, and personality traits. 
-
-Some individuals are naturally more goal-oriented and proactive in setting and achieving objectives, while others may be more content with a **flexible approach to life.**
-
-
-
-#### Has your dream changed?
-Yes, my dream has evolved from, trying to be a successful Software Engineer, to an influential AI Scientist, while moonlighting as a guitarist in a local pub./
-
-#### Rewards 
-* material: bonus, gifts
-* emotional: recognition, encouragement, acknowledgement
-
 
 
 
@@ -1458,8 +1472,7 @@ Eating in restaurants offers variety, convenience, and a chance to socialize. Ho
 * prefer spontaneity, enjoy the novelty and its unpredictable nature. Liking the randomness and freshness provided by random choices. 
  
 ### Changes 
-
-It's a bit stereotyped to decide whether an individual adapt well to changes based their ages. It's unrelated to their ages, but about their flexibility, how they view changes, how do they prepare and handle them.
+It's a bit stereotypical to decide whether an individual adapt well to changes based their ages. It's unrelated to their ages, but about their flexibility, how they view changes, how do they prepare and handle them.
 Generally speaking, children are more flexible, making them accepting the changes more naturally and easily
 
 ### Actor
