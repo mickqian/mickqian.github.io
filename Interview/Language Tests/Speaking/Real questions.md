@@ -626,7 +626,6 @@ Sam Altman
 
 ##### Family business 
 
-
 ### Movies 
 
 #### Disappointing
@@ -638,7 +637,10 @@ Once upon a time in Hollywood
 * performance of **Leonardo** and brad Pitt is not satisfying, unworthy of their fames
 * Besides, the director changed the **original ending**, making it a revenge story, which was very unreasonable to me.
 * Some might say the film was Ok compared to other **theatrical** movies, but I've put very hight expectations into that one, So I' was really disappointed
-* 
+
+
+
+
 ### Job
 
 #### Skills
@@ -661,7 +663,7 @@ expand one's horizons
 * After graduating, I decided to pick up an instrument and learn by myself, just out of self-expression and fulfillment
 * Due to long working hours during the day, I don't have the time to attend any music classes. Thanks to **abundant tutorials** on [social media](https://en.wikipedia.org/wiki/Social_media) platform such as Youtube, BiliBili, I can learn from guitar masters anytime anywhere I want, without having to attend traditional music schools. **As a result, my guitar skills improved very quickly.**
 * Despite all these obstacles, Luckily, through lots of practice, I managed to join a local band and play as the lead guitarist. We successfully  produce our original song and perform in local concerns, which turned out to be quite successful.
-* Looking back, deciding to play guitar is a spontaneous and random decision, but have profound implications in my personal life. I'm grateful that I made the decision,  **If it had not been my perseverance and devotion, I would never have the change to perform in front of such a huge crowd.**
+* ==Looking back, it's not just a spontaneous and random decision to pick up a certain instrument, but a decision that have profound implications on my personal life==. I'm grateful that I made the decision,  **If it had not been my perseverance and devotion, I would never have the change to perform in front of such a huge crowd.**
 
 
 **disseminate**
@@ -728,19 +730,17 @@ The festival is **rich in history and culture**, **and it's known for its dragon
 #### Conclusion
 The Duanwu Festival is a time of excitement and camaraderie. **It's a unique blend of history, sport, and culinary 烹饪 tradition that makes it a truly special event in the Chinese calendar.**
 
-
 ==There's no denying that, His/Its unique blend of history/sport/culinary/acting skills/charm/charisma/music talents/instrument playing skills makes him/it a truly remarkable/special/inspirational figure in the movie history/Chinese Calendar.==
-
 ### Public Figure | Interesting
 * successful
 * popular
 Paul McCartney
 
-* talented song-writer, sophisticated bass player,  **gifted singer**, a generous philanthropist
-* He's able to produce intriguing melody. In fact, he and John Lennon are considered the greatest song-writting duo ever. He had made **considerable amount** of hit songs, unmatched by any other musicians later
+* talented song-writer, sophisticated bass player, **gifted singer**, a generous philanthropist
+* He's able to produce intriguing melody. In fact, he and John Lennon are considered the greatest song-writting duo ever. He had made **considerable amount** of hit songs, **unmatched** by any other musicians later
 * Besides his talent in music, **He was keen on attending charity events, by donating or writing songs.**
 * he has been at the **pinnacle** of music throughout his whole career
-* He  had left an inedible imprint on the  rock & roll history, **inspiring numerous fellow musicians to follow in their steps.**
+* He had left an inedible imprint on the rock & roll history, **inspiring numerous fellow musicians to follow in their steps.**
 
 
 
@@ -894,7 +894,7 @@ Though the food there was tasty, I love the Fajita and Mojito, the atmosphere in
 ### Trip to Xinjiang | Car journey | Childhood happy | Adventure | Interesting Places
 * I haven't had the opportunity to explore **many places**, but one **particular** location in my country that has always intrigued me is
 * Through some documentaries on Xinjiang, I get to gain insights into unique characteristics of this place.
-* ==We visited colorful craft markets which are called Baza, and brought back souvenirs for our friends back here in Hangzhou. One of my most memorable experiences was to the Sailimu Lake. It is a little bit off the beaten track but a serene wonderland surrounded by great scenic beauty 美景 and magnificent landscapes 壮丽风景.==
+* ==We visited colorful craft markets which are called Bazzar, and brought back souvenirs for our friends back here in Hangzhou. One of my most memorable experiences was to the Sailimu Lake. It is a little bit off the beaten track but a serene wonderland surrounded by great scenic beauty 美景 and magnificent landscapes 壮丽风景.==
 * ==What's more, I got to immerse myself into exotic culture, different traditions, cuisines and meet diverse people, which all contributed to an enriching experience==
 * exotic: clothes, food, their markets, fruits
 * local people being friendly and modesty, hospitable
@@ -1110,11 +1110,11 @@ Among the countless pieces of art that have been created **over centuries**, one
 I first encountered “The Starry Night” during a school trip to a local [Museum](https://ieltsrewind.com/describe-a-museum-you-have-visited-and-liked/) , where a replica is being exhibited.
 
 I had to say, its **vibrant colors and unique style** stood out among the other artworks.
-from the later research I did, Painted in 1889 in a mental hospital, it **presents an image** of a night sky filled with **swirling** stars, overlooking a quaint 古色古香 town. The night sky could be seen as a representation of his inner feelings and emotional state at that time. 
+from the later research I did, painted in 1889 in a mental hospital, it **presents an image** of a night sky filled with **swirling** stars, overlooking a quaint 古色古香 town. The night sky could be seen as a representation of his inner feelings and emotional state at that time. 
 ![[Pasted image 20230930103128.png]]
 
 
-In fact, not only did I enjoy the painting itself,  **I also adore** a beautiful song called "Vincent"by Don Mclean too. Its lyric starts with "Starry Starry night", serves as a tribute to Van Gogh.
+In fact, not only did I enjoy the painting itself,  **I also adore** a beautiful song called "Vincent"by Don Mclean too. Its lyric starts with "Starry Starry night",  serves as a tribute to Van Gogh.
 
 Resonate & dark times & adversity: I find most fascinating about “The Starry Night” is how it resonates with me on an emotional level. It serves as a **reminder** that **beauty can be found even in dark times**, and that ==creativity can flourish **amidst adversity 逆境**==.
 
@@ -1174,21 +1174,15 @@ Nowadays, online media is much more prevalent than newspaper, the traditional me
 
 ### Party 
 
-
-
 #### when we don't know anyone
 I find it totally fine if we don't know anymore, because that's not the purpose of parties. Party is a time for us to relax and enjoy, not some kind of social activity.
 
 #### Uninvited rude?
 * It can be rude, depending on the party organizer
 
-
 #### Uninvited guests, negative intentions
 
-
 #### Should you go to the party if you only know one person?  
-
-
 
 
 
@@ -1208,27 +1202,22 @@ main difference: level of detail and complexity.
 primary: with a focus on helping students understand the basic concepts
 high school: taught in more depth, understand **perspectives**, **examining the causes and consequences of historical events**.
 
-
 #### Protect
-do want to protect and preserve except maybe a few who **put business ahead of their morality and rational thinking**
+do want to protect and preserve except maybe a few who **put business ahead of their morality 道德 and rational thinking 理性思考**
 
 
 We had our moments when people spontaneously protested the plan to demolish such sites in the past.
 
-Historic structures often require regular maintenance and **restoration** to prevent **deterioration**. 
+Historic structures often require regular maintenance and **restoration** to prevent **deterioration 恶化**. 
 
 Balancing the preservation of historical significance with **the need for modernization and functional use** can be difficult. 
 
+Additionally, **funding** and **resources** are crucial for preservation efforts, and it can be challenging to secure financial support. 
 
-Additionally, funding and resources are crucial for preservation efforts, and it can be challenging to secure financial support. 
-
-Legal regulations and zoning laws can also impact preservation decisions, adding complexity to the process. 
+Legal **regulations** and zoning laws can also impact preservation decisions, adding complexity to the process. 
 
 Despite these challenges, preserving historic buildings is essential to maintain **cultural heritage** and **architectural history.**
-
-
 #### Is it hard to protect
-
 
 * **natural wear and tear** that occurs **over time**, which can lead to deterioration and unrepairable damage
 * balancing the need for preservation with the need for modernization and development. For example, there may be pressure from developers or local authorities to **demolish** or **alter** historical buildings in order to make way for **new infrastructure or buildings**
@@ -1271,7 +1260,6 @@ For instance, some children might dislike Halloween because they find the costum
 * wearable: smartwatches, augmented-reality glasses
 * As for information technology, there are software technology and Machine Learning
 
-
 #### Big companies release new products 
 The main reason is to attract customer's attention to encourage them to purchase
 Another reason is that, in today's highly competitive market, need to ... to gain an advantage over their rivals.
@@ -1305,10 +1293,8 @@ Smart children are likely to be influenced by a variety of sources, including **
 
 #### What kind of people have lots of great ideas in your country? (Innovative people in my country usually come from professions related to computers, media and science. The nature of their jobs drives them to come up with innovative ideas and it is the only way for them to thrive. )
 Innovative thinkers, often found **in fields like** technology, science, and arts, typically have many great ideas. Entrepreneurs and educators also contribute significantly with their creative solutions and approaches.
-
 ### Pollution 
 People these days are all about green living and **reducing their carbon footprint.**
-
 
 _Factories use_ **_fossil fuels_** _to run machines and the **_carbon monoxide_** _released lead to air pollution. 
 Factories_ **_dispose_** _of their waste in nearby_ **_waterways_**_, creating water pollution._
@@ -1330,14 +1316,11 @@ Many animals abandon their_ **_natural habitats_** once a factory is built, crea
 * noise <-> urban areas
 * light <-> affecting wildlife
 
-
 #### Individuals
 play an important role in combating pollution 
 * implement recycling
 * reduce energy consumption by resorting to public transportation 
 * support sustainable products
-
-
 
 ### Help
 It teaches about **responsibility and teamwork.**
@@ -1363,7 +1346,6 @@ important life skill
 stimulate creativity 
 
 accumulate academic knowledge
-
 
 ### Jobs
 #### What are the most popular jobs for young people in your country(fast food delivery)
