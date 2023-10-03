@@ -416,7 +416,7 @@ And modern art is sort of like, **breaking the mould** and reflecting the artist
 
 >[!Tip] disad:
 >* the **cost of living** in cities can be significantly higher
->* noise, pollution, traffic congestion(traffic jam)
+>* the problem of noise, pollution, traffic congestion(traffic jam) can not be neglected
 >* People may also experience a **lack of personal space and privacy**
 >* fast-paced urban lifestyle can lead to high levels of stress
 
@@ -503,8 +503,8 @@ It was a time of great **turmoil**, with the whole **region** separated into pow
 The **stories** of the **strategy**, and the **political** intrigue/**drama** happened in that period has contributed to this epic novel called "Romance of the Three Kingdoms", which is a must-read, classic **literacy** work for students in China. It also had **profound** implications on the Chinese literature landscape, inspiring countless writers in **subsequent generations.** 
 
 ==I would like to learn more about this historical period because it is a **crucial** part of Chinese **history** that **shaped** the country's **culture** and **identity**. 
-Learning about this period would help me appreciate China's **rich heritage** and the wisdom of its people, which remain relevant today. 
-Plus, it's a fascinating era that, I believe, holds countless valuable lessons for people today to make informed decisions.==
+Learning about this period would help me appreciate China's **rich heritage** and the wisdom of its people 
+Plus, it's a fascinating era that, I believe, holds countless valuable lessons for people today to make informed decisions, which remain relevant today.==
 
 #### History 
 ==provides valuable **insights** into the past, 
@@ -536,7 +536,7 @@ Besides the fact that he's a fantastic musician, he's also a person with **great
 #### Work | Successful
 I met him on a course/conference of AI, where we were going to work on a project.
 
-It was quite a complicated task, I would say, but he was constantly pushing the progress forward, and with his help, we finished the project well ahead of schedule.
+It was quite a complicated task, I would say, but he was constantly pushing the progress forward, and with his help, we finished the project **well ahead of schedule**.
 
 He's also devoted to work, leading a team on AI music generation and has gained reputation in that area. 
 
@@ -572,6 +572,8 @@ As an inexperienced amateur band, we often encounter numerous problems, involvin
 * Everything is highly digitalized, suitable for tech-geeks to live in
 * At that night, he invited us to have a party, where we enjoyed some soothing bossa nova, and had a great dinner made by himself, which was Italian and quite tasty, I would say
 * He quickly integrated into our group with his humor and warm heart. We were happy to accept him as our new neighbor
+* In the bushes near my apartment, there are many stray cats. He has been taking care of them since he moved in. I can often spot him feeding them early in the morning, and he even provides them with shelter, which will cost a fortune.
+* It was because of his kind action and love towards wildlives, that make our community a better and more united place to live in
 
 #### Actor | Movie
 Dustin Hoffman
@@ -587,7 +589,7 @@ Dustin Hoffman is an actor I greatly admire for his remarkable **versatility** a
 	* Explores the themes of generation gap and identity/existential crisis. 
 	* Added to this was a **haunting musical score**, written by my favorite folk duo, Simon & Garfunkel.  The music is already good enough for itself, but also integrated into the plots so well, especially the one with Benjamin's infamous poolside drifting scene.
 	* In essence, "The Graduate," with its **compelling story architecture** and **iconic soundtrack by Simon and Garfunkel**, remains a timeless masterpiece. 
-	* ==***As much as it's entertaining, it's also educational and deeply thought-provoking.***==
+	* ==As much as it's entertaining, it's also educational and deeply thought-provoking.==
 
 #### Foreigner speaking fluent Chinese | Different Culture
 * During a band audition, applying for the Guitarist/Vocal 
@@ -683,7 +685,8 @@ Teenagers enter a phase where they need to make crucial decisions that **shape t
 * friends or classmates, who can provide a peer perspective to the problem
 
 ##### Advertisements 
-* highlight the features, unique selling points, **instill** a sense of **curiosity**
+* highlight the features, unique selling points 
+* **instill** a sense of **curiosity** in the audience
 * ==triggering a sense of longing or the fear of missing out, known as FOMO==
 
 ##### Influence of ads
@@ -889,7 +892,7 @@ Though the food there was tasty, I love the Fajita and Mojito, the atmosphere in
 ### Trip to Xinjiang | Car journey | Childhood happy | Adventure | Interesting Places
 * I haven't had the opportunity to explore **many places**, but one **particular** location in my country that has always intrigued me is
 * Through some documentaries on Xinjiang, I get to gain insights into unique characteristics of this place.
-* ==We visited colorful craft markets which are called Baza, and brought back souvenirs, to remind us of our trip. One of my most memorable experiences was to the Sailimu Lake. It is a little bit off the beaten track but surrounded by great scenic beauty 美景 and magnificent landscapes 壮丽风景.==
+* ==We visited colorful craft markets which are called Baza, and brought back souvenirs for our friends back here in Hangzhou. One of my most memorable experiences was to the Sailimu Lake. It is a little bit off the beaten track but a serene wonderland surrounded by great scenic beauty 美景 and magnificent landscapes 壮丽风景.==
 * ==What's more, I got to immerse myself into exotic culture, different traditions, cuisines and meet diverse people, which all contributed to an enriching experience==
 * exotic: clothes, food, their markets, fruits
 * local people being friendly and modesty, hospitable
