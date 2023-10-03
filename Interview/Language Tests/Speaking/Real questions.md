@@ -4,7 +4,7 @@
 * the companies he runs have all achieved global leadership
 * gain an advantage/edge over rivals
 * captivate my interests
-* This includes
+* **This includes**
 * happy <-> thrilled, delighted, overjoyed
 * 不用正面回答，不用以第一人称主语开始
 * delight
