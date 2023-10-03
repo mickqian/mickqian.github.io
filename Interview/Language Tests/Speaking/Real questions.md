@@ -815,6 +815,7 @@ ad: **slow pace of living**, lead peaceful and comfortable life, low-cost, conne
 	* enjoy music, play guitar or improvise to a backing track whenever I want to/I feel like it
 * relaxing, gratifying, satisfactory
 * after my lease of current apartment runs out
+
 #### Store
 * a new guitar flagship shop, **featuring** my favorite guitar brand
 * It sells a variety of guitars, as well as related accessories including guitar amp, pick, string and straps
