@@ -664,17 +664,10 @@ Musicians rely heavily in muse when creating, so **hopefully I can draw some ins
 * immensively proud
 * I've always been fascinated by the beauty of music. I spent **countless** hours listening to various genres of music. But it never occurred to me that I can play the music myself.
 * After graduating, I decided to pick up an instrument and learn by myself, just out of self-expression and fulfillment
-* Due to long working hours during the day, I don't have the time to attend any music classes. Thanks to various resources on social media websites such as Youtube, BiliBili, I can learn from guitar masters anytime anywhere I want, without having to go to traditional music schools. As a result, my guitar skills improved very quickly.
+* Due to long working hours during the day, I don't have the time to attend any music classes. Thanks to **abundant tutorials** on [social media](https://en.wikipedia.org/wiki/Social_media) platform such as Youtube, BiliBili, I can learn from guitar masters anytime anywhere I want, without having to attend traditional music schools. **As a result, my guitar skills improved very quickly.**
 * Despite all these obstacles, Luckily, through lots of practice, I managed to join a local band and play as the lead guitarist. We successfully  produce our original song and perform in local concerns, which turned out to be quite successful.
-* looking back, I'm grateful that I made the decision to learn to play guitar and overcame various challenges, for the outcome has been wonderful
-* **If it had not been my perseverance and devotion, I would never have the change to perform in front of such a huge crowd.**
-* By relying on self-confident, perseverance, one can achieve anything
-
-
-However, it's **challenging** as it demands hard work and continuous effort 坚持努力.
-
-
-It's all about perseverance. 
+* Looking back, deciding to play guitar is a spontaneous and random decision, but have profound implications in my personal life. I'm grateful that I made the decision,  **If it had not been my perseverance and devotion, I would never have the change to perform in front of such a huge crowd.**
+ 
 ##### Goal
 
 ##### Personal or Work
