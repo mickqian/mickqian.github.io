@@ -566,7 +566,7 @@ As an inexperienced amateur band, we often encounter numerous problems, involvin
 * So we started to rehearse 2 or 3 times a week, improving every possible aspects of our performance.
 * At the night we delivered the performance, before we went on stage, we took a brief photo of ourselves. The composition of photo is quite simple: A photo of all our band members, standing in front of a huge logo of that concert, ==but the story behind it had already **left an indelible imprint in my mind**, which I truly cherished.==
 
-#### Move to community
+#### Move to community & positive influence
 * About a fortnight ago
 * When I was helping him moving, I saw his new place. Compact, clean space. **Decorated in Scandinavian style**, just like those in the Black Mirror.
 * Everything is highly digitalized, suitable for tech-geeks to live in
