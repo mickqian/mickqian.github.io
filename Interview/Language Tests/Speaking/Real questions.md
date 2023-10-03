@@ -914,12 +914,13 @@ That was a rare case
 * lack of professionalism  
 
 ##### Respond
+based on their personalities and **cultural norms**
 I believe it is circumstantial.
 * may not like confrontation, deem it best to just avoid any **conflicts**. Everyone reacts in different ways that match their personalities.
 * just leave
 * speak to the manager and complain about, express their concerns and unsatisfactory
-* give bad reviews on the social media apps.
-* resort to boycotting, post about it on social media
+* more reserved, opt to give bad reviews on the social media apps.
+* resort to boycotting, post about it on social media, **spread negative word-of-mouth**
 
 It depends on the level of severity of the **unsatisfactory** service
 
