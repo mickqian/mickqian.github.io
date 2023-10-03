@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5,
-    "collapsed": true
+    "width": 260.5
   },
   "right": {
     "id": "47168004564bfdc1",
@@ -166,7 +165,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b86655ee1075c4b",
+  "active": "45ceb78c1960971a",
   "lastOpenFiles": [
     "Interview/Language Tests/Writing/Task1.md",
     "Interview/Coding/Miscellaneous.md",

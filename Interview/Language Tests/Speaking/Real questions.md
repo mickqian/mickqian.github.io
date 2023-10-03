@@ -1071,6 +1071,12 @@ After the commercial ended, I immediately bought one on online shop. And I was h
 * Luckily, it was close to the actual location. We managed to get close step by step, by following the sound made by stereos.
 * Although I was pretty **frustrated** and **annoyed** by the false information provided by the organizer, but finally found it by ourselves has solved the problem
 
+##### Information
+
+For one, **it's much easier to ignore or overlook an email, compared to a phone call**. **Urgency and tone of voice** are also lost within emails. 
+Emails can also consume valuable time with **back-and-forth messages** that could have been handled with a quick phone conversation.
+However, when it comes to further recording and details, email is a better option.
+Phones ensure real-time synchronized communication,
 
 #### Proud
 * So about 3 years ago, my company is holding a competition called "Hackathon". It's basically a group of people gathering together, solving an issue within 48 hours or so. Later, all the work will be **evaluated** by some judges.
