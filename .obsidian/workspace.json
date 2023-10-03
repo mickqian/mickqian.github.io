@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8bfc602e96007153",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interview/Language Tests/Synonyms.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ebf598afcbd50613",
             "type": "leaf",
             "state": {
@@ -41,8 +28,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"

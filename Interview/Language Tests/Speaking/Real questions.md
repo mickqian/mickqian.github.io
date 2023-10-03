@@ -732,7 +732,7 @@ I adhere to the principle of/choose quality over quantity.
 
 * Denim jacket, made by LVC
 * For the style, It's a Type-II Trucker jacket, which is a classic model. It features classical American postwar retro style 
-* Denim Cloth is my favorite material for a jacket, I like the rigid nature of it
+* Denim Cloth is my **favorite material for a jacket**, I like the rigid nature of it, and the silhouette it displays
 * Apart from the material, I'm obsessed with denim blue, it encapsulates both masculinity and energy
 * Since it's quite thick, I wear them only in Autumn and Spring, about once a weak
 * What fascinated me most is the cowboy spirit it displays: casual, natural, unrestrained - that's my interpretation.
