@@ -48,7 +48,7 @@ Why enjoy/interested?
 * 对人的帮助：equip people with skill
 * 认可： recognition
 * 成就： a sense of accomplishment
-* 同理心：empathy/express 
+* 同理心：empathy & companion
 
 
 >[!Info] Idioms
@@ -175,7 +175,6 @@ maintaining a positive state of mind
 #### Why
 His sophisticated guitar playing skills and outstanding composition abilities admires me. I wish I was the fourth member of Cream.
 
-
 ### Drinks
 #### Do people like tea and coffee nowadays?
 Well,  I would say that the love for tea and coffee is still going strong these days. Many people enjoy sipping a cup of tea or coffee to start their day or have a break.
@@ -192,18 +191,15 @@ No. While chocolate as a gift can make nice, I find it a little bit cliche, as i
 
 #### Have you ever learnt about outer spaces and stars?
 Yes, I learned about those things in High School, when I was taught Astronomy. I learned about solar system, different nebulas and galaxies. Out of curiosity, I watched 2001: A Space Odyssey, and it has been one of my favorite movies till this day.
-
 #### Do you like science fiction movies?
-Absolutely, I enjoy science fiction movies. I'm a big fan of David Kubrick, and his movies like 2001: Space Odyssey. Also, my favorite TV episode is Black Mirror, which shows me what the future will be like. One of the episode that most impressed me is about a **programmer** creating an imaginary spaceship based on a computer program.
-
-
+Absolutely, I enjoy science fiction movies. I'm a big fan of David Kubrick, and his movies like 2001: Space Odyssey. Also, my favorite TV episode is Black Mirror, which gives me an insight into the future. One of the episode that most impressed me is about a **programmer** creating an imaginary spaceship based on a computer program.
 
 #### Do you want to know more about outer space?
 Indeed, I'm always **eager to** learn more about outer space. It's a realm full of endless wonders and discoveries.
 
 
 #### Travel to space
-Oh wow, I have never thought about it. First thing to do is definitely record everything I see with a proper sports camera. **If I have the chance, I would like to see the dark side of the moon for every Pink Floyd fan.** Also, trying to find aliens on Mars sounds fun.
+Oh wow, I have never thought about it. First thing to do is definitely record everything I see with a proper sports camera. **If I have the chance, I would like to see the dark side of the like for every Pink Floyd fan.** Also, trying to find aliens on Mars sounds fun.
 
 
 ### Gifts
@@ -217,8 +213,6 @@ I consider the recipient's personal interests, the gift's uniqueness, its qualit
 I believe so. I **put thought into** understanding the recipient's preferences, which helps me choose meaningful gifts.
 
 Well, I like to think so! I always try to pick gifts that are thoughtful and meaningful to the recipient. **It's all about** knowing their interests and preferences, and putting some effort into finding something they'll truly appreciate.
-
-
 ### Key
 Yes, I always have a bunch of keys with me.
 
@@ -316,13 +310,9 @@ The space was **rather restricted** for I had to share with 3 other people. Also
 The weather here is called "Sub tropical monsoon climate", that's the technical term. 
 To be specific, we have **distinctive** seasons here, with the summer being **scorching** hot. 
 And it's humid throughout the year, making the winter rather cold and clothes hard to dry. Also, there's a lot of rain in September, which I hate.
-
-
-
 ### Animals
 #### Have you ever been to a zoo or a safari park?
 **Oh, absolutely! I've been to a local zoo here in Hangzhou, where I rode a tiger and took some pictures. Although at that time I was not aware of how dangerous these animals are.**
-
 
 #### Animal want to see
 I always want to seeing a gorilla, for I've heard about there intellect, and also, has a name similar  to one of my favorite band, Gorillaz.
@@ -366,14 +356,10 @@ Not many **job opportunities and career prospects**, I think I can't find a job 
 Also, the facilities and transportation are not as good.
 Besides, there aren't many entertainment places.
 
-
-
 #### Changes
 
 Yes, some skyscrapers and amenities like hospitals, theaters, shopping malls are built.
 Also, the transportation has been easier, thanks to the newly-built railway station.
-
-
 
 
 #### most popular means of transportation
@@ -390,7 +376,6 @@ I have a preference for neutral tones, such as blacks, whites, and earthy hues, 
 
 ### Computer
 I chose computer science as my major because I find the process of programming, seeing the program run without mistake a satisfying experience. I've always been fascinated by technology and its potential to solve complex problems.
-
 
 
 I chose computer science as my major because I've always been fascinated by technology and its potential to solve complex problems.
@@ -429,10 +414,10 @@ And modern art is sort of like, **breaking the mould** and reflecting the artist
 #urban
 
 ad:
-* public service
-* job opportunities,
+* public service: transportation
+* job opportunities and career prospects
 * social opportunities including health care and education
-* **are hubs of culture and entertainment**
+* ==**are hubs of culture and entertainment**==
 
 disad:
 * the **cost of living** in cities can be significantly higher
@@ -444,7 +429,7 @@ disad:
 #rural
 ad:
 * slow-paced life
-* a stronger sense of close-knit  community
+* **a stronger sense of close-knit  community**
 * tranquility, natural beauty, lower cost of living, and a close-knit 
 
 
@@ -490,7 +475,6 @@ Personally, I prefer to live in a dry place.
 #### Umbrella or raincoat
 
 
-
 #### Heavy rain
 ## Part 2
 
@@ -522,8 +506,9 @@ It was a time of great **turmoil**, with the whole **region** separated into pow
 
 The **stories** of the **strategy**, and the **political** intrigue/**drama** happened in that period has contributed to this epic novel called "Romance of the Three Kingdoms", which is a must-read, classic **literacy** work for students in China. It also had **profound** implications on the Chinese literature landscape, inspiring countless writers in **subsequent generations.** 
 
-
-==I would like to learn more about this historical period because it is a **crucial** part of Chinese **history** that **shaped** the country's **culture** and **identity**. Learning about this period would help me appreciate China's **rich heritage** and the wisdom of its people, which remain relevant today. Plus, it's a fascinating era that, I believe, holds many valuable lessons for today's world.==
+==I would like to learn more about this historical period because it is a **crucial** part of Chinese **history** that **shaped** the country's **culture** and **identity**. 
+Learning about this period would help me appreciate China's **rich heritage** and the wisdom of its people, which remain relevant today. 
+Plus, it's a fascinating era that, I believe, holds countless valuable lessons for today's world.==
 
 #### History 
 ==provides valuable **insights** into the past, and understanding **historical** **events** and their **consequences** can help individuals make **informed** decisions and avoid further mistakes in the present and future.==
@@ -616,14 +601,12 @@ Dustin Hoffman is an actor I greatly admire for his remarkable **versatility** a
 
 
 
-
-
 #### Like to cook
 * has an **incredible passion** for cooking
 * His dishes mainly **features** Italian food, one of his special dish is Carbonara, pasta with creamy texture. I once witnessed the whole process of him making this dish, and was **astonished** by how **meticulous** and **careful** about every steps. I guess that's the essential requirements to make a good meal.
 * Out of admiration, I couldn't help asking where did he learn to cook. 
 * **The reason behind** his commitment to cooking is ==his belief in **the profound impact of food** on human connections.==
-* ==He finds immense joy and satisfaction in seeing people savoring her food and enjoying every bite. It's not just about preparing a meal; it's about creating memorable dining experiences for those she cares about. Her warmth and generosity shine through her cooking, and it brings people closer together.==
+* ==He finds immense joy and satisfaction in seeing people savoring his food and enjoying every bite. It's not just about preparing a meal; it's about creating cherished dining experiences for those he cares about. His warmth and generosity shine through his cooking, and it brings people closer together.==
 
 ==It's not just about preparing a meal/giving a gift/taking a journey; It's about creating memorable birthday experiences with those I cherish==
 
