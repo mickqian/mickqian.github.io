@@ -897,9 +897,10 @@ unbearable
 * environment is compromised/sacrificed to economic development
 * at the cost of the 
 ### Trip to Xinjiang | Car journey | Childhood happy | Adventure | Interesting Places
-* I haven't had the opportunity to explore **many places**, but one **particular** location in my country that has always intrigued me is 
-* _We visited colorful_ **_craft markets_** _and brought back souvenirs, to remind us of our trip. One of my most_ **_memorable experiences_** _was to the Sailimu Lake. It is a little bit_ **_off the beaten track_** _but it is surrounded by great_ **_scenic beauty_** _and_ **_magnificent landscapes._**
-* natural landscape is nothing short of breathtaking. One of my favorite spots is the Sailimu Lake, hidden inside the peaks of the Tianshan range.
+* I haven't had the opportunity to explore **many places**, but one **particular** location in my country that has always intrigued me is
+* Through some documentaries on Xinjiang, I get to gain insights into unique characteristics of this place.
+* ==We visited colorful craft markets which are called Baza,  and brought back souvenirs, to remind us of our trip. One of my most memorable experiences was to the Sailimu Lake. It is a little bit off the beaten track but it is surrounded by great scenic beauty and magnificent landscapes.==
+* ==What's more, I got to immerse myself into exotic culture, different traditions, cuisines and meet diverse people, which will be an enriching experience ==
 * exotic: clothes, food, their markets, fruits
 * local people being friendly and modesty, hospitable
 * With some of my colleagues and friends, 5 in total, just enough to fill a car
