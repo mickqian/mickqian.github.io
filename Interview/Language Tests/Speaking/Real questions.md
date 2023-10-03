@@ -394,7 +394,6 @@ I feel relaxed, recharged, and exited when traveling. Especially when I try tast
 Geography fascinates me. **It's intriguing 令人感兴趣的 to immerse myself into different locations, cultures, and the physical characteristics of our world.**
 
 Absolutely, geography is crucial. It helps us understand the world's physical features, cultures, and the impact of human activity on Earth.
-
 ### Art
 **Art is a display of people's imagination.**
 **People explore a imaginary world evolved from artist's/musician's mind.**
