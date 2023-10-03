@@ -611,7 +611,7 @@ Dustin Hoffman is an actor I greatly admire for his remarkable **versatility** a
 * His dishes mainly **features** Italian food, one of his special dish is Carbonara, pasta with creamy texture. I once witnessed the whole process of him making this dish, and was **astonished** by how **meticulous** and **careful** about every steps. I guess that's the essential requirements to make a good meal.
 * Out of admiration, I couldn't help asking where did he learn to cook. 
 * **The reason behind** his commitment to cooking is ==his belief in **the profound impact of food** on human connections.==
-* ==He finds immense joy and satisfaction in seeing people savoring his food and enjoying every bite. It's not just about preparing a meal; it's about creating cherished dining experiences for those he cares about. His warmth and generosity shine through his cooking, and it brings people closer together.==
+* ==He finds immense joy and satisfaction in seeing people savoring his food and enjoying every bite. It's not just about preparing a meal; it's about creating cherished dining experiences with those he cares about. His warmth and generosity shine through his cooking, and it brings people closer together.==
 
 ==It's not just about preparing a meal/giving a gift/taking a journey; It's about creating memorable birthday experiences with those I cherish==
 
@@ -620,7 +620,7 @@ Dustin Hoffman is an actor I greatly admire for his remarkable **versatility** a
 Sam Altman
 * I got to knew him because of OpenAI. After the power and intelligence of ChatGPT has been shown, I began to be interested  in the CEO of OpenAI, and I did some research. It turned out he's quite a **far-sighted** leader.
 * He started his business as the former president of Y Combinator which is a **startup accelerator**.
-* Apart from YC, he had some other successful projects too, including Airbnb, Dropbox, and Strip. It showed his **exceptional** talent of ==**identifying** and **nurturing** these concepts.==
+* Apart from YC, he had some other successful projects too, including Airbnb, Dropbox, and Strip. It showed his **exceptional** talent of ==**identifying** and **nurturing** these state-of-the-art concepts.==
 * And **finally**, he founded OpenAI,  where he guided **cutting-edge** research in AI. **We all know the rest of the story.** I've watch some interviews of him, 
 * Altman truly ==**embodies success in the business world**==.  Someone would call him the father of GPT, but I think that **credit** goes to those scientist. However, it embodied the role he played in this huge AI wave and how successful he is.
 ##### Affect the environment
