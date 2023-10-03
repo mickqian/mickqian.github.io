@@ -667,7 +667,41 @@ Musicians rely heavily in muse when creating, so **hopefully I can draw some ins
 * Due to long working hours during the day, I don't have the time to attend any music classes. Thanks to **abundant tutorials** on [social media](https://en.wikipedia.org/wiki/Social_media) platform such as Youtube, BiliBili, I can learn from guitar masters anytime anywhere I want, without having to attend traditional music schools. **As a result, my guitar skills improved very quickly.**
 * Despite all these obstacles, Luckily, through lots of practice, I managed to join a local band and play as the lead guitarist. We successfully  produce our original song and perform in local concerns, which turned out to be quite successful.
 * Looking back, deciding to play guitar is a spontaneous and random decision, but have profound implications in my personal life. I'm grateful that I made the decision,  **If it had not been my perseverance and devotion, I would never have the change to perform in front of such a huge crowd.**
- 
+
+
+**disseminate**
+##### Decision
+people tend to be objective and short-minded when they make decisions on their own.
+* advice from other people provide a different perspective, making the decision more reliable and multifaceted
+* we should be opened to receive advice from others, when making decisions, even if they don’t **serve our purposes** in the present since there is always a chance that they would benefit us in the future.
+##### Children
+Children, **despite their young age**, 
+* regarding their education, **choosing subjects, extracurricular activities**
+* which hobby or talent to develop
+* concerning their friendships
+
+##### After graduation
+Graduation **marks a significant transition** in a teenager’s life,
+Teenagers enter a phase where they need to make crucial decisions that **shape their educational and career paths**
+
+* whether to pursue a higher degree, the major to study
+* seek for possible job opportunities, which job will they choose and which city to live in 
+##### Children help
+
+* parents or guardians who have more experience and have a deep understanding of their personalities
+* Teachers and mentors who can provide academic help
+* friends or classmates, who can provide a peer perspective
+
+##### Advertisements 
+
+* highlight the features, unique selling points, **instill** a sense of curiosity
+* ==triggering a sense of longing or the fear of missing out, known as FOMO==
+
+
+##### Influence of ads
+
+* yes: they disseminate information, promote consumption, increase sales & demands
+* no: manipulate consumer's emotions and judgement by providing misinformation or **misleading tactics**, present **idealized** images of beauty and body standards
 ##### Goal
 
 ##### Personal or Work
@@ -1313,7 +1347,6 @@ It teaches about **responsibility and teamwork.**
 
 Empathy, compassion, respect, friendship **motivate** children to help **voluntarily**. 
 
-
 ### Why should children be kind to their classmates?
 Children should be kind to classmates because it **fosters a positive/harmonious learning environment**. It's crucial to build good relationships between classmates. Besides, kindness also lead to empathy and understanding, which is good for overall well-being and personal growth for children.
 
@@ -1368,19 +1401,6 @@ _for the average person, many years of renting is needed to save enough for a_ *
 
 
 improved legal protection _be provided for_
-
-### Decision
-people tend to be objective and short-minded when they make decisions on their own.
-* advice from other people provide a different perspective, making the decision more reliable and multifaceted
-* we should be opened to receive advice from others, when making decisions, even if they don’t **serve our purposes** in the present since there is always a chance that they would benefit us in the future.
-#### Children
- * whether they’ll become serious in their studies 
- * continue hanging out with so-called friends that bring them down.
-
-#### After graduation
-* whether to pursue a higher degree
-* which job will they choose and which city to live in 
-
 
 
 ### Fashion 

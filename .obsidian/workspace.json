@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "unwind",
+                "query": "dissemni",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,12 +93,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 260.5,
-    "collapsed": true
+    "width": 260.5
   },
   "right": {
     "id": "47168004564bfdc1",
@@ -175,7 +174,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ebf598afcbd50613",
+  "active": "37b6d9b49b7a841a",
   "lastOpenFiles": [
     "Interview/Language Tests/Writing/Writing.md",
     "Interview/Language Tests/Synonyms.md",
