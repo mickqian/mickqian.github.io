@@ -219,14 +219,13 @@ spare key
 * I think I've always been a helpful person 
 * I'm always there to help where someone around me needs it
 * It's a virtue, so why not
-
 #### How do you help people around you, such as neighbour, family and friends?
 There are actually many ways
 * like if I see a passenger/our neighbors **struggling with** a package, I'll just offer to help
 * Or I'm very happy to look after their pets when they are unavailable
+* friends: lend things, help them with my expertise in computer
 
 I assist by offering emotional support, sharing knowledge, helping with tasks, and being a reliable presence in their lives.
-
 #### Do your parents teach you how to help others
 When I was young, my parents always taught me being **kind** and **helpful**.
 
@@ -236,12 +235,14 @@ Yes, instead of plain talking, they teach by setting role models for me.
 
 #### Did your parents help you a lot when you were young? 
 Absolutely, my parents help me with 
-* like helping me fix my bike
+* like helping me fix my **bike**
 * picking me up to school
 * helping me with my homework
 
 #### What have you done to help the elderly? 
-I don't have too much opportunities to spend with elderly actually, but I did go to a nursing home to deliver gifts and food once, as part of a school program.
+I don't have too much opportunities to spend with elderly actually, but I did go to a **nursing** home to deliver gifts and food once, as part of a school program.
+
+carry heavy things
 ### Do you like ice cream?
 
 Absolutely, I adore ice cream! The variety of flavors and its creamy texture make it a **delightful** treat. My favorite ice-cream is Gelato, which is the Italian version. In fact, I don't know if that is considered as "Ice cream".
