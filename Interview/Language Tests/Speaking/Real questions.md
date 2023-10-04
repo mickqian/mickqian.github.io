@@ -1277,22 +1277,42 @@ It's probably due to the hardships the parents experienced in the past.
 They should enjoy life like, a bit, after working hard
 
 #### Art
+post-impressionist style
 **The piece of work that I like the most is** "The Starry Night" by brilliant Vincent Van Gogh. 
 
-Among the countless pieces of art that have been created **over centuries**, one painting that has always **captivated** me is “The Starry Night” by Vincent van Gogh.
+I first encountered “The Starry Night” during a school trip to a local [Museum](https://ieltsrewind.com/describe-a-museum-you-have-visited-and-liked/) . Unfortunately, it was merely a replica, but that didn't affect the presentation of that artwork.
 
-I first encountered “The Starry Night” during a school trip to a local [Museum](https://ieltsrewind.com/describe-a-museum-you-have-visited-and-liked/) , where a replica is being exhibited.
+As I was wondering in the museum a painting with its **vibrant colors and unique style** stood out among the other artworks.
+So I approached to take a closer look at it.
 
-I had to say, its **vibrant colors and unique style** stood out among the other artworks.
-from the later research I did, painted in 1889 in a mental hospital, it **presents an image** of a night sky filled with **swirling** stars, overlooking a quaint 古色古香 town. The night sky could be seen as a representation of his inner feelings and emotional state at that time. 
+from the later research I did, painted in 1889 in a mental hospital, it **depicts an image** of a night sky filled with **swirling** & chaotic stars, overlooking a quaint 古色古香 town. The night sky could be seen as a representation of his inner feelings and emotional state at that time. 
 ![[Pasted image 20230930103128.png]]
 
-
-In fact, not only did I enjoy the painting itself,  **I also adore** a beautiful song called "Vincent"by Don Mclean too. Its lyric starts with "Starry Starry night",  serves as a tribute to Van Gogh.
+**I was also surprised to find that** one of my favorite songs, "Vincent"by Don Mclean, starts with the lyric "Starry Starry night",  serves as a tribute to Van Gogh.
 
 Resonate & dark times & adversity: I find most fascinating about “The Starry Night” is how it resonates with me on an emotional level. It serves as a **reminder** that **beauty can be found even in dark times**, and that ==creativity can flourish **amidst adversity 逆境**==.
 
 It serves as an inspiration, **reminding** us of the power of perseverance and the unlimited potential of human [creativity](https://ieltsrewind.com/describe-a-creative-person-whose-work-you-admire/).
+##### drawing
+applying color to surfaces with watercolors or oil
+creating outline, shapes with pencil, charcoal and other mediums
+##### keep painting for a long time
+possess sentimental values, serve as a reminder of memory that the collectors cherish
+
+gain value, an investment
+##### Building styles 
+design & layout can influence how people Architectural features such as natural lighting, ventilation, and **green** spaces can **enhance** the quality of life and well-being.
+
+poorly designed or **overcrowded** buildings :  discomfort, **stress**, and even health issues
+
+##### Share
+social media platforms
+exhibitions
+art workshops to teach skills
+
+
+
+
 
 
 
@@ -1485,7 +1505,7 @@ Reminder of the happy memory enjoyed by family.
 #### Mandatory class
 ==introduce into the **academic curriculum**.==
 important life skill
-stimulate creativity 
+stimulate creativity  & ==**critical thinking**==
 
 accumulate academic knowledge
 
