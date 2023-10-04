@@ -1346,10 +1346,38 @@ Every time people open an app, watching a video or reading an article, ads can b
 
 #### Lost | False information
 * It happened several months ago when my friend and I are on the way to a local music festival
-* The concerted was supposed to start in the afternoon, so we took a cab to the location described **on the ticket** at noon, but it was a deserted place which turned out to be a used power plant
-* Unable to find on the map, so we had to walk **aimlessly**, hoping to find someone to help
-* Luckily, it was close to the actual location. We managed to get close step by step, by following the sound made by stereos.
+* The concerted was supposed to start in the afternoon, so we took a cab to the location described **on the ticket** at noon, but it was a deserted place which turned out to be an abandoned power plant
+* It was a **deserted place** with no signal, so maps are unavailabe , we had to walk **aimlessly**, hoping to find someone to help
+* Luckily, it was close to the actual location. We heard some noises which we considered to be the sound made by the stress. We managed to get close step by step, by following the sound.
 * Although I was pretty **frustrated** and **annoyed** by the false information provided by the organizer, but finally found it by ourselves has solved the problem
+* It reinforced the significance of being prepared  when entering in uncharted territories
+
+##### Getting Lost
+* get anxious and start to panic: 描述心理
+* resort to help from passers-by or digital maps
+##### Go without preparation
+relieve stress from making decision on the tour
+save time to enjoy, improve the quality of the journey
+
+##### Sense of direction?
+inborn <-> acquired
+* engage in outdoor activities, grazing, farming, hiking, develop
+* good at reading signs and maps
+##### Paper map
+ad: reliable, require less energy,
+disad: versatile
+
+##### Popular app
+autonavi:
+* detailed information of route, public transportation
+* you can change to voice to celebrity, make the experience interesting
+
+**_spectacular beaches_** _and_ **_lush forests._**
+
+
+* prefer spontaneity, enjoy the novelty and its unpredictable nature. Liking the randomness and freshness provided by random choices. 
+
+
 
 ##### Information
 
@@ -1619,17 +1647,7 @@ They also provide immediate satisfaction, which can be appealing in our fast-pac
 
 ### What are the advantage and disadvantages of eating in restaurants?
 Eating in restaurants offers variety, convenience, and a chance to socialize. However, it can be expensive and less healthy due to hidden ingredients and large portion sizes.
-### Getting Lost
-* get anxious and start to panic: 描述心理
-* resort to help from passers-by or digital maps
-#### Go without preparation
 
-
-**_spectacular beaches_** _and_ **_lush forests._**
-
-
-* prefer spontaneity, enjoy the novelty and its unpredictable nature. Liking the randomness and freshness provided by random choices. 
- 
 ### Changes 
 It's a bit stereotypical to decide whether an individual adapt well to changes based their ages. It's unrelated to their ages, but about their flexibility, how they view changes, how do they prepare and handle them.
 Generally speaking, children are more flexible, making them accepting the changes more naturally and easily
