@@ -1121,7 +1121,7 @@ any services that fail to satisfy customers' needs
 
 #### With a young child | Party | Teach | Enjoyable experience
 * This happened at my colleague's son's birthday party. As I knew his son was in a perfect ago to start playing an instrument, I decided to bring a carefully-selected acoustic guitar as a gift, which was a bit expensive.
-* It was regular party with regular party activities, until we ended up spending the entire afternoon together with a kind of **impromptu** guitar class, where I taught him some basic guitar chords and picking technique. Actually I was quite nervous, since I was merely an inexperienced amateur guitar newbie myself.
+* It was **regular** party with **regular** party activities, until we ended up spending the entire afternoon together with a kind of **impromptu** guitar class, where I taught him some basic guitar chords and picking technique. He showed great **artistic flair** and great sense of music through this.
 * By the end of the day, he was able to strum a few simple songs including twinkle twinkle little star. Seeing such progress, I suggested to have a small live performance at the party, and based on the joy on his face and those audience, I knew I had made something great here.
 * It's not just about giving a gift, it was about sparking passion towards music in a young mind. **Not only did he feel satisfied, I also experience a great sense of fulfillment from teaching, which leads to my obsession toward music till today**. It's **gratifying** to witness someone's progress.
 
@@ -1160,10 +1160,30 @@ we cannot **generalize** **that** they always have negative intentions
 or they really want to make friends from some people at the party
 
 
-
-
 ##### Should you go to the party if you only know one person?  
 
+
+##### Do you think children should have a lot of toys? 
+**quality is more significant than quantity**
+* encourage creativity, problem-solving and teamwork
+* distract from academics 
+
+##### Where do children play
+designated play areas such as **board game** rooms
+parks, playgrounds, backyards, gyms, ice **rink**
+##### Do you think children should follow all the rules? 
+ad: cultivate discipline, responsibility
+
+disad:
+* stifle/hinder **autonomy** and creativity, the free nature of children
+* hinder **critical thinking**
+age-appropriate 
+**internalize** values and make **responsible decisions**.
+
+
+encourage them to express their concerns 
+
+This approach **nurtures** their ability to **discern** between rules that promote safety, morality, and cooperation from those that may be arbitrary or outdated.
 
 
 #### Meals
@@ -1538,10 +1558,7 @@ of long length: 长篇幅
 Undeniably, e-books like kindle have advantage in both space and price
 If the books are of long length, people would choose e-book version for it saves space, and is easy to carry with
 
-#### Do you think children should have a lot of toys? 
-While proper amount of toys can stimulate creativity, too many may lead to distraction. It's about balance and quality, not quantity.
-#### Do you think children should follow all the rules? 
-While proper amount of rules help regulate children's behavior and cultivate discipline, following all of them may hinder creativity and go against the free nature of children.
+
 
 
 
