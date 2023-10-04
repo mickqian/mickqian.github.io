@@ -740,6 +740,10 @@ Children, **despite their young age**,
 * which hobby or talent to develop
 * concerning their friendships
 
+There's no such thing as a starting point for children to make decisions. 
+Children can make decisions as long as they are able to understand the **consequences** and they have gone through thorough thought.
+It helps them boost **confidence** and **responsibility**.
+
 ##### After graduation
 Graduation **marks a significant transition** in a teenager’s life,
 Teenagers enter a phase where they need to make crucial decisions that **shape their educational and career paths**
@@ -794,6 +798,50 @@ The festival is **rich in history and culture**, **and it's known for its dragon
 The Duanwu Festival is a time of excitement and camaraderie. **It's a unique blend of history, sport, and culinary 烹饪 tradition that makes it a truly special event in the Chinese calendar.**
 
 ==There's no denying that, His/Its unique blend of history/sport/culinary/acting skills/charm/charisma/music talents/instrument playing skills makes him/it a truly remarkable/special/inspirational figure in the movie history/Chinese Calendar.==
+
+
+##### Traditional festivals
+* provides them a deep **understanding** of their cultural and heritage. For example, during Chinese New year, kids learn about the traditions like red envelopes and eating dumplings.
+* And people can learn from the lessons and mistakes have been made from the past, thus avoid making mistakes
+* **foster** respect/appreciation/identity/pride in their cultures
+* These festivals are often rich with history and values, which can be educational and inspiring for children, and is a good way to entertain
+
+I think it's a **heartwarming** experience for kids to **learn about the stories and symbols behind the festivals.**
+
+
+##### Do children like?
+curious, open-minded
+presented in an **engaging and interactive** manner
+
+##### Why festivals
+
+reminder of the culture roots
+gather together, spread joy
+foster a sense of unity, human interactions, close-knit community
+
+==relax==
+
+##### Disappearing?
+popularity
+inaccurate 
+"revolutionized" is more appropriate.
+
+Yes, there’s no denying that **modernization** and changing lifestyles have had an impact on traditional festivals. 
+
+However, people are now celebrating festival through **new** **ways**. For example, posting about festival in social media.
+
+it's the way of the celebration that is changing, not the festivals themselves.
+
+##### Music
+Absolutely, music plays a pivotal role in traditional festivals. 
+* enhances the festival **atmosphere** 
+* often **carries** significant cultural symbolism. Several tunes come into my mind whenever I think about New Year, and that's the power of music
+
+##### Dislike
+
+Some children may find certain aspects of festivals **overwhelming** or **scary**.
+For instance, some children might dislike **Halloween** because they find the costumes and decorations **frightening**
+
 ### Public Figure | Interesting
 * successful
 * popular
@@ -1251,7 +1299,6 @@ cheesy
 To be honest, I don’t watch a lot of television/ if I'm honest,  but I do watch some TV episodes on Stream Media. 
 I remember one time I was watching a  popular music TV show, and it's basically several bands competing with each others. In the middle of the show, an ad **popped out**. Now usually, I would be annoyed by ads, but it was about an electric guitar. I saw a musician playing the most **beautiful notes** I have ever heard with this guitar.
 **I'm really into simplicity and minimalistic, so that ad aligned perfectly with my taste.**
-
 and it **haunted** me throughout the rest of the show. And I was not aware of what happened in that show.
 After the commercial ended, I immediately bought one on online shop. And I was happy and satistied about the guitar. Throughout the time, it has totally proved that it **worth the price**, and looking back,  I'm thankful for that encounter with the ad.
 
@@ -1368,11 +1415,6 @@ exhibitions
 art workshops to teach skills
 
 
-
-
-
-
-
 ## Part 3
 
 ### Social Media
@@ -1410,15 +1452,7 @@ products placement 植入广告
 
 
 
-### Festival | History Place
-
-#### Traditional
-* provides them a deep **understanding** of their cultural and heritage. For example, during Chinese New year, kids learn about the traditions like red envelopes and eating dumplings.
-* And people can learn from the lessons and mistakes have been made from the past, thus avoid making mistakes
-* **foster** respect and appreciation **for** other cultures
-* These festivals are often rich with history and values, which can be educational and inspiring for children, and is a good way to entertain
-
-I think it's a **heartwarming** experience for kids to **learn about the stories and symbols behind the festivals.**
+### History Place
 
 
 #### History taught in primary school
@@ -1436,26 +1470,6 @@ high school: taught in more depth, understand **perspectives**, **examining the 
 * to have something to look forward to throughout the year
 * by holding events, people gather together so that they can share joy and create lasting memories
 * history is preserved and kept down
-
-#### Disappearing?
-
-While they have faced some challenges, I wouldn't say they are disappearing. In fact, I think the term "revolutionized" is more appropriate.
-
-Yes, there’s no denying that modernization and changing lifestyles have had an impact on traditional festivals. 
-
-However, people are now celebrating festival through new ways. For example, posting about festival in social media.
-
-So basically, it's the way of the celebration that is changing, not the festivals themselves.
-
-#### Music
-Absolutely, music plays a pivotal role in traditional festivals. 
-* enhances the festival atmosphere 
-* often **carries** significant cultural symbolism. Several tunes pop into my mind whenever I think about New Year, and that's the power of music
-
-#### Dislike
-
-Some children may find certain aspects of festivals overwhelming or scary.
-For instance, some children might dislike Halloween because they find the costumes and decorations frightening
 
 ### Tech
 
@@ -1497,35 +1511,6 @@ Smart children are likely to be influenced by a variety of sources, including **
 
 #### What kind of people have lots of great ideas in your country? (Innovative people in my country usually come from professions related to computers, media and science. The nature of their jobs drives them to come up with innovative ideas and it is the only way for them to thrive. )
 Innovative thinkers, often found **in fields like** technology, science, and arts, typically have many great ideas. Entrepreneurs and educators also contribute significantly with their creative solutions and approaches.
-### Pollution 
-People these days are all about green living and **reducing their carbon footprint.**
-
-_Factories use_ **_fossil fuels_** _to run machines and the **_carbon monoxide_** _released lead to air pollution. 
-Factories_ **_dispose_** _of their waste in nearby_ **_waterways_**_, creating water pollution._
-This in turn affects the entire **_ecosystem_**.
-Many animals abandon their_ **_natural habitats_** once a factory is built, creating an imbalance in the ecosystem.
-#### Ways to reduce
-
-* promote renewable energy, provide subsidy for new energy vehicles
-* encourage public transportation
-* educate people about the importance of environment
-* implement strict government regulations
-* recycle waste
-
-
-#### Kinds of pollution
-* air <-> industrial emission
-* water 
-* soil <-> pesticides
-* noise <-> urban areas
-* light <-> affecting wildlife
-
-#### Individuals
-play an important role in combating pollution 
-* implement recycling
-* reduce energy consumption by resorting to public transportation 
-* support sustainable products
-
 ### Help
 It teaches about **responsibility and teamwork.**
 
@@ -1716,8 +1701,6 @@ Apart from cooking, other skills are also essential include repairing, doing dis
 * **value** freedom and **privacy**
 * bachelor or unmarried
 
-#### Children make decisions 
-There's no such thing as a starting point for children to make decisions. Children can make decisions as long as they are able to understand the consequences and they have gone through thorough thought. It helps them boost confidence and responsibility.
 
 
 #### Income or interest
