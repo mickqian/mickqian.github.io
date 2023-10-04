@@ -846,8 +846,9 @@ ad: **slow pace of living**, lead peaceful and comfortable life, low-cost, conne
 * For the kitchen part: **As I'm a cooking person and given my preference towards Italian food, pizza oven is a must-have in my kitchen**
 * As for/In terms of the overall decoration style/interior design: I prefer Scandinavian, for its harmonious blend of light and wooden furniture
 * Besides: 
-	* though I do leave a corner of the living room to settle my guitar, amplifier and pedals, allowing me to
+	* The corner has quite a simple arrangement: a wooden chair, a big yellow amplfiler,  my guitars, pedals, allowing me to
 	* enjoy music, play guitar or improvise to a backing track whenever I want to/I feel like it
+	* I enjoy this corner the most, not because its **comfort, coziness or nice furnitures**, but for it serves as a place for me to **indulge** in the **music** world and my inner **world**. 
 * relaxing, gratifying, satisfactory
 * after my lease of current apartment runs out
 
