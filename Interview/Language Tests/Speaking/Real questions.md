@@ -870,7 +870,7 @@ don't a work schedule to follow
 ##### Are there any differences between how people spend their leisure time now and in the past
 
 outdoor: riding, jogging, picnicking
-indoor: TV, vedio games
+indoor: TV, video games
 
 
 #### Store
