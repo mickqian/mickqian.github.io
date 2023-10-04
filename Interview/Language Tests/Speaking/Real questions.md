@@ -203,7 +203,7 @@ Oh wow, I have never thought about it. First thing to do is definitely record ev
 Yes, I've made and sent origami gifts. It's a thoughtful, **personal touch** that people seem to appreciate.
 
 #### What do you consider when choosing a gift?
-I consider the recipient's personal interests, the gift's uniqueness, its quality, and my budget. It's all about **matching** the gift to the person.
+I consider the recipient's personal interests, the gift's uniqueness, its quality, and my **budget**. It's all about **matching** the gift to the person.
 
 #### Do you think you are good at choosing gifts? 
 I believe so. I **put thought into** understanding the recipient's preferences, which helps me choose meaningful gifts.
