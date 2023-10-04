@@ -678,7 +678,20 @@ Sam Altman
 * Besides, the director changed the **original ending**, making it a revenge story, making the plots unreasonable to me, which doesn't make sense at all.
 * Some might say the film was Ok compared to other **theatrical** movies, but I've put very hight expectations into that one, So I' was really disappointed
 
+##### Movies at home
+disturbed 
+privacy 
+various choices 
+immersive watching experience, stunning sound effects
 
+##### reviews
+Established film critics 
+different perspectives
+**valuable insights into the technical details**
+##### Famous actors 
+fan base
+boost sales 
+spread **awareness**
 ### Job
 
 #### Skills
@@ -1259,6 +1272,7 @@ buying power 购买力
 * annoying, disrupting the experience
 * 
 #### Celebrity endorsement
+loyal fan base
 * fans consider them as role models, purchase the product based on trust
 
 #### Online ads vs newspaper
