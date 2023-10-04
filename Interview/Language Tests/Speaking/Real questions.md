@@ -861,7 +861,7 @@ ad: **slow pace of living**, lead peaceful and comfortable life, low-cost, conne
 #### Park | Interesting | Crowded place
 * Xianghu, not far from where I live, just about 10-minute bike-ride. It remains a  serene natural heaven to me, If I have to say.
 * Landscape: basically a lake surrounded by a considerable  area of green grass field, where there're also many wildlives too, including egrets and swans. It also has nice and broad grassland near the lake. 
-* Whenever I visit Xianghu, I love to take in the fresh air, and enjoy the refreshing breeze and tranquility away from the bustling city streets. I can often see people picnicking. Some people choose to bring some instruments and deliver an impromptu show.
+* Whenever I visit Xianghu, I love to take in the fresh air, and enjoy the refreshing breeze and tranquility away from the bustling city streets. I can often see people picnicking. Some people choose to bring some instruments and deliver an **impromptu** show.
 * crowded?
 	* It's usually crowded on weekends
 	* Far from the city center, making it away from the hustle and bustle. Therefore, it is often not very crowded, making it tranquility
@@ -1044,11 +1044,43 @@ any services that fail to satisfy customers' needs
 
 #### With a young child | Party | Teach | Enjoyable experience
 * This happened at my colleague's son's birthday party. As I knew his son was in a perfect ago to start playing an instrument, I decided to bring a carefully-selected acoustic guitar as a gift, which was a bit expensive.
-* Instead of regular birthday activities, we ended up spending the entire afternoon together with a kind of impromptu guitar class, where I taught him some basic guitar chords and picking technique. Actually I was quite nervous, since I was merely an inexperienced amateur guitar newbie myself.
-* By the end of the day, he was able to strum a few simple songs including twinkle twinkle little star. Seeing such progress, I suggested to have a small live at the party, and based on the joy on his face and those audience, I knew I had made something great here.
+* It was regular party with regular party activities, until we ended up spending the entire afternoon together with a kind of **impromptu** guitar class, where I taught him some basic guitar chords and picking technique. Actually I was quite nervous, since I was merely an inexperienced amateur guitar newbie myself.
+* By the end of the day, he was able to strum a few simple songs including twinkle twinkle little star. Seeing such progress, I suggested to have a small live performance at the party, and based on the joy on his face and those audience, I knew I had made something great here.
 * It's not just about giving a gift, it was about sparking passion towards music in a young mind. **Not only did he feel satisfied, I also experience a great sense of fulfillment from teaching, which leads to my obsession toward music till today**. It's **gratifying** to witness someone's progress.
-* This day had a profound impact on me and rejuvenates my fascination with music every time I recall it.
-* kind teaching
+
+##### don't like
+have an introverted nature
+don't like to be confronted 
+prefer to stay in safe zone
+
+##### Health
+has nothing to do
+
+##### music and dancing
+provide a comfortable, relaxing vibe and atmosphere
+
+##### party in public places 
+intimate, personal atmosphere
+provide a sense of privacy 
+
+accommodate larger guest lists, closer to nature
+
+##### disturbed
+politely remind and ask for lowing the noise 
+apartment manager
+police or authorities
+
+##### when we don't know anyone
+I find it totally fine if we don't know anymore, because that's not the purpose of parties. Party is a time for us to relax and enjoy, not some kind of social activity.
+
+##### Uninvited rude?
+* It can be rude, depending on the party organizer
+
+##### Uninvited guests, negative intentions
+
+##### Should you go to the party if you only know one person?  
+
+
 
 #### Meals
 One of the most unusual meals I've ever had holds significant meaning to me. I can't recall the exact date, but it was approximately three years ago, **shortly after my college graduation**. It happened on a Friday night when my then-girlfriend took me to a local Italian restaurant. 
@@ -1210,19 +1242,6 @@ buying power 购买力
 
 #### Online ads vs newspaper
 Nowadays, online media is much more prevalent than newspaper, the traditional media. Every time people open an app, watching a video or reading an article, ads can be there, which is good exposure.
-
-### Party 
-
-#### when we don't know anyone
-I find it totally fine if we don't know anymore, because that's not the purpose of parties. Party is a time for us to relax and enjoy, not some kind of social activity.
-
-#### Uninvited rude?
-* It can be rude, depending on the party organizer
-
-#### Uninvited guests, negative intentions
-
-#### Should you go to the party if you only know one person?  
-
 
 
 ### Festival | History Place
