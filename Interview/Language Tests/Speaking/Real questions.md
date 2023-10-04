@@ -504,7 +504,7 @@ It was a time of great **turmoil**, with the whole **region** separated into pow
 The **stories** of the **strategy**, and the **political** intrigue/**drama** happened in that period has contributed to this epic novel called "Romance of the Three Kingdoms", which is a must-read, classic **literacy** work for students in China. It also had **profound** implications on the Chinese literature landscape, inspiring countless writers in **subsequent generations.** 
 
 ==I would like to learn more about this historical period because it is a **crucial** part of Chinese **history** that **shaped** the country's **culture** and **identity**. 
-Learning about this period would help me appreciate China's **rich heritage** and the wisdom of its people 
+Learning about this period would help me appreciate the country's **rich heritage** and the wisdom of its people 
 Plus, it's a fascinating era that, I believe, holds countless valuable lessons for people today to make informed decisions, which remain relevant today.==
 
 #### History 
@@ -964,11 +964,14 @@ Though the food there was tasty, I love the Fajita and Mojito, the atmosphere in
 * Seeing my hometown suffer from pollution was **disheartening** and **frustrating**. It made me more conscious of environmental issues
 * environment is compromised/sacrificed to economic development
 * at the cost of the 
-### Trip to Xinjiang | Car journey | Childhood happy | Adventure | Interesting Places
+### Trip to Xinjiang | Car journey | Childhood happy | Adventure | Interesting Places | Beautiful city
 * I haven't had the opportunity to explore **many places**, but one **particular** location in my country that has always intrigued me is
 * Through some documentaries on Xinjiang, I get to gain insights into unique characteristics of this place.
 * ==We visited colorful craft markets which are called Bazzar, and brought back souvenirs for our friends back here in Hangzhou. One of my most memorable experiences was to the Sailimu Lake. It is a little bit off the beaten track but a serene wonderland surrounded by great scenic beauty 美景 and magnificent landscapes 壮丽风景.==
 * ==What's more, I got to immerse myself into exotic culture, different traditions, cuisines and meet diverse people, which all contributed to an enriching experience==
+* City: 
+	* It's very different from those developed cities in the southeast, you can't see any magnificent modern buildings like skyscrapers there, but all with exotic vibe
+	* Famous for its featured barbecue and sweet fruit, thanks to the huge Temperature difference between day and night
 * exotic: clothes, food, their markets, fruits
 * local people being friendly and modesty, hospitable
 * With some of my colleagues and friends, 5 in total, just enough to fill a car
@@ -981,6 +984,46 @@ Though the food there was tasty, I love the Fajita and Mojito, the atmosphere in
 	* do what? We would: camp out along the way, sometimes stay in family homes, guest houses and lodges along the way.
 	* When: I would like to do this probably in autumn when the weather is generally good but not too hot. Winter would be a cold time of year to do the trip, and most of the road will be shutdown due to security concerns. and the peak of summer might be way too hot, especially in certain regions.
 	* With whom? Friends mostly, for I believe in their driving skills
+
+
+##### Modern city and town
+population density, larger area
+developed
+living-cost
+industry: service vs agriculture
+##### Historical sites 
+provide insights to the past.
+find our roots
+deeper understanding of the local culture through events, stories behind
+relax and stress-relieve
+
+##### Protect
+do want to protect and preserve except maybe a few who **put business ahead of their morality 道德 and rational thinking 理性思考**
+
+Historic structures often require regular maintenance and **restoration** to prevent **deterioration 恶化**. 
+
+Balancing the preservation of historical significance with **the need for modernization and functional use** can be difficult. 
+
+maintain **cultural heritage** and **architectural history.**
+
+* ***funding** and **resources** are crucial for preservation efforts, and it can be challenging to secure financial support. 
+* implement Legal **regulations** and zoning laws can also impact preservation decisions, adding complexity to the process. 
+* citizen should participate 
+
+##### what will happen
+would survive/continue to exist
+try to preserve them because of their **historic and economic significance** 意义
+
+facing the destiny of demolishing, for the increasing need of economic growth
+
+concerted effort, not just the effort **of a single entity**
+
+
+##### Is it hard to protect
+
+* **natural wear and tear** that occurs **over time**, which can lead to deterioration and unrepairable damage
+* balancing the need for preservation with the need for modernization and development. For example, there may be pressure from developers or local authorities to **demolish** or **alter** historical buildings in order to make way for **new infrastructure or buildings**
+
 ### Rule
 alcohol is not allowed, to avoid unexpected issues
 * get punishment, criticized, probably will take a pay cut. Although I do understand the consequences of drinking at workplace, somehow I thought it's still too harsh, until an event occurred to me changed my mind about this.
@@ -1294,26 +1337,6 @@ I think it's a **heartwarming** experience for kids to **learn about the stories
 main difference: level of detail and complexity.
 primary: with a focus on helping students understand the basic concepts
 high school: taught in more depth, understand **perspectives**, **examining the causes and consequences of historical events**.
-
-#### Protect
-do want to protect and preserve except maybe a few who **put business ahead of their morality 道德 and rational thinking 理性思考**
-
-
-We had our moments when people spontaneously protested the plan to demolish such sites in the past.
-
-Historic structures often require regular maintenance and **restoration** to prevent **deterioration 恶化**. 
-
-Balancing the preservation of historical significance with **the need for modernization and functional use** can be difficult. 
-
-Additionally, **funding** and **resources** are crucial for preservation efforts, and it can be challenging to secure financial support. 
-
-Legal **regulations** and zoning laws can also impact preservation decisions, adding complexity to the process. 
-
-Despite these challenges, preserving historic buildings is essential to maintain **cultural heritage** and **architectural history.**
-#### Is it hard to protect
-
-* **natural wear and tear** that occurs **over time**, which can lead to deterioration and unrepairable damage
-* balancing the need for preservation with the need for modernization and development. For example, there may be pressure from developers or local authorities to **demolish** or **alter** historical buildings in order to make way for **new infrastructure or buildings**
 
 #### How to learn 
 
