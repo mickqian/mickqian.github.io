@@ -1249,8 +1249,52 @@ cheesy
 
 #### Useful ad
 To be honest, I don’t watch a lot of television/ if I'm honest,  but I do watch some TV episodes on Stream Media. 
-I remember one time I was watching a  popular music TV show, and it's basically several bands competing with each others. In the middle of the show, an ad **popped out**. Now usually, I would be annoyed by ads, but it was about an electric guitar. I saw a musician playing **beautiful notes** with this guitar, and it **haunted** me throughout the rest of the show. And I was not aware of what happened in that show.
+I remember one time I was watching a  popular music TV show, and it's basically several bands competing with each others. In the middle of the show, an ad **popped out**. Now usually, I would be annoyed by ads, but it was about an electric guitar. I saw a musician playing the most **beautiful notes** I have ever heard with this guitar.
+**I'm really into simplicity and minimalistic, so that ad aligned perfectly with my taste.**
+
+and it **haunted** me throughout the rest of the show. And I was not aware of what happened in that show.
 After the commercial ended, I immediately bought one on online shop. And I was happy and satistied about the guitar. Throughout the time, it has totally proved that it **worth the price**, and looking back,  I'm thankful for that encounter with the ad.
+
+buying power 购买力
+##### Feeling
+* drawback: some companies mislead consumers by presenting some features that don't exist
+
+##### What do people usually buy
+digital devices: **meet my spiritual needs**
+instruments
+
+##### Why happy 
+meets different needs of human: 
+spiritual and physical
+
+==dopamine==
+##### Useless
+just for entertaining
+sometimes we pay for certain service, but we are still forced to
+
+##### Too much
+for some companies, there is no such thing as "too much"
+##### Hate
+provide misleading information or false information
+
+##### Online
+
+There are definitely some ones I can remember for a long time(the one with the smelly cat), the catchy jingle contribute the most. of course the visuals are important too
+ _I can’t really say what was so memorable about these commercials – perhaps the **imagery** or the **jingle**, but years later I most definitely remember them._
+
+
+
+* annoying, disrupting the experience
+* 
+##### Celebrity endorsement
+loyal fan base
+* fans consider them as role models, purchase the product based on trust
+
+##### Online ads vs newspaper
+Nowadays, online media is much more **prevalent** than newspaper, the traditional media. 
+
+Every time people open an app, watching a video or reading an article, ads can be there, which is good exposure.
+
 
 
 #### Lost | False information
@@ -1364,21 +1408,6 @@ The mode of communication often depends on the relationship between the individu
 products placement 植入广告 
 
 
-buying power 购买力
-
- _I can’t really say what was so memorable about these commercials – perhaps the **imagery** or the **jingle**, but years later I most definitely remember them._
-#### Feeling
-* drawback: some companies mislead consumers by presenting some features that don't exist
-
-#### Online
-* annoying, disrupting the experience
-* 
-#### Celebrity endorsement
-loyal fan base
-* fans consider them as role models, purchase the product based on trust
-
-#### Online ads vs newspaper
-Nowadays, online media is much more prevalent than newspaper, the traditional media. Every time people open an app, watching a video or reading an article, ads can be there, which is good exposure.
 
 
 ### Festival | History Place
