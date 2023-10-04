@@ -1152,8 +1152,15 @@ I find it totally fine if we don't know anymore, because that's not the purpose 
 
 ##### Uninvited rude?
 * It can be rude, depending on the party organizer
-
+gatecrashing
 ##### Uninvited guests, negative intentions
+we cannot **generalize** **that** they always have negative intentions 
+
+**anonymous socializing**: meet people randomly, to expand social circles
+or they really want to make friends from some people at the party
+
+
+
 
 ##### Should you go to the party if you only know one person?  
 
