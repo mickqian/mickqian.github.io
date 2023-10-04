@@ -556,10 +556,48 @@ Moreover, we quickly discovered we both love Italian cuisine so we often **gathe
 * Advice: I think I enjoy helping people and saving them from complex problems. It's not just about **benefiting** others, it's a journey of self-improvement.
 
 #### Help others
-As an inexperienced amateur band, we often encounter numerous problems, involving equipments, effects, skills or music transcription. Since he's a **semi-professional** player, he always managed to solve our problems within seconds. 
-* Once before a performance, the bassist accidentally got a flu, and was unable to give a performance. Though at that time he had heavy work to do, but he offered to help even though  that meant he had to work overtime. He not only attended all the emergent rehearsals, but also practiced in his spare time.
+* kind hearted person, and also a **semi-professional** musician,
+* Once before a performance, the bassist accidentally got a flu, and was unable to give a performance. Though at that time he had heavy work to do, but he offered to **substitute** even though  that meant he had to work overtime. He not only attended all the emergent rehearsals, but also practiced in his spare time.
+* We really appreciate his kind action to help in such emergency, even though he had to sacrifice a lot of his leisure time.
 * Thanks to his help, **we managed to produce our original song and perform in local concerns, which turned out to be quite successful.**
-* 
+* It's not just about delivering a performance, it's about viewing us as a whole team and sacrificing his spare time to make sure we **get through hard times**.
+
+##### Help parents 
+pitching in with chores and stuff.
+setting the table, going grocery shopping, making their bed, doing laundry
+
+
+##### teach helps 
+
+develop empathy compassion practical life skills
+
+instill values like respect, empathy, which is vital for a close-knit society
+
+set the kids up to become **well-rounded** individuals who actively contribute to making society better
+
+
+##### What makes them help 
+friendship, creating a **collaborative** learning vibe
+
+When kids have **solid** friendships and feel like they belong within their **peer** group, they naturally/voluntarily want to support and assist each other
+
+Encouraged by teachers to assist others through **team work**
+
+positive **reinforcement**, rewards and punishment from teachers can motivate them to assist/guide their behavior
+
+##### Community service
+* learn about empathy, **responsibility** and the importance of **giving back to society**
+* teach **practical** and **valuable** life skills which may be beneficial to there career.
+* create a close-knit society and positive social impact
+**takes some weight off their parents**
+
+##### All over the world
+**the main motive stems from** their humanit
+
+
+
+
+
 #### Happy Photos
 * So I was in a local band, of a local company, and all of the band members are colleagues.
 * And about 3 months ago, as a band from the local company, we were told that we were provided an opportunity to perform in front of a **massive audience**, to celebrate the upcoming Olympics.
@@ -1420,25 +1458,6 @@ If the books are of long length, people would choose e-book version for it saves
 While proper amount of toys can stimulate creativity, too many may lead to distraction. It's about balance and quality, not quantity.
 #### Do you think children should follow all the rules? 
 While proper amount of rules help regulate children's behavior and cultivate discipline, following all of them may hinder creativity and go against the free nature of children.
-
-#### Help at home
-foster a sense of team work
-teach them the importance of responsibilities
-
-* assist with household tasks: laundry, dishwashing, grocery shipping
-* mind their own task: tidying rooms, making beds
-
-#### What makes children help each other at school
-* foster empathy, compassion and collaboration, which is good for their teamwork.
-* promote a sense of community and understanding
-
-* empathy, understanding and desire drive them to help spontaneously/voluntarily
-* positive **reinforcement**, rewards and punishment from teachers can motivate them to assist/guide their behavior
-
-#### Community service
-* learn about empathy, **responsibility** and the importance of **giving back to society**
-* teach practical and valuable skills which may be beneficial to there career.
-
 
 
 
