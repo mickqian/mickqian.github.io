@@ -1372,6 +1372,15 @@ autonavi:
 * detailed information of route, public transportation
 * you can change to voice to celebrity, make the experience interesting
 
+
+##### provide information?
+require human interactions
+teacher, consultant, receptionist
+
+provide knowledge and values to students, shape their **perspectives**,
+
+
+
 **_spectacular beaches_** _and_ **_lush forests._**
 
 
@@ -1379,12 +1388,32 @@ autonavi:
 
 
 
-##### Information
+##### Phone & email
 
-For one, **it's much easier to ignore or overlook an email, compared to a phone call**. **Urgency and tone of voice** are also lost within emails. 
-Emails can also consume valuable time with **back-and-forth messages** that could have been handled with a quick phone conversation.
-However, when it comes to further recording and details, email is a better option.
-Phones ensure real-time synchronized communication,
+verbal vs written form
+
+phone: has more personal touch, synchronized, direct, you get all the attention, which allows for **instant** respond
+email: convenience, allows for replying at their **convenience**, time-consuming with **back-and-forth messages**, allows for further recoding and details
+**Urgency and tone of voice** are also lost within emails. 
+
+##### Evaluate
+As for the sources for people to evaluate a piece of information:
+* own values and perspectives
+* expects in that field
+* official websites and authorities
+* GPT, trustworthy
+
+##### Do people trust
+trustworthy, authentic source, credible publisher
+
+
+
+based on sources:
+	* strangers, random group talk
+	* authorities, someone they trust
+
+ 
+ with the cyber **scams** being more rampant，and so many social media accounts publishing "fake news", people are tend to be skeptical about random online information, which is necessary
 
 #### Proud
 * So about 3 years ago, my company is holding a competition called "Hackathon". It's basically a group of people gathering together, solving an issue within 48 hours or so. Later, all the work will be **evaluated** by some judges.
@@ -1680,7 +1709,6 @@ I guess that's due to the rapid pace of modern city. Everyone is strained 紧张
 The artifacts from the old times doesn't mean that the thoughts included in them are also old. Some thoughts are quite timeless. For instance, Newton's law about force has never gone out of style, out of time, since he published it.  ->
 
 The artifacts from the past do not **necessarily imply** that the ideas contained within them are also outdated. Some thoughts are truly timeless. For example, Newton's law of force has never fallen out of fashion or lost its relevance since its publication.
-
 
 ### Traffic
 #### Road rage
