@@ -557,19 +557,18 @@ Moreover, we quickly discovered we both love Italian cuisine so we often **gathe
 
 #### Help others
 * kind hearted person, and also a **semi-professional** musician,
-* Once before a performance, the bassist accidentally got a flu, and was unable to give a performance. Though at that time he had heavy work to do, but he offered to **substitute** even though  that meant he had to work overtime. He not only attended all the emergent rehearsals, but also practiced in his spare time.
-* We really appreciate his kind action to help in such emergency, even though he had to sacrifice a lot of his leisure time.
-* Thanks to his help, **we managed to produce our original song and perform in local concerns, which turned out to be quite successful.**
-* It's not just about delivering a performance, it's about viewing us as a whole team and sacrificing his spare time to make sure we **get through hard times**.
+* **Right before** the performance, the bassist accidentally got a flu, and was unable to give a performance. Though at that time he had heavy work to do, but he offered to **substitute** even though  that meant he had to work overtime. He not only attended all the emergent rehearsals, but also practiced in his spare time.
+* We really appreciate his kind action to help in such **emergency**, even though he had to **sacrifice** a lot of his **leisure** time.
+* Thanks to his help, we managed to produce our original song and perform in local concerns, which turned out to be quite successful.
+* It's not just about **delivering** a performance, it's about viewing us as a whole team and sacrificing his spare time to make sure we **get through hard times**.
 
 ##### Help parents 
 pitching in with chores and stuff.
 setting the table, going grocery shopping, making their bed, doing laundry
 
-
 ##### teach helps 
 
-develop empathy compassion practical life skills
+develop empathy compassion/practical life skills
 
 instill values like respect, empathy, which is vital for a close-knit society
 
@@ -577,7 +576,7 @@ set the kids up to become **well-rounded** individuals who actively contribute t
 
 
 ##### What makes them help 
-friendship, creating a **collaborative** learning vibe
+**friendship**, creating a **collaborative** learning vibe
 
 When kids have **solid** friendships and feel like they belong within their **peer** group, they naturally/voluntarily want to support and assist each other
 
