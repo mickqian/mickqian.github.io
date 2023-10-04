@@ -669,15 +669,14 @@ Sam Altman
 
 #### Disappointing
 
-Once upon a time in Hollywood
-* already a big fan, was expecting the film to be as good as Pulp fiction, at least the reservoir dog
+* I have always been a fan of Quentin, **fell short** of my expectations
+* already a big fan, was expecting the film to be as good as Pulp fiction, at least the **reservoir dog**, for movie stars like Pitt have starred in this film
+* **all sizzle and no steak.**
 * So it was basically a **crime film** based on real events.
 * I found the plots **cheesy**, cliche, and kind of boring 
-* performance of **Leonardo** and brad Pitt is not satisfying, unworthy of their fames
-* Besides, the director changed the **original ending**, making it a revenge story, which was very unreasonable to me.
+* Their performances are subpar. His portrayal felt **uninspired** (and lacked depth), sometimes I wondered If I was watching another film 
+* Besides, the director changed the **original ending**, making it a revenge story, making the plots unreasonable to me, which doesn't make sense at all.
 * Some might say the film was Ok compared to other **theatrical** movies, but I've put very hight expectations into that one, So I' was really disappointed
-
-
 
 
 ### Job
@@ -846,7 +845,7 @@ ad: **slow pace of living**, lead peaceful and comfortable life, low-cost, conne
 * For the kitchen part: **As I'm a cooking person and given my preference towards Italian food, pizza oven is a must-have in my kitchen**
 * As for/In terms of the overall decoration style/interior design: I prefer Scandinavian, for its harmonious blend of light and wooden furniture
 * Besides: 
-	* The corner has quite a simple arrangement: a wooden chair, a big yellow amplifiler,  my guitars, pedals, allowing me to
+	* The corner has quite a simple arrangement: a wooden chair, a big yellow amplifier,  my guitars, pedals, allowing me to
 	* enjoy music, play guitar or improvise to a backing track whenever I want to/I feel like it
 	* I enjoy this corner the most, not because its **comfort, coziness or nice furnitures**, but for it serves as a place for me to **indulge** in the **music** world and my inner **world**. It's a great way to unwind after long hours of hectic work schedule
 * relaxing, gratifying, satisfactory
