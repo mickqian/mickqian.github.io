@@ -606,12 +606,25 @@ positive **reinforcement**, rewards and punishment from teachers can motivate th
 
 #### Move to community & positive influence
 * About a fortnight ago
-* When I was helping him moving, I saw his new place. Compact, clean space. **Decorated in Scandinavian style**, just like those in the Black Mirror.
-* Everything is highly digitalized, suitable for tech-geeks to live in
+* When I was helping him moving, I saw his new place. Compact, clean space. **Decorated in Scandinavian style**,  just like those in the Black Mirror.
+* Everything is highly digitalized, **equipped** with SOTA **screens**, stereo, **creating** a perfect movie watching and music-enjoying experience,  suitable for tech-geeks to live in
 * At that night, he invited us to have a party, where we enjoyed some soothing bossa nova, and had a great dinner made by himself, which was Italian and quite tasty, I would say
 * He quickly integrated into our group with his humor and warm heart. We were happy to accept him as our new neighbor
 * In the bushes near my apartment, there are many stray cats. He has been taking care of them since he moved in. I can often spot him feeding them early in the morning, and he even provides them with shelter, which will cost a fortune.
 * It was because of his kind action and love towards wildlives, that make our community a better and more united place to live in
+* impact:
+	* been decorating for a long time, plus, his has a new-born son
+	* 
+	* we have different plans for out future
+
+##### keep moving?
+seek for better job opportunities
+seek for higher educations
+
+
+
+
+
 
 #### Actor | Movie
 Dustin Hoffman
