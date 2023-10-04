@@ -851,6 +851,27 @@ ad: **slow pace of living**, lead peaceful and comfortable life, low-cost, conne
 	* I enjoy this corner the most, not because its **comfort, coziness or nice furnitures**, but for it serves as a place for me to **indulge** in the **music** world and my inner **world**. 
 * relaxing, gratifying, satisfactory
 * after my lease of current apartment runs out
+##### hard to relax
+fast-paced world
+find it hard to allow themselves to **unwind**
+**have a tendency to overthink**
+
+##### Vacations
+There seems to be no better way of relaxing and unwinding than going on vacations.
+relief stress from being caught up in  hectic work schedule
+
+
+##### elderly stay calm
+experience more **challenges** and **setbacks**
+
+relieve stress with more social-support network
+
+don't a work schedule to follow 
+##### Are there any differences between how people spend their leisure time now and in the past
+
+outdoor: riding, jogging, picnicking
+indoor: TV, vedio games
+
 
 #### Store
 * a new guitar flagship shop, **featuring** my favorite guitar brand
