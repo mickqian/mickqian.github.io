@@ -1118,6 +1118,9 @@ Though the food there was tasty, I love the Fajita and Mojito, the atmosphere in
 
 
 #### Pollution
+with the increase of people's **environmental awareness** 
+
+
 * during a visit to my hometown 2 years ago, when I was on a vocation
 * At one time, I'm shocked to notice that I can hardly  see anything, through the heavy fog
 * I looked for the source of this through difficulty, and suddenly some chimneys came into my sight. I suddenly realized that it's power plant that is producing this polluted air.
@@ -1221,10 +1224,35 @@ alcohol is not allowed, to avoid unexpected issues
 * watch 
 * water sports
 #### Kayaking
-* my colleague used to offer Kayaking classes, it was like very popular, so I never get the chance to register. I occasionally see them kayaking in the river
-* What it is like: It typically requires the use of a double-bladed **paddle** to paddle through the water in a narrow boat called **Kayak**. And the first team to reach the destination wins the game. It's a unique blend of physical activity,  adventure and strength, which makes it a perfect sports to both watch and participate.
+* my colleague used to offer Kayaking classes, it was like very popular, so I never get the chance to register. I just occasionally see them kayaking in the river, feeling a sense of regret.
+* What it is like:Through my countless observations,  It typically requires the **use** of a tool called **paddle** to **navigate**/paddle through the water in a **narrow** boat called **Kayak**. And the first team to reach the destination wins the game. It's a unique blend of **physical activity**,  **adventure** and strength, which makes it a perfect sports to both watch and participate.
 * Why want: It's a physical challenge which keeps me fit. I know this sport is tiring. Also, I'm afraid of the water. Fosters collaboration and team work.
 * Why watch: The suspense of competition often continues until the end. 
+
+
+
+##### Transportation
+unit cost of cargo is relatively low
+accommodate large cargo
+
+
+
+
+##### Popular
+swimming: life-saving skills, but also a recreational activity
+low-cost
+enjoy the magnificent landscape as well as promote physical health
+
+
+##### Water transportation
+cost-effective and fuel-efficient
+
+carry considerable amount of cargo
+
+provide social interactions
+
+**environmental-friendly**
+
 
 ### Experience 
 
@@ -1527,7 +1555,6 @@ require human interactions
 teacher, consultant, receptionist
 
 provide knowledge and values to students, shape their **perspectives**,
-
 
 
 **_spectacular beaches_** _and_ **_lush forests._**
