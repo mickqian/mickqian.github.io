@@ -786,7 +786,7 @@ expand one's horizons
 
 ### Decision | What makes you proud Period change life | Physically Tired
 * immensively proud
-* I've always been fascinated by the beauty of music. I spent **countless** hours listening to various genres of music. I even have my own CD Collections. But it never occurred to me that I can play the music myself.
+* I've always been fascinated by the beauty of music. I spent **countless** hours indulging in various genres of music. I even have my own CD Collections. But it never occurred to me that I can play the music myself.
 * After graduating, I decided to pick up an instrument and learn by myself, just out of self-expression and fulfillment
 * Due to long working hours during the day, I don't have the time to attend any music classes. Thanks to **abundant tutorials** on [social media](https://en.wikipedia.org/wiki/Social_media) platform such as Youtube, BiliBili, I can learn from guitar masters anytime anywhere I want, without having to attend traditional music schools. **As a result, my guitar skills improved very quickly.**
 * Despite all these obstacles, Luckily, through lots of practice, I managed to join a local band and play as the lead guitarist. We successfully  produce our original song and perform in local concerns, which turned out to be quite successful.
@@ -1031,7 +1031,7 @@ find it hard to allow themselves to **unwind**
 
 ##### Vacations
 There seems to be no better way of relaxing and unwinding than going on vacations.
-relief stress from being caught up in  hectic work schedule
+**relief stress and alleviate anxiety from being caught up in hectic work schedule**
 
 
 ##### elderly stay calm
@@ -1248,7 +1248,7 @@ alcohol is not allowed, to avoid unexpected issues
 work, social gatherings, personal appointments
 punctuality shows **professionalism and reliability**
 
-It's like immerse yourself into a world created by the song, having a straight conversation with the songwriter, about their intentions and hidden plots in this song. 
+It's like immerse yourself into a world created by the song, having a straight conversation with the songwriter, about their intentions and hidden meanings in this song. 
 
 #### Bad Service
 
