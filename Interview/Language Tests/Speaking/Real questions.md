@@ -1222,9 +1222,9 @@ alcohol is not allowed, to avoid unexpected issues
 * water sports
 #### Kayaking
 * my colleague used to offer Kayaking classes, it was like very popular, so I never get the chance to register. I occasionally see them kayaking in the river
-* What it is like: It requires paddling through water in a narrow boat.
+* What it is like: It typically requires the use of a double-bladed **paddle** to paddle through the water in a narrow boat called **Kayak**. And the first team to reach the destination wins the game. It's a unique blend of physical activity,  adventure and strength, which makes it a perfect sports to both watch and participate.
 * Why want: It's a physical challenge which keeps me fit. I know this sport is tiring. Also, I'm afraid of the water. Fosters collaboration and team work.
-* Why watch: The suspense of competition often continues until the end. ==I enjoy watching for their excitement, inspiration, and unifying power.==
+* Why watch: The suspense of competition often continues until the end. 
 
 ### Experience 
 
