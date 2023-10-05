@@ -776,7 +776,7 @@ expand one's horizons
 
 
 
-### Decision | What makes you proud Period change life | Physically Tired
+### Decision | Period change life | Physically Tired
 * immensively proud
 * I've always been fascinated by the beauty of music. I spent **countless** hours indulging in various genres of music. I even have my own CD Collections. But it never occurred to me that I can play the music myself.
 * After graduating, I decided to pick up an instrument and learn by myself, just out of self-expression and fulfillment
