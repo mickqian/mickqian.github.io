@@ -723,9 +723,9 @@ lead to a **shift** in **dietary** habits, with more emphasize on nutrition bala
 Sam Altman
 * I got to knew him because of OpenAI. After the power and intelligence of ChatGPT has been shown, I began to be interested  in the CEO of OpenAI, and I did some research. It turned out he's quite a **far-sighted** leader.
 * He started his business as the former president of Y Combinator which is a **startup accelerator**.
-* Apart from YC, he had some other successful projects too, including Airbnb, Dropbox, and Strip. It showed his **exceptional** talent of ==**identifying** and **nurturing** these state-of-the-art concepts.==
+* **Apart from** YC, he had some other successful projects too, including **Airbnb**, Dropbox, and **Strip**. It showed his **exceptional** talent of ==**identifying** and **nurturing** these state-of-the-art concepts.==
 * And **finally**, he founded OpenAI,  where he guided **cutting-edge** research in AI. **We all know the rest of the story.** I've watch some interviews of him, 
-* Altman truly ==**embodies success in the business world**==.  Someone would call him the father of GPT, but I think that **credit** goes to those scientist. Nonetheless, it embodied the role he played in this huge AI wave and how successful he is.
+* Altman truly ==**embodies success in the business world**==.  Someone would call him the father of GPT, but I think that **credit** goes to those scientist. **Nonetheless**, it embodied the role he played in this huge AI wave and how successful he is.
 ##### Affect the environment
 * directly release the waste into the ... is probably the most **common and cost-effective** way
 * A business thrive not because of itself, but also from the support of public and government. Nowadays government is promoting sustainable development, people are into environmentally friendly products, which encourage those company who pay ..

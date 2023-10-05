@@ -33,17 +33,14 @@ Distribution displayed the similar pattern
 ## Paragraph 3~5
 separate by: time or type
 
-
-
 经历了什么：
-....
-experience/undergo/witness/see/occur/show/exhibit/demonstrate
+experience/undergo/witness/see/occur/show/**exhibit**/**demonstrate**
 
 副词/形容词：
 small/dramatic/uniformly 均匀的/continuously/**negligible**/**moderate** significant/substantial 可观的/sharply/slightly
 
 趋势：rise/increase/boost/grow/climb/jump/skyrocket/accelerate/hike/surge/escalate/upward/
-decline/fall/dip 下降/plunge 大幅
+decline/fall/**dip** 下降/**plunge** 大幅
 rebound/
 ==fluctuations== 上下波动
 stability/level off at 
@@ -67,14 +64,13 @@ underwent a small rise in Jan
 
 
 连接词：
-Followed by/Next Came/Which was not far behind/Subsequent/After/After which/Following this
+Followed by/Next Came/Which was not far behind/Subsequent/After which/Following this
 
 提及diff:
 0.5 million more than the previous year
 
 Misc:
 The process ends/commence with these cups being labeled and sealed
-The largest category consisted of
 approximately
 Not until around 1950 did ...
 The corresponding figures for ... were 
@@ -94,13 +90,14 @@ Turning to the...
 替换：
 percentage <-> ratio, proportion
 typical <-> average
-takes up <-> comprise
+takes up <-> comprise, consisted, constitute,accounted fo
 bought <-> sales in, buyers, performance
 use <-> consumed, consumer, consumption
 per person <-> per capita
 outperform <-> fell short
 remarkable profitability 盈利能力
-constitute the largest share/accounted for an insignificant part 
+the largest share
+an insignificant part 
 rank the first position
 
 ![[Pasted image 20230918221255.png]]

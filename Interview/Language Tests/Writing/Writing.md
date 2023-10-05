@@ -74,7 +74,7 @@ The idea that public colleges should be tuition-free is gaining traction in many
 
 细分作用1:
 facilitate opportunity
-Tuition-free public college education promises to level the academic playing field, **facilitating** 提供机会 equal **opportunity** irrespective 无关 of economic background. This could lead to a more educated workforce, increased social mobility, and greater economic productivity.
+Tuition-free public college education promises to level the academic playing field, **facilitating** 提供机会 equal **opportunity** **irrespective** 无关 of economic background. This could lead to a more educated workforce, increased social mobility, and greater economic productivity.
 
 Moreover, it could ease the burden of student loans, which are a major financial strain on young adults, often delaying key life milestones like home ownership or starting a family.
 
@@ -93,7 +93,7 @@ Instilling the concept that all students should engage in an after-school job or
 This exposure provides real-world experience that allows them to apply theories and skills learned in the classroom. These positions can instill a sense of responsibility, develop interpersonal skills, and provide a **glimpse** into potential future careers.
 
 moreover 连接词
-**Moreover**, jobs or internships also offer financial benefits, teaching young people the value of money and financial management. These opportunities can **bolster** 支撑 again resumes and **offer a competitive edge in future job applications.**
+**Moreover**, jobs or internships also offer financial benefits, teaching young people the value of money and financial management. These opportunities can **bolster** 支撑 again resumes and **offer a ==competitive edge== in future job applications.**
 
 However, a one-size-fits-all approach might not be **seamless**. Balancing schoolwork, job duties, and extracurricular activities might **overwhelm** some students. Also, it is crucial that such working opportunities are safe, fair, and do not exploit young people.
 
@@ -107,7 +107,6 @@ Character can be succinctly 简单 defined as the mental and moral qualities dis
 
 1. **Integrity**: Holding yourself to consistent moral and ethical standards—regardless of the situation—is a notable mark of character. In the quest for success, individuals with high integrity gain the trust and confidence of their peers. Trust, in turn, opens the door to meaningful partnerships and alliances, which are indispensable for achieving escalated levels of success.
     
-2. **Integrity**: Holding yourself to consistent moral and ethical standards—regardless of the situation—is a notable mark of character. In the quest for success, individuals with high integrity gain the trust and confidence of their peers. Trust, in turn, opens the door to meaningful partnerships and alliances, which are indispensable for achieving escalated levels of success.
     
 3. **Courage**: Embracing the uncertainty of the unknown, taking calculated risks, and sticking by decisions when the going gets tough underscores the virtue of courage. Courageous individuals see the possibility of failure not as a deterrent, but rather as an opportunity for learning. This philosophical outlook energizes success-breeding resilience.
     
@@ -315,9 +314,9 @@ reduce, deter <-> stifle
 indispensable 不可或缺
 Sexual education is a contentious issue, with divergent views on its inclusion in the school curriculum. However, I firmly believe that it should be mandatory in schools.
 
-Primarily, sexual education **equips students with knowledge** about their bodies, enabling them to make informed decisions about their health and well-being. It provides information about safe sex practices, thereby reducing the risk of sexually transmitted infections and unwanted pregnancies.
+Primarily, sexual education equips students with knowledge about their bodies, enabling them to make informed decisions about their health and well-being. It provides information about safe sex practices, thereby reducing the risk of sexually transmitted infections and unwanted pregnancies.
 
-Moreover, sexual education **fosters** a culture of respect and consent. It teaches students about the importance of mutual consent in relationships, thereby helping to prevent sexual assault and harassment. **This is particularly crucial in the wake of the #MeToo movement, which has highlighted the prevalence of sexual misconduct 不当行为 in society.**
+Moreover, sexual education fosters a culture of respect and consent. It teaches students about the importance of mutual consent in relationships, thereby helping to prevent sexual assault and harassment. **This is particularly crucial in the wake of the #MeToo movement, which has highlighted the prevalence of sexual misconduct 不当行为 in society.**
 
 Additionally, sexual education can help to dispel myths and misconceptions about sex, which are often propagated by unreliable sources such as the internet and peers. This can prevent misinformation and reduce feelings of confusion and fear among adolescents.
 
@@ -558,8 +557,6 @@ Moreover, technology has democratized employment, allowing for remote work and t
 transformed the ... landscape
 is a catalyst for ...
 
-
-
 ## In many parts of the world, there is an increasing trend of people moving from rural areas to urban cities. What do you think are the reasons for this trend and what problems can it cause?
 The rural-urban migration trend is primarily driven by the pursuit of better economic opportunities and access to superior amenities 便利设施, such as healthcare and education, which are often more prevalent in cities. In rural areas, job opportunities are generally limited to farming or small-scale businesses, whereas 而 cities offer diverse employment sectors, including technology, finance, and entertainment.
 
@@ -588,7 +585,7 @@ proliferation
 - I find it difficult to endorse the idea
 - deter/act as a deterrent
 中立：
-* The subject of xxx is contentious 有争议的 and multifaceted, warranting thorough consideration. Proponents/Advocates 支持者 argue that xxx. Opponents note that
+* The subject 问题 of xxx is contentious 有争议的 and multifaceted, **warranting** thorough consideration. Proponents/Advocates 支持者 argue that xxx. Opponents note that
 提出不同措施：
 * **Nevertheless, it is equally significant to consider the effectiveness of other ways before resorting to such a harsh measure.**
 
@@ -597,7 +594,7 @@ proliferation
 
 ## 总结：
 必用：
-In conclusion, while acknowledging the indispensable role of ... undeniably ..., it's essential to mitigate its potential drawbacks. Therefore, the final decision should be based on the individual circumstances个人具体情况 
+In conclusion, while acknowledging the indispensable role of ... undeniably ..., it's essential to mitigate its potential drawbacks. Therefore, the final decision should be based on the individual circumstances 个人具体情况 
 
 Balancing xxx and xxx remains a complex, nuanced conundrum
 By implementing effective policies , we can harness the benefits of technology while mitigating its negative impacts
@@ -615,7 +612,7 @@ Highlight:
 	* breed inequalities, responsibilities, controversies
 	* bolster emotional stability
 	* cultural/historical/aesthetical benefits
-	* instill a sense of
+	* instill/foster a sense of
 * 举证: #evidence
 	* act as
 	* the presence of ... could
@@ -634,7 +631,7 @@ Highlight:
 * 描述阻碍/损害：
 	* #leading/disadvantage
 	* stifle creativity/undermine/deter abuse/stagnate growth/act as a deterrent
-	* drastically **hampers** productivity
+	* drastically **hampers/hinder** productivity
 	* mitigate, curtail
 * 严格的法律/惩罚：stringent punishment can deter
 * 教育的本质驱动作用：
@@ -643,7 +640,7 @@ Highlight:
 	* Educating the public about the environmental implications of ... decisions **alongside** encouragement towards eco-friendly ... will enable a shift to sustainable living.
 * 心理
 	* #mental
-	* 积极情绪：empathy, compassion, mutual respect, discipline, endurance, perseverance, mental strength
+	* 积极情绪：empathy, compassion, (mutual) respect, discipline, endurance, perseverance, mental strength, consent, collaboration,
 	* 消极情绪：stress, anxiety
 * 不公平：amplify/exacerbate educational/socio-economic disparities/inequalities, equitable
 * 校园教育：
