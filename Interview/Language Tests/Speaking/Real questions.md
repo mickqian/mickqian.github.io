@@ -201,7 +201,7 @@ I believe so. I **put thought into** understanding the recipient's preferences, 
 No. While chocolate as a gift can make nice, I find it a little bit cliche, as it's **so common a choice**. 
 
 
-==I find it better to personalize the gifts **aligned on** the recipient's interests.==
+==I find it better to personalize the gifts **according to/aligned on** the recipient's interests.==
 
 ### Key
 Yes, I always have a bunch of keys with me.
@@ -400,9 +400,9 @@ And modern art is sort of like, **breaking the mould** and reflecting the artist
 #urban
 
 >[!Tip]  ad:
->* public service: transportation
+>* provide public service: transportation
 >* job opportunities and career prospects
->* social opportunities including health care and education
+>* allows for social opportunities including health care and education
 >* equipped with more facilities
 >* ==are hubs of culture and entertainment==
 
@@ -498,12 +498,11 @@ The **stories** of the **strategy**, and the **political** intrigue/**drama** ha
 
 ==I would like to learn more about this historical period because it is a **crucial** part of Chinese **history** that **shaped** the country's **culture** and **identity**. 
 Learning about this period would help me appreciate the country's **rich heritage** and the wisdom of its people 
-Plus, it's a fascinating era that, I believe, holds countless valuable lessons for people today to make informed decisions, which remain relevant today.==
+Plus, it's a fascinating era that, I believe, holds countless valuable lessons for people today to make informed decisions, which still remain relevant today.==
 
 ##### History 
 ==provides valuable **insights** into the past, 
 understanding **historical** **events** and their **consequences** can help individuals make **informed** decisions and avoid further mistakes in the present and future.==
-
 
 
 ##### History taught in primary school
@@ -550,14 +549,15 @@ Besides the fact that he's a fantastic musician, he's also a person with **great
 colleague of mine, also a friend.
 About one year ago, I met him on a course/conference of AI, where we were going to work on a project. His passion and devoted had impressed me.
 
-It was quite a complicated task, I would say. Our goal was to generated great music with the help of AI, and we were short both in schedule and budget. Luckily, with his help, our project has yield some pretty impressive results in a short time,  sometimes even approaching the level of project from those large technology companies like Google.
+It was quite a complicated task, I would say. Our goal was to generated great music with the help of AI, and we were short both in schedule and budget. Luckily, with his help, our project has yield some pretty **impressive results** in a short time,  sometimes even approaching the level of project from those large technology companies like Google.
 
-The reason behinds his success is quite obvious:  I always find him sitting there, learning for hours, just to entertain himself.  ==He's doing this out of **genuine** devotion and passion towards AI,  not for the sake of utility,. ==
+
+The reason behinds his success is quite obvious: I often spot him sitting there, learning, reading latest articles, not aware of how many time have he spent on this. , just to entertain himself.  ==He's doing this out of **genuine** devotion and passion towards AI,  not for the sake of utility,. ==
 
 according to him, This is not just a regular job, it isn't about making money either,  he is exploring the possibilities of the future of humanity, attempting to free **humans** from hectic work."
 
 inspirational figure
-==Working with him was quite exhausting, for he has high standards and never compromise, but overall enjoyable and satisfying.==
+==Working with him could be quite **exhausting**, for he has **high** standards and never **compromise**, but overall enjoyable and satisfying.==
 ##### Measure
 mental measurements, including recognition, praise, acknowledgement are important, too
 
@@ -620,8 +620,8 @@ positive **reinforcement**, rewards and punishment from teachers can motivate th
 * So I was in a local band, of a local company, and all of the band members are colleagues.
 * And about 3 months ago, as a band from the local company, we were told that we were provided an opportunity to perform in front of a **massive audience**, to celebrate the upcoming Olympics.
 * As we are all inexperienced amateur musicians, this news not only surprised us, but also got us very nervous. We definitely wanted to **grasp the opportunity**, and also needed to practice more.
-* So we started to rehearse 2 or 3 times a week, improving every possible aspects of our performance.
-* At the night we delivered the performance, before we went on stage, we took a brief photo of ourselves. The composition of photo is quite simple: A photo of all our band members, standing in front of a huge logo of that concert, ==but the story behind it had already **left an indelible imprint in my mind**, which I truly cherished.==
+* So we started to rehearse 2 or 3 times a week, **improving** every possible aspects of our performance.
+* Right before performance, before we went on stage, we took a brief photo of ourselves. The composition of photo is quite simple: A photo of all our band members, standing in front of a huge logo of that concert, ==but the story behind it had already **left an indelible imprint in my mind**, which I truly cherished.==
 
 #### Move to community & positive influence
 * About a fortnight ago
@@ -658,10 +658,10 @@ Dustin Hoffman is an actor I greatly admire for his remarkable **versatility** a
 	* The story talks about Benjamin Braddock, **fresh out of** college and **unsure about** his future.
 	* **Dustin Hoffman** plays Benjamin brilliantly, with his portrayal of **youthful confusion** and **disillusionment** 醒悟.
 	* Explores the themes of **generation gap** and **identity/existential crisis**. 
-	* Added to this was a **haunting musical score**, written by my favorite folk duo, Simon & Garfunkel.  The music is already good enough for itself, but also integrated into the plots so well, especially the one with Benjamin's infamous poolside drifting scene.
+	* Added to this was a **haunting musical score**, written by my favorite folk duo, Simon & Garfunkel.  The music is already good enough for itself, but also **integrated** into the plots so well, especially the one with Benjamin's infamous **poolside drifting** scene.
 	*  ==As much as it's entertaining, it's also educational and deeply thought-provoking.==
-	* ==In essence, "The Graduate," with its **compelling story architecture** and **iconic soundtrack by Simon and Garfunkel**, remains a timeless masterpiece.==  I first watched this film in College, and I spent considerable hours thinking about my future.
-	*
+	* ==In essence, "The Graduate," with its **compelling 引人入胜的 story architecture** and **iconic soundtrack by Simon and Garfunkel**, remains a timeless masterpiece.==  I first watched this film in College, and I spent considerable hours thinking about my future.
+	
 
 #### Foreigner speaking fluent Chinese | Different Culture
 * During a band audition, applying for the Guitarist/Vocal 
@@ -691,7 +691,7 @@ mindfully 谨慎地
 * His dishes mainly **features** Italian food, one of his special dish is Carbonara, pasta with creamy texture. I once witnessed the whole process of him making this dish, and was **astonished** by how **meticulous** and **careful** about every steps. I guess that's the essential requirements to make a good meal.
 * Out of admiration, I couldn't help asking where did he learn to cook. 
 * **The reason behind** his commitment to cooking is ==his belief in **the profound impact of food** on human connections.==
-* ==He finds immense joy and satisfaction in seeing people savoring his food and enjoying every bite. It's not just about preparing a meal; it's about creating cherished dining experiences with those he cares about. His warmth and generosity shine through his cooking, and it brings people closer together.==
+* ==Based on the joy in his face, I believe he has found immense joy and satisfaction in seeing people savoring his food and enjoying every bite. It's not just about preparing a meal; it's about creating cherished dining experiences with those he cares about..==
 
 ==It's not just about preparing a meal/giving a gift/taking a journey; It's about creating memorable birthday experiences with those I cherish==
 
@@ -782,7 +782,8 @@ expand one's horizons
 * After graduating, I decided to pick up an instrument and learn by myself, just out of self-expression and fulfillment
 * Due to long working hours during the day, I don't have the time to attend any music classes. Thanks to **abundant tutorials** on [social media](https://en.wikipedia.org/wiki/Social_media) platform such as Youtube, BiliBili, I can learn from guitar masters anytime anywhere I want, without having to attend traditional music schools. **As a result, my guitar skills improved very quickly.**
 * Despite all these obstacles, Luckily, through lots of practice, I managed to join a local band and play as the lead guitarist. We successfully  produce our original song and perform in local concerns, which turned out to be quite successful.
-* ==Looking back, it's not just a spontaneous and random decision to pick up a certain instrument, but a decision that have profound implications on my personal life==. I'm grateful that I made the decision,  **If it had not been my perseverance and devotion, I would never have the change to perform in front of such a huge crowd.**
+* ==Looking back, it's not just a spontaneous and random decision to pick up a certain instrument, but a decision that have profound implications on my personal life==.  I'm grateful that I made the decision, It had opened the gate to music for me. I can't imagine myself living without the **accompany** of **soothing music**.
+* **If it had not been my perseverance and devotion, I would never have the change to perform in front of such a huge crowd.**
 
 
 **disseminate**
@@ -814,7 +815,7 @@ Teenagers enter a phase where they need to make crucial decisions that **shape t
 ##### Advertisements 
 * highlight the features, unique selling points 
 * **instill** a sense of **curiosity** in the audience
-* ==triggering a sense of longing or the fear of missing out, known as FOMO==
+* ==triggering a sense of **fear of missing out**, known as FOMO==
 
 ##### Influence of ads
 * yes: they **disseminate** information, promote consumption, increase **sales & demands**
@@ -853,7 +854,9 @@ The festival is **rich in history and culture**, **and it's known for its dragon
 #### Conclusion
 The Duanwu Festival is a time of excitement and camaraderie. **It's a unique blend of history, sport, and culinary 烹饪 tradition that makes it a truly special event in the Chinese calendar.**
 
-==There's no denying that, His/Its unique blend of history/sport/culinary/acting skills/charm/charisma/music talents/instrument playing skills makes him/it a truly remarkable/special/inspirational figure in the movie history/Chinese Calendar.==
+
+enthusiast about 
+==There's no denying that, His/Its unique blend of history/sport/culinary/acting skills/charm/charisma/music talents/instrument playing skills/shooting skills/talents/generosity/philanthropy makes him/it a truly remarkable/special/inspirational figure in the movie history/Chinese Calendar.==
 
 
 ##### Traditional festivals
@@ -968,6 +971,8 @@ Personally, I'm fond of neutral tones, such as blacks, white, brown and gray, wh
 
 ==**Furthermore, Howell's clothes allow me to express myself without being confined to traditional gender norms, as they seamlessly blend masculinity and femininity, creating a unisex appeal.**==
 
+
+==(cultural) norms==
 It's the **minimalist**, **quality** and **versatility** of Howell's clothes that attract me.
 
 ### Place
@@ -1048,10 +1053,10 @@ indoor: TV, video games
 #### Park | Interesting | Crowded place
 * Xianghu, not far from where I live, just about 10-minute bike-ride. It remains a  serene natural heaven to me, If I have to say.
 * Landscape: basically a lake surrounded by a considerable  area of green grass field, where there're also many wildlives too, including egrets and swans. It also has nice and broad grassland near the lake. 
-* Whenever I visit Xianghu, I love to take in the fresh air, and enjoy the refreshing breeze and tranquility away from the bustling city streets. I can often see people picnicking. Some people choose to bring some instruments and deliver an **impromptu** show.
+* Whenever I visit Xianghu, I love to take in the fresh air, and enjoy the warm **breeze** and refreshing **air** and tranquility away from the bustling city streets. I can often see people picnicking. Some people choose to bring some instruments and deliver an **impromptu** show.
 * crowded?
 	* It's usually crowded on weekends
-	* Far from the city center, making it away from the hustle and bustle. Therefore, it is often not very crowded, making it tranquility
+	* Far from the city center, making it **away from the hustle and bustle**. Therefore, it is often not very crowded, making it tranquility
 * To conclude , Xianghu is a delightful oasis in Hangzhou. ==It offers a perfect blend of **nature**, **recreation**, and **social connections**==. Whether you want to relax, exercise, or simply appreciate the beauty of the surroundings, Xianghu has something for everyone. It's truly a cherished gem in our city and a place I always look forward to visiting.
 
 
@@ -1080,6 +1085,7 @@ While making sound is a right, it must be balanced with others' rights to peace 
 ##### Why do some people like planting flowers?
 Daffodil
 ==There's something really satisfying== about watching those tiny seeds sprout 发芽.
+**It's pleasant and enjoyable to** **see some beautiful flowers** before going to work, it builds the momentum of the day.
 People enjoy planting flowers for their **aesthetic appeal**, **therapeutic benefits**, environmental impact, and the **satisfaction gained from nurturing growth**. Flowers can cheer me up whole day.
 
 ##### Benefits of Parks and outdoor games
