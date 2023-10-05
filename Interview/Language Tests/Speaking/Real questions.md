@@ -498,6 +498,7 @@ And that's my talk about..
 ### Historical Period
 
 Three Kingdoms Period
+Intro: 
 It occurred at round  200 AD, and lasted for less than 100 years, If my memory serves me right
 It was a time of great **turmoil**, with the whole **region** separated into power struggle between 3 kingdoms, Wei, Shu and Wu.
 
