@@ -555,15 +555,22 @@ I'd like to talk about my friend, Eric, who I met during a band audition. Eric w
 
 Besides the fact that he's a fantastic musician, he's also a person with **great charm and charisma.** 
 #### Work | Successful
-I met him on a course/conference of AI, where we were going to work on a project.
+colleague of mine, also a friend.
+About one year ago, I met him on a course/conference of AI, where we were going to work on a project. His passion and devoted had impressed me.
 
-It was quite a complicated task, I would say, but he was constantly pushing the progress forward, and with his help, we finished the project **well ahead of schedule**.
+It was quite a complicated task, I would say. Our goal was to generated great music with the help of AI, and we were short both in schedule and budget. Luckily, with his help, our project has yield some pretty impressive results in a short time,  sometimes even approaching the level of project from those large technology companies like Google.
 
-He's also devoted to work, leading a team on AI music generation and has gained reputation in that area. 
+The reason behinds his success is quite obvious:  I always find him sitting there, learning for hours, just to entertain himself.  ==He's doing this out of **genuine** devotion and passion towards AI,  not for the sake of utility,. ==
 
-While others may wonder, his key to success is quite obvious to me: Whenever he gets some free time, he is doing **exercise** on an online-platform, which provides various problems on AI. ==He's doing this out of **genuine** devotion and passion towards AI, not for the sake of utility, which is why I think I can never compare with him==. I **mean, he could sit there learning for ours, just to entertain**.
+according to him, This is not just a regular job, it isn't about making money either,  he is exploring the possibilities of the future of humanity, attempting to free **humans** from hectic work."
 
-I guess all that achievements come from his exceptional communication skills, which makes working with him an exciting and rewarding experience.
+inspirational figure
+==Working with him was quite exhausting, for he has high standards and never compromise, but overall enjoyable and satisfying.==
+##### Measure
+mental measurements, including recognition, praise, acknowledgement are important, too
+
+work achievements, published articles, periodicals
+
 
 #### Interest
 Moreover, we quickly discovered we both love Italian cuisine so we often **gather at a nearby  Italian restaurant**,  after rehearsal, discussing everything from music to life. 
