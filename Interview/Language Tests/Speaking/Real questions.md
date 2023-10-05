@@ -671,6 +671,20 @@ Dustin Hoffman is an actor I greatly admire for his remarkable **versatility** a
 * As we were in a shock, he explained that he had always been a **fan** of Chinese culture, and had **taught** himself Chinese.
 * **Anyway**, we spent a few months together, happily, and even delivered some performances. We insisted on performing English songs, as nowadays it's harder to find fluent English speaker than Chinese speaker.
 
+##### Why learn foreign language 
+global, universal language
+career advancement and academic success
+travel more easily, communicate
+##### how to
+exposure, creating an immersive experience, by films
+additionally, a lot a practice makes perfect, 
+
+##### Tech
+profound impact 
+learning platforms, apps make resources accessible to many
+video conferencing break down geographical boundaries
+
+mindfully 谨慎地
 
 
 #### Like to cook
