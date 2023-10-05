@@ -912,6 +912,43 @@ Paul McCartney
 
 
 
+##### Relationship bet friends
+
+based on friendship, personal experience, shared interests, intimacy
+work relationship, formal, sometimes distant
+
+##### Lonely
+
+lack of interaction -> Isolation
+lack of close-knit community
+
+##### know people
+social gatherings, clubs, exhibitions, music festivals
+online group chat
+
+
+##### Clothes
+
+give clues on personalities, style
+
+reflect their values, profession or even mood
+
+vibrant, high-contrast -> outgoing
+conservative, neutral tones -> introverted
+##### Why do individuals from the same family have different personalities?
+
+While siblings can share the same economic background, family relationships, and households, they can still have their unique temperaments, interests.
+
+personalities make up a colorful world
+
+##### Society
+plays an essential role in shaping
+norms, values : influence how they perceive themselves
+religion, beliefs affect the perspectives
+
+also shape **identity**, sense of belonging, which **in turn** affect their personality development.
+
+
 ### Clothes
 #### Wear most often 
 I prefer wearing clothes of high quality, with a little bit **vintage** vibe, and also they are better to be unisex 
