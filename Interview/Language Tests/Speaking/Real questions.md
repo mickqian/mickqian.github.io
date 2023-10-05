@@ -508,9 +508,28 @@ The **stories** of the **strategy**, and the **political** intrigue/**drama** ha
 Learning about this period would help me appreciate the country's **rich heritage** and the wisdom of its people 
 Plus, it's a fascinating era that, I believe, holds countless valuable lessons for people today to make informed decisions, which remain relevant today.==
 
-#### History 
+##### History 
 ==provides valuable **insights** into the past, 
 understanding **historical** **events** and their **consequences** can help individuals make **informed** decisions and avoid further mistakes in the present and future.==
+
+
+
+##### History taught in primary school
+main difference: level of detail and complexity.
+primary: with a focus on helping students understand the basic concepts
+high school: taught in more depth, understand **perspectives**, **examining the causes and consequences of historical events**.
+
+##### How to learn 
+
+* they can always learn history from school, which is a mandatory course that every should provide 
+* books and literature
+* **movies and documentaries**
+* museums and historical sites
+##### Why events
+* to have something to look forward to throughout the year
+* by holding events, people gather together so that they can share joy and create lasting memories
+* history is preserved and kept down
+
 
 
 ### Person
@@ -1057,7 +1076,6 @@ provide insights to the past.
 find our roots
 deeper understanding of the local culture through events, stories behind
 relax and stress-relieve
-
 ##### Protect
 do want to protect and preserve except maybe a few who **put business ahead of their morality 道德 and rational thinking 理性思考**
 
@@ -1073,12 +1091,30 @@ maintain **cultural heritage** and **architectural history.**
 
 ##### what will happen
 would survive/continue to exist
-try to preserve them because of their **historic and economic significance** 意义
+try to preserve them because of their **historic and economic ==significance==** 意义
 
 facing the destiny of demolishing, for the increasing need of economic growth
 
 concerted effort, not just the effort **of a single entity**
 
+
+
+##### History taught in primary school
+considering their poor comprehension and ability of critical-thinking
+main difference: level of detail and complexity.
+primary: require the **use** of visual aids, sound effects to help students understand the **basic** concepts
+high school: taught in more depth, understand **perspectives**, **examining the causes and consequences of historical events**.
+
+##### How to learn 
+
+* they can always learn history from school, which is a mandatory course that every should provide 
+* books and literature
+* **movies and documentaries**
+* museums and historical sites
+#### Why events
+* to have something to look forward to throughout the year
+* by holding events, people gather together so that they can share joy and create lasting memories
+* history is preserved and kept down
 
 ##### Is it hard to protect
 
@@ -1509,25 +1545,6 @@ products placement 植入广告
 
 
 
-
-### History Place
-
-
-#### History taught in primary school
-main difference: level of detail and complexity.
-primary: with a focus on helping students understand the basic concepts
-high school: taught in more depth, understand **perspectives**, **examining the causes and consequences of historical events**.
-
-#### How to learn 
-
-* they can always learn history from school, which is a mandatory course that every should provide 
-* books and literature
-* **movies and documentaries**
-* museums and historical sites
-#### Why events
-* to have something to look forward to throughout the year
-* by holding events, people gather together so that they can share joy and create lasting memories
-* history is preserved and kept down
 
 ### Tech
 
