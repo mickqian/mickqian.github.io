@@ -145,7 +145,7 @@ provide a refuge from the stresses of everyday life
 among certain groups of people.
 In China, most people enjoy fishing as **a relaxing activity**.
 #### Food
-Today, there's more emphasis on **nutrition balance** and dietary 饮食 restrictions.  People tend to have a more balanced diet. Salty and sweet food is avoided.
+
 It's highly nutritious, containing a lot of protein and unsaturated fat.
 
 I love grilled or saw salmon.
@@ -695,6 +695,29 @@ mindfully 谨慎地
 * ==He finds immense joy and satisfaction in seeing people savoring his food and enjoying every bite. It's not just about preparing a meal; it's about creating cherished dining experiences with those he cares about. His warmth and generosity shine through his cooking, and it brings people closer together.==
 
 ==It's not just about preparing a meal/giving a gift/taking a journey; It's about creating memorable birthday experiences with those I cherish==
+
+
+##### Prepare
+kitchen appliances, equipments
+recipes, ingredients
+clear plan and confidence
+
+##### In Festivals
+important traditions
+bring people closer together, create memories
+often **carries** significant cultural symbolism, fish **symbolize** "plenty" in New Year
+
+##### Compulsory
+foster creativity and collaboration, team work
+promote a healthy diet
+
+##### Different
+appliances, equipments
+Today, there's more emphasis on **nutrition balance** and dietary 饮食 restrictions.  People tend to have a more balanced diet. Salty and sweet food is avoided.
+lead to a **shift** in **dietary** habits, with more emphasize on nutrition balance
+**aligns with** the current of eating healthily
+
+
 
 #### Businessman
 
