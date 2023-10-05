@@ -1258,7 +1258,7 @@ provide social interactions
 #### Local concert | Late for a meeting | Exciting activity
 * a band with members all colleagues
 * 2 days before we ought to perform in a local concert, last rehearsal before performance.
-* was held up by a emergency task from work, which is a bug-fix, and so I couldn't make it to rehearsal on time
+* was **held up** by a emergency task from work, which is a bug-fix, and so I couldn't **make it** to rehearsal on time
 * my hands felt a huge pain, and had callouses from touching the steel strings constantly
 * We rehearsed for quite a long time. At first we couldn't even **make our rhythms meet**.
 * Through a lot of practice, we **developed a sort of dynamics** or tacit understanding between us, making the performance easier and seamless.
@@ -1266,7 +1266,8 @@ provide social interactions
 * We performed several britpop songs, though I made a few minor mistakes, the audience seemed to enjoy it. **It was satisfactory to share the music I love with people**.
 * Looking back, it's process of working with my friends and creating fantastic music that captivates me.
 * Late:
-	* ==This experience taught me the importance of planning ahead and **considering unexpected factors** that could affect my schedule. Since then, I have become more **cautious** and proactive in managing my time to avoid similar incidents in the future. I never procrastinate since then.==
+	* ==This experience taught me the importance of planning ahead and **considering unexpected factors** that could affect my schedule.==
+	* ==Since then, I have become more **cautious** and proactive in managing my time to avoid similar incidents in the future. I never **procrastinate** since then.==
 * Advantage for playing
 	* I was grateful for making this important decision to pick up the guitar. If I hadn't made that decision with courage and perseverance, I wouldn't have the chance to express my skills on stage.
 
@@ -1620,12 +1621,12 @@ I first encountered “The Starry Night” during a school trip to a local [Muse
 As I was wondering in the museum a painting with its **vibrant colors and unique style** stood out among the other artworks.
 So I approached to take a closer look at it.
 
-from the later research I did, painted in 1889 in a mental hospital, it **depicts an image** of a night sky filled with **swirling** & chaotic stars, overlooking a quaint 古色古香 town. The night sky could be seen as a representation of his inner feelings and emotional state at that time. 
+from the later research I did, painted in 1889 in a mental hospital, it **depicts an image** of a night sky filled with **swirling** & chaotic stars, overlooking a quaint 古色古香 town. The night sky could be seen as a representation of his **inner feelings** and emotional state at that time. 
 ![[Pasted image 20230930103128.png]]
 
 **I was also surprised to find that** one of my favorite songs, "Vincent"by Don Mclean, starts with the lyric "Starry Starry night",  serves as a tribute to Van Gogh.
 
-Resonate & dark times & adversity: I find most fascinating about “The Starry Night” is how it resonates with me on an emotional level. It serves as a **reminder** that **beauty can be found even in dark times**, and that ==creativity can flourish **amidst adversity 逆境**==.
+Resonate & dark times & adversity: I find most fascinating about “The Starry Night” is how it resonates with me on an emotional level. It serves as a **reminder** that ==**beauty can be found even in dark times**==, and that ==creativity can flourish **amidst adversity 逆境**==.
 
 It serves as an inspiration, **reminding** us of the power of perseverance and the unlimited potential of human [creativity](https://ieltsrewind.com/describe-a-creative-person-whose-work-you-admire/).
 ##### drawing
