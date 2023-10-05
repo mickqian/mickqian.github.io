@@ -906,7 +906,7 @@ Paul McCartney
 
 * talented song-writer, sophisticated bass player, **gifted singer**, a generous philanthropist
 * He's able to produce intriguing melody. In fact, he and John Lennon are considered the greatest song-writting duo ever. He had made **considerable amount** of hit songs, **unmatched** by any other musicians later
-* Besides his talent in music, **He was keen on attending charity events, by donating or writing songs.**
+* Besides his talent in music, he was passionate about philanthropy, **He was keen on attending charity events, by donating or writing songs.** 
 * he has been at the **pinnacle** of music throughout his whole career
 * He had left an inedible imprint on the rock & roll history, **inspiring numerous fellow musicians to follow in their steps.**
 
