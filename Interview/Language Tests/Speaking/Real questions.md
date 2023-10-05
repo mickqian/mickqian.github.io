@@ -1372,10 +1372,36 @@ Up until that point, I had never ventured into the realm of exotic cuisines, so 
 What made this meal unusual, and indeed transformative, was that **it opened the door for me to explore cooking on my own**. This dining experience ignited a culinary curiosity in me that I had not known before, and it continues to influence my food choices and cooking ventures.
 #### Speech
 * music about surf rock
-* I was then a sophomore student and I was in a school club, which is basically people with shared interests towards arts. **We hold salon occasionally.**
-* To prepare for the speech, keynote, transcript, and visual aids are required. It took me several weeks to organize.
-* As for the speech, not so many people, great interaction with the audience. We have a nice conversation.
+* I was then a sophomore student and I was in a school interest club, where we all have shared interests towards music. **We hold salon occasionally.** For my opportunity to give the speech, I chose the Beatles as the topic
+* To prepare for the speech, I gather all the **keynote**, **transcript**, and visual aids I need for a fortnight..
+* As for the speech, not so many people, in a casual classroom. I spoke about the their **stories**, music designs, and the **twists** of band members, even how they broke up. Based on the expression on the audience's face, I knew the speech has been **smooth**. After the speech, I even got some great interaction with the audience. We have a nice conversation.
 * but satisfied, self-expression
+
+##### Communication
+Indeed, the internet has revolutionized communication. 
+  **subjected** to geographical boundaries. 
+  allow groups of people to communicate instantly and simultaneously 
+
+efficient, convenient, and widely accessible
+
+#### How do we handle stress?
+Managing stress can involve 
+* a balanced diet, 
+* regular exercise,
+* sleep regularly, 
+* or meditation. 
+* Talking with friends about concerns can also help.
+
+#### Why mental breakdown
+fast-paced working environment places increasing stress on people.
+struggle
+I guess that's due to the rapid pace of modern city. Everyone is strained 紧张的 financially and mentally. Besides, communication via internet lacks personal touch compared to face-to-face interactions.
+
+
+The artifacts from the old times doesn't mean that the thoughts included in them are also old. Some thoughts are quite timeless. For instance, Newton's law about force has never gone out of style, out of time, since he published it.  ->
+
+The artifacts from the past do not **necessarily imply** that the ideas contained within them are also outdated. Some thoughts are truly timeless. For example, Newton's law of force has never fallen out of fashion or lost its relevance since its publication.
+
 #### Game played 
 As a child, I haven't participated in many games. However, I can recall vividly about roller-skating in the playground of my community 
 * Speaking of roller-skating, it's basically skating, but on the **cement roads**. Also, it requires special equipment/appliance, too.
@@ -1788,26 +1814,6 @@ In contrast, actors who earn less may be newer to the industry, have fewer notab
 
 
 #### Consider
-### Internet
-#### Communication
-Indeed, the internet has revolutionized communication. In the past, the communication is **subjected** to geographical boundaries. But nowadays, communication can occur virtually anywhere, **provided it has access to internet.**
-#### How do we handle stress?
-Managing stress can involve 
-* a balanced diet, 
-* regular exercise,
-* sleep regularly, 
-* or meditation. 
-* Talking with friends about concerns can also help.
-
-#### Why mental breakdown
-fast-paced working environment places increasing stress on people.
-struggle
-I guess that's due to the rapid pace of modern city. Everyone is strained 紧张的 financially and mentally. Besides, communication via internet lacks personal touch compared to face-to-face interactions.
-
-
-The artifacts from the old times doesn't mean that the thoughts included in them are also old. Some thoughts are quite timeless. For instance, Newton's law about force has never gone out of style, out of time, since he published it.  ->
-
-The artifacts from the past do not **necessarily imply** that the ideas contained within them are also outdated. Some thoughts are truly timeless. For example, Newton's law of force has never fallen out of fashion or lost its relevance since its publication.
 
 ### Traffic
 #### Road rage
