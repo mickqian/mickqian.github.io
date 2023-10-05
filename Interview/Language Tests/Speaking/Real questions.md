@@ -148,18 +148,11 @@ In China, most people enjoy fishing as **a relaxing activity**.
 
 It's highly nutritious, containing a lot of protein and unsaturated fat.
 
-I love grilled or saw salmon.
-Some of the freshwater fish  are  delicious too.
-
-grilled salmon
-
 #### Many fish around you 
 
 For example, I’ve visited **aquariums** many times and diving in areas with **diverse marine life**.
 
-But since I have a strong fear of sea, I don't like the feeling of surrounded by a lot of fishes.
-#### Movie
-Moby Dick, which is a classic move talking about the story of a whale, **depicting** the fight between human and nature.
+But since I have a **strong fear** of sea, I don't like the feeling of surrounded by a lot of fishes.
 ### Music
 catchy, memorable tunes
 **uplift my spirit**, **recharge my battery and energy**
@@ -169,7 +162,6 @@ fall under the classification of blues rock
 maintaining a positive state of mind
 
 **What I really enjoy** the most is bossa nova. **No sooner do** I start listening to it **than** I get really obsessed about it/
-#### One type
 
 ### Dream 
 
@@ -178,15 +170,12 @@ His sophisticated guitar playing skills and outstanding composition abilities ad
 
 ### Drinks
 #### Do people like tea and coffee nowadays?
-Well,  I would say that the love for tea and coffee is still going strong these days. Many people enjoy sipping a cup of tea or coffee to start their day or have a break.
+Well,  I would say that the love for tea and coffee is still going strong these days.
 
-#### Do you prefer to use tea or coffee to serve your guests?
 I usually go with coffee because most of my guests prefer it over tea. I like to have a variety of coffees available to cater to different tastes
-#### How often do you buy a drink
+
 I don't buy drinks on a regular basis. Whenever I see some drinks and I feel like drinking, I'll grab some.
 
-#### Chocolate as gifts
-No. While chocolate as a gift can make nice, I find it a little bit cliche, as it's so common a choice. I find it better to personalize the gifts aligned on the  recipient's interests.
 
 ### Space 
 
@@ -203,12 +192,17 @@ Oh wow, I have never thought about it. First thing to do is definitely record ev
 Yes, I've made and sent origami gifts. It's a thoughtful, **personal touch** that people seem to appreciate.
 
 #### What do you consider when choosing a gift?
-I consider the recipient's personal interests, the gift's uniqueness, its quality, and my **budget**. It's all about **matching** the gift to the person.
+I consider the recipient's **personal interests**, the gift's uniqueness, its **quality**, and my **budget**. 
 
 #### Do you think you are good at choosing gifts? 
 I believe so. I **put thought into** understanding the recipient's preferences, which helps me choose meaningful gifts.
 
-Well, I like to think so! I always try to pick gifts that are thoughtful and meaningful to the recipient. **It's all about** knowing their interests and preferences, and putting some effort into finding something they'll truly appreciate.
+#### Chocolate as gifts
+No. While chocolate as a gift can make nice, I find it a little bit cliche, as it's **so common a choice**. 
+
+
+==I find it better to personalize the gifts **aligned on** the recipient's interests.==
+
 ### Key
 Yes, I always have a bunch of keys with me.
 
@@ -218,69 +212,67 @@ spare key
 #### Do you?
 * I think I've always been a helpful person 
 * I'm always there to help where someone around me needs it
-* It's a virtue, so why not
+* It's a **virtue**, so why not
+
 #### How do you help people around you, such as neighbour, family and friends?
 There are actually many ways
 * like if I see a passenger/our neighbors **struggling with** a package, I'll just offer to help
 * Or I'm very happy to look after their pets when they are unavailable
-* friends: lend things, help them with my expertise in computer
-
-I assist by offering emotional support, sharing knowledge, helping with tasks, and being a reliable presence in their lives.
+* friends: lend things, help them with software problems
+* offering emotional support
 #### Do your parents teach you how to help others
 When I was young, my parents always taught me being **kind** and **helpful**.
 
 For example , such as looking after a relative's child or his pet.
 
-Yes, instead of plain talking, they teach by setting role models for me.
-
+**Yes, instead of plain talking, they teach by ==setting role models== for me.**
 #### Did your parents help you a lot when you were young? 
 Absolutely, my parents help me with 
-* like helping me fix my **bike**
+* like helping me fix my bike
 * picking me up to school
-* helping me with my homework
-
+* helping me with my **homework**
 #### What have you done to help the elderly? 
-I don't have too much opportunities to spend with elderly actually, but I did go to a **nursing** home to deliver gifts and food once, as part of a school program.
-
-carry heavy things
+I don't have too much opportunities to spend with elderly actually, but I did 
+* go to a **nursing** home to deliver gifts and food once, as part of a school program.
+* carry heavy things
 ### Do you like ice cream?
 
-Absolutely, I adore ice cream! The variety of flavors and its creamy texture make it a **delightful** treat. My favorite ice-cream is Gelato, which is the Italian version. In fact, I don't know if that is considered as "Ice cream".
+Absolutely, I adore ice cream! The 
+* variety of flavors
+* its creamy texture make it a **delightful** treat. 
 
-However, it's calorie-dense, and lack in nutrients. contains a large proportion of saturated fat
+My favorite ice-cream is Gelato, which is the Italian version. In fact, I don't know if that is considered as "Ice cream".
+
+However, it's **calorie-dense**, and lack in **nutrients**. contains a large proportion of saturated fat
 
 dopamine
 ### How far is it from your home to work or to school?
 It takes me around 20 minutes to get to work/school from my home. I usually go on electric bicycle. I prefer living near the workspace, saving me time for commuting.
 
 ### Do you think people will drive more in the future?
-I believe the future might see less individual driving due to the rise of autonomous vehicles and shared transportation services. Environmental concerns may also promote the use of public transportation.
+I believe the future might see less individual driving due to the rise of **autonomous vehicles** and **shared transportation services**. 
+**Environmental concerns** may also promote the use of public transportation.
 
 ### Bag
 
 #### Do you usually carry a bag
-Yes, I usually carry a bag. It helps me keep important items like my wallet, keys, and phone organized and easily accessible.
 Yes, I do. I find a denim tote bag quite **handy** for carrying my **essentials** like books, wallet, and phone. It's both **practical and stylish.**
 
 #### What kinds of bags do you like to carry?
-I prefer convenient and small bags. They're easy to **carry around** and suit my needs without being overly bulky or expensive.
+I prefer **convenient** and small bags with large **volume**. They're easy to **carry around** and suit my needs without being overly bulky or expensive.
 
 #### Do you change your bags often?
 No, I don't change my bags. I **prefer** sticking to one that's durable and fits my daily needs. I tend to only replace my bags when they are worn out or broken. Also, I find it hard to choose
 
 #### Expensive bags
-find luxury bags premium 溢价 is serious.
-
+premium of  luxury bags 溢价 is serious.
 They are just, not worth the price.
 
-
-
 ### Where do you live
-Currently I live in an one-bedroom apartment near where I work. It's also close to coffee shops, shopping malls and livehouses, where I can enjoy live music. 
-It's compact and not that spacious, which is perfect for me.
+Currently I live in an **one-bedroom** apartment near my workplace. It's compact and not that spacious, which is perfect for me.
+It's also close to coffee shops, shopping malls and livehouses, where I can enjoy live music. 
 
 Although the work pace is rapid, I think, Hangzhou is still suitable to live in.
-
 I live on my own, enjoying a high-quality bachelor life.
 
 #### Flat or House
@@ -373,7 +365,7 @@ I have a preference for neutral tones, such as blacks, whites, and earthy hues, 
 I chose computer science as my major because I find the process of programming, seeing the program run without mistake a satisfying experience. I've always been fascinated by technology and its potential to solve complex problems.
 
 
-I chose computer science as my major because I've always been fascinated by technology and its potential to solve complex problems.
+I chose computer science as my major because I've always been fascinated by technology and its **potential** to solve complex problems.
 
 
 
