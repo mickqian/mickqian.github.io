@@ -271,14 +271,18 @@ instill
 ## Some people believe that unpaid community service should be a compulsory part of high school programs (for example, working for a charity, improving the neighborhood or teaching sports to younger children). To what extent do you agree or disagree?
 It is argued by some that high school **curricula** should mandatorily include unpaid community service, such as charity work, neighborhood improvement, or sports coaching for younger children. I **wholeheartedly** **concur** with this view due to the **multifaceted** benefits it offers to students and society.
 
-Firstly, engaging in community service activities **fosters** a sense of social responsibility in students. By participating in charity work, they understand the struggles faced by the less fortunate, thereby developing **empathy and compassion**. This emotional intelligence is essential for their overall personal development.
+For person:
+**social responsibility**: Firstly, engaging in community service activities fosters a sense of **social responsibility** (empathy, compassion) in students. By participating in charity work, they understand the struggles faced by the less fortunate, thereby developing **empathy and compassion**. This emotional intelligence is essential for their overall personal development.
 
-Secondly, such activities also provide practical knowledge and skills that are not typically covered in traditional classroom settings. For instance, teaching sports to younger children can enhance their leadership and communication skills, which are invaluable in their future careers.
+**Skills**: Secondly, such activities also provide **practical knowledge and skills** that are not typically covered in traditional classroom **curricula**. For instance, teaching sports to younger children can enhance their leadership and **communication skills**, which are invaluable in their future careers.
 
-Lastly, **a community that encourages its youth to contribute to its betterment is likely to prosper**. When students improve their neighborhoods, they not only enhance the physical environment but also strengthen the community spirit.
+
+For society: 
+**Significance of giving back to society**: Lastly, **a community that encourages its youth to contribute to its betterment is likely to prosper**. When students improve their neighborhoods, they not only enhance the physical environment but also strengthen the community spirit.
+
+**create a close-knit society and positive social impact**
 
 In conclusion, I **firmly** believe that unpaid community service should be an integral part of high school programs due to its potential in **nurturing socially responsible citizens**, **imparting practical skills**, and fostering community development.
-
 
 foster a sense of unity, responsibility, empathy
 impart practical skills
@@ -318,7 +322,7 @@ Primarily, sexual education equips students with knowledge about their bodies, e
 
 Moreover, sexual education fosters a culture of respect and consent. It teaches students about the importance of mutual consent in relationships, thereby helping to prevent sexual assault and harassment. **This is particularly crucial in the wake of the #MeToo movement, which has highlighted the prevalence of sexual misconduct 不当行为 in society.**
 
-Additionally, sexual education can help to dispel myths and misconceptions about sex, which are often propagated by unreliable sources such as the internet and peers. This can prevent misinformation and reduce feelings of confusion and fear among adolescents.
+Additionally, sexual education can help to dispel 驱散 myths and misconceptions 错误想法 about sex, which are often propagated by unreliable sources such as the internet and peers. This can prevent misinformation and reduce feelings of confusion and fear among adolescents.
 
 In conclusion, making sexual education mandatory in schools is a crucial step towards **ensuring the physical, emotional, and psychological well-being** of students. It is an investment in the future of our society, fostering a generation that is informed, respectful, and responsible.
 
@@ -350,7 +354,7 @@ However, this is not to undermine the validity of allocating funds to other sect
 ## Some people claim that not enough of the waste from homes is recycled. They say that the only way to increase recycling is for governments to make it a legal requirement. To what extent do you think laws are needed to make people recycle more of their waste?
 While there is widespread consensus on the need for greater waste recycling, the proposition of implementing laws to mandate it is quite thought-provoking. According to the standpoint endorsing legislation, the current voluntary system appears inefficient and systematic state intervention is necessitated. **Nevertheless, it is equally significant to consider the effectiveness of other ways before resorting 求助于 to such a harsh measure.**
 
-The **conviction** 信念 that laws would boost recycling probably emanates 来自于 from the belief in their deterrent 威慑力 potential. If non-compliance resulted in penalties, households might be more motivated to recycle. However, it seems precarious 危险，不稳定 to overly rely on laws, as this possibly overlooks 忽略 the importance of awareness and education. Should recycled material disposal be clearly explained and recycling become part of school curricula 课程, it may proliferate 扩散 organically without the need for regulation.
+The **conviction** 信念 that laws would boost recycling probably emanates 来自于 from the belief in their deterrent 威慑力 potential. If non-compliance resulted in penalties, households might be more motivated to recycle. However, it seems **precarious** 危险，不稳定 to overly rely on laws, as this possibly overlooks 忽略 the importance of awareness and education. Should recycled material disposal be clearly explained and recycling become part of school curricula 课程, it may proliferate 扩散 organically without the need for regulation.
 
 提出不同的措施
 Moreover, better recycling facilities and services could also be a **viable** solution. In locations where these are already available, recycling rates tend to be impressive. Thus, it is not laws, but lack of infrastructure and awareness that deter recycling.
@@ -379,9 +383,13 @@ ameliorate
 ## The increasing production of consumer goods results in damage to the natural environment. What are the causes of this? What can be done to solve this problem?
 The surge in the production of consumer goods is inevitably impacting the natural environment considerably. The central causes are industrial advancements and widespread consumerism.
 
-Technological progression has catapulted the manufacturing sector to record heights. Factories incessantly produce goods to cater to 满足 increasing needs, facilitating carbon emission and leading to environmental degradation. Besides, the rampant 猖獗 consumerism 消费主义 in contemporary society propels this endless production. Individuals, constantly seeking the newest and the best products, contribute to a persistent demand, consequentially exacerbating ecological damage.
+Technological progression has catapulted the manufacturing sector to record heights. Factories incessantly produce goods to cater to 满足 increasing needs, facilitating carbon emission and leading to environmental degradation. Besides, the rampant 猖獗 **consumerism** 消费主义 in contemporary society **propels** this endless production. Individuals, constantly seeking the newest and the best products, contribute to a persistent **demand**, consequentially exacerbating ecological damage.
 
-Several tactful measures can be taken to counter these issues. Firstly, industries should be compelled to implement greener technologies reducing carbon emissions. Strict regulatory policies and hefty fines for non-compliance can be coercive tools. Secondly, promoting the idea of sustainable and responsible consumption can discourage incessant 不断的 buying patterns. Educating the public about the environmental implications of their purchase decisions alongside encouragement towards eco-friendly products and second-hand consumables will enable a shift to sustainable living.
+Several tactful measures can be taken to counter these issues. 
+* 教育：**Educating** the public about the environmental implications of their purchase decisions alongside **encouragement towards eco-friendly products** and second-hand consumables will enable **a shift to sustainable living**.
+* industries should be **compelled** 强迫 to implement **greener technologies** reducing carbon emissions. Strict **regulatory policies** and hefty fines for non-compliance 不服从 can be coercive tools. 
+* 阻碍购买模式： **promoting** the idea of **sustainable living** and **responsible consumption** can **discourage** incessant 不断的 buying patterns. 
+
 
 To curtail 消减 the environmental harm from mass production, a concerted effort from both industries and individuals is pivotal. While industries adopt sustainable practices, society must transition to thoughtful and minimalistic consumption.
 
@@ -585,19 +593,17 @@ proliferation
 - I find it difficult to endorse the idea
 - deter/act as a deterrent
 中立：
-* The subject 问题 of xxx is contentious 有争议的 and multifaceted, **warranting** thorough consideration. Proponents/Advocates 支持者 argue that xxx. Opponents note that
+* The **subject** 问题 of xxx is contentious 有争议的 and multifaceted, **warranting** thorough consideration. Proponents/Advocates 支持者 argue that xxx. Opponents note that
 提出不同措施：
-* **Nevertheless, it is equally significant to consider the effectiveness of other ways before resorting to such a harsh measure.**
-
-
+* **Nevertheless, it is equally significant to consider the effectiveness 有效 of other ways before resorting to such a harsh measure.**
 
 
 ## 总结：
 必用：
-In conclusion, while acknowledging the indispensable role of ... undeniably ..., it's essential to mitigate its potential drawbacks. Therefore, the final decision should be based on the individual circumstances 个人具体情况 
+In conclusion, while **acknowledging** the indispensable role of ... undeniably ..., it's essential to mitigate its potential drawbacks. Therefore, the final decision should be based on the individual circumstances 个人具体情况 
 
-Balancing xxx and xxx remains a complex, nuanced conundrum
-By implementing effective policies , we can harness the benefits of technology while mitigating its negative impacts
+**Balancing** xxx and xxx remains a complex, nuanced conundrum
+By implementing effective policies , we can harness 利用 the benefits of technology while mitigating its negative impacts
 
 
 Highlight:
