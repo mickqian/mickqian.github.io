@@ -1064,8 +1064,6 @@ From what I've observed, though young people would love to spend some time in th
 People from **all walks of life** **converge** there, and you end up making connections.
 for them to **unwind**
 
-
-
 * jogging
 * bird-watching, dog-walking, taichi
 * Some may choose less tensive activities : chessing, reading, dancing 
