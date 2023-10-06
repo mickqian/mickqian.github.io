@@ -4,10 +4,8 @@
 * the companies he runs have all achieved global leadership
 * gain an advantage/edge over rivals
 * captivate my interests
-* **This includes**
 * happy <-> thrilled, delighted, overjoyed
 * 不用正面回答，不用以第一人称主语开始
-* encounter
 * fascinated with/be fond of/be really into/be keen on/appreciate/was very involved with
 * **It's intriguing 令人感兴趣的 to gain a deep understanding about different locations, cultures, and the physical characteristics of our world.** Gain respect for people from different backgrounds
 * most .. aspect of...
@@ -532,9 +530,9 @@ high school: taught in more depth, understand **perspectives**, **examining the 
 #### Sportsman
 Thomas Muller, who is the striker of the Deutsch football team, also of bayern Munchen F.C.
 * Well, I don't have much time to watch sports now, but
-* I first get to knew him from the TV broadcast of the 2018 world cup. It was German vc Portugal, if my memory serves me right. And Thomas, with his great sense of the penalty area and **exceptional** moves, scored 3 goals and  was named the best player of that match.
+* I first get to knew him from the TV broadcast of the 2018 world cup. It was German vc Portugal, if my memory serves me right. And Thomas, with his keen sense in the penalty area and **exceptional** moves, scored 3 goals and  was named the best player of that match.
 * He has won a Golden and Silver Boot.
-* thought technically speaking, he isn't equipped with exquisite shooting skills, he could led the team to success with his own insights to the situation of the game.
+* thought technically speaking, he isn't equipped with exquisite shooting skills, he could led the team to success with his own insights and judgement of the situation.
 * In his normal life, he is also a proud husband and father
 * optimistic life attitude and fascinating performance on the court that captivates me.
 
@@ -552,7 +550,7 @@ About one year ago, I met him on a course/conference of AI, where we were going 
 It was quite a complicated task, I would say. Our goal was to generated great music with the help of AI, and we were short both in schedule and budget. Luckily, with his help, our project has yield some pretty **impressive results** in a short time,  sometimes even approaching the level of project from those large technology companies like Google.
 
 
-The reason behinds his success is quite obvious: I often spot him sitting there, learning, reading latest articles, not aware of how many time have he spent on this. , just to entertain himself.  ==He's doing this out of **genuine** devotion and passion towards AI,  not for the sake of utility,. ==
+The reason behinds his success is quite obvious: I often spot him sitting there, learning, reading latest articles, not aware of how many time have he spent on this. , just to entertain himself.  ==He's doing this out of **genuine** devotion and passion towards AI, not for the sake of utility. ==
 
 according to him, This is not just a regular job, it isn't about making money either,  he is exploring the possibilities of the future of humanity, attempting to free **humans** from hectic work."
 
@@ -567,19 +565,19 @@ work achievements, published articles, periodicals
 #### Interest
 Moreover, we quickly discovered we both love Italian cuisine so we often **gather at a nearby  Italian restaurant**,  after rehearsal, discussing everything from music to life. 
 
-#### Interesting idea | Advice
+#### Interesting idea
 * During rehearsals, he **constantly** brought unique ideas to the table, whether it was about the song's design, or subtle suggestions about the tone of the guitar.
 * He was composing a new song then, in brit-pop style. But he was **dissatisfied** about the **interim** song, and found it hard to come up with the **main melody**.
-* Once during a rehearsal, the bassist/composer accidentally kick down the chair near her, making a high-pitched sound. While most of us ignored it, he immediately captured this, suggested integrating that note into the song, which turned out to be surprisingly weird but somehow melodic and harmonious. The **melody** and the **groove** of the song is **enriched** by this **genius design**. We were all convinced with his talents in music.
+* Once during a rehearsal, the bassist/composer accidentally kick down the chair near her, making a **high-pitched** sound. While most of us **ignored** it, he immediately captured this, suggested **integrating** that note into the song, which turned out to be surprisingly weird but somehow melodic and harmonious. I must say, the **melody** and the **groove** of the song is **enriched** by this **genius design**. We were all convinced with his talents in music.
 * Moreover, he even **offered insights** into our **stage design**, suggesting specific movements and poses for us when performing. All of these ideas sound interesting and inspiring.
 * Advice: I think I enjoy helping people and saving them from complex problems. It's not just about **benefiting** others, it's a journey of self-improvement.
 
 #### Help others
 * kind hearted person, and also a **semi-professional** musician,
 * **Right before** the performance, the bassist accidentally got a flu, and was unable to give a performance. Though at that time he had heavy work to do, but he offered to **substitute** even though  that meant he had to work overtime. He not only attended all the emergent rehearsals, but also practiced in his spare time.
-* We really appreciate his kind action to help in such **emergency**, even though he had to **sacrifice** a lot of his **leisure** time.
 * Thanks to his help, we managed to produce our original song and perform in local concerns, which turned out to be quite successful.
 * It's not just about **delivering** a performance, it's about viewing us as a whole team and sacrificing his spare time to make sure we **get through hard times**.
+* We really appreciate his kind action to help in such **emergency**, even though he had to **sacrifice** a lot of his **leisure** time.
 
 ##### Help parents 
 pitching in with chores and stuff.
@@ -640,8 +638,6 @@ positive **reinforcement**, rewards and punishment from teachers can motivate th
 ##### keep moving?
 seek for better job opportunities
 seek for higher educations
-
-
 
 
 
@@ -717,8 +713,6 @@ Today, there's more emphasis on **nutrition balance** and dietary 饮食 restric
 lead to a **shift** in **dietary** habits, with more emphasize on nutrition balance
 **aligns with** the current of eating healthily
 
-
-
 #### Businessman
 
 Sam Altman
@@ -726,7 +720,7 @@ Sam Altman
 * He started his business as the former president of Y Combinator which is a **startup accelerator**.
 * **Apart from** YC, he had some other successful projects too, including **Airbnb**, Dropbox, and **Strip**. It showed his **exceptional** talent of ==**identifying** and **nurturing** these state-of-the-art concepts.==
 * And **finally**, he founded OpenAI,  where he guided **cutting-edge** research in AI. **We all know the rest of the story.** I've watch some interviews of him, 
-* Altman truly ==**embodies success in the business world**==.  Someone would call him the father of GPT, but I think that **credit** goes to those scientist. **Nonetheless**, it embodied the role he played in this huge AI wave and how successful he is.
+* I do admire Sam Altman for his keen business **sense**. Someone would call him the father of GPT, but I think that **credit** goes to those scientist. **Nonetheless**, it embodied the role he played in this huge AI wave and how successful he is.
 ##### Affect the environment
 * directly release the waste into the ... is probably the most **common and cost-effective** way
 * A business thrive not because of itself, but also from the support of public and government. Nowadays government is promoting sustainable development, people are into environmentally friendly products, which encourage those company who pay ..
@@ -938,7 +932,7 @@ vibrant, high-contrast -> outgoing
 conservative, neutral tones -> introverted
 ##### Why do individuals from the same family have different personalities?
 
-While siblings can share the same economic background, family relationships, and households, they can still have their unique temperaments, interests.
+While siblings can share the same economic **background**, family relationships, and **households**, they can still have their unique **temperaments**, **interests**.
 
 personalities make up a colorful world
 
@@ -1618,7 +1612,7 @@ post-impressionist style
 
 I first encountered “The Starry Night” during a school trip to a local [Museum](https://ieltsrewind.com/describe-a-museum-you-have-visited-and-liked/) . Unfortunately, it was merely a replica, but that didn't affect the presentation of that artwork.
 
-As I was wondering in the museum a painting with its **vibrant colors and unique style** stood out among the other artworks.
+As I  wandered in the museum, a painting with its **vibrant colors and unique style** stood out among the other artworks.
 So I approached to take a closer look at it.
 
 from the later research I did, painted in 1889 in a mental hospital, it **depicts an image** of a night sky filled with **swirling** & chaotic stars, overlooking a quaint 古色古香 town. The night sky could be seen as a representation of his **inner feelings** and emotional state at that time. 
