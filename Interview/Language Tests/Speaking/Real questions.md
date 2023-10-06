@@ -401,7 +401,7 @@ And modern art is sort of like, **breaking the mould** and reflecting the artist
 
 >[!Tip]  ad:
 >* provide public service: transportation
->* job opportunities and career prospects
+>* allows for job opportunities and broader career prospects
 >* allows for social opportunities including health care and education
 >* equipped with more facilities
 >* ==are hubs of culture and entertainment==
@@ -621,6 +621,7 @@ positive **reinforcement**, rewards and punishment from teachers can motivate th
 * And about 3 months ago, as a band from the local company, we were told that we were provided an opportunity to perform in front of a **massive audience**, to celebrate the upcoming Olympics.
 * As we are all inexperienced amateur musicians, this news not only surprised us, but also got us very nervous. We definitely wanted to **grasp the opportunity**, and also needed to practice more.
 * So we started to rehearse 2 or 3 times a week, **improving** every possible aspects of our performance.
+* It's not just about playing or creating music, it's more about creating cherished moments with who I care and connects with my innerworld.
 * Right before performance, before we went on stage, we took a brief photo of ourselves. The composition of photo is quite simple: A photo of all our band members, standing in front of a huge logo of that concert, ==but the story behind it had already **left an indelible imprint in my mind**, which I truly cherished.==
 
 #### Move to community & positive influence
@@ -688,7 +689,7 @@ mindfully 谨慎地
 
 #### Like to cook
 * has an **incredible passion** for cooking
-* His dishes mainly **features** Italian food, one of his special dish is Carbonara, pasta with creamy texture. I once witnessed the whole process of him making this dish, and was **astonished** by how **meticulous** and **careful** about every steps. I guess that's the essential requirements to make a good meal.
+* His dishes mainly **features** Italian food, one of his special dish is Carbonara, pasta with creamy texture. I once **witnessed** the whole process of him making **this** dish, and was **astonished** by how **meticulous** and **careful** about he was every steps. I guess that's the essential requirements to make a good meal.
 * Out of admiration, I couldn't help asking where did he learn to cook. 
 * **The reason behind** his commitment to cooking is ==his belief in **the profound impact of food** on human connections.==
 * ==Based on the joy in his face, I believe he has found immense joy and satisfaction in seeing people savoring his food and enjoying every bite. It's not just about preparing a meal; it's about creating cherished dining experiences with those he cares about..==
@@ -778,9 +779,9 @@ expand one's horizons
 
 ### Decision | Period change life | Physically Tired
 * immensively proud
-* I've always been fascinated by the beauty of music. I spent **countless** hours indulging in various genres of music. I even have my own CD Collections. But it never occurred to me that I can play the music myself.
-* After graduating, I decided to pick up an instrument and learn by myself, just out of self-expression and fulfillment
-* Due to long working hours during the day, I don't have the time to attend any music classes. Thanks to **abundant tutorials** on [social media](https://en.wikipedia.org/wiki/Social_media) platform such as Youtube, BiliBili, I can learn from guitar masters anytime anywhere I want, without having to attend traditional music schools. **As a result, my guitar skills improved very quickly.**
+* I've always been fascinated by the beauty of music. I spent **countless** hours indulging in various genres of music. I even have my own CD **Collections**. But it never occurred to me that I can play those music myself, with my own hands.
+* After graduating, I discovered that I had more leisure time than before, so I decided to pick up an instrument and learn to play it by myself
+* Due to long working hours during the day, I don't have the time to attend any music classes. Thanks to the **abundant tutorials** on social media platform such as Youtube, BiliBili, I can learn from guitar masters anytime anywhere I want, without having to attend traditional music schools. **As a result, my guitar skills improved very rapidly.**
 * Despite all these obstacles, Luckily, through lots of practice, I managed to join a local band and play as the lead guitarist. We successfully  produce our original song and perform in local concerns, which turned out to be quite successful.
 * ==Looking back, it's not just a spontaneous and random decision to pick up a certain instrument, but a decision that have profound implications on my personal life==.  I'm grateful that I made the decision, It had opened the gate to music for me. I can't imagine myself living without the **accompany** of **soothing music**.
 * **If it had not been my perseverance and devotion, I would never have the change to perform in front of such a huge crowd.**
@@ -836,7 +837,6 @@ Some individuals are naturally more goal-oriented and proactive in setting and a
 
 ##### Has your dream changed?
 Yes, my dream has evolved from, trying to be a successful Software Engineer, to an influential AI Scientist, while moonlighting as a guitarist in a local pub./
-
 ##### Rewards 
 boost employees' satisfaction and productivity
 
@@ -854,9 +854,8 @@ The festival is **rich in history and culture**, **and it's known for its dragon
 #### Conclusion
 The Duanwu Festival is a time of excitement and camaraderie. **It's a unique blend of history, sport, and culinary 烹饪 tradition that makes it a truly special event in the Chinese calendar.**
 
-
 enthusiast about 
-==There's no denying that, His/Its unique blend of history/sport/culinary/acting skills/charm/charisma/music talents/instrument playing skills/shooting skills/talents/generosity/philanthropy makes him/it a truly remarkable/special/inspirational figure in the movie history/Chinese Calendar.==
+==There's no denying that, His/Its unique blend of history/sport/culinary tradition/acting skills/charm/charisma/music talents/instrument playing skills/shooting skills/talents/generosity/philanthropy makes him/it a truly remarkable/special/inspirational figure in the movie history/Chinese Calendar.==
 
 
 ##### Traditional festivals
@@ -1127,10 +1126,10 @@ with the increase of people's **environmental awareness**
 * environment is compromised/sacrificed to economic development
 * at the cost of the 
 ### Trip to Xinjiang | Car journey | Childhood happy | Adventure | Interesting Places | Beautiful city
-* I haven't had the opportunity to explore **many places**, but one **particular** location in my country that has always intrigued me is
-* Through some documentaries on Xinjiang, I get to gain insights into unique characteristics of this place.
+* I haven't had the opportunity to explore **many places**, but one **particular** location in my country that has always intrigued me is 
+* Through some documentaries on Xinjiang hosted on TV, I get to gain insights into unique characteristics of this place.
 * ==We visited colorful craft markets which are called Bazzar, and brought back souvenirs for our friends back here in Hangzhou. One of my most memorable experiences was to the Sailimu Lake. It is a little bit off the beaten track but a serene wonderland surrounded by great scenic beauty 美景 and magnificent landscapes 壮丽风景.==
-* ==What's more, I got to immerse myself into exotic culture, different traditions, cuisines and meet diverse people, which all contributed to an enriching experience==
+* ==What's more, I got to immerse myself into exotic culture, different traditions, cuisines and meet diverse people, which all contributed to an enriching and colorful experience==
 * City: 
 	* It's very different from those developed cities in the southeast, you can't see any magnificent modern buildings like skyscrapers there, but all with exotic vibe
 	* Famous for its featured barbecue and sweet fruit, thanks to the huge Temperature difference between day and night
@@ -1223,7 +1222,8 @@ alcohol is not allowed, to avoid unexpected issues
 * water sports
 #### Kayaking
 * my colleague used to offer Kayaking classes, it was like very popular, so I never get the chance to register. I just occasionally see them kayaking in the river, feeling a sense of regret.
-* What it is like:Through my countless observations,  It typically requires the **use** of a tool called **paddle** to **navigate**/paddle through the water in a **narrow** boat called **Kayak**. And the first team to reach the destination wins the game. It's a unique blend of **physical activity**,  **adventure** and strength, which makes it a perfect sports to both watch and participate.
+* What it is like:Through my countless observations,  It typically requires the **use** of a tool called **paddle** to **navigate**/paddle through the water in a **narrow** boat called **Kayak**. And the first team to reach the destination wins the game. 
+* It's a unique blend of **physical activity**,  **adventure** and strength, which makes it a perfect sports to both watch and participate.
 * Why want: It's a physical challenge which keeps me fit. I know this sport is tiring. Also, I'm afraid of the water. Fosters collaboration and team work.
 * Why watch: The suspense of competition often continues until the end. 
 
@@ -1281,8 +1281,8 @@ It's like immerse yourself into a world created by the song, having a straight c
 
 * At an Italian restaurant where I had planned to take my then-girlfriend on our first date. It was two years ago and we were both excited about the night, I even got some gifts prepared.
 * Once seated, the waiter **took a long time** to take our orders, despite the restaurant not being particularly busy.
-* When our food finally arrived, I was in huge shock. I love Italian food and know how to cook some dishes myself, but the Carbonara presented to me was the worst I even seen. I don't know how they managed to make that dish **salty**, **burnt** and raw at the same time. Also, my risotto was lukewarm, I can't even swallow. Even If I complained about it to the manager, they seemed  **indifference** and **impatience**
-* We immediately paid our bill and left with disappointment. 
+* When our food finally arrived, I was in huge shock. I love Italian food and know how to cook some dishes myself, but the Carbonara presented to me was the worst I even seen. I don't know how they managed to make that dish **salty**, **burnt** and raw at the same time. What's worse, my risotto was **lukewarm**, I can't even swallow. 
+* Even If I complained about it to the manager, they seemed  **indifference** and **impatience**,so we immediately paid our bill and left with disappointment. 
 * Dining out is not just about the food, but also about enjoying a relaxing and pleasant experience. We were disappointed and it It has totally ruined my day. I **sweared** I'll never enter that restaurant ever again.
 * Overall, this experience served as a reminder of how crucial good customer service is in shaping a customer’s overall experience.
 
@@ -1474,8 +1474,8 @@ cheesy
 #### Useful ad
 To be honest, I don’t watch a lot of television/ if I'm honest,  but I do watch some TV episodes on Stream Media. 
 I remember one time I was watching a  popular music TV show, and it's basically several bands competing with each others. In the middle of the show, an ad **popped out**. Now usually, I would be annoyed by ads, but it was about an electric guitar. I saw a musician playing the most **beautiful notes** I have ever heard with this guitar.
-**I'm really into simplicity and minimalistic, so that ad aligned perfectly with my taste.**
-and it **haunted** me throughout the rest of the show. And I was not aware of what happened in that show.
+==**I'm really into simplicity and minimalistic, so that ad aligned perfectly with my taste.**
+and it **haunted** me throughout the rest of the show. And I was not aware of what happened in that show.==
 After the commercial ended, I immediately bought one on online shop. And I was happy and satistied about the guitar. Throughout the time, it has totally proved that it **worth the price**, and looking back,  I'm thankful for that encounter with the ad.
 
 buying power 购买力
@@ -1593,8 +1593,8 @@ based on sources:
 #### Proud
 * So about 3 years ago, my company is holding a competition called "Hackathon". It's basically a group of people gathering together, solving an issue within 48 hours or so. Later, all the work will be **evaluated** by some judges.
 * Some of my colleagues call out me to join their team. Why not?
-* But we encountered countless issues, as we had no experience participating in any hackathon before. One of the major problem was, we found ourselves working on **separated** computers, so **information sharing** was a struggle. I immediately suggested we started the "**collaborated development**" feature on our computers. As a result, the efficient was doubled.
-* After working **tirelessly** on the issue for several days, We were thrilled and overwhelmed to **receive** an honorable mention for that competition, for the competition had been fierce. 
+* But we encountered countless issues, as we had no experience participating in any hackathon before. One of the major problem was, we found ourselves working on **separated** computers, so **information sharing** was a struggle. I immediately suggested we started the "**collaborated development**" feature on our computers. They accepted it , and as a result, the efficient was doubled.
+* After working **tirelessly** on the issue for several days, We were thrilled and **overwhelmed** to **receive** an honorable mention for that competition, for the competition had been fierce. 
 * Looking back, we were proud that we managed to solve a problem **outside our area of expertise** and the perseverance we had put in.
 
 
@@ -1816,9 +1816,6 @@ of long length: 长篇幅
 
 Undeniably, e-books like kindle have advantage in both space and price
 If the books are of long length, people would choose e-book version for it saves space, and is easy to carry with
-
-
-
 
 
 

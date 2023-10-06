@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview/Language Tests/Speaking/Real questions.md",
+                "file": "Interview/Language Tests/Writing/Writing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview/Language Tests/Speaking/Real questions.md"
+                "file": "Interview/Language Tests/Writing/Writing.md"
               }
             }
           },
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview/Language Tests/Speaking/Real questions.md",
+                "file": "Interview/Language Tests/Writing/Writing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview/Language Tests/Speaking/Real questions.md",
+                "file": "Interview/Language Tests/Writing/Writing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -167,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,9 +182,9 @@
   },
   "active": "d93e725dbb29a3e8",
   "lastOpenFiles": [
+    "Interview/Language Tests/Speaking/Real questions.md",
     "Interview/Language Tests/Speaking/Speaking.md",
     "Interview/Language Tests/Writing/Writing.md",
-    "Interview/Language Tests/Speaking/Real questions.md",
     "Interview/Language Tests/Writing/Radiohead.md",
     "Interview/Language Tests/Writing/Real Questions.md",
     "Interview/Language Tests/Writing/Task1.md",
