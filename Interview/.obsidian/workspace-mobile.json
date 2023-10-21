@@ -11,11 +11,9 @@
             "id": "1a1592f3d308bd86",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Language Tests/Writing/Writing.md",
-                "mode": "source",
-                "source": false
+                "file": "Profile/Resume/resume_preview.png"
               }
             }
           }
@@ -85,7 +83,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Language Tests/Writing/Writing.md",
+            "file": "Profile/Resume/resume_preview.png",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Language Tests/Writing/Writing.md",
+            "file": "Profile/Resume/resume_preview.png",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +112,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Language Tests/Writing/Writing.md"
+            "file": "Profile/Resume/resume_preview.png"
           }
         }
       }
@@ -131,8 +129,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a1592f3d308bd86",
+  "active": "9a8986ca024dd09e",
   "lastOpenFiles": [
+    "Profile/Resume/resume.pdf",
     "Language Tests/Writing/Radiohead.md",
     "Language Tests/Writing/Task1.md",
     "Language Tests/Speaking/Real questions.md",

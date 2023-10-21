@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview/Coding/Algorithms.md",
+                "file": "Interview/Profile/咨询问题1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview/Coding/Algorithms.md"
+                "file": "Interview/Profile/咨询问题1.md"
               }
             }
           },
@@ -108,8 +107,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -129,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview/Coding/Algorithms.md",
+                "file": "Interview/Profile/咨询问题1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview/Coding/Algorithms.md",
+                "file": "Interview/Profile/咨询问题1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -191,53 +189,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dde7384df0bcd151",
+  "active": "45ceb78c1960971a",
   "lastOpenFiles": [
-    "Interview/Profile/Resume/resume.synctex.gz",
-    "Interview/Profile/Resume/resume.pdf",
-    "Interview/Profile/Resume/resume.out",
-    "Interview/Profile/Resume/resume.aux",
-    "Interview/Profile/Resume/resume.synctex(busy)",
-    "Interview/Profile/Resume/resume.log",
-    "Interview/Language Tests/Speaking/Real questions.md",
-    "Interview/Language Tests/Speaking/Speaking.md",
-    "Interview/Language Tests/Writing/Writing.md",
-    "Interview/Language Tests/Writing/Radiohead.md",
-    "Interview/Language Tests/Writing/Real Questions.md",
-    "Interview/Language Tests/Writing/Task1.md",
-    "Interview/Coding/Miscellaneous.md",
-    "Interview/Language Tests/Synonyms.md",
-    "Attachments/Pasted image 20230930103128.png",
-    "Attachments/Pasted image 20230930103109.png",
-    "Attachments/Pasted image 20230930103052.png",
-    "Attachments/Pasted image 20230930103050.png",
-    "Attachments/Pasted image 20230930103015.png",
-    "Untitled.md",
-    "Interview/Profile/Resume/README.md",
-    "Interview/Language Tests/Topics.md",
-    "Interview/Profile/Resume/sourabh_bajaj_resume.tex",
-    "Interview/Profile/Resume/resume_preview.png",
-    "Interview/Profile/Resume/sourabh_bajaj_resume.pdf",
-    "Interview/Profile/Resume/钱诚亮_浙大_软件工程师_简历.synctex.gz",
-    "Interview/Profile/Resume/钱诚亮_浙大_软件工程师_简历.pdf",
-    "Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.pdf",
-    "Attachments/Pasted image 20230918221255.png",
-    "Attachments/Pasted image 20230918221246.png",
-    "Interview/Language Tests/Misc.md",
-    "Music/Progression.md",
-    "Music/Favorites.md",
-    "Music/Band Playlistsong2Come togetherDesafinadoCoffer & tvcherub rockdamaged goods1979don’t let me downall you need is love.md",
-    "AI/Misc.md",
-    "Music/Untitled.md",
-    "AI/Agent/LLM Powered Auto-Agent - A Survey.md",
-    "AI/Kaggle/Procedure.md",
-    "AI/DL theory.md",
-    "AI/Autonomous AGI.md",
-    "AI/Attention is All You Need.md",
-    "AI/Kaggle/Tricks.md",
-    "Namesless/Actress.md",
-    "conflict-files-obsidian-git.md",
-    "Attachments/Pasted image 20230623112408.png",
-    "Attachments/Pasted image 20230618154911.png"
+    "Obsidian/Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.log",
+    "Obsidian/Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.aux",
+    "Obsidian/Interview/Profile/Resume/resume.synctex.gz",
+    "Obsidian/Interview/Profile/Resume/Sequence.md",
+    "Obsidian/Interview/Profile/Resume/resume.log",
+    "Obsidian/Interview/Profile/Resume/resume_preview.png",
+    "Obsidian/Interview/Profile/Resume/resume.aux",
+    "Obsidian/Interview/Profile/Resume/钱诚亮_浙大_软件工程师_简历.out",
+    "Obsidian/Interview/Profile/Resume/README.md",
+    "Obsidian/Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.out",
+    "Obsidian/Interview/Profile/Resume/resume.pdf",
+    "Obsidian/Interview/Profile/Resume/sourabh_bajaj_resume.tex",
+    "Obsidian/Interview/Profile/Resume/Dockerfile",
+    "Obsidian/Interview/Profile/Resume/resume.out",
+    "Obsidian/Quant/Time Sequence Analysis.md",
+    "Obsidian/Quant/Markov process.md",
+    "Obsidian/Quant/Key Concepts.md",
+    "Obsidian/Namesless/Actress.md",
+    "Obsidian/Music/Progression.md",
+    "Obsidian/Music/Favorites.md",
+    "Obsidian/Music/Band Playlistsong2Come togetherDesafinadoCoffer & tvcherub rockdamaged goods1979don’t let me downall you need is love.md",
+    "Obsidian/Interview/System Design/Use cases.md",
+    "Obsidian/Interview/System Design/Tools.md",
+    "Obsidian/Interview/System Design/Procedure.md",
+    "Obsidian/Interview/System Design/Key Concepts.md",
+    "Obsidian/Interview/System Design/Misc.md",
+    "Obsidian/Interview/Profile/咨询问题1.md",
+    "Obsidian/Interview/Profile/Why do you want to work at.md",
+    "Obsidian/Interview/Profile/Third-Person self-introduction.md",
+    "Obsidian/Interview/Profile/Skills.md",
+    "Obsidian/Interview/Profile/Role Numbers.md",
+    "Obsidian/Interview/Profile/Behavorial.md",
+    "Obsidian/Interview/Language Tests/Writing/Writing.md",
+    "Obsidian/Interview/Language Tests/Writing/Task1.md",
+    "Obsidian/Interview/Language Tests/Writing/Real Questions.md",
+    "Obsidian/Interview/Language Tests/Writing/Radiohead.md",
+    "Obsidian/Interview/Language Tests/Speaking/Speaking.md",
+    "Obsidian/Attachments/Pasted image 20230930103128.png",
+    "Obsidian/Attachments/Pasted image 20230930103109.png",
+    "Obsidian/Attachments/Pasted image 20230930103052.png",
+    "Obsidian/Attachments/Pasted image 20230930103050.png",
+    "Obsidian/Attachments/Pasted image 20230930103015.png",
+    "Obsidian/Attachments/Pasted image 20230918221255.png",
+    "Obsidian/Attachments/Pasted image 20230918221246.png",
+    "Obsidian/Attachments/Pasted image 20230623112408.png",
+    "Obsidian/Attachments/Pasted image 20230618154911.png"
   ]
 }
