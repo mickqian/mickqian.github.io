@@ -103,7 +103,7 @@ Generate the table
             kmp[i] = ++j;
         else if (j > 0) {
             j = kmp[j - 1];
-            // recursive step back, to get the max matching len with the prefix
+            // recursive step back to the matching index for length j - 1, to get the max matching len with the prefix
             --i;
         }
     }
@@ -298,6 +298,7 @@ int *buildSuffixArray(char *txt, int n)
 
 ## Z-function
   $z[i]$  is the length of the longest string that is, at the same time, a prefix of   $s$  and a prefix of the suffix of   $s$  starting at i
+  s[i] = longest prefix length of starting at 0 and i
 ```cpp
 vector<int> z(string &s) {
     vector<int> z(s.size());

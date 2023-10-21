@@ -13,10 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview/Language Tests/Speaking/Real questions.md",
+                "file": "Interview/Coding/Algorithms.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "dde7384df0bcd151",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
               }
             }
           },
@@ -33,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview/Language Tests/Speaking/Real questions.md"
+                "file": "Interview/Coding/Algorithms.md"
               }
             }
           },
@@ -72,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sir",
+                "query": "kmp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +108,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -117,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview/Language Tests/Speaking/Real questions.md",
+                "file": "Interview/Coding/Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview/Language Tests/Speaking/Real questions.md",
+                "file": "Interview/Coding/Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,10 +191,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "45ceb78c1960971a",
+  "active": "dde7384df0bcd151",
   "lastOpenFiles": [
-    "Interview/Language Tests/Speaking/Speaking.md",
+    "Interview/Profile/Resume/resume.synctex.gz",
+    "Interview/Profile/Resume/resume.pdf",
+    "Interview/Profile/Resume/resume.out",
+    "Interview/Profile/Resume/resume.aux",
+    "Interview/Profile/Resume/resume.synctex(busy)",
+    "Interview/Profile/Resume/resume.log",
     "Interview/Language Tests/Speaking/Real questions.md",
+    "Interview/Language Tests/Speaking/Speaking.md",
     "Interview/Language Tests/Writing/Writing.md",
     "Interview/Language Tests/Writing/Radiohead.md",
     "Interview/Language Tests/Writing/Real Questions.md",
@@ -203,18 +221,13 @@
     "Interview/Profile/Resume/钱诚亮_浙大_软件工程师_简历.synctex.gz",
     "Interview/Profile/Resume/钱诚亮_浙大_软件工程师_简历.pdf",
     "Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.pdf",
-    "Interview/Profile/Resume/glyphtounicode.tex",
-    "Interview/Profile/Resume/钱诚亮_浙大_软件工程师_简历.tex",
-    "Interview/Profile/Resume/resume.tex",
     "Attachments/Pasted image 20230918221255.png",
     "Attachments/Pasted image 20230918221246.png",
     "Interview/Language Tests/Misc.md",
     "Music/Progression.md",
     "Music/Favorites.md",
     "Music/Band Playlistsong2Come togetherDesafinadoCoffer & tvcherub rockdamaged goods1979don’t let me downall you need is love.md",
-    "AI/thesis/Music Transformer.pdf",
     "AI/Misc.md",
-    "AI/thesis/Attention is All You Need.pdf",
     "Music/Untitled.md",
     "AI/Agent/LLM Powered Auto-Agent - A Survey.md",
     "AI/Kaggle/Procedure.md",
@@ -224,7 +237,6 @@
     "AI/Kaggle/Tricks.md",
     "Namesless/Actress.md",
     "conflict-files-obsidian-git.md",
-    "AI/Kaggle/Models.md",
     "Attachments/Pasted image 20230623112408.png",
     "Attachments/Pasted image 20230618154911.png"
   ]
