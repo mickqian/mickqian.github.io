@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview/Coding/Basic Algorithms you must memorize.md",
+                "file": "Interview/Coding/Contest.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -72,7 +72,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview/Coding/Basic Algorithms you must memorize.md"
+                "file": "Interview/Coding/Contest.md"
               }
             }
           },
@@ -107,8 +107,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -128,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview/Coding/Basic Algorithms you must memorize.md",
+                "file": "Interview/Coding/Contest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview/Coding/Basic Algorithms you must memorize.md",
+                "file": "Interview/Coding/Contest.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -190,8 +189,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "45ceb78c1960971a",
+  "active": "0b86655ee1075c4b",
   "lastOpenFiles": [
+    "Interview/Coding/Basic Algorithms you must memorize.md",
     "Interview/Coding/Miscellaneous.md",
     "Interview/Coding/Mathematical.md",
     "Interview/Coding/Intuitions.md",
@@ -230,7 +230,6 @@
     "Obsidian/Interview/System Design/Tools.md",
     "Obsidian/Interview/System Design/Procedure.md",
     "Obsidian/Interview/System Design/Key Concepts.md",
-    "Obsidian/Interview/System Design/Misc.md",
     "Obsidian/Attachments/Pasted image 20230930103128.png",
     "Obsidian/Attachments/Pasted image 20230930103109.png",
     "Obsidian/Attachments/Pasted image 20230930103052.png",
