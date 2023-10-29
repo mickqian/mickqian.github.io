@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "floyd",
+                "query": "lift",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +107,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -189,7 +190,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b86655ee1075c4b",
+  "active": "37b6d9b49b7a841a",
   "lastOpenFiles": [
     "Interview/Coding/Basic Algorithms you must memorize.md",
     "Interview/Coding/Miscellaneous.md",
