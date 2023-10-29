@@ -14,3 +14,5 @@ lesson: 观察pattern，只能翻转与自己的index奇偶性一致的数字
 ### W 340
 ### W 369
 / 2 for more than 14 times will reduce to 1, so min(k, 14)
+
+top-down 和 bottom-up 的复杂程度不一样，所以换一种思路
