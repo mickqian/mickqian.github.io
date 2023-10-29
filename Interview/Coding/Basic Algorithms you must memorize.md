@@ -109,9 +109,6 @@ for (int k = 0; k < n; k++)
 ```
 
 
-
-
-
 ### Sequence
 
 #### LCS
@@ -174,7 +171,6 @@ def find_lcsubstr(s1, s2):
      }```
 
 
-
 ### Divisors
 
 ```c++
@@ -188,4 +184,3 @@ int gcd(int a, int b) {
    return gcd(b, a % b);
 }
 ```
-
