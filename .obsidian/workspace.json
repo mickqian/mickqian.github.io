@@ -11,9 +11,12 @@
             "id": "dde7384df0bcd151",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.16"
+                "file": "Namesless/Actress.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           },
@@ -58,7 +61,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Namesless/Actress.md"
+              }
             }
           },
           {
@@ -112,6 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Namesless/Actress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,6 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Namesless/Actress.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -172,7 +179,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b86655ee1075c4b",
+  "active": "dde7384df0bcd151",
   "lastOpenFiles": [
     "Interview/Profile/Resume/gbk_code.txt",
     "Interview/Coding/Templates/header.py",
