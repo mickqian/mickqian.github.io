@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Namesless/Actress.md",
+                "file": "Quant/Time Sequence Analysis.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +62,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Namesless/Actress.md"
+                "file": "Quant/Time Sequence Analysis.md"
               }
             }
           },
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Namesless/Actress.md",
+                "file": "Quant/Time Sequence Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Namesless/Actress.md",
+                "file": "Quant/Time Sequence Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -181,6 +181,7 @@
   },
   "active": "dde7384df0bcd151",
   "lastOpenFiles": [
+    "Namesless/Actress.md",
     "Interview/Profile/Resume/gbk_code.txt",
     "Interview/Coding/Templates/header.py",
     "Interview/Coding/Templates/header.h",
@@ -204,7 +205,6 @@
     "Interview/Profile/Resume/Sequence.md",
     "Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.synctex.gz",
     "Resume/sourabh_bajaj_resume.tex",
-    "Resume/sourabh_bajaj_resume.pdf",
     "Resume/resume_preview.png",
     "Resume/README.md",
     "Interview/Profile/Resume-new/resume_preview.png",
