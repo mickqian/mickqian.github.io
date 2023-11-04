@@ -9,18 +9,12 @@ Fix choice on each possibility on the first one, Binary Search (T - P(A)) in P(B
 	* Calculate the sum, get the target, iterator num_cnt on one part of the half
 	* [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/description/)
 
-
-*  
-	* 
-	* 
-
-
 ## Kadane's Algorithm
 
 * 
 	* Maximum Subarray, find the subarray with the largest sum, and return its sum
 	* Just like sliding window, but in this case, the sum of the subarray is calculated. So when current subarray's sum is negative, instead of moving the start pointer forward until invalid(positive), the remaining window(start:mid) is always positive, so mid:end is always negative, so we should set the start pointer to current end pointer
-	*  Applies to all kinds of subarray, counting the max subarray value(could be occurence)
+	*  Applies to all kinds of subarray, counting the max subarray value(could be occurrence)
 	* [Maximum subarray problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
 
 ```c++
@@ -39,7 +33,7 @@ int max_subarray(vector<int>& numbers){
 
 ## Sliding Window
 To find range that meets requirement
-Valid, when :
+Valid, when:
 1. after a valid window, the end pointer needs to move forward to accept new elements
 2. when the end pointer moves forward, the start pointer has to move forward to make the window valid again.
 *  
@@ -141,8 +135,6 @@ for (int i = 0; i < n; i++){
 	* [Longest Common Subpath](https://leetcode.com/problems/longest-common-subpath/solutions/1314826/rolling-hash-vs-suffix-automation/?orderBy=most_votes)
 
 
-
-
 ## Reservior Sampling
 
 chance of placing cur item into reservior is $reservior\_cnt/item\_index$
@@ -181,8 +173,6 @@ for (int i = 0; i <= mx; i++) sieve[i] = i;
 ```
 
 
-
-
 ## Binomial Coefficients
 Stars and Bars: placing m bars in n numbers = choosing n locations from m = number of partition array of n into m **subarray**
 
@@ -200,49 +190,7 @@ Forming an array of size n, with m consecutive unique numbers = placing m bars a
 
 ## Permutation
 
-
 `std::next_permutation`
-
-## LIS
-
-1. dp1:
-
-   * 状态：以 a[i] 结尾的 LIS
-
-   * 转移： dp[i] = arr[i] > arr[j] ? arr[j + 1]
-
-   * 复杂度：O(N^2)
-
-2. dp2: 
-
-   * 状态：a[i] 之前的，长度为 i + 1，末尾元素最小的 的 LIS
-   * 转移：
-     
-     * 每次将 a[i] 插入序列即可
-* 复杂度：O(NlogN)
-  
- ```c++
-     int main()
-     {
-         int n;
-         vector<int> dp(n, INT_MAX);
-         int pos=0;    // 记录dp当前最后一位的下标
-         dp[0]=nums[0];
-         for(int i=1; i<n; i++)
-         {
-            if(nums[i]>=dp[pos])
-                // 组成更长的子序列
-                dp[++pos]=nums[i];
-            else
-                // 当前值更小，替换子序列串
-			    dp[lower_bound(dp,dp+pos+1,nums[i])-dp]=nums[i];
-         }
-         return pos;
-     }
-   ```
-
-
-
 ## Suffix Array
 Sort all suffix substrings by starting index
 Usage: 

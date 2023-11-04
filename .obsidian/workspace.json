@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quant/Time Sequence Analysis.md",
+                "file": "Interview/Coding/Algorithms.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +62,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quant/Time Sequence Analysis.md"
+                "file": "Interview/Coding/Algorithms.md"
               }
             }
           },
@@ -101,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 507.5
+    "width": 400.5,
+    "collapsed": true
   },
   "right": {
     "id": "47168004564bfdc1",
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quant/Time Sequence Analysis.md",
+                "file": "Interview/Coding/Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quant/Time Sequence Analysis.md",
+                "file": "Interview/Coding/Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -181,6 +182,8 @@
   },
   "active": "dde7384df0bcd151",
   "lastOpenFiles": [
+    "Interview/Coding/Basic Algorithms you must memorize.md",
+    "Quant/Time Sequence Analysis.md",
     "Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.synctex(busy)",
     "Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume~.tex",
     "Namesless/Actress.md",
@@ -190,7 +193,6 @@
     "Interview/Coding/Templates",
     "Interview/Coding/Untitled.md",
     "Interview/Coding/Contest.md",
-    "Interview/Coding/Basic Algorithms you must memorize.md",
     "Interview/Coding/Miscellaneous.md",
     "Interview/Coding/Mathematical.md",
     "Interview/Coding/Intuitions.md",

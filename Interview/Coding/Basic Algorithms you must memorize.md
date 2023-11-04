@@ -136,18 +136,12 @@ def find_lcsubstr(s1, s2):
 
 
 1. dp1:
-
    * 状态：以 a[i] 结尾的 LIS
-
    * 转移： dp[i] = arr[i] > arr[j] ? arr[j + 1]
-
    * 复杂度：O(N^2)
-
 2. dp2: 
-
    * 状态：a[i] 之前的，长度为 i + 1，末尾元素最小的 的 LIS
    * 转移：
-     
      * 每次将 a[i] 插入序列即可
 * 复杂度：O(NlogN)
   
@@ -169,18 +163,3 @@ def find_lcsubstr(s1, s2):
          }
          return pos;
      }```
-
-
-### Divisors
-
-```c++
-int gcd(int a, int b) {
-   if (a < b) {
-       return gcd(b, a);
-   }
-   if (a % b == 0) {
-       return b;
-   }
-   return gcd(b, a % b);
-}
-```
