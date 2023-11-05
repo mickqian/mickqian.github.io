@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "137af190a8e4f2ab",
+        "id": "0a77806f3f3eb101",
         "type": "tabs",
         "children": [
           {
-            "id": "dde7384df0bcd151",
+            "id": "d4561de0a458036d",
             "type": "leaf",
             "state": {
               "type": "vscode-editor",
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lift",
+                "query": "lis",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,14 +167,14 @@
   },
   "active": "0b86655ee1075c4b",
   "lastOpenFiles": [
-    "Interview/Coding/Algorithms.md",
     "Interview/Coding/Basic Algorithms you must memorize.md",
+    "Interview/Coding/Templates/header.py",
+    "Interview/Coding/Algorithms.md",
     "Quant/Time Sequence Analysis.md",
     "Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.synctex(busy)",
     "Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume~.tex",
     "Namesless/Actress.md",
     "Interview/Profile/Resume/gbk_code.txt",
-    "Interview/Coding/Templates/header.py",
     "Interview/Coding/Templates/header.h",
     "Interview/Coding/Templates",
     "Interview/Coding/Untitled.md",
@@ -205,7 +205,6 @@
     "Obsidian/Namesless/Actress.md",
     "Obsidian/Music/Progression.md",
     "Obsidian/Music/Favorites.md",
-    "Obsidian/Music/Band Playlistsong2Come togetherDesafinadoCoffer & tvcherub rockdamaged goods1979don’t let me downall you need is love.md",
     "Obsidian/Attachments/Pasted image 20230930103128.png",
     "Obsidian/Attachments/Pasted image 20230930103109.png",
     "Obsidian/Attachments/Pasted image 20230930103052.png",

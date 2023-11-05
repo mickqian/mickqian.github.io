@@ -137,5 +137,92 @@ print(binary_lifting(n, dp, 5, 2))  # Output: 1
 # Find the 3rd ancestor for node 5
 print(binary_lifting(n, dp, 5, 3))  # Output: -1
 
+
+class Node:
+    def __init__(self, start, end):
+        self.start = start
+        self.end = end
+        self.total = 0
+        self.max = 0
+        self.left = self.right = None
+        self.lazy = 0
+
+
+class LazySegmentTree:
+    def __init__(self, nums):
+        def createTree(nums, l, r):
+            if l > r:
+                return None
+            if l == r:
+                n = Node(l, r)
+                n.total = nums[l]
+                n.max = nums[l]
+                return n
+            mid = (l + r) // 2
+
+            root = Node(l, r)
+            root.left = createTree(nums, l, mid)
+            root.right = createTree(nums, mid + 1, r)
+            root.total = root.left.total + root.right.total
+            root.max = max(root.left.max, root.right.max)
+
+            return root
+
+        self.root = createTree(nums, 0, len(nums) - 1)
+
+    def update(self, i, val):
+        def updateVal(root, i, val):
+            if root.start == root.end:
+                root.max = max(root.max, val)
+                root.total = val
+                return val
+            mid = (root.start + root.end) // 2
+            if i <= mid:
+                updateVal(root.left, i, val)
+            else:
+                updateVal(root.right, i, val)
+            root.total = root.left.total + root.right.total
+            root.max = max(root.left.max, root.right.max)
+            return root.total
+
+        updateVal(self.root, i, val)
+
+    # inclusive
+    def maxRange(self, i, j):
+        def rangeMax(node, i, j):
+            if node.start > j or node.end < i:
+                return float('-inf')
+            if node.start >= i and node.end <= j:
+                return node.max
+            self.push(node)
+            mid = (node.start + node.end) // 2
+            return max(rangeMax(node.left, i, min(mid, j)), rangeMax(node.right, max(mid + 1, i), j))
+
+        return rangeMax(self.root, i, j)
+
+    def sumRange(self, i, j):
+        def rangeSum(root, i, j):
+            if root.start == i and root.end == j:
+                return root.total
+            mid = (root.start + root.end) // 2
+            if j <= mid:
+                return rangeSum(root.left, i, j)
+            elif i >= mid + 1:
+                return rangeSum(root.right, i, j)
+            else:
+                return rangeSum(root.left, i, mid) + rangeSum(root.right, mid + 1, j)
+
+        return rangeSum(self.root, i, j)
+
+    def push(self, node):
+        if node.lazy:
+            if node.left:
+                node.left.max = node.lazy
+                node.left.lazy = node.lazy
+            if node.right:
+                node.right.max = node.lazy
+                node.right.lazy = node.lazy
+            node.lazy = 0
+
         
         return res
