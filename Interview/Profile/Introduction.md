@@ -9,3 +9,8 @@ And because of that expierence, he found that a lot can be learnt from work, so 
 Detail-oriented, organized and meticulous employee. Remains consistently abreast of cutting-edge development and technology advancements. Always works the most effective in the team, to meet tight deadlines. Stepping out when there's high-maintenance bugs. Values functionality, stability as well as performance of the software. Giving out creative & practical ideas on user-experience or technology problems.
 
 ## Short one
+Creative programmer, remains consistently abreast of cutting-edge development and technology advancements. Love to do research and read papers to gain a deeper understanding of new fields.
+Fast to get familiar with new architecture/technologies and learn new things.
+Have a clean coding style, able to write performant code with Rust & C++.
+Kaggler and Leetcoder.
+
