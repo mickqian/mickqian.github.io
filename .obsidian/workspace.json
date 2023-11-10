@@ -11,9 +11,12 @@
             "id": "d4561de0a458036d",
             "type": "leaf",
             "state": {
-              "type": "vscode-editor",
+              "type": "markdown",
               "state": {
-                "file": "Interview/Coding/Templates/header.py"
+                "file": "Interview/Profile/Introduction.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -46,7 +49,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview/Coding/Templates/header.py"
+                "file": "Interview/Profile/Introduction.md"
               }
             }
           },
@@ -85,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5,
-    "collapsed": true
+    "width": 400.5
   },
   "right": {
     "id": "47168004564bfdc1",
@@ -102,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview/Coding/Templates/header.py",
+                "file": "Interview/Profile/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview/Coding/Templates/header.py",
+                "file": "Interview/Profile/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -167,8 +169,12 @@
   },
   "active": "0b86655ee1075c4b",
   "lastOpenFiles": [
-    "Interview/Coding/Basic Algorithms you must memorize.md",
+    "Interview/Profile/Why do you want to work at.md",
+    "Interview/Profile/Behavorial.md",
+    "Interview/Profile/Role Numbers.md",
     "Interview/Coding/Templates/header.py",
+    "Interview/Profile/Resume/QianChengliang_Resume.tex",
+    "Interview/Coding/Basic Algorithms you must memorize.md",
     "Interview/Coding/Algorithms.md",
     "Quant/Time Sequence Analysis.md",
     "Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.synctex(busy)",
@@ -191,7 +197,6 @@
     "Interview/Profile/Resume/resume.pdf",
     "Interview/Profile/Resume/Sequence.md",
     "Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.synctex.gz",
-    "Resume/sourabh_bajaj_resume.tex",
     "Resume/resume_preview.png",
     "Resume/README.md",
     "Interview/Profile/Resume-new/resume_preview.png",
@@ -203,8 +208,6 @@
     "Obsidian/Quant/Markov process.md",
     "Obsidian/Quant/Key Concepts.md",
     "Obsidian/Namesless/Actress.md",
-    "Obsidian/Music/Progression.md",
-    "Obsidian/Music/Favorites.md",
     "Obsidian/Attachments/Pasted image 20230930103128.png",
     "Obsidian/Attachments/Pasted image 20230930103109.png",
     "Obsidian/Attachments/Pasted image 20230930103052.png",
