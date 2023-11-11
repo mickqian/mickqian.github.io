@@ -14,3 +14,8 @@ Fast to get familiar with new architecture/technologies and learn new things.
 Have a clean coding style, able to write performant code with Rust & C++.
 Kaggler and Leetcoder.
 
+
+
+
+我是2016级浙大CS毕业生 毕业后在华为工作三年 title是 Senior SWE，现在想找一份 uk 的工作
+

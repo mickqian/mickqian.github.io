@@ -11,9 +11,11 @@
             "id": "1a1592f3d308bd86",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Profile/Resume/resume_preview.png"
+                "file": "Profile/Introduction.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Profile/Resume/resume_preview.png",
+            "file": "Profile/Introduction.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Profile/Resume/resume_preview.png",
+            "file": "Profile/Introduction.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -112,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Profile/Resume/resume_preview.png"
+            "file": "Profile/Introduction.md"
           }
         }
       }
@@ -131,11 +133,11 @@
   },
   "active": "9a8986ca024dd09e",
   "lastOpenFiles": [
+    "Profile/Resume/resume_preview.png",
     "Profile/Resume/resume.pdf",
     "Language Tests/Writing/Radiohead.md",
     "Language Tests/Writing/Task1.md",
     "Language Tests/Speaking/Real questions.md",
-    "Profile/Resume/resume_preview.png",
     "Profile/Resume/sourabh_bajaj_resume.pdf",
     "Profile/Resume/resume.tex",
     "Profile/Resume/sourabh_bajaj_resume.tex",
