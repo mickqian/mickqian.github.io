@@ -226,3 +226,43 @@ class LazySegmentTree:
 
         
         return res
+
+
+# Binary Lifting
+
+# parent: parent of each node
+# level: level of each node, root as 0
+def preprocess(parent, n):
+    log = math.ceil(math.log2(n))
+    dp = [[-1 for _ in range(log)] for _ in range(n + 1)]
+
+    for i in range(1, n + 1):
+        dp[i][0] = parent[i]
+
+    for j in range(1, log):
+        for i in range(1, n + 1):
+            if dp[i][j - 1] != -1:
+                dp[i][j] = dp[dp[i][j - 1]][j - 1]
+    return dp
+
+
+def find_lca(u, v, dp, parent):
+    if level[u] < level[v]:
+        u, v = v, u
+
+    log = len(dp[0])
+
+    for i in range(log - 1, -1, -1):
+        if (level[u] - (1 << i)) >= level[v]:
+            u = dp[u][i]
+
+    if u == v:
+        return v
+
+    for i in range(log - 1, -1, -1):
+        if dp[u][i] != dp[v][i]:
+            u = dp[u][i]
+            v = dp[v][i]
+
+    return parent[u]
+
