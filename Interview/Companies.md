@@ -8,7 +8,7 @@ SWE, ML
 
 
 ## Google
-AI native cloud
+Google cloud
 
 
 
