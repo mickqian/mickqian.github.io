@@ -2,4 +2,17 @@
 
 ## Meta
 applied:
-Software Engineer for AUdio
+Software Engineer for Audio
+Research Engineer
+SWE, ML
+
+
+## Google
+AI native cloud
+
+
+
+## Microsoft
+
+
+
