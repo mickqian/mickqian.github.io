@@ -11,12 +11,9 @@
             "id": "d4561de0a458036d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "vscode-editor",
               "state": {
-                "file": "Interview/Companies.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Interview/Coding/Templates/header.py"
               }
             }
           }
@@ -49,7 +46,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview/Companies.md"
+                "file": "Interview/Coding/Templates/header.py"
               }
             }
           },
@@ -88,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 400.5,
+    "collapsed": true
   },
   "right": {
     "id": "47168004564bfdc1",
@@ -104,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview/Companies.md",
+                "file": "Interview/Coding/Templates/header.py",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview/Companies.md",
+                "file": "Interview/Coding/Templates/header.py",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -167,11 +165,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "d4561de0a458036d",
+  "active": "0b86655ee1075c4b",
   "lastOpenFiles": [
+    "Interview/Companies.md",
     "Interview/Profile/Introduction.md",
     "Interview/Profile/咨询问题1.md",
-    "Interview/Companies.md",
     "Interview/Profile/Resume/QianChengliang_Resume.synctex.gz",
     "Interview/Profile/Resume/QianChengliang_Resume.pdf",
     "Interview/Profile/Resume/QianChengliang_Resume.out",

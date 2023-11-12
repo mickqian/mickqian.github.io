@@ -1,3 +1,56 @@
+
+class BitTrie:
+    def __init__(self):
+        self.children = [None, None]
+
+    def insert(self, key, l=19):
+        node = self
+        for i in range(l, -1, -1):
+            bit = (key >> i) & 1
+            if not node.children[bit]:
+                node.children[bit] = BitTrie()
+            node = node.children[bit]
+
+    def remove(self, n, l=19):
+        if l < 0:
+            return True
+        bit = (n & (1 << l)) > 0
+        if self.children[bit] and self.children[bit].remove(n, l - 1):
+            self.children[bit] = None
+
+        return not self.children[bit] and not self.children[1]
+
+    def max_xor(self, key, l=19):
+        if l < 0:
+            return 0
+        bit = (key & (1 << l)) > 0
+        # choose the bit with highest xor result
+        if self.children[1 - bit]:
+            return (1 << l) + self.children[1 - bit].max_xor(key, l - 1)
+        # choose second choice
+        return self.children[bit].max_xor(key, l - 1)
+
+
+class Solution:
+    def maximumStrongPairXor(self, nums: List[int]) -> int:
+        nums = sortedcontainers.SortedSet(nums)
+
+        trie = BitTrie()
+        last = 0
+        ans = 0
+
+        # trie.insert(3)
+        # trie.max_xor(3)
+
+        for i in range(len(nums)):
+            while last < len(nums) and nums[last] - nums[i] <= nums[i]:
+                trie.insert(nums[last])
+                last += 1
+            ans = max(ans, trie.max_xor(nums[i]))
+            trie.remove(nums[i])
+        return ans
+
+
 class DisjointSet:
     def __init__(self, elements):
         self.parent = {i: i for i in elements}
