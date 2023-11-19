@@ -33,31 +33,12 @@ And choose the one with minimum possibilites:
 * 2-SAT
 
 ## All pairs shortest path
-* floyd-warshall
 
 ## LCA
 * Binary Lifting/ Euler Tour + Segment Tree /RMQ, Tarjan's offline
 
 
 
-
-
-
-## Monotonic Queue
-
-
-### I
-Attribute:
-
-* the item at the beginning is the max one in a range, if the begining one gets poped when the window left
-* the adjacent items are the next smaller/bigger one to each other
-* while pushing new item, the new value is the next bigger one to the value being pushed
-
-Can be used to solve questions like
-
-* sliding window with max/min values: the index of the max value is always kept at the beginning. If there is some bigger items with bigger index, the smaller in-between items are useless, because they will not be max values before the bigger items are removed, when they will be removed before.
-* next index with bigger value: after removing smaller value in the end, the new value is the next-bigger value of the last value in queue
-* LIS: the queue maintains the items of increasing items, in order
 
 
 ### A star(Heuristic)
