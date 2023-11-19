@@ -10,15 +10,43 @@ And choose the one with minimum possibilites:
 2. Always consider if iterate over the aspects if possible
 
 
-### Monotonic Queue
+## Next Greater Element
+* monotonic stack
+* 栈中每个元素都是其前驱的 Next Greater/Smaller， push 的时候被弹出的 是 Next Smaller/Greater
+* 也可以维护一个固定窗口，通过 index 来确定，窗口内的 start 为窗口内最大/小
 
-A queue which:
+## Maximum/Minimum Query
+* sparse table/Segment Tree/Fenwick Tree
+* sparse table: **on static array**
+* Segment/Fenwick:  **dynamic**, range sum query
 
-* the attribute A of items is monotonic, and unique
-* the attribute B of items is also monotonic
 
-It neglects all items smaller than before, since they are useless.
+## Minimum Spanning Tree
+* Kruskal(Union-Find, 挑选最短的边，逐次累加)
 
+## Job Scheduling(Interval Scheduling Maximization)
+* greedy， 对结束时间进行排序
+* 每次选择结束最早的 next job
+* time 只是一个维度，本质考虑 interval 的最多选择数量
+
+## Strongly connected
+* 2-SAT
+
+## All pairs shortest path
+* floyd-warshall
+
+## LCA
+* Binary Lifting/ Euler Tour + Segment Tree /RMQ, Tarjan's offline
+
+
+
+
+
+
+## Monotonic Queue
+
+
+### I
 Attribute:
 
 * the item at the beginning is the max one in a range, if the begining one gets poped when the window left
