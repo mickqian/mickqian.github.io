@@ -9,7 +9,6 @@ And choose the one with minimum possibilites:
 1. if the range of number is limited, but there might be many of them, why not use map/set/bitset to track the occurence of them ?
 2. Always consider if iterate over the aspects if possible
 
- 
 
 ### Monotonic Queue
 
