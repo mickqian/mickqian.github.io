@@ -11,12 +11,9 @@
             "id": "d4561de0a458036d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "vscode-editor",
               "state": {
-                "file": "Interview/Coding/Intuition -> Algo or DS.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Interview/Coding/Templates/header.py"
               }
             }
           }
@@ -49,7 +46,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview/Coding/Intuition -> Algo or DS.md"
+                "file": "Interview/Coding/Templates/header.py"
               }
             }
           },
@@ -105,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview/Coding/Intuition -> Algo or DS.md",
+                "file": "Interview/Coding/Templates/header.py",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview/Coding/Intuition -> Algo or DS.md",
+                "file": "Interview/Coding/Templates/header.py",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -168,8 +165,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "d4561de0a458036d",
+  "active": "0b86655ee1075c4b",
   "lastOpenFiles": [
+    "Interview/Coding/Intuition -> Algo or DS.md",
     "Interview/Coding/Algorithms.md",
     "AI/Agent/Agent 的应用.md",
     "Interview/Profile/Resume/QianChengliang_Resume.synctex(busy)",
@@ -191,7 +189,6 @@
     "Interview/Profile/Behavorial.md",
     "Interview/Profile/Role Numbers.md",
     "Interview/Profile/Resume/QianChengliang_Resume.tex",
-    "Interview/Coding/Intuition -> Algo or DS.md",
     "Quant/Time Sequence Analysis.md",
     "Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.synctex(busy)",
     "Namesless/Actress.md",

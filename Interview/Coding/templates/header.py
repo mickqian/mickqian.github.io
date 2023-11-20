@@ -200,85 +200,83 @@ class Node:
         self.left = self.right = None
         self.lazy = 0
 
-
 class LazySegmentTree:
-    def __init__(self, nums):
-        def createTree(nums, l, r):
-            if l > r:
-                return None
-            if l == r:
-                n = Node(l, r)
-                n.total = nums[l]
-                n.max = nums[l]
-                return n
-            mid = (l + r) // 2
+    def left_child(self, i):
+        return 2 * i + 1
 
-            root = Node(l, r)
-            root.left = createTree(nums, l, mid)
-            root.right = createTree(nums, mid + 1, r)
-            root.total = root.left.total + root.right.total
-            root.max = max(root.left.max, root.right.max)
+    def right_child(self, i):
+        return 2 * i + 2
 
-            return root
+    def __init__(self, arr, merge=lambda x, y: x + y, basef=lambda x: x, basev=0):
+        """Build the segmentation tree."""
+        self.merge = merge
+        self.basef = basef
+        self.basev = basev
+        self.n = n = len(arr)
+        self.tree = [0] * (4 * n)
+        # `1` for pending updates
+        self.lazy = [0] * (4 * n)
+        self.len = [0] * (4 * n)
 
-        self.root = createTree(nums, 0, len(nums) - 1)
-
-    def update(self, i, val):
-        def updateVal(root, i, val):
-            if root.start == root.end:
-                root.max = max(root.max, val)
-                root.total = val
-                return val
-            mid = (root.start + root.end) // 2
-            if i <= mid:
-                updateVal(root.left, i, val)
+        def build(node, start, end):
+            if start == end:
+                self.tree[node] = arr[start]
             else:
-                updateVal(root.right, i, val)
-            root.total = root.left.total + root.right.total
-            root.max = max(root.left.max, root.right.max)
-            return root.total
+                mid = (start + end) // 2
+                build(node * 2 + 1, start, mid)
+                build(node * 2 + 2, mid + 1, end)
+                self.tree[node] = self.tree[node * 2 + 1] + self.tree[node * 2 + 2]
 
-        updateVal(self.root, i, val)
+        build(0, 0, n - 1)
 
-    # inclusive
-    def maxRange(self, i, j):
-        def rangeMax(node, i, j):
-            if node.start > j or node.end < i:
-                return float('-inf')
-            if node.start >= i and node.end <= j:
-                return node.max
-            self.push(node)
-            mid = (node.start + node.end) // 2
-            return max(rangeMax(node.left, i, min(mid, j)), rangeMax(node.right, max(mid + 1, i), j))
+    def update_util(self, node, start, end, q_start, q_end, val=0) -> None:
+        """Update segment tree when value in [q_start, q_end] is flipped."""
+        self.prop_lazy(node, start, end)
+        if start > end or start > q_end or end < q_start:
+            return
 
-        return rangeMax(self.root, i, j)
+        if start >= q_start and end <= q_end:
+            self.tree[node] = self.len[node] - self.tree[node]
+            if start != end:
+                self.lazy[node * 2 + 1] ^= 1
+                self.lazy[node * 2 + 2] ^= 1
+            return
 
-    def sumRange(self, i, j):
-        def rangeSum(root, i, j):
-            if root.start == i and root.end == j:
-                return root.total
-            mid = (root.start + root.end) // 2
-            if j <= mid:
-                return rangeSum(root.left, i, j)
-            elif i >= mid + 1:
-                return rangeSum(root.right, i, j)
-            else:
-                return rangeSum(root.left, i, mid) + rangeSum(root.right, mid + 1, j)
+        mid = (start + end) // 2
+        self.update_util(node * 2 + 1, start, mid, q_start, q_end, val)
+        self.update_util(node * 2 + 2, mid + 1, end, q_start, q_end, val)
+        self.tree[node] = self.tree[node * 2 + 1] + self.tree[node * 2 + 2]
 
-        return rangeSum(self.root, i, j)
 
-    def push(self, node):
-        if node.lazy:
-            if node.left:
-                node.left.max = node.lazy
-                node.left.lazy = node.lazy
-            if node.right:
-                node.right.max = node.lazy
-                node.right.lazy = node.lazy
-            node.lazy = 0
+    def update_range(self, l, r, val=1):
+        self.update_util(0, 0, self.n - 1, l, r, val)
 
-        
-        return res
+    # handle lazy propagations
+    def prop_lazy(self, node, start, end):
+        # if the parent node has the notation to flip, then we update all summation of children nodes.
+        if self.lazy[node] != 0:
+            self.tree[node] = self.len[node] - self.tree[node]
+            if start != end:  # not a leaf node
+                self.lazy[self.left_child(node)] ^= 1
+                self.lazy[self.right_child(node)] ^= 1
+            self.lazy[node] = 0
+
+    def query_util(self, node, start, end, l, r):
+        if start > end or start > r or end < l:
+            return 0
+
+        self.prop_lazy(node, start, end)
+
+        if start >= l and end <= r:
+            return self.tree[node]
+
+        mid = (start + end) // 2
+        p1 = self.query_util(node * 2 + 1, start, mid, l, r)
+        p2 = self.query_util(node * 2 + 2, mid + 1, end, l, r)
+        return p1 + p2
+
+    def query_range(self, l, r):
+        return self.query_util(0, 0, self.n - 1, l, r)
 
 
 # Binary Lifting
