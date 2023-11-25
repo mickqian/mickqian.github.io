@@ -31,26 +31,6 @@ class BitTrie:
         return self.children[bit].max_xor(key, l - 1)
 
 
-class Solution:
-    def maximumStrongPairXor(self, nums: List[int]) -> int:
-        nums = sortedcontainers.SortedSet(nums)
-
-        trie = BitTrie()
-        last = 0
-        ans = 0
-
-        # trie.insert(3)
-        # trie.max_xor(3)
-
-        for i in range(len(nums)):
-            while last < len(nums) and nums[last] - nums[i] <= nums[i]:
-                trie.insert(nums[last])
-                last += 1
-            ans = max(ans, trie.max_xor(nums[i]))
-            trie.remove(nums[i])
-        return ans
-
-
 class DisjointSet:
     def __init__(self, elements):
         self.parent = {i: i for i in elements}
