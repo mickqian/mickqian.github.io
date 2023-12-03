@@ -4,11 +4,56 @@
 
 
 ## Multinomial Coefficient
-permutation of N1, N2... Nn numbers, with Sum(Ni) = M:
-$M! / N1! * N2! * ... * Nn!$
+permutation of N1, N2... Nn numbers, with $Sum(N_{i}) = M$:
+$M! / N_{1}! * N_{2}! * ... * N_{n}!$
 
+a / x % mod == a * inv_mod % mod
+
+找出 inv_mod
+```python
+class Factorial:  
+    def __init__(self, N, mod) -> None:  
+        N += 1  
+        self.mod = mod  
+        self.f = [1 for _ in range(N)]  
+        self.g = [1 for _ in range(N)]  
+        for i in range(1, N):  
+            self.f[i] = self.f[i - 1] * i % self.mod  
+        self.g[-1] = pow(self.f[-1], mod - 2, mod)  
+        for i in range(N - 2, -1, -1):  
+            self.g[i] = self.g[i + 1] * (i + 1) % self.mod  
+  
+    def fac(self, n):  
+        return self.f[n]  
+  
+    def fac_inv(self, n):  
+        return self.g[n]  
+  
+    def combi(self, n, m):  
+        if n < m or m < 0 or n < 0: return 0  
+        return self.f[n] * self.g[m] % self.mod * self.g[n - m] % self.mod  
+  
+    def permu(self, n, m):  
+        if n < m or m < 0 or n < 0: return 0  
+        return self.f[n] * self.g[n - m] % self.mod  
+  
+    def catalan(self, n):  
+        return (self.combi(2 * n, n) - self.combi(2 * n, n - 1)) % self.mod  
+    def inv(self, n):  
+        return self.f[n - 1] * self.g[n] % self.mod
+
+
+# 求 数组的 permuation 数量（每个子集有n个元素）, 原先需要阶乘相除
+# 每个被除的阶乘，可以处理为 * 阶乘 对 MOD 的模逆
+
+facts = []
+for num in facts:
+	# ans /= num!
+	# 换成
+	ans *= fac_inv(num)
+```
 ## Modular Multiplicative Inverse
-$(A / B) \% mod = A * ( B ^ -1 ) \% mod = A * (b ^ (mod -2))$
+$(A / B) \% mod = A * ( B ^ {-1} ) \% mod = A * (b ^ (mod -2))$
 
 ```cpp
 	// the order of a sequence in all its permutation
