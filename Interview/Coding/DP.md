@@ -9,8 +9,7 @@ Divide problems into sub problems:
 
 * Accords to the natural logic of the original problem description
 
-Choosed when there is some useless states, or no actual index concepts
-
+Chosen when there is some useless states, or no actual index concepts
 
 #### Bottom up(Tabulation)
 
@@ -85,9 +84,6 @@ recursive iterative loop, moving forward at each index based on prev results
 	* [Valid Permutations for DI Sequence](https://leetcode.com/problems/valid-permutations-for-di-sequence/solutions/?orderBy=most_votes)
 
 
-
-
-
 ## Memoization 
 
 *  Classic
@@ -129,18 +125,14 @@ Divide problems into sub problems:
 #### Top down(memoization)
 
 * **recursive** function call, store results
-
 * **apply** cache to **potential** duplicate calculation
-
 * Accords to the natural logic of the original problem description
 
 Choosed when there is some useless states, or no actual index concepts
 
-
 #### Bottom up(Tabulation)
 
 * **iterative** on the indices of sub problems
-
 * **base** on the pre-calculated results
 
 * choose and simplify the states, which will affect the results
@@ -236,4 +228,3 @@ recursive iterative loop, moving forward at each index based on prev results
 	* Ways to choose numbers(duplication), no order
 	* With vector\<int\> as used numbers key, and trying every type of num in each call
 	 [Maximum Number of Groups Getting  Fresh Donuts](https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/solutions/1140644/c-0-ms-greedy-dp/?orderBy=most_votes)
-

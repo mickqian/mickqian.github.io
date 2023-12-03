@@ -11,9 +11,12 @@
             "id": "d4561de0a458036d",
             "type": "leaf",
             "state": {
-              "type": "vscode-editor",
+              "type": "markdown",
               "state": {
-                "file": "Interview/Coding/Templates/header.py"
+                "file": "Interview/Coding/Mathematical.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -46,7 +49,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview/Coding/Templates/header.py"
+                "file": "Interview/Coding/Mathematical.md"
               }
             }
           },
@@ -85,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5,
-    "collapsed": true
+    "width": 400.5
   },
   "right": {
     "id": "47168004564bfdc1",
@@ -102,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview/Coding/Templates/header.py",
+                "file": "Interview/Coding/Mathematical.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview/Coding/Templates/header.py",
+                "file": "Interview/Coding/Mathematical.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -167,18 +169,24 @@
   },
   "active": "d4561de0a458036d",
   "lastOpenFiles": [
+    "Interview/Coding/Intuitions.md",
+    "Interview/Coding/Mathematical.md",
+    "Interview/Coding/Intuition -> Algo or DS.md",
+    "Interview/Coding/DP.md",
+    "Interview/Coding/Graph.md",
+    "Interview/Coding/Miscellaneous.md",
+    "Interview/Coding/Algorithms.md",
+    "Interview/Coding/Bit.md",
+    "Interview/Coding/Templates/header.py",
     "Interview/Profile/Resume/QianChengliang_Resume.synctex(busy)",
     "Interview/Profile/Resume/QianChengliang_Resume.synctex.gz",
     "Interview/Profile/Resume/QianChengliang_Resume~.tex",
-    "Interview/Coding/Intuition -> Algo or DS.md",
-    "Interview/Coding/Algorithms.md",
     "AI/Agent/Agent 的应用.md",
     "AI/Agent/RAG.md",
     "AI/Agent/LLM Powered Auto-Agent - A Survey.md",
     "2023-11-12.md",
     "Interview/Companies.md",
     "Interview/Coding/Search.md",
-    "Interview/Coding/Templates/header.py",
     "Interview/Profile/Introduction.md",
     "Interview/Profile/咨询问题1.md",
     "Interview/Profile/Resume/QianChengliang_Resume.pdf",
@@ -194,15 +202,10 @@
     "Namesless/Actress.md",
     "Interview/Coding/Untitled.md",
     "Interview/Coding/Contest.md",
-    "Interview/Coding/Miscellaneous.md",
-    "Interview/Coding/Mathematical.md",
-    "Interview/Coding/Intuitions.md",
-    "Interview/Coding/Graph.md",
     "Quant/Key Concepts.md",
     "conflict-files-obsidian-git.md",
     "Interview/Profile/Resume/Sequence.md",
     "Resume/resume_preview.png",
-    "Resume/README.md",
     "Interview/Profile/Resume-new/resume_preview.png",
     "Obsidian/Interview/Profile/Resume/resume_preview.png",
     "Obsidian/Attachments/Pasted image 20230930103128.png",

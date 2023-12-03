@@ -117,10 +117,6 @@
 	* Strategy:
 	* 
 
-* 
-	* 
-	* 
-
 * Hard
 	* Find the least starting value
 	* The **time** we have the least money is, aftering finishing the last lossing-money cost, but not gaining the cashback yet (1). make sure we get through before, needs prev_loss + this_cost (2). make sure get the money to start next transaction
