@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "binary lifting",
+                "query": "modular",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -167,7 +168,7 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "d4561de0a458036d",
+  "active": "37b6d9b49b7a841a",
   "lastOpenFiles": [
     "Interview/Coding/Intuitions.md",
     "Interview/Coding/Mathematical.md",

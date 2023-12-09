@@ -19,7 +19,13 @@ class Factorial:
         self.g = [1 for _ in range(N)]  
         for i in range(1, N):  
             self.f[i] = self.f[i - 1] * i % self.mod  
-        self.g[-1] = pow(self.f[-1], mod - 2, mod)  
+        // 费马小定理： a * a^(mod - 2) == 1 (% mod)
+        // 所以 a^(mod - 2) 是 a 的模拟
+        // 所以 K * a == K * a^(mod - 2) (% mod)
+        
+		
+        self.g[-1] = pow(self.f[-1], mod - 2, mod) 
+        // calcuate mod inverse for all 阶乘
         for i in range(N - 2, -1, -1):  
             self.g[i] = self.g[i + 1] * (i + 1) % self.mod  
   
@@ -45,12 +51,11 @@ class Factorial:
 
 # 求 数组的 permuation 数量（每个子集有n个元素）, 原先需要阶乘相除
 # 每个被除的阶乘，可以处理为 * 阶乘 对 MOD 的模逆
-
 facts = []
-for num in facts:
+for num in nums:
 	# ans /= num!
 	# 换成
-	ans *= fac_inv(num)
+	ans *= mod_inv(num)
 ```
 ## Modular Multiplicative Inverse
 $(A / B) \% mod = A * ( B ^ {-1} ) \% mod = A * (b ^ (mod -2))$
