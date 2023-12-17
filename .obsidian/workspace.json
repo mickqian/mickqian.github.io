@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview/Coding/Mathematical.md",
+                "file": "Interview/Coding/Algorithms.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview/Coding/Mathematical.md"
+                "file": "Interview/Coding/Algorithms.md"
               }
             }
           },
@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "modular",
+                "query": "reservior",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview/Coding/Mathematical.md",
+                "file": "Interview/Coding/Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview/Coding/Mathematical.md",
+                "file": "Interview/Coding/Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -168,10 +168,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "37b6d9b49b7a841a",
+  "active": "d4561de0a458036d",
   "lastOpenFiles": [
-    "Interview/Coding/Intuitions.md",
     "Interview/Coding/Mathematical.md",
+    "Interview/Coding/Intuitions.md",
     "Interview/Coding/Intuition -> Algo or DS.md",
     "Interview/Coding/DP.md",
     "Interview/Coding/Graph.md",
