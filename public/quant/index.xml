@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quants on Blog of Mick</title>
+    <link>https://mickjagger19.github.io/quant/</link>
+    <description>Recent content in Quants on Blog of Mick</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://mickjagger19.github.io/quant/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/quant/key-concepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/quant/key-concepts/</guid>
+      <description>凸优化 找出使凸函数值最小的x，为全局最优值 局部最优解一定是全局最优解
+方法 梯度下降 牛顿法 拟牛顿法 傅立叶变换 Fourier Transformation $x[n]$: 信号 $X[k]$: 频率为 k 的震荡函数的级数（cos, sin） 缺点：
+不能刻画时间域上信号的局部特性 对突变和非平稳信号的效果不好，没有时频分析 Gibbs效应：
+FS Fourier Series $$
+\begin{align} f(t)&amp;amp;=\frac{a_{0}}{2}+\sum_{n=1}^{\infty}{[a_{n}cos(n\omega t)+b_{n}sin(n\omega t)]} \tag{1} \
+&amp;amp;a_{n}=\frac{2}{T}\int_{t_{0}}^{t_{0}+T}f(t)cos(n\omega t)dt \tag{2} \
+&amp;amp;b_{n}=\frac{2}{T}\int_{t_{0}}^{t_{0}+T}f(t)sin(n\omega t)dt \tag{3}\ \end{align} $$
+DFT $X[k]=\sum_{n=0}^{N-1}e^{-j\frac{2\pi}{N}{nk}}x[n]$
+IDFT FFT Fast Fourier Transform 快速傅立叶变换 将 DFT 矩阵分解成稀疏因子的乘积来快速计算 是 DFT 算法
+$X(K)=\sum_{r=0}^{\frac{N}{2}-1}x(2r)W_{\frac{N}{2}}^{rk}+W_N^r\sum_{r=0}^{\frac{N}{2}-1}x(2r+1)W_{\frac{N}{2}}^{rk}$
+推导过程
+欧拉公式 $e^{i\theta}=cos\theta+i\cdot sin\theta$
+STFT 短时傅立叶变换 加窗傅立叶变换 -&amp;gt; 局部性 ![[Pasted image 20230512231535.png]] 窗太小 -&amp;gt; 频率分辨率差 窗太大 -&amp;gt; 时间分辨率差</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/quant/markov-process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/quant/markov-process/</guid>
+      <description>$$ \Pr {\big [}X(t)=x(t)\mid X(s)=x(s),X(p_{1})=x(p_{1}),X(p_{2})=x(p_{2}),\dots {\big ]} $$
+memorylessness
+transition matrix: 状态的转移概率矩阵, 每一行的和为 1
+时齐 Markov 链</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/quant/time-sequence-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/quant/time-sequence-analysis/</guid>
+      <description>将原始数据按照时间顺序排列，分析趋势、周期、时期、不稳定因素
+Metric Information Ratio active return compared to a benchmark index
+$$ IR = \frac{Active Return}{Tracking Error} $$
+代表投资者每承担1单位风险得到的额外汇报
+Information Coefficient 衡量 factor 和未来收益的相关性指标
+Alpha Factor 超额回报
+$$ \alpha = E[R_{}p - R_{b}]$$ 主动回报的预期值
+Factors 因子 Imbalance </description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,7 @@
+{
+  "promptDelete": false,
+  "attachmentFolderPath": "Attachments",
+  "spellcheck": true,
+  "trashOption": "local",
+  "showUnsupportedFiles": true
+}

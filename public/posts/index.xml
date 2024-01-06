@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Blog of Mick</title>
+    <link>https://mickjagger19.github.io/posts/</link>
+    <description>Recent content in Posts on Blog of Mick</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://mickjagger19.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/2023-12-19/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/2023-12-19/</guid>
+      <description>https://jetbrains.studioxp.ca </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/ai/agent/agent-%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/ai/agent/agent-%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+      <description>Summary of this thesis</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/ai/model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/ai/model/</guid>
+      <description>速记 mlp: Flatten + FAF
+CLIP 训练： text encoder, image encoder, contrastive loss, joint multimodal embedding 推理： labels + template -&amp;gt; text encoder, similarity with encoded image
+Dall-E LeNet AlexNet 2012 ![[Pasted image 20230609205327.png]] 类似于 LeNet:
+AlexNet: 8 层， C(M)C(M)CCC(M)FFF, 五个卷积层、两个全连接隐藏层和一个全连接输出层，使用 ReLU LeNet: 5层， C(M)C(M)FFF, 两个卷积层两个全连接隐藏层和一个全连接输出层，Sigmoid ResNet ![[Pasted image 20230609205940.png]]
+DenseNet 输出是 连接， 而不是 相加，因此每一时刻的输出都与此前所有层的输出相联系 使用过渡层： 1 * 1 , stride = 2 的卷积层 减少通道数，控制模型复杂度
+GRU 非循环神经网络，由于矩阵的连续乘积，可以导致 梯度消失 等问题
+reset gate: 控制过去状态的数量 update gate: 控制新状态中的旧状态副本数量 ，剩余为新隐状态 $$ \begin{align} R_{t} = \sigma(X_{t}W_{xr} + H_{t-1}W_{hr} + b_{r}) \ Z_{t} = \sigma(X_{t}W_{xz} + H_{t-1}W_{hz} + b_{z}) \</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/ai/rnn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/ai/rnn/</guid>
+      <description>目标:
+自回归模型：对自己执行回归 $P(x_t|x_{t-1},&amp;hellip;,x_1)$ Latent autoregressive models 引入 latent variable $h_t$：作为总结 for X, y in train_iter: // X: 输入, y: 标签 trainer.zero_grad() // 将net输出与y求loss l = loss(net(X), y) // 对loss进行反向传播 l.sum().backward() trainer.step() k-step ahead prediction: 错误的累积
+NLP vocab: token 的映射 corpus: token 的频率 map
+频率最高的词: stop words，可以被过滤 词频衰减很快 拉普夫定律 拉普拉斯
+Optimizer adam: sgd优化器
+循环神经网络 交叉熵：信息论 perplexity: 一个序列中 n 个词元的交叉熵损失的平均值，用于评价 LM 的性能
+梯度裁剪: 梯度爆炸： 梯度消失：
+animator：</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/ai/svm-support-vector-machine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/ai/svm-support-vector-machine/</guid>
+      <description>Glossary Norm 范数 向量范数： 向量大小 1-范数：各维元素的绝对值之和 2-范数：欧几里得范数，平方和开方
+小样本方法 一个目标是对新样本数据进行 二分类 的（线性）、有监督、深度学习模型 凸优化问题的解是全局最优
+场景：
+测试数据 线性可分 ：求出超平面、支持向量，约束为硬间隔尽量大。只有此时才为线性模型，即线性可分 VM 测试数据 近似线性可分 ：软间隔最大化，引入松弛因子，线性 VM 测试数据 线性不可分 ： 引入核函数，投射到高维空间，非线性 VM 间隔最大化的目的：基于误分类最小策略，求得的超平面构成最优分离，泛化能力最强
+Linear 求： 间隔最大化 ：正负超平面 的距离最大 $S = \frac{1}{2} || \omega^{2} || (1)$
+$s.t.\ \ y * (wx + b) &amp;gt;= 1 (2)$
+Lagrange multipliers 寻找多元函数在一组约束下的极值的方法 通过引入拉格朗日乘子，可将有 $d$ 个变量与 $k$ 个约束条件的最优化问题转化为具有 $d+k$ 个变量的无约束优化问题求解.
+简单推导： 设函数为$f(x)$，约束为 $g(x) \le0$
+如果是等式约束： g(x) == 0 要使多元函数取得极值，极值点 $x^$ 对于函数和约束的梯度必定同向（函数的等高线与约束线相切） 则存在 $\lambda$ 使得: $\nabla f(x^) + \lambda\nabla g(x^) = 0$ 拉格朗日函数： $L(x, \lambda) = f(x) + \lambda g(x)$ 可以看出， 拉格朗日函数对 $x$ 的偏导 在 $x^$ 处为 0，充分且必要关系，因此问题转换为 求 拉格朗日函数的极值（无约束优化）</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/ai/thesis/bert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/ai/thesis/bert/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/ai/thesis/diffusion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/ai/thesis/diffusion/</guid>
+      <description>forward: reverse: 利用 guidance(文本等)，去除噪声
+guidance: * image classifier * image-&amp;gt;txt model
+ddpm：
+预测目标 变成 预测噪声(的正态分布) 不需要预测方差，只需要均值 improved ddpm: 学习方差 添加噪声的schedule : 线性 -&amp;gt; 余弦 增加模型尺寸 Diffusion model beats GAN: 继续加尺寸，attention 加大加宽，single-scale attention -&amp;gt; multi-scale attention adaptive group normalization: 以步数为依据的归一化 classifier guidance: 图片更逼真，步数更少 Classifier Guided Diffusion: 同时训练 Classifier，用于图像分类 反向过程中，把 Xt 扔给 Classifier，输出一个交叉熵，得到 Gradient（暗含图像生成的目标：有没有含有某个物体）， 帮助采样
+利用了额外的模型，训练成本高且不可控
+Classifier-Free guidance: 训练时，基于有无监督信号生成两个输出，得到输出之间的相似度，反向过程的时候 进行 apply
+diffusion 和 vae 的区别：
+编码器目标不同：噪声 vs 特征 bottleneck 尺寸较大 多步生成 </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/ai/thesis/vae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/ai/thesis/vae/</guid>
+      <description>AE: X-&amp;gt; Encoder -&amp;gt; Feature(Bottleneck) -&amp;gt; Decoder -&amp;gt; X&#39;
+DAE: corrupt X，降低图片的冗余度（图片的冗余性一般都很高）
+以上模型的 Feature 都来自于 图片的编码，而不是源于 Sampling。有了生成随机 Feature Feature的手段（ Sample） 就可以重建图像
+VAE: X -&amp;gt; Encoder -&amp;gt; predict Gaussian Distribution -&amp;gt; sample a feature from distribution -&amp;gt; Decoder -&amp;gt; X&#39;
+VAE 的 distribution 学习难度大，图像尺寸局限（不好做大）
+VQVAE: 引入 CodeBook(聚类中心)，把特征转换成更稳定的特征（但同时失去了随机采样的随机性） X -&amp;gt; Encoder -&amp;gt; Feature -&amp;gt; CodeBook -&amp;gt; Quantized Feature -&amp;gt; Decoder -&amp;gt; X&#39;
+pixel CNN
+VQVAE2:
+层级式 引入 attention, 根据 codebook 学习 prior: Pixel CNN Dall E 2 两阶段：</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/ai/thesis/vilt-vision-and-language-transformer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/ai/thesis/vilt-vision-and-language-transformer/</guid>
+      <description>Modality Interaction: 模态融合
+点乘 简单神经网络 ![[Pasted image 20230618152658.png]] transformer input: * word embedding * classifier token * linear projection of patches(with encoding)
+word patch alignment：</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/ai/thesis/vit-vision-transformer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/ai/thesis/vit-vision-transformer/</guid>
+      <description>image -&amp;gt; txt
+transformer 应用于 CV 领域 patch : 16 * 16 图片 -&amp;gt; n * n 个 patch
+特殊的 positional encoding: ![[Pasted image 20230618151346.png]] 对patch按顺序进行编号，将编号通过查表
+转换为 embedding，sum
+extra learnable token</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/interview/companies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/interview/companies/</guid>
+      <description>Meta applied: Software Engineer for Audio Research Engineer SWE, ML
+Google Google cloud
+Microsoft </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/interview/language-tests/speaking/real-questions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/interview/language-tests/speaking/real-questions/</guid>
+      <description>常用：
+I reside in Hangzhou, a city tucked away in the southeastern region of China, characterized by its international flair, vibrant atmosphere, and dynamic energy offer me an ideal environment for practicing and listening to music, while engaging in recreational music creation the companies he runs have all achieved global leadership gain an advantage/edge over rivals captivate my interests happy &amp;lt;-&amp;gt; thrilled, delighted, overjoyed 不用正面回答，不用以第一人称主语开始 fascinated with/be fond of/be really into/be keen on/appreciate/was very involved with It&amp;rsquo;s intriguing 令人感兴趣的 to gain a deep understanding about different locations, cultures, and the physical characteristics of our world.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/interview/language-tests/speaking/speaking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/interview/language-tests/speaking/speaking/</guid>
+      <description>Please may I start My name&amp;rsquo;s With pleasure Sir I&amp;rsquo;m fine thank you Sir
+Hard to pronounce the advancement of technology has significantly influenced our lives. information and services are now at our fingertips the rapid pace of technological change can also cause stress and anxiety I wholeheartedly concur with this view as well as the specific needs and capabilities of a school and its students.
+Vocabulary physical inactivity and social isolation Ludicrous: unreasonable Pinnacle Proponent Invigorating Indulge Mere delightful Spectacular</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/interview/profile/behavorial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/interview/profile/behavorial/</guid>
+      <description> _Have you ever made a mistake? _What do you think was the best mistake you’ve made so far? _What did you learn from it? </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/interview/profile/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/interview/profile/introduction/</guid>
+      <description>Qian Chengliang(English name as Mick) is a person, pursuiting jobs of creativity and crave for learning and exploring new technologies and skills.
+Graduated as a bachelor in Computer Sciende at ZJU(Zhejiang University), his acedemic record is among the top 20% in CS College, 10% in the last two years, which proves his ability to learn. At school, he interns at a big tech company in china for 2 months, and act as a major contributor of a transpiler project, which translates java code to scala, and beats the performance of the most competitors at that time.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/interview/profile/resume/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/interview/profile/resume/readme/</guid>
+      <description>A single-page, one-column resume for software developers. It uses the base latex templates and fonts to provide ease of use and installation when trying to update the resume. The different sections are clearly documented and custom commands are used to provide consistent formatting. The three main sections in the resume are education, experience, and projects.
+Motivation I created this template as managing a resume on Google Docs was hard and changing any formatting was too difficult since it had to be applied in multiple places.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/interview/profile/resume/sequence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/interview/profile/resume/sequence/</guid>
+      <description>Find different patterns
+Change the direction may help Count Increasing Quadruplets: Fix j,k, then find: 1. nums before i and less than nums[j], 2. nums after k and bigger than nums[l]. Count i, j, k Triplets, use a Fenwick Tree to achieve that Shortest Impossible Sequence of Rolls Find the count of complete set, to gain shortest impossible permutation </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/interview/profile/role-numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/interview/profile/role-numbers/</guid>
+      <description>SE, java(AM): 200460909 SE, java(AM): 200460940 SWE, C++ :200458465 SE, VR/AR: 200410760 AMP: 200462337 SE, distribute: 200323245</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/interview/profile/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/interview/profile/skills/</guid>
+      <description>Languages: Rust, C++, Java, Scala and others Work exprience involves compilers, frontend, ide &amp;amp; virtual machine</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/interview/profile/why-do-you-want-to-work-at/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/interview/profile/why-do-you-want-to-work-at/</guid>
+      <description>Apple ? Mention Apple&amp;rsquo;s significance I’ve been a loyal Apple fans for years, and your innovation and development never fail to amaze me. It seems to me that, Apple is a company which dedicate to make lifes better, make techonology advance. Apple don’t just create products; you create something magical for the person using them, and that inspires me. I&amp;rsquo;ve really admired Apple&amp;rsquo;s ability to lead the revolution in certain tech areas, it really need great braveness and insightfullness to do that.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/interview/profile/%E5%92%A8%E8%AF%A2%E9%97%AE%E9%A2%981/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/interview/profile/%E5%92%A8%E8%AF%A2%E9%97%AE%E9%A2%981/</guid>
+      <description>基本背景： ZJU 16 cs 本，三年（不到）华为工作经历，编译器/虚拟机/IDE 方向 理想工作： UK apple SDE 岗位。在官网了解过 apple 在 uk 的岗位，对 Media Products/VR 相关方向比较感兴趣 另外想问一下，除了 Apple, UK 还有哪些科技公司是我可以尝试的 下附简历，方便的话可以随意看一眼。十分感谢!</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/interview/system-design/key-concepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/interview/system-design/key-concepts/</guid>
+      <description>Consistent Hashing 保证当机器增加或者减少时，节点之间的数据迁移只限于两个节点之间，不会造成全局的网络问题 环形hash
+Partition failover: 1. detect 2. elect new leader:consensus algo 3. reconfigure
+split brain
+logical log: decoupled from the storage engine internals write-ahead log:
+Consistency 一致性 强度从高到低：
+strong consistency linear consistency/read-after-write write-write consistency 单调读一致性 前缀一致性 Casual consistency eventual consistency Linear Consistency aka atomic consistency/strong consistency/immediate consistency/external consistency
+Basic idea 让一个系统看起来好像只有一个数据副本，且所有操作均为原子性
+Eventual Consistency 常用实现手段：
+读修复：从replicas中读，将缺失变更发送给相应replica, 消除副本数据不一致问题 写修复: primary 的写操作直到 follower 的写成功后才完成 async repair：running data consistency checks Leaderless 无主 peer-to-peer dynamo, riak, cassandra, voldemort easy to write</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/interview/system-design/misc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/interview/system-design/misc/</guid>
+      <description>![[Pasted image 20230426203213.png]]
+![[Pasted image 20230426203231.png]]
+MySQL server - 10k QPS Redis - 100 K write SQL: 500 GB MySQL server - 10k QPS MySQL server - 10k QPS
+BloomFilter If a element exists -&amp;gt; return true If a element miss -&amp;gt; return true or false applied in sparse scenarios
+Zookeeper 分布式共识算法 filesystem + listener pattern</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/interview/system-design/procedure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/interview/system-design/procedure/</guid>
+      <description>Clarify the system&amp;rsquo;s constraints and to identify what use cases the system needs to satisfy question can be made on:
+the number of users the amount of data the sytem should work with the traffic the system should handle, request/month Draw a diagram on abstract design application service layer data storage layer
+Scalabilities Think about bottlenecks:
+(user) request(qps): load balancer data size: distribution latency: caching single point failure ? fault tolerance(idopotent) Address by Scale: It&amp;rsquo;s all about trade-off</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/interview/system-design/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/interview/system-design/tools/</guid>
+      <description>Database pros topic: distribute to different workers cons Dynamo leaderless, de-centralization always writeable
+Variant consistent hashing instead of mapping a node to a single point in the circle, each node gets assigned to multiple points in the ring. Reduces uniform-data-distribution
+Preference list The list of nodes that is responsible for storing a particular key is called the preference list
+Hinted handoff temporarily stores the key in other nodes. When node recovered, deliver the data back the delete the temporary replica</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/interview/system-design/use-cases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/interview/system-design/use-cases/</guid>
+      <description>Tiny url The basic process can be:
+Insert:
+Hash an input long url into a single integer; Locate a server on the ring and store the key&amp;ndash;longUrl on the server; Compute the shorten url using base conversion (from 10-base to 62-base) and return it to the user. Retrieve:
+Convert the shorten url back to the key using base conversion (from 62-base to 10-base); Locate the server containing that key and return the longUrl.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/music/band-playlist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/music/band-playlist/</guid>
+      <description>song2 Come Together Desafinado Coffer &amp;amp; tv cherub rock damaged goods 1979 don’t let me down all you need is love</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/music/favorites/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/music/favorites/</guid>
+      <description>Band The Beatles Radiohead Pink Floyd The Smiths The Velvet Underground King Crimson
+Cream
+Smashing Pumpkin Blur The Rolling Stones
+Album Abbey Road The Velvet Underground Getz/Gilberto Ok Computer The Queen is Dead Jazz Samba Siamese Dream
+Disraeli Gears</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/music/progression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/music/progression/</guid>
+      <description> Odo shinko IV V iii vi Japan V 具有 dominant function，可以提供最多的 tension axis progression I V vi IV Let it Be, Someone like you the other axis progression vi IV I V Andalusian Cadence i bVII bVI V Happy Together descending Another Andalusian Cadence i bVII bVI bVII All Along the Watchtower Doo-wop progression I vi IV V Stand by me, Happiness is a warm gum tonic -&amp;gt; six -&amp;gt; subdominant -&amp;gt; dominant -&amp;gt; tonic another I V IV V Mixolydian Vamp I bVII IV I Hey Jude, Sweet Child O&amp;rsquo; Mine, Sweet Home Alabama Dorian Vamp i IV Mixolydian 1 2 3 4 5 6 b7 mellow, relax, bold major + blues I bVII IV Kiss from a ross bVI bVII I Picardy Third mario third She lovely vi7 II9 V11 I jazzy What&amp;rsquo;s up I ii IV I Marry You Let&amp;rsquo;s get it on I iii IV V Eight Days a Week I II IV I II -&amp;gt; #4 -&amp;gt; Lydian </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/nameless/actress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/nameless/actress/</guid>
+      <description>梓光莉 #bigbreast #oral
+ipx-548 侧面 big #oral ipx-610 朝田日葵 #bigbreast #Bounce #perfectbreast
+stars-399 #Bounce #favorite https://javtiful.com/video/32354/fc2ppv- stars-495 神木丽 #bigbreast
+stars-725 stars-703 紅葉心愛 #bigbreast #perfectbreast
+PPPE-113 EBOD-961 涼森玲梦 #perfectbreast #bigbreast #oral
+abp-912 abp-995: #Favorite abw-158： 家政 abp-870 abp-912 abp-984 bgn-054 abp-933 abf-007 三上悠亚 #bigbreast #oral
+ssni-054 ofje-281 #humiliate ssni-845 #oral ssni-865 #front #bigbreast ssni-279 #oral ssni-1152 #oral #humiliate ofje-189 合集 ssni-730 ssni-566 风俗 snis-896 公共场合 ssni-473 ssni-516 ssni-432 #oral 铃木心春 #bigbreast #perfectbreast #oral</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/quant/key-concepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/quant/key-concepts/</guid>
+      <description>凸优化 找出使凸函数值最小的x，为全局最优值 局部最优解一定是全局最优解
+方法 梯度下降 牛顿法 拟牛顿法 傅立叶变换 Fourier Transformation $x[n]$: 信号 $X[k]$: 频率为 k 的震荡函数的级数（cos, sin） 缺点：
+不能刻画时间域上信号的局部特性 对突变和非平稳信号的效果不好，没有时频分析 Gibbs效应：
+FS Fourier Series $$
+\begin{align} f(t)&amp;amp;=\frac{a_{0}}{2}+\sum_{n=1}^{\infty}{[a_{n}cos(n\omega t)+b_{n}sin(n\omega t)]} \tag{1} \
+&amp;amp;a_{n}=\frac{2}{T}\int_{t_{0}}^{t_{0}+T}f(t)cos(n\omega t)dt \tag{2} \
+&amp;amp;b_{n}=\frac{2}{T}\int_{t_{0}}^{t_{0}+T}f(t)sin(n\omega t)dt \tag{3}\ \end{align} $$
+DFT $X[k]=\sum_{n=0}^{N-1}e^{-j\frac{2\pi}{N}{nk}}x[n]$
+IDFT FFT Fast Fourier Transform 快速傅立叶变换 将 DFT 矩阵分解成稀疏因子的乘积来快速计算 是 DFT 算法
+$X(K)=\sum_{r=0}^{\frac{N}{2}-1}x(2r)W_{\frac{N}{2}}^{rk}+W_N^r\sum_{r=0}^{\frac{N}{2}-1}x(2r+1)W_{\frac{N}{2}}^{rk}$
+推导过程
+欧拉公式 $e^{i\theta}=cos\theta+i\cdot sin\theta$
+STFT 短时傅立叶变换 加窗傅立叶变换 -&amp;gt; 局部性 ![[Pasted image 20230512231535.png]] 窗太小 -&amp;gt; 频率分辨率差 窗太大 -&amp;gt; 时间分辨率差</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/quant/markov-process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/quant/markov-process/</guid>
+      <description>$$ \Pr {\big [}X(t)=x(t)\mid X(s)=x(s),X(p_{1})=x(p_{1}),X(p_{2})=x(p_{2}),\dots {\big ]} $$
+memorylessness
+transition matrix: 状态的转移概率矩阵, 每一行的和为 1
+时齐 Markov 链</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/quant/time-sequence-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/quant/time-sequence-analysis/</guid>
+      <description>将原始数据按照时间顺序排列，分析趋势、周期、时期、不稳定因素
+Metric Information Ratio active return compared to a benchmark index
+$$ IR = \frac{Active Return}{Tracking Error} $$
+代表投资者每承担1单位风险得到的额外汇报
+Information Coefficient 衡量 factor 和未来收益的相关性指标
+Alpha Factor 超额回报
+$$ \alpha = E[R_{}p - R_{b}]$$ 主动回报的预期值
+Factors 因子 Imbalance </description>
+    </item>
+    <item>
+      <title>&lt;% tp.file.cursor() %&gt;</title>
+      <link>https://mickjagger19.github.io/posts/templates/default-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/posts/templates/default-template/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
