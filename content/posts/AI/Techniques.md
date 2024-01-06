@@ -1,6 +1,17 @@
 
 
 
+---
+title : ''
+summary : ''
+tags : [""]
+author : ["Mick"]
+draft : true
+---
+
+
+
+
 ## Regularization
 正则化，降低模型复杂度，防止 overfitting
 

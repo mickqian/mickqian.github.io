@@ -1,3 +1,14 @@
+---
+title : ''
+summary : ''
+tags : ["Music"]
+author : ["Mick"]
+date : ${{ .Date }}
+draft : true
+---
+
+
+
 song2
 Come Together
 Desafinado

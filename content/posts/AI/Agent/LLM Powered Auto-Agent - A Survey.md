@@ -1,4 +1,12 @@
 
+---
+title : ''
+summary : 'Summary of this thesis'
+tags : [""]
+author : ["Mick"]
+draft : true
+---
+
 
 > 本文的讨论主要以 *不对 LM 结构和参数进行改造* 为前提，因此对于涉及模型改造的方法会一笔带过
 

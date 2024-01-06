@@ -1,4 +1,11 @@
- 
+---
+title : ''
+summary : 'Summary of this thesis'
+tags : [""]
+author : ["Mick"]
+draft : false
+---
+
 ### Key Introduction points
 
 * Multi-Agent Architecture

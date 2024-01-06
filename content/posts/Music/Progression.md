@@ -1,3 +1,11 @@
+---
+title : 'Chord Progression'
+summary : 'Frequently used chord progressions'
+tags : ["Music"]
+author : ["Mick"]
+date : 2024-01-06T00:35:53+08:00
+draft : false
+---
 
 * Odo shinko
 	* IV V iii vi

@@ -1,3 +1,11 @@
+---
+title : 'Attention is all you need'
+summary : 'Summary of this thesis'
+tags : [""]
+author : ["Mick"]
+draft : true
+---
+
 ## Recurrent Neural Network
 Seq2Seq
 

@@ -1,3 +1,13 @@
+
+---
+title : ''
+summary : 'Summary of this thesis'
+tags : [""]
+author : ["Mick"]
+draft : true
+---
+
+
 metric: 
 * perplexity
 * downstream accuracy

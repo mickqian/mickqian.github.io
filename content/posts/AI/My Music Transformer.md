@@ -1,3 +1,13 @@
+
+
+---
+title : ''
+summary : ''
+tags : [""]
+author : ["Mick"]
+draft : true
+---
+
 ## Glossaries
 Dynamic:
 primer: 印子，作为基础 pattern
