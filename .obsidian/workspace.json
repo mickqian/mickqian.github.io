@@ -11,8 +11,13 @@
             "id": "68a9d6162abb336f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Default Template.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -43,7 +48,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Templates/Default Template.md"
+              }
             }
           },
           {
@@ -97,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Templates/Default Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Templates/Default Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,15 +166,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "vscode-editor:Create Code File": false
+      "vscode-editor:Create Code File": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "68a9d6162abb336f",
+  "active": "0b86655ee1075c4b",
   "lastOpenFiles": [
-    "2023-12-19.md",
+    "Music/Band Playlist.md",
+    "Templates/Default Template.md",
     "Music/Progression.md",
+    "Templates",
+    "2023-12-19.md",
     "Music/Favorites.md",
-    "Music/Band Playlistsong2Come togetherDesafinadoCoffer & tvcherub rockdamaged goods1979don’t let me downall you need is love.md",
     "Interview/Coding/Algorithms.md",
     "Interview/Coding/Mathematical.md",
     "Interview/Coding/Intuitions.md",
@@ -195,9 +207,7 @@
     "Interview/Profile/Role Numbers.md",
     "Interview/Profile/Resume/QianChengliang_Resume.tex",
     "Quant/Time Sequence Analysis.md",
-    "Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.synctex(busy)",
     "Namesless/Actress.md",
-    "Interview/Coding/Untitled.md",
     "Resume/resume_preview.png",
     "Interview/Profile/Resume-new/resume_preview.png",
     "Obsidian/Interview/Profile/Resume/resume_preview.png",
