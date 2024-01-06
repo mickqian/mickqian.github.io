@@ -4,34 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0a77806f3f3eb101",
+        "id": "fe7c83ec81c783ec",
         "type": "tabs",
         "children": [
           {
-            "id": "d4561de0a458036d",
+            "id": "68a9d6162abb336f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-12-19.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b37844d9071fb5f6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,9 +43,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2023-12-19.md"
-              }
+              "state": {}
             }
           },
           {
@@ -115,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-12-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-12-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -180,10 +160,13 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "b37844d9071fb5f6",
+  "active": "68a9d6162abb336f",
   "lastOpenFiles": [
-    "Interview/Coding/Algorithms.md",
     "2023-12-19.md",
+    "Music/Progression.md",
+    "Music/Favorites.md",
+    "Music/Band Playlistsong2Come togetherDesafinadoCoffer & tvcherub rockdamaged goods1979don’t let me downall you need is love.md",
+    "Interview/Coding/Algorithms.md",
     "Interview/Coding/Mathematical.md",
     "Interview/Coding/Intuitions.md",
     "Interview/Coding/Intuition -> Algo or DS.md",
@@ -215,9 +198,6 @@
     "Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.synctex(busy)",
     "Namesless/Actress.md",
     "Interview/Coding/Untitled.md",
-    "Interview/Coding/Contest.md",
-    "Quant/Key Concepts.md",
-    "conflict-files-obsidian-git.md",
     "Resume/resume_preview.png",
     "Interview/Profile/Resume-new/resume_preview.png",
     "Obsidian/Interview/Profile/Resume/resume_preview.png",
