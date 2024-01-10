@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "6255c438a41a2c9c",
+    "type": "split",
+    "children": [
+      {
+        "id": "c393d9ef5e2bc59b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c27966a04a6960f5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "013674fa0164f2be",
+    "type": "split",
+    "children": [
+      {
+        "id": "701ad4c74d5dfc50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a898cbee46954c7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3ddab42c64d29277",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1b8fe674311dbd5b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9d10b13830ecc31d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee4b89e7cc7d517d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2312d21259764c60",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d8ad60aeedf9133e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6fd4e9d602e0b5e5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0ff881bd10420141",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "e4a4ec9428f18d71",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "vscode-editor:Create Code File": false,
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c27966a04a6960f5",
+  "lastOpenFiles": [
+    "Work/全流程.md",
+    "Work",
+    "Profile/Third-Person self-introduction.md",
+    "Profile/Skills.md",
+    "Profile/Role Numbers.md",
+    "Profile",
+    "Music",
+    "Leetcode/Sequence.md",
+    "Leetcode/Search.md",
+    "Leetcode/Miscellaneous.md",
+    "Leetcode/Mathematical.md",
+    "Leetcode/Intuitions.md",
+    "Leetcode/Graph.md",
+    "Leetcode/Data Structures.md",
+    "Leetcode/DP.md",
+    "Leetcode/Bit.md",
+    "Leetcode/Algorithms.md",
+    "Leetcode/Basic Algorithms you must memorize.md",
+    "Leetcode",
+    "search.md",
+    "Templates/Default Template.md",
+    "Templates",
+    "Quant/Time Sequence Analysis.md",
+    "Quant/Markov process.md",
+    "Quant/Key Concepts.md",
+    "Quant",
+    "Nameless/Actress.md",
+    "Nameless",
+    "Music/Progression.md",
+    "Music/Music of George Harrison.md",
+    "Music/Favorites.md",
+    "Music/Bossa Nova Songs Progression.md",
+    "Interview/System Design/Thesis/amazon-dynamo-sosp2007.pdf",
+    "Interview/System Design/Thesis/Bigtable.pdf",
+    "Interview/System Design/Thesis",
+    "Interview/Profile/Resume/resume_preview.png",
+    "Attachments/Pasted image 20230930103128.png",
+    "Attachments/Pasted image 20230930103109.png",
+    "Attachments/Pasted image 20230930103052.png",
+    "Attachments/Pasted image 20230930103050.png",
+    "Attachments/Pasted image 20230930103015.png",
+    "Attachments/Pasted image 20230918221255.png",
+    "Attachments/Pasted image 20230918221246.png",
+    "Attachments/Pasted image 20230623112408.png",
+    "Attachments/Pasted image 20230618154911.png"
+  ]
+}
