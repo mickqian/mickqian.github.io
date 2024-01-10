@@ -64,3 +64,6 @@ Beatles records are excluded
 
 ## 9. How Do You Sleep?
 <iframe width="560" height="315" src="https://www.youtube.com/embed/teD9t-lO_o0?si=Vt8mZOYRjDYVdtav&amp;start=157" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## 10. Isn't it a Pity
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-n-LULDiJxk?si=nsReB-tVfznad_mC&amp;start=125" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
