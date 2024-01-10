@@ -1,5 +1,0 @@
-{
-  "hugoCommandPath": "/opt/homebrew/bin/hugo",
-  "port": "1313",
-  "command": "server -s ../../"
-}

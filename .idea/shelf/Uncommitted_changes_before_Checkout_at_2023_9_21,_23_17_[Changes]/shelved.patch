@@ -1,0 +1,311 @@
+Index: Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.tex
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>%-------------------------\n% Resume in Latex\n% Author : Sourabh Bajaj\n% License : MIT\n%------------------------\n\n\\documentclass[letterpaper,11pt]{article}\n\n\\usepackage{latexsym}\n\\usepackage[empty]{fullpage}\n\\usepackage{titlesec}\n\\usepackage{marvosym}\n\\usepackage[usenames,dvipsnames]{color}\n\\usepackage{verbatim}\n\\usepackage{enumitem}\n\\usepackage[hidelinks]{hyperref}\n\\usepackage{fancyhdr}\n\\usepackage[english]{babel}\n\\usepackage{tabularx}\n\\input{glyphtounicode}\n\n\\pagestyle{fancy}\n\\fancyhf{} % clear all header and footer fields\n\\fancyfoot{}\n\\renewcommand{\\headrulewidth}{0pt}\n\\renewcommand{\\footrulewidth}{0pt}\n\n% Adjust margins\n\\addtolength{\\oddsidemargin}{-0.5in}\n\\addtolength{\\evensidemargin}{-0.5in}\n\\addtolength{\\textwidth}{1in}\n\\addtolength{\\topmargin}{-.5in}\n\\addtolength{\\textheight}{1.0in}\n\n\\urlstyle{same}\n\n\\raggedbottom\n\\raggedright\n\\setlength{\\tabcolsep}{0in}\n\n% Sections formatting\n\\titleformat{\\section}{\n  \\vspace{-4pt}\\scshape\\raggedright\\large\n}{}{0em}{}[\\color{black}\\titlerule \\vspace{-5pt}]\n\n% Ensure that generate pdf is machine readable/ATS parsable\n\n%-------------------------\n% Custom commands\n\\newcommand{\\resumeItem}[2]{\n  \\item\\small{\n    \\textbf{#1}{: #2 \\vspace{-2pt}}\n  }\n}\n\n% Just in case someone needs a heading that does not need to be in a list\n\\newcommand{\\resumeHeading}[4]{\n    \\begin{tabular*}{0.99\\textwidth}[t]{l@{\\extracolsep{\\fill}}r}\n      \\textbf{#1} & #2 \\\\\n      \\textit{\\small#3} & \\textit{\\small #4} \\\\\n    \\end{tabular*}\\vspace{-5pt}\n}\n\n\\newcommand{\\resumeSubheading}[4]{\n  \\vspace{-1pt}\\item\n    \\begin{tabular*}{0.97\\textwidth}[t]{l@{\\extracolsep{\\fill}}r}\n      \\textbf{#1} & #2 \\\\\n      \\textit{\\small#3} & \\textit{\\small #4} \\\\\n    \\end{tabular*}\\vspace{-5pt}\n}\n\n\\newcommand{\\resumeSubSubheading}[2]{\n    \\begin{tabular*}{0.97\\textwidth}{l@{\\extracolsep{\\fill}}r}\n      \\textit{\\small#1} & \\textit{\\small #2} \\\\\n    \\end{tabular*}\\vspace{-5pt}\n}\n\n\\newcommand{\\resumeSubItem}[2]{\\resumeItem{#1}{#2}\\vspace{-4pt}}\n\n\\renewcommand{\\labelitemii}{$\\circ$}\n\n\\newcommand{\\resumeSubHeadingListStart}{\\begin{itemize}[leftmargin=*]}\n\\newcommand{\\resumeSubHeadingListEnd}{\\end{itemize}}\n\\newcommand{\\resumeItemListStart}{\\begin{itemize}}\n\\newcommand{\\resumeItemListEnd}{\\end{itemize}\\vspace{-5pt}}\n\n%-------------------------------------------\n%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%\n\n\n\\begin{document}\n\n%----------HEADING-----------------\n\\begin{tabular*}{\\textwidth}{l@{\\extracolsep{\\fill}}r}\n  \\textbf{{\\Large Qian Chengliang}} \\& Email : \\href{mickjagger19@icloud.com}{mickjagger19@icloud.com}\\\\\n  \\href \\& Mobile : \\href{tel:+86 15088363086}{+86 15088363086} \\\\\n\\end{tabular*}\n\n\n{Detail-oriented, organized and meticulous employee who stays consistently abreast of cutting-edge developments and technology advancements. Works the most effective in the team, to meet tight deadlines, and steps up to solve high-maintenance bugs. Values functionality, stability, and performance of the software, and offers creative \\& practical ideas for user-experience or technology problems.}\n\n%-----------EDUCATION-----------------\n\\section{Education}\n  \\resumeSubHeadingListStart\n    \\resumeSubheading\n      {Zhejiang University (ZJU)}{Hangzhou}\n      {Bachelor in Computer Science; Cumulative GPA: 3.85/4.00, Major GPA: 3.98/4.00}{Oct. 2016 -- July. 2020}\n%    \\resumeSubheading\n%      {Birla Institute of Technology and Science}{Pilani, India}\n%      {Bachelor of Engineering in Electrical and Electronics;  GPA: 3.66 (9.15/10.0)}{Aug. 2008 -- July. 2012}\n  \\resumeSubHeadingListEnd\n\n\n\\section{Awards \\& Achievements}\n  \\vspace{2pt}\n  \\resumeSubHeadingListStart\n    \\small{\\item{\n        \\textbf{Honorable Mention, In The Mathematical Contest in Modeling:}{ Feb. 2017 } \\\\ \\vspace{3pt}\n\n        }}\n\n         \\small{\\item{\n        \\textbf{Zhejiang University Second-class and Third-class Student Scholarship:}{ Awarded to undergraduate students who have ranked in the top 10\\%/15\\% in previous semester} \\\\ \\vspace{3pt}\n\n        }}\n\n    \\small{\\item{\n        \\textbf{Outstanding Engineer Of The Year Award:}{ Awarded by the head of the Hangzhou research Institute, to the outstanding engineer(among 1000+ engineers) for the designing and implementing a high-performance text-editor}\n        \\\\ \\vspace{3pt}\n\n%        \\textbf{TÜBİTAK 2247-C Intern Researcher Scholarship:}{ Awarded to undergraduate students who take part in research projects carried out by the Scientific and Technological Research Council of Turkey (TÜBİTAK).} \\\\ \\vspace{3pt}\n%        \n%        \\textbf{Duolingo English Test (DET):}{ Overall Score: 135/160} \\\\ \\vspace{3pt}\n\n        % \\textbf{Boğaziçi University English Proficiency Test (BUEPT):}{ Achieved the highest grade A on the BUEPT grading scheme with a total score in the range of 85-100.} \\\\ \\vspace{3pt}\n\n%        \\textbf{Kocaeli Science High School Salutatorian Award:}{ Graduated as the second-highest ranked student in my class.}\n    }}\n  \\resumeSubHeadingListEnd\n\n%-----------EXPERIENCE-----------------\n\\section{Work Experience}\n  \\resumeSubHeadingListStart\n\n    \\resumeSubheading\n      {Huawei Tech}{Hangzhou}\n      {Software Engineer}{July. 2020 - Present}\n      \\resumeItemListStart\n        \\resumeItem{Java-to-Scala Transpiler}\n          {A Java-to-Scala transpiler written in Scala, aiming to translate legacy java code into usable Scala code. Pioneered the progress of the project. Based on JavaParser \\&\nScalameta, it out-performs most\nof\nthe j2s transpiler at the time.  }\n        \\resumeItem{Slang}\n          {A System-Verilog parser written in C++, which parses System-Verilog source code into a valid in-memory Syntax Tree, while generating proper diagnostics. It also exploits tricks to increase performance, including CRTP}\n        \\resumeItem{VNext}\n          {A cross-platform, blazing fast and lightweight IDE written in Rust. Built on a Rust GUI framework - Druid, which can be compiled into WASM, it have the same behavior\nunder many platforms. Led and built a pure hand-written Rust Text-Editor. While providing abundant features supported by popular IDEs, including syntax-highlighting, code-folding\n, plugin support, it also runs with high responsiveness and low memory -consumption.}\n           \\resumeItem{Intelligent Programming}\n          {Utilizing the recent advance of AI to provide a better programming experience, with fine-tuned models and proper prompt. Some interesting new features can be achieved, including auto code-generation, code summarize, code translation, etc}\n\n\n      \\resumeItemListEnd\n\n% --------Multiple Positions Heading------------\n%    \\resumeSubSubheading\n%     {Software Engineer I}{Oct 2014 - Sep 2016}\n%     \\resumeItemListStart\n%        \\resumeItem{Apache Beam}\n%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}\n%     \\resumeItemListEnd\n%    \\resumeSubHeadingListEnd\n%-------------------------------------------\n\n%    \\resumeSubheading\n%      {Coursera}{Mountain View, CA}\n%      {Senior Software Engineer}{Jan 2014 - Oct 2016}\n%      \\resumeItemListStart\n%        \\resumeItem{Notifications}\n%          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}\n%        \\resumeItem{Nostos}\n%          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}\n%        \\resumeItem{Workflows}\n%          {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}\n%        \\resumeItem{Data Collection}\n%          {Designed the internal survey and crowd sourcing platform which allowed for creating various tasks for crowd sourcing or embedding surveys across the Coursera platform.}\n%        \\resumeItem{Dev Environment}\n%          {Analytics environment based on docker and AWS, standardized the python and R dependencies. Wrote the core libraries that are shared by all data scientists.}\n%        \\resumeItem{Data Warehousing}\n%          {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}\n%        \\resumeItem{Recommendations}\n%          {Core service for all recommendation systems at Coursera, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}\n%        \\resumeItem{Content Discovery}\n%          {Improved content discovery by building a new onboarding experience on coursera. Using this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}\n%        \\resumeItem{Course Dashboards}\n%          {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}\n%      \\resumeItemListEnd\n%\n%    \\resumeSubheading\n%      {Lucena Research}{Atlanta, GA}\n%      {Data Scientist}{Summer 2012 and 2013}\n%      \\resumeItemListStart\n%        \\resumeItem{Portfolio Management}\n%          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}\n%        \\resumeItem{QuantDesk}\n%          {Python backend for a web application used by hedge fund managers for portfolio management.}\n%      \\resumeItemListEnd\n%\n%    \\resumeSubheading\n%      {Georgia Institute of Technology}{Atlanta, GA}\n%      {Research and Teaching Assistant}{Jan 2012 - Dec 2013}\n%      \\resumeItemListStart\n%        \\resumeItem{Research Assistant - Machine Learning}\n%          {Research on machine learning for portfolio hedging and replication algorithms. Modeling low-risk \\& continuous-return strategies. Developed the python library QSTK.}\n%        \\resumeItem{Teaching Assistant - Computational Investing}\n%          {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}\n%      \\resumeItemListEnd\n\n  \\resumeSubHeadingListEnd\n\n\n%-----------PROJECTS-----------------\n%\\section{Projects}\n%  \\resumeSubHeadingListStart\n%    \\resumeSubItem{QuantSoftware Toolkit}\n%      {Open source python library for financial data analysis and machine learning for finance.}\n%    \\resumeSubItem{Github Visualization}\n%      {Data Visualization of Git Log data using D3 to analyze project trends over time.}\n%    \\resumeSubItem{Recommendation System}\n%      {Music and Movie recommender systems using collaborative filtering on public datasets.}\n%    \\resumeSubItem{Mac Setup}\n%      {Book that gives step by step instructions on setting up developer environment on Mac OS.}\n%  \\resumeSubHeadingListEnd\n\n\n%--------PROGRAMMING SKILLS------------\n\\section{Programming Skills}\n  \\resumeSubHeadingListStart\n    \\item{\n      \\textbf{Languages}{: Rust, C++, Java, Scala}\n      \\hfill\n      \\textbf{Technologies}{: Druid, Flutter, JVM}\n    }\n  \\resumeSubHeadingListEnd\n\n\n\\section{Relevant Coursework}\n  \\vspace{2pt}\n  \\resumeSubHeadingListStart\n    \\small{\\item{\n        \\textbf{Major coursework:}{ Calculus I-II,Computer Network, Computer Network, Matrix Theory, Computational Theory, Digital Integrated Circuit Design, Computer Architecture, Computer Organization and Design, Computational Theory, Computer Network, Operating System, Compiler Theory, Software Engineering, Probability Theory, Database System,Data Structures and Algorithms, Advanced Data Structures and Algorithms,Discrete Computational Structures} \\\\ \\vspace{3pt}\n\n        \\textbf{Minor coursework:}{ Communication skills towards IT, Artificial Intelligence,Software Engineering,  B/S system Software Design, Java Application,E-commerce System Architecture }\n    }}\n  \\resumeSubHeadingListEnd\n\n\\section{Personal Interest}\n  \\vspace{2pt}\n  \\resumeSubHeadingListStart\n    \\small{\\item{\n        \\textbf{Music}{ A music fan, heavy user of Apple Music(at least 1 day per week). Interested in Blues, Rock, Bossa-nova, especially Brit Pop.} \\\\ \\vspace{3pt}\n\n%        \\textbf{Minor coursework:}{ Communication skills towards IT, Artificial Intelligence,Software Engineering,  B/S system Software Design, Java Application,E-commerce System Architecture }\n    }}\n  \\resumeSubHeadingListEnd\n\n%-------------------------------------------\n\\end{document}\n
+===================================================================
+diff --git a/Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.tex b/Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.tex
+--- a/Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.tex	
++++ b/Interview/Profile/Resume/QianChengliang_ZJU_SoftwareEngineer_Resume.tex	
+@@ -1,11 +1,11 @@
++%!TEX program = xelatex
++
+ %-------------------------
+ % Resume in Latex
+ % Author : Sourabh Bajaj
+ % License : MIT
+ %------------------------
+-
+ \documentclass[letterpaper,11pt]{article}
+-
+ \usepackage{latexsym}
+ \usepackage[empty]{fullpage}
+ \usepackage{titlesec}
+@@ -17,8 +17,19 @@
+ \usepackage{fancyhdr}
+ \usepackage[english]{babel}
+ \usepackage{tabularx}
++\usepackage{hyphenat}
++\usepackage{fontawesome}
++\usepackage{ctex}
++%\usepackage{ctex}
++%\usepackage{xeCJK}
++%\usepackage[fontset=mac]{ctex}
++%\usepackage{fontspec} % 字体设置宏包
++%\setCJKmainfont{Heiti SC} % 中文字体
++
++
+ \input{glyphtounicode}
+ 
++
+ \pagestyle{fancy}
+ \fancyhf{} % clear all header and footer fields
+ \fancyfoot{}
+@@ -44,8 +55,9 @@
+ }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+ 
+ % Ensure that generate pdf is machine readable/ATS parsable
+-
+ %-------------------------
++
++
+ % Custom commands
+ \newcommand{\resumeItem}[2]{
+   \item\small{
+@@ -91,41 +103,137 @@
+ \begin{document}
+ 
+ %----------HEADING-----------------
+-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+-  \textbf{{\Large Qian Chengliang}} \& Email : \href{mickjagger19@icloud.com}{mickjagger19@icloud.com}\\
+-  \href \& Mobile : \href{tel:+86 15088363086}{+86 15088363086} \\
+-\end{tabular*}
++%\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
++%  \textbf{{\Large Qian Chengliang}} \& Email : \href{mickjagger19@icloud.com}{mickjagger19@icloud.com}\\
++%  \href \& Mobile : \href{tel:+86 15088363086}{+86 15088363086} \\
++%\end{tabular*}
++
++\begin{center}
++    \textbf{\Huge \scshape Qian ChengLiang 钱诚亮} \\ \vspace{3pt}
++    \small
++    \faMobile \hspace{.5pt} \href{tel:15088363086}{+86 150 8836 3086}
++    $|$
++    \faAt \hspace{.5pt} \href{mailto:mickjagger19@icloud.com}{mickjagger19@icloud.com}
++    $|$
++%    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/arasgungore}{LinkedIn}
++%    $|$
++%    \faGithub \hspace{.5pt} \href{https://github.com/mickjagger19}{GitHub}
++%    $|$
++%    \faGlobe \hspace{.5pt} \href{https://arasgungore.github.io}{Portfolio}
++%    $|$
++    \faGlobe \hspace{.5pt} \href{https://leetcode.com/MickJ}{LeetCode}
++      $|$
++     \faGlobe \hspace{.5pt} \href{https://www.kaggle.com/mickqian1997}{Kaggle}
++%  
++%    $|$
++%    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/Bogazici+University+North+Campus/@41.0863067,29.0441352,15z/data=!4m5!3m4!1s0x0:0x9d2497b07c8edb2f!8m2!3d41.0863067!4d29.0441352}{Istanbul, Turkey}
++\end{center}
++
++        
++%       \hspace{.4pt} 
+ 
++%Detail-oriented, organized and meticulous employee who stays consistently abreast of cutting-edge developments and technology advancements. 
+ 
+-{Detail-oriented, organized and meticulous employee who stays consistently abreast of cutting-edge developments and technology advancements. Works the most effective in the team, to meet tight deadlines, and steps up to solve high-maintenance bugs. Values functionality, stability, and performance of the software, and offers creative \& practical ideas for user-experience or technology problems.}
++%Works the most effective in the team, to meet tight deadlines, and steps up to solve high-maintenance bugs.
++
++
++Interested in: Deep Learning, LLM-Powered Auto-Agent, Music
++
++
++%Values functionality, stability, and performance of the software, and offers creative \& practical ideas for user-experience or technology problems.
+ 
+ %-----------EDUCATION-----------------
+-\section{Education}
++\section{Work Experience}
++    \resumeSubHeadingListStart
++
++    \resumeSubheading
++      {Huawei Tech}{Hangzhou Research Institute}
++      {Graduate Engineer}{July. 2020 - Sep.2021}
++ 
++ 
++ 
++      \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
++        \textit{\small Software Engineer II } &   \textit{\small Sep.2021 - May.2023}  \\
++        \textit{\small Senior Software Engineer} &  \textit{\small May.2023 - Present} 
++        
++    \end{tabular*}\vspace{-5pt}
++      
++%      {Software Engineer II}{July. 2020 - Present} 
++%      
++%      \resumeSubheading
++%      {Software Engineer II}{July. 2020 - Present} 
++%      
++%       \resumeSubheading 
++%      {Senior Software Engineer}{July. 2020 - Present}
++      \resumeItemListStart
++      
++         \resumeItem{LLM-Powered Autonomous Multi-Agent IDE}
++          {Utilizing the recent advance of LLM and single-Agent architecture to provide a better programming experience, with fine-tuned models and \textbf{proper prompt}. The Agent inside IDE can solve some complicated tasks with components of \textbf{Task Planning, Memory and Tool Use}. Furthermore, multi agents with different roles collaborating with each other with proper \textbf{human-feedback}, can deal with much more complex real-world problems. }
++          
++          \resumeItem{Contributor of Auto-GPT}{While doing research on Autonomous-LLM, focusing on recent AI products, having a basic comprehension of their use-cases and architecture.}
++          
++          
++        \resumeItem{Java-to-Scala Transpiler}
++          {A Java-to-Scala transpiler written in Scala, aiming to translate legacy java code into usable Scala code. Pioneered the progress of the project. Based on JavaParser \&
++Scalameta, it out-performs most
++of
++the j2s transpiler at the time.}
++        \resumeItem{Slang}
++          {A System-Verilog parser written in C++, which parses System-Verilog source code into a valid in-memory Syntax Tree, while generating proper diagnostics. It also exploits tricks to increase performance, including CRTP}
++        \resumeItem{VNext}
++          {A cross-platform, blazing fast and lightweight IDE written in Rust. Built on a Rust GUI framework - Druid, which can be compiled into WASM, it have the same behavior
++under many platforms. Led and built a pure hand-written Rust Text-Editor. While providing abundant features supported by popular IDEs, including syntax-highlighting, code-folding
++, plugin support, it also runs with high responsiveness and low memory -consumption.}
++        
++
++      \resumeItemListEnd
++      
++    \resumeSubHeadingListEnd
++    
++ \section{Education}
+   \resumeSubHeadingListStart
+     \resumeSubheading
+       {Zhejiang University (ZJU)}{Hangzhou}
+-      {Bachelor in Computer Science; Cumulative GPA: 3.85/4.00, Major GPA: 3.98/4.00}{Oct. 2016 -- July. 2020}
+-%    \resumeSubheading
+-%      {Birla Institute of Technology and Science}{Pilani, India}
+-%      {Bachelor of Engineering in Electrical and Electronics;  GPA: 3.66 (9.15/10.0)}{Aug. 2008 -- July. 2012}
++      {Bachelor in Computer Science; Cumulative GPA: 3.85/4.00, Major GPA: 3.98/4.00}{Sep. 2016 -- July. 2020}
++  \resumeSubHeadingListEnd
++
++ \section{Programming Skills}
++  \resumeSubHeadingListStart
++    \item{
++      \textbf{Languages}{: Rust, C++, Java, Scala, Python}
++%      \hfill
++    }
++  
++     \item{
++      \textbf{Technologies}{: Auto-GPT, LangChain, Gradio, Flutter, JVM, Text Editor implemented from scratch, Druid(GUI Framework in Rust), Vector Database}
++     }
+   \resumeSubHeadingListEnd
+ 
+ 
++      
++
++
+ \section{Awards \& Achievements}
+   \vspace{2pt}
+   \resumeSubHeadingListStart
++   \small{\item{
++        \textbf{Honorable Mention, Huawei Hackathon, 2021}{ Subject: Memory reuse-relation of Tensor} \\ \vspace{3pt}
++
++        }}
++        
++        
+     \small{\item{
+-        \textbf{Honorable Mention, In The Mathematical Contest in Modeling:}{ Feb. 2017 } \\ \vspace{3pt}
++        \textbf{Honorable Mention, In The Mathematical Contest in Modeling, 2017}{} \\ \vspace{3pt}
+ 
+         }}
+ 
+          \small{\item{
+-        \textbf{Zhejiang University Second-class and Third-class Student Scholarship:}{ Awarded to undergraduate students who have ranked in the top 10\%/15\% in previous semester} \\ \vspace{3pt}
++        \textbf{Zhejiang University Second-class and Third-class Student Scholarship, 2017 \& 2018:}{ Awarded to undergraduate students who have ranked in the top 10\%/15\% in previous semester} \\ \vspace{3pt}
+ 
+         }}
+ 
+     \small{\item{
+-        \textbf{Outstanding Engineer Of The Year Award:}{ Awarded by the head of the Hangzhou research Institute, to the outstanding engineer(among 1000+ engineers) for the designing and implementing a high-performance text-editor}
++        \textbf{Outstanding Engineer Of The Year Award, 2022:}{ Awarded by the head of the Hangzhou research Institute, to the outstanding engineer(among 1000+ engineers) for the designing and implementing a high-performance text-editor}
+         \\ \vspace{3pt}
+ 
+ %        \textbf{TÜBİTAK 2247-C Intern Researcher Scholarship:}{ Awarded to undergraduate students who take part in research projects carried out by the Scientific and Technological Research Council of Turkey (TÜBİTAK).} \\ \vspace{3pt}
+@@ -139,29 +247,7 @@
+   \resumeSubHeadingListEnd
+ 
+ %-----------EXPERIENCE-----------------
+-\section{Work Experience}
+-  \resumeSubHeadingListStart
+-
+-    \resumeSubheading
+-      {Huawei Tech}{Hangzhou}
+-      {Software Engineer}{July. 2020 - Present}
+-      \resumeItemListStart
+-        \resumeItem{Java-to-Scala Transpiler}
+-          {A Java-to-Scala transpiler written in Scala, aiming to translate legacy java code into usable Scala code. Pioneered the progress of the project. Based on JavaParser \&
+-Scalameta, it out-performs most
+-of
+-the j2s transpiler at the time.  }
+-        \resumeItem{Slang}
+-          {A System-Verilog parser written in C++, which parses System-Verilog source code into a valid in-memory Syntax Tree, while generating proper diagnostics. It also exploits tricks to increase performance, including CRTP}
+-        \resumeItem{VNext}
+-          {A cross-platform, blazing fast and lightweight IDE written in Rust. Built on a Rust GUI framework - Druid, which can be compiled into WASM, it have the same behavior
+-under many platforms. Led and built a pure hand-written Rust Text-Editor. While providing abundant features supported by popular IDEs, including syntax-highlighting, code-folding
+-, plugin support, it also runs with high responsiveness and low memory -consumption.}
+-           \resumeItem{Intelligent Programming}
+-          {Utilizing the recent advance of AI to provide a better programming experience, with fine-tuned models and proper prompt. Some interesting new features can be achieved, including auto code-generation, code summarize, code translation, etc}
+ 
+-
+-      \resumeItemListEnd
+ 
+ % --------Multiple Positions Heading------------
+ %    \resumeSubSubheading
+@@ -217,7 +303,7 @@
+ %          {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}
+ %      \resumeItemListEnd
+ 
+-  \resumeSubHeadingListEnd
++%  \resumeSubHeadingListEnd
+ 
+ 
+ %-----------PROJECTS-----------------
+@@ -235,34 +321,51 @@
+ 
+ 
+ %--------PROGRAMMING SKILLS------------
+-\section{Programming Skills}
+-  \resumeSubHeadingListStart
+-    \item{
+-      \textbf{Languages}{: Rust, C++, Java, Scala}
+-      \hfill
+-      \textbf{Technologies}{: Druid, Flutter, JVM}
+-    }
+-  \resumeSubHeadingListEnd
+-
+ 
+ \section{Relevant Coursework}
+   \vspace{2pt}
+   \resumeSubHeadingListStart
+-    \small{\item{
+-        \textbf{Major coursework:}{ Calculus I-II,Computer Network, Computer Network, Matrix Theory, Computational Theory, Digital Integrated Circuit Design, Computer Architecture, Computer Organization and Design, Computational Theory, Computer Network, Operating System, Compiler Theory, Software Engineering, Probability Theory, Database System,Data Structures and Algorithms, Advanced Data Structures and Algorithms,Discrete Computational Structures} \\ \vspace{3pt}
+-
+-        \textbf{Minor coursework:}{ Communication skills towards IT, Artificial Intelligence,Software Engineering,  B/S system Software Design, Java Application,E-commerce System Architecture }
+-    }}
++    \small{
++    \item{
++        \textbf{Major coursework:}{ Calculus I-II, Computer Network, Computer Network, Matrix Theory, Computational Theory, Digital Integrated Circuit Design, Computer Architecture, Computer Organization and Design, Computer Network, Operating System, Compiler Theory, Software Engineering, Probability Theory, Database System, Basic and Advanced Data Structures and Algorithms, Discrete Computational Structures}. \\ \vspace{3pt}
++    }
++	\item{
++        \textbf{Minor coursework:}{Communication skills towards IT, Artificial Intelligence,  B/S system Software Design, Java Application, E-commerce System Architecture}. \\ \vspace{3pt}
++    }
++    
++ 
++     \item{
++        \textbf{DeepLearning.AI \& Coursera:}{ Machine Learning Specialization, ChatGPT Prompt Engineering for Developers, Building Systems with the ChatGPT API, LangChain for LLM Application Development, How Diffusion Models Work}. \\ \vspace{3pt}
++    }
++    
++    
++    }
++    
++    
+   \resumeSubHeadingListEnd
+ 
+ \section{Personal Interest}
+   \vspace{2pt}
+   \resumeSubHeadingListStart
+     \small{\item{
+-        \textbf{Music}{ A music fan, heavy user of Apple Music(at least 1 day per week). Interested in Blues, Rock, Bossa-nova, especially Brit Pop.} \\ \vspace{3pt}
++        \textbf{Music:}{ A music fan, heavy user of Apple Music(at least 24 hours  per week). Interested in Blues, Rock, Bossa-nova stuff, especially Britpop.} \\ \vspace{3pt}
++    }}
++    
+ 
+-%        \textbf{Minor coursework:}{ Communication skills towards IT, Artificial Intelligence,Software Engineering,  B/S system Software Design, Java Application,E-commerce System Architecture }
++    
++       \small{\item{ 
++    \textbf{LeetCode:}{ LeetCode Contest Knight Badge, 3100+} \\ \vspace{3pt} 
+     }}
++    
++      \small{\item{ 
++    \textbf{Kaggle:}{ 6-th in playground-s3-e18, 14-th in playground-s3-e19} \\ \vspace{3pt} 
++    }
++    
++    
++    
++    
++    } 
++    
+   \resumeSubHeadingListEnd
+ 
+ %-------------------------------------------

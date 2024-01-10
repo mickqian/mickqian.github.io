@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Petaluma';
+    src: url('/fonts/Petaluma.woff') format('woff'),
+    url('/fonts/Petaluma.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Petaluma Script';
+    src: url('/fonts/PetalumaScript.woff') format('woff'),
+    url('/fonts/PetalumaScript.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Petaluma Text';
+    src: url('/fonts/PetalumaText.woff') format('woff'),
+    url('/fonts/PetalumaText.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseJazz';
+    src: url('/fonts/MuseJazz.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+iframe {
+    display: block; /* 将iframe转换为块级元素 */
+    margin-left: auto; /* 左边距自动 */
+    margin-right: auto; /* 右边距自动 */
+}

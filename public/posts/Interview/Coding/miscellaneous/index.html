@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Blog of Mick</title>
+<meta name="keywords" content="">
+<meta name="description" content="Goal: Key point: Classic
+Find patterns of the solutions of the problem There are two patterns which meets the requirements: (1). two circled person, and two arms. (2). an entire circle Maximum Employees to Be Invited to a Meeting Find the required pattern for the result Transform to Chessborad N = x &#43; (x &#43; 1)&hellip;(x &#43; n) = n * x &#43; (n - 1) * n / 2 Counting odd factors Consecutive Numbers Sum Special Operation: Each time pushing a new element, try merging with the last one in the stack.">
+<meta name="author" content="Mick">
+<link rel="canonical" href="https://mickjagger19.github.io/posts/interview/coding/miscellaneous/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2d50b1531bd1b3146d65c5543bd298f7f982786aadee4c223cb3a1cb51906106.css" integrity="sha256-LVCxUxvRsxRtZcVUO9KY9/mCeGqt7kwiPLOhy1GQYQY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://mickjagger19.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://mickjagger19.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://mickjagger19.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://mickjagger19.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://mickjagger19.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://mickjagger19.github.io/posts/interview/coding/miscellaneous/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="" />
+<meta property="og:description" content="Goal: Key point: Classic
+Find patterns of the solutions of the problem There are two patterns which meets the requirements: (1). two circled person, and two arms. (2). an entire circle Maximum Employees to Be Invited to a Meeting Find the required pattern for the result Transform to Chessborad N = x &#43; (x &#43; 1)&hellip;(x &#43; n) = n * x &#43; (n - 1) * n / 2 Counting odd factors Consecutive Numbers Sum Special Operation: Each time pushing a new element, try merging with the last one in the stack." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mickjagger19.github.io/posts/interview/coding/miscellaneous/" /><meta property="article:section" content="posts" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="Goal: Key point: Classic
+Find patterns of the solutions of the problem There are two patterns which meets the requirements: (1). two circled person, and two arms. (2). an entire circle Maximum Employees to Be Invited to a Meeting Find the required pattern for the result Transform to Chessborad N = x &#43; (x &#43; 1)&hellip;(x &#43; n) = n * x &#43; (n - 1) * n / 2 Counting odd factors Consecutive Numbers Sum Special Operation: Each time pushing a new element, try merging with the last one in the stack."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://mickjagger19.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "",
+      "item": "https://mickjagger19.github.io/posts/interview/coding/miscellaneous/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "",
+  "name": "",
+  "description": "Goal: Key point: Classic\nFind patterns of the solutions of the problem There are two patterns which meets the requirements: (1). two circled person, and two arms. (2). an entire circle Maximum Employees to Be Invited to a Meeting Find the required pattern for the result Transform to Chessborad N = x + (x + 1)\u0026hellip;(x + n) = n * x + (n - 1) * n / 2 Counting odd factors Consecutive Numbers Sum Special Operation: Each time pushing a new element, try merging with the last one in the stack.",
+  "keywords": [
+    
+  ],
+  "articleBody": " Goal: Key point: Classic\nFind patterns of the solutions of the problem There are two patterns which meets the requirements: (1). two circled person, and two arms. (2). an entire circle Maximum Employees to Be Invited to a Meeting Find the required pattern for the result Transform to Chessborad N = x + (x + 1)…(x + n) = n * x + (n - 1) * n / 2 Counting odd factors Consecutive Numbers Sum Special Operation: Each time pushing a new element, try merging with the last one in the stack. Two way merge Replace Non-Coprime Numbers in Array Find number of intervals covering a value Meeting Rooms Template: Given some intervals and an array of value, returns the number of intervals covering that value Record the starting and endings of intervals with an array(arr[s]++, arr[e]–). Iterate over value, adding the value of arr, counter of that will be number of intervals covering that value. [Number of Flowers in Full Bloom] Hard\nFinding the K-th biggest sum from an array Starts with maximum value, get the next-smaller values by (1). removing/adding the smallest positive/biggest negative value (2). removing previous selection, move to next s/b value sort(begin(nums), end(nums), [](int a, int b){ return abs(a) \u003c abs(b); }); priority_queue",
+  "wordCount" : "1232",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Mick"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://mickjagger19.github.io/posts/interview/coding/miscellaneous/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Blog of Mick",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://mickjagger19.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://mickjagger19.github.io/" accesskey="h" title="Blog of Mick (Alt + H)">Blog of Mick</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://mickjagger19.github.io/fr/" title="French"
+                            aria-label=":fr:">🇫🇷</a>
+                    </li>
+                    <li>
+                        <a href="https://mickjagger19.github.io/fa/" title="Fa"
+                            aria-label="Fa">Fa</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://mickjagger19.github.io/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://mickjagger19.github.io/search/" title="Search">
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://mickjagger19.github.io/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/adityatelange/hugo-PaperMod/wiki/" title="WiKi">
+                    <span>WiKi</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://mickjagger19.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://mickjagger19.github.io/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      
+    </h1>
+    <div class="post-meta">6 min&nbsp;·&nbsp;Mick&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/posts/Interview/Coding/Miscellaneous.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#strategy" aria-label="Strategy">Strategy</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><ul>
+<li>
+<ul>
+<li>Goal:</li>
+<li>Key point:</li>
+<li></li>
+</ul>
+</li>
+<li>
+<p><strong>Classic</strong></p>
+<ul>
+<li>Find patterns of the solutions of the problem</li>
+<li>There are two patterns which meets the requirements: (1). two circled person, and two arms. (2). an entire circle</li>
+<li><a href="https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/solutions/1660944/c-dfs-with-illustration/?orderBy=most_votes">Maximum Employees to Be Invited to a Meeting</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Find the required pattern for the result</li>
+<li><a href="https://leetcode.com/problems/transform-to-chessboard/solutions/114847/c-java-python-solution-with-explanation/">Transform to Chessborad</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>N = x + (x + 1)&hellip;(x + n) = n * x + (n - 1) * n / 2</li>
+<li>Counting odd factors</li>
+<li><a href="https://leetcode.com/problems/consecutive-numbers-sum/solutions/128947/java-c-python-fastest-count-odd-factors-o-logn/?orderBy=most_votes">Consecutive Numbers Sum</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Special Operation: Each time pushing a new element,  try merging with the last one in the stack. Two way merge</li>
+<li><a href="https://leetcode.com/problems/replace-non-coprime-numbers-in-array/">Replace Non-Coprime Numbers in Array</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Find number of intervals covering a value</li>
+<li>Meeting Rooms Template: Given some intervals and an array of value, returns the number of intervals covering that value</li>
+<li>Record the starting and endings of intervals with an array(arr[s]++, arr[e]&ndash;). Iterate over value, adding the value of arr, counter of that will be <strong>number of intervals covering that value</strong>.</li>
+<li>[Number of Flowers in Full Bloom]</li>
+</ul>
+</li>
+<li>
+<p>Hard</p>
+<ul>
+<li>Finding the K-th biggest sum from an array</li>
+<li>Starts with maximum value, get the next-smaller values by (1). removing/adding the smallest positive/biggest negative value (2). removing previous selection, move to next s/b value</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">sort</span><span class="p">(</span><span class="n">begin</span><span class="p">(</span><span class="n">nums</span><span class="p">),</span> <span class="n">end</span><span class="p">(</span><span class="n">nums</span><span class="p">),</span> <span class="p">[](</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">){</span> <span class="k">return</span> <span class="nf">abs</span><span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">abs</span><span class="p">(</span><span class="n">b</span><span class="p">);</span> <span class="p">});</span>
+</span></span></code></pre></div></li>
+</ul>
+<p>    priority_queue&lt;pair&lt;long long, int&raquo; pq;
+    // 01111
+    // 00111 -&gt; 00011 + 00101
+    // 10111
+    pq.push({total_sum - abs(nums[0]), 0});
+    while(&ndash;k) {
+        // each sum will be 01xxxx, generate 00xxxx and 10xxxx
+        auto [sum, i] = pq.top(); pq.pop();
+        if (i + 1 &lt; nums.size()) {
+            // for xxxxxx0111: 1 for choosing, 0 for abandoning
+            // abandoning next, move i forward
+            // xxxxxx0011
+            pq.push({sum - abs(nums[i + 1]), i + 1});
+            // abandoning next, applying first, move i forward
+            // xxxxxx1011
+            pq.push({sum + abs(nums[i]) - abs(nums[i + 1]), i + 1});
+        }
+        res = sum;
+    }
+```
+* <a href="https://leetcode.com/problems/find-the-k-sum-of-an-array/solutions/2457384/priority-queue-c/?orderBy=most_votes">Find the K-Sum of an Array</a></p>
+<ul>
+<li>
+<p>Hard</p>
+<ul>
+<li>Find number of subsequences with max and min fixed</li>
+<li>Three-pointer sliding window, number in window is within range, updating final count by considering the valid range ending with i while iterating, which is $min(prevMin, prevMax) - prevBad$</li>
+<li><a href="https://leetcode.com/problems/count-subarrays-with-fixed-bounds/solutions/2708099/java-c-python-sliding-window-with-explanation/?orderBy=most_votes">Count Subarrays with fixed Bounds</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Judge if there&rsquo;s element appearing odd times</li>
+<li>xor</li>
+<li>Seems like other kinds of appearing pattern can&rsquo;t be decided in O(N) easily</li>
+<li>dp[the number appearing odd time] = the first index of number to meet that</li>
+<li><a href="https://leetcode.com/problems/find-longest-awesome-substring/">Find Longest Awesome Substring</a></li>
+</ul>
+</li>
+<li>
+<p>Hard, Classic</p>
+<ul>
+<li>Ways to fill rectange with square</li>
+<li>Again, finding patterns help. The special case can be formed by 4 normal rectangular, and 1 rectangular in the middle</li>
+<li><a href="https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/solutions/414260/8ms-memorized-backtrack-solution-without-special-case/?orderBy=most_votes">Tiling a Rectangle with the Fewest Squares</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Find Number of different GCDs</li>
+<li>A number N can be a GCD, if and only if the gcd of all numbers divisible by N, is N itself. If g(N) = N already, it will holds later</li>
+<li><a href="https://leetcode.com/problems/number-of-different-subsequences-gcds/description/">Number of Different Subsequences GCDs</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Reverse pairs</li>
+<li></li>
+<li></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>If exists path with max edge length</li>
+<li>If exists, the paths consists of shorter edge &lt;-&gt; exist shorter edge make the path &lt;-&gt; exist shorter edge connects the point &lt;-&gt; All shorter edge connects the point</li>
+<li><a href="https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/description/">Checking Existence of Edge Length Limited Paths</a></li>
+</ul>
+</li>
+<li>
+<p>Classic</p>
+<ul>
+<li>Two-approach</li>
+<li>Maintain two data structure, to make the update/query more efficient</li>
+<li><a href="https://leetcode.com/problems/design-a-text-editor/description/">Design a Text Editor</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Calculate 2d prefix, to judge if a rectangular contains something</li>
+<li>The last 2d prefix sum is tricky, since to make a cell stamped, that cell is not the only place to place the top-left of the stamp.The top-left can be placed anywhere within (x - w, y - h) ~ (x,y)</li>
+<li><a href="https://leetcode.com/problems/stamping-the-grid/description/">Stamping The Grid</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Finding min(A[i], A[j]) * ( j - i ) - sum(A[i:j])</li>
+<li>sum(h[front] - h[past]), when h[i] &gt; h[front],  a new boundary starts, since the prev boundary(h[front]) is lower</li>
+<li><a href="https://leetcode.com/problems/trapping-rain-water/">Trapping Rain Water</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>DFS in disguise, actually top-sort</li>
+<li>each color A can not exist in B, while surrounding B at the same time. Use DFS to visit A, mark A as invalid after searching, if exists B, while visiting B, A will be in B&rsquo;s covering with invalid mark</li>
+<li>Essential part: A surrounds B =&gt; A &gt; B, B surrounds A =&gt; B &gt; A, mark A = B + 1 when A surrounds B, then when visiting B, later-found A shoud have smaller value, which conflicts with A = B + 1</li>
+<li><a href="https://leetcode.com/problems/strange-printer-ii/submissions/920702448/">Strange Printer 2</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="strategy">Strategy<a hidden class="anchor" aria-hidden="true" href="#strategy">#</a></h2>
+<ul>
+<li>
+<ul>
+<li>Goal:</li>
+<li>Strategy:</li>
+<li></li>
+</ul>
+</li>
+<li>
+<p>Hard</p>
+<ul>
+<li>Find the least starting value</li>
+<li>The <strong>time</strong> we have the least money is, aftering finishing the last lossing-money cost, but not gaining the cashback yet (1). make sure we get through before, needs prev_loss + this_cost (2). make sure get the money to start next transaction</li>
+<li><a href="https://leetcode.com/problems/minimum-money-required-before-transactions/solutions/2588034/java-c-python-easy-and-coincise/?orderBy=most_votes">Minimum Money Required Before Transactions</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>find path</li>
+<li>1XXXXXXX -&gt; &hellip; -&gt; 11000000 -&gt; 1000000 -&gt; &hellip; -&gt; 0</li>
+<li><a href="https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/solutions/877741/c-solution-with-explanation/?orderBy=most_votes">Minimum One Bit Operations to Make Integers Zero</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Maximum value(Or Sum) of intervals</li>
+<li>(1). Priority Queue on value, line sweep, put start and end separatedly.</li>
+<li>(2). Segment Tree</li>
+<li><a href="https://leetcode.com/problems/the-skyline-problem/solutions/61273/c-69ms-19-lines-o-nlogn-clean-solution-with-comments/">Skyline</a><a href=""></a></li>
+<li><a href="https://leetcode.com/problems/rectangle-area-ii/solutions/137941/java-treemap-solution-inspired-by-skyline-and-meeting-room/?orderBy=most_votes">Rectangle Area II</a> Sort on interval pair {x1,  +y1}  ~ {x2, -y2}, with map&lt;height, count&gt;, for each interval, scan through the map to get the valid y_range with x_covered. The essential part is to, set {y, 1} when y becomes valid, and {y, - 1} when invalid, adding that counter when pass through, check the sign of the counter</li>
+<li><a href="https://leetcode.com/problems/falling-squares/solutions/108764/easy-and-concise-python-solution-97/?orderBy=most_votes">Falling Squares</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Maximum times of multiple subtraction</li>
+<li>Very intuitive: a battery can no be taken more than answer hours</li>
+<li><a href="https://leetcode.com/problems/maximum-running-time-of-n-computers/solutions/1693347/heap-vs-binary-search/?orderBy=most_votes">Maximum Running Time of N Computers</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Normalize, means indexing different numbers with unique id</li>
+<li>You can move a char to anywhere, if you can swap adjacent chars in a string</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Minimum number to pick up, with sum &gt;= k</li>
+<li>Greedy, calculate max sum with i numbers picking up, always picking up the maximum number within reach</li>
+<li><a href="https://leetcode.com/problems/minimum-number-of-refueling-stops/submissions/917314858/">Minimum Number of Refueling Stops</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Minimum prefix[A[i]] +  B[i]</li>
+<li>Fixing the first i index, the answer is k(prefix[i] is also fixed) + B[i], so the minimum B should be selected last</li>
+<li>I almost think of this solution, but skipped that thought after taking the un-certainty of the prefix  into consider. However, if we only focused at last position, the prefix is always fix</li>
+<li>Maybe only focus on one part, the remaining parts will be handled</li>
+<li><a href="https://leetcode.com/problems/earliest-possible-day-of-full-bloom/description/">Earliest Possible Day of Full Bloom</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Shortest interval convering query points</li>
+<li>Regular solution: sort query and intervals, while iterating queries, update all available(covering) intervals( by pushing intervals which start &lt;= q, and popping those end &lt;= q), retrive the smallest. Like a sliding window</li>
+<li>Intuitive solution: check each interval from short to long, check if it covers some queries</li>
+<li><a href="https://leetcode.com/problems/minimum-interval-to-include-each-query/solutions/?orderBy=most_votes">Minimum Interval to Include Each Query</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Sequence ending with number</li>
+<li>dp[ending character] = sum(all dp) + new sequence with single new character</li>
+<li><a href="https://leetcode.com/problems/number-of-unique-good-subsequences/">Number of Unique Good Subsequences</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>
+<p>Convex Function</p>
+</li>
+<li>
+<p>Binary Search for the bottom</p>
+</li>
+<li>
+<p><a href="https://leetcode.com/problems/minimum-cost-to-make-array-equal/solutions/2734091/dp-vs-w-median-vs-binary-search/?orderBy=most_votes">Minimum Cost to Make Array Equal</a></p>
+</li>
+<li>
+<p>Count digits</p>
+</li>
+<li>
+<p>Set&lt;prefix integers&gt;, use permutaftion to calculate possibilities with prefix given</p>
+</li>
+<li>
+<p><a href="https://leetcode.com/problems/count-special-integers/solutions/2425271/java-python-math/?orderBy=most_votes">Count Special Integers</a></p>
+</li>
+<li>
+<p>Max Two routes sum</p>
+</li>
+<li>
+<p>dp[pos] for one person</p>
+</li>
+<li>
+<p>dp[pos][pos] for two persons</p>
+</li>
+<li>
+<p><a href="https://leetcode.com/problems/cherry-pickup/solutions/1912865/c-detailed-explanation-clear-intuitions-memoization-dp-good-question/?orderBy=most_votes">Cherry Pickup</a></p>
+</li>
+<li>
+<p>Count f[i:j] can be simplified as count f[0:j] - f[0:i]</p>
+</li>
+<li>
+<p>Count range can be simplified as substraction from prefixes</p>
+</li>
+<li>
+<p>Prefix Sum</p>
+</li>
+<li>
+<p><a href="https://leetcode.com/problems/count-pairs-with-xor-in-a-range/">Count Pairs With XOR in a Range</a></p>
+</li>
+<li>
+<p>[i workers][taken jobs] = [i - workers][submask of taken jobs] + [sum of remaining jobs]</p>
+</li>
+<li>
+<p>[first i person][taken jobs], with cost[mask] prepared as cost of given jobs, <strong>and assign each person a submask of jobs</strong></p>
+</li>
+<li>
+<p>I use [All person&rsquo;s time in vector ][taken jobs], which is expensive to implement a memo, and got TLE</p>
+</li>
+<li>
+<p><a href="https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/solutions/1010451/python-2-solutions-o-2-n-n-log-m-and-o-3-n-k-explained/?orderBy=most_votes">Find Minimum Time to Finish All Jobs</a></p>
+</li>
+</ul>
+</li>
+</ul>
+<p>![[Pasted image 20230325113448.png]]</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://mickjagger19.github.io/posts/interview/coding/mathematical/">
+    <span class="title">« Prev</span>
+    <br>
+    <span></span>
+  </a>
+  <a class="next" href="https://mickjagger19.github.io/posts/interview/coding/search/">
+    <span class="title">Next »</span>
+    <br>
+    <span></span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share  on x"
+            href="https://x.com/intent/tweet/?text=&amp;url=https%3a%2f%2fmickjagger19.github.io%2fposts%2finterview%2fcoding%2fmiscellaneous%2f&amp;hashtags=">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share  on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmickjagger19.github.io%2fposts%2finterview%2fcoding%2fmiscellaneous%2f&amp;title=&amp;summary=&amp;source=https%3a%2f%2fmickjagger19.github.io%2fposts%2finterview%2fcoding%2fmiscellaneous%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share  on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fmickjagger19.github.io%2fposts%2finterview%2fcoding%2fmiscellaneous%2f&title=">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share  on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fmickjagger19.github.io%2fposts%2finterview%2fcoding%2fmiscellaneous%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share  on whatsapp"
+            href="https://api.whatsapp.com/send?text=%20-%20https%3a%2f%2fmickjagger19.github.io%2fposts%2finterview%2fcoding%2fmiscellaneous%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share  on telegram"
+            href="https://telegram.me/share/url?text=&amp;url=https%3a%2f%2fmickjagger19.github.io%2fposts%2finterview%2fcoding%2fmiscellaneous%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share  on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=&u=https%3a%2f%2fmickjagger19.github.io%2fposts%2finterview%2fcoding%2fmiscellaneous%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="https://mickjagger19.github.io/">Blog of Mick</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

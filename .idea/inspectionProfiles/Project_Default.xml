@@ -1,14 +1,18 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="HttpUrlsUsage" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JupyterPackageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="PyClassHasNoInitInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="PyDefaultArgumentInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyIncorrectDocstringInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMethodMayBeStaticInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="29">
+          <list size="52">
             <item index="0" class="java.lang.String" itemvalue="torch" />
             <item index="1" class="java.lang.String" itemvalue="pandas" />
             <item index="2" class="java.lang.String" itemvalue="tqdm" />
@@ -38,6 +42,29 @@
             <item index="26" class="java.lang.String" itemvalue="sweetviz" />
             <item index="27" class="java.lang.String" itemvalue="attrs" />
             <item index="28" class="java.lang.String" itemvalue="Pillow" />
+            <item index="29" class="java.lang.String" itemvalue="scipy" />
+            <item index="30" class="java.lang.String" itemvalue="six" />
+            <item index="31" class="java.lang.String" itemvalue="haversine" />
+            <item index="32" class="java.lang.String" itemvalue="tornado" />
+            <item index="33" class="java.lang.String" itemvalue="joblib" />
+            <item index="34" class="java.lang.String" itemvalue="missingno" />
+            <item index="35" class="java.lang.String" itemvalue="pandas-profiling" />
+            <item index="36" class="java.lang.String" itemvalue="pygam" />
+            <item index="37" class="java.lang.String" itemvalue="plotly" />
+            <item index="38" class="java.lang.String" itemvalue="Jinja2" />
+            <item index="39" class="java.lang.String" itemvalue="catboost" />
+            <item index="40" class="java.lang.String" itemvalue="kaggle" />
+            <item index="41" class="java.lang.String" itemvalue="seaborn" />
+            <item index="42" class="java.lang.String" itemvalue="jupyter" />
+            <item index="43" class="java.lang.String" itemvalue="holidays" />
+            <item index="44" class="java.lang.String" itemvalue="colorama" />
+            <item index="45" class="java.lang.String" itemvalue="future" />
+            <item index="46" class="java.lang.String" itemvalue="statsmodels" />
+            <item index="47" class="java.lang.String" itemvalue="lightgbm" />
+            <item index="48" class="java.lang.String" itemvalue="xgboost" />
+            <item index="49" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="50" class="java.lang.String" itemvalue="Cython" />
+            <item index="51" class="java.lang.String" itemvalue="optuna" />
           </list>
         </value>
       </option>
@@ -46,6 +73,7 @@
       <option name="ignoredErrors">
         <list>
           <option value="E266" />
+          <option value="E741" />
         </list>
       </option>
     </inspection_tool>

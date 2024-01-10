@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interviews on Blog of Mick</title>
+    <link>https://mickjagger19.github.io/interview/</link>
+    <description>Recent content in Interviews on Blog of Mick</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://mickjagger19.github.io/interview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/coding/algorithms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/coding/algorithms/</guid>
+      <description>Sweep Line Meet In the Middle To find the shortest dist to target num, we have possibilities from 2 parts. Fix choice on each possibility on the first one, Binary Search (T - P(A)) in P(B)
+Find minimum diffs Calculate the sum, get the target, iterator num_cnt on one part of the half Partition Array Into Two Arrays to Minimize Sum Difference Kadane&amp;rsquo;s Algorithm Maximum Subarray, find the subarray with the largest sum, and return its sum Just like sliding window, but in this case, the sum of the subarray is calculated.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/coding/bit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/coding/bit/</guid>
+      <description>Bit Mask CLRS book
+// to check if there&amp;#39;s adjacent 1&amp;#39;s mask&amp;amp;(mask&amp;gt;&amp;gt;1) A ^ B = C A ^ B ^ B = C ^ B A = C ^ B
+i-th bit of mask records the even/odd of appearance of a particular digit, dp[mask] is the first occurance index of that mask I thought of using bit as the xor result of all numbers, but that can only show the xors of even digits, which is helpless to find an awesome string.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/coding/contest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/coding/contest/</guid>
+      <description>把题干读完 一下子想不出来的尝试用 Binary Search(能够快速判定一个数字能否满足条件的情况) medium/参数范围很小的题目，优先用暴力 即使时间复杂度相同，bottom-up 仍然比 top-down 快不少 思考逆向 W 339 Minimum Reverse Operations: TLE BFS Floodfill lesson: 观察pattern，只能翻转与自己的index奇偶性一致的数字
+W 340 W 369 / 2 for more than 14 times will reduce to 1, so min(k, 14)
+top-down 和 bottom-up 的复杂程度不一样，所以换一种思路</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/coding/data-structures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/coding/data-structures/</guid>
+      <description>相对顺序 + 值顺序： Monotonic Queue
+Fenwick tree struct Fenwick { vector&amp;lt;int&amp;gt; arr; int N; Fenwick(int n) { N = n + 1; arr = vector&amp;lt;int&amp;gt;(N, 0); } void add(int i, int diff){ i += 1; while (i &amp;lt; N) { arr[i] += diff; i += i &amp;amp; (-i); } } // query the prefix ( i excluded ) int query(int i) { int sum = 0; while (i &amp;gt; 0) { sum += arr[i]; i = i &amp;amp; (i - 1); } return sum; } }; Segment Tree class SegmentTree { public: int n; vector&amp;lt;int&amp;gt; tree; SegmentTree(int n_) : n(n_) { int size = (int)(ceil(log2(n))); size = (2 * pow(2, size)) - 1; tree = vector&amp;lt;int&amp;gt;(size); } int max_value() { return tree[0]; } int query(int l, int r) { return query_util(0, l, r, 0, n - 1); } int query_util(int i, int qL, int qR, int l, int r) { if (l &amp;gt;= qL &amp;amp;&amp;amp; r &amp;lt;= qR) return tree[i]; if (l &amp;gt; qR || r &amp;lt; qL) return INT_MIN; int m = (l + r) / 2; return max(query_util(2 * i + 1, qL, qR, l, m), query_util(2 * i + 2, qL, qR, m + 1, r)); } void update(int i, int val) { update_util(0, 0, n - 1, i, val); } void update_util(int i, int l, int r, int pos, int val) { if (pos &amp;lt; l || pos &amp;gt; r) return; if (l == r) { tree[i] = max(val, tree[i]); return; } int m = (l + r) / 2; update_util(2 * i + 1, l, m, pos, val); update_util(2 * i + 2, m + 1, r, pos, val); tree[i] = max(tree[2 * i + 1], tree[2 * i + 2]); } }; Lazy Segment Tree int tree[400000] = {}, lazy[400000] = {}; int build(vector&amp;lt;int&amp;gt; &amp;amp;arr, int n, int a, int b){ if(a == b) return tree[n] = arr[a]; return tree[n] = build(arr, 2 * n, a, (a + b) / 2) + build(arr, 2 * n + 1, (a + b) / 2 + 1, b); } // n : update cnt // a, b: subtree range // i, j : range to update int update_tree(int n, int a, int b, int i, int j){ if(b &amp;lt; i || a &amp;gt; j) // outside return lazy[n] ?</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/coding/dp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/coding/dp/</guid>
+      <description>Divide problems into sub problems:
+Top down(memoization) recursive function call, store results
+apply cache to potential duplicate calculation
+Accords to the natural logic of the original problem description
+Chosen when there is some useless states, or no actual index concepts
+Bottom up(Tabulation) iterative on the indices of sub problems
+base on the pre-calculated results
+choose and simplify the states, which will affect the results
+state: Two finger&amp;rsquo;s position, or even the previous character(https://leetcode.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/coding/graph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/coding/graph/</guid>
+      <description> Find cycles(Aka Tarjan&amp;rsquo;s Bridge-Finding Algorithm) DFS, with dfn(time order) &amp;amp; low(lowest reachable time ordered from current root). $dfn(n) &amp;lt; low(v)$-&amp;gt; uv is a bridge. If a node with rank in-between, a cycle starts from that. Pick unvisited nodes to next round Partition Array Into Two Arrays to Minimize Sum Difference Max 4 neighbors sum To construct a valid sequence, start by selecting the middle part and extend it, with each node&amp;rsquo;s top 3 neighbors(a&amp;rsquo;s neighbor + a + b + the max remaining neighbour) Maximum Score of a Node Sequence </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/coding/intuition-algo-or-ds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/coding/intuition-algo-or-ds/</guid>
+      <description>Consider Aspects Every thing appears on the problems, Number of steps/Complete Gardens/cost, even the possibilities of given edges
+And choose the one with minimum possibilites:
+if the range of number is limited, but there might be many of them, why not use map/set/bitset to track the occurence of them ? Always consider if iterate over the aspects if possible Next Greater Element monotonic stack 栈中每个元素都是其前驱的 Next Greater/Smaller， push 的时候被弹出的 是 Next Smaller/Greater 也可以维护一个固定窗口，通过 index 来确定，窗口内的 start 为窗口内最大/小 Maximum/Minimum Query sparse table/Segment Tree/Fenwick Tree sparse table: on static array Segment/Fenwick: dynamic, range sum query Minimum Spanning Tree Kruskal(Union-Find, 挑选最短的边，逐次累加) Job Scheduling(Interval Scheduling Maximization) greedy， 对结束时间进行排序 每次选择结束最早的 next job time 只是一个维度，本质考虑 interval 的最多选择数量 Strongly connected 2-SAT All pairs shortest path LCA Binary Lifting/ Euler Tour + Segment Tree /RMQ, Tarjan&amp;rsquo;s offline A star(Heuristic) pursuit: finds the shortest path from a specified source to a specified goal</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/coding/mathematical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/coding/mathematical/</guid>
+      <description>finding factors Multinomial Coefficient permutation of N1, N2&amp;hellip; Nn numbers, with $Sum(N_{i}) = M$: $M! / N_{1}! * N_{2}! * &amp;hellip; * N_{n}!$
+a / x % mod == a * inv_mod % mod
+找出 inv_mod
+class Factorial: def __init__(self, N, mod) -&amp;gt; None: N += 1 self.mod = mod self.f = [1 for _ in range(N)] self.g = [1 for _ in range(N)] for i in range(1, N): self.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/coding/miscellaneous/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/coding/miscellaneous/</guid>
+      <description>Goal: Key point: Classic
+Find patterns of the solutions of the problem There are two patterns which meets the requirements: (1). two circled person, and two arms. (2). an entire circle Maximum Employees to Be Invited to a Meeting Find the required pattern for the result Transform to Chessborad N = x + (x + 1)&amp;hellip;(x + n) = n * x + (n - 1) * n / 2 Counting odd factors Consecutive Numbers Sum Special Operation: Each time pushing a new element, try merging with the last one in the stack.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/coding/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/coding/search/</guid>
+      <description>DFS &amp;amp; BFS dfs: 验证连通性 bfs: 可以携带一些当前节点的状态，常用于求加权最短路径 Difference dfs 和 bfs 在时间复杂度上，由于 dfs 会保存一份context变量，而 bfs 会为每个状态保存一份变量，因此时间复杂度上不一致 To reduce search space: memorization could be: of visited paths(i to j) and associated values of new states and associated(minimum or maximum) values On bfs, the prioritized value is always increasing, so it should be exactly what the problem what, and returns as soon as it meets the requirement. On dfs, return earlier when the current cnt has passed previous extreme value when don&amp;rsquo;t know exact solutions, try greedy &amp;amp; (BFS|DFS) dfs + memorization roughly equals to bfs?</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/companies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/companies/</guid>
+      <description>Meta applied: Software Engineer for Audio Research Engineer SWE, ML
+Google Google cloud
+Microsoft </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/language-tests/misc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/language-tests/misc/</guid>
+      <description>stance: 立场 Fostered in: 在&amp;hellip;的基础上，培养 advocate： 赞同 drastically hinder productivity harbors undeniable benefits.
+educational hustle and busle</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/language-tests/speaking/real-questions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/language-tests/speaking/real-questions/</guid>
+      <description>常用：
+I reside in Hangzhou, a city tucked away in the southeastern region of China, characterized by its international flair, vibrant atmosphere, and dynamic energy offer me an ideal environment for practicing and listening to music, while engaging in recreational music creation the companies he runs have all achieved global leadership gain an advantage/edge over rivals captivate my interests happy &amp;lt;-&amp;gt; thrilled, delighted, overjoyed 不用正面回答，不用以第一人称主语开始 fascinated with/be fond of/be really into/be keen on/appreciate/was very involved with It&amp;rsquo;s intriguing 令人感兴趣的 to gain a deep understanding about different locations, cultures, and the physical characteristics of our world.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/language-tests/speaking/speaking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/language-tests/speaking/speaking/</guid>
+      <description>Please may I start My name&amp;rsquo;s With pleasure Sir I&amp;rsquo;m fine thank you Sir
+Hard to pronounce the advancement of technology has significantly influenced our lives. information and services are now at our fingertips the rapid pace of technological change can also cause stress and anxiety I wholeheartedly concur with this view as well as the specific needs and capabilities of a school and its students.
+Vocabulary physical inactivity and social isolation Ludicrous: unreasonable Pinnacle Proponent Invigorating Indulge Mere delightful Spectacular</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/language-tests/synonyms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/language-tests/synonyms/</guid>
+      <description>#synonyms #word_replacements
+nice - profound very - significantly focus - engross food - cuisine big - enormous tasty - delicious I like - fond of, keen on, into good - excellent, amazing, incredible bad - terrible happy-ecstatic sad - depressed, miserable important - crucial, essential, pivotal, integral nice - enjoyable pretty - attractive, gorgeous little - tiny hard - challenging easy - no-brainer like ABC funny - hilarious clean - spotless hot - boiling cold - freezing tired - exhausted old - ancient facilities - amenities carried out/done - implemented proven by - as evidenced by huge impact - profound impact as a result - consequently solely motivation - passion drive - propels them forward selfless effort - selfless dedication aim, pursuit, goal attracted to - engrossed in versatility - diversity happy - thrilled, delighted, overjoyed good - beneficial, rewarding problematic - detrimental, counterproductive boring - mundane, tedious attractive, appealing - alluring interesting - intriguing, fascinating, exciting, inspiring, entertaining, captivating many - plenty of, countless, vast impeccable &amp;lt;-&amp;gt; flawless allows for, require spark creativity and innovative ideas always - constantly exceptional - extraordinary choose &amp;lt;-&amp;gt; opt for I often procrastinate &amp;lt;-&amp;gt; I often delay for sustained periods of time &amp;lt;-&amp;gt; for longer periods of time temporary &amp;lt;-&amp;gt; ad-hoc disadvantage &amp;lt;-&amp;gt; downside substantial &amp;lt;-&amp;gt; considerable the meaning of &amp;lt;-&amp;gt; the essence of attractive, appealing &amp;lt;-&amp;gt; alluring really like &amp;lt;-&amp;gt; am obsessed with/am good &amp;lt;-&amp;gt; beneficial, rewarding problematic &amp;lt;-&amp;gt; detrimental, counterproductive boring &amp;lt;-&amp;gt; mundane, tedious I think &amp;lt;-&amp;gt; I find</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/language-tests/topics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/language-tests/topics/</guid>
+      <description>Phrases Kanye is a genius albeit a self-proclaimed one relevant: important main source of relevance: xxx 重要的主要原因 legacy to&amp;hellip;: 对 &amp;hellip; 的深远影响
+showed a penchant: 嗜好 But it isn&amp;rsquo;t only words that Shakespeare showed a penchant for creating
+Brevity is the soul of Wit Bated breath full circle:周而复始 in a pickle: 深陷困境
+undisputed: 不容置疑的
+be as adj as sb ever was
+in terms of
+is a paramount importance to: 至关重要的</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/language-tests/writing/radiohead/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/language-tests/writing/radiohead/</guid>
+      <description>Bridging the gap between raw emotion and thoughtful sophistication, the music of Radiohead, an alternative British rock band, has forever left an indelible mark on the world of music. Their sound is an illustrious blend of various genres and styles, enwrapped in a unique, idiosyncratic 奇特 flavour.
+From the heft of rock, the expanse of electronic and experimental music, to subtler 微妙 elements of jazz and classical styles, Radiohead&amp;rsquo;s sonic landscape is a medley of the unexpected, revolutionising a genre that once threatened to become stagnant 停滞.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/language-tests/writing/real-questions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/language-tests/writing/real-questions/</guid>
+      <description>题型 Discussion 首：总结双方核心观点+给出个人观点 可能没有固定句式，结合具体情况 Education serves multiple purposes, and its role in preparing individuals for societal contribution and personal ambition achievement are both crucial.
+The subject of xxx is contentious and multifaceted, warranting thorough consideration. I firmly believe that/vehemently disagree with/lean towards/wholeheartedly concur with this view.
+主1: Proponents argue that 主2: Opponents note that
+主3: 个人观点和原因 I personally agree with those who
+总结：重申观点，总结
+Opinion To what extend do you agree or disagree?</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/language-tests/writing/task1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/language-tests/writing/task1/</guid>
+      <description>多使用：
+定语从句 被动语态 衔接词 写到每一步 一般现在时
+It&amp;rsquo;s clear that there are five distinct stages in this process, beginning with &amp;hellip;,. The final two steps show how&amp;hellip;
+It&amp;rsquo;s also noticeable that there are five main stages in the development of honey bee, from egg to mature adult insect.
+Paragraph 1 介绍图标信息，坐标轴的特殊意义(compared to the preceding months)
+The &amp;hellip;
+line graph/given layouts/picture
+depicts/illustrates/classifies/compares/provide information about/presents
+the alternations that an airport will go through</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/language-tests/writing/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/language-tests/writing/writing/</guid>
+      <description>Music #music Lastly, music and being in a band bring me joy and pleasure. Playing an instrument and creating beautiful music with other band members, while bring joy to the audiences, is a gratifying experience. Music and being in a band become a means of self-expression, stress relief, and finding enjoyment
+Computer Science These aspects of computer science provide me with a great sense of satisfaction and fulfillment.
+Job From brainstorming with other tech-geeks at a startup weekend, building a new support network wasn&amp;rsquo;t as daunting as I had initially thought.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/profile/behavorial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/profile/behavorial/</guid>
+      <description> _Have you ever made a mistake? _What do you think was the best mistake you’ve made so far? _What did you learn from it? </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/profile/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/profile/introduction/</guid>
+      <description>Qian Chengliang(English name as Mick) is a person, pursuiting jobs of creativity and crave for learning and exploring new technologies and skills.
+Graduated as a bachelor in Computer Sciende at ZJU(Zhejiang University), his acedemic record is among the top 20% in CS College, 10% in the last two years, which proves his ability to learn. At school, he interns at a big tech company in china for 2 months, and act as a major contributor of a transpiler project, which translates java code to scala, and beats the performance of the most competitors at that time.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/profile/resume/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/profile/resume/readme/</guid>
+      <description>A single-page, one-column resume for software developers. It uses the base latex templates and fonts to provide ease of use and installation when trying to update the resume. The different sections are clearly documented and custom commands are used to provide consistent formatting. The three main sections in the resume are education, experience, and projects.
+Motivation I created this template as managing a resume on Google Docs was hard and changing any formatting was too difficult since it had to be applied in multiple places.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/profile/resume/sequence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/profile/resume/sequence/</guid>
+      <description>Find different patterns
+Change the direction may help Count Increasing Quadruplets: Fix j,k, then find: 1. nums before i and less than nums[j], 2. nums after k and bigger than nums[l]. Count i, j, k Triplets, use a Fenwick Tree to achieve that Shortest Impossible Sequence of Rolls Find the count of complete set, to gain shortest impossible permutation </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/profile/role-numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/profile/role-numbers/</guid>
+      <description>SE, java(AM): 200460909 SE, java(AM): 200460940 SWE, C++ :200458465 SE, VR/AR: 200410760 AMP: 200462337 SE, distribute: 200323245</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/profile/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/profile/skills/</guid>
+      <description>Languages: Rust, C++, Java, Scala and others Work exprience involves compilers, frontend, ide &amp;amp; virtual machine</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/profile/why-do-you-want-to-work-at/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/profile/why-do-you-want-to-work-at/</guid>
+      <description>Apple ? Mention Apple&amp;rsquo;s significance I’ve been a loyal Apple fans for years, and your innovation and development never fail to amaze me. It seems to me that, Apple is a company which dedicate to make lifes better, make techonology advance. Apple don’t just create products; you create something magical for the person using them, and that inspires me. I&amp;rsquo;ve really admired Apple&amp;rsquo;s ability to lead the revolution in certain tech areas, it really need great braveness and insightfullness to do that.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/profile/%E5%92%A8%E8%AF%A2%E9%97%AE%E9%A2%981/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/profile/%E5%92%A8%E8%AF%A2%E9%97%AE%E9%A2%981/</guid>
+      <description>基本背景： ZJU 16 cs 本，三年（不到）华为工作经历，编译器/虚拟机/IDE 方向 理想工作： UK apple SDE 岗位。在官网了解过 apple 在 uk 的岗位，对 Media Products/VR 相关方向比较感兴趣 另外想问一下，除了 Apple, UK 还有哪些科技公司是我可以尝试的 下附简历，方便的话可以随意看一眼。十分感谢!</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/system-design/key-concepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/system-design/key-concepts/</guid>
+      <description>Consistent Hashing 保证当机器增加或者减少时，节点之间的数据迁移只限于两个节点之间，不会造成全局的网络问题 环形hash
+Partition failover: 1. detect 2. elect new leader:consensus algo 3. reconfigure
+split brain
+logical log: decoupled from the storage engine internals write-ahead log:
+Consistency 一致性 强度从高到低：
+strong consistency linear consistency/read-after-write write-write consistency 单调读一致性 前缀一致性 Casual consistency eventual consistency Linear Consistency aka atomic consistency/strong consistency/immediate consistency/external consistency
+Basic idea 让一个系统看起来好像只有一个数据副本，且所有操作均为原子性
+Eventual Consistency 常用实现手段：
+读修复：从replicas中读，将缺失变更发送给相应replica, 消除副本数据不一致问题 写修复: primary 的写操作直到 follower 的写成功后才完成 async repair：running data consistency checks Leaderless 无主 peer-to-peer dynamo, riak, cassandra, voldemort easy to write</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/system-design/misc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/system-design/misc/</guid>
+      <description>![[Pasted image 20230426203213.png]]
+![[Pasted image 20230426203231.png]]
+MySQL server - 10k QPS Redis - 100 K write SQL: 500 GB MySQL server - 10k QPS MySQL server - 10k QPS
+BloomFilter If a element exists -&amp;gt; return true If a element miss -&amp;gt; return true or false applied in sparse scenarios
+Zookeeper 分布式共识算法 filesystem + listener pattern</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/system-design/procedure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/system-design/procedure/</guid>
+      <description>Clarify the system&amp;rsquo;s constraints and to identify what use cases the system needs to satisfy question can be made on:
+the number of users the amount of data the sytem should work with the traffic the system should handle, request/month Draw a diagram on abstract design application service layer data storage layer
+Scalabilities Think about bottlenecks:
+(user) request(qps): load balancer data size: distribution latency: caching single point failure ? fault tolerance(idopotent) Address by Scale: It&amp;rsquo;s all about trade-off</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/system-design/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/system-design/tools/</guid>
+      <description>Database pros topic: distribute to different workers cons Dynamo leaderless, de-centralization always writeable
+Variant consistent hashing instead of mapping a node to a single point in the circle, each node gets assigned to multiple points in the ring. Reduces uniform-data-distribution
+Preference list The list of nodes that is responsible for storing a particular key is called the preference list
+Hinted handoff temporarily stores the key in other nodes. When node recovered, deliver the data back the delete the temporary replica</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/interview/system-design/use-cases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mickjagger19.github.io/interview/system-design/use-cases/</guid>
+      <description>Tiny url The basic process can be:
+Insert:
+Hash an input long url into a single integer; Locate a server on the ring and store the key&amp;ndash;longUrl on the server; Compute the shorten url using base conversion (from 10-base to 62-base) and return it to the user. Retrieve:
+Convert the shorten url back to the key using base conversion (from 62-base to 10-base); Locate the server containing that key and return the longUrl.</description>
+    </item>
+  </channel>
+</rss>

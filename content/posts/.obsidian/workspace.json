@@ -1,0 +1,246 @@
+{
+  "main": {
+    "id": "0584cfed4673aad5",
+    "type": "split",
+    "children": [
+      {
+        "id": "c397e0ad874de7be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ae7677c5d05bcfc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3ee6ef38d3b4d5da",
+    "type": "split",
+    "children": [
+      {
+        "id": "b178d8c28c28b380",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b86655ee1075c4b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "32ee1ab6a4f63cd2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "37b6d9b49b7a841a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Edwin",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d896a8e527c5a931",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "d41d30311be6e68c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 400.5
+  },
+  "right": {
+    "id": "47168004564bfdc1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1439c1b26f58d0f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f1e0218f17dee23",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "26cb76cc8d628802",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "4219f5305a9a85a0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8d7f3380461204a5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "a1c8f73ba25f3c52",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {}
+            }
+          },
+          {
+            "id": "5ffb0a8a39d77b8b",
+            "type": "leaf",
+            "state": {
+              "type": "QUICKSHARE_SIDE_VIEW",
+              "state": {}
+            }
+          },
+          {
+            "id": "c44494ea0aadbd80",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "ded227cf5dc2737c",
+            "type": "leaf",
+            "state": {
+              "type": "stats-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "notes-sync-share:Notes Sync": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "invio:Invio": false
+    }
+  },
+  "active": "9ae7677c5d05bcfc",
+  "lastOpenFiles": [
+    "Work/全流程.md",
+    "Work",
+    "Leetcode/Miscellaneous.md",
+    "Leetcode/Mathematical.md",
+    "Leetcode/Math Theory.md",
+    "Leetcode/Intuitions.md",
+    "Leetcode/Graph.md",
+    "Profile/Skills.md",
+    "Profile/Third-Person self-introduction.md",
+    "Profile/Role Numbers.md",
+    "Profile",
+    "Music/Music of George Harrison.md",
+    "Leetcode/Sequence.md",
+    "Leetcode/Search.md",
+    "Leetcode/Miscallenous.md",
+    "Leetcode/Data Structures.md",
+    "Leetcode/DP.md",
+    "Leetcode/Bit.md",
+    "Leetcode/Basic Algorithms you must memorize.md",
+    "Leetcode/Algorithms.md",
+    "Leetcode/2023-03-05.md",
+    "Leetcode",
+    "Music/Bossa Nova Songs Progression.md",
+    "Quant/Time Sequence Analysis.md",
+    "Quant/Key Concepts.md",
+    "Quant/Markov process.md",
+    "Quant",
+    "Music/Progression.md",
+    "Music/Favorites.md",
+    "Music/Band Playlist.md",
+    "Music",
+    "Interview/System Design/Thesis/Bigtable.pdf",
+    "Interview/System Design/Thesis/amazon-dynamo-sosp2007.pdf",
+    "Interview/Coding/Templates/header.py",
+    "Interview/Coding/Templates/header.h",
+    "Interview/System Design/Thesis",
+    "Interview/Profile/Resume/resume_preview.png",
+    "Attachments/Pasted image 20230930103128.png",
+    "Attachments/Pasted image 20230930103109.png",
+    "Attachments/Pasted image 20230930103052.png",
+    "Attachments/Pasted image 20230930103050.png",
+    "Attachments/Pasted image 20230930103015.png",
+    "Attachments/Pasted image 20230918221255.png",
+    "Attachments/Pasted image 20230918221246.png",
+    "Attachments/Pasted image 20230623112408.png",
+    "Attachments/Pasted image 20230618154911.png"
+  ]
+}

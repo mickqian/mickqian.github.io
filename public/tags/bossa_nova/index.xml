@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bossa_Nova on Blog of Mick</title>
+    <link>https://mickjagger19.github.io/tags/bossa_nova/</link>
+    <description>Recent content in Bossa_Nova on Blog of Mick</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 06 Jan 2024 21:15:22 +0800</lastBuildDate><atom:link href="https://mickjagger19.github.io/tags/bossa_nova/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bossa Nova Songs Progression</title>
+      <link>https://mickjagger19.github.io/posts/music/bossa-nova-songs-progression/</link>
+      <pubDate>Sat, 06 Jan 2024 21:15:22 +0800</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/music/bossa-nova-songs-progression/</guid>
+      <description>A summary of the chord progression of some well-known bossa-nova songs</description>
+      <content:encoded><![CDATA[<script src="/js/opensheetmusicdisplay.min.js">
+</script>
+<h1 id="desafinado">Desafinado</h1>
+<iframe width="100%" height="700" src="//jsfiddle.net/kyeonzxh/1/embedded/result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<div id="osmd-container"></div>
+<script>
+var osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay("osmd-container");
+
+osmd.setOptions({defaultFontFamily: "Petaluma"});
+osmd.load("/MusicXML/Ballade.musicxml").then(function() {
+  osmd.render();
+});
+</script>
+<h1 id="one-note-samba">One Note Samba</h1>
+<iframe width="100%" height="700" src="//jsfiddle.net/bqxs351t/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<h1 id="so-danco-samba">So Danco Samba</h1>
+<iframe width="100%" height="700" src="//jsfiddle.net/bqxs351t/1/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<h1 id="doralice">Doralice</h1>
+<iframe width="100%" height="700" src="//jsfiddle.net/9z2dk1te/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<h1 id="o-pato">O Pato</h1>
+<iframe width="100%" height="700" src="//jsfiddle.net/hku9f2e0/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<h1 id="chega-de-saudade">Chega de Saudade</h1>
+<iframe width="100%" height="700" src="//jsfiddle.net/587c2mxq/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
