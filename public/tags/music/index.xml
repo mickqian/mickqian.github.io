@@ -1,194 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Music on Blog of Mick</title>
+    <title>Music on Mick&#39;s Blog</title>
     <link>https://mickjagger19.github.io/tags/music/</link>
-    <description>Recent content in Music on Blog of Mick</description>
+    <description>Recent content in Music on Mick&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Jan 2024 21:15:22 +0800</lastBuildDate><atom:link href="https://mickjagger19.github.io/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jan 2024 21:15:22 +0800</lastBuildDate>
+    <atom:link href="https://mickjagger19.github.io/tags/music/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bossa Nova Songs Progression</title>
       <link>https://mickjagger19.github.io/posts/music/bossa-nova-songs-progression/</link>
       <pubDate>Sat, 06 Jan 2024 21:15:22 +0800</pubDate>
-      
       <guid>https://mickjagger19.github.io/posts/music/bossa-nova-songs-progression/</guid>
-      <description>A summary of the chord progression of some well-known bossa-nova songs</description>
-      <content:encoded><![CDATA[<script src="/js/opensheetmusicdisplay.min.js">
-</script>
-<h1 id="desafinado">Desafinado</h1>
-<iframe width="100%" height="700" src="//jsfiddle.net/kyeonzxh/1/embedded/result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-<div id="osmd-container"></div>
-<script>
-var osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay("osmd-container");
-
-osmd.setOptions({defaultFontFamily: "Petaluma"});
-osmd.load("/MusicXML/Ballade.musicxml").then(function() {
-  osmd.render();
-});
-</script>
-<h1 id="one-note-samba">One Note Samba</h1>
-<iframe width="100%" height="700" src="//jsfiddle.net/bqxs351t/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-<h1 id="so-danco-samba">So Danco Samba</h1>
-<iframe width="100%" height="700" src="//jsfiddle.net/bqxs351t/1/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-<h1 id="doralice">Doralice</h1>
-<iframe width="100%" height="700" src="//jsfiddle.net/9z2dk1te/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-<h1 id="o-pato">O Pato</h1>
-<iframe width="100%" height="700" src="//jsfiddle.net/hku9f2e0/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-<h1 id="chega-de-saudade">Chega de Saudade</h1>
-<iframe width="100%" height="700" src="//jsfiddle.net/587c2mxq/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-]]></content:encoded>
+      <description>Chord progression of some well-known bossa-nova songs</description>
     </item>
-    
     <item>
       <title>Music of George Harrison</title>
       <link>https://mickjagger19.github.io/posts/music/music-of-george-harrison/</link>
       <pubDate>Sat, 06 Jan 2024 19:37:13 +0800</pubDate>
-      
       <guid>https://mickjagger19.github.io/posts/music/music-of-george-harrison/</guid>
       <description>personal rankings of George Harrison&amp;rsquo;s Singles/Albums/Guitar Solos</description>
-      <content:encoded><![CDATA[<h1 id="single">Single</h1>
-<h2 id="1-something">1. Something</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UelDrZ1aFeY?si=PaPM8YoThkbpquuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<h2 id="2-here-comes-the-sun">2. Here Comes the Sun</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KQetemT1sWc?si=SmPBWEga3ou7gDNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<h2 id="3-while-my-guitar-gently-weeps">3. While My Guitar Gently Weeps</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VJDJs9dumZI?si=XMjvBDs71NjqWrjh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<h2 id="4-all-those-years-ago">4. All Those Years Ago</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eNL40ql4CYk?si=fuAQaEGwfqsm9yvU&amp;start=144" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<h2 id="5-wah-wah">5. Wah-Wah</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NDVAQE7nplU?si=Ydjz3KdqNk_kqStL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<h1 id="album">Album</h1>
-<p>Beatles records are excluded</p>
-<h2 id="1-all-things-must-pass">1. All Things Must Pass</h2>
-<h2 id="2-brainwashed">2. Brainwashed</h2>
-<h2 id="3-george-harrison">3. George Harrison</h2>
-<h2 id="4--living-in-the-material-world">4.  Living in the Material World</h2>
-<h1 id="guitar-solo">Guitar Solo</h1>
-<h2 id="1-dark-sweet-lady">1. Dark Sweet Lady</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Mqq_yEJlwDQ?si=gxQtr_L-y7tWevCx&amp;start=101" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<h2 id="2-something">2. Something</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UelDrZ1aFeY?si=xUAGs_4t-_ddr0Ag&amp;start=98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<h2 id="3-the-light-that-has-lighted-the-world">3. The Light That Has Lighted the World</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Tcg_19WGPJs?si=_oKNGBCOx8naUBja&amp;start=82" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<h2 id="4-give-me-love">4. Give me Love</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WMof20FwaOs?si=nveFJrXxggUvED6h&amp;start=110" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<h2 id="5-any-road">5. Any Road</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/r8fFdc-karA?si=FJcZcUzybW0JodEd&amp;start=210" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<h2 id="6-cheer-down">6. Cheer Down</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Yk-5iu1QE0E?si=Ist4VWRXwviqgjM1&amp;start=144" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<h2 id="7-stuck-inside-a-cloud">7. Stuck Inside a Cloud</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m1_zW9erCCM?si=0AlEcpq2-MykneL5&amp;start=111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<h2 id="8-crippled-inside">8. Crippled Inside</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EX7roXRmkOU?si=pmsqtfpwrlSk8zo0&amp;start=77" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<h2 id="9-how-do-you-sleep">9. How Do You Sleep?</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/teD9t-lO_o0?si=Vt8mZOYRjDYVdtav&amp;start=157" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>]]></content:encoded>
     </item>
-    
     <item>
       <title>Chord Progression</title>
       <link>https://mickjagger19.github.io/posts/music/progression/</link>
       <pubDate>Sat, 06 Jan 2024 00:35:53 +0800</pubDate>
-      
       <guid>https://mickjagger19.github.io/posts/music/progression/</guid>
       <description>Frequently used chord progressions</description>
-      <content:encoded><![CDATA[<ul>
-<li>Odo shinko
-<ul>
-<li>IV V iii vi</li>
-<li>Japan</li>
-<li>V 具有 dominant function，可以提供最多的 tension</li>
-</ul>
-</li>
-<li>axis progression
-<ul>
-<li>I V vi IV</li>
-<li>Let it Be, Someone like you</li>
-</ul>
-</li>
-<li>the other axis progression
-<ul>
-<li>vi IV I V</li>
-</ul>
-</li>
-<li>Andalusian Cadence
-<ul>
-<li>i bVII bVI V</li>
-<li>Happy Together</li>
-<li>descending</li>
-</ul>
-</li>
-<li>Another Andalusian Cadence
-<ul>
-<li>i bVII bVI bVII</li>
-<li>All Along the Watchtower</li>
-</ul>
-</li>
-<li>Doo-wop progression
-<ul>
-<li>I vi IV V</li>
-<li>Stand by me, Happiness is a warm gum</li>
-<li>tonic -&gt; six -&gt; subdominant -&gt; dominant -&gt; tonic</li>
-</ul>
-</li>
-<li>another
-<ul>
-<li>I V IV V</li>
-</ul>
-</li>
-<li>Mixolydian Vamp
-<ul>
-<li>I bVII IV I</li>
-<li>Hey Jude, Sweet Child O&rsquo; Mine, Sweet Home Alabama</li>
-</ul>
-</li>
-<li>Dorian Vamp
-<ul>
-<li>i IV</li>
-</ul>
-</li>
-<li>Mixolydian
-<ul>
-<li>1 2 3 4 5 6 b7</li>
-<li>mellow, relax, bold</li>
-<li>major + blues</li>
-<li>I bVII IV</li>
-</ul>
-</li>
-<li>Kiss from a ross
-<ul>
-<li>bVI bVII I</li>
-<li>Picardy Third</li>
-<li>mario third</li>
-</ul>
-</li>
-<li>She lovely
-<ul>
-<li>vi7 II9 V11 I</li>
-<li>jazzy</li>
-</ul>
-</li>
-<li>What&rsquo;s up
-<ul>
-<li>I ii IV I</li>
-<li>Marry You</li>
-</ul>
-</li>
-<li>Let&rsquo;s get it on
-<ul>
-<li>I iii IV V</li>
-</ul>
-</li>
-<li>Eight Days a Week
-<ul>
-<li>I II IV I</li>
-<li>II -&gt; #4 -&gt; Lydian</li>
-<li></li>
-</ul>
-</li>
-</ul>
-]]></content:encoded>
     </item>
-    
   </channel>
 </rss>

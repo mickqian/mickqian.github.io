@@ -5,21 +5,40 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Posts | Blog of Mick</title>
+<title>Posts | Mick&#39;s Blog</title>
 <meta name="keywords" content="">
-<meta name="description" content="Posts - Blog of Mick">
+<meta name="description" content="Posts - Mick&#39;s Blog">
 <meta name="author" content="Mick">
 <link rel="canonical" href="https://mickjagger19.github.io/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.2d50b1531bd1b3146d65c5543bd298f7f982786aadee4c223cb3a1cb51906106.css" integrity="sha256-LVCxUxvRsxRtZcVUO9KY9/mCeGqt7kwiPLOhy1GQYQY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.8dd6f57454653644cba6929524e195dff93a26fa61dce2b3b2629e50b8d12816.css" integrity="sha256-jdb1dFRlNkTLppKVJOGV3/k6Jvph3OKzsmKeULjRKBY=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://mickjagger19.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://mickjagger19.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://mickjagger19.github.io/favicon-32x32.png">
 <link rel="apple-touch-icon" href="https://mickjagger19.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://mickjagger19.github.io/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" type="application/rss+xml" href="https://mickjagger19.github.io/posts/index.xml">
 <link rel="alternate" hreflang="en" href="https://mickjagger19.github.io/posts/">
+
+<meta name="twitter:title" content="Posts | Mick&#39;s Blog" />
+<meta name="twitter:description" content="Blog" />
+<meta property="og:title" content="Posts | Mick&#39;s Blog" />
+<meta property="og:description" content="Blog" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://mickjagger19.github.io/posts/" />
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Posts",
+      "item": "https://mickjagger19.github.io/posts/"
+    }
+  ]
+}
+</script>
 <noscript>
     <style>
         #theme-toggle,
@@ -28,84 +47,91 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
+</noscript>
 
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
-</noscript><meta property="og:title" content="Posts" />
-<meta property="og:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://mickjagger19.github.io/posts/" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"/>
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://mickjagger19.github.io/posts/"
-    }
-  ]
-}
-</script>
 </head>
 
-<body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
+<body class="list-page dark type-posts kind-section layout-" id="top"><script data-no-instant>
+function switchTheme(theme) {
+  switch (theme) {
+    case 'light':
+      document.body.classList.remove('dark');
+      break;
+    case 'dark':
+      document.body.classList.add('dark');
+      break;
+    
+    default:
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
+      }
+  }
+}
 
+function isDarkTheme() {
+  return document.body.className.includes("dark");
+}
+
+function getPrefTheme() {
+  return localStorage.getItem("pref-theme");
+}
+
+function setPrefTheme(theme) {
+  switchTheme(theme)
+  localStorage.setItem("pref-theme", theme);
+}
+
+const toggleThemeCallbacks = {}
+toggleThemeCallbacks['main'] = (isDark) => {
+  
+  if (isDark) {
+    setPrefTheme('light');
+  } else {
+    setPrefTheme('dark');
+  }
+}
+
+
+
+
+window.addEventListener('toggle-theme', function() {
+  
+  const isDark = isDarkTheme()
+  for (const key in toggleThemeCallbacks) {
+    toggleThemeCallbacks[key](isDark)
+  }
+});
+
+
+function toggleThemeListener() {
+  
+  window.dispatchEvent(new CustomEvent('toggle-theme'));
+}
+
+</script>
+<script>
+  
+  (function() {
+    const defaultTheme = 'dark';
+    const prefTheme = getPrefTheme();
+    const theme = prefTheme ? prefTheme : defaultTheme;
+
+    switchTheme(theme);
+  })();
 </script>
 
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://mickjagger19.github.io/" accesskey="h" title="Blog of Mick (Alt + H)">Blog of Mick</a>
-            <div class="logo-switches">
+            <a href="https://mickjagger19.github.io" accesskey="h" title="Mick&#39;s Blog (Alt + H)">Mick&#39;s Blog</a>
+            <span class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -119,203 +145,191 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
-                <ul class="lang-switch"><li>|</li>
-                    <li>
-                        <a href="https://mickjagger19.github.io/fr/" title="French"
-                            aria-label=":fr:">🇫🇷</a>
-                    </li>
-                    <li>
-                        <a href="https://mickjagger19.github.io/fa/" title="Fa"
-                            aria-label="Fa">Fa</a>
-                    </li>
-                </ul>
-            </div>
+            </span>
         </div>
         <ul id="menu">
             <li>
-                <a href="https://mickjagger19.github.io/archives" title="Archive">
-                    <span>Archive</span>
+                <a href="https://mickjagger19.github.io/archives/" title="Archive"
+                >Archive
                 </a>
             </li>
             <li>
-                <a href="https://mickjagger19.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
-                    <span>Search</span>
+                <a href="https://mickjagger19.github.io/search/" title="Search (Alt &#43; /)"data-no-instant accesskey=/
+                >Search
                 </a>
             </li>
             <li>
-                <a href="https://mickjagger19.github.io/tags/" title="Tags">
-                    <span>Tags</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/adityatelange/hugo-PaperMod/wiki/" title="WiKi">
-                    <span>WiKi</span>&nbsp;
-                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
-                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
-                        <path d="M15 3h6v6"></path>
-                        <path d="M10 14L21 3"></path>
-                    </svg>
+                <a href="https://mickjagger19.github.io/tags/" title="Tags"
+                >Tags
                 </a>
             </li>
         </ul>
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="https://mickjagger19.github.io/">Home</a></div>
+<header class="page-header"><div class="breadcrumbs"><a href="https://mickjagger19.github.io">Home</a></div>
   <h1>
-    Posts
-    <a href="/posts/index.xml" title="RSS" aria-label="RSS">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" height="23">
-        <path d="M4 11a9 9 0 0 1 9 9" />
-        <path d="M4 4a16 16 0 0 1 16 16" />
-        <circle cx="5" cy="19" r="1" />
-      </svg>
-    </a>
-  </h1>
+    Posts</h1><div class="inline-links">
+  
+  
+  <span><a href="https://mickjagger19.github.io/posts/index.xml" target="_blank">RSS</a></span></div>
 </header>
 
+
+
+
+
+
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">
+    <h2>
     </h2>
   </header>
-  <div class="entry-content">
-    <p>A single-page, one-column resume for software developers. It uses the base latex templates and fonts to provide ease of use and installation when trying to update the resume. The different sections are clearly documented and custom commands are used to provide consistent formatting. The three main sections in the resume are education, experience, and projects.
-Motivation I created this template as managing a resume on Google Docs was hard and changing any formatting was too difficult since it had to be applied in multiple places....</p>
-  </div>
-  <footer class="entry-footer">1 min&nbsp;·&nbsp;Mick</footer>
-  <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/interview/profile/resume/readme/"></a>
+  <section class="entry-content">
+    
+      <p>Languages: Rust, C&#43;&#43;, Java, Scala and others Work exprience involves compilers, frontend, ide &amp; virtual machine</p>
+    
+  </section>
+  <footer class="entry-footer"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
+  <span>1 min</span></span>
+</footer>
+  <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/profile/skills/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">
+    <h2>
     </h2>
   </header>
-  <div class="entry-content">
-    <p>Find different patterns
-Change the direction may help Count Increasing Quadruplets: Fix j,k, then find: 1. nums before i and less than nums[j], 2. nums after k and bigger than nums[l]. Count i, j, k Triplets, use a Fenwick Tree to achieve that Shortest Impossible Sequence of Rolls Find the count of complete set, to gain shortest impossible permutation </p>
-  </div>
-  <footer class="entry-footer">1 min&nbsp;·&nbsp;Mick</footer>
-  <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/interview/profile/resume/sequence/"></a>
+  <section class="entry-content">
+    
+      <p>Qian Chengliang(English name as Mick) is a person, pursuiting jobs of creativity and crave for learning and exploring new technologies and skills.
+Graduated as a bachelor in Computer Sciende at ZJU(Zhejiang University), his acedemic record is among the top 20% in CS College, 10% in the last two years, which proves his ability to learn. At school, he interns at a big tech company in china for 2 months, and act as a major contributor of a transpiler project, which translates java code to scala, and beats the performance of the most competitors at that time....</p>
+    
+  </section>
+  <footer class="entry-footer"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
+  <span>2 min</span></span>
+</footer>
+  <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/profile/third-person-self-introduction/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">
+    <h2>
     </h2>
   </header>
-  <div class="entry-content">
-    <p>SE, java(AM): 200460909 SE, java(AM): 200460940 SWE, C&#43;&#43; :200458465 SE, VR/AR: 200410760 AMP: 200462337 SE, distribute: 200323245</p>
-  </div>
-  <footer class="entry-footer">1 min&nbsp;·&nbsp;Mick</footer>
-  <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/interview/profile/role-numbers/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Languages: Rust, C&#43;&#43;, Java, Scala and others Work exprience involves compilers, frontend, ide &amp; virtual machine</p>
-  </div>
-  <footer class="entry-footer">1 min&nbsp;·&nbsp;Mick</footer>
-  <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/interview/profile/skills/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Apple ? Mention Apple’s significance I’ve been a loyal Apple fans for years, and your innovation and development never fail to amaze me. It seems to me that, Apple is a company which dedicate to make lifes better, make techonology advance. Apple don’t just create products; you create something magical for the person using them, and that inspires me. I’ve really admired Apple’s ability to lead the revolution in certain tech areas, it really need great braveness and insightfullness to do that....</p>
-  </div>
-  <footer class="entry-footer">1 min&nbsp;·&nbsp;Mick</footer>
-  <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/interview/profile/why-do-you-want-to-work-at/"></a>
+  <section class="entry-content">
+    
+      <p>创建工程 你是IDE 内置引擎，你的任务是将通过自然语言描述的任务，转换成自然语言描述的子任务(可能包含的任务为: 创建文件/文件夹，设置文件内容等），并通过序号标出。例如，输入：“帮我创建一个 rust 工程, 将创建 cargo.toml, 名字为 toy，需要用到 tokio 作为依赖库”， 你需要输出“1. create project directory 2. Touch a cargo.toml with detailed content 3. open directory&#34;。请注意，子任务中不能与 UI/交互等用户操作相关(包括点击，选择，等待, etc），而只能是可以由机器执行的指令。现在，帮我创建一个 空 andriod 应用工程，名字为 MyJavaApplication
+Prompt “你是帮我创建一个 rust 工程, 将创建 cargo.toml, 名字为 toy，需要用到 tokio 作为依赖库” ChatGPT split task: create directory touch cargo.toml edit cargo.toml open directory 模糊匹配到 VnextCommand </p>
+    
+  </section>
+  <footer class="entry-footer"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
+  <span>1 min</span></span>
+</footer>
+  <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/work/%E5%85%A8%E6%B5%81%E7%A8%8B/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
-    <a class="prev" href="https://mickjagger19.github.io/posts/page/3/">
-      «&nbsp;Prev&nbsp;3/7
-    </a>
-    <a class="next" href="https://mickjagger19.github.io/posts/page/5/">Next&nbsp;5/7&nbsp;»
-    </a>
+    <a class="prev" href="https://mickjagger19.github.io/posts/page/3/">« Prev Page</a>
   </nav>
 </footer>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="https://mickjagger19.github.io/">Blog of Mick</a></span>
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
+  <span>&copy; 2024 <a href="https://mickjagger19.github.io">Mick&#39;s Blog</a></span><span style="display: inline-block; margin-left: 1em;">
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
+  </span>
+  <span style="display: inline-block; margin-left: 1em;">
+    Powered by
+    <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+    <a href="https://github.com/reorx/hugo-PaperModX/" rel="noopener" target="_blank">PaperModX</a>
+  </span>
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+    <path d="M12 6H0l6-6z" />
+  </svg>
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
+  (function() {
+     
+    const disableThemeToggle = '' == '1';
+    if (disableThemeToggle) {
+      return;
     }
 
+    let button = document.getElementById("theme-toggle")
+    
+    button.removeEventListener('click', toggleThemeListener)
+    
+    button.addEventListener('click', toggleThemeListener)
+  })();
+</script>
+
+<script>
+  (function () {
+    let menu = document.getElementById('menu')
+    if (menu) {
+      menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+      menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+      }
+    }
+
+    const disableSmoothScroll = '' == '1';
+    const enableInstantClick = '' == '1';
+    
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || disableSmoothScroll || enableInstantClick) {
+      return;
+    }
+    
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        var id = this.getAttribute("href").substr(1);
+        document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+          behavior: "smooth"
         });
+        if (id === "top") {
+          history.replaceState(null, null, " ");
+        } else {
+          history.pushState(null, null, `#${id}`);
+        }
+      });
     });
-
+  })();
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
+  var mybutton = document.getElementById("top-link");
+  window.onscroll = function () {
+    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+      mybutton.style.visibility = "visible";
+      mybutton.style.opacity = "1";
+    } else {
+      mybutton.style.visibility = "hidden";
+      mybutton.style.opacity = "0";
+    }
+  };
 </script>
 <script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
+  if (window.scrollListeners) {
+    
+    for (const listener of scrollListeners) {
+      window.removeEventListener('scroll', listener)
+    }
+  }
+  window.scrollListeners = []
 </script>
+
+
+
+<script src="/js/medium-zoom.min.js" data-no-instant
+></script>
 </body>
 
 </html>
