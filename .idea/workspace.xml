@@ -124,29 +124,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mick/repos/Documents&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/mick/Applications/PyCharm Professional Edition 2023.3 EAP.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/mick/repos/Documents",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "/Users/mick/Applications/PyCharm Professional Edition 2023.3 EAP.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/MusicXML" />
@@ -211,7 +212,7 @@
       <workItem from="1704897239166" duration="41000" />
       <workItem from="1704897282579" duration="198000" />
       <workItem from="1704897484058" duration="352000" />
-      <workItem from="1704897840115" duration="815000" />
+      <workItem from="1704897840115" duration="1310000" />
     </task>
     <task id="LOCAL-00001" summary="mac&#10;&#10;# Conflicts:&#10;#&#9;Leetcode/Algorithms.md">
       <created>1679141251475</created>
@@ -226,30 +227,6 @@
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1679141289380</updated>
-    </task>
-    <task id="LOCAL-00006" summary="vault backup: 2023-10-21 16:01:50&#10;init">
-      <option name="closed" value="true" />
-      <created>1697876370510</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1697876370510</updated>
-    </task>
-    <task id="LOCAL-00007" summary="vault backup: 2023-10-21 16:01:50&#10;vault backup: 2023-10-21 16:28:36">
-      <option name="closed" value="true" />
-      <created>1697877058300</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1697877058300</updated>
-    </task>
-    <task id="LOCAL-00008" summary="vault backup: 2023-10-21 16:01:50">
-      <option name="closed" value="true" />
-      <created>1697877213738</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1697877213738</updated>
     </task>
     <task id="LOCAL-00009" summary="merge with obsidian">
       <option name="closed" value="true" />
@@ -603,7 +580,31 @@
       <option name="project" value="LOCAL" />
       <updated>1704898361426</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="update">
+      <option name="closed" value="true" />
+      <created>1704898915625</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1704898915625</updated>
+    </task>
+    <task id="LOCAL-00054" summary="update">
+      <option name="closed" value="true" />
+      <created>1704899035187</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1704899035187</updated>
+    </task>
+    <task id="LOCAL-00055" summary="update">
+      <option name="closed" value="true" />
+      <created>1704900496446</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1704900496446</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -664,7 +665,6 @@
       <path value="$PROJECT_DIR$/content/posts/Interview/Profile/Resume" />
       <path value="$PROJECT_DIR$/content/posts" />
     </ignored-roots>
-    <MESSAGE value="Add Personal Interest Section&#10;Fix formats&#10;Change file name&#10;vault backup: 2023-09-20 22:24:57" />
     <MESSAGE value="vault backup: 2023-07-26 23:21:08" />
     <MESSAGE value="vault backup: 2023-09-20 22:24:57" />
     <MESSAGE value="˚" />
@@ -688,6 +688,7 @@
     <MESSAGE value="vault backup: 2024-01-10 22:07:20" />
     <MESSAGE value="vault backup: 2024-01-10 22:07:20&#10;vault backup: 2023-03-23 11:53:43" />
     <MESSAGE value="fdsaf" />
+    <MESSAGE value="update&#10;Highlight.js -&gt; Hugo's chromastyles (#1364)&#10;&#10;* remove hljs&#10;&#10;* rename var --hljs-bg to --code-block-bg&#10;&#10;* bundle chroma-styles from css/includes/chroma-styles.css&#10;&#10;* add compatibility fixes for papermod &lt;-&gt; chroma&#10;&#10;* fix line-num and line padding and set width for line container to 100%&#10;&#10;* After a lot of experimentation this compatiblity should work well&#10;&#10;* fix inline line highlights not working&#10;&#10;* Use catppuccin-macchiato as default theme with highlightStyle 'bg:#474733'&#10;&#10;- hugo gen chromastyles --style catppuccin-macchiato --highlightStyle 'bg:#474733' &gt; assets/css/includes/chroma-styles.css&#10;add icon: mdi:calendar-month" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>

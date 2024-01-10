@@ -6,8 +6,8 @@ on:
 
 jobs:
   build:
+    if: $Build == 'true'
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.4
@@ -37,8 +37,8 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-          repository-name: mickjagger19/mickjagger19.github.io.git
-          branch: main # The branch the action should deploy to.
+          repository-name: mickjagger19/mickjagger19.github.io
+          branch: master # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
-          single-commit: true
+          single-commit: false
           commit-message: "Deploy by source"
