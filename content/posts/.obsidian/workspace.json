@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "0584cfed4673aad5",
+    "id": "6255c438a41a2c9c",
     "type": "split",
     "children": [
       {
-        "id": "c397e0ad874de7be",
+        "id": "c393d9ef5e2bc59b",
         "type": "tabs",
         "children": [
           {
-            "id": "9ae7677c5d05bcfc",
+            "id": "c27966a04a6960f5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -21,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3ee6ef38d3b4d5da",
+    "id": "013674fa0164f2be",
     "type": "split",
     "children": [
       {
-        "id": "b178d8c28c28b380",
+        "id": "701ad4c74d5dfc50",
         "type": "tabs",
         "children": [
           {
-            "id": "0b86655ee1075c4b",
+            "id": "5a898cbee46954c7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,20 +39,12 @@
             }
           },
           {
-            "id": "32ee1ab6a4f63cd2",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "37b6d9b49b7a841a",
+            "id": "3ddab42c64d29277",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "Edwin",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,15 +54,7 @@
             }
           },
           {
-            "id": "d896a8e527c5a931",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "d41d30311be6e68c",
+            "id": "1b8fe674311dbd5b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,18 +65,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 300
   },
   "right": {
-    "id": "47168004564bfdc1",
+    "id": "9d10b13830ecc31d",
     "type": "split",
     "children": [
       {
-        "id": "c1439c1b26f58d0f",
+        "id": "ee4b89e7cc7d517d",
         "type": "tabs",
         "children": [
           {
-            "id": "0f1e0218f17dee23",
+            "id": "2312d21259764c60",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -108,18 +92,18 @@
             }
           },
           {
-            "id": "26cb76cc8d628802",
+            "id": "d8ad60aeedf9133e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "4219f5305a9a85a0",
+            "id": "6fd4e9d602e0b5e5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -130,7 +114,7 @@
             }
           },
           {
-            "id": "8d7f3380461204a5",
+            "id": "0ff881bd10420141",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -142,39 +126,14 @@
             }
           },
           {
-            "id": "a1c8f73ba25f3c52",
+            "id": "e4a4ec9428f18d71",
             "type": "leaf",
             "state": {
-              "type": "file-properties",
-              "state": {}
-            }
-          },
-          {
-            "id": "5ffb0a8a39d77b8b",
-            "type": "leaf",
-            "state": {
-              "type": "QUICKSHARE_SIDE_VIEW",
-              "state": {}
-            }
-          },
-          {
-            "id": "c44494ea0aadbd80",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "ded227cf5dc2737c",
-            "type": "leaf",
-            "state": {
-              "type": "stats-view",
+              "type": "outline",
               "state": {}
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "horizontal",
@@ -183,21 +142,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "vscode-editor:Create Code File": false,
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false,
-      "notes-sync-share:Notes Sync": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "invio:Invio": false
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "9ae7677c5d05bcfc",
+  "active": "c27966a04a6960f5",
   "lastOpenFiles": [
-    "Work/全流程.md",
-    "Work",
+    "Music/Music of George Harrison.md",
     "Profile/Third-Person self-introduction.md",
     "Profile/Skills.md",
     "Profile/Role Numbers.md",
@@ -207,40 +164,13 @@
     "Leetcode/Miscellaneous.md",
     "Leetcode/Mathematical.md",
     "Leetcode/Intuitions.md",
-    "Leetcode/Basic Algorithms you must memorize.md",
     "Leetcode/Graph.md",
     "Leetcode/Data Structures.md",
     "Leetcode/DP.md",
     "Leetcode/Bit.md",
+    "Leetcode/Basic Algorithms you must memorize.md",
     "Leetcode/Algorithms.md",
     "Leetcode",
-    "AI/Agent/RAG.md",
-    "AI/Agent/LLM Powered Auto-Agent - A Survey.md",
-    "AI/Agent/Agent 的应用.md",
-    "AI/Agent",
-    "AI/Attention is All You Need.md",
-    "AI/Autonomous AGI.md",
-    "AI/CNN.md",
-    "AI/Dive Into Transformers.md",
-    "AI/DL theory.md",
-    "AI/Kaggle/Tricks.md",
-    "AI/Kaggle/Models.md",
-    "AI/Kaggle",
-    "AI/Misc.md",
-    "AI/thesis/Attention is All You Need.pdf",
-    "AI/thesis/Music Transformer.pdf",
-    "AI/thesis/MusicGen.pdf",
-    "AI/thesis/Relative Position Representations.pdf",
-    "AI/thesis",
-    "Attachments/Pasted image 20230325113448.png",
-    "Attachments/Pasted image 20230426192122.png",
-    "Attachments/Pasted image 20230426192143.png",
-    "Attachments/Pasted image 20230426192152.png",
-    "Attachments/Pasted image 20230426203158.png",
-    "Attachments/Pasted image 20230426203213.png",
-    "Attachments/Pasted image 20230426203231.png",
-    "Attachments/Pasted image 20230426214026.png",
-    "Attachments/Pasted image 20230426214037.png",
-    "Attachments/Pasted image 20230508195637.png"
+    "Music/Band Playlist.md"
   ]
 }
