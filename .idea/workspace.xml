@@ -12,9 +12,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca24e314-8070-49a5-8af0-d9cb02cb9702" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/hugo.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/hugo.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="ca24e314-8070-49a5-8af0-d9cb02cb9702" name="Changes" comment="vault backup: 2024-01-10 23:31:01" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,14 +227,6 @@
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1679141289380</updated>
-    </task>
-    <task id="LOCAL-00009" summary="merge with obsidian">
-      <option name="closed" value="true" />
-      <created>1704536686606</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1704536686606</updated>
     </task>
     <task id="LOCAL-00010" summary="merge with obsidian">
       <option name="closed" value="true" />
@@ -606,7 +596,31 @@
       <option name="project" value="LOCAL" />
       <updated>1704900496446</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="vault backup: 2024-01-10 23:31:01">
+      <option name="closed" value="true" />
+      <created>1704905524616</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1704905524616</updated>
+    </task>
+    <task id="LOCAL-00062" summary="vault backup: 2024-01-11 00:28:22">
+      <option name="closed" value="true" />
+      <created>1704904389157</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1704904389157</updated>
+    </task>
+    <task id="LOCAL-00063" summary="vault backup: 2024-01-11 00:28:22">
+      <option name="closed" value="true" />
+      <created>1704904447933</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1704904447933</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -667,9 +681,6 @@
       <path value="$PROJECT_DIR$/content/posts/Interview/Profile/Resume" />
       <path value="$PROJECT_DIR$/content/posts" />
     </ignored-roots>
-    <MESSAGE value="vault backup: 2023-07-26 23:21:08" />
-    <MESSAGE value="vault backup: 2023-09-20 22:24:57" />
-    <MESSAGE value="˚" />
     <MESSAGE value="vault backup: 2023-10-21 16:01:50&#10;init" />
     <MESSAGE value="vault backup: 2023-10-21 16:01:50&#10;vault backup: 2023-10-21 16:28:36" />
     <MESSAGE value="vault backup: 2023-10-21 16:01:50" />
@@ -692,6 +703,9 @@
     <MESSAGE value="fdsaf" />
     <MESSAGE value="update&#10;Highlight.js -&gt; Hugo's chromastyles (#1364)&#10;&#10;* remove hljs&#10;&#10;* rename var --hljs-bg to --code-block-bg&#10;&#10;* bundle chroma-styles from css/includes/chroma-styles.css&#10;&#10;* add compatibility fixes for papermod &lt;-&gt; chroma&#10;&#10;* fix line-num and line padding and set width for line container to 100%&#10;&#10;* After a lot of experimentation this compatiblity should work well&#10;&#10;* fix inline line highlights not working&#10;&#10;* Use catppuccin-macchiato as default theme with highlightStyle 'bg:#474733'&#10;&#10;- hugo gen chromastyles --style catppuccin-macchiato --highlightStyle 'bg:#474733' &gt; assets/css/includes/chroma-styles.css&#10;add icon: mdi:calendar-month" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="vault backup: 2024-01-11 00:02:26" />
+    <MESSAGE value="vault backup: 2024-01-11 00:28:22" />
+    <MESSAGE value="vault backup: 2024-01-10 23:31:01" />
+    <option name="LAST_COMMIT_MESSAGE" value="vault backup: 2024-01-10 23:31:01" />
   </component>
 </project>

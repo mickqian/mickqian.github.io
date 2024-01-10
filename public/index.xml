@@ -1,40 +1,1549 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mick&#39;s Blog</title>
     <link>https://mickjagger19.github.io/</link>
     <description>Recent content on Mick&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 06 Jan 2024 21:15:22 +0800</lastBuildDate>
-    <atom:link href="https://mickjagger19.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://mickjagger19.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bossa Nova Songs Progression</title>
-      <link>https://mickjagger19.github.io/posts/music/bossa-nova-songs-progression/</link>
-      <pubDate>Sat, 06 Jan 2024 21:15:22 +0800</pubDate>
-      <guid>https://mickjagger19.github.io/posts/music/bossa-nova-songs-progression/</guid>
-      <description>Chord progression of some well-known bossa-nova songs</description>
-    </item>
-    <item>
-      <title>Music of George Harrison</title>
-      <link>https://mickjagger19.github.io/posts/music/music-of-george-harrison/</link>
-      <pubDate>Sat, 06 Jan 2024 19:37:13 +0800</pubDate>
-      <guid>https://mickjagger19.github.io/posts/music/music-of-george-harrison/</guid>
-      <description>personal rankings of George Harrison&amp;rsquo;s Singles/Albums/Guitar Solos</description>
-    </item>
-    <item>
-      <title>Chord Progression</title>
-      <link>https://mickjagger19.github.io/posts/music/progression/</link>
-      <pubDate>Sat, 06 Jan 2024 00:35:53 +0800</pubDate>
-      <guid>https://mickjagger19.github.io/posts/music/progression/</guid>
-      <description>Frequently used chord progressions</description>
-    </item>
-    <item>
-      <title>Search</title>
-      <link>https://mickjagger19.github.io/search/</link>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/leetcode/algorithms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://mickjagger19.github.io/search/</guid>
-      <description>search</description>
+      
+      <guid>https://mickjagger19.github.io/posts/leetcode/algorithms/</guid>
+      <description>Sweep Line Meet In the Middle Find minimum diffs Calculate the sum, get the target, iterator num_cnt on one part of the half Partition Array Into Two Arrays to Minimize Sum Difference Kadane&amp;rsquo;s Algorithm Maximum Subarray, find the subarray with the largest sum, and return its sum Just like sliding window, but in this case, the sum of the subarray is calculated. So when current subarray&amp;rsquo;s sum is negative, instead of moving the start pointer forward until invalid, the remaining window is always empty, so we should set the start pointer to current end pointer Applies to all kinds of subarray, counting the max subarray value(could be occurence) Maximum subarray problem</description>
+      <content:encoded><![CDATA[<h2 id="sweep-line">Sweep Line</h2>
+<h2 id="meet-in-the-middle">Meet In the Middle</h2>
+<ul>
+<li>
+<ul>
+<li>Find minimum diffs</li>
+<li>Calculate the sum, get the target, iterator num_cnt on one part of the half</li>
+<li><a href="https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/description/">Partition Array Into Two Arrays to Minimize Sum Difference</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</li>
+</ul>
+<h2 id="kadanes-algorithm">Kadane&rsquo;s Algorithm</h2>
+<ul>
+<li>
+<ul>
+<li>Maximum Subarray, find the subarray with the largest sum, and return its sum</li>
+<li>Just like sliding window, but in this case, the sum of the subarray is calculated. So when current subarray&rsquo;s sum is negative, instead of moving the start pointer forward until invalid, the remaining window is always empty, so we should set the start pointer to current end pointer</li>
+<li>Applies to all kinds of subarray, counting the max subarray value(could be occurence)</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://en.wikipedia.org/wiki/Maximum_subarray_problem">Maximum subarray problem</a></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">max_subarray</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&amp;</span> <span class="n">numbers</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// Find the largest sum of any contiguous subarray.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kt">int</span> <span class="n">best_sum</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">current_sum</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="nl">x</span> <span class="p">:</span> <span class="n">numbers</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="n">current_sum</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">current_sum</span> <span class="o">+</span> <span class="n">x</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">best_sum</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span><span class="n">best_sum</span><span class="p">,</span> <span class="n">current_sum</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">best_sum</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h2 id="sliding-window">Sliding Window</h2>
+<p>To find range that meets requirement
+Valid, when :</p>
+<ol>
+<li>after a valid window, the end pointer needs to move forward to accept new elements</li>
+<li>when the end pointer moves forward, the start pointer has to move forward to make the window valid again.</li>
+</ol>
+<ul>
+<li>
+<ul>
+<li>Find minimum diffs</li>
+<li>Calculate the sum, get the target, iterator num_cnt on one part of the half</li>
+<li><a href="https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/description/">Partition Array Into Two Arrays to Minimize Sum Difference</a></li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">long</span> <span class="kt">long</span> <span class="nf">countSubarrays</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&amp;</span> <span class="n">nums</span><span class="p">,</span> <span class="kt">long</span> <span class="kt">long</span> <span class="n">k</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">long</span> <span class="kt">long</span> <span class="n">sum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">res</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">nums</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">sum</span> <span class="o">+=</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="p">(</span><span class="n">sum</span> <span class="o">*</span> <span class="p">(</span><span class="n">i</span> <span class="o">-</span> <span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">k</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">sum</span> <span class="o">-=</span> <span class="n">nums</span><span class="p">[</span><span class="n">j</span><span class="o">++</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="n">res</span> <span class="o">+=</span> <span class="n">i</span> <span class="o">-</span> <span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">res</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h2 id="merge-sorts">Merge Sorts</h2>
+<p>merge process naturally fetch every two items from two sorted sub-arrays, and <strong>each</strong> item get to combined each item from the right at least once.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">mid</span> <span class="o">=</span> <span class="p">(</span> <span class="n">i</span> <span class="o">+</span> <span class="n">n</span> <span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="n">mid</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">while</span> <span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="n">mid</span> <span class="o">&amp;&amp;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">		<span class="c1">// each i in 0~mid have at least one combination to mid~n - 1
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="k">if</span> <span class="p">(</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="o">++</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">nums</span><span class="p">[</span><span class="n">j</span><span class="o">++</span><span class="p">]){</span>
+</span></span><span class="line"><span class="cl">		<span class="n">temp</span><span class="p">[</span><span class="n">cnt</span><span class="o">++</span><span class="p">]</span> <span class="o">=</span> <span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="o">++</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="n">temp</span><span class="p">[</span><span class="n">cnt</span><span class="o">++</span><span class="p">]</span> <span class="o">=</span> <span class="n">nums</span><span class="p">[</span><span class="n">j</span><span class="o">++</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h2 id="boyer-morre-majority-vote">Boyer-Morre majority Vote</h2>
+<p>for elements appear at least n / k times, maintain k candidates:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="k">for</span> <span class="p">(</span><span class="k">auto</span><span class="o">&amp;</span> <span class="nl">num</span> <span class="p">:</span> <span class="n">nums</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="p">(</span><span class="k">auto</span><span class="o">&amp;</span> <span class="p">[</span><span class="n">can</span><span class="p">,</span><span class="n">cnt</span><span class="p">]</span><span class="o">:</span> <span class="n">candidates</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">		<span class="k">if</span> <span class="p">(</span><span class="n">cnt</span> <span class="o">==</span> <span class="mi">0</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">			<span class="n">can</span> <span class="o">=</span> <span class="n">num</span><span class="p">,</span> <span class="n">cnt</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// check if the candidate appears at leask k times
+</span></span></span></code></pre></div><h2 id="kmp">KMP</h2>
+<p>Generate the table</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl">	<span class="c1">// kmp: [the index of the matching string] = [the index in the pattern string]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">kmp</span><span class="p">(</span><span class="n">evil</span><span class="p">.</span><span class="n">size</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">kmp</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="o">++</span><span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">evil</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="n">evil</span><span class="p">[</span><span class="n">j</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">            <span class="n">kmp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="o">++</span><span class="n">j</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span> <span class="nf">if</span> <span class="p">(</span><span class="n">j</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">j</span> <span class="o">=</span> <span class="n">kmp</span><span class="p">[</span><span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">// recursive step back, to get the max matching len
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="o">--</span><span class="n">i</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span></code></pre></div><p>use the table as a tool, to determine if a string contains a pattern</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl">      <span class="k">while</span> <span class="p">(</span><span class="n">n_ep</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">ch</span> <span class="o">!=</span> <span class="n">evil</span><span class="p">[</span><span class="n">n_ep</span><span class="p">]){</span>
+</span></span><span class="line"><span class="cl">	     <span class="c1">// calculate the max matching len of the character
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>         <span class="n">n_ep</span> <span class="o">=</span> <span class="n">kmp</span><span class="p">[</span><span class="n">n_ep</span> <span class="o">-</span> <span class="mi">1</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">	 <span class="p">}</span>
+</span></span></code></pre></div><h2 id="rabin-karp">Rabin-Karp</h2>
+<p>To check existence of  <strong>exactly equal</strong> substrings
+Time Complexity: O(len)
+Rolling-hash to encode the seen string pattern in the set, check each hash value with the set</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">	<span class="n">hash</span> <span class="o">=</span> <span class="p">(</span><span class="n">hash</span> <span class="o">*</span> <span class="mi">26</span> <span class="o">+</span> <span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="n">s</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="n">k</span><span class="p">]</span> <span class="o">*</span> <span class="n">pow</span><span class="p">(</span><span class="mi">26</span><span class="p">,</span> <span class="n">p</span><span class="p">))</span> <span class="o">%</span> <span class="n">mod</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><ul>
+<li>
+<ul>
+<li>Find the longest duplicate substring</li>
+<li>Binary Search + Rabin-Karp will do</li>
+<li><a href="https://leetcode.com/problems/longest-duplicate-substring/solutions/?orderBy=most_votes">Longest Duplicate Substring</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="reservior-sampling">Reservior Sampling</h2>
+<p>chance of placing cur item into reservior is $reservior_cnt/item_index$</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="p">(</span><span class="o">*</span> <span class="n">S</span> <span class="n">has</span> <span class="n">items</span> <span class="n">to</span> <span class="n">sample</span><span class="p">,</span> <span class="n">R</span> <span class="n">will</span> <span class="n">contain</span> <span class="n">the</span> <span class="n">result</span> <span class="o">*</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ReservoirSample</span><span class="p">(</span><span class="n">S</span><span class="p">[</span><span class="mf">1.</span><span class="p">.</span><span class="n">n</span><span class="p">],</span> <span class="n">R</span><span class="p">[</span><span class="mf">1.</span><span class="p">.</span><span class="n">k</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// fill the reservoir array
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">for</span> <span class="nl">i</span> <span class="p">:</span><span class="o">=</span> <span class="mi">1</span> <span class="n">to</span> <span class="n">k</span>
+</span></span><span class="line"><span class="cl">      <span class="n">R</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">:=</span> <span class="n">S</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1">// replace elements with gradually decreasing probability
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">for</span> <span class="nl">i</span> <span class="p">:</span><span class="o">=</span> <span class="n">k</span><span class="o">+</span><span class="mi">1</span> <span class="n">to</span> <span class="n">n</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// (* randomInteger(a, b) generates a uniform integer from the inclusive range {a, ..., b} *)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nl">j</span> <span class="p">:</span><span class="o">=</span> <span class="n">randomInteger</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">j</span> <span class="o">&lt;=</span> <span class="n">k</span>
+</span></span><span class="line"><span class="cl">        <span class="n">R</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">:=</span> <span class="n">S</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span></span></code></pre></div><h2 id="binomial-coefficients">Binomial Coefficients</h2>
+<p>Stars and Bars: placing m bars in n numbers = choosing n locations from m = number of partition array of n into m <strong>subarray</strong></p>
+<p>Forming an array of size n, with m consecutive unique numbers = placing m bars as transition in n numbers</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl">	<span class="c1">// pascal&#39;s triangle
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">s</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">s</span> <span class="o">&lt;=</span> <span class="n">m</span><span class="p">;</span> <span class="o">++</span><span class="n">s</span><span class="p">)</span> <span class="c1">// nCr (comb)  
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">r</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">r</span> <span class="o">&lt;=</span> <span class="n">n</span> <span class="p">;</span> <span class="o">++</span><span class="n">r</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">	        <span class="n">comb</span><span class="p">[</span><span class="n">s</span><span class="p">][</span><span class="n">r</span><span class="p">]</span> <span class="o">=</span> <span class="n">r</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">?</span> <span class="mi">1</span> <span class="o">:</span> <span class="p">(</span><span class="n">comb</span><span class="p">[</span><span class="n">s</span> <span class="o">-</span> <span class="mi">1</span><span class="p">][</span><span class="n">r</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">comb</span><span class="p">[</span><span class="n">s</span> <span class="o">-</span> <span class="mi">1</span><span class="p">][</span><span class="n">r</span><span class="p">])</span> <span class="o">%</span> <span class="n">mod</span><span class="p">;</span> <span class="p">}</span>
+</span></span></code></pre></div><p><a href="https://leetcode.com/problems/count-the-number-of-ideal-arrays/solutions/2265366/sieve-of-eratosthenes-o-maxvalue/?orderBy=most_votes">Count the Number of Ideal Arrays</a></p>
+<h2 id="permutation">Permutation</h2>
+<ul>
+<li>
+<ul>
+<li>Permutation of index</li>
+<li>Recusive with bitmask, finding the next ununsed index</li>
+<li><a href="https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/solutions/1238641/bit-mask/?orderBy=most_votes">Minimum XOR SUM Of Two Arrays</a></li>
+</ul>
+</li>
+</ul>
+<p><code>std::next_permutation</code></p>
+<h2 id="lis">LIS</h2>
+<ol>
+<li>
+<p>dp1:</p>
+<ul>
+<li>
+<p>状态：以 a[i] 结尾的 LIS</p>
+</li>
+<li>
+<p>转移： dp[i] = arr[i] &gt; arr[j] ? arr[j + 1]</p>
+</li>
+<li>
+<p>复杂度：O(N^2)</p>
+</li>
+</ul>
+</li>
+<li>
+<p>dp2:</p>
+<ul>
+<li>
+<p>状态：a[i] 之前的，长度为 i + 1，末尾元素最小的 的 LIS</p>
+</li>
+<li>
+<p>转移：</p>
+<ul>
+<li>每次将 a[i] 插入序列即可</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>复杂度：O(NlogN)</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl">    <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">dp</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">INT_MAX</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">pos</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>    <span class="c1">// 记录dp当前最后一位的下标
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">dp</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="n">nums</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">           <span class="k">if</span><span class="p">(</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">&gt;=</span><span class="n">dp</span><span class="p">[</span><span class="n">pos</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">               <span class="c1">// 组成更长的子序列
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>               <span class="n">dp</span><span class="p">[</span><span class="o">++</span><span class="n">pos</span><span class="p">]</span><span class="o">=</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">           <span class="k">else</span>
+</span></span><span class="line"><span class="cl">               <span class="c1">// 当前值更小，替换子序列串
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>       <span class="n">dp</span><span class="p">[</span><span class="n">lower_bound</span><span class="p">(</span><span class="n">dp</span><span class="p">,</span><span class="n">dp</span><span class="o">+</span><span class="n">pos</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="o">-</span><span class="n">dp</span><span class="p">]</span><span class="o">=</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">pos</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span></code></pre></div><h2 id="suffix-array">Suffix Array</h2>
+<p>Sort all suffix substrings by starting index
+Usage:</p>
+<ul>
+<li>compare substrings</li>
+<li></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// Structure to store information of a suffix
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">struct</span> <span class="nc">suffix</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">int</span> <span class="n">index</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">char</span> <span class="o">*</span><span class="n">suff</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// A comparison function used by sort() to compare two suffixes
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="nf">cmp</span><span class="p">(</span><span class="k">struct</span> <span class="nc">suffix</span> <span class="n">a</span><span class="p">,</span> <span class="k">struct</span> <span class="nc">suffix</span> <span class="n">b</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="n">strcmp</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">suff</span><span class="p">,</span> <span class="n">b</span><span class="p">.</span><span class="n">suff</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="o">?</span> <span class="mi">1</span> <span class="o">:</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// This is the main function that takes a string &#39;txt&#39; of size n as an
+</span></span></span><span class="line"><span class="cl"><span class="c1">// argument, builds and return the suffix array for the given string
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="o">*</span><span class="nf">buildSuffixArray</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">txt</span><span class="p">,</span> <span class="kt">int</span> <span class="n">n</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// A structure to store suffixes and their indexes
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="k">struct</span> <span class="nc">suffix</span> <span class="n">suffixes</span><span class="p">[</span><span class="n">n</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="c1">// Store suffixes and their indexes in an array of structures.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="c1">// The structure is needed to sort the suffixes alphabetically
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="c1">// and maintain their old indexes while sorting
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="n">suffixes</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">index</span> <span class="o">=</span> <span class="n">i</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="n">suffixes</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">suff</span> <span class="o">=</span> <span class="p">(</span><span class="n">txt</span><span class="o">+</span><span class="n">i</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="c1">// Sort the suffixes using the comparison function
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="c1">// defined above.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="n">sort</span><span class="p">(</span><span class="n">suffixes</span><span class="p">,</span> <span class="n">suffixes</span><span class="o">+</span><span class="n">n</span><span class="p">,</span> <span class="n">cmp</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="c1">// Store indexes of all sorted suffixes in the suffix array
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="kt">int</span> <span class="o">*</span><span class="n">suffixArr</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="p">[</span><span class="n">n</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="n">suffixArr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">suffixes</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">index</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="c1">// Return the suffix array
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="k">return</span> <span class="n">suffixArr</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h2 id="z-function">Z-function</h2>
+<h2 id="re-rooting">Re Rooting</h2>
+<p>It says so on the post:</p>
+<blockquote>
+<ol>
+<li>Arbitrary root the tree, lets take <code>node 0</code> for explanation.</li>
+<li>Solve the given problem as if it was rooted at <code>node 0</code>.</li>
+<li>Similarily solve the problem for all nodes</li>
+</ol>
+</blockquote>
+<p>But I think it&rsquo;s still very vague.</p>
+<p>DFS for once, use information from previous visit, to simulate differnt roots
+*
+*  Max Root Path Sum - Root
+*  ans[i] = max(subtree sum, parent and its other subtree sum) - v[i]
+* <a href="https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/solutions/3052596/re-rooting-o-n-explained/?orderBy=most_votes">Difference Between Maximum and Minimum Price Sum</a></p>
+<ul>
+<li>
+<ul>
+<li>Possible roots, given at least k of the parent-children query is correct( what the heck is this problem? )</li>
+<li>Follow the steps, (1). assume 0 as the root, (2). calculate correct guess (3). DFS. While visiting a new child, correct guess changes atmost 1, updating corrent gusses and update final answer</li>
+<li><a href="https://leetcode.com/problems/count-number-of-possible-root-nodes/solutions/3256065/re-rooting-o-n-explained/?orderBy=most_votes">Count Number of Possible Root Nodes</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="eulerian-path">Eulerian Path</h2>
+<ul>
+<li>A graph has an Eulerian Path if and only if
+<ol>
+<li>we have <code>out[i] == in[i]</code> for each node <code>i</code>. Or</li>
+<li>we have <code>out[i] == in[i]</code> for all nodes <code>i</code> except <strong>exactly two</strong> nodes <code>x</code> and <code>y</code>, with <code>out[x] = in[x] + 1</code>, <code>out[y] = in[y] - 1</code>, where x being the head, y being the tail</li>
+</ol>
+</li>
+</ul>
+<h2 id="hamilton-path">Hamilton Path</h2>
+<h2 id="de-brujin">De Brujin</h2>
+]]></content:encoded>
     </item>
+    
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/leetcode/basic-algorithms-you-must-memorize/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/leetcode/basic-algorithms-you-must-memorize/</guid>
+      <description>Consider Aspects Every thing appears on the problems, Number of steps/Complete Gardens/cost, even the possibilities of given edges
+And choose the one with minimum possibilites:
+if the range of number is limited, but there might be many of them, why not use map/set/bitset to track the occurence of them ? Always consider if iterate over the aspects if possible Monotonic Queue A queue which:
+the attribute A of items is monotonic, and unique the attribute B of items is also monotonic It neglects all items smaller than before, since they are useless.</description>
+      <content:encoded><![CDATA[<h2 id="consider-aspects">Consider Aspects</h2>
+<p>Every thing appears on the problems, Number of steps/Complete Gardens/cost, even the possibilities of given edges</p>
+<p>And choose the one with minimum possibilites:</p>
+<ol>
+<li>if the range of number is limited, but there might be many of them, why not use map/set/bitset to track the occurence of them ?</li>
+<li>Always consider if iterate over the aspects if possible</li>
+</ol>
+<h3 id="monotonic-queue">Monotonic Queue</h3>
+<p>A queue which:</p>
+<ul>
+<li>the attribute A of items is monotonic, and unique</li>
+<li>the attribute B of items is also monotonic</li>
+</ul>
+<p>It neglects all items smaller than before, since they are useless.</p>
+<p>Attribute:</p>
+<ul>
+<li>the item at the beginning is the max one in a range, if the begining one gets poped when the window left</li>
+<li>the adjacent items are the next smaller/bigger one to each other</li>
+<li>while pushing new item, the new value is the next bigger one to the value being pushed</li>
+</ul>
+<p>Can be used to solve questions like</p>
+<ul>
+<li>sliding window with max/min values: the index of the max value is always kept at the beginning. If there is some bigger items with bigger index, the smaller in-between items are useless, because they will not be max values before the bigger items are removed, when they will be removed before.</li>
+<li>next index with bigger value: after removing smaller value in the end, the new value is the next-bigger value of the last value in queue</li>
+<li>LIS: the queue maintains the items of increasing items, in order</li>
+</ul>
+<h3 id="parametric-search">Parametric Search</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">splitArray</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">],</span> <span class="n">m</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">lo</span><span class="p">,</span> <span class="n">hi</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">nums</span><span class="p">),</span> <span class="nb">sum</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="n">lo</span> <span class="o">&lt;</span> <span class="n">hi</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">mid</span> <span class="o">=</span> <span class="p">(</span><span class="n">lo</span><span class="o">+</span><span class="n">hi</span><span class="p">)</span><span class="o">//</span><span class="mi">2</span>
+</span></span><span class="line"><span class="cl">            <span class="n">tot</span><span class="p">,</span> <span class="n">cnt</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">nums</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="n">tot</span><span class="o">+</span><span class="n">num</span><span class="o">&lt;=</span><span class="n">mid</span><span class="p">:</span> 
+</span></span><span class="line"><span class="cl">                    <span class="n">tot</span> <span class="o">+=</span> <span class="n">num</span>
+</span></span><span class="line"><span class="cl">                <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">tot</span> <span class="o">=</span> <span class="n">num</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">cnt</span> <span class="o">+=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">cnt</span><span class="o">&gt;</span><span class="n">m</span><span class="p">:</span> <span class="n">lo</span> <span class="o">=</span> <span class="n">mid</span><span class="o">+</span><span class="mi">1</span>
+</span></span><span class="line"><span class="cl">            <span class="k">else</span><span class="p">:</span> <span class="n">hi</span> <span class="o">=</span> <span class="n">mid</span>
+</span></span></code></pre></div><h3 id="a-starheuristic">A star(Heuristic)</h3>
+<p>pursuit: <strong>finds the shortest path from a specified source to a specified goal</strong></p>
+<ol>
+<li>Roughly speaking, A* is a BFS with customized priority for selecting a node to expand; the priority is to select the lowest f()=heuristic()+cost()</li>
+<li>A heuristic function is admissible if: it&rsquo;s always a lower bound of the actual cost from current state to target state (in this example, manhatten distance is admissible)</li>
+<li>An important theorem: If heuristic function is admissible, then A* is guaranteed to find the optimal path</li>
+</ol>
+<p>$$ f(n) = g(n) + h(n) $$, where:</p>
+<ul>
+<li>f(n): priority of n</li>
+<li>g(n): distance from start to n</li>
+<li>h(n): distance from n to target</li>
+</ul>
+<pre tabindex="0"><code class="language-pseudocode" data-lang="pseudocode">function reconstruct_path(cameFrom, current)
+    total_path := {current}
+    while current in cameFrom.Keys:
+        current := cameFrom[current]
+        total_path.prepend(current)
+    return total_path
+
+function A_Star(start, goal, h)
+    openSet := {start}
+
+    // For node n, cameFrom[n] is the node immediately preceding it on the cheapest path from start
+    // to n currently known.
+    cameFrom := an empty map
+
+    // For node n, gScore[n] is the cost of the cheapest path from start to n currently known.
+    gScore := map with default value of Infinity
+    gScore[start] := 0
+
+    fScore := map with default value of Infinity
+    fScore[start] := h(start)
+
+    while openSet is not empty
+        // This operation can occur in O(Log(N)) time if openSet is a min-heap or a priority queue
+        current := the node in openSet having the lowest f(n) value
+        if current = target
+            return reconstruct_path(cameFrom, current)
+
+        openSet.Remove(current)
+        for each neighbor of current
+            // d(current,neighbor) is the weight of the edge from current to neighbor
+            // tentative_gScore is the distance from start to the neighbor through current
+            tentative_gScore := gScore[current] + d(current, neighbor)
+            if tentative_gScore &lt; gScore[neighbor]
+                // This path to neighbor is better than any previous one. Record it!
+                cameFrom[neighbor] := current
+                gScore[neighbor] := tentative_gScore
+                fScore[neighbor] := tentative_gScore + h(neighbor)
+                if neighbor not in openSet
+                    openSet.add(neighbor)
+
+    // Open set is empty but goal was never reached
+    return failure
+</code></pre><h3 id="floyd-warshall-algorithm">Floyd-Warshall Algorithm</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="k">for</span> <span class="p">(</span><span class="k">auto</span><span class="o">&amp;</span> <span class="nl">e</span> <span class="p">:</span> <span class="n">edges</span><span class="p">)</span> 
+</span></span><span class="line"><span class="cl">            <span class="n">dist</span><span class="p">[</span><span class="n">e</span><span class="p">[</span><span class="mi">0</span><span class="p">]][</span><span class="n">e</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span> <span class="o">=</span> <span class="n">dist</span><span class="p">[</span><span class="n">e</span><span class="p">[</span><span class="mi">1</span><span class="p">]][</span><span class="n">e</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">k</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">k</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">k</span><span class="o">++</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">       <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">j</span><span class="o">++</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">           <span class="n">dist</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">min</span><span class="p">(</span><span class="n">dist</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">],</span> <span class="n">dist</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">k</span><span class="p">]</span> <span class="o">+</span> <span class="n">dist</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="n">j</span><span class="p">]);</span>
+</span></span></code></pre></div><h3 id="traveling-salesman">Traveling Salesman</h3>
+<p>directed graph shortest path of Hamilton path</p>
+<h3 id="sequence">Sequence</h3>
+<h4 id="lcs">LCS</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">find_lcsubstr</span><span class="p">(</span><span class="n">s1</span><span class="p">,</span> <span class="n">s2</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">m</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">0</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">s2</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)]</span> <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">s1</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)]</span>  <span class="c1"># 生成0矩阵，为方便后续计算，比字符串长度多了一列</span>
+</span></span><span class="line"><span class="cl">    <span class="n">mmax</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># 最长匹配的长度</span>
+</span></span><span class="line"><span class="cl">    <span class="n">p</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># 最长匹配对应在s1中的最后一位</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">s1</span><span class="p">)):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">s2</span><span class="p">)):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">s1</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="n">s2</span><span class="p">[</span><span class="n">j</span><span class="p">]:</span> <span class="c1"># 如果相等，则加入现有的公共子串</span>
+</span></span><span class="line"><span class="cl">                <span class="n">m</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">][</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">m</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="n">m</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">][</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">mmax</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">mmax</span> <span class="o">=</span> <span class="n">m</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">][</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">p</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">s1</span><span class="p">[</span><span class="n">p</span> <span class="o">-</span> <span class="n">mmax</span><span class="p">:</span><span class="n">p</span><span class="p">],</span> <span class="n">mmax</span>  <span class="c1"># 返回最长子串及其长度</span>
+</span></span></code></pre></div><h3 id="lcp">LCP</h3>
+<h3 id="lis">LIS</h3>
+<p>可用于所有 Ord,  if  $Ord[i, j] &amp; Ord[j, k]$, then  $$Ord[i, k] $$</p>
+<ol>
+<li>
+<p>dp1:</p>
+<ul>
+<li>
+<p>状态：以 a[i] 结尾的 LIS</p>
+</li>
+<li>
+<p>转移： dp[i] = arr[i] &gt; arr[j] ? arr[j + 1]</p>
+</li>
+<li>
+<p>复杂度：O(N^2)</p>
+</li>
+</ul>
+</li>
+<li>
+<p>dp2:</p>
+<ul>
+<li>
+<p>状态：a[i] 之前的，长度为 i + 1，末尾元素最小的 的 LIS</p>
+</li>
+<li>
+<p>转移：</p>
+<ul>
+<li>每次将 a[i] 插入序列即可</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>复杂度：O(NlogN)</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl">    <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">dp</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">INT_MAX</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">pos</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>    <span class="c1">// 记录dp当前最后一位的下标
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">dp</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="n">nums</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">           <span class="k">if</span><span class="p">(</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">&gt;=</span><span class="n">dp</span><span class="p">[</span><span class="n">pos</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">               <span class="c1">// 组成更长的子序列
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>               <span class="n">dp</span><span class="p">[</span><span class="o">++</span><span class="n">pos</span><span class="p">]</span><span class="o">=</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">           <span class="k">else</span>
+</span></span><span class="line"><span class="cl">               <span class="c1">// 当前值更小，替换子序列串
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>       <span class="n">dp</span><span class="p">[</span><span class="n">lower_bound</span><span class="p">(</span><span class="n">dp</span><span class="p">,</span><span class="n">dp</span><span class="o">+</span><span class="n">pos</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="o">-</span><span class="n">dp</span><span class="p">]</span><span class="o">=</span><span class="n">nums</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">pos</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span><span class="err">```</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cp">### KMP
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cp">### Divisors
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="err">```</span><span class="n">c</span><span class="o">++</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">gcd</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="k">return</span> <span class="nf">gcd</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">a</span> <span class="o">%</span> <span class="n">b</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="k">return</span> <span class="n">b</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nf">gcd</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span> <span class="o">%</span> <span class="n">b</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/leetcode/bit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/leetcode/bit/</guid>
+      <description>Bit Mask CLRS book</description>
+      <content:encoded><![CDATA[<h2 id="bit-mask">Bit Mask</h2>
+<ul>
+<li>
+<ul>
+<li></li>
+<li></li>
+</ul>
+</li>
+</ul>
+<p>CLRS book</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/leetcode/data-structures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/leetcode/data-structures/</guid>
+      <description>相对顺序 + 值顺序： Monotonic Queue
+Fenwick tree struct BIT { vector&amp;lt;int&amp;gt; arr; int N; BIT(int n) { N = n + 1; arr = vector&amp;lt;int&amp;gt;(N, 0); } void add(int i) { i += 1; while (i &amp;lt; N) { arr[i] += 1; i += i &amp;amp; (-i); } } int query(int i) { int sum = 0; while (i &amp;gt; 0) { sum += arr[i]; i = i &amp;amp; (i - 1); } return sum; } }; Segment Tree class SegmentTree { public: int n; vector&amp;lt;int&amp;gt; tree; MaxSegmentTree(int n_) : n(n_) { int size = (int)(ceil(log2(n))); size = (2 * pow(2, size)) - 1; tree = vector&amp;lt;int&amp;gt;(size); } int max_value() { return tree[0]; } int query(int l, int r) { return query_util(0, l, r, 0, n - 1); } int query_util(int i, int qL, int qR, int l, int r) { if (l &amp;gt;= qL &amp;amp;&amp;amp; r &amp;lt;= qR) return tree[i]; if (l &amp;gt; qR || r &amp;lt; qL) return INT_MIN; int m = (l + r) / 2; return max(query_util(2 * i + 1, qL, qR, l, m), query_util(2 * i + 2, qL, qR, m + 1, r)); } void update(int i, int val) { update_util(0, 0, n - 1, i, val); } void update_util(int i, int l, int r, int pos, int val) { if (pos &amp;lt; l || pos &amp;gt; r) return; if (l == r) { tree[i] = max(val, tree[i]); return; } int m = (l + r) / 2; update_util(2 * i + 1, l, m, pos, val); update_util(2 * i + 2, m + 1, r, pos, val); tree[i] = max(tree[2 * i + 1], tree[2 * i + 2]); } }; Trie class TrieNode { public: TrieNode* child[26]; int count; TrieNode* insert(int c){ if (child[c] == nullptr){ child[c] = new TrieNode(); } return child[c]; } }; void build(const string &amp;amp;word) { auto ptr = root; for (char ch: word) { int idx = ch - &amp;#39;a&amp;#39;; ptr = ptr-&amp;gt;insert(idx); ptr-&amp;gt;count++; } } Disjoint Set(aka Union-Find) class UnionFind { private: vector&amp;lt;int&amp;gt; parent, rank; public: UnionFind(int size) { parent.</description>
+      <content:encoded><![CDATA[<p>相对顺序 + 值顺序： Monotonic Queue</p>
+<h3 id="fenwick-tree">Fenwick tree</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="k">struct</span> <span class="nc">BIT</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">arr</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">N</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">BIT</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">N</span> <span class="o">=</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">arr</span> <span class="o">=</span> <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">(</span><span class="n">N</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kt">void</span> <span class="nf">add</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="n">N</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">i</span> <span class="o">+=</span> <span class="n">i</span> <span class="o">&amp;</span> <span class="p">(</span><span class="o">-</span><span class="n">i</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="nf">query</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">sum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="p">(</span><span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">sum</span> <span class="o">+=</span> <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">            <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">sum</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span></code></pre></div><h3 id="segment-tree">Segment Tree</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">SegmentTree</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"> <span class="k">public</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">tree</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">MaxSegmentTree</span><span class="p">(</span><span class="kt">int</span> <span class="n">n_</span><span class="p">)</span> <span class="o">:</span> <span class="n">n</span><span class="p">(</span><span class="n">n_</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">size</span> <span class="o">=</span> <span class="p">(</span><span class="kt">int</span><span class="p">)(</span><span class="n">ceil</span><span class="p">(</span><span class="n">log2</span><span class="p">(</span><span class="n">n</span><span class="p">)));</span>
+</span></span><span class="line"><span class="cl">    <span class="n">size</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">pow</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">size</span><span class="p">))</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">tree</span> <span class="o">=</span> <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="p">(</span><span class="n">size</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="nf">max_value</span><span class="p">()</span> <span class="p">{</span> <span class="k">return</span> <span class="n">tree</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="nf">query</span><span class="p">(</span><span class="kt">int</span> <span class="n">l</span><span class="p">,</span> <span class="kt">int</span> <span class="n">r</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="n">query_util</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="nf">query_util</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">,</span> <span class="kt">int</span> <span class="n">qL</span><span class="p">,</span> <span class="kt">int</span> <span class="n">qR</span><span class="p">,</span> <span class="kt">int</span> <span class="n">l</span><span class="p">,</span> <span class="kt">int</span> <span class="n">r</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">l</span> <span class="o">&gt;=</span> <span class="n">qL</span> <span class="o">&amp;&amp;</span> <span class="n">r</span> <span class="o">&lt;=</span> <span class="n">qR</span><span class="p">)</span> <span class="k">return</span> <span class="n">tree</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">l</span> <span class="o">&gt;</span> <span class="n">qR</span> <span class="o">||</span> <span class="n">r</span> <span class="o">&lt;</span> <span class="n">qL</span><span class="p">)</span> <span class="k">return</span> <span class="n">INT_MIN</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">m</span> <span class="o">=</span> <span class="p">(</span><span class="n">l</span> <span class="o">+</span> <span class="n">r</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">max</span><span class="p">(</span><span class="n">query_util</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">qL</span><span class="p">,</span> <span class="n">qR</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">m</span><span class="p">),</span> <span class="n">query_util</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">2</span><span class="p">,</span> <span class="n">qL</span><span class="p">,</span> <span class="n">qR</span><span class="p">,</span> <span class="n">m</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">r</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="kt">void</span> <span class="nf">update</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">,</span> <span class="kt">int</span> <span class="n">val</span><span class="p">)</span> <span class="p">{</span> <span class="n">update_util</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">val</span><span class="p">);</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">void</span> <span class="nf">update_util</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">,</span> <span class="kt">int</span> <span class="n">l</span><span class="p">,</span> <span class="kt">int</span> <span class="n">r</span><span class="p">,</span> <span class="kt">int</span> <span class="n">pos</span><span class="p">,</span> <span class="kt">int</span> <span class="n">val</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">pos</span> <span class="o">&lt;</span> <span class="n">l</span> <span class="o">||</span> <span class="n">pos</span> <span class="o">&gt;</span> <span class="n">r</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">l</span> <span class="o">==</span> <span class="n">r</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="n">tree</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span><span class="n">val</span><span class="p">,</span> <span class="n">tree</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">      <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">m</span> <span class="o">=</span> <span class="p">(</span><span class="n">l</span> <span class="o">+</span> <span class="n">r</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">update_util</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">val</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">update_util</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">2</span><span class="p">,</span> <span class="n">m</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">val</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">tree</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span><span class="n">tree</span><span class="p">[</span><span class="mi">2</span> <span class="o">*</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">],</span> <span class="n">tree</span><span class="p">[</span><span class="mi">2</span> <span class="o">*</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">2</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span></code></pre></div><h3 id="trie">Trie</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">TrieNode</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="k">public</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">TrieNode</span><span class="o">*</span> <span class="n">child</span><span class="p">[</span><span class="mi">26</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">count</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="n">TrieNode</span><span class="o">*</span> <span class="nf">insert</span><span class="p">(</span><span class="kt">int</span> <span class="n">c</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">child</span><span class="p">[</span><span class="n">c</span><span class="p">]</span> <span class="o">==</span> <span class="k">nullptr</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">            <span class="n">child</span><span class="p">[</span><span class="n">c</span><span class="p">]</span> <span class="o">=</span> <span class="k">new</span> <span class="n">TrieNode</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">child</span><span class="p">[</span><span class="n">c</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">build</span><span class="p">(</span><span class="k">const</span> <span class="n">string</span> <span class="o">&amp;</span><span class="n">word</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">auto</span> <span class="n">ptr</span> <span class="o">=</span> <span class="n">root</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">char</span> <span class="nl">ch</span><span class="p">:</span> <span class="n">word</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">       <span class="kt">int</span> <span class="n">idx</span> <span class="o">=</span> <span class="n">ch</span> <span class="o">-</span> <span class="sc">&#39;a&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	   <span class="n">ptr</span> <span class="o">=</span> <span class="n">ptr</span><span class="o">-&gt;</span><span class="n">insert</span><span class="p">(</span><span class="n">idx</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">       <span class="n">ptr</span><span class="o">-&gt;</span><span class="n">count</span><span class="o">++</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="disjoint-setaka-union-find">Disjoint Set(aka Union-Find)</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">UnionFind</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="k">private</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">parent</span><span class="p">,</span> <span class="n">rank</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">public</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">UnionFind</span><span class="p">(</span><span class="kt">int</span> <span class="n">size</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">parent</span><span class="p">.</span><span class="n">resize</span><span class="p">(</span><span class="n">size</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">rank</span><span class="p">.</span><span class="n">resize</span><span class="p">(</span><span class="n">size</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// initially, parent i points to i itself
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">size</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">parent</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">i</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="nf">find</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">parent</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">!=</span> <span class="n">x</span><span class="p">)</span> <span class="n">parent</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">=</span> <span class="n">find</span><span class="p">(</span><span class="n">parent</span><span class="p">[</span><span class="n">x</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">parent</span><span class="p">[</span><span class="n">x</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">void</span> <span class="nf">union_set</span><span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">xset</span> <span class="o">=</span> <span class="n">find</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">yset</span> <span class="o">=</span> <span class="n">find</span><span class="p">(</span><span class="n">y</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">xset</span> <span class="o">==</span> <span class="n">yset</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">rank</span><span class="p">[</span><span class="n">xset</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">rank</span><span class="p">[</span><span class="n">yset</span><span class="p">])</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">parent</span><span class="p">[</span><span class="n">xset</span><span class="p">]</span> <span class="o">=</span> <span class="n">yset</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">rank</span><span class="p">[</span><span class="n">xset</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">rank</span><span class="p">[</span><span class="n">yset</span><span class="p">])</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">parent</span><span class="p">[</span><span class="n">yset</span><span class="p">]</span> <span class="o">=</span> <span class="n">xset</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">parent</span><span class="p">[</span><span class="n">yset</span><span class="p">]</span> <span class="o">=</span> <span class="n">xset</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">rank</span><span class="p">[</span><span class="n">xset</span><span class="p">]</span><span class="o">++</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span></code></pre></div><p>DS can be used to build connectivity of partial nodes.
+Just think of it as a way to <strong>query indepedent group nodes and size(via voting)</strong></p>
+<p>MAXBIT?
+<a href="https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/solutions/1390159/c-python-same-with-longest-increasing-subsequence-problem-clean-concise/?orderBy=most_votes">https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/solutions/1390159/c-python-same-with-longest-increasing-subsequence-problem-clean-concise/?orderBy=most_votes</a></p>
+<h2 id="bit-trie">Bit Trie</h2>
+<p>effectively judge the:</p>
+<ol>
+<li>order</li>
+<li>difference of different digits,
+with the new value and previously inserted values.
+Which shows the usage of Trie: Situation of first different item on the <strong>prefix</strong> sequence</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="k">struct</span> <span class="nc">Trie</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Trie</span><span class="o">*</span> <span class="n">t</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="p">{};</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">cnt</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">void</span> <span class="nf">insert</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="mi">14</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="o">++</span><span class="n">cnt</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">bool</span> <span class="n">b</span> <span class="o">=</span> <span class="n">n</span> <span class="o">&amp;</span> <span class="n">i</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">t</span><span class="p">[</span><span class="n">b</span><span class="p">]</span> <span class="o">==</span> <span class="k">nullptr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">t</span><span class="p">[</span><span class="n">b</span><span class="p">]</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Trie</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">t</span><span class="p">[</span><span class="n">b</span><span class="p">]</span><span class="o">-&gt;</span><span class="n">insert</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">i</span> <span class="o">/</span> <span class="mi">2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// e.g. for an application
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kt">int</span> <span class="nf">countLess</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="kt">int</span> <span class="n">lim</span><span class="p">,</span> <span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="mi">14</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">bool</span> <span class="n">n_b</span> <span class="o">=</span> <span class="n">n</span> <span class="o">&amp;</span> <span class="n">i</span><span class="p">,</span> <span class="n">lim_b</span> <span class="o">=</span> <span class="n">lim</span> <span class="o">&amp;</span> <span class="n">i</span><span class="p">,</span> <span class="n">x</span> <span class="o">=</span> <span class="p">(</span><span class="n">n</span> <span class="n">xor</span> <span class="n">lim</span><span class="p">)</span> <span class="o">&amp;</span> <span class="n">i</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="p">(</span><span class="n">lim_b</span> <span class="o">&amp;&amp;</span> <span class="n">t</span><span class="p">[</span><span class="n">n_b</span><span class="p">]</span> <span class="o">!=</span> <span class="k">nullptr</span> <span class="o">?</span> <span class="n">t</span><span class="p">[</span><span class="n">n_b</span><span class="p">]</span><span class="o">-&gt;</span><span class="nl">cnt</span> <span class="p">:</span> <span class="mi">0</span><span class="p">)</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">            <span class="p">(</span><span class="n">t</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">!=</span> <span class="k">nullptr</span> <span class="o">?</span> <span class="n">t</span><span class="p">[</span><span class="n">x</span><span class="p">]</span><span class="o">-&gt;</span><span class="n">countLess</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">lim</span><span class="p">,</span> <span class="n">i</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span> <span class="o">:</span> <span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> 
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl">  <span class="kt">int</span> <span class="nf">countPairs</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&amp;</span> <span class="n">A</span><span class="p">,</span> <span class="kt">int</span> <span class="n">low</span><span class="p">,</span> <span class="kt">int</span> <span class="n">high</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">test</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">high</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">-</span> <span class="n">test</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">low</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="nf">test</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&amp;</span> <span class="n">A</span><span class="p">,</span> <span class="kt">int</span> <span class="n">x</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">unordered_map</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="o">&gt;</span> <span class="n">count</span><span class="p">,</span> <span class="n">count2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="nl">a</span> <span class="p">:</span> <span class="n">A</span><span class="p">)</span> <span class="n">count</span><span class="p">[</span><span class="n">a</span><span class="p">]</span><span class="o">--</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">res</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span> <span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="k">const</span><span class="o">&amp;</span> <span class="p">[</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">]</span> <span class="o">:</span> <span class="n">count</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">count2</span><span class="p">[</span><span class="n">k</span> <span class="o">&gt;&gt;</span> <span class="mi">1</span><span class="p">]</span> <span class="o">+=</span> <span class="n">v</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">if</span> <span class="p">(</span><span class="n">count</span><span class="p">.</span><span class="n">find</span><span class="p">((</span><span class="n">x</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">^</span> <span class="n">k</span><span class="p">)</span> <span class="o">!=</span> <span class="n">count</span><span class="p">.</span><span class="n">end</span><span class="p">())</span>
+</span></span><span class="line"><span class="cl">                        <span class="n">res</span> <span class="o">+=</span> <span class="n">v</span> <span class="o">*</span> <span class="n">count</span><span class="p">[(</span><span class="n">x</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">^</span> <span class="n">k</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="n">swap</span><span class="p">(</span><span class="n">count</span><span class="p">,</span> <span class="n">count2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="n">count2</span><span class="p">.</span><span class="n">clear</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x</span> <span class="o">&gt;&gt;=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">res</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span></code></pre></div><h2 id="monotonic-queue">Monotonic Queue</h2>
+<ul>
+<li>
+<ul>
+<li></li>
+<li>Attribute: there&rsquo;re no smaller elements after item in an increasing stack</li>
+<li></li>
+</ul>
+</li>
+</ul>
+<p>A queue which:</p>
+<ul>
+<li>the attribute A of items is monotonic, and unique</li>
+<li>the attribute B of items is also monotonic</li>
+</ul>
+<p>It neglects all items smaller than before, since they are useless.</p>
+<p>Attribute:</p>
+<ul>
+<li>the item at the beginning is the max one in a range, if the begining one gets poped when the window left</li>
+<li>the adjacent items are the next smaller/bigger one to each other</li>
+<li>while pushing new item, the new value is the next bigger one to the value being pushed</li>
+<li>the insert item will repeated incounter only and all the previous bigger element</li>
+</ul>
+<p>Can be used to solve questions like</p>
+<ul>
+<li>sliding window with max/min values: the index of the max value is always kept at the beginning. If there is some bigger items with bigger index, the smaller in-between items are useless, because they will not be max values before the bigger items are removed, when they will be removed before.</li>
+<li>next index with bigger value: after removing smaller value in the end, the new value is the next-bigger value of the last value in queue</li>
+<li>finding the next smaller/bigger element of each: <a href="https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/solutions/2259557/monostack/?orderBy=most_votes">Subarray With Elements Greater Than Varying Threshold</a></li>
+<li></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/leetcode/dp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/leetcode/dp/</guid>
+      <description>Divide problems into sub problems:
+Top down(memoization) recursive function call, store results
+apply cache to potential duplicate calculation
+Accords to the natural logic of the original problem description
+Choosed when there is some useless states, or no actual index concepts
+Bottom up(Tabulation) iterative on the indices of sub problems
+base on the pre-calculated results
+choose and simplify the states, which will affect the results
+state: Two finger&amp;rsquo;s position, or even the previous character(https://leetcode.</description>
+      <content:encoded><![CDATA[<p>Divide problems into sub problems:</p>
+<h4 id="top-downmemoization">Top down(memoization)</h4>
+<ul>
+<li>
+<p><strong>recursive</strong> function call, store results</p>
+</li>
+<li>
+<p><strong>apply</strong> cache to <strong>potential</strong> duplicate calculation</p>
+</li>
+<li>
+<p>Accords to the natural logic of the original problem description</p>
+</li>
+</ul>
+<p>Choosed when there is some useless states, or no actual index concepts</p>
+<h4 id="bottom-uptabulation">Bottom up(Tabulation)</h4>
+<ul>
+<li>
+<p><strong>iterative</strong> on the indices of sub problems</p>
+</li>
+<li>
+<p><strong>base</strong> on the pre-calculated results</p>
+</li>
+<li>
+<p>choose and simplify the states, which will affect the results</p>
+<ul>
+<li>state: Two finger&rsquo;s position, or even the previous character(<a href="https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/">https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/</a>)</li>
+<li>only the previous uncovered tiles, even not of carpetLen, since all of the former states can contribute to the previous one <a href="https://leetcode.com/problems/minimum-white-tiles-after-covering-with-carpets/">Minimum White Tiles After Covering With Carpets</a></li>
+</ul>
+</li>
+</ul>
+<p>Rough process:</p>
+<ol>
+<li>Iterate over the indices of the state, may be 2D even 3D</li>
+<li>Take all possible (optimal) actions on the current state</li>
+<li>build the relation from results of current state and the state after the action is taken.
+<ul>
+<li>the relation may be derived from the natural thinking, and do a little math can contribute to ?
+<ul>
+<li>In the <a href="https://leetcode.com/problems/edit-distance/solutions/25846/c-o-n-space-dp/?orderBy=most_votes">Edit Distance</a> case, the current state&rsquo;s best result comes from 3 actions, and <strong>think about from prev state, apply 3 actions will lead to which future state&rsquo;s best results</strong>. After the thinking is done,  think backwards, build the reverse relation, by taking the future state as current state, and look for the 3 pre-action, and which one from the pre-state is the best results.</li>
+<li></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h4 id="forwarding">forwarding</h4>
+<p>recursive iterative loop, moving forward at each index based on prev results</p>
+<ol>
+<li>d[i] = d[j] + k：
+<ol>
+<li>使用 top_down 或 单次迭代可完成</li>
+<li>top_down 可以忽略一些不必要的值</li>
+</ol>
+</li>
+<li>d[i] = d[j] + d[i - j] : 双循环</li>
+</ol>
+<h2 id="one-pass-dp">One pass dp</h2>
+<ul>
+<li>
+<ul>
+<li></li>
+<li></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>The final result is calculated in one-pass, storing the possible extreme sub-result, assuming taking special conditions all-the-way</li>
+<li>[Minimum Time to Remove All Cars Containing Illegal Goods]</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>[n-th song][different songs cnt] = number of playlists</li>
+<li>storing the cnt of different songs is enough, for us to calculate the plans for next song, as the next-song choice is only constrained by that.</li>
+<li><a href="https://leetcode.com/problems/number-of-music-playlists/description/">Number of Music Playlists</a></li>
+</ul>
+</li>
+<li>
+<pre><code>  *  Optimize, by compressing the common state(length, value, etc) and **try on that possible state**
+</code></pre>
+<ul>
+<li><a href="https://leetcode.com/problems/selling-pieces-of-wood/description/">Selling Pieces of Wood</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>$dp[n] = min(max(A[i], B[i])$, A[i] increase, B[i] decrease</li>
+<li>Binary Search to find the i to make each part equal</li>
+<li><a href="https://leetcode.com/problems/super-egg-drop/solutions/159055/java-dp-solution-from-o-kn-2-to-o-knlogn/?orderBy=most_votes">Super Egg Drop</a></li>
+<li>Also, <a href="https://leetcode.com/problems/super-egg-drop/solutions/159508/easy-to-understand/?orderBy=most_votes">tabulation</a> seems intuitive here</li>
+</ul>
+</li>
+<li>
+<p>Classic</p>
+<ul>
+<li>Minimum Intervals covering the range</li>
+<li>[position] = minimum num of intervals to cover 0~ position</li>
+<li><a href="https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/">Minimum Number of Taps to Open to Water a Garden</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Valid permutations with relative order between consecutives</li>
+<li>(1). Top-down: choosing every ID as the biggest, the remaining numbers can be chosed randomly, C(n, k)</li>
+<li>(2). Bottom-up: Next State should care about the unused digits, and the number of ways to choose next digits. Since the relative order of the previous digit in the unused digit is the only state we care about, the next digit can choose from every previous dp, from the previous relative index. dp[i][k] = dp[i - 1][k + 1: n - 1]</li>
+<li>It is tricky, but the remaining permutation can be viewed as permutation of random different digits, actually we don&rsquo;t care about the exact values. <strong>For each possibility where the index of last digit  is the same, the next-permutation is also the same</strong></li>
+<li><a href="https://leetcode.com/problems/valid-permutations-for-di-sequence/solutions/?orderBy=most_votes">Valid Permutations for DI Sequence</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="memoization">Memoization</h2>
+<ul>
+<li>
+<p>Classic</p>
+<ul>
+<li>If possible to fit numbers into boxes</li>
+<li>Try combinations of items on each boxes, box-size to numbers mask</li>
+<li><a href="https://leetcode.com/problems/distribute-repeating-integers/solutions/935522/step-by-step-optimization-more-than-10-methods/?orderBy=most_votes">distribute repeated numbers</a></li>
+</ul>
+</li>
+<li>
+<p>Classic</p>
+<ul>
+<li>
+<p>BitMasking to perform DFS</p>
+</li>
+<li>
+<p>[courses taken][courses last semester] = minimum days
+the courses of last semester should be stored, since it affects the courses available next semester.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl">  <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="p">(</span><span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="n">n</span><span class="p">);</span> <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">ex</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// get the possible next semesters courses
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">j</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">)</span> <span class="k">if</span><span class="p">((</span><span class="n">i</span> <span class="o">&amp;</span> <span class="n">pre</span><span class="p">[</span><span class="n">j</span><span class="p">])</span> <span class="o">==</span> <span class="n">pre</span><span class="p">[</span><span class="n">j</span><span class="p">])</span> <span class="n">ex</span> <span class="o">|=</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="n">j</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// get the unlearnt next semester courses
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="n">ex</span> <span class="o">&amp;=</span> <span class="o">~</span><span class="n">i</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// next semester, learn courses from ex
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">s</span> <span class="o">=</span> <span class="n">ex</span><span class="p">;</span> <span class="n">s</span><span class="p">;</span> <span class="n">s</span> <span class="o">=</span> <span class="p">(</span><span class="n">s</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">&amp;</span> <span class="n">ex</span><span class="p">)</span> <span class="k">if</span><span class="p">(</span><span class="n">__builtin_popcount</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="n">k</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="n">dp</span><span class="p">[</span><span class="n">i</span> <span class="o">|</span> <span class="n">s</span><span class="p">]</span> <span class="o">=</span> <span class="n">min</span><span class="p">(</span><span class="n">dp</span><span class="p">[</span><span class="n">i</span> <span class="o">|</span> <span class="n">s</span><span class="p">],</span> <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div></li>
+<li>
+<p><a href="https://leetcode.com/problems/parallel-courses-ii/">Parallel Coursues2</a></p>
+</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Recursively choose each item, top-down</li>
+<li>iterate over each choice, recursive call</li>
+<li><a href="https://leetcode.com/problems/stickers-to-spell-word/solutions/108318/c-java-python-dp-memoization-with-optimization-29-ms-c/?orderBy=most_votes">Stickers to Spell Word</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Ways to choose numbers(duplication), no order</li>
+<li>With vector&lt;int&gt; as used numbers key, and trying every type of num in each call
+<a href="https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/solutions/1140644/c-0-ms-greedy-dp/?orderBy=most_votes">Maximum Number of Groups Getting  Fresh Donuts</a></li>
+</ul>
+</li>
+</ul>
+<p>Divide problems into sub problems:</p>
+<h4 id="top-downmemoization-1">Top down(memoization)</h4>
+<ul>
+<li>
+<p><strong>recursive</strong> function call, store results</p>
+</li>
+<li>
+<p><strong>apply</strong> cache to <strong>potential</strong> duplicate calculation</p>
+</li>
+<li>
+<p>Accords to the natural logic of the original problem description</p>
+</li>
+</ul>
+<p>Choosed when there is some useless states, or no actual index concepts</p>
+<h4 id="bottom-uptabulation-1">Bottom up(Tabulation)</h4>
+<ul>
+<li>
+<p><strong>iterative</strong> on the indices of sub problems</p>
+</li>
+<li>
+<p><strong>base</strong> on the pre-calculated results</p>
+</li>
+<li>
+<p>choose and simplify the states, which will affect the results</p>
+<ul>
+<li>state: Two finger&rsquo;s position, or even the previous character(<a href="https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/">https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/</a>)</li>
+<li>only the previous uncovered tiles, even not of carpetLen, since all of the former states can contribute to the previous one <a href="https://leetcode.com/problems/minimum-white-tiles-after-covering-with-carpets/">Minimum White Tiles After Covering With Carpets</a></li>
+</ul>
+</li>
+</ul>
+<p>Rough process:</p>
+<ol>
+<li>Iterate over the indices of the state, may be 2D even 3D</li>
+<li>Take all possible (optimal) actions on the current state</li>
+<li>build the relation from results of current state and the state after the action is taken.
+<ul>
+<li>the relation may be derived from the natural thinking, and do a little math can contribute to ?
+<ul>
+<li>In the <a href="https://leetcode.com/problems/edit-distance/solutions/25846/c-o-n-space-dp/?orderBy=most_votes">Edit Distance</a> case, the current state&rsquo;s best result comes from 3 actions, and <strong>think about from prev state, apply 3 actions will lead to which future state&rsquo;s best results</strong>. After the thinking is done,  think backwards, build the reverse relation, by taking the future state as current state, and look for the 3 pre-action, and which one from the pre-state is the best results.</li>
+<li></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h4 id="forwarding-1">forwarding</h4>
+<p>recursive iterative loop, moving forward at each index based on prev results</p>
+<ol>
+<li>d[i] = d[j] + k：
+<ol>
+<li>使用 top_down 或 单次迭代可完成</li>
+<li>top_down 可以忽略一些不必要的值</li>
+</ol>
+</li>
+<li>d[i] = d[j] + d[i - j] : 双循环</li>
+</ol>
+<h2 id="one-pass-dp-1">One pass dp</h2>
+<ul>
+<li>
+<ul>
+<li></li>
+<li></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>The final result is calculated in one-pass, storing the possible extreme sub-result, assuming taking special conditions all-the-way</li>
+<li>[Minimum Time to Remove All Cars Containing Illegal Goods]</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>[n-th song][different songs cnt] = number of playlists</li>
+<li>storing the cnt of different songs is enough, for us to calculate the plans for next song, as the next-song choice is only constrained by that.</li>
+<li><a href="https://leetcode.com/problems/number-of-music-playlists/description/">Number of Music Playlists</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Optimize, by compressing the common state(length, value, etc) and <strong>try on that possible state</strong></li>
+<li><a href="https://leetcode.com/problems/selling-pieces-of-wood/description/">Selling Pieces of Wood</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>$dp[n] = min(max(A[i], B[i])$, A[i] increase, B[i] decrease</li>
+<li>Binary Search to find the i to make each part equal</li>
+<li><a href="https://leetcode.com/problems/super-egg-drop/solutions/159055/java-dp-solution-from-o-kn-2-to-o-knlogn/?orderBy=most_votes">Super Egg Drop</a></li>
+<li>Also, <a href="https://leetcode.com/problems/super-egg-drop/solutions/159508/easy-to-understand/?orderBy=most_votes">tabulation</a> seems intuitive here</li>
+</ul>
+</li>
+<li>
+<p>Classic</p>
+<ul>
+<li>Minimum Intervals covering the range</li>
+<li>[position] = minimum num of intervals to cover 0~ position</li>
+<li><a href="https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/">Minimum Number of Taps to Open to Water a Garden</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="memoization-1">Memoization</h2>
+<ul>
+<li>
+<p>Classic</p>
+<ul>
+<li>If possible to fit numbers into boxes</li>
+<li>Try combinations of items on each boxes, box-size to numbers mask</li>
+<li><a href="https://leetcode.com/problems/distribute-repeating-integers/solutions/935522/step-by-step-optimization-more-than-10-methods/?orderBy=most_votes">distribute repeated numbers</a></li>
+</ul>
+</li>
+<li>
+<p>Classic</p>
+<ul>
+<li>
+<p>BitMasking to perform DFS</p>
+</li>
+<li>
+<p>[courses taken][courses last semester] = minimum days
+the courses of last semester should be stored, since it affects the courses available next semester.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl">  <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="p">(</span><span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="n">n</span><span class="p">);</span> <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">ex</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// get the possible next semesters courses
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">j</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">)</span> <span class="k">if</span><span class="p">((</span><span class="n">i</span> <span class="o">&amp;</span> <span class="n">pre</span><span class="p">[</span><span class="n">j</span><span class="p">])</span> <span class="o">==</span> <span class="n">pre</span><span class="p">[</span><span class="n">j</span><span class="p">])</span> <span class="n">ex</span> <span class="o">|=</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="n">j</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// get the unlearnt next semester courses
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="n">ex</span> <span class="o">&amp;=</span> <span class="o">~</span><span class="n">i</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// next semester, learn courses from ex
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">s</span> <span class="o">=</span> <span class="n">ex</span><span class="p">;</span> <span class="n">s</span><span class="p">;</span> <span class="n">s</span> <span class="o">=</span> <span class="p">(</span><span class="n">s</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">&amp;</span> <span class="n">ex</span><span class="p">)</span> <span class="k">if</span><span class="p">(</span><span class="n">__builtin_popcount</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="n">k</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="n">dp</span><span class="p">[</span><span class="n">i</span> <span class="o">|</span> <span class="n">s</span><span class="p">]</span> <span class="o">=</span> <span class="n">min</span><span class="p">(</span><span class="n">dp</span><span class="p">[</span><span class="n">i</span> <span class="o">|</span> <span class="n">s</span><span class="p">],</span> <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div></li>
+<li>
+<p><a href="https://leetcode.com/problems/parallel-courses-ii/">Parallel Coursues2</a></p>
+</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Recursively choose each item, top-down</li>
+<li>iterate over each choice, recursive call</li>
+<li><a href="https://leetcode.com/problems/stickers-to-spell-word/solutions/108318/c-java-python-dp-memoization-with-optimization-29-ms-c/?orderBy=most_votes">Stickers to Spell Word</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Ways to choose numbers(duplication), no order</li>
+<li>With vector&lt;int&gt; as used numbers key, and trying every type of num in each call
+<a href="https://leetcode.com/problems/maximum-number-of-groups-getting-fresh-donuts/solutions/1140644/c-0-ms-greedy-dp/?orderBy=most_votes">Maximum Number of Groups Getting  Fresh Donuts</a></li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/leetcode/graph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/leetcode/graph/</guid>
+      <description> Find cycles(Aka Tarjan&amp;rsquo;s Bridge-Finding Algorithm) DFS, with dfn(time order) &amp;amp; low(lowest reachable time ordered from current root). $dfn(n) &amp;lt; low(v)$-&amp;gt; uv is a bridge. If a node with rank in-between, a cycle starts from that. Pick unvisited nodes to next round Partition Array Into Two Arrays to Minimize Sum Difference Max 4 neighbors sum To construct a valid sequence, start by selecting the middle part and extend it, with each node&amp;rsquo;s top 3 neighbors(a&amp;rsquo;s neighbor + a + b + the max remaining neighbour) Maximum Score of a Node Sequence </description>
+      <content:encoded><![CDATA[<ul>
+<li>
+<ul>
+<li>Find cycles(Aka <strong>Tarjan&rsquo;s Bridge-Finding Algorithm</strong>)</li>
+<li>DFS, with dfn(time order) &amp; low(lowest reachable time ordered from current root).
+$dfn(n) &lt; low(v)$-&gt; uv is a bridge. If a node with rank in-between, a cycle starts from that. Pick unvisited nodes to next round</li>
+<li><a href="https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/description/">Partition Array Into Two Arrays to Minimize Sum Difference</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Max 4 neighbors sum</li>
+<li>To construct a valid sequence, start by selecting the middle part and extend it, with each node&rsquo;s top 3 neighbors(a&rsquo;s neighbor + a + b + the max remaining neighbour)</li>
+<li><a href="https://leetcode.com/problems/count-the-number-of-ideal-arrays/solutions/2261280/python-arranging-primes-intro-to-combinatorics/?orderBy=most_votes">Maximum Score of a Node Sequence</a></li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/leetcode/intuitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/leetcode/intuitions/</guid>
+      <description> Problem DS/Algorithm shortest path bfs connectivity disjoint set </description>
+      <content:encoded><![CDATA[<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left">Problem</th>
+<th style="text-align:left">DS/Algorithm</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">shortest path</td>
+<td style="text-align:left">bfs</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">connectivity</td>
+<td style="text-align:left">disjoint set</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/leetcode/mathematical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/leetcode/mathematical/</guid>
+      <description>finding factors Multinomial Coefficient permutation of N1, N2&amp;hellip; Nn numbers, with Sum(Ni) = M: $M! / N1! * N2! * &amp;hellip; * Nn!$
+Modular Multiplicative Inverse $(A / B) % mod = A * ( B ^ -1 ) % mod = A * (b ^ (mod -2))$
+// the order of a sequence in all its permutation for (int i = sz - 1; i &amp;gt;= 0; --i) { // only count sequence lower than i ~ sz here // xxxxcxxxxx cnt[s[i] - &amp;#39;a&amp;#39;] += 1; // fix the first number as lower // calculate the permutation of the remaining part auto prems = accumulate(begin(cnt), begin(cnt) + s[i] - &amp;#39;a&amp;#39;, 0l) * ft[sz - i - 1] % mod; for (int n : cnt) prems = prems * im[n] % mod; res = (res + prems) % mod; } Permutations Choose different balls with total cnt fixed // split through each kind of balls for (int j = 0; j &amp;lt;= A[i]; ++j) { // try different splits at the `i`-th element, i.</description>
+      <content:encoded><![CDATA[<ul>
+<li>finding factors</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"></code></pre></div><h2 id="multinomial-coefficient">Multinomial Coefficient</h2>
+<p>permutation of N1, N2&hellip; Nn numbers, with Sum(Ni) = M:
+$M! / N1! * N2! * &hellip; * Nn!$</p>
+<h2 id="modular-multiplicative-inverse">Modular Multiplicative Inverse</h2>
+<p>$(A / B) % mod = A * ( B ^ -1 ) % mod = A * (b ^ (mod -2))$</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl">	<span class="c1">// the order of a sequence in all its permutation
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">sz</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">;</span> <span class="o">--</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	    <span class="c1">// only count sequence lower than i ~ sz here
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	    <span class="c1">// xxxxcxxxxx
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">cnt</span><span class="p">[</span><span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="sc">&#39;a&#39;</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// fix the first number as lower
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="c1">// calculate the permutation of the remaining part
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">auto</span> <span class="n">prems</span> <span class="o">=</span> <span class="n">accumulate</span><span class="p">(</span><span class="n">begin</span><span class="p">(</span><span class="n">cnt</span><span class="p">),</span> <span class="n">begin</span><span class="p">(</span><span class="n">cnt</span><span class="p">)</span> <span class="o">+</span> <span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="sc">&#39;a&#39;</span><span class="p">,</span> <span class="mi">0l</span><span class="p">)</span> <span class="o">*</span> <span class="n">ft</span><span class="p">[</span><span class="n">sz</span> <span class="o">-</span> <span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">%</span> <span class="n">mod</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="nl">n</span> <span class="p">:</span> <span class="n">cnt</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">prems</span> <span class="o">=</span> <span class="n">prems</span> <span class="o">*</span> <span class="n">im</span><span class="p">[</span><span class="n">n</span><span class="p">]</span> <span class="o">%</span> <span class="n">mod</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">res</span> <span class="o">=</span> <span class="p">(</span><span class="n">res</span> <span class="o">+</span> <span class="n">prems</span><span class="p">)</span> <span class="o">%</span> <span class="n">mod</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	 <span class="p">}</span>
+</span></span></code></pre></div><h2 id="permutations">Permutations</h2>
+<h3 id="choose-different-balls-with-total-cnt-fixed">Choose different balls with total cnt fixed</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl">  <span class="c1">// split through each kind of balls
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;=</span> <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">];</span> <span class="o">++</span><span class="n">j</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// try different splits at the `i`-th element, i.e. a[i] + b[i] = A[i]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">j</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">b</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="n">j</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">ans</span> <span class="o">+=</span> <span class="n">dfs</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">sa</span> <span class="o">+</span> <span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">sb</span> <span class="o">+</span> <span class="n">b</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span></code></pre></div><ul>
+<li>
+<ul>
+<li></li>
+<li>Choose Combination, then calculate Permutation</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/leetcode/miscellaneous/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/leetcode/miscellaneous/</guid>
+      <description>Goal: Key point: Classic
+Find patterns of the solutions of the problem There are two patterns which meets the requirements: (1). two circled person, and two arms. (2). an entire circle Maximum Employees to Be Invited to a Meeting Find the required pattern for the result Transform to Chessborad N = x + (x + 1)&amp;hellip;(x + n) = n * x + (n - 1) * n / 2 Counting odd factors Consecutive Numbers Sum Special Operation: Each time pushing a new element, try merging with the last one in the stack.</description>
+      <content:encoded><![CDATA[<ul>
+<li>
+<ul>
+<li>Goal:</li>
+<li>Key point:</li>
+<li></li>
+</ul>
+</li>
+<li>
+<ul>
+<li></li>
+<li></li>
+</ul>
+</li>
+<li>
+<p><strong>Classic</strong></p>
+<ul>
+<li>Find patterns of the solutions of the problem</li>
+<li>There are two patterns which meets the requirements: (1). two circled person, and two arms. (2). an entire circle</li>
+<li><a href="https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/solutions/1660944/c-dfs-with-illustration/?orderBy=most_votes">Maximum Employees to Be Invited to a Meeting</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Find the required pattern for the result</li>
+<li><a href="https://leetcode.com/problems/transform-to-chessboard/solutions/114847/c-java-python-solution-with-explanation/">Transform to Chessborad</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>N = x + (x + 1)&hellip;(x + n) = n * x + (n - 1) * n / 2</li>
+<li>Counting odd factors</li>
+<li><a href="https://leetcode.com/problems/consecutive-numbers-sum/solutions/128947/java-c-python-fastest-count-odd-factors-o-logn/?orderBy=most_votes">Consecutive Numbers Sum</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Special Operation: Each time pushing a new element,  try merging with the last one in the stack. Two way merge</li>
+<li><a href="https://leetcode.com/problems/replace-non-coprime-numbers-in-array/">Replace Non-Coprime Numbers in Array</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Find number of intervals covering a value</li>
+<li>Meeting Roomes Template: Given some intervals and an array of value, returns the number of intervals covering that value</li>
+<li>Record the starting and endings of intervals with an array(arr[s]++, arr[e]&ndash;). Iterate over value, adding the value of arr, sum of that will be <strong>number of intervals convering that value</strong>.</li>
+<li>[Number of Flowers in Full Bloom]</li>
+</ul>
+</li>
+<li>
+<p>Hard</p>
+<ul>
+<li>Finding the K-th biggest sum from an array</li>
+<li>Starts with maximum value, get the next-smaller values by (1). removing/adding the smallest positive/biggest negative value (2). removing previous selecition, move to next s/b value</li>
+<li><a href="https://leetcode.com/problems/find-the-k-sum-of-an-array/solutions/2457384/priority-queue-c/?orderBy=most_votes">Find the K-Sum of an Array</a></li>
+</ul>
+</li>
+<li>
+<p>Hard</p>
+<ul>
+<li>Find number of subsequences with max and min fixed</li>
+<li>Three-pointer sliding window, number in window is within range, considering the valid range ending with i while iterating, which is $min(prevMin, prevMax) - prevBad$</li>
+<li><a href="https://leetcode.com/problems/count-subarrays-with-fixed-bounds/solutions/2708099/java-c-python-sliding-window-with-explanation/?orderBy=most_votes">Count Subarrays with fixed Bounds</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Gudge if there&rsquo;s element appears odd times</li>
+<li>xor</li>
+<li>Seems like other kinds of appearing pattern can&rsquo;t be decided in O(N) easily</li>
+<li><a href="https://leetcode.com/problems/find-longest-awesome-substring/">Find Longest Awesome Substring</a></li>
+</ul>
+</li>
+<li>
+<p>Hard, Classics</p>
+<ul>
+<li>Ways to fill rectange with square</li>
+<li>Again, finding patterns help. The special case can be formed by 4 normal rectangular, and 1 rectangular in the middle</li>
+<li><a href="https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/solutions/414260/8ms-memorized-backtrack-solution-without-special-case/?orderBy=most_votes">Tiling a Rectangle with the Fewest Squares</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Find Number of different GCDs</li>
+<li>A number N can be a GCD, if and only if the gcd of all numbers divisible by N, is N itself. If g(N) = N already, it will holds later</li>
+<li><a href="https://leetcode.com/problems/number-of-different-subsequences-gcds/description/">Number of Different Subsequences GCDs</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Reverse pairs</li>
+<li>A number N can be a GCD, if and only if the gcd of all numbers divisible by N, is N itself. If g(N) = N already, it will holds later</li>
+<li><a href="https://leetcode.com/problems/number-of-pairs-satisfying-inequality/solutions/2646606/python-reverse-pairs/?orderBy=most_votes">Number of Pairs Satisfying Inequality</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>If exists path with max edge length</li>
+<li>If exists, the paths consists of shorter edge &lt;-&gt; exist shorter edge make the path &lt;-&gt; exist shorter edge connects the point &lt;-&gt; All shorter edge connects the point</li>
+<li><a href="https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/submissions/917168157/">https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/submissions/917168157/</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>If exists path with max edge length</li>
+<li>If exists, the paths consists of shorter edge &lt;-&gt; exist shorter edge make the path &lt;-&gt; exist shorter edge connects the point &lt;-&gt; All shorter edge connects the point</li>
+<li><a href="https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/submissions/917168157/">https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/submissions/917168157/</a></li>
+</ul>
+</li>
+<li>
+<p>Classic</p>
+<ul>
+<li>Two-approach</li>
+<li>Maintain two data structure, to make the update/query more efficient</li>
+<li><a href="https://leetcode.com/problems/design-a-text-editor/description/">Design a Text Editor</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Calculate 2d prefix, to judge if a rectangular contains something</li>
+<li>The last 2d prefix sum is tricky, since to make a cell stamped, that cell is not the only place to place the top-left of the stamp.The top-left can be placed anywhere within (x - w, y - h) ~ (x,y)</li>
+<li><a href="https://leetcode.com/problems/stamping-the-grid/description/">Stamping The Grid</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Minimum number to pick up, with sum &gt;= k</li>
+<li>Greedy, calculate max sum with i numbers picking up, always picking up the maximum number within reach</li>
+<li><a href="https://leetcode.com/problems/minimum-number-of-refueling-stops/submissions/917314858/">Minimum Number of Refueling Stops</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Finding min(A[i], A[j]) * ( j - i ) - sum(A[i:j])</li>
+<li>sum(h[front] - h[middle]), when h[i] &gt; h[front],  a new boundary starts, since the prev boundaray(h[front]) is lower</li>
+<li><a href="https://leetcode.com/problems/trapping-rain-water/">Trapping Rain Water</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="strategy">Strategy</h2>
+<ul>
+<li>
+<ul>
+<li>Goal:</li>
+<li>Strategy:</li>
+<li></li>
+</ul>
+</li>
+<li>
+<ul>
+<li></li>
+<li></li>
+</ul>
+</li>
+<li>
+<p>Hard</p>
+<ul>
+<li>Find the least starting value</li>
+<li>The <strong>time</strong> we have the least money is, aftering finishing the last lossing-money cost, but not gaining the cashback yet (1). make sure we get through before, needs prev_loss + this_cost (2). make sure get the money to start next transaction</li>
+<li><a href="https://leetcode.com/problems/minimum-money-required-before-transactions/solutions/2588034/java-c-python-easy-and-coincise/?orderBy=most_votes">Minimum Money Required Before Transactions</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>find path</li>
+<li>1XXXXXXX -&gt; &hellip; -&gt; 11000000 -&gt; 1000000 -&gt; &hellip; -&gt; 0</li>
+<li><a href="https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/solutions/877741/c-solution-with-explanation/?orderBy=most_votes">Minimum One Bit Operations to Make Integers Zero</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>maximum value of intervals</li>
+<li>(1). Priority Queue on value, line sweep, put start and end separatedly (2). Segment Tree</li>
+<li><a href="https://leetcode.com/problems/the-skyline-problem/solutions/61273/c-69ms-19-lines-o-nlogn-clean-solution-with-comments/">Skyline</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Maximum times of multiple subtraction</li>
+<li>Very intuitive: a battery can no be taken more than answer hours</li>
+<li><a href="https://leetcode.com/problems/maximum-running-time-of-n-computers/solutions/1693347/heap-vs-binary-search/?orderBy=most_votes">Maximum Running Time of N Computers</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>normalize, means indexing different numbers with unique id</li>
+<li>a</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Minimum number to pick up, with sum &gt;= k</li>
+<li>Greedy, calculate max sum with i numbers picking up, always picking up the maximum number within reach</li>
+<li><a href="https://leetcode.com/problems/minimum-number-of-refueling-stops/submissions/917314858/">Minimum Number of Refueling Stops</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Minimum prefix[A[i]] +  B[i]</li>
+<li>Fixing the first i index, the answer is k(prefix[i] is also fixed) + B[i], so the minimum B should be selected last</li>
+<li>I nearly think of this solution, but skip that thought after taking the un-certainty of the prefix  into consider. However, if we only focused at last position, the prefix is always fix</li>
+<li>Maybe only focus on one part, the remaining parts will be handled</li>
+<li><a href="https://leetcode.com/problems/earliest-possible-day-of-full-bloom/description/">Earliest Possible Day of Full Bloom</a></li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/leetcode/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/leetcode/search/</guid>
+      <description>DFS &amp;amp; BFS dfs: 验证连通性 bfs: 可以携带一些当前节点的状态，常用于求加权最短路径 Difference dfs 和 bfs 在时间复杂度上，由于 dfs 会保存一份context变量，而 bfs 会为每个状态保存一份变量，因此时间复杂度上不一致 To reduce search space: memorization could be: of visited paths(i to j) and associated values of new states and associated(minimum or maximum) values On bfs, the prioritized value is always increasing, so it should be exactly what the problem what, and returns as soon as it meets the requirement. On dfs, return earlier when the current cnt has passed previous extreme value when don&amp;rsquo;t know exact solutions, try greedy &amp;amp; (BFS|DFS) dfs + memorization roughly equals to bfs?</description>
+      <content:encoded><![CDATA[<h3 id="dfs--bfs">DFS &amp; BFS</h3>
+<ul>
+<li>dfs: 验证连通性</li>
+<li>bfs: 可以携带一些当前节点的状态，常用于求加权最短路径</li>
+</ul>
+<h4 id="difference">Difference</h4>
+<ol>
+<li>dfs 和 bfs 在时间复杂度上，由于 dfs 会保存一份context变量，而 bfs 会为每个状态保存一份变量，因此时间复杂度上不一致</li>
+<li>To reduce search space:
+<ol>
+<li>memorization could be:</li>
+<li>of visited paths(i to j) and associated values</li>
+<li>of new states and associated(minimum or maximum) values</li>
+<li>On bfs, the prioritized value is always increasing, so it should be <strong>exactly</strong> what the problem what, and returns as soon as it meets the requirement.</li>
+<li>On dfs, return earlier when the current cnt has passed previous extreme value</li>
+<li>when don&rsquo;t know exact solutions, try greedy &amp; (BFS|DFS)</li>
+</ol>
+</li>
+<li>dfs + memorization roughly equals to bfs?
+<ol>
+<li>dfs needs to enumerate all possibilities, and use cache to shorten search space</li>
+<li>bfs gives best solutions naturally</li>
+</ol>
+</li>
+</ol>
+<h3 id="0-1-bfs">0-1 BFS</h3>
+<p><a href="https://cp-algorithms.com/graph/01_bfs.html">0-1 BFS</a>
+Djikstra without priority queue: <a href="https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/solutions/2086235/0-1-bfs-c/?orderBy=most_votes">Minimum Obstacle Removal to Reach Corner</a></p>
+<ol>
+<li>Push unvisited neighbour with cost, to end of the queue</li>
+<li>Push unvisited neighbour with cost, to beginning of the queue
+So that the neighbor with lower cost will be visited first, and the cost of first visited is the minimum cost</li>
+</ol>
+<h2 id="optimization-in-bfs">Optimization In BFS</h2>
+<ol>
+<li>Store the visited path</li>
+<li>Store [visited notes][ending node]</li>
+</ol>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/leetcode/sequence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/leetcode/sequence/</guid>
+      <description>Find different patterns
+Change the direction may help start considering the extreme candidate find the number of complete set to gain shortest impossible permutation </description>
+      <content:encoded><![CDATA[<p>Find different patterns</p>
+<ul>
+<li>Change the direction may help</li>
+<li><a href="https://leetcode.com/problems/count-increasing-quadruplets/solutions/3111697/c-java-python3-cleanest-dp-with-clarification-o-n-2/?orderBy=most_votes">start considering the extreme candidate</a></li>
+<li><a href="https://leetcode.com/problems/shortest-impossible-sequence-of-rolls/">find the number of complete set to gain shortest impossible permutation</a></li>
+<li></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/profile/role-numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/profile/role-numbers/</guid>
+      <description>SE, java(AM): 200460909 SE, java(AM): 200460940 SWE, C++ :200458465 SE, VR/AR: 200410760 AMP: 200462337 SE, distribute: 200323245</description>
+      <content:encoded><![CDATA[<p>SE, java(AM): 200460909
+SE, java(AM): <strong>200460940</strong>
+SWE, C++ :<strong>200458465</strong>
+SE, VR/AR: <strong>200410760</strong>
+AMP: 200462337
+SE, distribute: <strong>200323245</strong></p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/profile/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/profile/skills/</guid>
+      <description>Languages: Rust, C++, Java, Scala and others Work exprience involves compilers, frontend, ide &amp;amp; virtual machine</description>
+      <content:encoded><![CDATA[<p>Languages: Rust, C++, Java, Scala and others
+Work exprience involves compilers, frontend, ide &amp; virtual machine</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/profile/third-person-self-introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/profile/third-person-self-introduction/</guid>
+      <description>Qian Chengliang(English name as Mick) is a person, pursuiting jobs of creativity and crave for learning and exploring new technologies and skills.
+Graduated as a bachelor in Computer Sciende at ZJU(Zhejiang University), his acedemic record is among the top 20% in CS College, 10% in the last two years, which proves his ability to learn. At school, he interns at a big tech company in china for 2 months, and act as a major contributor of a transpiler project, which translates java code to scala, and beats the performance of the most competitors at that time.</description>
+      <content:encoded><![CDATA[<p>Qian Chengliang(English name as Mick) is a person, pursuiting jobs of creativity and crave for learning and exploring new technologies and skills.</p>
+<p>Graduated as a bachelor in Computer Sciende at ZJU(Zhejiang University), his acedemic record is among the top 20% in CS College, 10% in the last two years, which proves his ability to learn. At school, he interns at a big tech company in china for 2 months, and act as a major contributor of a transpiler project, which translates java code to scala, and beats the performance of the most competitors at that time.</p>
+<p>And because of that expierence, he found that a lot can be learnt from work, so he joined that company after graduating. In the two years of working there, he was a major contributor to some important projects, say, for example, an IDE written in Rust developed from scratch. He built the text-editor on his own, which is the essential part of the IDE, and its performance outbeats some of the most popular editors. Learning from the best-practice of the design of them, he put a lot of work to make the editor light and responsive, by exploiting the most suitable data structure and the advantage of Rust as a programming language.</p>
+<p>Detail-oriented, organized and meticulous employee. Remains consistently abreast of cutting-edge development and technology advancements. Always works the most effective in the team, to meet tight deadlines. Stepping out when there&rsquo;s high-maintenance bugs. Values functionality, stability as well as performance of the software. Giving out creative &amp; practical ideas on user-experience or technology problems.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mickjagger19.github.io/posts/work/%E5%85%A8%E6%B5%81%E7%A8%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/work/%E5%85%A8%E6%B5%81%E7%A8%8B/</guid>
+      <description>创建工程 你是IDE 内置引擎，你的任务是将通过自然语言描述的任务，转换成自然语言描述的子任务(可能包含的任务为: 创建文件/文件夹，设置文件内容等），并通过序号标出。例如，输入：“帮我创建一个 rust 工程, 将创建 cargo.toml, 名字为 toy，需要用到 tokio 作为依赖库”， 你需要输出“1. create project directory 2. Touch a cargo.toml with detailed content 3. open directory&amp;quot;。请注意，子任务中不能与 UI/交互等用户操作相关(包括点击，选择，等待, etc），而只能是可以由机器执行的指令。现在，帮我创建一个 空 andriod 应用工程，名字为 MyJavaApplication
+Prompt &amp;ldquo;你是帮我创建一个 rust 工程, 将创建 cargo.toml, 名字为 toy，需要用到 tokio 作为依赖库&amp;rdquo; ChatGPT split task: create directory touch cargo.toml edit cargo.toml open directory 模糊匹配到 VnextCommand </description>
+      <content:encoded><![CDATA[<h2 id="创建工程">创建工程</h2>
+<p>你是IDE 内置引擎，你的任务是将通过自然语言描述的任务，转换成自然语言描述的子任务(可能包含的任务为: 创建文件/文件夹，设置文件内容等），并通过序号标出。例如，输入：“帮我创建一个 rust 工程, 将创建 cargo.toml, 名字为 toy，需要用到 tokio 作为依赖库”， 你需要输出“1. create project directory 2. Touch a cargo.toml with detailed content 3. open directory&quot;。请注意，子任务中不能与 UI/交互等用户操作相关(包括点击，选择，等待, etc），而只能是可以由机器执行的指令。现在，帮我创建一个 空 andriod 应用工程，名字为 MyJavaApplication</p>
+<h2 id="prompt">Prompt</h2>
+<ol>
+<li>&ldquo;你是帮我创建一个 rust 工程, 将创建 cargo.toml, 名字为 toy，需要用到 tokio 作为依赖库&rdquo;</li>
+<li>ChatGPT split task:
+<ol>
+<li>create directory</li>
+<li>touch cargo.toml</li>
+<li>edit cargo.toml</li>
+<li>open directory</li>
+</ol>
+</li>
+<li>模糊匹配到 VnextCommand</li>
+</ol>
+]]></content:encoded>
+    </item>
+    
   </channel>
 </rss>

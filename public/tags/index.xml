@@ -1,33 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Mick&#39;s Blog</title>
     <link>https://mickjagger19.github.io/tags/</link>
     <description>Recent content in Tags on Mick&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 06 Jan 2024 21:15:22 +0800</lastBuildDate>
-    <atom:link href="https://mickjagger19.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bossa_Nova</title>
-      <link>https://mickjagger19.github.io/tags/bossa_nova/</link>
-      <pubDate>Sat, 06 Jan 2024 21:15:22 +0800</pubDate>
-      <guid>https://mickjagger19.github.io/tags/bossa_nova/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Music</title>
-      <link>https://mickjagger19.github.io/tags/music/</link>
-      <pubDate>Sat, 06 Jan 2024 21:15:22 +0800</pubDate>
-      <guid>https://mickjagger19.github.io/tags/music/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>George_Harrison</title>
-      <link>https://mickjagger19.github.io/tags/george_harrison/</link>
-      <pubDate>Sat, 06 Jan 2024 19:37:13 +0800</pubDate>
-      <guid>https://mickjagger19.github.io/tags/george_harrison/</guid>
-      <description></description>
-    </item>
+    <language>en</language><atom:link href="https://mickjagger19.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

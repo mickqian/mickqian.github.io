@@ -183,66 +183,6 @@ function toggleThemeListener() {
   </header>
   <section class="entry-content">
     
-      <p>Bit Mask CLRS book</p>
-    
-  </section>
-  <footer class="entry-footer"><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
-  <span>1 min</span></span>
-</footer>
-  <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/leetcode/bit/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>
-    </h2>
-  </header>
-  <section class="entry-content">
-    
-      <p>相对顺序 &#43; 值顺序： Monotonic Queue
-Fenwick tree struct BIT { vector&lt;int&gt; arr; int N; BIT(int n) { N = n &#43; 1; arr = vector&lt;int&gt;(N, 0); } void add(int i) { i &#43;= 1; while (i &lt; N) { arr[i] &#43;= 1; i &#43;= i &amp; (-i); } } int query(int i) { int sum = 0; while (i &gt; 0) { sum &#43;= arr[i]; i = i &amp; (i - 1); } return sum; } }; Segment Tree class SegmentTree { public: int n; vector&lt;int&gt; tree; MaxSegmentTree(int n_) : n(n_) { int size = (int)(ceil(log2(n))); size = (2 * pow(2, size)) - 1; tree = vector&lt;int&gt;(size); } int max_value() { return tree[0]; } int query(int l, int r) { return query_util(0, l, r, 0, n - 1); } int query_util(int i, int qL, int qR, int l, int r) { if (l &gt;= qL &amp;&amp; r &lt;= qR) return tree[i]; if (l &gt; qR || r &lt; qL) return INT_MIN; int m = (l &#43; r) / 2; return max(query_util(2 * i &#43; 1, qL, qR, l, m), query_util(2 * i &#43; 2, qL, qR, m &#43; 1, r)); } void update(int i, int val) { update_util(0, 0, n - 1, i, val); } void update_util(int i, int l, int r, int pos, int val) { if (pos &lt; l || pos &gt; r) return; if (l == r) { tree[i] = max(val, tree[i]); return; } int m = (l &#43; r) / 2; update_util(2 * i &#43; 1, l, m, pos, val); update_util(2 * i &#43; 2, m &#43; 1, r, pos, val); tree[i] = max(tree[2 * i &#43; 1], tree[2 * i &#43; 2]); } }; Trie class TrieNode { public: TrieNode* child[26]; int count; TrieNode* insert(int c){ if (child[c] == nullptr){ child[c] = new TrieNode(); } return child[c]; } }; void build(const string &amp;word) { auto ptr = root; for (char ch: word) { int idx = ch - &#39;a&#39;; ptr = ptr-&gt;insert(idx); ptr-&gt;count&#43;&#43;; } } Disjoint Set(aka Union-Find) class UnionFind { private: vector&lt;int&gt; parent, rank; public: UnionFind(int size) { parent....</p>
-    
-  </section>
-  <footer class="entry-footer"><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
-  <span>5 min</span></span>
-</footer>
-  <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/leetcode/data-structures/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>
-    </h2>
-  </header>
-  <section class="entry-content">
-    
-      <p>Divide problems into sub problems:
-Top down(memoization) recursive function call, store results
-apply cache to potential duplicate calculation
-Accords to the natural logic of the original problem description
-Choosed when there is some useless states, or no actual index concepts
-Bottom up(Tabulation) iterative on the indices of sub problems
-base on the pre-calculated results
-choose and simplify the states, which will affect the results
-state: Two finger’s position, or even the previous character(https://leetcode....</p>
-    
-  </section>
-  <footer class="entry-footer"><span class="meta-item">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
-  <span>7 min</span></span>
-</footer>
-  <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/leetcode/dp/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>
-    </h2>
-  </header>
-  <section class="entry-content">
-    
       <p> Find cycles(Aka Tarjan’s Bridge-Finding Algorithm) DFS, with dfn(time order) &amp; low(lowest reachable time ordered from current root). $dfn(n) &lt; low(v)$-&gt; uv is a bridge. If a node with rank in-between, a cycle starts from that. Pick unvisited nodes to next round Partition Array Into Two Arrays to Minimize Sum Difference Max 4 neighbors sum To construct a valid sequence, start by selecting the middle part and extend it, with each node’s top 3 neighbors(a’s neighbor &#43; a &#43; b &#43; the max remaining neighbour) Maximum Score of a Node Sequence </p>
     
   </section>
@@ -268,6 +208,60 @@ state: Two finger’s position, or even the previous character(https://leetcode.
   <span>1 min</span></span>
 </footer>
   <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/leetcode/intuitions/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>
+    </h2>
+  </header>
+  <section class="entry-content">
+    
+      <p>finding factors Multinomial Coefficient permutation of N1, N2… Nn numbers, with Sum(Ni) = M: $M! / N1! * N2! * … * Nn!$
+Modular Multiplicative Inverse $(A / B) % mod = A * ( B ^ -1 ) % mod = A * (b ^ (mod -2))$
+// the order of a sequence in all its permutation for (int i = sz - 1; i &gt;= 0; --i) { // only count sequence lower than i ~ sz here // xxxxcxxxxx cnt[s[i] - &#39;a&#39;] &#43;= 1; // fix the first number as lower // calculate the permutation of the remaining part auto prems = accumulate(begin(cnt), begin(cnt) &#43; s[i] - &#39;a&#39;, 0l) * ft[sz - i - 1] % mod; for (int n : cnt) prems = prems * im[n] % mod; res = (res &#43; prems) % mod; } Permutations Choose different balls with total cnt fixed // split through each kind of balls for (int j = 0; j &lt;= A[i]; &#43;&#43;j) { // try different splits at the `i`-th element, i....</p>
+    
+  </section>
+  <footer class="entry-footer"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
+  <span>1 min</span></span>
+</footer>
+  <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/leetcode/mathematical/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>
+    </h2>
+  </header>
+  <section class="entry-content">
+    
+      <p>Goal: Key point: Classic
+Find patterns of the solutions of the problem There are two patterns which meets the requirements: (1). two circled person, and two arms. (2). an entire circle Maximum Employees to Be Invited to a Meeting Find the required pattern for the result Transform to Chessborad N = x &#43; (x &#43; 1)…(x &#43; n) = n * x &#43; (n - 1) * n / 2 Counting odd factors Consecutive Numbers Sum Special Operation: Each time pushing a new element, try merging with the last one in the stack....</p>
+    
+  </section>
+  <footer class="entry-footer"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
+  <span>4 min</span></span>
+</footer>
+  <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/leetcode/miscellaneous/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>
+    </h2>
+  </header>
+  <section class="entry-content">
+    
+      <p>DFS &amp; BFS dfs: 验证连通性 bfs: 可以携带一些当前节点的状态，常用于求加权最短路径 Difference dfs 和 bfs 在时间复杂度上，由于 dfs 会保存一份context变量，而 bfs 会为每个状态保存一份变量，因此时间复杂度上不一致 To reduce search space: memorization could be: of visited paths(i to j) and associated values of new states and associated(minimum or maximum) values On bfs, the prioritized value is always increasing, so it should be exactly what the problem what, and returns as soon as it meets the requirement. On dfs, return earlier when the current cnt has passed previous extreme value when don’t know exact solutions, try greedy &amp; (BFS|DFS) dfs &#43; memorization roughly equals to bfs?...</p>
+    
+  </section>
+  <footer class="entry-footer"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
+  <span>1 min</span></span>
+</footer>
+  <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/leetcode/search/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
