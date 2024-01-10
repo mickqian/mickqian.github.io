@@ -22,10 +22,15 @@ jobs:
           # Download (if necessary) and use Hugo extended version. Example: true
           extended: false
 
+      # list
+      - name: List
+        run: |
+          ls -l
+
       # Runs Hugo to build the Static Site
       - name: Run Hugo
         run: |
-          hugo --verbose
+          hugo --logLevel info
 
       # Deploy the Static Site to Public Repo (GitHub Pages)
       - name: Deploy
