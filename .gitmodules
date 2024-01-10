@@ -1,6 +1,0 @@
-[submodule "Interview/Profile/Resume"]
-	path = Interview/Profile/Resume
-	url = https://github.com/mickjagger19/Resume.git
-[submodule "themes/PaperMod"]
-	path = themes/PaperMod
-	url = https://github.com/adityatelange/hugo-PaperMod
