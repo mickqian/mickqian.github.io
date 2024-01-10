@@ -34,7 +34,7 @@ jobs:
     env:
       HUGO_VERSION: 0.121.0
       env: production
-    if: $Deploy == 'true'
+    if: ${{ vars.DEPLOY == 'true' }}
     steps:
       - name: Install Hugo CLI
         run: |
