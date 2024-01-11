@@ -235,6 +235,7 @@ ignoreFiles:
   - "content/posts/Templates/.*"
   - "content/posts/AI/.*"
 
+
 services:
   instagram:
     disableInlineCSS: true
