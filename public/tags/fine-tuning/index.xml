@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Fine-Tuning on Mick&#39; Blog</title>
+    <link>https://mickjagger19.github.io/tags/fine-tuning/</link>
+    <description>Recent content in Fine-Tuning on Mick&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 24 Jan 2024 19:19:32 +0800</lastBuildDate><atom:link href="https://mickjagger19.github.io/tags/fine-tuning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tuning</title>
+      <link>https://mickjagger19.github.io/posts/ai/peft/</link>
+      <pubDate>Wed, 24 Jan 2024 19:19:32 +0800</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/ai/peft/</guid>
+      <description>PEFTs</description>
+      <content:encoded><![CDATA[<h2 id="terminologies">Terminologies</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Term</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Full fine-tuning</td>
+<td style="text-align:left">Fine-Tune all the weights of a pretrained model</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Intrinsic_dimension">Intrinsic dimension</a></td>
+<td style="text-align:left">An attribute of a dataset, essentially the minimum variable needed to encode the data</td>
+</tr>
+<tr>
+<td style="text-align:left">low intrinsic dimension</td>
+<td style="text-align:left">A description of a dataset, describing that the intrinsic dimension of the dataset is low</td>
+</tr>
+<tr>
+<td style="text-align:left">$h$</td>
+<td style="text-align:left">The output of the model</td>
+</tr>
+</tbody>
+</table>
+<h2 id="introduction">Introduction</h2>
+<p><strong>PEFT</strong>(Parameter Efficient Fine-Tuning) is a technique to reduce the training cost of full fine-tuning by minimize the
+parameter count and the computation complexity.</p>
+<p>According to <a href="/posts/ai/peft/#unipelt">UniPELT</a>, existing PELT usually involves following variants:</p>
+<ul>
+<li>The functional form of $\Delta h$</li>
+<li>The form of insertion into Transformer
+<ul>
+<li>Parallel: At <strong>input</strong> layer</li>
+<li>Sequential: At <strong>output</strong> layer</li>
+</ul>
+</li>
+<li>The representation modifies
+<ul>
+<li>attention layer</li>
+<li>ffn llayer</li>
+</ul>
+</li>
+<li>Composition function of $h$ and $\Delta h$</li>
+</ul>
+<h2 id="adapter-tuning">Adapter Tuning</h2>
+<p>Only fine-tune the parameters of the layers close to downstream tasks.</p>
+<p>While training, the parameter of the original pre-train model is frozen, with a newly-added adapter structure:</p>
+<ol>
+<li>Down-project layer: project the high-dim feature to lower dimension</li>
+<li>Non-linear</li>
+<li>Up-project layer: project back to high-dim</li>
+<li>Skip-connection: $identity$ in the worst case</li>
+</ol>
+<h2 id="prefix-tuning">Prefix Tuning</h2>
+<ul>
+<li>Prefix: Prepend learnable task-related <strong>virtual tokens</strong> to input tokens at $W_{k} &amp; W_{v}$ of <strong>each layer</strong></li>
+<li>An MLP after prefix layer(only in training): down-project a smaller prefix $P_{\theta}^{&rsquo;}$ to actual prefix$P_
+{\theta}$, to stablize the training</li>
+</ul>
+<blockquote>
+<p>[! NOTE]
+Similar to <em>text prompt</em>, but <em>continuous</em> and <em>implicit</em></p>
+</blockquote>
+<h2 id="prompt-tuning">Prompt Tuning</h2>
+<p>A simplified version of <a href="/posts/ai/peft/#prefix-tuning">Prefix Tuning</a>, with:</p>
+<ul>
+<li>Prefix virtual tokens prepended only at input layer</li>
+<li>MLP removed.</li>
+</ul>
+<h2 id="p-tuning">P-Tuning</h2>
+<p>Notice the problem of LLM: The expression of the prompt has a significant impact on downstream tasks</p>
+<p><strong>P-Tuning</strong> is proposed to change the <em>input</em> Prompt to learnable embedding.</p>
+<h2 id="lora">LoRA</h2>
+<p>All of the PEFT methods mentioned above has some problems:</p>
+<ul>
+<li>either: increase the model depth and inference time, e.g.<a href="/posts/ai/peft/#adapter-tuning">Adapter Tuning</a></li>
+<li>or: with learnable parameters which are hard to train</li>
+</ul>
+<p>It is observed that <strong>low intrinsic dimension</strong> is the key part of LLMs. Based on this observation, the attention matrix
+can be re-designed as:
+$$
+h = \underbrace{W_{0}}<em>{\text{original weight}}x + \underbrace{\Delta W}</em>{\text{Adapte}}x = W_{0}x + BAx
+$$
+where:</p>
+<ul>
+<li>$A \in \mathbb{R}^{d \times r} \sim \mathcal{N}(0, \sigma^{2})$</li>
+<li>$B \in \mathbb{R}^{r \times d}$</li>
+<li>$d &gt; r$</li>
+</ul>
+<p>Advantages being:</p>
+<ul>
+<li>No additional depth introduced</li>
+</ul>
+<h2 id="unipelt">UniPELT</h2>
+<p><strong>UniPELT</strong> provides a unified view of existing PEFTs, and compares each choices of variants:</p>
+<ul>
+<li>Parallel insertion form is bettern than Sequantial</li>
+<li>Modified representation:
+<ul>
+<li>When the amout of parameter modified is huge, ffn is better
+<ul>
+<li>ffn is task-related</li>
+</ul>
+</li>
+<li>Otherwise Attention
+<ul>
+<li>attention captures the text pattern</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Scaling composition function is better</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

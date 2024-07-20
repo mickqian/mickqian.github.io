@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Diffusion on Mick&#39; Blog</title>
+    <link>https://mickjagger19.github.io/tags/diffusion/</link>
+    <description>Recent content in Diffusion on Mick&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Feb 2024 16:23:58 +0800</lastBuildDate><atom:link href="https://mickjagger19.github.io/tags/diffusion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DiT, Sora, and more</title>
+      <link>https://mickjagger19.github.io/posts/ai/models/dit-sora-and-more/</link>
+      <pubDate>Mon, 19 Feb 2024 16:23:58 +0800</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/ai/models/dit-sora-and-more/</guid>
+      <description>Review on DiT and sora</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>[! WARNING]
+This work is in progress</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Notations</th>
+<th style="text-align:left">Meaning</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Classifier-guided Diffusion</td>
+<td style="text-align:left">An implementation of Conditional Diffusion Models, which requires a classifier $\nabla_{x}p(x|y)$ to guide its reverse process</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">Classifier-free Diffusion</td>
+<td style="text-align:left">An implementation of Conditional Diffusion Models, which doesn&rsquo;t require a <strong>classfier</strong>, the condition serves as an input to its <strong>noise predictor</strong></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">Latent Diffusion Models(LDM)</td>
+<td style="text-align:left">A type of Diffusion Models where diffusion processes are done in <strong>latent space</strong></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1 id="introduction">Introduction</h1>
+<p>Diffusion models usually choose a <strong>UNet</strong> as its backbone for Noise Predictor, first adopted by Ho et al [^1] , which was inherited from <strong>Pixel-CNN++</strong>(widely used as the generator in VAE) with a few changes. Although some works have introduced attention blocks into low-level design, its high-level remains intact.</p>
+<p><strong>DiT</strong> is proposed to apply Transformer into Diffusion Models, adhering to the best practices of <strong>Vision Transformers(ViTs)</strong></p>
+<p>Also, the scaling behavios of transformers is also explored in DiT</p>
+<h1 id="dit-design-space">DiT Design Space</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Notations</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">$C$</td>
+<td style="text-align:left">the channels of input image</td>
+</tr>
+<tr>
+<td style="text-align:left">$I$</td>
+<td style="text-align:left">the dimension of $z$</td>
+</tr>
+<tr>
+<td style="text-align:left">$z \in R^{I \times I \times C}$</td>
+<td style="text-align:left">The latents, also the input of $DiT$</td>
+</tr>
+<tr>
+<td style="text-align:left">Patch</td>
+<td style="text-align:left">The unit of input.</td>
+</tr>
+<tr>
+<td style="text-align:left">$p$</td>
+<td style="text-align:left">the dimension of a single patch</td>
+</tr>
+<tr>
+<td style="text-align:left">Classifier-free Diffusion</td>
+<td style="text-align:left">An implementation of Conditional Diffusion Models, which doesn&rsquo;t require a <strong>classfier</strong>, the condition serves as an input to its <strong>noise predictor</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Latent Diffusion Models(LDM)</td>
+<td style="text-align:left">A type of Diffusion Models where diffusion processes are done in <strong>latent space</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="1-patchify">1. Patchify</h2>
+<p><strong>Patchify</strong> is the first layer of DiT, which converts the spatial input $z$ into a sequence to $T$ tokens, each of dimension $d$:
+$$
+z \in R^{I \times I \times C} \to T \cdot Token
+$$
+where:</p>
+<ul>
+<li>$Token \in R^{p \times p \times C}$</li>
+<li>$T = (\frac{I}{p})^2$</li>
+</ul>
+<h2 id="2-positional-embeddings">2. Positional Embeddings</h2>
+<p>Following patchify, we apply standard ViT <strong>frequency-based positional embeddings</strong> (the sine-cosine version) to all input tokens: $Token \to Patch$</p>
+<h2 id="3-transformer-blocks">3. Transformer Blocks</h2>
+<p>Following patchify, the input tokens are processed by a sequence of transformer blocks.</p>
+<h3 id="in-context-conditioning">In-context conditioning</h3>
+<p>In addition to noised image inputs, diffusion models sometimes process additional conditional information:</p>
+<ul>
+<li>$t$: noise timestamps (of DDPM)</li>
+<li>$c$: class labels c(of input images)</li>
+<li>natural language description(or caption)</li>
+</ul>
+<p>The conditions are represented as additional $Token$s, <strong>appened</strong> to the [input sequence](## 2. Positional Embeddings)</p>
+<h3 id="cross-attention-block">Cross-attention block</h3>
+<p>The conditional tokens are send to the cross-attention block of transformer block</p>
+<h3 id="adaptie-layer-normadaln-block">Adaptie Layer Norm(adaLN) Block</h3>
+<p>The <strong>Adaptive Layer Norm</strong> replaces the standard layer norm</p>
+<blockquote>
+<p>[! NOTE]
+To be completed</p>
+</blockquote>
+<h2 id="4-transformer-decoder">4. Transformer Decoder</h2>
+<p>After the transformer blocks, a <strong>transformer decoder</strong> is reponsible for decoding the each latent token back to tensor of size $p \times p \times C$.</p>
+<p>The decoder is simply a <strong>standrad linear layer</strong></p>
+<h1 id="sora">Sora</h1>
+<p>The following is some major takeaways of <a href="https://openai.com/research/video-generation-models-as-world-simulators">the tenichal report of Sora</a></p>
+<p>Sora is a diffusion model/diffusion transformer based on <strong>DiT</strong></p>
+<h2 id="unified-representation-of-visual-data">Unified Representation of Visual Data</h2>
+<p>The major part of the technial report is about the <strong>Unified Representation</strong>, which is the training data of Sora</p>
+<h3 id="sources">Sources</h3>
+<blockquote>
+<p>We take inspiration from large language models which acquire generalist capabilities by training on internet-scale data</p>
+</blockquote>
+<p>Based on the description, Sora might crawl a huge amount of data from internet</p>
+<h3 id="patch">Patch</h3>
+<p>Following the text token concept of LLM, and patch concept from [DiT](##1. Patchify), Sora has visual <em>patches</em>.</p>
+<p>The transformation of videos into patches went through 2 steps:</p>
+<ol>
+<li>Compress videos into lower-dimensional latents</li>
+<li>Decompose the latents into <strong>spacetime</strong> patches</li>
+</ol>
+<blockquote>
+<p>[! TIP]
+<strong>spacetime</strong> implies that the tokens are embedded with timestep information</p>
+</blockquote>
+<p>While the original DiT tokens are fixed-sized based on the size of the latents, the <em>spacetime</em> patches used by Sora is derived from videos/images of <strong>variable resolutions, durations and aspect ratios</strong>. This gives huge flexibility in inference time, since the output is formed with any patches you like.</p>
+<h2 id="scaling-transformers">Scaling Transformers</h2>
+<p>They find transformers scaled effectively as video models, same as in other domains, including language modeling,<a href="https://openai.com/research/video-generation-models-as-world-simulators#fn-13">13</a>,<a href="https://openai.com/research/video-generation-models-as-world-simulators#fn-14">14</a> computer vision,<a href="https://openai.com/research/video-generation-models-as-world-simulators#fn-15">15</a>,<a href="https://openai.com/research/video-generation-models-as-world-simulators#fn-16">16</a>,<a href="https://openai.com/research/video-generation-models-as-world-simulators#fn-17">17</a>,<a href="https://openai.com/research/video-generation-models-as-world-simulators#fn-18">18</a> and image generation.<a href="https://openai.com/research/video-generation-models-as-world-simulators#fn-27">27</a>,<a href="https://openai.com/research/video-generation-models-as-world-simulators#fn-28">28</a>,<a href="https://openai.com/research/video-generation-models-as-world-simulators#fn-29">29</a></p>
+<h2 id="data-preprocessing">Data preprocessing</h2>
+<h3 id="native-size">Native size</h3>
+<p>Different from prior approaches, which crops videos/images to standard size(e.g., 4 seconds videos at 256 * 256 resolution), they find that training on data at its <strong>native size</strong> benefits.</p>
+<h3 id="native-aspect-ratios">Native aspect ratios</h3>
+<p>They empirically find that training on videos at their native aspect ratios improves composition and framing. The model trained on square crops sometimes generates videos where the subject is only <strong>partially</strong> in view.</p>
+<h2 id="language-understanding">Language understanding</h2>
+<p>The language-understanding-ability is a crucial part of text-to-video models, as text is the major input</p>
+<h3 id="re-captioning">Re-captioning</h3>
+<p><strong>Re-captioning</strong> is a technique to generate descriptive captions for images/videos with the help of a <strong>highly descriptive captioner model</strong></p>
+<p>First introduced in the training of DALL$\cdot$E, it is used in Sora, where GPT serves the role of <strong>captioner</strong>, who <em>turn short user prompts into longer detailed captions</em></p>
+<h2 id="prompting-with-images-and-videos">Prompting with images and videos</h2>
+<p>Being abled to be prompted with inputs other than text, including images and videos, Sora can perform a wide range of image and video editing tasks.</p>
+<h3 id="some-applications-not-mentioned-in-the-report">Some applications not mentioned in the report</h3>
+<p>Based on the presented applications, Sora might be able to do the tasks of:</p>
+<ul>
+<li>video generation conditioned on text/image: generate videos based on the given future/previous text and image</li>
+<li></li>
+</ul>
+<blockquote>
+<p> Model and implementation details are not included in this report.
+ &ndash; video-generation-models-as-world-simulators</p>
+</blockquote>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>2D to 3D Assets - A survey</title>
+      <link>https://mickjagger19.github.io/posts/misc/2d-to-3d-assets---a-survey/</link>
+      <pubDate>Mon, 15 Jan 2024 21:21:07 +0800</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/misc/2d-to-3d-assets---a-survey/</guid>
+      <description>A survey of techniques to transform 2D image to 3D assets</description>
+      <content:encoded><![CDATA[<hr>
+<p>title: 2D to 3D Assets - A survey
+summary: A survey of techniques to transform 2D image to 3D assets
+tags:</p>
+<ul>
+<li>Diffusion</li>
+<li>3D
+author: Mick
+draft: false
+date: 2024-01-15T21:21:07+0800
+math: true</li>
+</ul>
+<hr>
+<h2 id="terminologies">Terminologies</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Term</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">3D representation</td>
+<td style="text-align:left">The representation of an object in 3D. There are different forms, including:<br>- Radiance Field</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Volume_rendering">Volume rendering</a></td>
+<td style="text-align:left">A set of techniques used to display a 2D projection of a 3D discretely sampled data set</td>
+</tr>
+<tr>
+<td style="text-align:left">Triangle mesh</td>
+<td style="text-align:left">An important basic concept in digital modeling. A 3D model consists of triangles, the peripheral triangles form a triangle mesh</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Point_cloud">Point cloud</a></td>
+<td style="text-align:left">A discrete set of data points in space</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="notations">Notations</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Notation</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">$N$</td>
+<td style="text-align:left">the $NeRF$ instance</td>
+</tr>
+<tr>
+<td style="text-align:left">$\sigma$</td>
+<td style="text-align:left">The volumemetric density of a point in radiance</td>
+</tr>
+<tr>
+<td style="text-align:left">$\theta$</td>
+<td style="text-align:left">the viewing direction of a point between $x,y$</td>
+</tr>
+<tr>
+<td style="text-align:left">$\phi$</td>
+<td style="text-align:left">the viewing direction of a point between $(xy), z$</td>
+</tr>
+<tr>
+<td style="text-align:left">$c$</td>
+<td style="text-align:left">color</td>
+</tr>
+</tbody>
+</table>
+<h2 id="background">Background</h2>
+<p>All 123 methods involves representing geometric latents.</p>
+<h2 id="3d-representations">3D Representations</h2>
+<h3 id="mesh">Mesh</h3>
+<p>Set of $vertice, edge, face$</p>
+<h3 id="point-cloud">Point Cloud</h3>
+<p>Set of points described with $x, y, x$</p>
+<h2 id="models">Models</h2>
+<h3 id="nerf">NeRF</h3>
+<p>NeRF(Neural Radiance Field) aims to synthesize novel view of complex scenes. Given several images from different views, output 3D-representatins of this view.</p>
+<h4 id="radiance-field">Radiance Field</h4>
+<p>Radiance Field describes a function $F$:
+$$
+F : (\underbrace{x,y,z}<em>{position},\underbrace{\theta,\phi}</em>{direction}) \to (R,G,B,\sigma)
+$$
+which outputs the color and density of a point (x,y,z), in the direction described by $\theta , \phi$</p>
+<p>The color of a point can be calculated by:</p>
+<p>$$
+C(r) = \int_{t_{n}}^{t_{f}}{T(t)\sigma(r(t))}c(r(t), d)dt
+$$</p>
+<p>where:</p>
+<ul>
+<li>Cumulative light transmittance:  indicating the remained light density at a point in a radiance
+$$T(t) = exp\left(-\int_{t_{n}}^{t}{\sigma(r(s))ds)}\right)$$</li>
+<li>The radiance from focus to a pixel $r(t) = o + td$: $o$ for zero point, $t$ for distance</li>
+</ul>
+<p>Considering the calculation amount of this integration, the actual coloring involves calculating the weighted average of N points sampled from a radiance</p>
+<p>With the help of this F, we can generate the image of the object viewing from every direction.Ne</p>
+<p>NeRF models the $F$ with a nerual network $MLP$</p>
+<blockquote>
+<p>[!NOTE]
+The input is 5D</p>
+</blockquote>
+<h4 id="volume-rendering">Volume Rendering</h4>
+<p>Calculating the color of a certain pixel with integration would include massive Tensor, representing radiance field.</p>
+<p>With the help of $F$, the color can be regressed with limited tensor size</p>
+<h4 id="training">Training</h4>
+<p>The objective function:
+$$
+\mathcal{L} = MSE( F_{\Theta} - \text{g.t.})
+$$</p>
+<p>The training data would be: images of an object from different views, with the color of a certain radiance extracted from the image.</p>
+<h4 id="improvements">Improvements</h4>
+<h5 id="positional-encoding">Positional encoding</h5>
+<p>$$
+\gamma(pos, p) = sin(2^{pos}\pi p)
+$$</p>
+<h5 id="hierarchical-volume-sampling">Hierarchical volume sampling</h5>
+<p>Based on the fact that the density distribution is not uniform, random sample is not a good idea: some high-density region can sometimes be not sampled. Thus, we can use a $w_{i}$ for the possibility of a region being sampled, to increase the sample efficiency.
+$$
+\hat w_{i} = \frac{w_{i}}{\sum\limits_{j = 1}^{N_{c}}w_{j}}
+$$</p>
+<h4 id="modeling-3d-assets">Modeling 3D assets</h4>
+<p>Luma AI</p>
+<h4 id="e-commerce">E-commerce</h4>
+<p>Modeling merchandises</p>
+<h4 id="aigc">AIGC</h4>
+<h4 id="virtual-human">Virtual human</h4>
+<p>NeRF/3DGS</p>
+<h4 id="gamevr">Game/VR</h4>
+<h3 id="gaussian-splatting">Gaussian Splatting</h3>
+<h3 id="dreamfusion">DreamFusion</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Notation</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Imagen</td>
+<td style="text-align:left">A predictor, predicting the noise of the input image conditioned on text prompt</td>
+</tr>
+</tbody>
+</table>
+<p>Text-To-3D with 2D Diffusion.
+DreamFusion models the 3D object as $N$ in $NeRF$ format.</p>
+<h4 id="trainingforward-process">Training(Forward Process)</h4>
+<p>$$
+\begin{align}
+img_{0} &amp;= N(P(camera))&amp; \text{Camera is randomly generated}\
+img_{1} &amp;= z_{t} + \epsilon, \epsilon \sim \mathcal{N}(0, I)\
+\hat \epsilon_{\phi} &amp;= imagen(z_{t}, y)\
+\epsilon_{\theta} &amp;= \hat \epsilon_{\phi} - \epsilon \
+\end{align}
+$$</p>
+<blockquote>
+<p>[!NOTE]</p>
+<ul>
+<li>The $\epsilon_{\theta}$ indicates the quality of the current NeRF MLP</li>
+<li>The $\theta$ is not known by imagen, since it is only used to predict noise, which doesn&rsquo;t care about the position and angle of the camera</li>
+</ul>
+</blockquote>
+<p>As for the loss function, since they observed that, with the loss as:</p>
+<p>$$
+\begin{align}
+\mathcal{L}<em>{\text{Diff}}(\phi, x = g(\theta)) &amp;= \mathbb{E}</em>{t, \epsilon}\left[w(t)||\hat \epsilon_{\phi}(\underbrace{\alpha_{t}x + \sigma_{t}\epsilon}<em>{z</em>{t}}; t) - \epsilon||<em>{2}^{2}\right]\
+\nabla</em>{\theta}\mathcal{L}<em>{\text{Diff}}(\phi, x = g(\theta)) &amp;= \mathbb{E}</em>{t, \epsilon}\left[w(t)\underbrace{(\hat \epsilon_{\phi}(z_{t};y, t) - \epsilon)}<em>{\text{Noise Residual}}\underbrace{\frac{\partial \hat \epsilon</em>{\phi}(z_{t};y, t) }{z_t}}<em>{\text{U-Net jacobian}}\underbrace{\frac{\partial x}{\partial \theta }}</em>{\text{Generator Jacobian}}\right]
+\end{align}
+$$
+is <strong>expensive</strong> because of the U-Net Jacobian term(since U-net accepts $z_t$), they modify it by removing it:</p>
+<p>$$
+\nabla_{\theta}\mathcal{L}<em>{\text{SDS}}(\phi, x = g(\theta)) \triangleq \mathbb{E}</em>{t, \epsilon}\left[w(t)\underbrace{(\hat \epsilon_{\phi}(z_{t};y, t) - \epsilon)}<em>{\text{Noise Residual}}\underbrace{\frac{\partial x}{\partial \theta }}</em>{\text{Generator Jacobian}}\right]
+$$
+Intuitively, this loss perturbs x with a random amount of noise corresponding to the timestep t, and estimates an update direction that follows the score function of the diffusion model to move to a higher density region.</p>
+<p>$$
+\nabla_{\theta}L_{Diff} = \mathbb{E}<em>{t, \epsilon}\left[ \nabla</em>{x} \left( w(t) \left| e_{\phi}(\alpha_t x + \sigma_t \epsilon; t) - \ell \right|^2 \right) \nabla_{\theta}x \right] $$</p>
+<h3 id="3d-gaussian-splatting">3D Gaussian Splatting</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Notation</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">$x = [a,b,c]^{\top}$</td>
+<td style="text-align:left">3D coordinates in a column vector</td>
+</tr>
+<tr>
+<td style="text-align:left">$\Sigma$</td>
+<td style="text-align:left">Covariance matrix</td>
+</tr>
+<tr>
+<td style="text-align:left">Ellipsoid</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Positive-Definite</td>
+<td style="text-align:left">A property of a <strong>symmetric</strong> matrix $M$, where for every nonzero real column vector $z$, $z^{\top}Mz \gt 0$<br>$A^{\top}A$ is always a positive-definite matrix</td>
+</tr>
+<tr>
+<td style="text-align:left">Positive Semi-Definite</td>
+<td style="text-align:left">A similar concept to <strong>Positive-Definite</strong>, except that $z^{\top}Mz \ge 0$<br>The covariance is always positive semi-definite, and vice versa</td>
+</tr>
+<tr>
+<td style="text-align:left">rasterization</td>
+<td style="text-align:left">A task in image rendering, major task being mapping 3D triangles to the projection plane and pixelate them</td>
+</tr>
+<tr>
+<td style="text-align:left">Like any other modeling methods, 3GS attempts to describe diverse geometric structure with basic elements.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The standard form of (3D Gaussian) <strong>Ellipsoid</strong> is:</p>
+<p>$$
+G_{s}(x) = (\frac{1}{\sqrt{2\pi}^{3}det(\Sigma)})e^{-\frac{1}{2}(x-\mu)^{\top}\Sigma^{-1}(x-\mu)}
+$$
+where:</p>
+<ul>
+<li>$\Sigma$ controls the scale and rotation of the ellipsoid in 3 axis</li>
+</ul>
+<blockquote>
+<p>[!NOTE]
+The eigenvector of the $\Sigma$ is the symmetric axis of the ellipsoid</p>
+</blockquote>
+<p>In the paper, they define ellipsoid as:
+$$
+G(x) = e^{- \frac{1}{2}(x)^{\top}\Sigma^{-1}(x)}
+$$
+where the factor is removed</p>
+<h4 id="initialize-the-ellipsoid">Initialize the ellipsoid</h4>
+<p>It&rsquo;s not feasible to initialzie a 3D ellisoid from scratch, since though each 3D Gaussian Ellisoid has a corresponding $\Sigma$, it&rsquo;s not vice versa, which requires it to be <strong>positive semi-definite</strong>(a equivalence of a covariance matrix)</p>
+<p>The paper mentioned that 3Ｄ Gaussian ellisoid is <del>similar to</del> an ellisoid. Inspired by that fact that ellisoid can be transformed from a <strong>ball</strong>, for ellisoid, we have a derivation of $\Sigma$ as:
+$$
+\Sigma = RSS^{\top}R^{\top}
+$$
+where:</p>
+<ul>
+<li>$S \in \mathbb{R}^{3}$ is a scaling transform</li>
+<li>$R \in \mathbb{R}^{4}$ is a rotation transform</li>
+</ul>
+<p>And both transformation can be learned with nerual network</p>
+<h4 id="splatting">Splatting</h4>
+<p>The rasterization of ellisoid needs to be handled as well.</p>
+<p>The 2D graphic we get from projecting the ellisoid to a plane is called <strong>Splat</strong>, which is defined as:
+$$
+\Sigma^{&rsquo;} = JW\Sigma W^{\top}J^{\top}
+$$
+where:</p>
+<ul>
+<li>$W$ for <strong>view</strong> transformation</li>
+</ul>
+<ul>
+<li>$J$ for <strong>project</strong> transformation.It is get from taking the partial derivatives for the projection matrix from current point to the camera point</li>
+</ul>
+<h4 id="322">322</h4>
+<p>It is proven that, the intergration of a 3D Gaussian along a certain axis is a 2D Gaussian, so the intergration can be replaced by a 2D Gaussian intergration</p>
+<h2 id="projects">Projects</h2>
+<h3 id="streamdiffusion">StreamDiffusion</h3>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Denoising Diffusion Models</title>
+      <link>https://mickjagger19.github.io/posts/ai/models/denoising-diffusion-models/</link>
+      <pubDate>Sun, 14 Jan 2024 14:31:43 +0800</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/ai/models/denoising-diffusion-models/</guid>
+      <description>Personal takeaways of DDIM/DDPM</description>
+      <content:encoded><![CDATA[<h2 id="terminologies">Terminologies</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Term</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Diffusion Models</td>
+<td style="text-align:left">models that can sample from a highly complex probability distribution(e.g. images of cars)</td>
+</tr>
+<tr>
+<td style="text-align:left">Non-equilibrium thermodynamics</td>
+<td style="text-align:left">a branch of <a href="https://en.wikipedia.org/wiki/Thermodynamics" title="Thermodynamics">thermodynamics</a> that deals with physical systems that are not in <a href="https://en.wikipedia.org/wiki/Thermodynamic_equilibrium" title="Thermodynamic equilibrium">thermodynamic equilibrium</a>, where &ldquo;there are no net <a href="https://en.wikipedia.org/wiki/Macroscopic" title="Macroscopic">macroscopic</a> <a href="https://en.wikipedia.org/wiki/Flow_(mathematics)" title="Flow (mathematics)">flows</a> of <a href="https://en.wikipedia.org/wiki/Matter" title="Matter">matter</a> nor of energy within a system or between systems&rdquo;. <br>It is often used by diffusion models as a technique to sample from distribution.</td>
+</tr>
+<tr>
+<td style="text-align:left">Diffusion</td>
+<td style="text-align:left">the <strong>net movement</strong> of anything, generally from a region of higher <a href="https://en.wikipedia.org/wiki/Concentration" title="Concentration">concentration</a> to a region of lower concentration. <br>Also a technique of <strong>Non-equilibrium thermodynamics</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">DDPM</td>
+<td style="text-align:left">model that improves the performance of <strong>diffusion models</strong> by <strong>variational inference</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">DDIM</td>
+<td style="text-align:left">a generalized version of DDPM, with better performance and less diversity and quality</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Jensen</strong> inequality</td>
+<td style="text-align:left">$f(\sum\limits a_{i}x_{i}) \le \sum\limits a_{i}f(x_{i})$, where $a \ge 0, \sum\limits a_{i} = 1$<br>In other words, the Expected Value of a convex function $\ge$ the value of the function at the Expected Input <br></td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Evidence_lower_bound">Variational Lower Bound</a>(short for <strong>VLB</strong>, a.k.a. Evidence Lower BOund, short for <strong>ELBO</strong>)</td>
+<td style="text-align:left">A easy-to-train lower bound of Log-Likelihood, derived by using a prior $p(z)$ to approximate (implies <em>variational</em>) an <del>intractable</del> posterior $q$.</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant"><strong>Jacobian matrix</strong></a></td>
+<td style="text-align:left">A matrix derived from a vector of function of several variables, with all its first-order partial derivatives. Suppose $f: R^{n} \to R^{m}$:<br>$$<br>J = [\frac{\partial{f}}{\partial{x_{1}}}&hellip;\frac{\partial{f}}{\partial{x_{n}}}]<br>$$</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="notations">Notations</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Notation</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">$x_{0}$</td>
+<td style="text-align:left">the data point, where $t$ is the total count of timestamp</td>
+</tr>
+<tr>
+<td style="text-align:left">$x_{t}$</td>
+<td style="text-align:left">the data after applying $t$ times of forward iteration</td>
+</tr>
+<tr>
+<td style="text-align:left">$\epsilon_t$</td>
+<td style="text-align:left">the (standard gaussian) noise</td>
+</tr>
+<tr>
+<td style="text-align:left">$\epsilon_{\theta}(x_t,t)$</td>
+<td style="text-align:left">our model to predict the noise at each timestamp</td>
+</tr>
+<tr>
+<td style="text-align:left">$\mu_{\theta}(x_t, t)$</td>
+<td style="text-align:left">parameterized model to predict $x_{t-1}$ at time $t$</td>
+</tr>
+<tr>
+<td style="text-align:left">$p(x_{0:T})$</td>
+<td style="text-align:left">the joint distribution of $x_{0}, x_{1} &hellip; x_{T}$</td>
+</tr>
+</tbody>
+</table>
+<h2 id="introduction">Introduction</h2>
+<p>This article will introduce the definitions of <strong>DDPM</strong> and <strong>DDIM</strong>.</p>
+<p>As stated earlier, the work of <strong>DDIM</strong> is based on <strong>DDPM</strong>.</p>
+<h2 id="ddpm">DDPM</h2>
+<p><strong>Diffusion Models</strong> often involves modeling two processes:</p>
+<ul>
+<li><strong>forward process</strong>: noise data($x_{0}$) to data point($x_{t}$)</li>
+<li><strong>reverse process</strong>: data point to noise data, the reversion of <em>forward process</em></li>
+</ul>
+<h3 id="forward-process">Forward Process</h3>
+<p>As a improvement of Diffusion Models, <strong>DDPM</strong> models the forward process as:</p>
+<p>$$
+\begin{equation}
+x_{t} = \alpha_{t} x_{t-1} + \beta_{t}\epsilon_{t}, \epsilon_{t} \sim \mathcal{N}(0,1), 0 \le t \le T, t \in \mathbb{Z}
+\end{equation}
+$$</p>
+<p>where $\alpha, \beta &gt; 0, \alpha_{t}^{2}+ \beta_{t}^{2} = 1$. This can be viewed as:</p>
+<ul>
+<li>the remains from the previous data: $\alpha_{t} x_{t-1}$</li>
+<li>the destruction by introducing noise $\epsilon_{t}$</li>
+</ul>
+<p>Accordingly, the conditional probability of $x_t$ would be:
+$$
+p(x_{t}| x_{t-1}) = \mathcal{N}(x_{t};\alpha_{t}x_{t-1}, \beta_{t}^{2}I)
+$$</p>
+<blockquote>
+<p>[!NOTE]</p>
+<ul>
+<li>All $\alpha, \beta, T$ are constants</li>
+<li>Apparently, this is a <strong>Markovian process</strong></li>
+</ul>
+</blockquote>
+<h3 id="reverse-process">Reverse Process</h3>
+<p>By applying the forward process for $T$ times, we have $t$ pairs of $(x_{t-1}, x_{t})$. This is our training data.</p>
+<p>Reversing the forward process, the task of the reverse process should be:
+learn how to get  $x_0$ from $x_{t}$, formally $x_0 \to x_{t}$.</p>
+<p><strong>DDPM</strong> splits this process into $t$ steps of  $x_t \to x_{t-1}$.</p>
+<blockquote>
+<p>[!TIP]  The Methodology of DDPM
+<strong>DDPM</strong> is a Likelihood-based Model.</p>
+</blockquote>
+<p>In the paper, they model each single step as a <strong>gaussian transition</strong>:
+$$
+p_{\theta}(x_{t-1}|x_{t}) = \mathcal{N}(x_{t-1};\mu_{\theta}(x_{t}, t), \Sigma_{\theta}(x_{t},t))
+$$
+where:</p>
+<ul>
+<li>$\mu_{\theta}(x_{t}, t)$: the mean value</li>
+<li>$\Sigma_{\theta}(x_{t},t)$: the variance predictor (of reverse process).</li>
+</ul>
+<blockquote>
+<p>[!NOTE]</p>
+<ul>
+<li>The noise is not gaussian noise multiplied by a factor, but predicted directly.</li>
+<li>Not to confuse:
+* $\Sigma_{\theta}(x_{t},t)$: the noise in reverse process. It has been tested positive to the reverse process
+* $\epsilon_\theta(x_{t},t) \to \epsilon_{t}$ : the noise predictor (<strong>of forward process</strong>)</li>
+</ul>
+</blockquote>
+<h4 id="mean-value-predictor-mu_thetax_t-t">Mean Value Predictor: $\mu_{\theta}(x_{t}, t)$</h4>
+<p>In order to model the $\mu_{\theta}(x_{t}, t)$, from Bayes&rsquo; Theorem we have:
+$$
+p(x_{t-1}| x_{t},x_0)= \frac{p(x_t|x_{t-1}) p(x_{t-1} | x_0)}{p(x_{t}|x_{0}) }
+$$</p>
+<p>The process of induction would be:</p>
+<ol>
+<li>Predict $x_t$, $x_{t-1}$ from $x_0$</li>
+<li>Replace all the variables($x_{0}$) with $x_{t}$ in Equation 4</li>
+</ol>
+<h5 id="predict-x_0-with-x_t">Predict $x_{0}$ with $x_{t}$</h5>
+<p>Applying forward process $p(x_{t}|x_{t-1})$ for $t$ times, we can rewrite $x_{t}$ as:</p>
+<p>$$
+x_{t} = \bar \alpha_{t} x_{0} + \bar{\beta_{t}} ^ {2}\epsilon_{t}, \bar \alpha_{t} = \prod \alpha_{i}, \bar \beta_{t} = \sqrt{1-\bar \alpha_{t}^{2}}
+$$
+And the probability version:
+$$
+p(x_t|x_{0}) = \mathcal{N}(x_{t}; \bar \alpha_{t} x_{0},  \bar \beta_{t} ^ {2}I)
+$$</p>
+<p>Now that we have $x_t$ from $x_0$, update Eq 4 (since $\mathcal{N}$ can be represented as probabilities, the result is conformed to $\mathcal{N}$ as well):</p>
+
+$$
+p(x_{t-1}| x_{t},x_{0}) = \mathcal{N}\left(x_{t-1}; \underbrace{\frac{\alpha_{t}\bar \beta_{t-1}^{2}}{\bar \beta_{t}^{2}}x_{t} + \frac{\bar \alpha_{t-1}\beta_{t}^{2}}{\bar \beta_{t}^{2}}x_{0}}_{\text{$\tilde \mu_t(x_{t}, x_{0})$}},\frac{\bar \beta_{t-1}^{2}\beta_{t}^{2}}{\bar \beta_{t}^{2}}I\right)
+$$
+
+<p>Let&rsquo;s define the predicted mean value of $x_{t-1}$ as $\tilde \mu_t(x_{t}, x_{0}) = \frac{\alpha_{t}\bar \beta_{t-1}^{2}}{\bar \beta_{t}^{2}}x_{t} + \frac{\bar \alpha_{t-1}\beta_{t}^{2}}{\bar \beta_{t}^{2}}x_{0}$.</p>
+<p>Notice the meaning of it: <strong>With Bayes&rsquo; Theorem, using $x_{t}$ and $x_{0}$, we can derive the mean value of $x_{t-1}$.</strong></p>
+<p>So naturally, we can make our $\mu_{\theta}(x_{t}, t)$, who have the same estimated output as  $\tilde \mu_t(x_{t}, x_{0})$, learn the distribution of it:
+$$
+\mu_{\theta}(x_{t}, t) = \tilde \mu_t(x_{t}, x_{0})
+$$</p>
+<blockquote>
+<p>[!NOTE] Different ways of modeling $\mu_\theta$ is also acceptable, it&rsquo;s just that this is a better way (or not)</p>
+</blockquote>
+<p>However, we don&rsquo;t have $x_0$ to pass to $\tilde \mu_t(x_{t}, x_{0})$.  Luckily, we can <strong>predict</strong> $x_0$ from rewriting Equation 7:
+$$
+x_{0}= \frac{x_{t} - \sqrt{1- \bar \alpha_{t}}}{\sqrt{\bar \alpha_{t}}}\epsilon_{t}
+$$</p>
+<blockquote>
+<p>[!TIP]
+This is actually an embodiment of the <a href="https://en.wikipedia.org/wiki/Predictor%E2%80%93corrector_method"><strong>predictor–corrector</strong></a> method</p>
+</blockquote>
+<p>Since we don&rsquo;t have $\epsilon$ in the reverse process, we can make a neural work to learn it: $\epsilon_\theta(x_t,t) \to \epsilon_t$ :
+$$
+x_{0}= \frac{x_{t} - \sqrt{1- \bar \alpha_{t}}}{\sqrt{\bar \alpha_{t}}}\epsilon_{\theta}(x_{t}, t)
+$$</p>
+<p>Update the Eq 10:
+$$
+\mu_{\theta}(x_{t}, t) = \tilde \mu_t(x_{t}, x_{0}) = \tilde \mu_t\left(x_{t}, \frac{x_{t} - \sqrt{1- \bar \alpha_{t}}}{\sqrt{\bar \alpha_{t}}}\epsilon_{\theta}(x_{t}, t)\right)= \frac{1}{\alpha_{t}}\left(x_{t} - \frac{\beta_{t}^2}{\bar\beta_{t}}\epsilon_{\theta}(x_{t},y, t)\right)
+$$</p>
+<h4 id="reverse-noise-predictor-sigma_thetax_tt">Reverse Noise Predictor: $\Sigma_{\theta}(x_{t},t)$</h4>
+<p>It still remains to design $\Sigma_{\theta}(x_{t},t)$, since it encourages diversity.</p>
+<p>The DDPM paper suggested not learning it, since it:</p>
+<blockquote>
+<p>resulted in unstable training and poorer sample quality</p>
+</blockquote>
+<p>By fixing it at some value $\Sigma_{\theta}(x_{t},t) = \sigma_{t}^{2}I$ , where either $\sigma_{t}^{2} = \beta_{t}$ or $\tilde{\beta_t}$ yielded similar performance.</p>
+<h3 id="training--defining-loss">Training &amp; Defining Loss</h3>
+<p>Conclusively, we have only defined one trainable model: $\epsilon_{\theta}(x_t, t)$</p>
+<h4 id="to-reconstruct-x_0">To reconstruct $x_{0}$</h4>
+<p>The training target can be <strong>MLE</strong>, the objective function being log-likelihood of reconstructing $x_{0}$:</p>
+
+$$
+\begin{align*}
+\ln p(x_{0}) &= \int{\ln p(x_{0:T})dx_{1:T}} & \text{marginalization of marginal distribution}\\\\
+&=  \ln \int{p(x_{0:T})dx_{1:T}}\\\\\\
+&=  \ln \mathbb{E}_{q(x_{1:T}|x_{0})}[\int{\frac{p(x_{0:T})}{q(x_{1:T}|x_{0})}}]\\\\
+&\ge \mathbb{E}_{q(x_{1:T}|x_{0})}\left[\ln \frac{p(x_{0:T})}{q(x_{1:T}|x_{0})}\right] & \text{Jensen Inequality of $\log$}\\\\
+&= \underbrace{\mathbb{E}_{q(x_{1}|x_{0})}\left[\ln p_{\theta}({x_{0}|x_{1}})\right]}_{\text{reconstruction term}} - \sum_{t = 2}^{T}\mathbb{E}_{q(x_{t}|x_{0})}\left[D_{KL}(q(x_{t-1}|x_{t},x_{0})||p_{\theta}(x_{t-1}|x_{t}))\right]\\\\
+&= \sum\limits_{t=1}^{T}  \gamma \mathbb{E}_{q(x_{t}|x_{0})}[||\epsilon_{t} - \epsilon_{\theta}(x_{t}, t) || ^{2}] & \text{$\gamma$ being some constants}
+\end{align*}
+$$
+
+<h4 id="to-optimize-the-pixels">To optimize the pixels</h4>
+<p>We design the loss function of $\theta$ as the <strong>Euclidean distance</strong> of the true and predicted mean of  $x_{t-1}$:
+$$
+\begin{align*}
+\ell  &amp;= ||x_{t-1} - \hat x_{t-1}|| ^ 2 \newline
+&amp;= ||x_{t-1} - \mu_\theta(x_{t},t)|| ^ 2 \newline
+&amp;=|| (\frac{1}{\alpha_{t}}(x_{t} - \beta_{t}\epsilon_{t}) ) ^ {2} - \frac{1}{\alpha_{t}}(x_{t} - \beta_{t}\epsilon_{\theta}(x_{t}, t)) ^ {2}||\newline
+&amp;= \frac{\beta_{t}^{2}}{\alpha_{t}^{2}} ||\epsilon_{t} - \epsilon_{\theta}(x_{t}, t) || ^2
+\end{align*}
+$$</p>
+<h2 id="ddim">DDIM</h2>
+<p>While the original <strong>DDPM</strong> is capable to generate satisfying images, it is known for poor performance: since the denoising(reverse) diffusion process usually take $T \sim 1000$ times of noise-prediction.</p>
+<p><strong>DDIM</strong> is proposed to boost the reverse process as <strong>Non-Markovian Process</strong>, by directly taking any model trained on <strong>DDPM</strong> and sampling only  $T_{ddim}, T_{ddim} \le T$ timestamps, with some timestamps skipped. As a side-effect, the quality is compromised a little.</p>
+<h3 id="reverse-process-1">Reverse Process</h3>
+<p>It still takes the same approach as DDPM: predict $x_0$ from $x_t$ first.</p>
+<p>From Eq 4, we can see that the sampling/training do involves $x_t$, but doesn&rsquo;t actually involves $p(x_{t-1}|x_{t})$ (which is defined in our reverse model). Instead, it defines:</p>
+<p>$$
+q_\sigma(x_{t-1}|x_{t}, x_0) = \mathcal{N}(x_{t-1};\sqrt{\bar \alpha_{t-1}}x_0 + \sqrt{1 - \bar \alpha_{t-1} - \sigma_t^2}\frac{x_t - \sqrt{\bar \alpha_t}x_0}{\sqrt{1 - \bar \alpha_t}}, \sigma_t^2I)
+$$</p>
+<p>Hence, the relation between $x_{t-1}$ and $x_t$ is:</p>
+<p>
+$$
+x_{t-1} = \sqrt{\alpha_{t-1}} \underbrace{\left( \frac{x_t - \sqrt{1 - \alpha_{t}}\epsilon_{\theta}(x_{t},t)} {\sqrt{\bar \alpha_{t}}} \right)}_{\text{predicted $x_0$}} + 
+\underbrace{\sqrt{1 - \bar \alpha_{t-1} - \sigma_{t}^{2}\epsilon_{t}(x_{t},t)}}_{\text{predicted  noise}} + \underbrace{\sigma_{t} \epsilon_{t}}_{\text{random noise}}
+$$
+
+
+where:
+$$
+\sigma_t = \eta \sqrt{(\frac{1 - \bar \alpha_t}{1 - \bar \alpha_{t-1}}) \left(1 - \frac{\bar \alpha_t}{\bar \alpha_{t-1}}\right)}
+$$
+where $\eta \in (0,1)$ is a constant, indicating the level of random noise:</p>
+<ul>
+<li>$\eta = 1$: The random noise is maximized, which is <strong>DDPM</strong>.</li>
+<li>$\eta = 0$: The random noise is totally removed, making it a deterministic process/Implicit model, which is <strong>DDIM</strong>. It relies entirely on the predicted noise, while sacrificing some diversity with lowering random noise level.</li>
+</ul>
+<p>As for the timestamps chosen, they are determined empirically.</p>
+<style type="text/css">.notice{--root-color:#444;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#c33;--warning-content:#fee;--info-title:#fb7;--info-content:#fec;--note-title:#6be;--note-content:#e7f2fa;--tip-title:#5a5;--tip-content:#efe}@media (prefers-color-scheme:dark){.notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}}body.dark .notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:var(--root-color);background:var(--root-background)}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:var(--title-color);background:var(--title-background)}.notice.warning .notice-title{background:var(--warning-title)}.notice.warning{background:var(--warning-content)}.notice.info .notice-title{background:var(--info-title)}.notice.info{background:var(--info-content)}.notice.note .notice-title{background:var(--note-title)}.notice.note{background:var(--note-content)}.notice.tip .notice-title{background:var(--tip-title)}.notice.tip{background:var(--tip-content)}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:.125em;position:relative}</style>
+<div><svg width="0" height="0" display="none" xmlns="http://www.w3.org/2000/svg"><symbol id="tip-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></symbol><symbol id="note-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></symbol><symbol id="warning-notice" viewBox="0 0 576 512" preserveAspectRatio="xMidYMid meet"><path d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></symbol><symbol id="info-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"/></symbol></svg></div><div class="notice tip" >
+<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>Tip</p><p>In fact, $\eta$ represents the degree of moving some of the noise from predicted noise $\epsilon_t$ to sampled noise $\epsilon$: the bigger the $\eta$, the less deterministic, the larger random noise will be introduced to the reverse process.</p></div>
+<h2 id="short-summary">Short Summary</h2>
+<p>Conclusively, both models apply the same forward process, and have the same target: $x_{t} \to x_{0}$, though they have differences in the reverse process:</p>
+<ul>
+<li><strong>DDPM</strong> maximize the random noise, and in order to mitigate the negative effects it has,  takes more timestamps in the reverse process</li>
+<li><strong>DDIM</strong> boost the performance by only selecting some of the timestamps, and reduce the random noise level</li>
+</ul>
+<h2 id="conditioned-generation">Conditioned Generation</h2>
+<p>While being able to generate high quality images with reasonable speed with the models mentioned above, it is a common feature to generated <strong>conditioned output</strong>.</p>
+<p>Given condition $y$, our goal is to derive $p(x_{t-1}|x_{t},y)$</p>
+<h3 id="classifier-guided-diffusion">Classifier Guided Diffusion</h3>
+<p>Using bayes&rsquo; rule, we have:
+$$
+p(x_{t-1}|x_{t},y) = \frac{p(x_{t-1}|x_{t})p(y|x_{t-1},x_{t})}{p(y|x_{t})}
+$$</p>
+<p>Using the notations in <a href="/posts/ai/models/denoising-diffusion-models/#reverse-process">Reverse Process</a>:
+$$
+p(x_{t-1}|x_{t},y) \propto \exp(-||x_{t-1}-\mu(x_{t})-\Sigma_{t}^{2}\underbrace{\nabla_{x_{t}}\log p(y|x_{t})}<em>{\text{classifier}}||^{2}/2\Sigma</em>{t}^{2})
+$$</p>
+<p>So $\mu_{\theta}(x_{t}, t,y) = \mu(x_{t})+\Sigma_{t}^{2}\nabla_{x_{t}}\log p(y|x_{t})), \Sigma_{t} = \sigma_{t}$</p>
+<blockquote>
+<p>[!NOTE]</p>
+<ul>
+<li>The gradient of the prob is easy to get with <em>autograd</em>, if the classifier can output the prob</li>
+<li>The classifier guides the model only when inferencing</li>
+</ul>
+</blockquote>
+<h3 id="classifier-free-diffusion">Classifier-Free Diffusion</h3>
+<p>To infer without a classifier, we need to blend the condition $y$ into training process.</p>
+<p>By directly modeling the conditioned reverse process as  $p(x_{t-1}|x_{t},y) = \mathcal{N}(x_{t-1};\mu(x_{t},y), \sigma_{t}^{2}I)$, following the modeling of Eq. 11, we have:
+$$
+\mu(x_{t}, y) = \frac{1}{\alpha_{t}}\left(x_{t} - \frac{\beta_{t}^2}{\bar\beta_{t}}\epsilon_{\theta}(x_{t},y, t)\right)
+$$</p>
+<p>The $\epsilon_{\theta}(x_{t},y, t)$ can be trained to predict the noise under condition.</p>
+<blockquote>
+<p>[!WARNING]
+The conditioned noise predictor depends on $y$, so retraining is required if the $y$ is changed</p>
+</blockquote>
+<h2 id="score-based-generative-models">Score-based generative models</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Notation</th>
+<th style="text-align:left">Meaning</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Ancestral Sampling</td>
+<td style="text-align:left">A sample method, auto-regressive</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">Score Distillation Sampling</td>
+<td style="text-align:left">A sampling method(sampler) to generate samples from a diffusion model by <strong>optimizing a loss function</strong>. Basically, it utilizes(distills) the score function of a teacher diffusion model, to train a larger model, with the final result as a sample (as $t \to 0$).</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Informant_(statistics)">score function</a></td>
+<td style="text-align:left">The gradient of the <strong>log</strong>-likelihood function</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">$U(x) = -\log q(x)$</td>
+<td style="text-align:left">An energy function. The lower the likelihood, the higher the energy</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">$\mu_{\theta}(x_t, t)$</td>
+<td style="text-align:left">parameterized model to predict $x_{t-1}$ at time $t$</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">$p(x_{0:T})$</td>
+<td style="text-align:left">the joint distribution of $x_{0}, x_{1} &hellip; x_{T}$</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Metropolis-adjusted_Langevin_algorithm">Langevin dynamic</a></td>
+<td style="text-align:left">A Markov chain Monte Carlo(MCMC) method for obtraining random samples</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="/">Fisher Divergence</a></td>
+<td style="text-align:left"></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Most often, we don&rsquo;t care about the probability $q(x)$ of a certain input $x$, but how it changes through time: therefore, we can utilize score function(gradient, changes) $s(x):=\nabla_{x}\log q(x)$</p>
+<blockquote>
+<p>[!TIP]
+It is also an advantage of modeling the <strong>score</strong>: don&rsquo;t have to make sure <strong>probability</strong> sum up to 1</p>
+</blockquote>
+<p>With $s(x)$ allowing us to sample from $q(x)$ using thermodynamics, our goals changes to: <strong>model $q(x)$</strong></p>
+<p>$$
+dx_{t} = \nabla \log q(x) d_{t} + d{W_{t}}
+$$</p>
+<h3 id="loss">Loss</h3>
+<p>We learn a model $s_{\theta}$ to <strong>match</strong>(approximate) the <strong>score</strong> $\nabla \log q$:</p>
+<p>$$
+s_{\theta} \approx \nabla \log q(x)
+$$
+&ndash; This is score matching.</p>
+<p>Typically, score matching is formalized as minimizing <strong>Fisher divergence</strong> function . By expanding the integral, and performing an integration by parts, we have our loss function:
+$$
+\mathcal{L} = \mathbb{E}<em>{q}[||s</em>{\theta}(x) - \nabla \log q(x)||^{2}]
+$$
+However, it&rsquo;s infeasible since it requires access to unknown score  $\nabla \log q(x)$.</p>
+<p>Fortunately, we have <strong>score matching</strong> techniques(e.g. <a href="https://en.wikipedia.org/wiki/Scoring_rule#Hyv%C3%A4rinen_scoring_rule" title="Scoring rule">Hyvärinen scoring rule</a>) which minimize the Fisher divergence without knowledge of the gorund-truth score:
+$$
+\mathcal{L} = \mathbb{E}<em>{q}\left[\nabla</em>{x} s_{\theta}(x)+ \frac{1}{2}||s_{\theta}(x)||_{2}^{2}\right]
+$$</p>
+<p>Since $s_{\theta}$ is modeled by ourself, its output and gradients can be easily calculated. We use Monte-Carlo methods with gradient descent to optimize it.</p>
+<h3 id="sample--inference">Sample / Inference</h3>
+<p>But how do we generate a sample.</p>
+<p>Once we have trained a score-based model $s_{\theta}(x)$, we can use an iterative procedure called <strong><a href="https://en.wikipedia.org/wiki/Metropolis-adjusted_Langevin_algorithm">Langevin dynamics</a></strong> to draw samples from it:
+$$
+x_{i + 1} \leftarrow x_{i} + \epsilon \nabla_{x} \log p(x) + \sqrt{2\epsilon} z_{i}, z_{i} \sim \mathcal{N}(0, I)
+$$
+Notice some white noise is injected, to avoid all samples collapse into some limited local optimas.</p>
+<p>This seems decent, but in fact: in low-density regions, the estimated scores are inaccurate.</p>
+<p>It&rsquo;s natural to augment the low-density regions by perturbing our datapoint: injecting $\mathcal{N}$. It can solve the problem in low-density, however since the training data is perturbed, the generated samples are too.</p>
+<p>Multiple (decreasing) noise levels $\sigma$ are applied as an input to score funcion $s$, with the output of previous model $i$ as the input of the next model $i+1$. The whole process resembles an <strong>Anneald Langevn Dynamics</strong></p>
+<h2 id="sde">SDE</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Notation</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Stochastic_differential_equation">SDE</a></td>
+<td style="text-align:left">A DE in which one or more of the terms is a <strong>stohastic</strong> process</td>
+</tr>
+<tr>
+<td style="text-align:left">$\mathcal{U}(T_{a},T_{b})$</td>
+<td style="text-align:left">Uniform distribution over the time interval $[T_{a}, T_{b}]$</td>
+</tr>
+<tr>
+<td style="text-align:left">In <a href="/posts/ai/models/denoising-diffusion-models/#ddpm">DDPM</a>, we define $t$ as <em>discrete</em> timestamps, however it&rsquo;s more natural to model it as <em>continuous</em> time.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="forward-process-1">Forward Process</h3>
+<p>With this premise, we model the forward process with <strong>Stochastic</strong> DE(Differential equation), but not funtion on timestamps:
+$$
+dx = f_{t}(x) + g_{t}dw
+$$</p>
+<h3 id="reverse-process-2">Reverse Process</h3>
+<p>Similarly, we want to model $p(x_{t}|x_{t + \Delta{t}})$:
+$$
+\begin{align}
+p(x_{t}|x_{t + \Delta{t}}) &amp;= \frac{p(x_{t + \Delta_{t}} | x_{t})p(x_{t})}{p(x_{t+ \Delta{t}})} \\
+&amp;= p(x_{t + \Delta{t}} | x_{t})\exp(\log p(x_{t}) - \log p(x_{t+\Delta{t}})) \\
+&amp;\propto \left(-\frac{||x_{t + \Delta_{t}} - x_{t} - f_{t}(x_{t})\Delta{t}||^{2}}{2g_{t}^{2}\Delta t}+  \log p(x_{t}) - \log p(x_{t+\Delta{t}})\right)
+\end{align}
+$$</p>
+<p>In order to calculate the unknown diff, we apply <strong>Taylor expansion</strong>:
+$$
+\log p(x_{t+\Delta{t}}) \approx \log p(x_{t}) + (x_{t+\Delta t} - x_{t}) \cdot \nabla_{x_{t}}\log p(x_{t}) + \underbrace{\Delta t \frac{\partial \log p(x_{t})}{\partial t}}<em>{\text{$x</em>{t}$&rsquo;s deritive of $t$}}
+$$</p>
+<p>Update Equation 26-3 with it, we have:
+$$
+p(x_{t}|x_{t + \Delta{t}})  \sim \mathcal{N}(f_{t+\Delta t}(x_{t + \Delta t}) - g_{t + \Delta t}^{2}\nabla_{x_{t + \Delta t}} \log p(x_{t + \Delta t})\Delta t; g_{t + \Delta t}^{2}\Delta t I)
+$$</p>
+<p>and the SDE of <strong>reverse process</strong>:
+$$
+dx = [f_{t}(x) - g_{t}^{2}\nabla_{x}\log p_{t}(x)]dt + g_{t}dw
+$$</p>
+<h3 id="training">Training</h3>
+<p>$$
+\mathcal{L} = \mathbb{E}<em>{t \in \mathcal{U}(0, T)}\mathbb{E}</em>{p_{t}(x)}[\lambda(t)||\nabla_{x}\log p_{t}(x) - s_{\theta}(x,t)||^{2}_{2}]
+$$
+where:</p>
+<ul>
+<li>$\lambda : \mathbb{R} \to \mathbb{R}_{&gt;0}$  is a positive weighting function</li>
+</ul>
+<h2 id="probability-flow-ode">Probability flow ODE</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Notation</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">PF(Probability flow) ODE</td>
+<td style="text-align:left">The ODE of an SDE</td>
+</tr>
+</tbody>
+</table>
+<p>Despite capable of generating high-quality samples, <em>samplers</em> based on Langevin MCMC and SDE solvers do not provide a way to compute the exact log-likelihood of score-based generative models.</p>
+<p>It has been proved that, it is possible to convert any SDE into an ODE(ordinary differential equation) without changing its marginal distributions $p_{t}(x)$</p>
+<h3 id="forward-process-2">Forward Process</h3>
+<p>With a sequence of complex calculations(including F-P function &amp; Dirac function), we have:</p>
+<p>$$
+dx = [f(x,t) - \frac{1}{2}(g^{2}(t)-\sigma_{t}^{2})\nabla_{x}\log p_{t}(x)]dt
+$$</p>
+<h3 id="reverse-process-3">Reverse Process</h3>
+<p>The reverse process of PF-ODE is given by:</p>
+<p>$$
+dx = [f(x,t) - \frac{1}{2}g^{2}(t)\nabla_{x}\log p_{t}(x)]dt
+$$</p>
+<blockquote>
+<p>[!TIP]
+When $\nabla_{x}\log p_{t}(x)$ replaces $s_{\theta}(x,t)$, PF ODE becomes a special case of a neural ODE</p>
+</blockquote>
+<h2 id="samplers">Samplers</h2>
+<h3 id="euclidean">Euclidean</h3>
+<p>$$
+\begin{equation}\left.\frac{d\boldsymbol{x}<em>t}{dt}\right|</em>{t=t_{n+1}}\approx \frac{\boldsymbol{x}<em>{t</em>{n+1}} - \boldsymbol{x}<em>{t_n}}{t</em>{n+1} - t_n}\end{equation}
+$$
+一阶近似</p>
+<h3 id="heun-solver">Heun solver</h3>
+<h3 id="dpm-solver">DPM solver</h3>
+<h3 id="amed-solver">AMED solver</h3>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>3D on Mick&#39; Blog</title>
+    <link>https://mickjagger19.github.io/tags/3d/</link>
+    <description>Recent content in 3D on Mick&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Jan 2024 21:21:07 +0800</lastBuildDate><atom:link href="https://mickjagger19.github.io/tags/3d/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2D to 3D Assets - A survey</title>
+      <link>https://mickjagger19.github.io/posts/misc/2d-to-3d-assets---a-survey/</link>
+      <pubDate>Mon, 15 Jan 2024 21:21:07 +0800</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/misc/2d-to-3d-assets---a-survey/</guid>
+      <description>A survey of techniques to transform 2D image to 3D assets</description>
+      <content:encoded><![CDATA[<hr>
+<p>title: 2D to 3D Assets - A survey
+summary: A survey of techniques to transform 2D image to 3D assets
+tags:</p>
+<ul>
+<li>Diffusion</li>
+<li>3D
+author: Mick
+draft: false
+date: 2024-01-15T21:21:07+0800
+math: true</li>
+</ul>
+<hr>
+<h2 id="terminologies">Terminologies</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Term</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">3D representation</td>
+<td style="text-align:left">The representation of an object in 3D. There are different forms, including:<br>- Radiance Field</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Volume_rendering">Volume rendering</a></td>
+<td style="text-align:left">A set of techniques used to display a 2D projection of a 3D discretely sampled data set</td>
+</tr>
+<tr>
+<td style="text-align:left">Triangle mesh</td>
+<td style="text-align:left">An important basic concept in digital modeling. A 3D model consists of triangles, the peripheral triangles form a triangle mesh</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Point_cloud">Point cloud</a></td>
+<td style="text-align:left">A discrete set of data points in space</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="notations">Notations</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Notation</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">$N$</td>
+<td style="text-align:left">the $NeRF$ instance</td>
+</tr>
+<tr>
+<td style="text-align:left">$\sigma$</td>
+<td style="text-align:left">The volumemetric density of a point in radiance</td>
+</tr>
+<tr>
+<td style="text-align:left">$\theta$</td>
+<td style="text-align:left">the viewing direction of a point between $x,y$</td>
+</tr>
+<tr>
+<td style="text-align:left">$\phi$</td>
+<td style="text-align:left">the viewing direction of a point between $(xy), z$</td>
+</tr>
+<tr>
+<td style="text-align:left">$c$</td>
+<td style="text-align:left">color</td>
+</tr>
+</tbody>
+</table>
+<h2 id="background">Background</h2>
+<p>All 123 methods involves representing geometric latents.</p>
+<h2 id="3d-representations">3D Representations</h2>
+<h3 id="mesh">Mesh</h3>
+<p>Set of $vertice, edge, face$</p>
+<h3 id="point-cloud">Point Cloud</h3>
+<p>Set of points described with $x, y, x$</p>
+<h2 id="models">Models</h2>
+<h3 id="nerf">NeRF</h3>
+<p>NeRF(Neural Radiance Field) aims to synthesize novel view of complex scenes. Given several images from different views, output 3D-representatins of this view.</p>
+<h4 id="radiance-field">Radiance Field</h4>
+<p>Radiance Field describes a function $F$:
+$$
+F : (\underbrace{x,y,z}<em>{position},\underbrace{\theta,\phi}</em>{direction}) \to (R,G,B,\sigma)
+$$
+which outputs the color and density of a point (x,y,z), in the direction described by $\theta , \phi$</p>
+<p>The color of a point can be calculated by:</p>
+<p>$$
+C(r) = \int_{t_{n}}^{t_{f}}{T(t)\sigma(r(t))}c(r(t), d)dt
+$$</p>
+<p>where:</p>
+<ul>
+<li>Cumulative light transmittance:  indicating the remained light density at a point in a radiance
+$$T(t) = exp\left(-\int_{t_{n}}^{t}{\sigma(r(s))ds)}\right)$$</li>
+<li>The radiance from focus to a pixel $r(t) = o + td$: $o$ for zero point, $t$ for distance</li>
+</ul>
+<p>Considering the calculation amount of this integration, the actual coloring involves calculating the weighted average of N points sampled from a radiance</p>
+<p>With the help of this F, we can generate the image of the object viewing from every direction.Ne</p>
+<p>NeRF models the $F$ with a nerual network $MLP$</p>
+<blockquote>
+<p>[!NOTE]
+The input is 5D</p>
+</blockquote>
+<h4 id="volume-rendering">Volume Rendering</h4>
+<p>Calculating the color of a certain pixel with integration would include massive Tensor, representing radiance field.</p>
+<p>With the help of $F$, the color can be regressed with limited tensor size</p>
+<h4 id="training">Training</h4>
+<p>The objective function:
+$$
+\mathcal{L} = MSE( F_{\Theta} - \text{g.t.})
+$$</p>
+<p>The training data would be: images of an object from different views, with the color of a certain radiance extracted from the image.</p>
+<h4 id="improvements">Improvements</h4>
+<h5 id="positional-encoding">Positional encoding</h5>
+<p>$$
+\gamma(pos, p) = sin(2^{pos}\pi p)
+$$</p>
+<h5 id="hierarchical-volume-sampling">Hierarchical volume sampling</h5>
+<p>Based on the fact that the density distribution is not uniform, random sample is not a good idea: some high-density region can sometimes be not sampled. Thus, we can use a $w_{i}$ for the possibility of a region being sampled, to increase the sample efficiency.
+$$
+\hat w_{i} = \frac{w_{i}}{\sum\limits_{j = 1}^{N_{c}}w_{j}}
+$$</p>
+<h4 id="modeling-3d-assets">Modeling 3D assets</h4>
+<p>Luma AI</p>
+<h4 id="e-commerce">E-commerce</h4>
+<p>Modeling merchandises</p>
+<h4 id="aigc">AIGC</h4>
+<h4 id="virtual-human">Virtual human</h4>
+<p>NeRF/3DGS</p>
+<h4 id="gamevr">Game/VR</h4>
+<h3 id="gaussian-splatting">Gaussian Splatting</h3>
+<h3 id="dreamfusion">DreamFusion</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Notation</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Imagen</td>
+<td style="text-align:left">A predictor, predicting the noise of the input image conditioned on text prompt</td>
+</tr>
+</tbody>
+</table>
+<p>Text-To-3D with 2D Diffusion.
+DreamFusion models the 3D object as $N$ in $NeRF$ format.</p>
+<h4 id="trainingforward-process">Training(Forward Process)</h4>
+<p>$$
+\begin{align}
+img_{0} &amp;= N(P(camera))&amp; \text{Camera is randomly generated}\
+img_{1} &amp;= z_{t} + \epsilon, \epsilon \sim \mathcal{N}(0, I)\
+\hat \epsilon_{\phi} &amp;= imagen(z_{t}, y)\
+\epsilon_{\theta} &amp;= \hat \epsilon_{\phi} - \epsilon \
+\end{align}
+$$</p>
+<blockquote>
+<p>[!NOTE]</p>
+<ul>
+<li>The $\epsilon_{\theta}$ indicates the quality of the current NeRF MLP</li>
+<li>The $\theta$ is not known by imagen, since it is only used to predict noise, which doesn&rsquo;t care about the position and angle of the camera</li>
+</ul>
+</blockquote>
+<p>As for the loss function, since they observed that, with the loss as:</p>
+<p>$$
+\begin{align}
+\mathcal{L}<em>{\text{Diff}}(\phi, x = g(\theta)) &amp;= \mathbb{E}</em>{t, \epsilon}\left[w(t)||\hat \epsilon_{\phi}(\underbrace{\alpha_{t}x + \sigma_{t}\epsilon}<em>{z</em>{t}}; t) - \epsilon||<em>{2}^{2}\right]\
+\nabla</em>{\theta}\mathcal{L}<em>{\text{Diff}}(\phi, x = g(\theta)) &amp;= \mathbb{E}</em>{t, \epsilon}\left[w(t)\underbrace{(\hat \epsilon_{\phi}(z_{t};y, t) - \epsilon)}<em>{\text{Noise Residual}}\underbrace{\frac{\partial \hat \epsilon</em>{\phi}(z_{t};y, t) }{z_t}}<em>{\text{U-Net jacobian}}\underbrace{\frac{\partial x}{\partial \theta }}</em>{\text{Generator Jacobian}}\right]
+\end{align}
+$$
+is <strong>expensive</strong> because of the U-Net Jacobian term(since U-net accepts $z_t$), they modify it by removing it:</p>
+<p>$$
+\nabla_{\theta}\mathcal{L}<em>{\text{SDS}}(\phi, x = g(\theta)) \triangleq \mathbb{E}</em>{t, \epsilon}\left[w(t)\underbrace{(\hat \epsilon_{\phi}(z_{t};y, t) - \epsilon)}<em>{\text{Noise Residual}}\underbrace{\frac{\partial x}{\partial \theta }}</em>{\text{Generator Jacobian}}\right]
+$$
+Intuitively, this loss perturbs x with a random amount of noise corresponding to the timestep t, and estimates an update direction that follows the score function of the diffusion model to move to a higher density region.</p>
+<p>$$
+\nabla_{\theta}L_{Diff} = \mathbb{E}<em>{t, \epsilon}\left[ \nabla</em>{x} \left( w(t) \left| e_{\phi}(\alpha_t x + \sigma_t \epsilon; t) - \ell \right|^2 \right) \nabla_{\theta}x \right] $$</p>
+<h3 id="3d-gaussian-splatting">3D Gaussian Splatting</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Notation</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">$x = [a,b,c]^{\top}$</td>
+<td style="text-align:left">3D coordinates in a column vector</td>
+</tr>
+<tr>
+<td style="text-align:left">$\Sigma$</td>
+<td style="text-align:left">Covariance matrix</td>
+</tr>
+<tr>
+<td style="text-align:left">Ellipsoid</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Positive-Definite</td>
+<td style="text-align:left">A property of a <strong>symmetric</strong> matrix $M$, where for every nonzero real column vector $z$, $z^{\top}Mz \gt 0$<br>$A^{\top}A$ is always a positive-definite matrix</td>
+</tr>
+<tr>
+<td style="text-align:left">Positive Semi-Definite</td>
+<td style="text-align:left">A similar concept to <strong>Positive-Definite</strong>, except that $z^{\top}Mz \ge 0$<br>The covariance is always positive semi-definite, and vice versa</td>
+</tr>
+<tr>
+<td style="text-align:left">rasterization</td>
+<td style="text-align:left">A task in image rendering, major task being mapping 3D triangles to the projection plane and pixelate them</td>
+</tr>
+<tr>
+<td style="text-align:left">Like any other modeling methods, 3GS attempts to describe diverse geometric structure with basic elements.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The standard form of (3D Gaussian) <strong>Ellipsoid</strong> is:</p>
+<p>$$
+G_{s}(x) = (\frac{1}{\sqrt{2\pi}^{3}det(\Sigma)})e^{-\frac{1}{2}(x-\mu)^{\top}\Sigma^{-1}(x-\mu)}
+$$
+where:</p>
+<ul>
+<li>$\Sigma$ controls the scale and rotation of the ellipsoid in 3 axis</li>
+</ul>
+<blockquote>
+<p>[!NOTE]
+The eigenvector of the $\Sigma$ is the symmetric axis of the ellipsoid</p>
+</blockquote>
+<p>In the paper, they define ellipsoid as:
+$$
+G(x) = e^{- \frac{1}{2}(x)^{\top}\Sigma^{-1}(x)}
+$$
+where the factor is removed</p>
+<h4 id="initialize-the-ellipsoid">Initialize the ellipsoid</h4>
+<p>It&rsquo;s not feasible to initialzie a 3D ellisoid from scratch, since though each 3D Gaussian Ellisoid has a corresponding $\Sigma$, it&rsquo;s not vice versa, which requires it to be <strong>positive semi-definite</strong>(a equivalence of a covariance matrix)</p>
+<p>The paper mentioned that 3Ｄ Gaussian ellisoid is <del>similar to</del> an ellisoid. Inspired by that fact that ellisoid can be transformed from a <strong>ball</strong>, for ellisoid, we have a derivation of $\Sigma$ as:
+$$
+\Sigma = RSS^{\top}R^{\top}
+$$
+where:</p>
+<ul>
+<li>$S \in \mathbb{R}^{3}$ is a scaling transform</li>
+<li>$R \in \mathbb{R}^{4}$ is a rotation transform</li>
+</ul>
+<p>And both transformation can be learned with nerual network</p>
+<h4 id="splatting">Splatting</h4>
+<p>The rasterization of ellisoid needs to be handled as well.</p>
+<p>The 2D graphic we get from projecting the ellisoid to a plane is called <strong>Splat</strong>, which is defined as:
+$$
+\Sigma^{&rsquo;} = JW\Sigma W^{\top}J^{\top}
+$$
+where:</p>
+<ul>
+<li>$W$ for <strong>view</strong> transformation</li>
+</ul>
+<ul>
+<li>$J$ for <strong>project</strong> transformation.It is get from taking the partial derivatives for the projection matrix from current point to the camera point</li>
+</ul>
+<h4 id="322">322</h4>
+<p>It is proven that, the intergration of a 3D Gaussian along a certain axis is a 2D Gaussian, so the intergration can be replaced by a 2D Gaussian intergration</p>
+<h2 id="projects">Projects</h2>
+<h3 id="streamdiffusion">StreamDiffusion</h3>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

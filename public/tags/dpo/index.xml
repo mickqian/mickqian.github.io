@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DPO on Mick&#39; Blog</title>
+    <link>https://mickjagger19.github.io/tags/dpo/</link>
+    <description>Recent content in DPO on Mick&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 16 Jan 2024 21:31:43 +0800</lastBuildDate><atom:link href="https://mickjagger19.github.io/tags/dpo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>https://mickjagger19.github.io/posts/ai/rl/reinforcement-learning/</link>
+      <pubDate>Tue, 16 Jan 2024 21:31:43 +0800</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/ai/rl/reinforcement-learning/</guid>
+      <description>Personal takeaways of RL/RLHF/DPO</description>
+      <content:encoded><![CDATA[<h2 id="terminologies">Terminologies</h2>
+<p>General:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Term</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Reinforcement Learning</td>
+<td style="text-align:left">A branch/paradigm of machine learning, concerned with how an intelligent agent behaves in a dynamic environment.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>BLUE</strong>(bilingual evaluation understudy)</td>
+<td style="text-align:left">An algorithm for evaluating the quality of text which has been machine-translated from one natural language to another</td>
+</tr>
+<tr>
+<td style="text-align:left">Reward Model(Actor model)</td>
+<td style="text-align:left">A model aligned with human feedback, predicting the reward of given actions</td>
+</tr>
+<tr>
+<td style="text-align:left">$G_{t}$</td>
+<td style="text-align:left">Return(aka the future reward), total sum of <strong>discounted</strong> rewards after time $t$:  $G_{t} = {\sum}^{\infty}_{k = 0}\gamma^{k}R_{t + k + 1}$</td>
+</tr>
+<tr>
+<td style="text-align:left">$V_{\pi}(s)$</td>
+<td style="text-align:left">State-value function, measures the expected return of state $s$: $V(s) = \mathbb{E}_{\pi}[G_{t}\vert S_{t} = s]$ under $\pi$</td>
+</tr>
+<tr>
+<td style="text-align:left">$Q_{\pi}(s,a)$</td>
+<td style="text-align:left">Action-value function, measures the expected return of action $a$ under state $s$: $Q_{\pi}(s, a) = \mathbb{E}_{\pi}[G_{t} \vert S_{t} = s, A_{t} = a]$ under $\pi$</td>
+</tr>
+<tr>
+<td style="text-align:left">Bellman Equations</td>
+<td style="text-align:left">A set of equations that decompose the value function into <strong>immediate reward</strong> + <strong>discounted future values</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">$A_{q}$</td>
+<td style="text-align:left">the action to update $Q$</td>
+</tr>
+<tr>
+<td style="text-align:left">$A_{t+1}$</td>
+<td style="text-align:left">the actual taken action</td>
+</tr>
+</tbody>
+</table>
+<p>In RL Algorithms (mostly adjectives):</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Term</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Model-based</td>
+<td style="text-align:left">Algorithms of RL relying on a (environment dynamic) model, which defines $P(s&rsquo;\vert s,a), R(s,a)$</td>
+</tr>
+<tr>
+<td style="text-align:left">Model-free</td>
+<td style="text-align:left">Algorithms of RL learning by the interaction of the model with environment</td>
+</tr>
+<tr>
+<td style="text-align:left">Policy-Based(Policy Gradient) Methods</td>
+<td style="text-align:left">A branch of RL: quantize each action as <strong>PDF</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Value-Based Methods</td>
+<td style="text-align:left">A branch of RL: quantize each action as value(PMF ? )</td>
+</tr>
+<tr>
+<td style="text-align:left">Current policy</td>
+<td style="text-align:left">The policy(actions) actually taken by an agent in an episode</td>
+</tr>
+<tr>
+<td style="text-align:left">On-policy</td>
+<td style="text-align:left">Using the action in current(actually exploited/taken) policy to update $V$</td>
+</tr>
+<tr>
+<td style="text-align:left">Off-policy</td>
+<td style="text-align:left">Using an action not from current policy to update $V$</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="introduction">Introduction</h2>
+<h2 id="value-based">Value-based</h2>
+<h3 id="dynamic-programming">Dynamic Programming</h3>
+<p>We can use Dynamic Programming to iteratively update and query value functions ($V_{\pi}$), with the help of Bellman
+equations, <strong>when the model is fully known</strong>.</p>
+<h3 id="monte-carlo">Monte-Carlo</h3>
+<p>#model_free</p>
+<p>Instead of modeling the environment, <strong>MC methods</strong> learns from <strong>episodes of raw experience</strong>, approximating the
+observed mean return as expected return.</p>
+<p>To optimally learn in <strong>MC</strong>, we take following steps:</p>
+<ol>
+<li>Improve the policy greedily: $\pi(s) = \underset{a}{argmax}Q(s, a)$</li>
+<li>Generate a new episode with the combination of the new policy $\pi$ and randomness(e.g. $\epsilon$-greedy), balancing
+between exploitation and exploration</li>
+<li>Estimate $Q$ with the generated episode $\pi$</li>
+</ol>
+<h3 id="temporal-difference-methods">Temporal Difference methods</h3>
+<p>#model-free</p>
+<blockquote>
+<p>[!NOTE]
+TD learning can learn from <strong>incomplete</strong> episodes</p>
+</blockquote>
+<h4 id="bootstrapping">Bootstrapping</h4>
+<p><strong>Estimate</strong> the rewards, rather than exclusively carrying out the episode.</p>
+<h4 id="value-estimation">Value Estimation</h4>
+<p>The estimated Value funciont $V$ is updated towards an estimated return $R_{t+1} + \gamma V(S_{t+1})$</p>
+<h4 id="sarsa">SARSA</h4>
+<p>#on-policy</p>
+<blockquote>
+<p>[!TIP]
+Define $A_{q}$ as the action to update $Q$</p>
+</blockquote>
+<p>State-Action-Reward-State-Action
+In each $t$:</p>
+<ol>
+<li>Choose $A_{t} = \underset{a \in A}{argmax}{Q(S_{t}, a)}$ with $\epsilon$-greedy</li>
+<li>Obtain $R_{t + 1}$</li>
+<li>Set $A_{t+1} \sim \pi(\cdot|s) = A_{q}$, under <strong>current policy</strong></li>
+<li>Update $Q$ with the <strong>advantage of actual $A_{t+1}$ over expected reward</strong>:</li>
+</ol>
+
+
+$$
+Q(S_{t}, A_{t}) \leftarrow Q(S_{t}, A_{t}) + \alpha(\underbrace{R_{t+1} + \gamma Q(S_{t + 1}, A_{t + 1})}_{\text{value  of current  policy, on-policy}} - \underbrace{Q(S_{t},A_{t})}_{\text{expected  value}})
+$$
+
+
+<ol start="5">
+<li>$t = t + 1$</li>
+</ol>
+<blockquote>
+<p>[!NOTICE]
+$A_{q} == A_{t + 1}$, making it on-policy</p>
+</blockquote>
+<h4 id="q-learning">Q-Learning</h4>
+<p>#off-policy</p>
+<p>Q-learning is an off-policy method, with the steps in one episodes ($t, S_{t}$) being:</p>
+<ol>
+<li>Choose $A_{t} = \underset{a \in A}{argmax}Q(S_{t}, a)$ with $\epsilon$-greedy</li>
+<li>Obtain $R_{t + 1}$</li>
+<li>Set $A_{t+1} \sim \pi(\cdot|s)$, $A_{q} = \underset{a \in A}{\max} Q(S_{t + 1}, a)$</li>
+<li>Update $Q$ with the <strong>advantage of optimal $A_{t + 1}$ over expected reward</strong>:<br>
+
+
+   $$Q(S_{t}, A_{t}) \leftarrow Q(S_{t}, A_{t}) + \alpha(\underbrace{R_{t+1} + \gamma \underset{a \in A}{\max} Q(S_{t + 1}, a)}_{\text{best  value  after $A_{t}$, off-policy}} - \underbrace{Q(S_{t}, A_{t})}_{\text{expected  value}})
+   $$
+
+   </li>
+<li>$t = t + 1$</li>
+</ol>
+<blockquote>
+<p>[!NOTICE]
+$A_{q} = \underset{a \in A}{\max} Q(S_{t + 1}, a) \ne A_{t + 1}$, making it off-policy</p>
+</blockquote>
+<h4 id="dqn">DQN</h4>
+<p>#off-policy</p>
+<p>Deep Q-Network, An improvement of <strong>Q-Learning</strong>:</p>
+<ul>
+<li><strong>Experience Replay</strong>: All the episode steps $e_{t} = (S_{t}, A_{t}, R_{t}, S_{t+1})$ are stored in one replay memory
+$D_{t} = {e_{1}, &hellip;, e_{t}}$. During Q-learning updates, samples are drawn at random from the replay memory and thus
+one sample could be used multiple times.</li>
+<li><strong>Periodically Updated Target</strong>: Q is optimized towards target values that are only <strong>periodically</strong> updated(not
+updated in each iteration anymore). The Q network is cloned and kept frozen as the optimization target every <strong>C</strong>
+steps (C is a hyperparameter).</li>
+</ul>
+<blockquote>
+<p>[!WARNING]
+Known for overestimating value function $Q$</p>
+</blockquote>
+<h2 id="policy-gradient">Policy Gradient</h2>
+
+
+$$
+\begin{align*}
+J(\theta) = \underset{s \in S}{\sum\limits} d^{\pi}(s)V^{\pi}(s) = \underset{s \in S}{\sum\limits} d^{\pi} \underset{a
+\in A}{\sum\limits} \pi_{\theta}(a|s)Q^{\pi}(s,a)
+\end{align*}
+$$
+
+
+<h3 id="actor-critic">Actor-Critic</h3>
+<p>Actor-Critic learns the <strong>value function</strong> in addition to the policy, assisting the policy update.</p>
+<p>It consists of two models:</p>
+<ul>
+<li><strong>Actor</strong> updates the policy $\theta$ of $\pi_\theta(a|s)$, suggested by critic</li>
+<li><strong>Critic</strong> updates the value estimation function $Q(a|s) | V_{w}(s)$</li>
+</ul>
+<p>The main process being, for $t \in (1, T)$:</p>
+<ol>
+<li>Sample $a \sim \pi_{\theta}(a|s), r_{t} \sim R(s,a), s&rsquo; \sim P(s&rsquo;|s,a)$, next action $a&rsquo; \sim \pi_{\theta}(a&rsquo;|s&rsquo;)$</li>
+<li>Update <strong>Actor</strong> $\theta$:
+$$
+\theta \leftarrow \theta + \alpha_{\theta} Q_{w}(s,a)\nabla_{\theta} ln \pi_{\theta}(
+a|s)</li>
+</ol>
+<p>$$</p>
+<p>to maximize the reward
+5. Compute the correction (TD error, measures the quality of current policy $a&rsquo;$):
+
+
+$$
+\delta_{t} = \underbrace{r_{t} + \gamma Q_{w}(s', a')}_{\text{Action-Value of a'}} - \underbrace{Q_{w}(s,a)}_{\text{actual reward}}
+$$
+
+
+6. Update <strong>Critic</strong>: $w \leftarrow w + \alpha_{w}\delta_{t}\nabla_{w}Q_{w}(s,a)$ to reduce estimate error (ideally,
+$\delta_{t} \leftarrow 0$, as $a&rsquo; \sim \pi_{\theta}(a&rsquo;|s&rsquo;)$)
+7. Update $a \leftarrow a&rsquo;, s \leftarrow s'$</p>
+<blockquote>
+<p>[!TIP]
+Adversarial training, resembles GAN: (generator, discriminator)</p>
+</blockquote>
+<h3 id="a2c">A2C</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Model</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Actor $\pi_{\theta}$</td>
+<td style="text-align:left">The target model</td>
+</tr>
+<tr>
+<td style="text-align:left">Critic</td>
+<td style="text-align:left">Estimate $V$</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<p>$$
+L(\theta) = -\log \pi_{\theta}(a_{t}|s_{t})\hat A_{t}
+$$</p>
+<p>where:</p>
+<ul>
+<li>$\hat A$: advantage function, the advantage of $a_{t}$ compared with average, normally $V$</li>
+</ul>
+<blockquote>
+<p>[!WARNING]
+This objective function can lead to massive change to policy</p>
+</blockquote>
+<h3 id="a3c">A3C</h3>
+<p><strong>Asynchronous Advantage Actor-Critic</strong> focuses on parallel training. Multiple actors are trained in parallel and get
+synced with global parameters.</p>
+<h3 id="dpg">DPG</h3>
+<p>#model-free #off-policy</p>
+<p><strong>Deterministic Policy Gradient</strong> models the policy as deterministic function $a = \mu(s)$.</p>
+<p>It is trained by maximizing the objective function: the expected discounted reward:</p>
+<p>$$
+J(\theta) = \int_{S}\rho^{\mu}(s)Q(s, \mu_{\theta}(s))ds
+$$</p>
+<p>where:</p>
+<ul>
+<li>$\rho^{\mu}(s&rsquo;)$: discounted state distribution</li>
+<li>$\mu$: the deterministic action predictor</li>
+</ul>
+<h3 id="ddpg">DDPG</h3>
+<p>#model-free #off-policy</p>
+<p><strong>Deep Deterministic Policy Gradient</strong></p>
+<p>Combining <a href="/posts/ai/rl/reinforcement-learning/#dqn">DQN</a> (experience replay, freezing target model) and <a href="/posts/ai/rl/reinforcement-learning/#dpg">DPG</a></p>
+<p>Key design:</p>
+<ul>
+<li>Better exploration: $\mu’(s) = \mu_{\theta}(s) + \mathcal{N}$, adding noise $\mathcal{N}$ to policy</li>
+<li>Soft updates: Moving average of parameter $\theta$</li>
+</ul>
+<h3 id="td3">TD3</h3>
+<p><strong>Twin Delayed Deep Deterministic</strong> applied tricks on <a href="/posts/ai/rl/reinforcement-learning/#ddpg">DDPG</a> to prevent overestimating value function:</p>
+<ol>
+<li>Clipped Double Q-learning: Action selection and Q-value estimation are made by two networks separately.</li>
+<li>Delayed update of target the policy network: Instead of updating actor and critic in one iteration, <strong>TD3</strong> updates
+the <strong>actor</strong> at a lower frequency than <strong>critic</strong>, waiting for it to become stable. It helps reducing the variance.</li>
+<li>Target policy smoothing: Introduce a smoothing regularization strategy by adding $\epsilon \sim clip(\mathcal{N}(0,
+\sigma), -c , +c)$ to the value function $Q_{w}(s&rsquo;, \mu_{\theta}(s&rsquo;) + \epsilon))$. It mitigates the risk of
+deterministic policies overfitting the value function.</li>
+</ol>
+<h3 id="sac">SAC</h3>
+<p><strong>Soft Actor-Critic</strong> learns a more random policy by incorporating the entropy of the policy $H(\pi)$ into the reward.</p>
+<p>Three key components:</p>
+<ul>
+<li>An actor-critic architecture</li>
+<li>An off-policy approach</li>
+<li>Entropy Maximization to encourage exploration</li>
+</ul>
+<p>The policy is trained by maximizing the objective function: expected return + the entropy
+
+
+$$
+J(\theta) = \sum\limits_{t = 1}^athbb{E}_{s_{t},a_{t} \sim \rho_{\pi_
+{\theta}}} [r(s_{t},a_{t}) + \alpha \mathcal{H}(\pi_{\theta}(* | s_{t}))]
+$$
+
+</p>
+<h3 id="ppo-proximal-policy-optimization">PPO (Proximal Policy Optimization)</h3>
+<p>#on-policy</p>
+<blockquote>
+<p>[!TIP]</p>
+<ul>
+<li>clipped objective</li>
+<li><strong>Proximal</strong> stands for <strong>Reward Model</strong></li>
+</ul>
+</blockquote>
+<p>As a successor of <a href="/posts/ai/rl/reinforcement-learning/#a2c">A2C</a>, PPO defines 2 more models:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Model</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Reward $r_{\theta}$</td>
+<td style="text-align:left">Calculate $R$</td>
+</tr>
+<tr>
+<td style="text-align:left">Reference $\pi_{ref}$</td>
+<td style="text-align:left">Apply constraint and guidance to <em>Actor</em></td>
+</tr>
+<tr>
+<td style="text-align:left">$r^{\ast}$</td>
+<td style="text-align:left">Ground-truth reward function</td>
+</tr>
+<tr>
+<td style="text-align:left">$r_\phi$</td>
+<td style="text-align:left">MLE of $r^{\ast}$</td>
+</tr>
+</tbody>
+</table>
+<p>$$
+L(\theta) = \underbrace{-\hat A_{t} \cdot min(r_{t}(\theta), clip(r_{t}(\theta), 1 - \epsilon, 1 + \epsilon))}<em>{\text{A2C loss, $\le 1$ + $\epsilon$}}  -  \underbrace{\beta D</em>{KL}(\pi_{\theta}(y|x)||\pi_{ref}(y|x))}_{\text{penalty of being too distant to normal response}}
+$$</p>
+<p>where:</p>
+<ul>
+<li>$r_{t}(\theta) = \frac{\pi_{\theta}(a_{t}|s_{t})}{\pi_{\theta_{old}}(a_{t}|s_{t})}$: the ratio of new policy to old policy</li>
+<li>$\epsilon$: normally 0.1 or 0.2</li>
+</ul>
+<ul>
+<li>Generate two outputs from same input $x$: $y_{1}, y_{2}$
+<ul>
+<li>Objective: $\mathcal{L} = \underset{\pi_{\theta}}{\max}\mathbb{E}[r_{\theta}(x,y_{2})]$
+<ul>
+<li>Update:
+<ul>
+<li>Optimize with the reward of current batch</li>
+<li>TRO(<strong>Trust Region Optimization</strong>): using <strong>gradient constraint</strong> to make sure the update process doesn&rsquo;t sabotage the stability of learning process.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>[!TIP]</p>
+<ul>
+<li>$r$ and $\pi$ can be optimized iteratively.</li>
+<li>RLHF and PPO is difficult to train.</li>
+</ul>
+</blockquote>
+<h3 id="dpodirect-preference-optimization">DPO(Direct Preference Optimization)</h3>
+<blockquote>
+<p>[!NOTE] The major difference
+<strong>Direct</strong>: directly optimize with reward, rather than $V | Q$: <strong>expected</strong> rewards from a reward model</p>
+</blockquote>
+<p>Rewrite objective:</p>
+<p>$$
+\begin{align*}
+\pi
+&amp;= \underset{\pi}{\max}(r_{\phi}(x,y) - \beta D_{KL}(\pi_{\theta}(y|x)||\pi_{ref}(y|x)))\\
+&amp;= \underset{\pi}{\max}(r_{\phi}(x,y) - \beta \log \frac{\pi_{\theta}(y|x)}{\pi_{ref}(y|x)})\\
+&amp;= \underset{\pi}{\min}( \log \frac{\pi_{\theta}(y|x)}{\pi_{ref}(y|x)} - r_{\phi}(x,y)/\beta)\\
+&amp;= \underset{\pi}{\min}( \log \frac{\pi_{\theta}(y|x)}{\pi_{ref}(y|x) e^{r_{\phi}(x,y)/\beta} })
+\end{align*}
+$$</p>
+<p>^0639d4</p>
+<p>Define partition function: $Z = \Sigma_{y}{\pi_{ref}(y|x) e^{r_{\theta}(x,y)/\beta}}$, which relates to the reward of $\theta$ over $ref$</p>
+<p>We can get the optimal strategy $\pi^{\ast}$ under $r_{\phi}$(irrelevant of $\theta$):</p>
+<p>$$
+\pi^{*}(y|x)  = \pi_{ref}(y|x)e^{\frac{r_{\phi} (x,y)}{\beta}} \frac{1}{Z(x)}
+$$</p>
+<p>^5ee375</p>
+<p>Then Eq [[#^0639d4]] became:</p>
+<p>$$
+\begin{align*}
+\pi
+&amp;= \underset{\pi}{\min}\left( \log \frac{\pi_{\theta}(y|x)}{\pi_{ref}(y|x) e^{r_{\phi}(x,y)}{\beta}}\right)\\
+&amp;= \underset{\pi}{\min}\left( \log \frac{\pi_{\theta}(y|x)}{\pi^{\ast}(y|x) Z(x)}\right)\\
+&amp;= \underset{\pi}{\min}\left( \log \frac{\pi_{\theta}(y|x)}{\pi^{\ast}(y|x)}\right)\\
+&amp;= \underset{\pi}{\min}\left( D_{KL}(\pi_{\theta}(y|x) || \pi^{\ast}(y|x))\right)
+\end{align*}
+$$</p>
+<p>Apparently, the optimal $\pi$ is: $\pi_{\theta} \to \pi^{*}$.</p>
+<p>Noticing that the reward function of E.Q. [[#^5ee375]] can be rewritten(reparameterized) as(where $\pi_{ref}$ is the human-preference data as ground-truth):</p>
+<p>$$
+r_{\phi} (x,y) = \beta \log \frac{\pi^{\ast}(y|x)}{\pi_{ref}(y|x)} + \beta \log Z(x)
+$$</p>
+<blockquote>
+<p>[!TIP] the reward function can be represted with best policy trained under it</p>
+</blockquote>
+<p>By replacing $r_{\phi} (x,y)$ in the objective of RLHF as $\pi^{*}$, we get an objective function without the <strong>reward function</strong>:</p>
+
+
+$$
+\begin{align}
+\mathcal{L}_{\text{DPO}}(\pi_{\theta}; \pi_{ref}) = -{{\mathbb{E}_{(x, y_{w}, y_{l}) \sim D}[\log \sigma{({\beta \frac{\pi_{\theta}(y_{w}|x)}{\pi_{ref}(y_{w}|x)} - \beta\frac{\pi_{\theta}(y_{l}|x)}{\pi_{ref}(y_{l}|x)} }})]}}
+\end{align}
+$$
+
+
+<p>From this equation, we found that: <strong>Training the reward model in RLHF is equivalent to training $\pi_{\theta}$ with the derived objective function</strong>.</p>
+<p>That is to say, no need of 4 models, we can achieve the same target of RLHF with directly training $\pi_{\theta}$.</p>
+<h2 id="methods">Methods</h2>
+<h3 id="rlhf">RLHF</h3>
+<p><strong>RLHF(Reinforcement learning from human feedback)</strong> is a technique that trains a <strong>reward model</strong>.</p>
+<p>It has following key concepts:</p>
+<ul>
+<li><strong>Reward Model</strong>: trained in advance directly from human feedback</li>
+<li>human feedback: data collected by asking humans to <strong>rank</strong> instances of the agent&rsquo;s behavior</li>
+</ul>
+<p>The procedure is given by 3 steps</p>
+<h4 id="1-sft">1. SFT</h4>
+<p>Pre-train a (target) model: $\pi^{SFT}$</p>
+<h4 id="2-reward-modeling-phase">2. Reward Modeling Phase</h4>
+<p>Train a reward model: $r_{\phi}(x,y) = r, r \in (0, + \infty)$, where $r$ is the reward of the given input.</p>
+<ul>
+<li>
+<p>Initialization: Often initialized from Pretrained Models</p>
+</li>
+<li>
+<p>Data:</p>
+<ul>
+<li>$D$:  $Prompt: x \to (Generation: y, Reward: r)$, generated by human or models</li>
+<li>Human Feedback: <strong>Ranking</strong> the outputs of different models under same prompt with $r$
+<ul>
+<li>effective ways of ranking: Comparing two/ ELO</li>
+</ul>
+</li>
+<li>$(y_{win}, y_{loss})$ : sampled from generation</li>
+</ul>
+</li>
+<li>
+<p>Train the RM with Data
+The Objective is (negative log-likelihood loss):
+
+  
+  $$
+  \begin{align*}
+  \mathcal{L}_{R}(r_{\phi}, D) = -{{\mathbb{E}_{(x, y_{w}, y_{l}) \sim
+  D}[\log{\sigma({r_{\phi}(x, y_{w}) - r_{\phi}(x, y_{l})}})]}}
+  \end{align*}
+  $$
+
+  </p>
+<p>maximize the gap of rewards between better/worse response</p>
+</li>
+</ul>
+<h4 id="3-rl-fine-tuning-phase-pi_thetax--py">3. RL Fine-Tuning Phase: $\pi_{\theta}(x) = p(y)$</h4>
+<ul>
+<li>In the past, training LM with RL was considered impossible.</li>
+<li>One of the proposed feasible plan is PGR(<strong>Policy Gradient RL</strong>)/PPO(<strong>Proximal Policy Optimization</strong>)</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

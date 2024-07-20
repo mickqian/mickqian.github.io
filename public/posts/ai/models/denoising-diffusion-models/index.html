@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Denoising Diffusion Models | Mick&#39; Blog</title>
+<meta name="keywords" content="Diffusion, Generative">
+<meta name="description" content="Personal takeaways of DDIM/DDPM">
+<meta name="author" content="Mick">
+<link rel="canonical" href="https://mickjagger19.github.io/posts/ai/models/denoising-diffusion-models/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.8dd6f57454653644cba6929524e195dff93a26fa61dce2b3b2629e50b8d12816.css" integrity="sha256-jdb1dFRlNkTLppKVJOGV3/k6Jvph3OKzsmKeULjRKBY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://mickjagger19.github.io/favicon.ico">
+<link rel="apple-touch-icon" href="https://mickjagger19.github.io/apple-touch-icon.png">
+<link rel="alternate" hreflang="en" href="https://mickjagger19.github.io/posts/ai/models/denoising-diffusion-models/">
+
+<meta name="twitter:title" content="Denoising Diffusion Models | Mick&#39; Blog" />
+<meta name="twitter:description" content="Personal takeaways of DDIM/DDPM" />
+<meta property="og:title" content="Denoising Diffusion Models | Mick&#39; Blog" />
+<meta property="og:description" content="Personal takeaways of DDIM/DDPM" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mickjagger19.github.io/posts/ai/models/denoising-diffusion-models/" />
+<meta property="article:section" content="posts" />
+  <meta property="article:published_time" content="2024-01-14T14:31:43&#43;08:00" />
+  <meta property="article:modified_time" content="2024-01-14T14:31:43&#43;08:00" />
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://mickjagger19.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Denoising Diffusion Models",
+      "item": "https://mickjagger19.github.io/posts/ai/models/denoising-diffusion-models/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Denoising Diffusion Models | Mick' Blog",
+  "name": "Denoising Diffusion Models",
+  "description": "Personal takeaways of DDIM/DDPM",
+  "keywords": [
+    "Diffusion", "Generative"
+  ],
+  "wordCount" : "2442",
+  "inLanguage": "en",
+  "datePublished": "2024-01-14T14:31:43+08:00",
+  "dateModified": "2024-01-14T14:31:43+08:00",
+  "author":{
+    "@type": "Person",
+    "name": "Mick"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://mickjagger19.github.io/posts/ai/models/denoising-diffusion-models/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mick' Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://mickjagger19.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+      integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
+        integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8"
+        crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+        integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        renderMathInElement(document.body, {
+            
+            
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            
+            throwOnError: false
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+
+</head>
+
+<body class=" dark type-posts kind-page layout-" id="top"><script data-no-instant>
+    function switchTheme(theme) {
+        switch (theme) {
+            case 'light':
+                document.body.classList.remove('dark');
+                break;
+            case 'dark':
+                document.body.classList.add('dark');
+                break;
+            
+            default:
+                if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    document.body.classList.add('dark');
+                }
+        }
+    }
+
+    function isDarkTheme() {
+        return document.body.className.includes("dark");
+    }
+
+    function getPrefTheme() {
+        return localStorage.getItem("pref-theme");
+    }
+
+    function setPrefTheme(theme) {
+        switchTheme(theme)
+        localStorage.setItem("pref-theme", theme);
+    }
+
+    const toggleThemeCallbacks = {}
+    toggleThemeCallbacks['main'] = (isDark) => {
+        
+        if (isDark) {
+            setPrefTheme('light');
+        } else {
+            setPrefTheme('dark');
+        }
+    }
+
+    
+    
+    
+    window.addEventListener('toggle-theme', function () {
+        
+        const isDark = isDarkTheme()
+        for (const key in toggleThemeCallbacks) {
+            toggleThemeCallbacks[key](isDark)
+        }
+    });
+
+    
+    function toggleThemeListener() {
+        
+        window.dispatchEvent(new CustomEvent('toggle-theme'));
+    }
+
+</script>
+<script>
+    
+    (function () {
+        const defaultTheme = 'dark';
+        const prefTheme = getPrefTheme();
+        const theme = prefTheme ? prefTheme : defaultTheme;
+
+        switchTheme(theme);
+    })();
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://mickjagger19.github.io/" accesskey="h" title="Mick&#39; Blog (Alt + H)">Mick&#39; Blog</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                         stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                         stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://mickjagger19.github.io/posts/" title="Posts" class="active"
+                >
+                <span>Posts
+                </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://mickjagger19.github.io/archives/" title="Archive"
+                >
+                <span>Archive
+                </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://mickjagger19.github.io/search/" title="Search (Alt &#43; /)"data-no-instant accesskey=/
+                >
+                <span>Search
+                </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://mickjagger19.github.io/tags/" title="Tags"
+                >
+                <span>Tags
+                </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main post">
+
+<article class="post-single">
+    <header class="post-header">
+        <h1 class="post-title">Denoising Diffusion Models</h1>
+        <div class="post-meta"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+       stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"
+       style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"
+                                        style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6"
+                                                                                style="user-select: text;"></line><line
+          x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10"
+                                                                              style="user-select: text;"></line></svg>
+  <span>January 14, 2024</span></span><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor"
+       stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"
+                                                                                         fill="none"></path><circle
+          cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
+  <span>12 min</span></span><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor"
+       stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"
+                                                                                         fill="none"></path><circle
+          cx="12" cy="7" r="4"></circle><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path></svg>Mick</span>
+
+            
+            
+        </div>
+    </header> <div class="toc side right">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#terminologies" aria-label="Terminologies">Terminologies</a></li>
+                <li>
+                    <a href="#notations" aria-label="Notations">Notations</a></li>
+                <li>
+                    <a href="#introduction" aria-label="Introduction">Introduction</a></li>
+                <li>
+                    <a href="#ddpm" aria-label="DDPM">DDPM</a><ul>
+                        
+                <li>
+                    <a href="#forward-process" aria-label="Forward Process">Forward Process</a></li>
+                <li>
+                    <a href="#reverse-process" aria-label="Reverse Process">Reverse Process</a><ul>
+                        
+                <li>
+                    <a href="#mean-value-predictor-mu_thetax_t-t" aria-label="Mean Value Predictor: $\mu_{\theta}(x_{t}, t)$">Mean Value Predictor: $\mu_{\theta}(x_{t}, t)$</a><ul>
+                        
+                <li>
+                    <a href="#predict-x_0-with-x_t" aria-label="Predict $x_{0}$ with $x_{t}$">Predict $x_{0}$ with $x_{t}$</a></li></ul>
+                </li>
+                <li>
+                    <a href="#reverse-noise-predictor-sigma_thetax_tt" aria-label="Reverse Noise Predictor: $\Sigma_{\theta}(x_{t},t)$">Reverse Noise Predictor: $\Sigma_{\theta}(x_{t},t)$</a></li></ul>
+                </li>
+                <li>
+                    <a href="#training--defining-loss" aria-label="Training &amp;amp; Defining Loss">Training &amp; Defining Loss</a><ul>
+                        
+                <li>
+                    <a href="#to-reconstruct-x_0" aria-label="To reconstruct $x_{0}$">To reconstruct $x_{0}$</a></li>
+                <li>
+                    <a href="#to-optimize-the-pixels" aria-label="To optimize the pixels">To optimize the pixels</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#ddim" aria-label="DDIM">DDIM</a><ul>
+                        
+                <li>
+                    <a href="#reverse-process-1" aria-label="Reverse Process">Reverse Process</a></li></ul>
+                </li>
+                <li>
+                    <a href="#short-summary" aria-label="Short Summary">Short Summary</a></li>
+                <li>
+                    <a href="#conditioned-generation" aria-label="Conditioned Generation">Conditioned Generation</a><ul>
+                        
+                <li>
+                    <a href="#classifier-guided-diffusion" aria-label="Classifier Guided Diffusion">Classifier Guided Diffusion</a></li>
+                <li>
+                    <a href="#classifier-free-diffusion" aria-label="Classifier-Free Diffusion">Classifier-Free Diffusion</a></li></ul>
+                </li>
+                <li>
+                    <a href="#score-based-generative-models" aria-label="Score-based generative models">Score-based generative models</a><ul>
+                        
+                <li>
+                    <a href="#loss" aria-label="Loss">Loss</a></li>
+                <li>
+                    <a href="#sample--inference" aria-label="Sample / Inference">Sample / Inference</a></li></ul>
+                </li>
+                <li>
+                    <a href="#sde" aria-label="SDE">SDE</a><ul>
+                        
+                <li>
+                    <a href="#forward-process-1" aria-label="Forward Process">Forward Process</a></li>
+                <li>
+                    <a href="#reverse-process-2" aria-label="Reverse Process">Reverse Process</a></li>
+                <li>
+                    <a href="#training" aria-label="Training">Training</a></li></ul>
+                </li>
+                <li>
+                    <a href="#probability-flow-ode" aria-label="Probability flow ODE">Probability flow ODE</a><ul>
+                        
+                <li>
+                    <a href="#forward-process-2" aria-label="Forward Process">Forward Process</a></li>
+                <li>
+                    <a href="#reverse-process-3" aria-label="Reverse Process">Reverse Process</a></li></ul>
+                </li>
+                <li>
+                    <a href="#samplers" aria-label="Samplers">Samplers</a><ul>
+                        
+                <li>
+                    <a href="#euclidean" aria-label="Euclidean">Euclidean</a></li>
+                <li>
+                    <a href="#heun-solver" aria-label="Heun solver">Heun solver</a></li>
+                <li>
+                    <a href="#dpm-solver" aria-label="DPM solver">DPM solver</a></li>
+                <li>
+                    <a href="#amed-solver" aria-label="AMED solver">AMED solver</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+    <div class="post-content"><h2 id="terminologies">Terminologies<a hidden class="anchor" aria-hidden="true" href="#terminologies">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Term</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Diffusion Models</td>
+<td style="text-align:left">models that can sample from a highly complex probability distribution(e.g. images of cars)</td>
+</tr>
+<tr>
+<td style="text-align:left">Non-equilibrium thermodynamics</td>
+<td style="text-align:left">a branch of <a href="https://en.wikipedia.org/wiki/Thermodynamics" title="Thermodynamics">thermodynamics</a> that deals with physical systems that are not in <a href="https://en.wikipedia.org/wiki/Thermodynamic_equilibrium" title="Thermodynamic equilibrium">thermodynamic equilibrium</a>, where &ldquo;there are no net <a href="https://en.wikipedia.org/wiki/Macroscopic" title="Macroscopic">macroscopic</a> <a href="https://en.wikipedia.org/wiki/Flow_(mathematics)" title="Flow (mathematics)">flows</a> of <a href="https://en.wikipedia.org/wiki/Matter" title="Matter">matter</a> nor of energy within a system or between systems&rdquo;. <br>It is often used by diffusion models as a technique to sample from distribution.</td>
+</tr>
+<tr>
+<td style="text-align:left">Diffusion</td>
+<td style="text-align:left">the <strong>net movement</strong> of anything, generally from a region of higher <a href="https://en.wikipedia.org/wiki/Concentration" title="Concentration">concentration</a> to a region of lower concentration. <br>Also a technique of <strong>Non-equilibrium thermodynamics</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">DDPM</td>
+<td style="text-align:left">model that improves the performance of <strong>diffusion models</strong> by <strong>variational inference</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">DDIM</td>
+<td style="text-align:left">a generalized version of DDPM, with better performance and less diversity and quality</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Jensen</strong> inequality</td>
+<td style="text-align:left">$f(\sum\limits a_{i}x_{i}) \le \sum\limits a_{i}f(x_{i})$, where $a \ge 0, \sum\limits a_{i} = 1$<br>In other words, the Expected Value of a convex function $\ge$ the value of the function at the Expected Input <br></td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Evidence_lower_bound">Variational Lower Bound</a>(short for <strong>VLB</strong>, a.k.a. Evidence Lower BOund, short for <strong>ELBO</strong>)</td>
+<td style="text-align:left">A easy-to-train lower bound of Log-Likelihood, derived by using a prior $p(z)$ to approximate (implies <em>variational</em>) an <del>intractable</del> posterior $q$.</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant"><strong>Jacobian matrix</strong></a></td>
+<td style="text-align:left">A matrix derived from a vector of function of several variables, with all its first-order partial derivatives. Suppose $f: R^{n} \to R^{m}$:<br>$$<br>J = [\frac{\partial{f}}{\partial{x_{1}}}&hellip;\frac{\partial{f}}{\partial{x_{n}}}]<br>$$</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="notations">Notations<a hidden class="anchor" aria-hidden="true" href="#notations">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Notation</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">$x_{0}$</td>
+<td style="text-align:left">the data point, where $t$ is the total count of timestamp</td>
+</tr>
+<tr>
+<td style="text-align:left">$x_{t}$</td>
+<td style="text-align:left">the data after applying $t$ times of forward iteration</td>
+</tr>
+<tr>
+<td style="text-align:left">$\epsilon_t$</td>
+<td style="text-align:left">the (standard gaussian) noise</td>
+</tr>
+<tr>
+<td style="text-align:left">$\epsilon_{\theta}(x_t,t)$</td>
+<td style="text-align:left">our model to predict the noise at each timestamp</td>
+</tr>
+<tr>
+<td style="text-align:left">$\mu_{\theta}(x_t, t)$</td>
+<td style="text-align:left">parameterized model to predict $x_{t-1}$ at time $t$</td>
+</tr>
+<tr>
+<td style="text-align:left">$p(x_{0:T})$</td>
+<td style="text-align:left">the joint distribution of $x_{0}, x_{1} &hellip; x_{T}$</td>
+</tr>
+</tbody>
+</table>
+<h2 id="introduction">Introduction<a hidden class="anchor" aria-hidden="true" href="#introduction">¶</a></h2>
+<p>This article will introduce the definitions of <strong>DDPM</strong> and <strong>DDIM</strong>.</p>
+<p>As stated earlier, the work of <strong>DDIM</strong> is based on <strong>DDPM</strong>.</p>
+<h2 id="ddpm">DDPM<a hidden class="anchor" aria-hidden="true" href="#ddpm">¶</a></h2>
+<p><strong>Diffusion Models</strong> often involves modeling two processes:</p>
+<ul>
+<li><strong>forward process</strong>: noise data($x_{0}$) to data point($x_{t}$)</li>
+<li><strong>reverse process</strong>: data point to noise data, the reversion of <em>forward process</em></li>
+</ul>
+<h3 id="forward-process">Forward Process<a hidden class="anchor" aria-hidden="true" href="#forward-process">¶</a></h3>
+<p>As a improvement of Diffusion Models, <strong>DDPM</strong> models the forward process as:</p>
+<p>$$
+\begin{equation}
+x_{t} = \alpha_{t} x_{t-1} + \beta_{t}\epsilon_{t}, \epsilon_{t} \sim \mathcal{N}(0,1), 0 \le t \le T, t \in \mathbb{Z}
+\end{equation}
+$$</p>
+<p>where $\alpha, \beta &gt; 0, \alpha_{t}^{2}+ \beta_{t}^{2} = 1$. This can be viewed as:</p>
+<ul>
+<li>the remains from the previous data: $\alpha_{t} x_{t-1}$</li>
+<li>the destruction by introducing noise $\epsilon_{t}$</li>
+</ul>
+<p>Accordingly, the conditional probability of $x_t$ would be:
+$$
+p(x_{t}| x_{t-1}) = \mathcal{N}(x_{t};\alpha_{t}x_{t-1}, \beta_{t}^{2}I)
+$$</p>
+<blockquote>
+<p>[!NOTE]</p>
+<ul>
+<li>All $\alpha, \beta, T$ are constants</li>
+<li>Apparently, this is a <strong>Markovian process</strong></li>
+</ul>
+</blockquote>
+<h3 id="reverse-process">Reverse Process<a hidden class="anchor" aria-hidden="true" href="#reverse-process">¶</a></h3>
+<p>By applying the forward process for $T$ times, we have $t$ pairs of $(x_{t-1}, x_{t})$. This is our training data.</p>
+<p>Reversing the forward process, the task of the reverse process should be:
+learn how to get  $x_0$ from $x_{t}$, formally $x_0 \to x_{t}$.</p>
+<p><strong>DDPM</strong> splits this process into $t$ steps of  $x_t \to x_{t-1}$.</p>
+<blockquote>
+<p>[!TIP]  The Methodology of DDPM
+<strong>DDPM</strong> is a Likelihood-based Model.</p>
+</blockquote>
+<p>In the paper, they model each single step as a <strong>gaussian transition</strong>:
+$$
+p_{\theta}(x_{t-1}|x_{t}) = \mathcal{N}(x_{t-1};\mu_{\theta}(x_{t}, t), \Sigma_{\theta}(x_{t},t))
+$$
+where:</p>
+<ul>
+<li>$\mu_{\theta}(x_{t}, t)$: the mean value</li>
+<li>$\Sigma_{\theta}(x_{t},t)$: the variance predictor (of reverse process).</li>
+</ul>
+<blockquote>
+<p>[!NOTE]</p>
+<ul>
+<li>The noise is not gaussian noise multiplied by a factor, but predicted directly.</li>
+<li>Not to confuse:
+* $\Sigma_{\theta}(x_{t},t)$: the noise in reverse process. It has been tested positive to the reverse process
+* $\epsilon_\theta(x_{t},t) \to \epsilon_{t}$ : the noise predictor (<strong>of forward process</strong>)</li>
+</ul>
+</blockquote>
+<h4 id="mean-value-predictor-mu_thetax_t-t">Mean Value Predictor: $\mu_{\theta}(x_{t}, t)$<a hidden class="anchor" aria-hidden="true" href="#mean-value-predictor-mu_thetax_t-t">¶</a></h4>
+<p>In order to model the $\mu_{\theta}(x_{t}, t)$, from Bayes&rsquo; Theorem we have:
+$$
+p(x_{t-1}| x_{t},x_0)= \frac{p(x_t|x_{t-1}) p(x_{t-1} | x_0)}{p(x_{t}|x_{0}) }
+$$</p>
+<p>The process of induction would be:</p>
+<ol>
+<li>Predict $x_t$, $x_{t-1}$ from $x_0$</li>
+<li>Replace all the variables($x_{0}$) with $x_{t}$ in Equation 4</li>
+</ol>
+<h5 id="predict-x_0-with-x_t">Predict $x_{0}$ with $x_{t}$<a hidden class="anchor" aria-hidden="true" href="#predict-x_0-with-x_t">¶</a></h5>
+<p>Applying forward process $p(x_{t}|x_{t-1})$ for $t$ times, we can rewrite $x_{t}$ as:</p>
+<p>$$
+x_{t} = \bar \alpha_{t} x_{0} + \bar{\beta_{t}} ^ {2}\epsilon_{t}, \bar \alpha_{t} = \prod \alpha_{i}, \bar \beta_{t} = \sqrt{1-\bar \alpha_{t}^{2}}
+$$
+And the probability version:
+$$
+p(x_t|x_{0}) = \mathcal{N}(x_{t}; \bar \alpha_{t} x_{0},  \bar \beta_{t} ^ {2}I)
+$$</p>
+<p>Now that we have $x_t$ from $x_0$, update Eq 4 (since $\mathcal{N}$ can be represented as probabilities, the result is conformed to $\mathcal{N}$ as well):</p>
+
+$$
+p(x_{t-1}| x_{t},x_{0}) = \mathcal{N}\left(x_{t-1}; \underbrace{\frac{\alpha_{t}\bar \beta_{t-1}^{2}}{\bar \beta_{t}^{2}}x_{t} + \frac{\bar \alpha_{t-1}\beta_{t}^{2}}{\bar \beta_{t}^{2}}x_{0}}_{\text{$\tilde \mu_t(x_{t}, x_{0})$}},\frac{\bar \beta_{t-1}^{2}\beta_{t}^{2}}{\bar \beta_{t}^{2}}I\right)
+$$
+
+<p>Let&rsquo;s define the predicted mean value of $x_{t-1}$ as $\tilde \mu_t(x_{t}, x_{0}) = \frac{\alpha_{t}\bar \beta_{t-1}^{2}}{\bar \beta_{t}^{2}}x_{t} + \frac{\bar \alpha_{t-1}\beta_{t}^{2}}{\bar \beta_{t}^{2}}x_{0}$.</p>
+<p>Notice the meaning of it: <strong>With Bayes&rsquo; Theorem, using $x_{t}$ and $x_{0}$, we can derive the mean value of $x_{t-1}$.</strong></p>
+<p>So naturally, we can make our $\mu_{\theta}(x_{t}, t)$, who have the same estimated output as  $\tilde \mu_t(x_{t}, x_{0})$, learn the distribution of it:
+$$
+\mu_{\theta}(x_{t}, t) = \tilde \mu_t(x_{t}, x_{0})
+$$</p>
+<blockquote>
+<p>[!NOTE] Different ways of modeling $\mu_\theta$ is also acceptable, it&rsquo;s just that this is a better way (or not)</p>
+</blockquote>
+<p>However, we don&rsquo;t have $x_0$ to pass to $\tilde \mu_t(x_{t}, x_{0})$.  Luckily, we can <strong>predict</strong> $x_0$ from rewriting Equation 7:
+$$
+x_{0}= \frac{x_{t} - \sqrt{1- \bar \alpha_{t}}}{\sqrt{\bar \alpha_{t}}}\epsilon_{t}
+$$</p>
+<blockquote>
+<p>[!TIP]
+This is actually an embodiment of the <a href="https://en.wikipedia.org/wiki/Predictor%E2%80%93corrector_method"><strong>predictor–corrector</strong></a> method</p>
+</blockquote>
+<p>Since we don&rsquo;t have $\epsilon$ in the reverse process, we can make a neural work to learn it: $\epsilon_\theta(x_t,t) \to \epsilon_t$ :
+$$
+x_{0}= \frac{x_{t} - \sqrt{1- \bar \alpha_{t}}}{\sqrt{\bar \alpha_{t}}}\epsilon_{\theta}(x_{t}, t)
+$$</p>
+<p>Update the Eq 10:
+$$
+\mu_{\theta}(x_{t}, t) = \tilde \mu_t(x_{t}, x_{0}) = \tilde \mu_t\left(x_{t}, \frac{x_{t} - \sqrt{1- \bar \alpha_{t}}}{\sqrt{\bar \alpha_{t}}}\epsilon_{\theta}(x_{t}, t)\right)= \frac{1}{\alpha_{t}}\left(x_{t} - \frac{\beta_{t}^2}{\bar\beta_{t}}\epsilon_{\theta}(x_{t},y, t)\right)
+$$</p>
+<h4 id="reverse-noise-predictor-sigma_thetax_tt">Reverse Noise Predictor: $\Sigma_{\theta}(x_{t},t)$<a hidden class="anchor" aria-hidden="true" href="#reverse-noise-predictor-sigma_thetax_tt">¶</a></h4>
+<p>It still remains to design $\Sigma_{\theta}(x_{t},t)$, since it encourages diversity.</p>
+<p>The DDPM paper suggested not learning it, since it:</p>
+<blockquote>
+<p>resulted in unstable training and poorer sample quality</p>
+</blockquote>
+<p>By fixing it at some value $\Sigma_{\theta}(x_{t},t) = \sigma_{t}^{2}I$ , where either $\sigma_{t}^{2} = \beta_{t}$ or $\tilde{\beta_t}$ yielded similar performance.</p>
+<h3 id="training--defining-loss">Training &amp; Defining Loss<a hidden class="anchor" aria-hidden="true" href="#training--defining-loss">¶</a></h3>
+<p>Conclusively, we have only defined one trainable model: $\epsilon_{\theta}(x_t, t)$</p>
+<h4 id="to-reconstruct-x_0">To reconstruct $x_{0}$<a hidden class="anchor" aria-hidden="true" href="#to-reconstruct-x_0">¶</a></h4>
+<p>The training target can be <strong>MLE</strong>, the objective function being log-likelihood of reconstructing $x_{0}$:</p>
+
+$$
+\begin{align*}
+\ln p(x_{0}) &= \int{\ln p(x_{0:T})dx_{1:T}} & \text{marginalization of marginal distribution}\\\\
+&=  \ln \int{p(x_{0:T})dx_{1:T}}\\\\\\
+&=  \ln \mathbb{E}_{q(x_{1:T}|x_{0})}[\int{\frac{p(x_{0:T})}{q(x_{1:T}|x_{0})}}]\\\\
+&\ge \mathbb{E}_{q(x_{1:T}|x_{0})}\left[\ln \frac{p(x_{0:T})}{q(x_{1:T}|x_{0})}\right] & \text{Jensen Inequality of $\log$}\\\\
+&= \underbrace{\mathbb{E}_{q(x_{1}|x_{0})}\left[\ln p_{\theta}({x_{0}|x_{1}})\right]}_{\text{reconstruction term}} - \sum_{t = 2}^{T}\mathbb{E}_{q(x_{t}|x_{0})}\left[D_{KL}(q(x_{t-1}|x_{t},x_{0})||p_{\theta}(x_{t-1}|x_{t}))\right]\\\\
+&= \sum\limits_{t=1}^{T}  \gamma \mathbb{E}_{q(x_{t}|x_{0})}[||\epsilon_{t} - \epsilon_{\theta}(x_{t}, t) || ^{2}] & \text{$\gamma$ being some constants}
+\end{align*}
+$$
+
+<h4 id="to-optimize-the-pixels">To optimize the pixels<a hidden class="anchor" aria-hidden="true" href="#to-optimize-the-pixels">¶</a></h4>
+<p>We design the loss function of $\theta$ as the <strong>Euclidean distance</strong> of the true and predicted mean of  $x_{t-1}$:
+$$
+\begin{align*}
+\ell  &amp;= ||x_{t-1} - \hat x_{t-1}|| ^ 2 \newline
+&amp;= ||x_{t-1} - \mu_\theta(x_{t},t)|| ^ 2 \newline
+&amp;=|| (\frac{1}{\alpha_{t}}(x_{t} - \beta_{t}\epsilon_{t}) ) ^ {2} - \frac{1}{\alpha_{t}}(x_{t} - \beta_{t}\epsilon_{\theta}(x_{t}, t)) ^ {2}||\newline
+&amp;= \frac{\beta_{t}^{2}}{\alpha_{t}^{2}} ||\epsilon_{t} - \epsilon_{\theta}(x_{t}, t) || ^2
+\end{align*}
+$$</p>
+<h2 id="ddim">DDIM<a hidden class="anchor" aria-hidden="true" href="#ddim">¶</a></h2>
+<p>While the original <strong>DDPM</strong> is capable to generate satisfying images, it is known for poor performance: since the denoising(reverse) diffusion process usually take $T \sim 1000$ times of noise-prediction.</p>
+<p><strong>DDIM</strong> is proposed to boost the reverse process as <strong>Non-Markovian Process</strong>, by directly taking any model trained on <strong>DDPM</strong> and sampling only  $T_{ddim}, T_{ddim} \le T$ timestamps, with some timestamps skipped. As a side-effect, the quality is compromised a little.</p>
+<h3 id="reverse-process-1">Reverse Process<a hidden class="anchor" aria-hidden="true" href="#reverse-process-1">¶</a></h3>
+<p>It still takes the same approach as DDPM: predict $x_0$ from $x_t$ first.</p>
+<p>From Eq 4, we can see that the sampling/training do involves $x_t$, but doesn&rsquo;t actually involves $p(x_{t-1}|x_{t})$ (which is defined in our reverse model). Instead, it defines:</p>
+<p>$$
+q_\sigma(x_{t-1}|x_{t}, x_0) = \mathcal{N}(x_{t-1};\sqrt{\bar \alpha_{t-1}}x_0 + \sqrt{1 - \bar \alpha_{t-1} - \sigma_t^2}\frac{x_t - \sqrt{\bar \alpha_t}x_0}{\sqrt{1 - \bar \alpha_t}}, \sigma_t^2I)
+$$</p>
+<p>Hence, the relation between $x_{t-1}$ and $x_t$ is:</p>
+<p>
+$$
+x_{t-1} = \sqrt{\alpha_{t-1}} \underbrace{\left( \frac{x_t - \sqrt{1 - \alpha_{t}}\epsilon_{\theta}(x_{t},t)} {\sqrt{\bar \alpha_{t}}} \right)}_{\text{predicted $x_0$}} + 
+\underbrace{\sqrt{1 - \bar \alpha_{t-1} - \sigma_{t}^{2}\epsilon_{t}(x_{t},t)}}_{\text{predicted  noise}} + \underbrace{\sigma_{t} \epsilon_{t}}_{\text{random noise}}
+$$
+
+
+where:
+$$
+\sigma_t = \eta \sqrt{(\frac{1 - \bar \alpha_t}{1 - \bar \alpha_{t-1}}) \left(1 - \frac{\bar \alpha_t}{\bar \alpha_{t-1}}\right)}
+$$
+where $\eta \in (0,1)$ is a constant, indicating the level of random noise:</p>
+<ul>
+<li>$\eta = 1$: The random noise is maximized, which is <strong>DDPM</strong>.</li>
+<li>$\eta = 0$: The random noise is totally removed, making it a deterministic process/Implicit model, which is <strong>DDIM</strong>. It relies entirely on the predicted noise, while sacrificing some diversity with lowering random noise level.</li>
+</ul>
+<p>As for the timestamps chosen, they are determined empirically.</p>
+<style type="text/css">.notice{--root-color:#444;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#c33;--warning-content:#fee;--info-title:#fb7;--info-content:#fec;--note-title:#6be;--note-content:#e7f2fa;--tip-title:#5a5;--tip-content:#efe}@media (prefers-color-scheme:dark){.notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}}body.dark .notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:var(--root-color);background:var(--root-background)}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:var(--title-color);background:var(--title-background)}.notice.warning .notice-title{background:var(--warning-title)}.notice.warning{background:var(--warning-content)}.notice.info .notice-title{background:var(--info-title)}.notice.info{background:var(--info-content)}.notice.note .notice-title{background:var(--note-title)}.notice.note{background:var(--note-content)}.notice.tip .notice-title{background:var(--tip-title)}.notice.tip{background:var(--tip-content)}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:.125em;position:relative}</style>
+<div><svg width="0" height="0" display="none" xmlns="http://www.w3.org/2000/svg"><symbol id="tip-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></symbol><symbol id="note-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></symbol><symbol id="warning-notice" viewBox="0 0 576 512" preserveAspectRatio="xMidYMid meet"><path d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></symbol><symbol id="info-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"/></symbol></svg></div><div class="notice tip" >
+<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>Tip</p><p>In fact, $\eta$ represents the degree of moving some of the noise from predicted noise $\epsilon_t$ to sampled noise $\epsilon$: the bigger the $\eta$, the less deterministic, the larger random noise will be introduced to the reverse process.</p></div>
+<h2 id="short-summary">Short Summary<a hidden class="anchor" aria-hidden="true" href="#short-summary">¶</a></h2>
+<p>Conclusively, both models apply the same forward process, and have the same target: $x_{t} \to x_{0}$, though they have differences in the reverse process:</p>
+<ul>
+<li><strong>DDPM</strong> maximize the random noise, and in order to mitigate the negative effects it has,  takes more timestamps in the reverse process</li>
+<li><strong>DDIM</strong> boost the performance by only selecting some of the timestamps, and reduce the random noise level</li>
+</ul>
+<h2 id="conditioned-generation">Conditioned Generation<a hidden class="anchor" aria-hidden="true" href="#conditioned-generation">¶</a></h2>
+<p>While being able to generate high quality images with reasonable speed with the models mentioned above, it is a common feature to generated <strong>conditioned output</strong>.</p>
+<p>Given condition $y$, our goal is to derive $p(x_{t-1}|x_{t},y)$</p>
+<h3 id="classifier-guided-diffusion">Classifier Guided Diffusion<a hidden class="anchor" aria-hidden="true" href="#classifier-guided-diffusion">¶</a></h3>
+<p>Using bayes&rsquo; rule, we have:
+$$
+p(x_{t-1}|x_{t},y) = \frac{p(x_{t-1}|x_{t})p(y|x_{t-1},x_{t})}{p(y|x_{t})}
+$$</p>
+<p>Using the notations in <a href="/posts/ai/models/denoising-diffusion-models/#reverse-process">Reverse Process</a>:
+$$
+p(x_{t-1}|x_{t},y) \propto \exp(-||x_{t-1}-\mu(x_{t})-\Sigma_{t}^{2}\underbrace{\nabla_{x_{t}}\log p(y|x_{t})}<em>{\text{classifier}}||^{2}/2\Sigma</em>{t}^{2})
+$$</p>
+<p>So $\mu_{\theta}(x_{t}, t,y) = \mu(x_{t})+\Sigma_{t}^{2}\nabla_{x_{t}}\log p(y|x_{t})), \Sigma_{t} = \sigma_{t}$</p>
+<blockquote>
+<p>[!NOTE]</p>
+<ul>
+<li>The gradient of the prob is easy to get with <em>autograd</em>, if the classifier can output the prob</li>
+<li>The classifier guides the model only when inferencing</li>
+</ul>
+</blockquote>
+<h3 id="classifier-free-diffusion">Classifier-Free Diffusion<a hidden class="anchor" aria-hidden="true" href="#classifier-free-diffusion">¶</a></h3>
+<p>To infer without a classifier, we need to blend the condition $y$ into training process.</p>
+<p>By directly modeling the conditioned reverse process as  $p(x_{t-1}|x_{t},y) = \mathcal{N}(x_{t-1};\mu(x_{t},y), \sigma_{t}^{2}I)$, following the modeling of Eq. 11, we have:
+$$
+\mu(x_{t}, y) = \frac{1}{\alpha_{t}}\left(x_{t} - \frac{\beta_{t}^2}{\bar\beta_{t}}\epsilon_{\theta}(x_{t},y, t)\right)
+$$</p>
+<p>The $\epsilon_{\theta}(x_{t},y, t)$ can be trained to predict the noise under condition.</p>
+<blockquote>
+<p>[!WARNING]
+The conditioned noise predictor depends on $y$, so retraining is required if the $y$ is changed</p>
+</blockquote>
+<h2 id="score-based-generative-models">Score-based generative models<a hidden class="anchor" aria-hidden="true" href="#score-based-generative-models">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Notation</th>
+<th style="text-align:left">Meaning</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Ancestral Sampling</td>
+<td style="text-align:left">A sample method, auto-regressive</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">Score Distillation Sampling</td>
+<td style="text-align:left">A sampling method(sampler) to generate samples from a diffusion model by <strong>optimizing a loss function</strong>. Basically, it utilizes(distills) the score function of a teacher diffusion model, to train a larger model, with the final result as a sample (as $t \to 0$).</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Informant_(statistics)">score function</a></td>
+<td style="text-align:left">The gradient of the <strong>log</strong>-likelihood function</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">$U(x) = -\log q(x)$</td>
+<td style="text-align:left">An energy function. The lower the likelihood, the higher the energy</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">$\mu_{\theta}(x_t, t)$</td>
+<td style="text-align:left">parameterized model to predict $x_{t-1}$ at time $t$</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">$p(x_{0:T})$</td>
+<td style="text-align:left">the joint distribution of $x_{0}, x_{1} &hellip; x_{T}$</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Metropolis-adjusted_Langevin_algorithm">Langevin dynamic</a></td>
+<td style="text-align:left">A Markov chain Monte Carlo(MCMC) method for obtraining random samples</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="/">Fisher Divergence</a></td>
+<td style="text-align:left"></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Most often, we don&rsquo;t care about the probability $q(x)$ of a certain input $x$, but how it changes through time: therefore, we can utilize score function(gradient, changes) $s(x):=\nabla_{x}\log q(x)$</p>
+<blockquote>
+<p>[!TIP]
+It is also an advantage of modeling the <strong>score</strong>: don&rsquo;t have to make sure <strong>probability</strong> sum up to 1</p>
+</blockquote>
+<p>With $s(x)$ allowing us to sample from $q(x)$ using thermodynamics, our goals changes to: <strong>model $q(x)$</strong></p>
+<p>$$
+dx_{t} = \nabla \log q(x) d_{t} + d{W_{t}}
+$$</p>
+<h3 id="loss">Loss<a hidden class="anchor" aria-hidden="true" href="#loss">¶</a></h3>
+<p>We learn a model $s_{\theta}$ to <strong>match</strong>(approximate) the <strong>score</strong> $\nabla \log q$:</p>
+<p>$$
+s_{\theta} \approx \nabla \log q(x)
+$$
+&ndash; This is score matching.</p>
+<p>Typically, score matching is formalized as minimizing <strong>Fisher divergence</strong> function . By expanding the integral, and performing an integration by parts, we have our loss function:
+$$
+\mathcal{L} = \mathbb{E}<em>{q}[||s</em>{\theta}(x) - \nabla \log q(x)||^{2}]
+$$
+However, it&rsquo;s infeasible since it requires access to unknown score  $\nabla \log q(x)$.</p>
+<p>Fortunately, we have <strong>score matching</strong> techniques(e.g. <a href="https://en.wikipedia.org/wiki/Scoring_rule#Hyv%C3%A4rinen_scoring_rule" title="Scoring rule">Hyvärinen scoring rule</a>) which minimize the Fisher divergence without knowledge of the gorund-truth score:
+$$
+\mathcal{L} = \mathbb{E}<em>{q}\left[\nabla</em>{x} s_{\theta}(x)+ \frac{1}{2}||s_{\theta}(x)||_{2}^{2}\right]
+$$</p>
+<p>Since $s_{\theta}$ is modeled by ourself, its output and gradients can be easily calculated. We use Monte-Carlo methods with gradient descent to optimize it.</p>
+<h3 id="sample--inference">Sample / Inference<a hidden class="anchor" aria-hidden="true" href="#sample--inference">¶</a></h3>
+<p>But how do we generate a sample.</p>
+<p>Once we have trained a score-based model $s_{\theta}(x)$, we can use an iterative procedure called <strong><a href="https://en.wikipedia.org/wiki/Metropolis-adjusted_Langevin_algorithm">Langevin dynamics</a></strong> to draw samples from it:
+$$
+x_{i + 1} \leftarrow x_{i} + \epsilon \nabla_{x} \log p(x) + \sqrt{2\epsilon} z_{i}, z_{i} \sim \mathcal{N}(0, I)
+$$
+Notice some white noise is injected, to avoid all samples collapse into some limited local optimas.</p>
+<p>This seems decent, but in fact: in low-density regions, the estimated scores are inaccurate.</p>
+<p>It&rsquo;s natural to augment the low-density regions by perturbing our datapoint: injecting $\mathcal{N}$. It can solve the problem in low-density, however since the training data is perturbed, the generated samples are too.</p>
+<p>Multiple (decreasing) noise levels $\sigma$ are applied as an input to score funcion $s$, with the output of previous model $i$ as the input of the next model $i+1$. The whole process resembles an <strong>Anneald Langevn Dynamics</strong></p>
+<h2 id="sde">SDE<a hidden class="anchor" aria-hidden="true" href="#sde">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Notation</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Stochastic_differential_equation">SDE</a></td>
+<td style="text-align:left">A DE in which one or more of the terms is a <strong>stohastic</strong> process</td>
+</tr>
+<tr>
+<td style="text-align:left">$\mathcal{U}(T_{a},T_{b})$</td>
+<td style="text-align:left">Uniform distribution over the time interval $[T_{a}, T_{b}]$</td>
+</tr>
+<tr>
+<td style="text-align:left">In <a href="/posts/ai/models/denoising-diffusion-models/#ddpm">DDPM</a>, we define $t$ as <em>discrete</em> timestamps, however it&rsquo;s more natural to model it as <em>continuous</em> time.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="forward-process-1">Forward Process<a hidden class="anchor" aria-hidden="true" href="#forward-process-1">¶</a></h3>
+<p>With this premise, we model the forward process with <strong>Stochastic</strong> DE(Differential equation), but not funtion on timestamps:
+$$
+dx = f_{t}(x) + g_{t}dw
+$$</p>
+<h3 id="reverse-process-2">Reverse Process<a hidden class="anchor" aria-hidden="true" href="#reverse-process-2">¶</a></h3>
+<p>Similarly, we want to model $p(x_{t}|x_{t + \Delta{t}})$:
+$$
+\begin{align}
+p(x_{t}|x_{t + \Delta{t}}) &amp;= \frac{p(x_{t + \Delta_{t}} | x_{t})p(x_{t})}{p(x_{t+ \Delta{t}})} \\
+&amp;= p(x_{t + \Delta{t}} | x_{t})\exp(\log p(x_{t}) - \log p(x_{t+\Delta{t}})) \\
+&amp;\propto \left(-\frac{||x_{t + \Delta_{t}} - x_{t} - f_{t}(x_{t})\Delta{t}||^{2}}{2g_{t}^{2}\Delta t}+  \log p(x_{t}) - \log p(x_{t+\Delta{t}})\right)
+\end{align}
+$$</p>
+<p>In order to calculate the unknown diff, we apply <strong>Taylor expansion</strong>:
+$$
+\log p(x_{t+\Delta{t}}) \approx \log p(x_{t}) + (x_{t+\Delta t} - x_{t}) \cdot \nabla_{x_{t}}\log p(x_{t}) + \underbrace{\Delta t \frac{\partial \log p(x_{t})}{\partial t}}<em>{\text{$x</em>{t}$&rsquo;s deritive of $t$}}
+$$</p>
+<p>Update Equation 26-3 with it, we have:
+$$
+p(x_{t}|x_{t + \Delta{t}})  \sim \mathcal{N}(f_{t+\Delta t}(x_{t + \Delta t}) - g_{t + \Delta t}^{2}\nabla_{x_{t + \Delta t}} \log p(x_{t + \Delta t})\Delta t; g_{t + \Delta t}^{2}\Delta t I)
+$$</p>
+<p>and the SDE of <strong>reverse process</strong>:
+$$
+dx = [f_{t}(x) - g_{t}^{2}\nabla_{x}\log p_{t}(x)]dt + g_{t}dw
+$$</p>
+<h3 id="training">Training<a hidden class="anchor" aria-hidden="true" href="#training">¶</a></h3>
+<p>$$
+\mathcal{L} = \mathbb{E}<em>{t \in \mathcal{U}(0, T)}\mathbb{E}</em>{p_{t}(x)}[\lambda(t)||\nabla_{x}\log p_{t}(x) - s_{\theta}(x,t)||^{2}_{2}]
+$$
+where:</p>
+<ul>
+<li>$\lambda : \mathbb{R} \to \mathbb{R}_{&gt;0}$  is a positive weighting function</li>
+</ul>
+<h2 id="probability-flow-ode">Probability flow ODE<a hidden class="anchor" aria-hidden="true" href="#probability-flow-ode">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Notation</th>
+<th style="text-align:left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">PF(Probability flow) ODE</td>
+<td style="text-align:left">The ODE of an SDE</td>
+</tr>
+</tbody>
+</table>
+<p>Despite capable of generating high-quality samples, <em>samplers</em> based on Langevin MCMC and SDE solvers do not provide a way to compute the exact log-likelihood of score-based generative models.</p>
+<p>It has been proved that, it is possible to convert any SDE into an ODE(ordinary differential equation) without changing its marginal distributions $p_{t}(x)$</p>
+<h3 id="forward-process-2">Forward Process<a hidden class="anchor" aria-hidden="true" href="#forward-process-2">¶</a></h3>
+<p>With a sequence of complex calculations(including F-P function &amp; Dirac function), we have:</p>
+<p>$$
+dx = [f(x,t) - \frac{1}{2}(g^{2}(t)-\sigma_{t}^{2})\nabla_{x}\log p_{t}(x)]dt
+$$</p>
+<h3 id="reverse-process-3">Reverse Process<a hidden class="anchor" aria-hidden="true" href="#reverse-process-3">¶</a></h3>
+<p>The reverse process of PF-ODE is given by:</p>
+<p>$$
+dx = [f(x,t) - \frac{1}{2}g^{2}(t)\nabla_{x}\log p_{t}(x)]dt
+$$</p>
+<blockquote>
+<p>[!TIP]
+When $\nabla_{x}\log p_{t}(x)$ replaces $s_{\theta}(x,t)$, PF ODE becomes a special case of a neural ODE</p>
+</blockquote>
+<h2 id="samplers">Samplers<a hidden class="anchor" aria-hidden="true" href="#samplers">¶</a></h2>
+<h3 id="euclidean">Euclidean<a hidden class="anchor" aria-hidden="true" href="#euclidean">¶</a></h3>
+<p>$$
+\begin{equation}\left.\frac{d\boldsymbol{x}<em>t}{dt}\right|</em>{t=t_{n+1}}\approx \frac{\boldsymbol{x}<em>{t</em>{n+1}} - \boldsymbol{x}<em>{t_n}}{t</em>{n+1} - t_n}\end{equation}
+$$
+一阶近似</p>
+<h3 id="heun-solver">Heun solver<a hidden class="anchor" aria-hidden="true" href="#heun-solver">¶</a></h3>
+<h3 id="dpm-solver">DPM solver<a hidden class="anchor" aria-hidden="true" href="#dpm-solver">¶</a></h3>
+<h3 id="amed-solver">AMED solver<a hidden class="anchor" aria-hidden="true" href="#amed-solver">¶</a></h3>
+
+
+    </div>
+
+    <footer class="post-footer"><ul class="post-tags"><li>
+                <a href="https://mickjagger19.github.io/tags/diffusion/">Diffusion</a>
+            </li><li>
+                <a href="https://mickjagger19.github.io/tags/generative/">Generative</a>
+            </li></ul>
+<nav class="paginav">
+    <a class="prev" href="https://mickjagger19.github.io/posts/misc/2d-to-3d-assets---a-survey/">
+    <span class="title">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+           class="feather feather-arrow-left" style="user-select: text;"><line x1="19" y1="12" x2="5" y2="12"
+                                                                               style="user-select: text;"></line><polyline
+              points="12 19 5 12 12 5" style="user-select: text;"></polyline></svg>&nbsp;
+    </span>
+        <br>
+        <span>2D to 3D Assets - A survey</span>
+    </a>
+    <a class="next" href="https://mickjagger19.github.io/posts/ai/models/vae/">
+    <span class="title">
+      &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 class="feather feather-arrow-right" style="user-select: text;"><line x1="5" y1="12" x2="19" y2="12"
+                                                                                      style="user-select: text;"></line><polyline
+            points="12 5 19 12 12 19" style="user-select: text;"></polyline></svg>
+    </span>
+        <br>
+        <span>VAE</span>
+    </a>
+</nav>
+
+    </footer>
+    <div class="comments-separator"></div>
+</article>
+    </main>
+    
+<footer class="footer">
+  <span>&copy; 2024 <a href="https://mickjagger19.github.io/">Mick&#39; Blog</a></span><span style="display: inline-block; margin-left: 1em;">
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
+  </span>
+  <span style="display: inline-block; margin-left: 1em;">
+    Powered by
+    <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+    <a href="https://github.com/reorx/hugo-PaperModX/" rel="noopener" target="_blank">PaperModX</a>
+  </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+    <path d="M12 6H0l6-6z" />
+  </svg>
+</a>
+
+<script>
+  (function() {
+     
+    const disableThemeToggle = '' == '1';
+    if (disableThemeToggle) {
+      return;
+    }
+
+    let button = document.getElementById("theme-toggle")
+    
+    button.removeEventListener('click', toggleThemeListener)
+    
+    button.addEventListener('click', toggleThemeListener)
+  })();
+</script>
+
+<script>
+  (function () {
+    let menu = document.getElementById('menu')
+    if (menu) {
+      menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+      menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+      }
+    }
+
+    const disableSmoothScroll = '' == '1';
+    const enableInstantClick = '' == '1';
+    
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || disableSmoothScroll || enableInstantClick) {
+      return;
+    }
+    
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        var id = this.getAttribute("href").substr(1);
+        document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+          behavior: "smooth"
+        });
+        if (id === "top") {
+          history.replaceState(null, null, " ");
+        } else {
+          history.pushState(null, null, `#${id}`);
+        }
+      });
+    });
+  })();
+</script>
+<script>
+  var mybutton = document.getElementById("top-link");
+  window.onscroll = function () {
+    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+      mybutton.style.visibility = "visible";
+      mybutton.style.opacity = "1";
+    } else {
+      mybutton.style.visibility = "hidden";
+      mybutton.style.opacity = "0";
+    }
+  };
+</script>
+<script>
+  if (window.scrollListeners) {
+    
+    for (const listener of scrollListeners) {
+      window.removeEventListener('scroll', listener)
+    }
+  }
+  window.scrollListeners = []
+</script>
+
+
+
+<script src="/js/medium-zoom.min.js" data-no-instant
+></script>
+<script>
+  document.querySelectorAll('pre > code').forEach((codeblock) => {
+    const container = codeblock.parentNode.parentNode;
+
+    const copybutton = document.createElement('button');
+    copybutton.classList.add('copy-code');
+    copybutton.innerText = 'copy';
+
+    function copyingDone() {
+      copybutton.innerText = 'copied!';
+      setTimeout(() => {
+        copybutton.innerText = 'copy';
+      }, 2000);
+    }
+
+    copybutton.addEventListener('click', (cb) => {
+      if ('clipboard' in navigator) {
+        navigator.clipboard.writeText(codeblock.textContent);
+        copyingDone();
+        return;
+      }
+
+      const range = document.createRange();
+      range.selectNodeContents(codeblock);
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+      try {
+        document.execCommand('copy');
+        copyingDone();
+      } catch (e) { };
+      selection.removeRange(range);
+    });
+
+    if (container.classList.contains("highlight")) {
+      container.appendChild(copybutton);
+    } else if (container.parentNode.firstChild == container) {
+      
+    } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+      
+      codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+    } else {
+      
+      codeblock.parentNode.appendChild(copybutton);
+    }
+  });
+</script>
+
+
+
+
+<script>
+  
+  
+  (function() {
+    const enableTocScroll = '1' == '1'
+    if (!enableTocScroll) {
+      return
+    }
+    if (!document.querySelector('.toc')) {
+      console.log('no toc found, ignore toc scroll')
+      return
+    }
+    
+
+    
+    const scrollListeners = window.scrollListeners
+    const headings = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id]');
+    const activeClass = 'active';
+
+    
+    let activeHeading = headings[0];
+    getLinkByHeading(activeHeading).classList.add(activeClass);
+
+    const onScroll = () => {
+      const passedHeadings = [];
+      for (const h of headings) {
+        
+        if (getOffsetTop(h) < 5) {
+          passedHeadings.push(h)
+        } else {
+          break;
+        }
+      }
+      if (passedHeadings.length > 0) {
+        newActiveHeading = passedHeadings[passedHeadings.length - 1];
+      } else {
+        newActiveHeading = headings[0];
+      }
+      if (activeHeading != newActiveHeading) {
+        getLinkByHeading(activeHeading).classList.remove(activeClass);
+        activeHeading = newActiveHeading;
+        getLinkByHeading(activeHeading).classList.add(activeClass);
+      }
+    }
+
+    let timer = null;
+    const scrollListener = () => {
+      if (timer !== null) {
+        clearTimeout(timer)
+      }
+      timer = setTimeout(onScroll, 50)
+    }
+    window.addEventListener('scroll', scrollListener, false);
+    scrollListeners.push(scrollListener)
+
+    function getLinkByHeading(heading) {
+      const id = encodeURI(heading.getAttribute('id')).toLowerCase();
+      return document.querySelector(`.toc ul li a[href="#${id}"]`);
+    }
+
+    function getOffsetTop(heading) {
+      if (!heading.getClientRects().length) {
+        return 0;
+      }
+      let rect = heading.getBoundingClientRect();
+      return rect.top
+    }
+  })();
+  </script>
+
+</body>
+
+</html>

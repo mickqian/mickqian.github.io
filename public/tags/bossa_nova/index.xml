@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bossa_Nova on Mick&#39; Blog</title>
+    <link>https://mickjagger19.github.io/tags/bossa_nova/</link>
+    <description>Recent content in Bossa_Nova on Mick&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 06 Jan 2024 21:15:22 +0800</lastBuildDate><atom:link href="https://mickjagger19.github.io/tags/bossa_nova/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bossa Nova Songs Progression</title>
+      <link>https://mickjagger19.github.io/posts/music/bossa-nova-songs-progression/</link>
+      <pubDate>Sat, 06 Jan 2024 21:15:22 +0800</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/music/bossa-nova-songs-progression/</guid>
+      <description>Chord progression of some well-known bossa-nova songs</description>
+      <content:encoded><![CDATA[<script src="/js/opensheetmusicdisplay.min.js">
+
+</script>
+<script>
+
+function load_and_render(path, div_id) {
+    const osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay(div_id);
+    osmd.setOptions({defaultFontFamily: "Petaluma Script"});
+
+    osmd.load(path).then(function() {
+      osmd.setOptions({defaultFontFamily: "Petaluma Script"});
+      osmd.EngravingRules.DefaultColorCursor = "currentColor";
+      osmd.EngravingRules.DefaultFontFamily = "Petaluma Script";
+      osmd.EngravingRules.RenderRehearsalMarks = false;
+      osmd.EngravingRules.RenderTitle = false;
+      osmd.EngravingRules.RenderLyricist = false;
+      osmd.EngravingRules.RenderChordSymbols = true;
+      osmd.EngravingRules.setChordSymbolLabelText(opensheetmusicdisplay.ChordSymbolEnum.diminishedseventh, "");
+
+      osmd.render();
+    });
+}
+</script>
+<link rel="stylesheet" href="/css/main.css">
+<h1 id="desafinado">Desafinado</h1>
+<div class="osmd" id="osmd-container-Desafinado"></div>
+<script>
+load_and_render("/MusicXML/desafinado_musescore.musicxml", "osmd-container-Desafinado");
+</script>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oqHONL-LZ58?si=8qLHfRC5OjhtQejx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IWoOWpZujCc?si=rBlI_sTWn10EKodQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<h1 id="one-note-samba">One Note Samba</h1>
+<div class="osmd" id="osmd-container-One Note Samba"></div>
+<script>
+load_and_render("/MusicXML/One Note Samba.musicxml","osmd-container-One Note Samba");
+</script>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ptaqr5bZ2gA?si=FMcmszaGiuxOZs1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<h1 id="só-danço-samba">Só Danço Samba</h1>
+<div class="osmd" id="osmd-container-So Danco Samba"></div>
+<script>
+load_and_render("/MusicXML/So Danco Samba.musicxml", "osmd-container-So Danco Samba");
+</script>
+<iframe src="https://www.soundslice.com/slices/P1jMc/embed-channelpost/" width="100%" height="320" frameBorder="0"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YJMEu1oxLjA?si=mu0rvLSbTI934dfM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f6e6W304LhA?si=CUY1PaBZd3fY3c5H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<h1 id="doralice">Doralice</h1>
+<div class="osmd" id="osmd-container-Doralice"></div>
+<script>
+load_and_render("/MusicXML/Doralice.musicxml", "osmd-container-Doralice");
+</script>
+<iframe src="https://www.soundslice.com/slices/1jkyc/embed-channelpost/" width="100%" height="320" frameBorder="0"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hU3IUUIZxEg?si=BuuJFM-MI6ZFFb-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<h1 id="o-pato">O Pato</h1>
+<div class="osmd" id="osmd-container-O Pato"></div>
+<script>
+load_and_render("/MusicXML/O Pato.musicxml", "osmd-container-O Pato");
+</script>
+<iframe src="https://www.soundslice.com/slices/dHYMc/embed-channelpost/" width="100%" height="320" frameBorder="0"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jkBk8U2ikf8?si=S6-IWYlE6gFjPyWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<h1 id="chega-de-saudade-no-more-blues">Chega De Saudade (No More Blues)</h1>
+<div class="osmd" id="osmd-container-Chega De Saudade (No More Blues)"></div>
+<script>
+load_and_render("/MusicXML/Chega De Saudade (No More Blues).musicxml", "osmd-container-Chega De Saudade (No More Blues)");
+</script>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c6wlgDiyrLQ?si=SFnmysADjupwS56B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<h1 id="aguas-de-março">Aguas De Março</h1>
+<iframe src="https://www.soundslice.com/slices/QSHcc/embed-channelpost/" width="100%" height="320" frameBorder="0"></iframe>
+<h1 id="menina-flor">Menina Flor</h1>
+<iframe src="https://www.soundslice.com/slices/DPLMc/embed-channelpost/" width="100%" height="320" frameBorder="0"></iframe>
+<h1 id="corcovado">Corcovado</h1>
+<iframe src="https://www.soundslice.com/slices/3Rbcc/embed-channelpost/" width="100%" height="320" frameBorder="0"></iframe>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
