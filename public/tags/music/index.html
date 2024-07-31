@@ -321,20 +321,18 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2>最值得推荐的十张专辑（个人向）
+    <h2>(The Making Of) Immusia
     </h2>
   </header>
   <section class="entry-content">
     
-      <p>我个人最喜爱，也是最常向其他人推荐的十张专辑
-尽管我一直坚信音乐本身和音乐审美都是私人的，不可能强求，但我相信优秀的音乐会引起更多的共鸣
-Abbey Road - The Beatles 我不知道如何才能表达对它的喜爱，这是一张我反复（从头至尾）聆听至少上百次的专辑。从单曲的质量/单曲间的连接和呼应都很难让我挑出毛病，甚至专辑封面都无可挑剔。 Something 是其中我最喜欢的单曲（之一），它是我心中最好的情歌
-OK Computer - Radiohead Getz/Gilberto - Stan Getz, João Gilberto 我认为 Bossa Nova 是一种伟大的音乐流派，而它的作者， Antônio Carlos Jobim ，则是神一般的存在
-Antônio Carlos Jobim
-他是如此天才地将爵士音乐和巴西节奏融合，使爵士乐这一欣赏门槛极高的音乐流派具有更多律动(Bossa Nova, 巴西语，“新节奏”），以及更入耳的旋律。事实上 Bossa Nova 也是为数不多我能欣赏的爵士乐
-当然这张专辑的主要乐手不是他，Joao Gilberto 是天才爵士吉他手，而 Stan Getz 是（我心中）最伟大的萨克斯风乐手。每次听到 Stan Getz 的旋律在副歌响起，总能让我起一身的鸡皮疙瘩
-请不要因为觉得 Bossa Nova 是小资咖啡馆的专属背景音乐而放弃欣赏它，它的魅力远不止于此
-The Queen Is Dead - The Smiths 大学初听 The Smiths 时，他们并没有引起我的注意。后来通过 《和莎莫的500天》重听 The Smiths ，才逐渐体会 The Smiths 的魅力： 主唱 Morrissey 和 吉他 Johny Marr 的颜值自不用多说，他们绝望、冷漠、冷峻、极致自恋而又极致自卑的气质的歌词，搭配梦幻般的吉他音色，一起完整地塑造了乐队立体的形象。...</p>
+      <p>Immusia（读作 imuusi:a, 是拉丁语 Immuse(沉浸) 和 musia(音乐) 的结合) 是我的第一个 Vision Pro App, 也是我的第一个 VR App
+本文记录了我的创作理念，和一些实现细节
+缘由 之所以想做这么一个 app, 是因为我由于科幻作品的影响，产生的对 VR 设备的想象。更具体一点，是 Black Mirror。Black Mirror 擅长探讨 高科技对 人文/伦理/社会 的冲击，选材大胆，对我有着比较深的影响。在其最精彩的前几集，多次出现类似 头戴设备的概念，给了观影者极大的想象空间。
+核心功能 Immusia 的核心理念始终是 沉浸式 的音乐聆听体验。借助 “概念专辑” 这类已经被大众认可的丰富精神财产，音乐被赋予了更具像化的概念，从而使音乐可视化有了更合理的依据
+2D 资产 -&gt; 3D 资产 有大量平面资源可以转为双目3D，动机很自然(Vision Pro 的相册 app 也在后来内置了这个功能）， 相关技术也随处可寻，但是视觉效果还是相当可观
+3D Player 为了充分发挥 VR 设备的空间优势，我对传统播放器做了以下改动：
+所有歌词文本都为具有深度的 3D 字体。尽管 Apple 不推荐这么做，我还是坚持使用它，原因是经过实测， depth 似乎赋予了歌词一种真实感 歌词的移动方向不再局限于 y 方向，而是可以结合 XY 和 Z。我最喜欢的移动方式，被我称为 “Water Fall”， 歌词会向 -Y 和 &#43;Z 方向移动 Immersive Player Window Mode 由于 Swift API 的限制，app之间的 沉浸式空间是互斥的，因此纯沉浸式的 app 存在一些局限性。为了达到一个通用音乐播放器的最低要求，我加入了窗口模式，这样用户就可以在使用其他 app 时同时使用 Immusia...</p>
     
   </section>
   <footer class="entry-footer"><span class="meta-item">
@@ -345,18 +343,18 @@ The Queen Is Dead - The Smiths 大学初听 The Smiths 时，他们并没有引�
                                                                                 style="user-select: text;"></line><line
           x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10"
                                                                               style="user-select: text;"></line></svg>
-  <span>July 23, 2024</span></span><span class="meta-item">
+  <span>July 20, 2024</span></span><span class="meta-item">
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor"
        stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"
                                                                                          fill="none"></path><circle
           cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
-  <span>1 min</span></span><span class="meta-item">
+  <span>2 min</span></span><span class="meta-item">
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor"
        stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"
                                                                                          fill="none"></path><circle
           cx="12" cy="7" r="4"></circle><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path></svg>Mick</span>
 </footer>
-  <a class="entry-link" aria-label="post link to 最值得推荐的十张专辑（个人向）" href="https://mickjagger19.github.io/posts/music/%E6%9C%80%E5%80%BC%E5%BE%97%E6%8E%A8%E8%8D%90%E7%9A%84%E5%8D%81%E5%BC%A0%E4%B8%93%E8%BE%91%E4%B8%AA%E4%BA%BA%E5%90%91/"></a>
+  <a class="entry-link" aria-label="post link to (The Making Of) Immusia" href="https://mickjagger19.github.io/posts/misc/the-making-of-immusia/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
