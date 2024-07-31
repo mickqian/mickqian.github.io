@@ -149,7 +149,7 @@ Almost in all GANs, for $G$, the objective can always be interpreted as (some ki
       
   <figure align=center class="figure d-block text-center">
   <picture align=center >
-  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/AI/Models/The%20GAN%20Family/IMG-20240120210126755.png?v=0b5da9d676adc16256de9e1208a82298#center" alt="A simulation of $D$ and $G$ to update regardless of each other" loading="lazy" height="550px" width="1305px" />
+  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/AI/Models/The%20GAN%20Family/IMG-20240120210126755.png?v=9fc5d7796c9f176fd0ed527303c1f560#center" alt="A simulation of $D$ and $G$ to update regardless of each other" loading="lazy" height="550px" width="1305px" />
 </picture>
 
   <figcaption class="figure-caption"><p>A simulation of $D$ and $G$ to update regardless of each other</p></figcaption>
@@ -183,7 +183,7 @@ Maybe the idea of <strong>advesarial</strong> and <strong>cooperative</strong>(f
       
   <figure align=center class="figure d-block text-center">
   <picture align=center >
-  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/AI/Models/The%20GAN%20Family/IMG-20240120210126802.png?v=0b5da9d676adc16256de9e1208a82298" alt="The log_gradients of the generator decays quickly. Also, the better the $D$, the smaller the gradient" loading="lazy" height="666px" width="840px" />
+  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/AI/Models/The%20GAN%20Family/IMG-20240120210126802.png?v=9fc5d7796c9f176fd0ed527303c1f560" alt="The log_gradients of the generator decays quickly. Also, the better the $D$, the smaller the gradient" loading="lazy" height="666px" width="840px" />
 </picture>
 
   <figcaption class="figure-caption"><p>The log_gradients of the generator decays quickly. Also, the better the $D$, the smaller the gradient</p></figcaption>
