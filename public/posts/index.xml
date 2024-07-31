@@ -8,6 +8,71 @@
     <language>en</language>
     <lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://mickjagger19.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>(The Making Of) Immusia</title>
+      <link>https://mickjagger19.github.io/posts/misc/the-making-of-immusia/</link>
+      <pubDate>Sat, 20 Jul 2024 20:16:13 +0800</pubDate>
+      
+      <guid>https://mickjagger19.github.io/posts/misc/the-making-of-immusia/</guid>
+      <description>Immusia（读作 ɪˈmuːziə, 是拉丁语 Immersio (沉浸) 和 Musica (音乐) 的结合) 是我的第一个 Vision Pro App, 也是我的第一个 VR App
+本文记录了我的创作理念，和一些实现细节
+缘由 之所以想做这样的一个 app, 是因为我由于科幻作品的影响，产生的对 VR 设备的想象。更具体一点，是 Black Mirror。Black Mirror 擅长探讨 高科技对 人文/伦理/社会 的冲击，选材大胆，对我有着比较深的影响。在其最精彩的前几集，多次出现类似 头戴设备的概念，给了观影者极大的想象空间。
+核心功能 Immusia 的核心理念始终是 沉浸式 的音乐聆听体验。借助 “概念专辑” 这类已经被大众认可的丰富精神财产，音乐被赋予了更具像化的概念，从而使音乐可视化有了更合理的依据
+2D 资产 -&amp;gt; 3D 资产 有大量平面资源可以转为双目3D，动机很自然(Vision Pro 的相册 app 也在后来内置了这个功能）， 相关技术也随处可寻，但是视觉效果还是相当可观
+3D Player 为了充分发挥 VR 设备的空间优势，我对传统播放器做了以下改动：
+所有歌词文本都为具有深度的 3D 字体。尽管 Apple 不推荐这么做，我还是坚持使用它，原因是经过实测， depth 似乎赋予了歌词一种真实感 歌词的移动方向不再局限于 y 方向，而是可以结合 XY 和 Z。我最喜欢的移动方式，被我称为 &amp;ldquo;Water Fall&amp;rdquo;， 歌词会向 -Y 和 +Z 方向移动 Immersive Player Window Mode 由于 Swift API 的限制，app之间的 沉浸式空间是互斥的，因此纯沉浸式的 app 存在一些局限性。为了达到一个通用音乐播放器的最低要求，我加入了窗口模式，这样用户就可以在使用其他 app 时同时使用 Immusia</description>
+      <content:encoded><![CDATA[<p><strong>Immusia</strong>（读作 <strong>ɪˈmuːziə</strong>, 是拉丁语 <strong>Immersio</strong> (沉浸) 和 <strong>Musica</strong> (音乐) 的结合) 是我的第一个 Vision Pro App, 也是我的第一个 VR App</p>
+<p>本文记录了我的创作理念，和一些实现细节</p>
+<h2 id="缘由">缘由</h2>
+<p>之所以想做这样的一个 app, 是因为我由于科幻作品的影响，产生的对 VR 设备的想象。更具体一点，是 Black Mirror。Black Mirror 擅长探讨 高科技对 人文/伦理/社会 的冲击，选材大胆，对我有着比较深的影响。在其最精彩的前几集，多次出现类似 头戴设备的概念，给了观影者极大的想象空间。</p>
+<h2 id="核心功能">核心功能</h2>
+<p><strong>Immusia</strong>  的核心理念始终是 沉浸式 的音乐聆听体验。借助 “概念专辑” 这类已经被大众认可的丰富精神财产，音乐被赋予了更具像化的概念，从而使音乐可视化有了更合理的依据</p>
+<h3 id="2d-资产---3d-资产">2D 资产 -&gt; 3D 资产</h3>
+<p>有大量平面资源可以转为双目3D，动机很自然(Vision Pro 的相册 app 也在后来内置了这个功能）， 相关技术也随处可寻，但是视觉效果还是相当可观</p>
+<h3 id="3d-player">3D Player</h3>
+<p>为了充分发挥 VR 设备的空间优势，我对传统播放器做了以下改动：</p>
+<ul>
+<li>所有歌词文本都为具有深度的 3D 字体。尽管 Apple 不推荐这么做，我还是坚持使用它，原因是经过实测， depth 似乎赋予了歌词一种真实感</li>
+<li>歌词的移动方向不再局限于 y 方向，而是可以结合 XY 和 Z。我最喜欢的移动方式，被我称为 &ldquo;Water Fall&rdquo;， 歌词会向 -Y 和 +Z 方向移动</li>
+</ul>
+<h3 id="immersive-player">Immersive Player</h3>
+<h3 id="window-mode">Window Mode</h3>
+<p>由于 Swift API 的限制，app之间的 沉浸式空间是互斥的，因此纯沉浸式的 app 存在一些局限性。为了达到一个通用音乐播放器的最低要求，我加入了窗口模式，这样用户就可以在使用其他 app 时同时使用 Immusia</p>
+<p>窗口模式的大部分 UI 都和系统原生 Apple Music 保持一致。为了更方便查看艺术家信息和专辑信息，在左右两侧分别添加了小窗口。同时，沉浸模式下的 3D 播放器 也被保留。</p>
+<p>值得一提的是，为了体现空间感，我没有采用平铺的专辑列表，而是实现了一种非常类似 Apple 在 IPod 上曾经使用过的 Cover Flow 效果。它足够优雅和美观，也不会占用太多资源。</p>
+<h2 id="environments-环境">Environments 环境</h2>
+<p>在 Environment 方面，我早就感到和知晓 RealityKit 的局限性和 Performance 问题，Metal(<strong>CompositorService</strong>, to be specific) 是最好的选择。然而我没有图形学方面的储备，所以花了一段时间尝试寻找合适的人选（外包团队）进行合作。显然我高估了国内在这一领域的人才储备，总之经过一段时间的尝试并无果之后，我就开始自学 Metal。在 Shadertoy和一些电子教材 的帮助之下，我得以对图形学入门，并创作了一些环境（场景）</p>
+<h3 id="interstellar">Interstellar</h3>
+<p><strong>Interstellar</strong> 是我搭建的第一个环境。在听太空主题的音乐时，脑海里一直有一些关于太空场景的想象，而且静态的太空场景也相对比较容易实现，对当时对图形编程不太熟悉的我来说是一个不错的上手项目</p>
+<p>起初我对 <strong>Interstellar</strong> 的构想比较简单：一个孤单的蓝色星球</p>
+<p>但是随着进度不断推进，我的想法越来越多，技术也逐渐成熟，因此我大胆地加入了不同元素：月球/太阳/星星/星云 等</p>
+<p>在这个过程中也遇到了很多问题，包括但不限于：</p>
+<ul>
+<li>ColorSpace 的选取</li>
+<li>透明场景下 BlendMode 和 Alpha 的设置</li>
+<li>大量复杂 Shader 造成的计算问题，通过简化逻辑和烘焙纹理解决</li>
+<li>CompareFunction 和 Winding 的不一致造成的遮挡错误问题</li>
+<li>&hellip;</li>
+</ul>
+<p>所幸在 GPT 的帮助下，没有浪费我 <em>太多</em> 的时间</p>
+<p>这个场景中的很多元素都是我从 <a href="https://www.shadertoy.com">ShaderToy</a> 移植而来，希望 License 不会有很大的问题</p>
+<p>在背景音乐的选择方面，此前选择的是现成的 太空背景音乐音效，现在正在考虑 realtime GPU Sound</p>
+<p>一些不错的生成结果：</p>
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/4cfcDX?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+<h3 id="plastic-beach">Plastic Beach</h3>
+<h3 id="star-gate">Star Gate</h3>
+<p>一次和朋友闲聊，偶然听他提起正在为新歌制作一段类似 <strong>Daft Punk</strong> 的《Contact》 末尾的太空音效。我去 Youtube 上找到了一个粉丝为这首歌制作的一版 MV, 里面恰好选取了 《2001: A Space Odyssey》 中主人公 <strong>David Bowman</strong> 穿越时空隧道（<strong>Star Gate</strong>) 的片段，这一段视觉效果和音乐的节奏有着非常好的配合</p>
+<p>我很喜欢这个场景，于是它成为了我的第二个 Environment idea。</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lhdAxlvKklw?si=w04dsfXkvZyNufbL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="center-iframe"></iframe>
+<h2 id="一些想法">一些想法</h2>
+<ul>
+<li>一个 VR app 涉及的技术栈太多：前端/后端/设计/GPU 渲染/UX 只是我能想起来的几个，而且互联网相对较丰富的也只是平面资源，在空间的视角下，每一部分都可以衍生出新的学问。Vision Pro 用于作为先行 Demo 的 Encounter Dinosaurs, 在 WWDC 上有一个专门的 Episode, 介绍其中的 UX 设计。这是一个全新的领域</li>
+<li>Marketing: 我还没有进行任何形式的 Marketing</li>
+<li>相关人才的欠缺：国内外在 VR 技术上的 技术和人才累积 似乎根本不在一个水平面上，国内的 App，即使是由大团队诸如 QQ 音乐/ 爱奇艺等，仍显粗糙；然而国外的小团队（最少1个人）都可以做出足够摘取 Apple Design Awards 的 App。这应该与当地电影工业的发展有着最直接的联系</li>
+</ul>
+]]></content:encoded>
+    </item>
+    
+    <item>
       <title>My Gears</title>
       <link>https://mickjagger19.github.io/posts/music/my-gears/</link>
       <pubDate>Sat, 20 Jul 2024 19:53:50 +0800</pubDate>
@@ -41,7 +106,7 @@
       
   <figure align=center class="figure d-block text-center">
   <picture align=center >
-  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240720203521507_scaled.jpg?v=d8e1c1d981d89aada2e0c81b8fb40732#center" alt="George Harrison Performing With Rocky in 《Im a Walrus》" loading="lazy" height="380px" width="480px" />
+  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240720203521507_scaled.jpg?v=2957e9e610ed4780211f3ef192e0e0b3#center" alt="George Harrison Performing With Rocky in 《Im a Walrus》" loading="lazy" height="380px" width="480px" />
 </picture>
 
   <figcaption class="figure-caption"><p>George Harrison Performing With Rocky in 《Im a Walrus》</p></figcaption>
@@ -69,7 +134,7 @@
       
   <figure align=center class="figure d-block text-center">
   <picture align=center >
-  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240720205140321_scaled.png?v=d8e1c1d981d89aada2e0c81b8fb40732#center" alt="George Harrison With Rocky" loading="lazy" height="271px" width="400px" />
+  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240720205140321_scaled.png?v=2957e9e610ed4780211f3ef192e0e0b3#center" alt="George Harrison With Rocky" loading="lazy" height="271px" width="400px" />
 </picture>
 
   <figcaption class="figure-caption"><p>George Harrison With Rocky</p></figcaption>
@@ -97,7 +162,7 @@
       
   <figure align=center class="figure d-block text-center">
   <picture align=center >
-  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240720205008915_scaled.png?v=d8e1c1d981d89aada2e0c81b8fb40732#center" alt="George Harrison Playing Rock in Abbey Road Studio" loading="lazy" height="620px" width="500px" />
+  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240720205008915_scaled.png?v=2957e9e610ed4780211f3ef192e0e0b3#center" alt="George Harrison Playing Rock in Abbey Road Studio" loading="lazy" height="620px" width="500px" />
 </picture>
 
   <figcaption class="figure-caption"><p>George Harrison Playing Rock in Abbey Road Studio</p></figcaption>
@@ -144,7 +209,7 @@
       
   <figure align=center class="figure d-block text-center">
   <picture align=center >
-  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240720210023358_scaled.jpg?v=d8e1c1d981d89aada2e0c81b8fb40732" alt="日落色" loading="lazy" height="194px" width="600px" />
+  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240720210023358_scaled.jpg?v=2957e9e610ed4780211f3ef192e0e0b3" alt="日落色" loading="lazy" height="194px" width="600px" />
 </picture>
 
   <figcaption class="figure-caption"><p>日落色</p></figcaption>
@@ -172,7 +237,7 @@
       
       
   <picture align=center  class="d-block text-center">
-  <img class="img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240721170354370.jpg?v=d8e1c1d981d89aada2e0c81b8fb40732" alt="" loading="lazy" height="800px" width="600px" />
+  <img class="img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240721170354370.jpg?v=2957e9e610ed4780211f3ef192e0e0b3" alt="" loading="lazy" height="800px" width="600px" />
 </picture>
 </p>
 <p>
@@ -196,7 +261,7 @@
       
       
   <picture align=center  class="d-block text-center">
-  <img class="img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240721165617205.jpg?v=d8e1c1d981d89aada2e0c81b8fb40732" alt="" loading="lazy" height="667px" width="500px" />
+  <img class="img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240721165617205.jpg?v=2957e9e610ed4780211f3ef192e0e0b3" alt="" loading="lazy" height="667px" width="500px" />
 </picture>
 </p>
 <br>
@@ -221,7 +286,7 @@
       
       
   <picture align=center  class="d-block text-center">
-  <img class="img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240721171902613.jpg?v=d8e1c1d981d89aada2e0c81b8fb40732" alt="" loading="lazy" height="667px" width="500px" />
+  <img class="img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240721171902613.jpg?v=2957e9e610ed4780211f3ef192e0e0b3" alt="" loading="lazy" height="667px" width="500px" />
 </picture>
 
 可以看到还原度很高，但同时保留了一些原创部分。喷绘的效果还是挺令我满意的</p>
@@ -1152,7 +1217,7 @@ Almost in all GANs, for $G$, the objective can always be interpreted as (some ki
       
   <figure align=center class="figure d-block text-center">
   <picture align=center >
-  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/AI/Models/The%20GAN%20Family/IMG-20240120210126755.png?v=d8e1c1d981d89aada2e0c81b8fb40732#center" alt="A simulation of $D$ and $G$ to update regardless of each other" loading="lazy" height="550px" width="1305px" />
+  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/AI/Models/The%20GAN%20Family/IMG-20240120210126755.png?v=2957e9e610ed4780211f3ef192e0e0b3#center" alt="A simulation of $D$ and $G$ to update regardless of each other" loading="lazy" height="550px" width="1305px" />
 </picture>
 
   <figcaption class="figure-caption"><p>A simulation of $D$ and $G$ to update regardless of each other</p></figcaption>
@@ -1186,7 +1251,7 @@ Maybe the idea of <strong>advesarial</strong> and <strong>cooperative</strong>(f
       
   <figure align=center class="figure d-block text-center">
   <picture align=center >
-  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/AI/Models/The%20GAN%20Family/IMG-20240120210126802.png?v=d8e1c1d981d89aada2e0c81b8fb40732" alt="The log_gradients of the generator decays quickly. Also, the better the $D$, the smaller the gradient" loading="lazy" height="666px" width="840px" />
+  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/AI/Models/The%20GAN%20Family/IMG-20240120210126802.png?v=2957e9e610ed4780211f3ef192e0e0b3" alt="The log_gradients of the generator decays quickly. Also, the better the $D$, the smaller the gradient" loading="lazy" height="666px" width="840px" />
 </picture>
 
   <figcaption class="figure-caption"><p>The log_gradients of the generator decays quickly. Also, the better the $D$, the smaller the gradient</p></figcaption>
@@ -1908,288 +1973,6 @@ The Objective is (negative log-likelihood loss):
 <li>One of the proposed feasible plan is PGR(<strong>Policy Gradient RL</strong>)/PPO(<strong>Proximal Policy Optimization</strong>)</li>
 </ul>
 <h2 id="conclusion">Conclusion</h2>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>2D to 3D Assets - A survey</title>
-      <link>https://mickjagger19.github.io/posts/misc/2d-to-3d-assets---a-survey/</link>
-      <pubDate>Mon, 15 Jan 2024 21:21:07 +0800</pubDate>
-      
-      <guid>https://mickjagger19.github.io/posts/misc/2d-to-3d-assets---a-survey/</guid>
-      <description>A survey of techniques to transform 2D image to 3D assets</description>
-      <content:encoded><![CDATA[<hr>
-<p>title: 2D to 3D Assets - A survey
-summary: A survey of techniques to transform 2D image to 3D assets
-tags:</p>
-<ul>
-<li>Diffusion</li>
-<li>3D
-author: Mick
-draft: false
-date: 2024-01-15T21:21:07+0800
-math: true</li>
-</ul>
-<hr>
-<h2 id="terminologies">Terminologies</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Term</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">3D representation</td>
-<td style="text-align:left">The representation of an object in 3D. There are different forms, including:<br>- Radiance Field</td>
-</tr>
-<tr>
-<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Volume_rendering">Volume rendering</a></td>
-<td style="text-align:left">A set of techniques used to display a 2D projection of a 3D discretely sampled data set</td>
-</tr>
-<tr>
-<td style="text-align:left">Triangle mesh</td>
-<td style="text-align:left">An important basic concept in digital modeling. A 3D model consists of triangles, the peripheral triangles form a triangle mesh</td>
-</tr>
-<tr>
-<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Point_cloud">Point cloud</a></td>
-<td style="text-align:left">A discrete set of data points in space</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
-</table>
-<h2 id="notations">Notations</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Notation</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">$N$</td>
-<td style="text-align:left">the $NeRF$ instance</td>
-</tr>
-<tr>
-<td style="text-align:left">$\sigma$</td>
-<td style="text-align:left">The volumemetric density of a point in radiance</td>
-</tr>
-<tr>
-<td style="text-align:left">$\theta$</td>
-<td style="text-align:left">the viewing direction of a point between $x,y$</td>
-</tr>
-<tr>
-<td style="text-align:left">$\phi$</td>
-<td style="text-align:left">the viewing direction of a point between $(xy), z$</td>
-</tr>
-<tr>
-<td style="text-align:left">$c$</td>
-<td style="text-align:left">color</td>
-</tr>
-</tbody>
-</table>
-<h2 id="background">Background</h2>
-<p>All 123 methods involves representing geometric latents.</p>
-<h2 id="3d-representations">3D Representations</h2>
-<h3 id="mesh">Mesh</h3>
-<p>Set of $vertice, edge, face$</p>
-<h3 id="point-cloud">Point Cloud</h3>
-<p>Set of points described with $x, y, x$</p>
-<h2 id="models">Models</h2>
-<h3 id="nerf">NeRF</h3>
-<p>NeRF(Neural Radiance Field) aims to synthesize novel view of complex scenes. Given several images from different views, output 3D-representatins of this view.</p>
-<h4 id="radiance-field">Radiance Field</h4>
-<p>Radiance Field describes a function $F$:
-$$
-F : (\underbrace{x,y,z}<em>{position},\underbrace{\theta,\phi}</em>{direction}) \to (R,G,B,\sigma)
-$$
-which outputs the color and density of a point (x,y,z), in the direction described by $\theta , \phi$</p>
-<p>The color of a point can be calculated by:</p>
-<p>$$
-C(r) = \int_{t_{n}}^{t_{f}}{T(t)\sigma(r(t))}c(r(t), d)dt
-$$</p>
-<p>where:</p>
-<ul>
-<li>Cumulative light transmittance:  indicating the remained light density at a point in a radiance
-$$T(t) = exp\left(-\int_{t_{n}}^{t}{\sigma(r(s))ds)}\right)$$</li>
-<li>The radiance from focus to a pixel $r(t) = o + td$: $o$ for zero point, $t$ for distance</li>
-</ul>
-<p>Considering the calculation amount of this integration, the actual coloring involves calculating the weighted average of N points sampled from a radiance</p>
-<p>With the help of this F, we can generate the image of the object viewing from every direction.Ne</p>
-<p>NeRF models the $F$ with a nerual network $MLP$</p>
-<blockquote>
-<p>[!NOTE]
-The input is 5D</p>
-</blockquote>
-<h4 id="volume-rendering">Volume Rendering</h4>
-<p>Calculating the color of a certain pixel with integration would include massive Tensor, representing radiance field.</p>
-<p>With the help of $F$, the color can be regressed with limited tensor size</p>
-<h4 id="training">Training</h4>
-<p>The objective function:
-$$
-\mathcal{L} = MSE( F_{\Theta} - \text{g.t.})
-$$</p>
-<p>The training data would be: images of an object from different views, with the color of a certain radiance extracted from the image.</p>
-<h4 id="improvements">Improvements</h4>
-<h5 id="positional-encoding">Positional encoding</h5>
-<p>$$
-\gamma(pos, p) = sin(2^{pos}\pi p)
-$$</p>
-<h5 id="hierarchical-volume-sampling">Hierarchical volume sampling</h5>
-<p>Based on the fact that the density distribution is not uniform, random sample is not a good idea: some high-density region can sometimes be not sampled. Thus, we can use a $w_{i}$ for the possibility of a region being sampled, to increase the sample efficiency.
-$$
-\hat w_{i} = \frac{w_{i}}{\sum\limits_{j = 1}^{N_{c}}w_{j}}
-$$</p>
-<h4 id="modeling-3d-assets">Modeling 3D assets</h4>
-<p>Luma AI</p>
-<h4 id="e-commerce">E-commerce</h4>
-<p>Modeling merchandises</p>
-<h4 id="aigc">AIGC</h4>
-<h4 id="virtual-human">Virtual human</h4>
-<p>NeRF/3DGS</p>
-<h4 id="gamevr">Game/VR</h4>
-<h3 id="gaussian-splatting">Gaussian Splatting</h3>
-<h3 id="dreamfusion">DreamFusion</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Notation</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Imagen</td>
-<td style="text-align:left">A predictor, predicting the noise of the input image conditioned on text prompt</td>
-</tr>
-</tbody>
-</table>
-<p>Text-To-3D with 2D Diffusion.
-DreamFusion models the 3D object as $N$ in $NeRF$ format.</p>
-<h4 id="trainingforward-process">Training(Forward Process)</h4>
-<p>$$
-\begin{align}
-img_{0} &amp;= N(P(camera))&amp; \text{Camera is randomly generated}\
-img_{1} &amp;= z_{t} + \epsilon, \epsilon \sim \mathcal{N}(0, I)\
-\hat \epsilon_{\phi} &amp;= imagen(z_{t}, y)\
-\epsilon_{\theta} &amp;= \hat \epsilon_{\phi} - \epsilon \
-\end{align}
-$$</p>
-<blockquote>
-<p>[!NOTE]</p>
-<ul>
-<li>The $\epsilon_{\theta}$ indicates the quality of the current NeRF MLP</li>
-<li>The $\theta$ is not known by imagen, since it is only used to predict noise, which doesn&rsquo;t care about the position and angle of the camera</li>
-</ul>
-</blockquote>
-<p>As for the loss function, since they observed that, with the loss as:</p>
-<p>$$
-\begin{align}
-\mathcal{L}<em>{\text{Diff}}(\phi, x = g(\theta)) &amp;= \mathbb{E}</em>{t, \epsilon}\left[w(t)||\hat \epsilon_{\phi}(\underbrace{\alpha_{t}x + \sigma_{t}\epsilon}<em>{z</em>{t}}; t) - \epsilon||<em>{2}^{2}\right]\
-\nabla</em>{\theta}\mathcal{L}<em>{\text{Diff}}(\phi, x = g(\theta)) &amp;= \mathbb{E}</em>{t, \epsilon}\left[w(t)\underbrace{(\hat \epsilon_{\phi}(z_{t};y, t) - \epsilon)}<em>{\text{Noise Residual}}\underbrace{\frac{\partial \hat \epsilon</em>{\phi}(z_{t};y, t) }{z_t}}<em>{\text{U-Net jacobian}}\underbrace{\frac{\partial x}{\partial \theta }}</em>{\text{Generator Jacobian}}\right]
-\end{align}
-$$
-is <strong>expensive</strong> because of the U-Net Jacobian term(since U-net accepts $z_t$), they modify it by removing it:</p>
-<p>$$
-\nabla_{\theta}\mathcal{L}<em>{\text{SDS}}(\phi, x = g(\theta)) \triangleq \mathbb{E}</em>{t, \epsilon}\left[w(t)\underbrace{(\hat \epsilon_{\phi}(z_{t};y, t) - \epsilon)}<em>{\text{Noise Residual}}\underbrace{\frac{\partial x}{\partial \theta }}</em>{\text{Generator Jacobian}}\right]
-$$
-Intuitively, this loss perturbs x with a random amount of noise corresponding to the timestep t, and estimates an update direction that follows the score function of the diffusion model to move to a higher density region.</p>
-<p>$$
-\nabla_{\theta}L_{Diff} = \mathbb{E}<em>{t, \epsilon}\left[ \nabla</em>{x} \left( w(t) \left| e_{\phi}(\alpha_t x + \sigma_t \epsilon; t) - \ell \right|^2 \right) \nabla_{\theta}x \right] $$</p>
-<h3 id="3d-gaussian-splatting">3D Gaussian Splatting</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Notation</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">$x = [a,b,c]^{\top}$</td>
-<td style="text-align:left">3D coordinates in a column vector</td>
-</tr>
-<tr>
-<td style="text-align:left">$\Sigma$</td>
-<td style="text-align:left">Covariance matrix</td>
-</tr>
-<tr>
-<td style="text-align:left">Ellipsoid</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left">Positive-Definite</td>
-<td style="text-align:left">A property of a <strong>symmetric</strong> matrix $M$, where for every nonzero real column vector $z$, $z^{\top}Mz \gt 0$<br>$A^{\top}A$ is always a positive-definite matrix</td>
-</tr>
-<tr>
-<td style="text-align:left">Positive Semi-Definite</td>
-<td style="text-align:left">A similar concept to <strong>Positive-Definite</strong>, except that $z^{\top}Mz \ge 0$<br>The covariance is always positive semi-definite, and vice versa</td>
-</tr>
-<tr>
-<td style="text-align:left">rasterization</td>
-<td style="text-align:left">A task in image rendering, major task being mapping 3D triangles to the projection plane and pixelate them</td>
-</tr>
-<tr>
-<td style="text-align:left">Like any other modeling methods, 3GS attempts to describe diverse geometric structure with basic elements.</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>The standard form of (3D Gaussian) <strong>Ellipsoid</strong> is:</p>
-<p>$$
-G_{s}(x) = (\frac{1}{\sqrt{2\pi}^{3}det(\Sigma)})e^{-\frac{1}{2}(x-\mu)^{\top}\Sigma^{-1}(x-\mu)}
-$$
-where:</p>
-<ul>
-<li>$\Sigma$ controls the scale and rotation of the ellipsoid in 3 axis</li>
-</ul>
-<blockquote>
-<p>[!NOTE]
-The eigenvector of the $\Sigma$ is the symmetric axis of the ellipsoid</p>
-</blockquote>
-<p>In the paper, they define ellipsoid as:
-$$
-G(x) = e^{- \frac{1}{2}(x)^{\top}\Sigma^{-1}(x)}
-$$
-where the factor is removed</p>
-<h4 id="initialize-the-ellipsoid">Initialize the ellipsoid</h4>
-<p>It&rsquo;s not feasible to initialzie a 3D ellisoid from scratch, since though each 3D Gaussian Ellisoid has a corresponding $\Sigma$, it&rsquo;s not vice versa, which requires it to be <strong>positive semi-definite</strong>(a equivalence of a covariance matrix)</p>
-<p>The paper mentioned that 3Ｄ Gaussian ellisoid is <del>similar to</del> an ellisoid. Inspired by that fact that ellisoid can be transformed from a <strong>ball</strong>, for ellisoid, we have a derivation of $\Sigma$ as:
-$$
-\Sigma = RSS^{\top}R^{\top}
-$$
-where:</p>
-<ul>
-<li>$S \in \mathbb{R}^{3}$ is a scaling transform</li>
-<li>$R \in \mathbb{R}^{4}$ is a rotation transform</li>
-</ul>
-<p>And both transformation can be learned with nerual network</p>
-<h4 id="splatting">Splatting</h4>
-<p>The rasterization of ellisoid needs to be handled as well.</p>
-<p>The 2D graphic we get from projecting the ellisoid to a plane is called <strong>Splat</strong>, which is defined as:
-$$
-\Sigma^{&rsquo;} = JW\Sigma W^{\top}J^{\top}
-$$
-where:</p>
-<ul>
-<li>$W$ for <strong>view</strong> transformation</li>
-</ul>
-<ul>
-<li>$J$ for <strong>project</strong> transformation.It is get from taking the partial derivatives for the projection matrix from current point to the camera point</li>
-</ul>
-<h4 id="322">322</h4>
-<p>It is proven that, the intergration of a 3D Gaussian along a certain axis is a 2D Gaussian, so the intergration can be replaced by a 2D Gaussian intergration</p>
-<h2 id="projects">Projects</h2>
-<h3 id="streamdiffusion">StreamDiffusion</h3>
 ]]></content:encoded>
     </item>
     
@@ -27552,7 +27335,7 @@ value noise ?</p>
       
       
   <picture align=center  class="d-block text-center">
-  <img class="img-fluid" src="https://mickjagger19.github.io/Attachments/Graphics/Shaders/IMG-20240718205918443.png?v=d8e1c1d981d89aada2e0c81b8fb40732" alt="" loading="lazy" height="466px" width="2704px" />
+  <img class="img-fluid" src="https://mickjagger19.github.io/Attachments/Graphics/Shaders/IMG-20240718205918443.png?v=2957e9e610ed4780211f3ef192e0e0b3" alt="" loading="lazy" height="466px" width="2704px" />
 </picture>
 </p>
 <h2 id="shapes">Shapes</h2>
@@ -27597,7 +27380,7 @@ value noise ?</p>
       
       
   <picture align=center  class="d-block text-center">
-  <img class="img-fluid" src="https://mickjagger19.github.io/Attachments/Graphics/Shaders/IMG-20240718223124729.png?v=d8e1c1d981d89aada2e0c81b8fb40732" alt="" loading="lazy" height="162px" width="156px" />
+  <img class="img-fluid" src="https://mickjagger19.github.io/Attachments/Graphics/Shaders/IMG-20240718223124729.png?v=2957e9e610ed4780211f3ef192e0e0b3" alt="" loading="lazy" height="162px" width="156px" />
 </picture>
 </p>
 ]]></content:encoded>

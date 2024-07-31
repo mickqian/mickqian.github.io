@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>(The Making Of) Immusia | Mick&#39; Blog</title>
+<meta name="keywords" content="Software, Music, VisionPro, VR">
+<meta name="description" content="Immusia（读作 ɪˈmuːziə, 是拉丁语 Immersio (沉浸) 和 Musica (音乐) 的结合) 是我的第一个 Vision Pro App, 也是我的第一个 VR App
+本文记录了我的创作理念，和一些实现细节
+缘由 之所以想做这样的一个 app, 是因为我由于科幻作品的影响，产生的对 VR 设备的想象。更具体一点，是 Black Mirror。Black Mirror 擅长探讨 高科技对 人文/伦理/社会 的冲击，选材大胆，对我有着比较深的影响。在其最精彩的前几集，多次出现类似 头戴设备的概念，给了观影者极大的想象空间。
+核心功能 Immusia 的核心理念始终是 沉浸式 的音乐聆听体验。借助 “概念专辑” 这类已经被大众认可的丰富精神财产，音乐被赋予了更具像化的概念，从而使音乐可视化有了更合理的依据
+2D 资产 -&gt; 3D 资产 有大量平面资源可以转为双目3D，动机很自然(Vision Pro 的相册 app 也在后来内置了这个功能）， 相关技术也随处可寻，但是视觉效果还是相当可观
+3D Player 为了充分发挥 VR 设备的空间优势，我对传统播放器做了以下改动：
+所有歌词文本都为具有深度的 3D 字体。尽管 Apple 不推荐这么做，我还是坚持使用它，原因是经过实测， depth 似乎赋予了歌词一种真实感 歌词的移动方向不再局限于 y 方向，而是可以结合 XY 和 Z。我最喜欢的移动方式，被我称为 &ldquo;Water Fall&rdquo;， 歌词会向 -Y 和 &#43;Z 方向移动 Immersive Player Window Mode 由于 Swift API 的限制，app之间的 沉浸式空间是互斥的，因此纯沉浸式的 app 存在一些局限性。为了达到一个通用音乐播放器的最低要求，我加入了窗口模式，这样用户就可以在使用其他 app 时同时使用 Immusia">
+<meta name="author" content="Mick">
+<link rel="canonical" href="https://mickjagger19.github.io/posts/misc/the-making-of-immusia/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.7da7716a1f2d0725f74c6ae7f8d6adafc43aabe2b366b65bfbf433448e2a2001.css" integrity="sha256-fadxah8tByX3TGrn&#43;Natr8Q6q&#43;KzZrZb&#43;/QzRI4qIAE=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://mickjagger19.github.io/favicon.ico">
+<link rel="apple-touch-icon" href="https://mickjagger19.github.io/apple-touch-icon.png">
+<link rel="alternate" hreflang="en" href="https://mickjagger19.github.io/posts/misc/the-making-of-immusia/">
+
+<meta name="twitter:title" content="(The Making Of) Immusia | Mick&#39; Blog" />
+<meta name="twitter:description" content="Immusia（读作 ɪˈmuːziə, 是拉丁语 Immersio (沉浸) 和 Musica (音乐) 的结合) 是我的第一个 Vision Pro App, 也是我的第一个 VR App
+本文记录了我的创作理念，和一些实现细节
+缘由 之所以想做这样的一个 app, 是因为我由于科幻作品的影响，产生的对 VR 设备的想象。更具体一点，是 Black Mirror。Black Mirror 擅长探讨 高科技对 人文/伦理/社会 的冲击，选材大胆，对我有着比较深的影响。在其最精彩的前几集，多次出现类似 头戴设备的概念，给了观影者极大的想象空间。
+核心功能 Immusia 的核心理念始终是 沉浸式 的音乐聆听体验。借助 “概念专辑” 这类已经被大众认可的丰富精神财产，音乐被赋予了更具像化的概念，从而使音乐可视化有了更合理的依据
+2D 资产 -&gt; 3D 资产 有大量平面资源可以转为双目3D，动机很自然(Vision Pro 的相册 app 也在后来内置了这个功能）， 相关技术也随处可寻，但是视觉效果还是相当可观
+3D Player 为了充分发挥 VR 设备的空间优势，我对传统播放器做了以下改动：
+所有歌词文本都为具有深度的 3D 字体。尽管 Apple 不推荐这么做，我还是坚持使用它，原因是经过实测， depth 似乎赋予了歌词一种真实感 歌词的移动方向不再局限于 y 方向，而是可以结合 XY 和 Z。我最喜欢的移动方式，被我称为 &ldquo;Water Fall&rdquo;， 歌词会向 -Y 和 &#43;Z 方向移动 Immersive Player Window Mode 由于 Swift API 的限制，app之间的 沉浸式空间是互斥的，因此纯沉浸式的 app 存在一些局限性。为了达到一个通用音乐播放器的最低要求，我加入了窗口模式，这样用户就可以在使用其他 app 时同时使用 Immusia" />
+<meta property="og:title" content="(The Making Of) Immusia | Mick&#39; Blog" />
+<meta property="og:description" content="Immusia（读作 ɪˈmuːziə, 是拉丁语 Immersio (沉浸) 和 Musica (音乐) 的结合) 是我的第一个 Vision Pro App, 也是我的第一个 VR App
+本文记录了我的创作理念，和一些实现细节
+缘由 之所以想做这样的一个 app, 是因为我由于科幻作品的影响，产生的对 VR 设备的想象。更具体一点，是 Black Mirror。Black Mirror 擅长探讨 高科技对 人文/伦理/社会 的冲击，选材大胆，对我有着比较深的影响。在其最精彩的前几集，多次出现类似 头戴设备的概念，给了观影者极大的想象空间。
+核心功能 Immusia 的核心理念始终是 沉浸式 的音乐聆听体验。借助 “概念专辑” 这类已经被大众认可的丰富精神财产，音乐被赋予了更具像化的概念，从而使音乐可视化有了更合理的依据
+2D 资产 -&gt; 3D 资产 有大量平面资源可以转为双目3D，动机很自然(Vision Pro 的相册 app 也在后来内置了这个功能）， 相关技术也随处可寻，但是视觉效果还是相当可观
+3D Player 为了充分发挥 VR 设备的空间优势，我对传统播放器做了以下改动：
+所有歌词文本都为具有深度的 3D 字体。尽管 Apple 不推荐这么做，我还是坚持使用它，原因是经过实测， depth 似乎赋予了歌词一种真实感 歌词的移动方向不再局限于 y 方向，而是可以结合 XY 和 Z。我最喜欢的移动方式，被我称为 &ldquo;Water Fall&rdquo;， 歌词会向 -Y 和 &#43;Z 方向移动 Immersive Player Window Mode 由于 Swift API 的限制，app之间的 沉浸式空间是互斥的，因此纯沉浸式的 app 存在一些局限性。为了达到一个通用音乐播放器的最低要求，我加入了窗口模式，这样用户就可以在使用其他 app 时同时使用 Immusia" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mickjagger19.github.io/posts/misc/the-making-of-immusia/" />
+<meta property="article:section" content="posts" />
+  <meta property="article:published_time" content="2024-07-20T20:16:13&#43;08:00" />
+  <meta property="article:modified_time" content="2024-07-20T20:16:13&#43;08:00" />
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://mickjagger19.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "(The Making Of) Immusia",
+      "item": "https://mickjagger19.github.io/posts/misc/the-making-of-immusia/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "(The Making Of) Immusia | Mick' Blog",
+  "name": "(The Making Of) Immusia",
+  "description": "Immusia（读作 ɪˈmuːziə, 是拉丁语 Immersio (沉浸) 和 Musica (音乐) 的结合) 是我的第一个 Vision Pro App, 也是我的第一个 VR App\n本文记录了我的创作理念，和一些实现细节\n缘由 之所以想做这样的一个 app, 是因为我由于科幻作品的影响，产生的对 VR 设备的想象。更具体一点，是 Black Mirror。Black Mirror 擅长探讨 高科技对 人文/伦理/社会 的冲击，选材大胆，对我有着比较深的影响。在其最精彩的前几集，多次出现类似 头戴设备的概念，给了观影者极大的想象空间。\n核心功能 Immusia 的核心理念始终是 沉浸式 的音乐聆听体验。借助 “概念专辑” 这类已经被大众认可的丰富精神财产，音乐被赋予了更具像化的概念，从而使音乐可视化有了更合理的依据\n2D 资产 -\u0026gt; 3D 资产 有大量平面资源可以转为双目3D，动机很自然(Vision Pro 的相册 app 也在后来内置了这个功能）， 相关技术也随处可寻，但是视觉效果还是相当可观\n3D Player 为了充分发挥 VR 设备的空间优势，我对传统播放器做了以下改动：\n所有歌词文本都为具有深度的 3D 字体。尽管 Apple 不推荐这么做，我还是坚持使用它，原因是经过实测， depth 似乎赋予了歌词一种真实感 歌词的移动方向不再局限于 y 方向，而是可以结合 XY 和 Z。我最喜欢的移动方式，被我称为 \u0026ldquo;Water Fall\u0026rdquo;， 歌词会向 -Y 和 +Z 方向移动 Immersive Player Window Mode 由于 Swift API 的限制，app之间的 沉浸式空间是互斥的，因此纯沉浸式的 app 存在一些局限性。为了达到一个通用音乐播放器的最低要求，我加入了窗口模式，这样用户就可以在使用其他 app 时同时使用 Immusia",
+  "keywords": [
+    "Software", "Music", "VisionPro", "VR"
+  ],
+  "wordCount" : "224",
+  "inLanguage": "en",
+  "datePublished": "2024-07-20T20:16:13+08:00",
+  "dateModified": "2024-07-20T20:16:13+08:00",
+  "author":{
+    "@type": "Person",
+    "name": "Mick"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://mickjagger19.github.io/posts/misc/the-making-of-immusia/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mick' Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://mickjagger19.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+      integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
+        integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8"
+        crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+        integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        renderMathInElement(document.body, {
+            
+            
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            
+            throwOnError: false
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/assets/scss/main.scss">
+<link rel="stylesheet" href="/css/custom.css">
+
+
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+
+</head>
+
+<body class=" dark type-posts kind-page layout-" id="top"><script data-no-instant>
+    function switchTheme(theme) {
+        switch (theme) {
+            case 'light':
+                document.body.classList.remove('dark');
+                break;
+            case 'dark':
+                document.body.classList.add('dark');
+                break;
+            
+            default:
+                if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    document.body.classList.add('dark');
+                }
+        }
+    }
+
+    function isDarkTheme() {
+        return document.body.className.includes("dark");
+    }
+
+    function getPrefTheme() {
+        return localStorage.getItem("pref-theme");
+    }
+
+    function setPrefTheme(theme) {
+        switchTheme(theme)
+        localStorage.setItem("pref-theme", theme);
+    }
+
+    const toggleThemeCallbacks = {}
+    toggleThemeCallbacks['main'] = (isDark) => {
+        
+        if (isDark) {
+            setPrefTheme('light');
+        } else {
+            setPrefTheme('dark');
+        }
+    }
+
+    
+    
+    
+    window.addEventListener('toggle-theme', function () {
+        
+        const isDark = isDarkTheme()
+        for (const key in toggleThemeCallbacks) {
+            toggleThemeCallbacks[key](isDark)
+        }
+    });
+
+    
+    function toggleThemeListener() {
+        
+        window.dispatchEvent(new CustomEvent('toggle-theme'));
+    }
+
+</script>
+<script>
+    
+    (function () {
+        const defaultTheme = 'dark';
+        const prefTheme = getPrefTheme();
+        const theme = prefTheme ? prefTheme : defaultTheme;
+
+        switchTheme(theme);
+    })();
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://mickjagger19.github.io/" accesskey="h" title="Mick&#39; Blog (Alt + H)">Mick&#39; Blog</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                         stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                         stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://mickjagger19.github.io/posts/" title="Posts" class="active"
+                >
+                <span>Posts
+                </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://mickjagger19.github.io/archives/" title="Archive"
+                >
+                <span>Archive
+                </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://mickjagger19.github.io/search/" title="Search (Alt &#43; /)"data-no-instant accesskey=/
+                >
+                <span>Search
+                </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://mickjagger19.github.io/tags/" title="Tags"
+                >
+                <span>Tags
+                </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main post">
+
+<article class="post-single">
+    <header class="post-header">
+        <h1 class="post-title">(The Making Of) Immusia</h1>
+        <div class="post-meta"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+       stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"
+       style="user-select: text;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"
+                                        style="user-select: text;"></rect><line x1="16" y1="2" x2="16" y2="6"
+                                                                                style="user-select: text;"></line><line
+          x1="8" y1="2" x2="8" y2="6" style="user-select: text;"></line><line x1="3" y1="10" x2="21" y2="10"
+                                                                              style="user-select: text;"></line></svg>
+  <span>July 20, 2024</span></span><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor"
+       stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"
+                                                                                         fill="none"></path><circle
+          cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
+  <span>2 min</span></span><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor"
+       stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"
+                                                                                         fill="none"></path><circle
+          cx="12" cy="7" r="4"></circle><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path></svg>Mick</span>
+
+            
+            
+        </div>
+    </header> <div class="toc side right">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e7%bc%98%e7%94%b1" aria-label="缘由">缘由</a></li>
+                <li>
+                    <a href="#%e6%a0%b8%e5%bf%83%e5%8a%9f%e8%83%bd" aria-label="核心功能">核心功能</a><ul>
+                        
+                <li>
+                    <a href="#2d-%e8%b5%84%e4%ba%a7---3d-%e8%b5%84%e4%ba%a7" aria-label="2D 资产 -&amp;gt; 3D 资产">2D 资产 -&gt; 3D 资产</a></li>
+                <li>
+                    <a href="#3d-player" aria-label="3D Player">3D Player</a></li>
+                <li>
+                    <a href="#immersive-player" aria-label="Immersive Player">Immersive Player</a></li>
+                <li>
+                    <a href="#window-mode" aria-label="Window Mode">Window Mode</a></li></ul>
+                </li>
+                <li>
+                    <a href="#environments-%e7%8e%af%e5%a2%83" aria-label="Environments 环境">Environments 环境</a><ul>
+                        
+                <li>
+                    <a href="#interstellar" aria-label="Interstellar">Interstellar</a></li>
+                <li>
+                    <a href="#plastic-beach" aria-label="Plastic Beach">Plastic Beach</a></li>
+                <li>
+                    <a href="#star-gate" aria-label="Star Gate">Star Gate</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e4%b8%80%e4%ba%9b%e6%83%b3%e6%b3%95" aria-label="一些想法">一些想法</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+    <div class="post-content"><p><strong>Immusia</strong>（读作 <strong>ɪˈmuːziə</strong>, 是拉丁语 <strong>Immersio</strong> (沉浸) 和 <strong>Musica</strong> (音乐) 的结合) 是我的第一个 Vision Pro App, 也是我的第一个 VR App</p>
+<p>本文记录了我的创作理念，和一些实现细节</p>
+<h2 id="缘由">缘由<a hidden class="anchor" aria-hidden="true" href="#缘由">¶</a></h2>
+<p>之所以想做这样的一个 app, 是因为我由于科幻作品的影响，产生的对 VR 设备的想象。更具体一点，是 Black Mirror。Black Mirror 擅长探讨 高科技对 人文/伦理/社会 的冲击，选材大胆，对我有着比较深的影响。在其最精彩的前几集，多次出现类似 头戴设备的概念，给了观影者极大的想象空间。</p>
+<h2 id="核心功能">核心功能<a hidden class="anchor" aria-hidden="true" href="#核心功能">¶</a></h2>
+<p><strong>Immusia</strong>  的核心理念始终是 沉浸式 的音乐聆听体验。借助 “概念专辑” 这类已经被大众认可的丰富精神财产，音乐被赋予了更具像化的概念，从而使音乐可视化有了更合理的依据</p>
+<h3 id="2d-资产---3d-资产">2D 资产 -&gt; 3D 资产<a hidden class="anchor" aria-hidden="true" href="#2d-资产---3d-资产">¶</a></h3>
+<p>有大量平面资源可以转为双目3D，动机很自然(Vision Pro 的相册 app 也在后来内置了这个功能）， 相关技术也随处可寻，但是视觉效果还是相当可观</p>
+<h3 id="3d-player">3D Player<a hidden class="anchor" aria-hidden="true" href="#3d-player">¶</a></h3>
+<p>为了充分发挥 VR 设备的空间优势，我对传统播放器做了以下改动：</p>
+<ul>
+<li>所有歌词文本都为具有深度的 3D 字体。尽管 Apple 不推荐这么做，我还是坚持使用它，原因是经过实测， depth 似乎赋予了歌词一种真实感</li>
+<li>歌词的移动方向不再局限于 y 方向，而是可以结合 XY 和 Z。我最喜欢的移动方式，被我称为 &ldquo;Water Fall&rdquo;， 歌词会向 -Y 和 +Z 方向移动</li>
+</ul>
+<h3 id="immersive-player">Immersive Player<a hidden class="anchor" aria-hidden="true" href="#immersive-player">¶</a></h3>
+<h3 id="window-mode">Window Mode<a hidden class="anchor" aria-hidden="true" href="#window-mode">¶</a></h3>
+<p>由于 Swift API 的限制，app之间的 沉浸式空间是互斥的，因此纯沉浸式的 app 存在一些局限性。为了达到一个通用音乐播放器的最低要求，我加入了窗口模式，这样用户就可以在使用其他 app 时同时使用 Immusia</p>
+<p>窗口模式的大部分 UI 都和系统原生 Apple Music 保持一致。为了更方便查看艺术家信息和专辑信息，在左右两侧分别添加了小窗口。同时，沉浸模式下的 3D 播放器 也被保留。</p>
+<p>值得一提的是，为了体现空间感，我没有采用平铺的专辑列表，而是实现了一种非常类似 Apple 在 IPod 上曾经使用过的 Cover Flow 效果。它足够优雅和美观，也不会占用太多资源。</p>
+<h2 id="environments-环境">Environments 环境<a hidden class="anchor" aria-hidden="true" href="#environments-环境">¶</a></h2>
+<p>在 Environment 方面，我早就感到和知晓 RealityKit 的局限性和 Performance 问题，Metal(<strong>CompositorService</strong>, to be specific) 是最好的选择。然而我没有图形学方面的储备，所以花了一段时间尝试寻找合适的人选（外包团队）进行合作。显然我高估了国内在这一领域的人才储备，总之经过一段时间的尝试并无果之后，我就开始自学 Metal。在 Shadertoy和一些电子教材 的帮助之下，我得以对图形学入门，并创作了一些环境（场景）</p>
+<h3 id="interstellar">Interstellar<a hidden class="anchor" aria-hidden="true" href="#interstellar">¶</a></h3>
+<p><strong>Interstellar</strong> 是我搭建的第一个环境。在听太空主题的音乐时，脑海里一直有一些关于太空场景的想象，而且静态的太空场景也相对比较容易实现，对当时对图形编程不太熟悉的我来说是一个不错的上手项目</p>
+<p>起初我对 <strong>Interstellar</strong> 的构想比较简单：一个孤单的蓝色星球</p>
+<p>但是随着进度不断推进，我的想法越来越多，技术也逐渐成熟，因此我大胆地加入了不同元素：月球/太阳/星星/星云 等</p>
+<p>在这个过程中也遇到了很多问题，包括但不限于：</p>
+<ul>
+<li>ColorSpace 的选取</li>
+<li>透明场景下 BlendMode 和 Alpha 的设置</li>
+<li>大量复杂 Shader 造成的计算问题，通过简化逻辑和烘焙纹理解决</li>
+<li>CompareFunction 和 Winding 的不一致造成的遮挡错误问题</li>
+<li>&hellip;</li>
+</ul>
+<p>所幸在 GPT 的帮助下，没有浪费我 <em>太多</em> 的时间</p>
+<p>这个场景中的很多元素都是我从 <a href="https://www.shadertoy.com">ShaderToy</a> 移植而来，希望 License 不会有很大的问题</p>
+<p>在背景音乐的选择方面，此前选择的是现成的 太空背景音乐音效，现在正在考虑 realtime GPU Sound</p>
+<p>一些不错的生成结果：</p>
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/4cfcDX?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+<h3 id="plastic-beach">Plastic Beach<a hidden class="anchor" aria-hidden="true" href="#plastic-beach">¶</a></h3>
+<h3 id="star-gate">Star Gate<a hidden class="anchor" aria-hidden="true" href="#star-gate">¶</a></h3>
+<p>一次和朋友闲聊，偶然听他提起正在为新歌制作一段类似 <strong>Daft Punk</strong> 的《Contact》 末尾的太空音效。我去 Youtube 上找到了一个粉丝为这首歌制作的一版 MV, 里面恰好选取了 《2001: A Space Odyssey》 中主人公 <strong>David Bowman</strong> 穿越时空隧道（<strong>Star Gate</strong>) 的片段，这一段视觉效果和音乐的节奏有着非常好的配合</p>
+<p>我很喜欢这个场景，于是它成为了我的第二个 Environment idea。</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lhdAxlvKklw?si=w04dsfXkvZyNufbL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="center-iframe"></iframe>
+<h2 id="一些想法">一些想法<a hidden class="anchor" aria-hidden="true" href="#一些想法">¶</a></h2>
+<ul>
+<li>一个 VR app 涉及的技术栈太多：前端/后端/设计/GPU 渲染/UX 只是我能想起来的几个，而且互联网相对较丰富的也只是平面资源，在空间的视角下，每一部分都可以衍生出新的学问。Vision Pro 用于作为先行 Demo 的 Encounter Dinosaurs, 在 WWDC 上有一个专门的 Episode, 介绍其中的 UX 设计。这是一个全新的领域</li>
+<li>Marketing: 我还没有进行任何形式的 Marketing</li>
+<li>相关人才的欠缺：国内外在 VR 技术上的 技术和人才累积 似乎根本不在一个水平面上，国内的 App，即使是由大团队诸如 QQ 音乐/ 爱奇艺等，仍显粗糙；然而国外的小团队（最少1个人）都可以做出足够摘取 Apple Design Awards 的 App。这应该与当地电影工业的发展有着最直接的联系</li>
+</ul>
+
+
+    </div>
+
+    <footer class="post-footer"><ul class="post-tags"><li>
+                <a href="https://mickjagger19.github.io/tags/software/">Software</a>
+            </li><li>
+                <a href="https://mickjagger19.github.io/tags/music/">Music</a>
+            </li><li>
+                <a href="https://mickjagger19.github.io/tags/visionpro/">VisionPro</a>
+            </li><li>
+                <a href="https://mickjagger19.github.io/tags/vr/">VR</a>
+            </li></ul>
+<nav class="paginav">
+    <a class="next" href="https://mickjagger19.github.io/posts/music/my-gears/">
+    <span class="title">
+      &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 class="feather feather-arrow-right" style="user-select: text;"><line x1="5" y1="12" x2="19" y2="12"
+                                                                                      style="user-select: text;"></line><polyline
+            points="12 5 19 12 12 19" style="user-select: text;"></polyline></svg>
+    </span>
+        <br>
+        <span>My Gears</span>
+    </a>
+</nav>
+
+    </footer>
+    <div class="comments-separator"></div>
+</article>
+    </main>
+    
+<footer class="footer">
+  <span>&copy; 2024 <a href="https://mickjagger19.github.io/">Mick&#39; Blog</a></span><span style="display: inline-block; margin-left: 1em;">
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
+  </span>
+  <span style="display: inline-block; margin-left: 1em;">
+    Powered by
+    <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+    <a href="https://github.com/reorx/hugo-PaperModX/" rel="noopener" target="_blank">PaperModX</a>
+  </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+    <path d="M12 6H0l6-6z" />
+  </svg>
+</a>
+
+<script>
+  (function() {
+     
+    const disableThemeToggle = '' == '1';
+    if (disableThemeToggle) {
+      return;
+    }
+
+    let button = document.getElementById("theme-toggle")
+    
+    button.removeEventListener('click', toggleThemeListener)
+    
+    button.addEventListener('click', toggleThemeListener)
+  })();
+</script>
+
+<script>
+  (function () {
+    let menu = document.getElementById('menu')
+    if (menu) {
+      menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+      menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+      }
+    }
+
+    const disableSmoothScroll = '' == '1';
+    const enableInstantClick = '' == '1';
+    
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || disableSmoothScroll || enableInstantClick) {
+      return;
+    }
+    
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        var id = this.getAttribute("href").substr(1);
+        document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+          behavior: "smooth"
+        });
+        if (id === "top") {
+          history.replaceState(null, null, " ");
+        } else {
+          history.pushState(null, null, `#${id}`);
+        }
+      });
+    });
+  })();
+</script>
+<script>
+  var mybutton = document.getElementById("top-link");
+  window.onscroll = function () {
+    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+      mybutton.style.visibility = "visible";
+      mybutton.style.opacity = "1";
+    } else {
+      mybutton.style.visibility = "hidden";
+      mybutton.style.opacity = "0";
+    }
+  };
+</script>
+<script>
+  if (window.scrollListeners) {
+    
+    for (const listener of scrollListeners) {
+      window.removeEventListener('scroll', listener)
+    }
+  }
+  window.scrollListeners = []
+</script>
+
+
+
+<script src="/js/medium-zoom.min.js" data-no-instant
+></script>
+<script>
+  document.querySelectorAll('pre > code').forEach((codeblock) => {
+    const container = codeblock.parentNode.parentNode;
+
+    const copybutton = document.createElement('button');
+    copybutton.classList.add('copy-code');
+    copybutton.innerText = 'copy';
+
+    function copyingDone() {
+      copybutton.innerText = 'copied!';
+      setTimeout(() => {
+        copybutton.innerText = 'copy';
+      }, 2000);
+    }
+
+    copybutton.addEventListener('click', (cb) => {
+      if ('clipboard' in navigator) {
+        navigator.clipboard.writeText(codeblock.textContent);
+        copyingDone();
+        return;
+      }
+
+      const range = document.createRange();
+      range.selectNodeContents(codeblock);
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+      try {
+        document.execCommand('copy');
+        copyingDone();
+      } catch (e) { };
+      selection.removeRange(range);
+    });
+
+    if (container.classList.contains("highlight")) {
+      container.appendChild(copybutton);
+    } else if (container.parentNode.firstChild == container) {
+      
+    } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+      
+      codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+    } else {
+      
+      codeblock.parentNode.appendChild(copybutton);
+    }
+  });
+</script>
+
+
+
+
+<script>
+  
+  
+  (function() {
+    const enableTocScroll = '1' == '1'
+    if (!enableTocScroll) {
+      return
+    }
+    if (!document.querySelector('.toc')) {
+      console.log('no toc found, ignore toc scroll')
+      return
+    }
+    
+
+    
+    const scrollListeners = window.scrollListeners
+    const headings = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id]');
+    const activeClass = 'active';
+
+    
+    let activeHeading = headings[0];
+    getLinkByHeading(activeHeading).classList.add(activeClass);
+
+    const onScroll = () => {
+      const passedHeadings = [];
+      for (const h of headings) {
+        
+        if (getOffsetTop(h) < 5) {
+          passedHeadings.push(h)
+        } else {
+          break;
+        }
+      }
+      if (passedHeadings.length > 0) {
+        newActiveHeading = passedHeadings[passedHeadings.length - 1];
+      } else {
+        newActiveHeading = headings[0];
+      }
+      if (activeHeading != newActiveHeading) {
+        getLinkByHeading(activeHeading).classList.remove(activeClass);
+        activeHeading = newActiveHeading;
+        getLinkByHeading(activeHeading).classList.add(activeClass);
+      }
+    }
+
+    let timer = null;
+    const scrollListener = () => {
+      if (timer !== null) {
+        clearTimeout(timer)
+      }
+      timer = setTimeout(onScroll, 50)
+    }
+    window.addEventListener('scroll', scrollListener, false);
+    scrollListeners.push(scrollListener)
+
+    function getLinkByHeading(heading) {
+      const id = encodeURI(heading.getAttribute('id')).toLowerCase();
+      return document.querySelector(`.toc ul li a[href="#${id}"]`);
+    }
+
+    function getOffsetTop(heading) {
+      if (!heading.getClientRects().length) {
+        return 0;
+      }
+      let rect = heading.getBoundingClientRect();
+      return rect.top
+    }
+  })();
+  </script>
+
+</body>
+
+</html>
