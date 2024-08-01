@@ -57,7 +57,9 @@
 <p>这个场景中的很多元素都是我从 <a href="https://www.shadertoy.com">ShaderToy</a> 移植而来，希望 License 不会有很大的问题</p>
 <p>在背景音乐的选择方面，此前选择的是现成的 太空背景音乐音效，现在正在考虑 realtime GPU Sound</p>
 <p>一些不错的生成结果：</p>
+<center>
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/4cfcDX?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+</center>
 <h3 id="plastic-beach">Plastic Beach</h3>
 <h3 id="star-gate">Star Gate</h3>
 <p>一次和朋友闲聊，偶然听他提起正在为新歌制作一段类似 <strong>Daft Punk</strong> 的《Contact》 末尾的太空音效。我去 Youtube 上找到了一个粉丝为这首歌制作的一版 MV, 里面恰好选取了 《2001: A Space Odyssey》 中主人公 <strong>David Bowman</strong> 穿越时空隧道（<strong>Star Gate</strong>) 的片段，这一段视觉效果和音乐的节奏有着非常好的配合</p>
