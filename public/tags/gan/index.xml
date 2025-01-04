@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 19 Jan 2024 20:27:05 +0800</lastBuildDate><atom:link href="https://mickqian.github.io/tags/gan/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GAN &amp; Variants</title>
-      <link>https://mickqian.github.io/posts/ai/models/the-gan-family/</link>
+      <link>https://mickqian.github.io/posts/ai/models/gan--variants/</link>
       <pubDate>Fri, 19 Jan 2024 20:27:05 +0800</pubDate>
       
-      <guid>https://mickqian.github.io/posts/ai/models/the-gan-family/</guid>
+      <guid>https://mickqian.github.io/posts/ai/models/gan--variants/</guid>
       <description>Personal takeaways of GAN &amp;amp; its variants</description>
       <content:encoded><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>The mathematics in GAN and WGAN</p>
@@ -149,7 +149,7 @@ Almost in all GANs, for $G$, the objective can always be interpreted as (some ki
       
   <figure align=center class="figure d-block text-center">
   <picture align=center >
-  <img class="figure-img img-fluid" src="https://mickqian.github.io/Attachments/AI/Models/The%20GAN%20Family/IMG-20240120210126755.png?v=02da09a5e995c4e390d767e3ba6f71b1#center" alt="A simulation of $D$ and $G$ to update regardless of each other" loading="lazy" height="550px" width="1305px" />
+  <img class="figure-img img-fluid" src="https://mickqian.github.io/Attachments/AI/Models/GAN%20&%20Variants/IMG-20250104162106928.png?v=d4a753a3cd3680a659c97d5a7364f26b#center" alt="A simulation of $D$ and $G$ to update regardless of each other" loading="lazy" height="550px" width="1305px" />
 </picture>
 
   <figcaption class="figure-caption"><p>A simulation of $D$ and $G$ to update regardless of each other</p></figcaption>
@@ -183,7 +183,7 @@ Maybe the idea of <strong>advesarial</strong> and <strong>cooperative</strong>(f
       
   <figure align=center class="figure d-block text-center">
   <picture align=center >
-  <img class="figure-img img-fluid" src="https://mickqian.github.io/Attachments/AI/Models/The%20GAN%20Family/IMG-20240120210126802.png?v=02da09a5e995c4e390d767e3ba6f71b1" alt="The log_gradients of the generator decays quickly. Also, the better the $D$, the smaller the gradient" loading="lazy" height="666px" width="840px" />
+  <img class="figure-img img-fluid" src="https://mickqian.github.io/Attachments/AI/Models/GAN%20&%20Variants/IMG-20250104162107023.png?v=d4a753a3cd3680a659c97d5a7364f26b" alt="The log_gradients of the generator decays quickly. Also, the better the $D$, the smaller the gradient" loading="lazy" height="666px" width="840px" />
 </picture>
 
   <figcaption class="figure-caption"><p>The log_gradients of the generator decays quickly. Also, the better the $D$, the smaller the gradient</p></figcaption>
@@ -296,7 +296,7 @@ $$
 </ul>
 </blockquote>
 <h2 id="wgan-gp">WGAN-GP</h2>
-<p>Although improved, WGAN sometimes suffer from problems like <a href="/posts/ai/models/the-gan-family/#hard-to-achieve-nash-equilibrium">Hard to achieve Nash Equilibrium</a>, still.</p>
+<p>Although improved, WGAN sometimes suffer from problems like <a href="/posts/ai/models/gan--variants/#hard-to-achieve-nash-equilibrium">Hard to achieve Nash Equilibrium</a>, still.</p>
 <p>Identifying and proving <strong>weight clipping</strong> as a reason of that, authors of <strong>WGAN-GP</strong> replace it with <strong>gradient penalty(GP)</strong>:</p>
 
 $$
@@ -400,7 +400,7 @@ $$</p>
       </tr>
   </tbody>
 </table>
-<p><strong>BigGAN</strong> bases on <a href="/posts/ai/models/the-gan-family/#sagan">SAGAN</a>, introduce several improvements:</p>
+<p><strong>BigGAN</strong> bases on <a href="/posts/ai/models/gan--variants/#sagan">SAGAN</a>, introduce several improvements:</p>
 <ul>
 <li>Send $z$ to multiple layers of $G$ with skip-net instead of input layer only</li>
 <li><strong>Truncation trick</strong>: Truncate $z$ by setting threshold, exceeded sample is resampled until falling into the range</li>

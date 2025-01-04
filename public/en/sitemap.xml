@@ -47,34 +47,16 @@
     <loc>https://mickqian.github.io/posts/music/my-gears/</loc>
     <lastmod>2024-07-20T19:53:50+08:00</lastmod>
   </url><url>
-    <loc>https://mickqian.github.io/tags/attention/</loc>
-    <lastmod>2024-02-19T16:23:58+08:00</lastmod>
-  </url><url>
-    <loc>https://mickqian.github.io/tags/diffusion/</loc>
-    <lastmod>2024-02-19T16:23:58+08:00</lastmod>
-  </url><url>
-    <loc>https://mickqian.github.io/posts/ai/models/dit-sora-and-more/</loc>
-    <lastmod>2024-02-19T16:23:58+08:00</lastmod>
-  </url><url>
-    <loc>https://mickqian.github.io/tags/transformer/</loc>
-    <lastmod>2024-02-19T16:23:58+08:00</lastmod>
-  </url><url>
-    <loc>https://mickqian.github.io/tags/videogeneration/</loc>
-    <lastmod>2024-02-19T16:23:58+08:00</lastmod>
-  </url><url>
     <loc>https://mickqian.github.io/tags/fine-tuning/</loc>
     <lastmod>2024-01-24T19:19:32+08:00</lastmod>
   </url><url>
     <loc>https://mickqian.github.io/posts/ai/rl/peft/</loc>
     <lastmod>2024-01-24T19:19:32+08:00</lastmod>
   </url><url>
-    <loc>https://mickqian.github.io/posts/ai/models/the-attention-mechanism/</loc>
-    <lastmod>2024-01-21T12:47:01+08:00</lastmod>
-  </url><url>
     <loc>https://mickqian.github.io/tags/gan/</loc>
     <lastmod>2024-01-19T20:27:05+08:00</lastmod>
   </url><url>
-    <loc>https://mickqian.github.io/posts/ai/models/the-gan-family/</loc>
+    <loc>https://mickqian.github.io/posts/ai/models/gan--variants/</loc>
     <lastmod>2024-01-19T20:27:05+08:00</lastmod>
   </url><url>
     <loc>https://mickqian.github.io/tags/wgan/</loc>
@@ -93,6 +75,9 @@
     <lastmod>2024-01-16T21:31:43+08:00</lastmod>
   </url><url>
     <loc>https://mickqian.github.io/posts/ai/models/denoising-diffusion-models/</loc>
+    <lastmod>2024-01-14T14:31:43+08:00</lastmod>
+  </url><url>
+    <loc>https://mickqian.github.io/tags/diffusion/</loc>
     <lastmod>2024-01-14T14:31:43+08:00</lastmod>
   </url><url>
     <loc>https://mickqian.github.io/tags/generative/</loc>
