@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mickqian.github.io/</loc>
-    <lastmod>2025-01-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-04T16:16:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -21,10 +21,7 @@
                 />
   </url><url>
     <loc>https://mickqian.github.io/posts/</loc>
-    <lastmod>2025-01-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mickqian.github.io/posts/ai/inferenceengine/sglang/</loc>
-    <lastmod>2024-12-29T13:10:12+08:00</lastmod>
+    <lastmod>2025-01-04T16:16:52+08:00</lastmod>
   </url><url>
     <loc>https://mickqian.github.io/posts/misc/the-making-of-immusia/</loc>
     <lastmod>2024-07-20T20:16:13+08:00</lastmod>
@@ -64,12 +61,6 @@
   </url><url>
     <loc>https://mickqian.github.io/tags/videogeneration/</loc>
     <lastmod>2024-02-19T16:23:58+08:00</lastmod>
-  </url><url>
-    <loc>https://mickqian.github.io/tags/mamba/</loc>
-    <lastmod>2024-02-08T14:41:55+08:00</lastmod>
-  </url><url>
-    <loc>https://mickqian.github.io/posts/ai/models/mamba/</loc>
-    <lastmod>2024-02-08T14:41:55+08:00</lastmod>
   </url><url>
     <loc>https://mickqian.github.io/tags/fine-tuning/</loc>
     <lastmod>2024-01-24T19:19:32+08:00</lastmod>
@@ -116,12 +107,6 @@
     <loc>https://mickqian.github.io/posts/ai/models/vae/</loc>
     <lastmod>2024-01-14T14:05:03+08:00</lastmod>
   </url><url>
-    <loc>https://mickqian.github.io/tags/deeplearning/</loc>
-    <lastmod>2024-01-12T20:22:11+08:00</lastmod>
-  </url><url>
-    <loc>https://mickqian.github.io/posts/ai/models/techniques-of-training-nns/</loc>
-    <lastmod>2024-01-12T20:22:11+08:00</lastmod>
-  </url><url>
     <loc>https://mickqian.github.io/posts/music/bossa-nova-songs-progression/</loc>
     <lastmod>2024-01-06T21:15:22+08:00</lastmod>
   </url><url>
@@ -133,14 +118,6 @@
   </url><url>
     <loc>https://mickqian.github.io/posts/music/music-of-george-harrison/</loc>
     <lastmod>2024-01-06T19:37:13+08:00</lastmod>
-  </url><url>
-    <loc>https://mickqian.github.io/posts/ai/hardware/hardware/</loc>
-  </url><url>
-    <loc>https://mickqian.github.io/posts/attachments/music/my-gears/nights-backbone-copy/</loc>
-  </url><url>
-    <loc>https://mickqian.github.io/posts/graphics/shaders/</loc>
-  </url><url>
-    <loc>https://mickqian.github.io/posts/misc/immusia-todolist/</loc>
   </url><url>
     <loc>https://mickqian.github.io/archives/</loc>
   </url><url>
