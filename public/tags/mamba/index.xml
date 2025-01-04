@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mamba on Mick&#39; Blog</title>
-    <link>https://mickjagger19.github.io/tags/mamba/</link>
+    <link>https://mickqian.github.io/tags/mamba/</link>
     <description>Recent content in Mamba on Mick&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Feb 2024 14:41:55 +0800</lastBuildDate><atom:link href="https://mickjagger19.github.io/tags/mamba/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Feb 2024 14:41:55 +0800</lastBuildDate><atom:link href="https://mickqian.github.io/tags/mamba/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mamba</title>
-      <link>https://mickjagger19.github.io/posts/ai/models/mamba/</link>
+      <link>https://mickqian.github.io/posts/ai/models/mamba/</link>
       <pubDate>Thu, 08 Feb 2024 14:41:55 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/ai/models/mamba/</guid>
+      <guid>https://mickqian.github.io/posts/ai/models/mamba/</guid>
       <description>Brief introduction to Mamba</description>
       <content:encoded><![CDATA[<hr>
 <p>title: Mamba

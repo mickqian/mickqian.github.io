@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Fine-Tuning on Mick&#39; Blog</title>
-    <link>https://mickjagger19.github.io/tags/fine-tuning/</link>
+    <link>https://mickqian.github.io/tags/fine-tuning/</link>
     <description>Recent content in Fine-Tuning on Mick&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jan 2024 19:19:32 +0800</lastBuildDate><atom:link href="https://mickjagger19.github.io/tags/fine-tuning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jan 2024 19:19:32 +0800</lastBuildDate><atom:link href="https://mickqian.github.io/tags/fine-tuning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tuning</title>
-      <link>https://mickjagger19.github.io/posts/ai/rl/peft/</link>
+      <link>https://mickqian.github.io/posts/ai/rl/peft/</link>
       <pubDate>Wed, 24 Jan 2024 19:19:32 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/ai/rl/peft/</guid>
+      <guid>https://mickqian.github.io/posts/ai/rl/peft/</guid>
       <description>PEFTs</description>
       <content:encoded><![CDATA[<h2 id="terminologies">Terminologies</h2>
 <table>

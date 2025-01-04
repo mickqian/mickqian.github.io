@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Generative on Mick&#39; Blog</title>
-    <link>https://mickjagger19.github.io/tags/generative/</link>
+    <link>https://mickqian.github.io/tags/generative/</link>
     <description>Recent content in Generative on Mick&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jan 2024 14:31:43 +0800</lastBuildDate><atom:link href="https://mickjagger19.github.io/tags/generative/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jan 2024 14:31:43 +0800</lastBuildDate><atom:link href="https://mickqian.github.io/tags/generative/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Denoising Diffusion Models</title>
-      <link>https://mickjagger19.github.io/posts/ai/models/denoising-diffusion-models/</link>
+      <link>https://mickqian.github.io/posts/ai/models/denoising-diffusion-models/</link>
       <pubDate>Sun, 14 Jan 2024 14:31:43 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/ai/models/denoising-diffusion-models/</guid>
+      <guid>https://mickqian.github.io/posts/ai/models/denoising-diffusion-models/</guid>
       <description>Personal takeaways of DDIM/DDPM</description>
       <content:encoded><![CDATA[<h2 id="terminologies">Terminologies</h2>
 <table>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Software on Mick&#39; Blog</title>
-    <link>https://mickjagger19.github.io/tags/software/</link>
+    <link>https://mickqian.github.io/tags/software/</link>
     <description>Recent content in Software on Mick&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Jul 2024 20:16:13 +0800</lastBuildDate><atom:link href="https://mickjagger19.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jul 2024 20:16:13 +0800</lastBuildDate><atom:link href="https://mickqian.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>(The Making Of) Immusia</title>
-      <link>https://mickjagger19.github.io/posts/misc/the-making-of-immusia/</link>
+      <link>https://mickqian.github.io/posts/misc/the-making-of-immusia/</link>
       <pubDate>Sat, 20 Jul 2024 20:16:13 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/misc/the-making-of-immusia/</guid>
+      <guid>https://mickqian.github.io/posts/misc/the-making-of-immusia/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Immusia&lt;/strong&gt;（读作 &lt;strong&gt;ɪˈmuːziə&lt;/strong&gt;, 是拉丁语 &lt;strong&gt;Immersio&lt;/strong&gt; (沉浸) 和 &lt;strong&gt;Musica&lt;/strong&gt; (音乐) 的结合) 是我的第一个 Vision Pro App, 也是我的第一个 VR App&lt;/p&gt;
 &lt;p&gt;本文记录了我的创作理念，和一些实现细节&lt;/p&gt;
 &lt;h2 id=&#34;缘由&#34;&gt;缘由&lt;/h2&gt;

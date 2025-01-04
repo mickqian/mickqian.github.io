@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Mick&#39; Blog</title>
-    <link>https://mickjagger19.github.io/posts/</link>
+    <link>https://mickqian.github.io/posts/</link>
     <description>Recent content in Posts on Mick&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mickjagger19.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mickqian.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SGlang</title>
-      <link>https://mickjagger19.github.io/posts/ai/inferenceengine/sglang/</link>
+      <link>https://mickqian.github.io/posts/ai/inferenceengine/sglang/</link>
       <pubDate>Sun, 29 Dec 2024 13:10:12 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/ai/inferenceengine/sglang/</guid>
+      <guid>https://mickqian.github.io/posts/ai/inferenceengine/sglang/</guid>
       <description>&lt;h2 id=&#34;backend&#34;&gt;Backend&lt;/h2&gt;
 &lt;p&gt;
 
@@ -218,7 +218,7 @@ TD learning can learn from <strong>incomplete</strong> episodes</p>
       
       
   <picture align=center  class="d-block text-center">
-  <img class="img-fluid" src="https://mickjagger19.github.io/Attachments/AI/InferenceEngine/SGlang/IMG-20250101121900600.png?v=73447def62a77454637a9acf58974af7" alt="" loading="lazy" height="572px" width="1440px" />
+  <img class="img-fluid" src="https://mickqian.github.io/Attachments/AI/InferenceEngine/SGlang/IMG-20250101121900600.png?v=221298c9bd4bd5d26cdfbd24b506243b" alt="" loading="lazy" height="572px" width="1440px" />
 </picture>
 </p>
 <p>下图是三种计算的<strong>屋顶模型</strong>：</p>
@@ -243,7 +243,7 @@ TD learning can learn from <strong>incomplete</strong> episodes</p>
       
       
   <picture align=center  class="d-block text-center">
-  <img class="img-fluid" src="https://mickjagger19.github.io/Attachments/AI/InferenceEngine/SGlang/IMG-20250101122646440.png?v=73447def62a77454637a9acf58974af7" alt="" loading="lazy" height="671px" width="1075px" />
+  <img class="img-fluid" src="https://mickqian.github.io/Attachments/AI/InferenceEngine/SGlang/IMG-20250101122646440.png?v=221298c9bd4bd5d26cdfbd24b506243b" alt="" loading="lazy" height="671px" width="1075px" />
 </picture>
 </p>
 <h3 id="flash-infer">Flash Infer</h3>
@@ -313,10 +313,10 @@ Speculative Execution 通过忽略 stop，让一次调用生成更多 token, 并
     
     <item>
       <title>(The Making Of) Immusia</title>
-      <link>https://mickjagger19.github.io/posts/misc/the-making-of-immusia/</link>
+      <link>https://mickqian.github.io/posts/misc/the-making-of-immusia/</link>
       <pubDate>Sat, 20 Jul 2024 20:16:13 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/misc/the-making-of-immusia/</guid>
+      <guid>https://mickqian.github.io/posts/misc/the-making-of-immusia/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Immusia&lt;/strong&gt;（读作 &lt;strong&gt;ɪˈmuːziə&lt;/strong&gt;, 是拉丁语 &lt;strong&gt;Immersio&lt;/strong&gt; (沉浸) 和 &lt;strong&gt;Musica&lt;/strong&gt; (音乐) 的结合) 是我的第一个 Vision Pro App, 也是我的第一个 VR App&lt;/p&gt;
 &lt;p&gt;本文记录了我的创作理念，和一些实现细节&lt;/p&gt;
 &lt;h2 id=&#34;缘由&#34;&gt;缘由&lt;/h2&gt;
@@ -390,10 +390,10 @@ Speculative Execution 通过忽略 stop，让一次调用生成更多 token, 并
     
     <item>
       <title>My Gears</title>
-      <link>https://mickjagger19.github.io/posts/music/my-gears/</link>
+      <link>https://mickqian.github.io/posts/music/my-gears/</link>
       <pubDate>Sat, 20 Jul 2024 19:53:50 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/music/my-gears/</guid>
+      <guid>https://mickqian.github.io/posts/music/my-gears/</guid>
       <description>A (brief) introduction of my gears</description>
       <content:encoded><![CDATA[<h2 id="rocky">Rocky</h2>
 <p><a href="https://www.fender.com/en-US/george-harrison-rocky-stratocaster.html"><strong>Rocky</strong></a> 是 The Beatles 吉他手 <strong>George Harrison</strong> 的电吉他</p>
@@ -422,7 +422,7 @@ Speculative Execution 通过忽略 stop，让一次调用生成更多 token, 并
       
   <figure align=center class="figure d-block text-center">
   <picture align=center >
-  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240720203521507_scaled.jpg?v=73447def62a77454637a9acf58974af7#center" alt="George Harrison Performing With Rocky in 《Im a Walrus》" loading="lazy" height="380px" width="480px" />
+  <img class="figure-img img-fluid" src="https://mickqian.github.io/Attachments/Music/My%20Gears/IMG-20240720203521507_scaled.jpg?v=221298c9bd4bd5d26cdfbd24b506243b#center" alt="George Harrison Performing With Rocky in 《Im a Walrus》" loading="lazy" height="380px" width="480px" />
 </picture>
 
   <figcaption class="figure-caption"><p>George Harrison Performing With Rocky in 《Im a Walrus》</p></figcaption>
@@ -450,7 +450,7 @@ Speculative Execution 通过忽略 stop，让一次调用生成更多 token, 并
       
   <figure align=center class="figure d-block text-center">
   <picture align=center >
-  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240720205140321_scaled.png?v=73447def62a77454637a9acf58974af7#center" alt="George Harrison With Rocky" loading="lazy" height="271px" width="400px" />
+  <img class="figure-img img-fluid" src="https://mickqian.github.io/Attachments/Music/My%20Gears/IMG-20240720205140321_scaled.png?v=221298c9bd4bd5d26cdfbd24b506243b#center" alt="George Harrison With Rocky" loading="lazy" height="271px" width="400px" />
 </picture>
 
   <figcaption class="figure-caption"><p>George Harrison With Rocky</p></figcaption>
@@ -478,7 +478,7 @@ Speculative Execution 通过忽略 stop，让一次调用生成更多 token, 并
       
   <figure align=center class="figure d-block text-center">
   <picture align=center >
-  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240720205008915_scaled.png?v=73447def62a77454637a9acf58974af7#center" alt="George Harrison Playing Rock in Abbey Road Studio" loading="lazy" height="620px" width="500px" />
+  <img class="figure-img img-fluid" src="https://mickqian.github.io/Attachments/Music/My%20Gears/IMG-20240720205008915_scaled.png?v=221298c9bd4bd5d26cdfbd24b506243b#center" alt="George Harrison Playing Rock in Abbey Road Studio" loading="lazy" height="620px" width="500px" />
 </picture>
 
   <figcaption class="figure-caption"><p>George Harrison Playing Rock in Abbey Road Studio</p></figcaption>
@@ -525,7 +525,7 @@ Speculative Execution 通过忽略 stop，让一次调用生成更多 token, 并
       
   <figure align=center class="figure d-block text-center">
   <picture align=center >
-  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240720210023358_scaled.jpg?v=73447def62a77454637a9acf58974af7" alt="日落色" loading="lazy" height="194px" width="600px" />
+  <img class="figure-img img-fluid" src="https://mickqian.github.io/Attachments/Music/My%20Gears/IMG-20240720210023358_scaled.jpg?v=221298c9bd4bd5d26cdfbd24b506243b" alt="日落色" loading="lazy" height="194px" width="600px" />
 </picture>
 
   <figcaption class="figure-caption"><p>日落色</p></figcaption>
@@ -553,7 +553,7 @@ Speculative Execution 通过忽略 stop，让一次调用生成更多 token, 并
       
       
   <picture align=center  class="d-block text-center">
-  <img class="img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240721170354370.jpg?v=73447def62a77454637a9acf58974af7" alt="" loading="lazy" height="800px" width="600px" />
+  <img class="img-fluid" src="https://mickqian.github.io/Attachments/Music/My%20Gears/IMG-20240721170354370.jpg?v=221298c9bd4bd5d26cdfbd24b506243b" alt="" loading="lazy" height="800px" width="600px" />
 </picture>
 </p>
 <p>
@@ -577,7 +577,7 @@ Speculative Execution 通过忽略 stop，让一次调用生成更多 token, 并
       
       
   <picture align=center  class="d-block text-center">
-  <img class="img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240721165617205.jpg?v=73447def62a77454637a9acf58974af7" alt="" loading="lazy" height="667px" width="500px" />
+  <img class="img-fluid" src="https://mickqian.github.io/Attachments/Music/My%20Gears/IMG-20240721165617205.jpg?v=221298c9bd4bd5d26cdfbd24b506243b" alt="" loading="lazy" height="667px" width="500px" />
 </picture>
 </p>
 <br>
@@ -602,7 +602,7 @@ Speculative Execution 通过忽略 stop，让一次调用生成更多 token, 并
       
       
   <picture align=center  class="d-block text-center">
-  <img class="img-fluid" src="https://mickjagger19.github.io/Attachments/Music/My%20Gears/IMG-20240721171902613.jpg?v=73447def62a77454637a9acf58974af7" alt="" loading="lazy" height="667px" width="500px" />
+  <img class="img-fluid" src="https://mickqian.github.io/Attachments/Music/My%20Gears/IMG-20240721171902613.jpg?v=221298c9bd4bd5d26cdfbd24b506243b" alt="" loading="lazy" height="667px" width="500px" />
 </picture>
 
 可以看到还原度很高，但同时保留了一些原创部分。喷绘的效果还是挺令我满意的</p>
@@ -619,10 +619,10 @@ Speculative Execution 通过忽略 stop，让一次调用生成更多 token, 并
     
     <item>
       <title>DiT, Sora, and more</title>
-      <link>https://mickjagger19.github.io/posts/ai/models/dit-sora-and-more/</link>
+      <link>https://mickqian.github.io/posts/ai/models/dit-sora-and-more/</link>
       <pubDate>Mon, 19 Feb 2024 16:23:58 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/ai/models/dit-sora-and-more/</guid>
+      <guid>https://mickqian.github.io/posts/ai/models/dit-sora-and-more/</guid>
       <description>Review on DiT and sora</description>
       <content:encoded><![CDATA[<blockquote>
 <p>[! WARNING]
@@ -786,10 +786,10 @@ To be completed</p>
     
     <item>
       <title>Mamba</title>
-      <link>https://mickjagger19.github.io/posts/ai/models/mamba/</link>
+      <link>https://mickqian.github.io/posts/ai/models/mamba/</link>
       <pubDate>Thu, 08 Feb 2024 14:41:55 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/ai/models/mamba/</guid>
+      <guid>https://mickqian.github.io/posts/ai/models/mamba/</guid>
       <description>Brief introduction to Mamba</description>
       <content:encoded><![CDATA[<hr>
 <p>title: Mamba
@@ -943,10 +943,10 @@ Discretization is necessary for calculation efficiency</p>
     
     <item>
       <title>Tuning</title>
-      <link>https://mickjagger19.github.io/posts/ai/rl/peft/</link>
+      <link>https://mickqian.github.io/posts/ai/rl/peft/</link>
       <pubDate>Wed, 24 Jan 2024 19:19:32 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/ai/rl/peft/</guid>
+      <guid>https://mickqian.github.io/posts/ai/rl/peft/</guid>
       <description>PEFTs</description>
       <content:encoded><![CDATA[<h2 id="terminologies">Terminologies</h2>
 <table>
@@ -1069,10 +1069,10 @@ where:</p>
     
     <item>
       <title>The Attention Family</title>
-      <link>https://mickjagger19.github.io/posts/ai/models/the-attention-mechanism/</link>
+      <link>https://mickqian.github.io/posts/ai/models/the-attention-mechanism/</link>
       <pubDate>Sun, 21 Jan 2024 12:47:01 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/ai/models/the-attention-mechanism/</guid>
+      <guid>https://mickqian.github.io/posts/ai/models/the-attention-mechanism/</guid>
       <description>Attention</description>
       <content:encoded><![CDATA[<h2 id="terminologies">Terminologies</h2>
 <table>
@@ -1393,10 +1393,10 @@ $$</p>
     
     <item>
       <title>GAN &amp; Variants</title>
-      <link>https://mickjagger19.github.io/posts/ai/models/the-gan-family/</link>
+      <link>https://mickqian.github.io/posts/ai/models/the-gan-family/</link>
       <pubDate>Fri, 19 Jan 2024 20:27:05 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/ai/models/the-gan-family/</guid>
+      <guid>https://mickqian.github.io/posts/ai/models/the-gan-family/</guid>
       <description>Personal takeaways of GAN &amp;amp; its variants</description>
       <content:encoded><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>The mathematics in GAN and WGAN</p>
@@ -1533,7 +1533,7 @@ Almost in all GANs, for $G$, the objective can always be interpreted as (some ki
       
   <figure align=center class="figure d-block text-center">
   <picture align=center >
-  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/AI/Models/The%20GAN%20Family/IMG-20240120210126755.png?v=73447def62a77454637a9acf58974af7#center" alt="A simulation of $D$ and $G$ to update regardless of each other" loading="lazy" height="550px" width="1305px" />
+  <img class="figure-img img-fluid" src="https://mickqian.github.io/Attachments/AI/Models/The%20GAN%20Family/IMG-20240120210126755.png?v=221298c9bd4bd5d26cdfbd24b506243b#center" alt="A simulation of $D$ and $G$ to update regardless of each other" loading="lazy" height="550px" width="1305px" />
 </picture>
 
   <figcaption class="figure-caption"><p>A simulation of $D$ and $G$ to update regardless of each other</p></figcaption>
@@ -1567,7 +1567,7 @@ Maybe the idea of <strong>advesarial</strong> and <strong>cooperative</strong>(f
       
   <figure align=center class="figure d-block text-center">
   <picture align=center >
-  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/AI/Models/The%20GAN%20Family/IMG-20240120210126802.png?v=73447def62a77454637a9acf58974af7" alt="The log_gradients of the generator decays quickly. Also, the better the $D$, the smaller the gradient" loading="lazy" height="666px" width="840px" />
+  <img class="figure-img img-fluid" src="https://mickqian.github.io/Attachments/AI/Models/The%20GAN%20Family/IMG-20240120210126802.png?v=221298c9bd4bd5d26cdfbd24b506243b" alt="The log_gradients of the generator decays quickly. Also, the better the $D$, the smaller the gradient" loading="lazy" height="666px" width="840px" />
 </picture>
 
   <figcaption class="figure-caption"><p>The log_gradients of the generator decays quickly. Also, the better the $D$, the smaller the gradient</p></figcaption>
@@ -1798,10 +1798,10 @@ $$</p>
     
     <item>
       <title>Reinforcement Learning</title>
-      <link>https://mickjagger19.github.io/posts/ai/rl/reinforcement-learning/</link>
+      <link>https://mickqian.github.io/posts/ai/rl/reinforcement-learning/</link>
       <pubDate>Tue, 16 Jan 2024 21:31:43 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/ai/rl/reinforcement-learning/</guid>
+      <guid>https://mickqian.github.io/posts/ai/rl/reinforcement-learning/</guid>
       <description>Personal takeaways of RL/RLHF/DPO</description>
       <content:encoded><![CDATA[<h2 id="terminologies">Terminologies</h2>
 <p>General:</p>
@@ -2294,10 +2294,10 @@ The Objective is (negative log-likelihood loss):
     
     <item>
       <title>Denoising Diffusion Models</title>
-      <link>https://mickjagger19.github.io/posts/ai/models/denoising-diffusion-models/</link>
+      <link>https://mickqian.github.io/posts/ai/models/denoising-diffusion-models/</link>
       <pubDate>Sun, 14 Jan 2024 14:31:43 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/ai/models/denoising-diffusion-models/</guid>
+      <guid>https://mickqian.github.io/posts/ai/models/denoising-diffusion-models/</guid>
       <description>Personal takeaways of DDIM/DDPM</description>
       <content:encoded><![CDATA[<h2 id="terminologies">Terminologies</h2>
 <table>
@@ -2779,10 +2779,10 @@ $$
     
     <item>
       <title>VAE</title>
-      <link>https://mickjagger19.github.io/posts/ai/models/vae/</link>
+      <link>https://mickqian.github.io/posts/ai/models/vae/</link>
       <pubDate>Sun, 14 Jan 2024 14:05:03 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/ai/models/vae/</guid>
+      <guid>https://mickqian.github.io/posts/ai/models/vae/</guid>
       <description>Takeaways from the maths of VAE</description>
       <content:encoded><![CDATA[<h2 id="terminology">Terminology</h2>
 <table>
@@ -2983,10 +2983,10 @@ corrupt X，降低图片的冗余度（图片的冗余性一般都很高）</p>
     
     <item>
       <title>Techniques of Training NNs</title>
-      <link>https://mickjagger19.github.io/posts/ai/models/techniques-of-training-nns/</link>
+      <link>https://mickqian.github.io/posts/ai/models/techniques-of-training-nns/</link>
       <pubDate>Fri, 12 Jan 2024 20:22:11 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/ai/models/techniques-of-training-nns/</guid>
+      <guid>https://mickqian.github.io/posts/ai/models/techniques-of-training-nns/</guid>
       <description>Describe and compare some common tricks of training NNs</description>
       <content:encoded><![CDATA[<h2 id="regularization">Regularization</h2>
 <p>For most <strong>NNs</strong> today, they are trained to minimize a designed loss function, which quantizes the ability of the model.</p>
@@ -3095,10 +3095,10 @@ corrupt X，降低图片的冗余度（图片的冗余性一般都很高）</p>
     
     <item>
       <title>Bossa Nova Songs Progression</title>
-      <link>https://mickjagger19.github.io/posts/music/bossa-nova-songs-progression/</link>
+      <link>https://mickqian.github.io/posts/music/bossa-nova-songs-progression/</link>
       <pubDate>Sat, 06 Jan 2024 21:15:22 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/music/bossa-nova-songs-progression/</guid>
+      <guid>https://mickqian.github.io/posts/music/bossa-nova-songs-progression/</guid>
       <description>Chord progression of some well-known bossa-nova songs</description>
       <content:encoded><![CDATA[<script src="/js/opensheetmusicdisplay.min.js">
 
@@ -3176,10 +3176,10 @@ load_and_render("/MusicXML/Chega De Saudade (No More Blues).musicxml", "osmd-con
     
     <item>
       <title>Music of George Harrison</title>
-      <link>https://mickjagger19.github.io/posts/music/music-of-george-harrison/</link>
+      <link>https://mickqian.github.io/posts/music/music-of-george-harrison/</link>
       <pubDate>Sat, 06 Jan 2024 19:37:13 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/music/music-of-george-harrison/</guid>
+      <guid>https://mickqian.github.io/posts/music/music-of-george-harrison/</guid>
       <description>personal rankings of George Harrison&amp;rsquo;s Singles/Albums/Guitar Solos</description>
       <content:encoded><![CDATA[<link rel="stylesheet" href="/css/main.css">
 <h1 id="single">Single</h1>
@@ -3226,10 +3226,10 @@ load_and_render("/MusicXML/Chega De Saudade (No More Blues).musicxml", "osmd-con
     
     <item>
       <title></title>
-      <link>https://mickjagger19.github.io/posts/ai/hardware/hardware/</link>
+      <link>https://mickqian.github.io/posts/ai/hardware/hardware/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/ai/hardware/hardware/</guid>
+      <guid>https://mickqian.github.io/posts/ai/hardware/hardware/</guid>
       <description>&lt;h2 id=&#34;ram&#34;&gt;RAM&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;SRAM: Static RAM
@@ -3261,10 +3261,10 @@ load_and_render("/MusicXML/Chega De Saudade (No More Blues).musicxml", "osmd-con
     
     <item>
       <title></title>
-      <link>https://mickjagger19.github.io/posts/attachments/music/my-gears/nights-backbone-copy/</link>
+      <link>https://mickqian.github.io/posts/attachments/music/my-gears/nights-backbone-copy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/attachments/music/my-gears/nights-backbone-copy/</guid>
+      <guid>https://mickqian.github.io/posts/attachments/music/my-gears/nights-backbone-copy/</guid>
       <description>&lt;!DOCTYPE HTML&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
@@ -3287,10 +3287,10 @@ load_and_render("/MusicXML/Chega De Saudade (No More Blues).musicxml", "osmd-con
 &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34; /&gt;
 
 &lt;link rel=&#34;image_src&#34; href=&#34;https://www.shadertoy.com/img/logo.png&#34; /&gt;
-&lt;link rel=&#34;apple-touch-icon&#34; href=&#34;https://mickjagger19.github.io/img/launch_icon_57.png&#34;/&gt;
-&lt;link rel=&#34;apple-touch-icon&#34; sizes=&#34;72x72&#34; href=&#34;https://mickjagger19.github.io/img/launch_icon_72.png&#34;/&gt;
-&lt;link rel=&#34;apple-touch-icon&#34; sizes=&#34;114x114&#34; href=&#34;https://mickjagger19.github.io/img/launch_icon_114.png&#34;/&gt;
-&lt;link rel=&#34;shortcut icon&#34; href=&#34;https://mickjagger19.github.io/img/favicon.ico&#34;/&gt;
+&lt;link rel=&#34;apple-touch-icon&#34; href=&#34;https://mickqian.github.io/img/launch_icon_57.png&#34;/&gt;
+&lt;link rel=&#34;apple-touch-icon&#34; sizes=&#34;72x72&#34; href=&#34;https://mickqian.github.io/img/launch_icon_72.png&#34;/&gt;
+&lt;link rel=&#34;apple-touch-icon&#34; sizes=&#34;114x114&#34; href=&#34;https://mickqian.github.io/img/launch_icon_114.png&#34;/&gt;
+&lt;link rel=&#34;shortcut icon&#34; href=&#34;https://mickqian.github.io/img/favicon.ico&#34;/&gt;
 
 &lt;style&gt;*
 {
@@ -19685,12 +19685,12 @@ function bbc2html( content, allowMultimedia )
     content = content.replace( /(\[url=)(.*?)(\])(.*?)(\[\/url\])/gi, &#39;&lt;a href=&#34;$2&#34; class=&#34;regular&#34; target=&#34;_blank&#34;&gt;$4&lt;/a&gt;&#39;);
     content = content.replace( /(\[url\])(.*?)(\[\/url\])/gi,         &#39;&lt;a href=&#34;$2&#34; class=&#34;regular&#34; target=&#34;_blank&#34;&gt;$2&lt;/a&gt;&#39;);
 
-    content = content.replace( /(:\))/g,                  &#39;&lt;img src=&#34;https://mickjagger19.github.io/img/emoticonHappy.png&#34;&gt;&#39;   );
-    content = content.replace( /(:\()/g,                  &#39;&lt;img src=&#34;https://mickjagger19.github.io/img/emoticonSad.png&#34;&gt;&#39;     );
-    content = content.replace( /(:D)/g,                   &#39;&lt;img src=&#34;https://mickjagger19.github.io/img/emoticonLaugh.png&#34;&gt;&#39;   );
-    content = content.replace( /(:love:)/gi,               &#39;&lt;img src=&#34;https://mickjagger19.github.io/img/emoticonLove.png&#34;&gt;&#39;    );
-    content = content.replace( /(:octopus:)/gi,            &#39;&lt;img src=&#34;https://mickjagger19.github.io/img/emoticonOctopus.png&#34;&gt;&#39; );
-    content = content.replace( /(:octopusballoon:)/gi,     &#39;&lt;img src=&#34;https://mickjagger19.github.io/img/emoticonOctopusBalloon.png&#34;&gt;&#39; );
+    content = content.replace( /(:\))/g,                  &#39;&lt;img src=&#34;https://mickqian.github.io/img/emoticonHappy.png&#34;&gt;&#39;   );
+    content = content.replace( /(:\()/g,                  &#39;&lt;img src=&#34;https://mickqian.github.io/img/emoticonSad.png&#34;&gt;&#39;     );
+    content = content.replace( /(:D)/g,                   &#39;&lt;img src=&#34;https://mickqian.github.io/img/emoticonLaugh.png&#34;&gt;&#39;   );
+    content = content.replace( /(:love:)/gi,               &#39;&lt;img src=&#34;https://mickqian.github.io/img/emoticonLove.png&#34;&gt;&#39;    );
+    content = content.replace( /(:octopus:)/gi,            &#39;&lt;img src=&#34;https://mickqian.github.io/img/emoticonOctopus.png&#34;&gt;&#39; );
+    content = content.replace( /(:octopusballoon:)/gi,     &#39;&lt;img src=&#34;https://mickqian.github.io/img/emoticonOctopusBalloon.png&#34;&gt;&#39; );
     content = content.replace( /(:alpha:)/gi,              &#39;&amp;#945;&#39;  );
     content = content.replace( /(:beta:)/gi,               &#39;&amp;#946;&#39;  );
     content = content.replace( /(:delta:)/gi,              &#39;&amp;#9169;&#39; );
@@ -23844,16 +23844,16 @@ function buildInputsUI( me )
         dei.onclick = function(ev) { me.SetTexture(i, { mType: null, mID: -1, mSrc: null, mSampler: {} }); }
 
         var z = document.createElement( &#34;img&#34; );
-        z.src=&#34;https://mickjagger19.github.io/img/themes/&#34; + gThemeName + &#34;/pause.png&#34;;
+        z.src=&#34;https://mickqian.github.io/img/themes/&#34; + gThemeName + &#34;/pause.png&#34;;
         z.title=&#34;pause/resume&#34;;
         z.id=&#34;myPauseButton&#34; + i;
         z.className = &#34;uiButtonNew&#34;;
         z.style.visibility = &#39;hidden&#39;;
-        z.onclick = function(ev) { var ele = piGetSourceElement(ev); var r = me.PauseInput( i ); if( r===true ) ele.src=&#34;https://mickjagger19.github.io/img/themes/&#34; + gThemeName + &#34;/play.png&#34;; else ele.src=&#34;https://mickjagger19.github.io/img/themes/&#34; + gThemeName + &#34;/pause.png&#34;; }
+        z.onclick = function(ev) { var ele = piGetSourceElement(ev); var r = me.PauseInput( i ); if( r===true ) ele.src=&#34;https://mickqian.github.io/img/themes/&#34; + gThemeName + &#34;/play.png&#34;; else ele.src=&#34;https://mickqian.github.io/img/themes/&#34; + gThemeName + &#34;/pause.png&#34;; }
         bar.appendChild( z );
 
         z = document.createElement( &#34;img&#34; );
-        z.src=&#34;https://mickjagger19.github.io/img/themes/&#34; + gThemeName + &#34;/rewind.png&#34;;
+        z.src=&#34;https://mickqian.github.io/img/themes/&#34; + gThemeName + &#34;/rewind.png&#34;;
         z.title=&#34;rewind&#34;;
         z.id=&#34;myRewindButton&#34; + i;
         z.className = &#34;uiButtonNew&#34;;
@@ -23862,12 +23862,12 @@ function buildInputsUI( me )
         bar.appendChild( z );
 
         z = document.createElement( &#34;img&#34; );
-        z.src=&#34;https://mickjagger19.github.io/img/themes/&#34; + gThemeName + &#34;/speakerOff.png&#34;;
+        z.src=&#34;https://mickqian.github.io/img/themes/&#34; + gThemeName + &#34;/speakerOff.png&#34;;
         z.title=&#34;mute&#34;;
         z.id=&#34;myMuteButton&#34; + i;
         z.className = &#34;uiButtonNew&#34;;
         z.style.visibility = &#39;hidden&#39;;
-        z.onclick = function(ev) { var ele = piGetSourceElement(ev); var r = me.ToggleMuteInput( i ); if( r===true ) ele.src=&#34;https://mickjagger19.github.io/img/themes/&#34; + gThemeName + &#34;/speakerOff.png&#34;; else ele.src=&#34;https://mickjagger19.github.io/img/themes/&#34; + gThemeName + &#34;/speakerOn.png&#34;;}
+        z.onclick = function(ev) { var ele = piGetSourceElement(ev); var r = me.ToggleMuteInput( i ); if( r===true ) ele.src=&#34;https://mickqian.github.io/img/themes/&#34; + gThemeName + &#34;/speakerOff.png&#34;; else ele.src=&#34;https://mickqian.github.io/img/themes/&#34; + gThemeName + &#34;/speakerOn.png&#34;;}
         bar.appendChild( z );
 
         z = document.createElement(&#34;img&#34;);
@@ -25532,7 +25532,7 @@ function iLoadShader( jsnShader )
     var shaderAuthorName = document.getElementById( &#34;shaderAuthorName&#34;); 
     if( shaderAuthorName) 
     {
-        if (gRes.mUserName!==&#34;&#34;) shaderAuthorName.innerHTML = &#34;&lt;a class=&#39;user&#39; href=&#39;https://mickjagger19.github.io/user/&#34; + htmlEntities(gRes.mUserName) +&#34;&#39;&gt;&#34; + htmlEntities(gRes.mUserName) + &#34;&lt;/a&gt;&#34;;
+        if (gRes.mUserName!==&#34;&#34;) shaderAuthorName.innerHTML = &#34;&lt;a class=&#39;user&#39; href=&#39;https://mickqian.github.io/user/&#34; + htmlEntities(gRes.mUserName) +&#34;&#39;&gt;&#34; + htmlEntities(gRes.mUserName) + &#34;&lt;/a&gt;&#34;;
         else shaderAuthorName.innerHTML = &#34;anonymous user&#34;;
     }
     var shaderAuthorDate = document.getElementById( &#34;shaderAuthorDate&#34;); 
@@ -25543,7 +25543,7 @@ function iLoadShader( jsnShader )
     var numTags = gRes.mTags.length;
     for( let i=0; i&lt;numTags; i++ )
     {
-        txtHtml += &#34;&lt;a class=&#39;user&#39; href=&#39;https://mickjagger19.github.io/results?query=tag%3D&#34; + htmlEntities(gRes.mTags[i]) + &#34;&#39;&gt;&#34; + htmlEntities(gRes.mTags[i]) + &#34;&lt;/a&gt;&#34;;
+        txtHtml += &#34;&lt;a class=&#39;user&#39; href=&#39;https://mickqian.github.io/results?query=tag%3D&#34; + htmlEntities(gRes.mTags[i]) + &#34;&#39;&gt;&#34; + htmlEntities(gRes.mTags[i]) + &#34;&lt;/a&gt;&#34;;
         txtPlain += gRes.mTags[i];
         if( i !== (numTags-1) ) { txtHtml += &#34;, &#34;; txtPlain += &#34;, &#34;; }
     }
@@ -25583,7 +25583,7 @@ function iLoadShader( jsnShader )
     if (shaderForkedFrom !== null ) {
         if (gRes.mParentId !== &#34;&#34; ) {
             if  (gRes.mParentName !== &#34;&#34;) {
-                shaderForkedFrom.innerHTML = gStrFork + &#34; &lt;a class=&#39;user&#39; href=&#39;https://mickjagger19.github.io/view/&#34; + gRes.mParentId + &#34;&#39;&gt;&#34; + gRes.mParentName + &#34;&lt;/a&gt;&#34;;
+                shaderForkedFrom.innerHTML = gStrFork + &#34; &lt;a class=&#39;user&#39; href=&#39;https://mickqian.github.io/view/&#34; + gRes.mParentId + &#34;&#39;&gt;&#34; + gRes.mParentName + &#34;&lt;/a&gt;&#34;;
             } else {
                 shaderForkedFrom.innerHTML = gStrForkDeleted;
             }
@@ -25735,7 +25735,7 @@ function updatepage( jsn )
             txt += &#34;&lt;div class=\&#34;comment\&#34;&gt;&#34;;
         }
         txt +=   &#34;&lt;div&gt;&lt;img class=\&#34;userPictureSmall\&#34; src=\&#34;&#34; + jsn.userpicture[i] + &#34;\&#34;&gt;&lt;/img&gt;&lt;/div&gt;&#34;;
-        txt +=   &#34;&lt;div class=\&#34;commentContent\&#34;&gt;&lt;a class=&#39;user&#39; href=&#39;https://mickjagger19.github.io/user/&#34;+ htmlEntities(jsn.username[i]) +&#34;&#39;&gt;&#34; + htmlEntities(jsn.username[i]) + &#34;&lt;/a&gt;, &#34; + timeVar + &#34;&lt;br&gt;&#34;;
+        txt +=   &#34;&lt;div class=\&#34;commentContent\&#34;&gt;&lt;a class=&#39;user&#39; href=&#39;https://mickqian.github.io/user/&#34;+ htmlEntities(jsn.username[i]) +&#34;&#39;&gt;&#34; + htmlEntities(jsn.username[i]) + &#34;&lt;/a&gt;, &#34; + timeVar + &#34;&lt;br&gt;&#34;;
         if( jsn.hidden[i]==1) txt += &#34;&lt;i&gt;&#34;;
         txt +=  bbc2html(htmlEntities(jsn.text[i]),true);
         if( jsn.hidden[i]==1) txt += &#34;&lt;/i&gt;&#34;;
@@ -26051,7 +26051,7 @@ function doFork()
 
 //==================================================================
 &lt;/script&gt;
-    &lt;script src=&#34;https://mickjagger19.github.io/js/cmpPageNavigation.js?v=86&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;https://mickqian.github.io/js/cmpPageNavigation.js?v=86&#34;&gt;&lt;/script&gt;
 
         
     &lt;script&gt;
@@ -26072,8 +26072,8 @@ function doFork()
 &lt;div id=&#34;header&#34;&gt;
 
     &lt;div id=&#34;headerBlock1&#34;&gt;
-        &lt;a href=&#34;https://mickjagger19.github.io/&#34; id=&#34;headerTitle&#34;&gt;Shadertoy&lt;/a&gt;
-        &lt;form name=&#34;formSearch&#34; action=&#34;https://mickjagger19.github.io/results&#34; method=&#34;get&#34; style=&#34;display:inline-block;&#34;&gt;
+        &lt;a href=&#34;https://mickqian.github.io/&#34; id=&#34;headerTitle&#34;&gt;Shadertoy&lt;/a&gt;
+        &lt;form name=&#34;formSearch&#34; action=&#34;https://mickqian.github.io/results&#34; method=&#34;get&#34; style=&#34;display:inline-block;&#34;&gt;
         &lt;div  id=&#34;headerSearch&#34;&gt;
             &lt;input type=&#34;search&#34; id=&#34;mySearch&#34; name=&#34;query&#34; placeholder=&#34;Search...&#34; value=&#34;&#34;/&gt;
         &lt;/div&gt;
@@ -26083,11 +26083,11 @@ function doFork()
     &lt;div id=&#34;headerBlock2&#34;&gt;
                 &lt;span style=&#34;padding-top:14px;padding-bottom:14px;&#34;&gt;
 
-            Welcome            &lt;a class=&#34;headerLinks&#34; style=&#34;padding-right:3px;&#34; href=&#34;https://mickjagger19.github.io/profile/?show=shaders&#34;&gt;Mick&lt;/a&gt;
+            Welcome            &lt;a class=&#34;headerLinks&#34; style=&#34;padding-right:3px;&#34; href=&#34;https://mickqian.github.io/profile/?show=shaders&#34;&gt;Mick&lt;/a&gt;
                         |
-            &lt;a class=&#34;headerLinks&#34; href=&#34;https://mickjagger19.github.io/browse&#34;&gt;Browse&lt;/a&gt;
-            &lt;a class=&#34;headerLinks&#34; href=&#34;https://mickjagger19.github.io/new&#34;&gt;New&lt;/a&gt;
-            &lt;a class=&#34;headerLinks&#34; href=&#34;https://mickjagger19.github.io/signout&#34;&gt;Logout&lt;/a&gt;
+            &lt;a class=&#34;headerLinks&#34; href=&#34;https://mickqian.github.io/browse&#34;&gt;Browse&lt;/a&gt;
+            &lt;a class=&#34;headerLinks&#34; href=&#34;https://mickqian.github.io/new&#34;&gt;New&lt;/a&gt;
+            &lt;a class=&#34;headerLinks&#34; href=&#34;https://mickqian.github.io/signout&#34;&gt;Logout&lt;/a&gt;
             &lt;/span&gt;
         &lt;/div&gt;
 &lt;/div&gt;
@@ -26134,10 +26134,10 @@ function doFork()
                         &lt;input type=&#34;text&#34; class=&#34;inputForm&#34; id=&#34;shaderTitle&#34; required name=&#34;name1&#34; value=&#34;&#34; maxlength=&#34;32&#34;  placeholder=&#34; Name of your shader&#34; /&gt;&lt;br/&gt;
                     &lt;/div&gt;
                     &lt;div&gt;
-                        &lt;img id=&#34;myForkButton&#34; class=&#34;uiButtonNew&#34; style=&#34;margin-right:12px&#34; src=&#34;https://mickjagger19.github.io/img/themes/classic/fork.png&#34; title=&#34;fork this shader&#34; onclick=&#34;doFork()&#34; /&gt;
-                        &lt;img class=&#34;uiButtonNew&#34; style=&#34;margin-right:12px&#34; src=&#34;https://mickjagger19.github.io/img/themes/classic/addToPlaylist.png&#34; title=&#34;add this shader to a playlist&#34; onclick=&#34;doAddToPlaylist( gShaderID, piGetCoords(this) )&#34; /&gt;
-                        &lt;img class=&#34;uiButtonNew&#34; style=&#34;margin-right:12px&#34; src=&#34;https://mickjagger19.github.io/img/themes/classic/share.png&#34; title=&#34;share this shader&#34; onclick=&#34;doShareShader( piGetCoords(this) )&#34; /&gt;
-                        &lt;img src=&#39;https://mickjagger19.github.io/img/themes/classic/likeNo.png&#39;&gt;&lt;/img&gt;
+                        &lt;img id=&#34;myForkButton&#34; class=&#34;uiButtonNew&#34; style=&#34;margin-right:12px&#34; src=&#34;https://mickqian.github.io/img/themes/classic/fork.png&#34; title=&#34;fork this shader&#34; onclick=&#34;doFork()&#34; /&gt;
+                        &lt;img class=&#34;uiButtonNew&#34; style=&#34;margin-right:12px&#34; src=&#34;https://mickqian.github.io/img/themes/classic/addToPlaylist.png&#34; title=&#34;add this shader to a playlist&#34; onclick=&#34;doAddToPlaylist( gShaderID, piGetCoords(this) )&#34; /&gt;
+                        &lt;img class=&#34;uiButtonNew&#34; style=&#34;margin-right:12px&#34; src=&#34;https://mickqian.github.io/img/themes/classic/share.png&#34; title=&#34;share this shader&#34; onclick=&#34;doShareShader( piGetCoords(this) )&#34; /&gt;
+                        &lt;img src=&#39;https://mickqian.github.io/img/themes/classic/likeNo.png&#39;&gt;&lt;/img&gt;
                         &lt;span class=&#39;shaderInfoHeaderRightBigText&#39; id=&#34;shaderStatsLikes&#34;&gt;&lt;/span&gt;
                     &lt;/div&gt;
                     &lt;div&gt;
@@ -26188,7 +26188,7 @@ function doFork()
             &lt;div id=&#34;toolBar&#34;&gt;
 
                 &lt;div&gt;
-                    &lt;img class=&#34;uiButtonNew vcenter&#34; id=&#34;compileButton&#34; src=&#34;https://mickjagger19.github.io/img/themes/classic/play.png&#34; title=&#34;Compile (&lt;ALT&gt;+&lt;ENTER&gt;)&#34; onclick=&#34;gShaderToy.SetShaderFromEditor(false,true)&#34;/&gt;
+                    &lt;img class=&#34;uiButtonNew vcenter&#34; id=&#34;compileButton&#34; src=&#34;https://mickqian.github.io/img/themes/classic/play.png&#34; title=&#34;Compile (&lt;ALT&gt;+&lt;ENTER&gt;)&#34; onclick=&#34;gShaderToy.SetShaderFromEditor(false,true)&#34;/&gt;
                     &lt;a class=&#34;regular vcenter&#34; style=&#34;cursor:pointer;&#34; title=&#34;See translated shader code (&lt;ALT&gt;+&lt;ENTER&gt;)&#34; href=&#34;#&#34; onclick=&#34;gShaderToy.ShowTranslatedSource()&#34;&gt;
                         &lt;span class=&#34;vcenter&#34; id=&#34;compilationTime&#34;&gt;Compiled in 0.0/0.0 secs&lt;/span&gt;
                     &lt;/a&gt;
@@ -26201,7 +26201,7 @@ function doFork()
 
                 &lt;div style=&#34;justify-self:right;&#34;&gt;
 
-                    &lt;img class=&#34;uiButtonNew vcenter&#34; id=&#34;screenshotButton&#34; src=&#34;https://mickjagger19.github.io/img/themes/classic/screenshot.png&#34; title=&#34;Render Image&#34; onclick=&#34;saveScreenshot()&#34;/&gt;
+                    &lt;img class=&#34;uiButtonNew vcenter&#34; id=&#34;screenshotButton&#34; src=&#34;https://mickqian.github.io/img/themes/classic/screenshot.png&#34; title=&#34;Render Image&#34; onclick=&#34;saveScreenshot()&#34;/&gt;
 
                     &lt;select id=&#34;uiFontSelector&#34; class=&#34;inputForm vcenter&#34; style=&#34;display:inline&#34; title=&#34;Change font size (&lt;ALT&gt;+&lt;+/-&gt;)&#34;&gt;
                         &lt;option&gt;XS&lt;/option&gt;
@@ -26212,18 +26212,18 @@ function doFork()
                         &lt;option&gt;XXL&lt;/option&gt;
                     &lt;/select&gt;
 
-                    &lt;img class=&#34;uiButtonNew vcenter&#34; src=&#34;https://mickjagger19.github.io/img/themes/classic/help.png&#34; title=&#34;Show GLSL help&#34; onclick=&#34;showHelp()&#34;/&gt;
+                    &lt;img class=&#34;uiButtonNew vcenter&#34; src=&#34;https://mickqian.github.io/img/themes/classic/help.png&#34; title=&#34;Show GLSL help&#34; onclick=&#34;showHelp()&#34;/&gt;
                 &lt;/div&gt;
             &lt;/div&gt;
 
             &lt;div id=&#34;textures&#34;&gt;
-                &lt;div id=&#39;texture0&#39; class=&#39;inputSelector&#39;&gt;&lt;div style=&#39;width:100%;height:100%;padding:0;margin:0;border:0;position:relative;&#39;&gt;&lt;canvas id=&#39;myUnitCanvas0&#39; class=&#39;inputSelectorCanvas&#39;&gt;&lt;/canvas&gt;&lt;img id=&#39;myDeleteInput0&#39; class=&#39;deleteInput&#39; src=&#39;https://mickjagger19.github.io/img/close2.png&#39; title=&#39;remove input&#39;/&gt;&lt;div id=&#39;mySampler0&#39; class=&#39;inputSampler&#39;&gt;&lt;br/&gt;Filter&lt;select class=&#39;inputForm&#39; id=&#39;mySamplerFilter0&#39; style=&#39;width:80px;&#39; title=&#39;Pixel filtering mode&#39; onchange=&#39;gShaderToy.SetSamplerFilter(0, this.value );&#39;&gt;&lt;option value=&#39;nearest&#39;&gt;nearest&lt;/option&gt;&lt;option value=&#39;linear&#39;&gt;linear&lt;/option&gt;&lt;option value=&#39;mipmap&#39;&gt;mipmap&lt;/option&gt;&lt;/select&gt;&lt;br/&gt;Wrap&lt;select class=&#39;inputForm&#39; id=&#39;mySamplerWrap0&#39; style=&#39;width:80px;&#39; title=&#39;Pixel filtering mode&#39; onchange=&#39;gShaderToy.SetSamplerWrap(0, this.value );&#39;&gt;&lt;option value=&#39;clamp&#39;&gt;clamp&lt;/option&gt;&lt;option value=&#39;repeat&#39;&gt;repeat&lt;/option&gt;&lt;/select&gt;&lt;br/&gt;&lt;div id=&#39;mySamplerVFlipLabel0&#39;&gt;&lt;label&gt;VFlip&lt;input type=&#39;checkbox&#39; id=&#39;mySamplerVFlip0&#39; value=&#39;No&#39; onchange=&#39;gShaderToy.SetSamplerVFlip(0,(this.checked)?&#34;true&#34;:&#34;false&#34;);&#39; /&gt;&lt;/label&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;inputSelectorBar&#39;&gt;&lt;div id=&#39;myUnitText0&#39; class=&#39;inputSelectorText&#39;&gt;iChannel0&lt;/div&gt;&lt;div id=&#39;inputSelectorControls0&#39; class=&#39;inputSelectorControls&#39;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+                &lt;div id=&#39;texture0&#39; class=&#39;inputSelector&#39;&gt;&lt;div style=&#39;width:100%;height:100%;padding:0;margin:0;border:0;position:relative;&#39;&gt;&lt;canvas id=&#39;myUnitCanvas0&#39; class=&#39;inputSelectorCanvas&#39;&gt;&lt;/canvas&gt;&lt;img id=&#39;myDeleteInput0&#39; class=&#39;deleteInput&#39; src=&#39;https://mickqian.github.io/img/close2.png&#39; title=&#39;remove input&#39;/&gt;&lt;div id=&#39;mySampler0&#39; class=&#39;inputSampler&#39;&gt;&lt;br/&gt;Filter&lt;select class=&#39;inputForm&#39; id=&#39;mySamplerFilter0&#39; style=&#39;width:80px;&#39; title=&#39;Pixel filtering mode&#39; onchange=&#39;gShaderToy.SetSamplerFilter(0, this.value );&#39;&gt;&lt;option value=&#39;nearest&#39;&gt;nearest&lt;/option&gt;&lt;option value=&#39;linear&#39;&gt;linear&lt;/option&gt;&lt;option value=&#39;mipmap&#39;&gt;mipmap&lt;/option&gt;&lt;/select&gt;&lt;br/&gt;Wrap&lt;select class=&#39;inputForm&#39; id=&#39;mySamplerWrap0&#39; style=&#39;width:80px;&#39; title=&#39;Pixel filtering mode&#39; onchange=&#39;gShaderToy.SetSamplerWrap(0, this.value );&#39;&gt;&lt;option value=&#39;clamp&#39;&gt;clamp&lt;/option&gt;&lt;option value=&#39;repeat&#39;&gt;repeat&lt;/option&gt;&lt;/select&gt;&lt;br/&gt;&lt;div id=&#39;mySamplerVFlipLabel0&#39;&gt;&lt;label&gt;VFlip&lt;input type=&#39;checkbox&#39; id=&#39;mySamplerVFlip0&#39; value=&#39;No&#39; onchange=&#39;gShaderToy.SetSamplerVFlip(0,(this.checked)?&#34;true&#34;:&#34;false&#34;);&#39; /&gt;&lt;/label&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;inputSelectorBar&#39;&gt;&lt;div id=&#39;myUnitText0&#39; class=&#39;inputSelectorText&#39;&gt;iChannel0&lt;/div&gt;&lt;div id=&#39;inputSelectorControls0&#39; class=&#39;inputSelectorControls&#39;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div id=&#39;texture1&#39; class=&#39;inputSelector&#39;&gt;&lt;div style=&#39;width:100%;height:100%;padding:0;margin:0;border:0;position:relative;&#39;&gt;&lt;canvas id=&#39;myUnitCanvas1&#39; class=&#39;inputSelectorCanvas&#39;&gt;&lt;/canvas&gt;&lt;img id=&#39;myDeleteInput1&#39; class=&#39;deleteInput&#39; src=&#39;https://mickjagger19.github.io/img/close2.png&#39; title=&#39;remove input&#39;/&gt;&lt;div id=&#39;mySampler1&#39; class=&#39;inputSampler&#39;&gt;&lt;br/&gt;Filter&lt;select class=&#39;inputForm&#39; id=&#39;mySamplerFilter1&#39; style=&#39;width:80px;&#39; title=&#39;Pixel filtering mode&#39; onchange=&#39;gShaderToy.SetSamplerFilter(1, this.value );&#39;&gt;&lt;option value=&#39;nearest&#39;&gt;nearest&lt;/option&gt;&lt;option value=&#39;linear&#39;&gt;linear&lt;/option&gt;&lt;option value=&#39;mipmap&#39;&gt;mipmap&lt;/option&gt;&lt;/select&gt;&lt;br/&gt;Wrap&lt;select class=&#39;inputForm&#39; id=&#39;mySamplerWrap1&#39; style=&#39;width:80px;&#39; title=&#39;Pixel filtering mode&#39; onchange=&#39;gShaderToy.SetSamplerWrap(1, this.value );&#39;&gt;&lt;option value=&#39;clamp&#39;&gt;clamp&lt;/option&gt;&lt;option value=&#39;repeat&#39;&gt;repeat&lt;/option&gt;&lt;/select&gt;&lt;br/&gt;&lt;div id=&#39;mySamplerVFlipLabel1&#39;&gt;&lt;label&gt;VFlip&lt;input type=&#39;checkbox&#39; id=&#39;mySamplerVFlip1&#39; value=&#39;No&#39; onchange=&#39;gShaderToy.SetSamplerVFlip(1,(this.checked)?&#34;true&#34;:&#34;false&#34;);&#39; /&gt;&lt;/label&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;inputSelectorBar&#39;&gt;&lt;div id=&#39;myUnitText1&#39; class=&#39;inputSelectorText&#39;&gt;iChannel1&lt;/div&gt;&lt;div id=&#39;inputSelectorControls1&#39; class=&#39;inputSelectorControls&#39;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div id=&#39;texture1&#39; class=&#39;inputSelector&#39;&gt;&lt;div style=&#39;width:100%;height:100%;padding:0;margin:0;border:0;position:relative;&#39;&gt;&lt;canvas id=&#39;myUnitCanvas1&#39; class=&#39;inputSelectorCanvas&#39;&gt;&lt;/canvas&gt;&lt;img id=&#39;myDeleteInput1&#39; class=&#39;deleteInput&#39; src=&#39;https://mickqian.github.io/img/close2.png&#39; title=&#39;remove input&#39;/&gt;&lt;div id=&#39;mySampler1&#39; class=&#39;inputSampler&#39;&gt;&lt;br/&gt;Filter&lt;select class=&#39;inputForm&#39; id=&#39;mySamplerFilter1&#39; style=&#39;width:80px;&#39; title=&#39;Pixel filtering mode&#39; onchange=&#39;gShaderToy.SetSamplerFilter(1, this.value );&#39;&gt;&lt;option value=&#39;nearest&#39;&gt;nearest&lt;/option&gt;&lt;option value=&#39;linear&#39;&gt;linear&lt;/option&gt;&lt;option value=&#39;mipmap&#39;&gt;mipmap&lt;/option&gt;&lt;/select&gt;&lt;br/&gt;Wrap&lt;select class=&#39;inputForm&#39; id=&#39;mySamplerWrap1&#39; style=&#39;width:80px;&#39; title=&#39;Pixel filtering mode&#39; onchange=&#39;gShaderToy.SetSamplerWrap(1, this.value );&#39;&gt;&lt;option value=&#39;clamp&#39;&gt;clamp&lt;/option&gt;&lt;option value=&#39;repeat&#39;&gt;repeat&lt;/option&gt;&lt;/select&gt;&lt;br/&gt;&lt;div id=&#39;mySamplerVFlipLabel1&#39;&gt;&lt;label&gt;VFlip&lt;input type=&#39;checkbox&#39; id=&#39;mySamplerVFlip1&#39; value=&#39;No&#39; onchange=&#39;gShaderToy.SetSamplerVFlip(1,(this.checked)?&#34;true&#34;:&#34;false&#34;);&#39; /&gt;&lt;/label&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;inputSelectorBar&#39;&gt;&lt;div id=&#39;myUnitText1&#39; class=&#39;inputSelectorText&#39;&gt;iChannel1&lt;/div&gt;&lt;div id=&#39;inputSelectorControls1&#39; class=&#39;inputSelectorControls&#39;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div id=&#39;texture2&#39; class=&#39;inputSelector&#39;&gt;&lt;div style=&#39;width:100%;height:100%;padding:0;margin:0;border:0;position:relative;&#39;&gt;&lt;canvas id=&#39;myUnitCanvas2&#39; class=&#39;inputSelectorCanvas&#39;&gt;&lt;/canvas&gt;&lt;img id=&#39;myDeleteInput2&#39; class=&#39;deleteInput&#39; src=&#39;https://mickjagger19.github.io/img/close2.png&#39; title=&#39;remove input&#39;/&gt;&lt;div id=&#39;mySampler2&#39; class=&#39;inputSampler&#39;&gt;&lt;br/&gt;Filter&lt;select class=&#39;inputForm&#39; id=&#39;mySamplerFilter2&#39; style=&#39;width:80px;&#39; title=&#39;Pixel filtering mode&#39; onchange=&#39;gShaderToy.SetSamplerFilter(2, this.value );&#39;&gt;&lt;option value=&#39;nearest&#39;&gt;nearest&lt;/option&gt;&lt;option value=&#39;linear&#39;&gt;linear&lt;/option&gt;&lt;option value=&#39;mipmap&#39;&gt;mipmap&lt;/option&gt;&lt;/select&gt;&lt;br/&gt;Wrap&lt;select class=&#39;inputForm&#39; id=&#39;mySamplerWrap2&#39; style=&#39;width:80px;&#39; title=&#39;Pixel filtering mode&#39; onchange=&#39;gShaderToy.SetSamplerWrap(2, this.value );&#39;&gt;&lt;option value=&#39;clamp&#39;&gt;clamp&lt;/option&gt;&lt;option value=&#39;repeat&#39;&gt;repeat&lt;/option&gt;&lt;/select&gt;&lt;br/&gt;&lt;div id=&#39;mySamplerVFlipLabel2&#39;&gt;&lt;label&gt;VFlip&lt;input type=&#39;checkbox&#39; id=&#39;mySamplerVFlip2&#39; value=&#39;No&#39; onchange=&#39;gShaderToy.SetSamplerVFlip(2,(this.checked)?&#34;true&#34;:&#34;false&#34;);&#39; /&gt;&lt;/label&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;inputSelectorBar&#39;&gt;&lt;div id=&#39;myUnitText2&#39; class=&#39;inputSelectorText&#39;&gt;iChannel2&lt;/div&gt;&lt;div id=&#39;inputSelectorControls2&#39; class=&#39;inputSelectorControls&#39;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div id=&#39;texture2&#39; class=&#39;inputSelector&#39;&gt;&lt;div style=&#39;width:100%;height:100%;padding:0;margin:0;border:0;position:relative;&#39;&gt;&lt;canvas id=&#39;myUnitCanvas2&#39; class=&#39;inputSelectorCanvas&#39;&gt;&lt;/canvas&gt;&lt;img id=&#39;myDeleteInput2&#39; class=&#39;deleteInput&#39; src=&#39;https://mickqian.github.io/img/close2.png&#39; title=&#39;remove input&#39;/&gt;&lt;div id=&#39;mySampler2&#39; class=&#39;inputSampler&#39;&gt;&lt;br/&gt;Filter&lt;select class=&#39;inputForm&#39; id=&#39;mySamplerFilter2&#39; style=&#39;width:80px;&#39; title=&#39;Pixel filtering mode&#39; onchange=&#39;gShaderToy.SetSamplerFilter(2, this.value );&#39;&gt;&lt;option value=&#39;nearest&#39;&gt;nearest&lt;/option&gt;&lt;option value=&#39;linear&#39;&gt;linear&lt;/option&gt;&lt;option value=&#39;mipmap&#39;&gt;mipmap&lt;/option&gt;&lt;/select&gt;&lt;br/&gt;Wrap&lt;select class=&#39;inputForm&#39; id=&#39;mySamplerWrap2&#39; style=&#39;width:80px;&#39; title=&#39;Pixel filtering mode&#39; onchange=&#39;gShaderToy.SetSamplerWrap(2, this.value );&#39;&gt;&lt;option value=&#39;clamp&#39;&gt;clamp&lt;/option&gt;&lt;option value=&#39;repeat&#39;&gt;repeat&lt;/option&gt;&lt;/select&gt;&lt;br/&gt;&lt;div id=&#39;mySamplerVFlipLabel2&#39;&gt;&lt;label&gt;VFlip&lt;input type=&#39;checkbox&#39; id=&#39;mySamplerVFlip2&#39; value=&#39;No&#39; onchange=&#39;gShaderToy.SetSamplerVFlip(2,(this.checked)?&#34;true&#34;:&#34;false&#34;);&#39; /&gt;&lt;/label&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;inputSelectorBar&#39;&gt;&lt;div id=&#39;myUnitText2&#39; class=&#39;inputSelectorText&#39;&gt;iChannel2&lt;/div&gt;&lt;div id=&#39;inputSelectorControls2&#39; class=&#39;inputSelectorControls&#39;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;div id=&#39;texture3&#39; class=&#39;inputSelector&#39;&gt;&lt;div style=&#39;width:100%;height:100%;padding:0;margin:0;border:0;position:relative;&#39;&gt;&lt;canvas id=&#39;myUnitCanvas3&#39; class=&#39;inputSelectorCanvas&#39;&gt;&lt;/canvas&gt;&lt;img id=&#39;myDeleteInput3&#39; class=&#39;deleteInput&#39; src=&#39;https://mickjagger19.github.io/img/close2.png&#39; title=&#39;remove input&#39;/&gt;&lt;div id=&#39;mySampler3&#39; class=&#39;inputSampler&#39;&gt;&lt;br/&gt;Filter&lt;select class=&#39;inputForm&#39; id=&#39;mySamplerFilter3&#39; style=&#39;width:80px;&#39; title=&#39;Pixel filtering mode&#39; onchange=&#39;gShaderToy.SetSamplerFilter(3, this.value );&#39;&gt;&lt;option value=&#39;nearest&#39;&gt;nearest&lt;/option&gt;&lt;option value=&#39;linear&#39;&gt;linear&lt;/option&gt;&lt;option value=&#39;mipmap&#39;&gt;mipmap&lt;/option&gt;&lt;/select&gt;&lt;br/&gt;Wrap&lt;select class=&#39;inputForm&#39; id=&#39;mySamplerWrap3&#39; style=&#39;width:80px;&#39; title=&#39;Pixel filtering mode&#39; onchange=&#39;gShaderToy.SetSamplerWrap(3, this.value );&#39;&gt;&lt;option value=&#39;clamp&#39;&gt;clamp&lt;/option&gt;&lt;option value=&#39;repeat&#39;&gt;repeat&lt;/option&gt;&lt;/select&gt;&lt;br/&gt;&lt;div id=&#39;mySamplerVFlipLabel3&#39;&gt;&lt;label&gt;VFlip&lt;input type=&#39;checkbox&#39; id=&#39;mySamplerVFlip3&#39; value=&#39;No&#39; onchange=&#39;gShaderToy.SetSamplerVFlip(3,(this.checked)?&#34;true&#34;:&#34;false&#34;);&#39; /&gt;&lt;/label&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;inputSelectorBar&#39;&gt;&lt;div id=&#39;myUnitText3&#39; class=&#39;inputSelectorText&#39;&gt;iChannel3&lt;/div&gt;&lt;div id=&#39;inputSelectorControls3&#39; class=&#39;inputSelectorControls&#39;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div id=&#39;texture3&#39; class=&#39;inputSelector&#39;&gt;&lt;div style=&#39;width:100%;height:100%;padding:0;margin:0;border:0;position:relative;&#39;&gt;&lt;canvas id=&#39;myUnitCanvas3&#39; class=&#39;inputSelectorCanvas&#39;&gt;&lt;/canvas&gt;&lt;img id=&#39;myDeleteInput3&#39; class=&#39;deleteInput&#39; src=&#39;https://mickqian.github.io/img/close2.png&#39; title=&#39;remove input&#39;/&gt;&lt;div id=&#39;mySampler3&#39; class=&#39;inputSampler&#39;&gt;&lt;br/&gt;Filter&lt;select class=&#39;inputForm&#39; id=&#39;mySamplerFilter3&#39; style=&#39;width:80px;&#39; title=&#39;Pixel filtering mode&#39; onchange=&#39;gShaderToy.SetSamplerFilter(3, this.value );&#39;&gt;&lt;option value=&#39;nearest&#39;&gt;nearest&lt;/option&gt;&lt;option value=&#39;linear&#39;&gt;linear&lt;/option&gt;&lt;option value=&#39;mipmap&#39;&gt;mipmap&lt;/option&gt;&lt;/select&gt;&lt;br/&gt;Wrap&lt;select class=&#39;inputForm&#39; id=&#39;mySamplerWrap3&#39; style=&#39;width:80px;&#39; title=&#39;Pixel filtering mode&#39; onchange=&#39;gShaderToy.SetSamplerWrap(3, this.value );&#39;&gt;&lt;option value=&#39;clamp&#39;&gt;clamp&lt;/option&gt;&lt;option value=&#39;repeat&#39;&gt;repeat&lt;/option&gt;&lt;/select&gt;&lt;br/&gt;&lt;div id=&#39;mySamplerVFlipLabel3&#39;&gt;&lt;label&gt;VFlip&lt;input type=&#39;checkbox&#39; id=&#39;mySamplerVFlip3&#39; value=&#39;No&#39; onchange=&#39;gShaderToy.SetSamplerVFlip(3,(this.checked)?&#34;true&#34;:&#34;false&#34;);&#39; /&gt;&lt;/label&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;inputSelectorBar&#39;&gt;&lt;div id=&#39;myUnitText3&#39; class=&#39;inputSelectorText&#39;&gt;iChannel3&lt;/div&gt;&lt;div id=&#39;inputSelectorControls3&#39; class=&#39;inputSelectorControls&#39;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
 
             &lt;/div&gt;
         &lt;/div&gt;
@@ -26235,7 +26235,7 @@ function doFork()
                 &lt;span&gt;Comments&lt;/span&gt; (&lt;span id=&#34;shaderStatsComments&#34;&gt;0&lt;/span&gt;)&lt;br&gt;
                 &lt;div id=&#34;commentsForm&#34;&gt;
                                         &lt;div class=&#34;commentNew&#34;&gt;
-                        &lt;div&gt;&lt;img class=&#34;userPictureSmall&#34; src=&#34;https://mickjagger19.github.io/img/profile.jpg&#34;/&gt;&lt;/div&gt;                        &lt;form name=&#34;formComment&#34; method=&#34;post&#34;&gt;
+                        &lt;div&gt;&lt;img class=&#34;userPictureSmall&#34; src=&#34;https://mickqian.github.io/img/profile.jpg&#34;/&gt;&lt;/div&gt;                        &lt;form name=&#34;formComment&#34; method=&#34;post&#34;&gt;
                             &lt;textarea class=&#34;inputForm&#34; id=&#34;commentTextArea&#34; style=&#34;margin-top:0px;margin-bottom:4px;width:100%;&#34; name=&#34;comment&#34; placeholder=&#34; Your comment...&#34; value=&#34;&#34; rows=&#34;4&#34; cols=&#34;70&#34;&gt;&lt;/textarea&gt;&lt;br /&gt;
 
                             &lt;div style=&#34;width:100%;height:24px;&#34;&gt;
@@ -26265,7 +26265,7 @@ function doFork()
     
     &lt;div&gt;&lt;span style=&#34;color:#ffffff;&#34;&gt;Community Forums&lt;/span&gt;
       &lt;ul&gt;
-      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://mickjagger19.github.io/events&#34;&gt;Official Events&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://mickqian.github.io/events&#34;&gt;Official Events&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://www.facebook.com/groups/147749602472741&#34;&gt;In Facebook (english)&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://www.facebook.com/groups/1339783682699494&#34;&gt;In Facebook (korean)&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://discord.gg/XtmMN6E&#34;&gt;In Discord&lt;/a&gt; (&lt;a class=&#34;regular&#34; href=&#34;https://discordapp.com/channels/578696555612209173/579531723348639754&#34;&gt;direct link&lt;/a&gt;)&lt;/li&gt;
@@ -26286,25 +26286,25 @@ function doFork()
 
     &lt;div&gt;&lt;span style=&#34;color:#ffffff;&#34;&gt;Shadertoy&lt;/span&gt;
       &lt;ul&gt;
-      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://mickjagger19.github.io/store&#34;&gt;Store&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://mickjagger19.github.io/howto&#34;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://mickjagger19.github.io/terms&#34;&gt;Terms &amp; Privacy&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://mickjagger19.github.io/about&#34;&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://mickqian.github.io/store&#34;&gt;Store&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://mickqian.github.io/howto&#34;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://mickqian.github.io/terms&#34;&gt;Terms &amp; Privacy&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://mickqian.github.io/about&#34;&gt;About&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/div&gt;
 
     &lt;div&gt;&lt;span style=&#34;color:#ffffff;&#34;&gt;Apps and Plugins&lt;/span&gt;
       &lt;ul&gt;
-      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://itunes.apple.com/us/app/shadertoy/id717961814&#34;&gt;Official iPhone App&lt;/a&gt; by &lt;a class=&#34;user&#34; href=&#34;https://mickjagger19.github.io/user/reinder&#34;&gt;Reinder&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://steamcommunity.com/sharedfiles/filedetails/?id=1726697188&#34;&gt;Screensaver&lt;/a&gt; by &lt;a class=&#34;user&#34; href=&#34;https://mickjagger19.github.io/user/kosro&#34;&gt;Kosro&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://chrome.google.com/webstore/detail/shadertoy-unofficial-plug/ohicbclhdmkhoabobgppffepcopomhgl&#34;&gt;Shadertoy plugin&lt;/a&gt; by &lt;a class=&#34;user&#34; href=&#34;https://mickjagger19.github.io/user/patu&#34;&gt;Patu&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://itunes.apple.com/us/app/shadertoy/id717961814&#34;&gt;Official iPhone App&lt;/a&gt; by &lt;a class=&#34;user&#34; href=&#34;https://mickqian.github.io/user/reinder&#34;&gt;Reinder&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://steamcommunity.com/sharedfiles/filedetails/?id=1726697188&#34;&gt;Screensaver&lt;/a&gt; by &lt;a class=&#34;user&#34; href=&#34;https://mickqian.github.io/user/kosro&#34;&gt;Kosro&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://chrome.google.com/webstore/detail/shadertoy-unofficial-plug/ohicbclhdmkhoabobgppffepcopomhgl&#34;&gt;Shadertoy plugin&lt;/a&gt; by &lt;a class=&#34;user&#34; href=&#34;https://mickqian.github.io/user/patu&#34;&gt;Patu&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/div&gt;
 
     &lt;div&gt;&lt;span style=&#34;color:#ffffff;&#34;&gt;Tutorials&lt;/span&gt;
       &lt;ul&gt;
-      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://www.youtube.com/watch?v=0ifChJ0nJfM&#34;&gt;Shader coding intro&lt;/a&gt; by &lt;a class=&#34;user&#34; href=&#34;https://mickjagger19.github.io/user/iq&#34;&gt;iq&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://shadertoyunofficial.wordpress.com/&#34;&gt;Shadertoy Unofficial&lt;/a&gt; by &lt;a class=&#34;user&#34; href=&#34;https://mickjagger19.github.io/user/FabriceNeyret2&#34;&gt;FabriceNeyret2&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://www.youtube.com/watch?v=0ifChJ0nJfM&#34;&gt;Shader coding intro&lt;/a&gt; by &lt;a class=&#34;user&#34; href=&#34;https://mickqian.github.io/user/iq&#34;&gt;iq&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a class=&#34;regular&#34; href=&#34;https://shadertoyunofficial.wordpress.com/&#34;&gt;Shadertoy Unofficial&lt;/a&gt; by &lt;a class=&#34;user&#34; href=&#34;https://mickqian.github.io/user/FabriceNeyret2&#34;&gt;FabriceNeyret2&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/div&gt;
 
@@ -26313,7 +26313,7 @@ function doFork()
 &lt;div id=&#34;compliance&#34; style=&#34;padding-bottom:6px;visibility:hidden;left:0;top:0px;width:100%;background-color:rgb(200,120,20,0.93);position:absolute;color:#FFFFFF&#34;&gt;
     &lt;div style=&#34;text-align: center; margin-top:8px&#34;&gt;
         We use cookies to give you the best experience on our website. If you continue using Shadertoy, we&#39;ll assume that you are happy to receive all cookies on this website. 
-        For more information, please review our &lt;a class=&#34;regular&#34; href=&#34;https://mickjagger19.github.io/terms&#34;&gt;Terms &amp; Privacy&lt;/a&gt;.
+        For more information, please review our &lt;a class=&#34;regular&#34; href=&#34;https://mickqian.github.io/terms&#34;&gt;Terms &amp; Privacy&lt;/a&gt;.
     &lt;/div&gt; 
     &lt;div style=&#34;text-align: center;margin-top:6px&#34;&gt;
         &lt;button type=&#34;button&#34; style=&#34;width:100px;font-size:inherit&#34; onclick=&#34;acceptCompliance()&#34;&gt;Accept&lt;/button&gt;
@@ -26447,7 +26447,7 @@ function cmpAssetBrowser( assetType, clickedCallback )
                     eleImg.src = mJson.previewFilepath[id];
                     eleNam.textContent = mJson.name[id];
                     //eleUse.textContent = mJson.owner[id];
-                    eleUse.innerHTML = &#34;&lt;a class=&#39;user&#39; href=&#39;https://mickjagger19.github.io/user/&#34; + htmlEntities(mJson.owner[id]) +&#34;&#39;&gt;&#34; + htmlEntities(mJson.owner[id]) + &#34;&lt;/a&gt;&#34;;
+                    eleUse.innerHTML = &#34;&lt;a class=&#39;user&#39; href=&#39;https://mickqian.github.io/user/&#34; + htmlEntities(mJson.owner[id]) +&#34;&#39;&gt;&#34; + htmlEntities(mJson.owner[id]) + &#34;&lt;/a&gt;&#34;;
                     if( mAssetType===&#34;texture&#34; )
                     {
                         eleInf.textContent = mJson.custom1[id] + &#34; x &#34; + mJson.custom2[id] + &#34;\r\n&#34; + mJson.custom3[id] + &#34; channels, uint8&#34;;
@@ -26617,7 +26617,7 @@ ul.tab_container li a:hover, a:focus, .active
 
             eleImg.src = &#34;/media/previz/&#34; + filePaths[i];
             eleNam.textContent = names[i];
-            eleUse.innerHTML = &#34;&lt;a class=&#39;user&#39; href=&#39;https://mickjagger19.github.io/user/shadertoy&#39;&gt;shadertoy&lt;/a&gt;&#34;;
+            eleUse.innerHTML = &#34;&lt;a class=&#39;user&#39; href=&#39;https://mickqian.github.io/user/shadertoy&#39;&gt;shadertoy&lt;/a&gt;&#34;;
             eleInf.textContent = infos[i];
 
             if( i==3 )
@@ -27266,12 +27266,12 @@ function showBBCodeHelp()
     &lt;h2&gt;Emoticons:&lt;/h2&gt;
     &lt;hr&gt;
     &lt;table&gt;
-    &lt;tr&gt;&lt;td&gt;:)&lt;/td&gt;&lt;td width=&#34;8px&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&#34;https://mickjagger19.github.io/img/emoticonHappy.png&#34;/&gt;&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;:(&lt;/td&gt;&lt;td width=&#34;8px&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&#34;https://mickjagger19.github.io/img/emoticonSad.png&#34;/&gt;&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;:D&lt;/td&gt;&lt;td width=&#34;8px&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&#34;https://mickjagger19.github.io/img/emoticonLaugh.png&#34;/&gt;&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;:love:&lt;/td&gt;&lt;td width=&#34;8px&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&#34;https://mickjagger19.github.io/img/emoticonLove.png&#34;/&gt;&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;:octopus:&lt;/td&gt;&lt;td width=&#34;8px&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&#34;https://mickjagger19.github.io/img/emoticonOctopus.png&#34;/&gt;&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;:octopusballoon:&lt;/td&gt;&lt;td width=&#34;8px&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&#34;https://mickjagger19.github.io/img/emoticonOctopusBalloon.png&#34;/&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;:)&lt;/td&gt;&lt;td width=&#34;8px&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&#34;https://mickqian.github.io/img/emoticonHappy.png&#34;/&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;:(&lt;/td&gt;&lt;td width=&#34;8px&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&#34;https://mickqian.github.io/img/emoticonSad.png&#34;/&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;:D&lt;/td&gt;&lt;td width=&#34;8px&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&#34;https://mickqian.github.io/img/emoticonLaugh.png&#34;/&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;:love:&lt;/td&gt;&lt;td width=&#34;8px&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&#34;https://mickqian.github.io/img/emoticonLove.png&#34;/&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;:octopus:&lt;/td&gt;&lt;td width=&#34;8px&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&#34;https://mickqian.github.io/img/emoticonOctopus.png&#34;/&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;:octopusballoon:&lt;/td&gt;&lt;td width=&#34;8px&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&#34;https://mickqian.github.io/img/emoticonOctopusBalloon.png&#34;/&gt;&lt;/td&gt;&lt;/tr&gt;
     &lt;/table&gt;
     &lt;br&gt;
     &lt;h2&gt;Symbols:&lt;/h2&gt;
@@ -51843,10 +51843,10 @@ div#dlgAddToPlaylist
     
     <item>
       <title></title>
-      <link>https://mickjagger19.github.io/posts/graphics/shaders/</link>
+      <link>https://mickqian.github.io/posts/graphics/shaders/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/graphics/shaders/</guid>
+      <guid>https://mickqian.github.io/posts/graphics/shaders/</guid>
       <description>&lt;p&gt;This is a personal note of some useful shader tricks&lt;/p&gt;
 &lt;h2 id=&#34;noises&#34;&gt;Noises&lt;/h2&gt;
 &lt;h3 id=&#34;value-noise&#34;&gt;Value Noise&lt;/h3&gt;
@@ -52015,7 +52015,7 @@ value noise ?</p>
       
       
   <picture align=center  class="d-block text-center">
-  <img class="img-fluid" src="https://mickjagger19.github.io/Attachments/Graphics/Shaders/IMG-20240718205918443.png?v=73447def62a77454637a9acf58974af7" alt="" loading="lazy" height="466px" width="2704px" />
+  <img class="img-fluid" src="https://mickqian.github.io/Attachments/Graphics/Shaders/IMG-20240718205918443.png?v=221298c9bd4bd5d26cdfbd24b506243b" alt="" loading="lazy" height="466px" width="2704px" />
 </picture>
 </p>
 <h2 id="shapes">Shapes</h2>
@@ -52060,7 +52060,7 @@ value noise ?</p>
       
       
   <picture align=center  class="d-block text-center">
-  <img class="img-fluid" src="https://mickjagger19.github.io/Attachments/Graphics/Shaders/IMG-20240718223124729.png?v=73447def62a77454637a9acf58974af7" alt="" loading="lazy" height="162px" width="156px" />
+  <img class="img-fluid" src="https://mickqian.github.io/Attachments/Graphics/Shaders/IMG-20240718223124729.png?v=221298c9bd4bd5d26cdfbd24b506243b" alt="" loading="lazy" height="162px" width="156px" />
 </picture>
 </p>
 ]]></content:encoded>
@@ -52068,10 +52068,10 @@ value noise ?</p>
     
     <item>
       <title></title>
-      <link>https://mickjagger19.github.io/posts/misc/immusia-todolist/</link>
+      <link>https://mickqian.github.io/posts/misc/immusia-todolist/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/misc/immusia-todolist/</guid>
+      <guid>https://mickqian.github.io/posts/misc/immusia-todolist/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Immusia&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;

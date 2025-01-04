@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>VAE on Mick&#39; Blog</title>
-    <link>https://mickjagger19.github.io/tags/vae/</link>
+    <link>https://mickqian.github.io/tags/vae/</link>
     <description>Recent content in VAE on Mick&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jan 2024 14:05:03 +0800</lastBuildDate><atom:link href="https://mickjagger19.github.io/tags/vae/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jan 2024 14:05:03 +0800</lastBuildDate><atom:link href="https://mickqian.github.io/tags/vae/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VAE</title>
-      <link>https://mickjagger19.github.io/posts/ai/models/vae/</link>
+      <link>https://mickqian.github.io/posts/ai/models/vae/</link>
       <pubDate>Sun, 14 Jan 2024 14:05:03 +0800</pubDate>
       
-      <guid>https://mickjagger19.github.io/posts/ai/models/vae/</guid>
+      <guid>https://mickqian.github.io/posts/ai/models/vae/</guid>
       <description>Takeaways from the maths of VAE</description>
       <content:encoded><![CDATA[<h2 id="terminology">Terminology</h2>
 <table>
