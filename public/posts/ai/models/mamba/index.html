@@ -443,30 +443,30 @@ math: true</li>
 <hr>
 <h2 id="notations">Notations<a hidden class="anchor" aria-hidden="true" href="#notations">¶</a></h2>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notations</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">SSM</td>
-<td style="text-align:left">A math model, used to describe and analyze the behavior of dynamic system. In DL, it helps to process <strong>sequence data</strong>, by projecting the data into latent space. <strong>State Equation</strong> and <strong>Observation Equation</strong> are two important components of a SSM</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notations</th>
+          <th style="text-align: left">Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">SSM</td>
+          <td style="text-align: left">A math model, used to describe and analyze the behavior of dynamic system. In DL, it helps to process <strong>sequence data</strong>, by projecting the data into latent space. <strong>State Equation</strong> and <strong>Observation Equation</strong> are two important components of a SSM</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="background">Background<a hidden class="anchor" aria-hidden="true" href="#background">¶</a></h2>
 <p><a href="AI/Models/The%20Transformer%20Family.md">The Transformer Family</a> is  notorious for $\mathcal{O}(N^{2})$ time complexity when inferencing, but many of the model targeting this problem has less performance[[ ]]than Transformer.</p>
@@ -496,30 +496,30 @@ Discretization is necessary for calculation efficiency</p>
 <h4 id="2-computation">2. Computation<a hidden class="anchor" aria-hidden="true" href="#2-computation">¶</a></h4>
 <p>There are two ways to compute</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notations</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">$A(\cdot )$</td>
-<td style="text-align:left">State matrix</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notations</th>
+          <th style="text-align: left">Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$A(\cdot )$</td>
+          <td style="text-align: left">State matrix</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
 </table>
 <h4 id="linear-time-invariance-system">Linear Time Invariance System<a hidden class="anchor" aria-hidden="true" href="#linear-time-invariance-system">¶</a></h4>
 <p>The parameters calculated in <a href="/posts/ai/models/mamba/#discretization">Discretization</a> is fixed in all timestampes, this property is called <strong>LTI</strong>.</p>
@@ -541,30 +541,30 @@ Discretization is necessary for calculation efficiency</p>
 <h3 id="selection-mechainism">Selection Mechainism<a hidden class="anchor" aria-hidden="true" href="#selection-mechainism">¶</a></h3>
 <h2 id="notations-1">Notations<a hidden class="anchor" aria-hidden="true" href="#notations-1">¶</a></h2>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notations</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Input-dependent dynamics</td>
-<td style="text-align:left">A dynamic enabling sequence model to depend on input</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notations</th>
+          <th style="text-align: left">Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Input-dependent dynamics</td>
+          <td style="text-align: left">A dynamic enabling sequence model to depend on input</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
 </table>
 <p><strong>Mamba</strong> promote a <strong>Selection Mechanism</strong>:  increase input-dependent dynamics, with requires a hardware-aware algorithm.</p>
 <p>A way of blending selection mechanism into model, is to let the inputs affects the parameters of sequence co-effects, e.g. inserting into the recurrent dynamics of <strong>RNN</strong> or convolution kernel of <strong>CNN</strong>.</p>
@@ -593,7 +593,7 @@ Discretization is necessary for calculation efficiency</p>
         <br>
         <span>DiT, Sora, and more</span>
     </a>
-    <a class="next" href="https://mickjagger19.github.io/posts/ai/peft/">
+    <a class="next" href="https://mickjagger19.github.io/posts/ai/rl/peft/">
     <span class="title">
       &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -612,7 +612,7 @@ Discretization is necessary for calculation efficiency</p>
     </main>
     
 <footer class="footer">
-  <span>&copy; 2024 <a href="https://mickjagger19.github.io/">Mick&#39; Blog</a></span><span style="display: inline-block; margin-left: 1em;">
+  <span>&copy; 2025 <a href="https://mickjagger19.github.io/">Mick&#39; Blog</a></span><span style="display: inline-block; margin-left: 1em;">
     <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
   </span>
   <span style="display: inline-block; margin-left: 1em;">

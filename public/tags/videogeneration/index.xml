@@ -19,35 +19,35 @@
 This work is in progress</p>
 </blockquote>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notations</th>
-<th style="text-align:left">Meaning</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Classifier-guided Diffusion</td>
-<td style="text-align:left">An implementation of Conditional Diffusion Models, which requires a classifier $\nabla_{x}p(x|y)$ to guide its reverse process</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left">Classifier-free Diffusion</td>
-<td style="text-align:left">An implementation of Conditional Diffusion Models, which doesn&rsquo;t require a <strong>classfier</strong>, the condition serves as an input to its <strong>noise predictor</strong></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left">Latent Diffusion Models(LDM)</td>
-<td style="text-align:left">A type of Diffusion Models where diffusion processes are done in <strong>latent space</strong></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notations</th>
+          <th style="text-align: left">Meaning</th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Classifier-guided Diffusion</td>
+          <td style="text-align: left">An implementation of Conditional Diffusion Models, which requires a classifier $\nabla_{x}p(x|y)$ to guide its reverse process</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Classifier-free Diffusion</td>
+          <td style="text-align: left">An implementation of Conditional Diffusion Models, which doesn&rsquo;t require a <strong>classfier</strong>, the condition serves as an input to its <strong>noise predictor</strong></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Latent Diffusion Models(LDM)</td>
+          <td style="text-align: left">A type of Diffusion Models where diffusion processes are done in <strong>latent space</strong></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td></td>
+      </tr>
+  </tbody>
 </table>
 <h1 id="introduction">Introduction</h1>
 <p>Diffusion models usually choose a <strong>UNet</strong> as its backbone for Noise Predictor, first adopted by Ho et al [^1] , which was inherited from <strong>Pixel-CNN++</strong>(widely used as the generator in VAE) with a few changes. Although some works have introduced attention blocks into low-level design, its high-level remains intact.</p>
@@ -55,42 +55,42 @@ This work is in progress</p>
 <p>Also, the scaling behavios of transformers is also explored in DiT</p>
 <h1 id="dit-design-space">DiT Design Space</h1>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notations</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">$C$</td>
-<td style="text-align:left">the channels of input image</td>
-</tr>
-<tr>
-<td style="text-align:left">$I$</td>
-<td style="text-align:left">the dimension of $z$</td>
-</tr>
-<tr>
-<td style="text-align:left">$z \in R^{I \times I \times C}$</td>
-<td style="text-align:left">The latents, also the input of $DiT$</td>
-</tr>
-<tr>
-<td style="text-align:left">Patch</td>
-<td style="text-align:left">The unit of input.</td>
-</tr>
-<tr>
-<td style="text-align:left">$p$</td>
-<td style="text-align:left">the dimension of a single patch</td>
-</tr>
-<tr>
-<td style="text-align:left">Classifier-free Diffusion</td>
-<td style="text-align:left">An implementation of Conditional Diffusion Models, which doesn&rsquo;t require a <strong>classfier</strong>, the condition serves as an input to its <strong>noise predictor</strong></td>
-</tr>
-<tr>
-<td style="text-align:left">Latent Diffusion Models(LDM)</td>
-<td style="text-align:left">A type of Diffusion Models where diffusion processes are done in <strong>latent space</strong></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notations</th>
+          <th style="text-align: left">Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$C$</td>
+          <td style="text-align: left">the channels of input image</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$I$</td>
+          <td style="text-align: left">the dimension of $z$</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$z \in R^{I \times I \times C}$</td>
+          <td style="text-align: left">The latents, also the input of $DiT$</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Patch</td>
+          <td style="text-align: left">The unit of input.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$p$</td>
+          <td style="text-align: left">the dimension of a single patch</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Classifier-free Diffusion</td>
+          <td style="text-align: left">An implementation of Conditional Diffusion Models, which doesn&rsquo;t require a <strong>classfier</strong>, the condition serves as an input to its <strong>noise predictor</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Latent Diffusion Models(LDM)</td>
+          <td style="text-align: left">A type of Diffusion Models where diffusion processes are done in <strong>latent space</strong></td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="1-patchify">1. Patchify</h2>
 <p><strong>Patchify</strong> is the first layer of DiT, which converts the spatial input $z$ into a sequence to $T$ tokens, each of dimension $d$:

@@ -9,11 +9,21 @@
 <meta name="keywords" content="Software, Music, VisionPro, VR">
 <meta name="description" content="Immusia（读作 ɪˈmuːziə, 是拉丁语 Immersio (沉浸) 和 Musica (音乐) 的结合) 是我的第一个 Vision Pro App, 也是我的第一个 VR App
 本文记录了我的创作理念，和一些实现细节
-缘由 之所以想做这样的一个 app, 是因为我由于科幻作品的影响，产生的对 VR 设备的想象。更具体一点，是 Black Mirror。Black Mirror 擅长探讨 高科技对 人文/伦理/社会 的冲击，选材大胆，对我有着比较深的影响。在其最精彩的前几集，多次出现类似 头戴设备的概念，给了观影者极大的想象空间。
-核心功能 Immusia 的核心理念始终是 沉浸式 的音乐聆听体验。借助 “概念专辑” 这类已经被大众认可的丰富精神财产，音乐被赋予了更具像化的概念，从而使音乐可视化有了更合理的依据
-2D 资产 -&gt; 3D 资产 有大量平面资源可以转为双目3D，动机很自然(Vision Pro 的相册 app 也在后来内置了这个功能）， 相关技术也随处可寻，但是视觉效果还是相当可观
-3D Player 为了充分发挥 VR 设备的空间优势，我对传统播放器做了以下改动：
-所有歌词文本都为具有深度的 3D 字体。尽管 Apple 不推荐这么做，我还是坚持使用它，原因是经过实测， depth 似乎赋予了歌词一种真实感 歌词的移动方向不再局限于 y 方向，而是可以结合 XY 和 Z。我最喜欢的移动方式，被我称为 &ldquo;Water Fall&rdquo;， 歌词会向 -Y 和 &#43;Z 方向移动 Immersive Player Window Mode 由于 Swift API 的限制，app之间的 沉浸式空间是互斥的，因此纯沉浸式的 app 存在一些局限性。为了达到一个通用音乐播放器的最低要求，我加入了窗口模式，这样用户就可以在使用其他 app 时同时使用 Immusia">
+缘由
+之所以想做这样的一个 app, 是因为我由于科幻作品的影响，产生的对 VR 设备的想象。更具体一点，是 Black Mirror。Black Mirror 擅长探讨 高科技对 人文/伦理/社会 的冲击，选材大胆，对我有着比较深的影响。在其最精彩的前几集，多次出现类似 头戴设备的概念，给了观影者极大的想象空间。
+核心功能
+Immusia  的核心理念始终是 沉浸式 的音乐聆听体验。借助 “概念专辑” 这类已经被大众认可的丰富精神财产，音乐被赋予了更具像化的概念，从而使音乐可视化有了更合理的依据
+2D 资产 -&gt; 3D 资产
+有大量平面资源可以转为双目3D，动机很自然(Vision Pro 的相册 app 也在后来内置了这个功能）， 相关技术也随处可寻，但是视觉效果还是相当可观
+3D Player
+为了充分发挥 VR 设备的空间优势，我对传统播放器做了以下改动：
+
+所有歌词文本都为具有深度的 3D 字体。尽管 Apple 不推荐这么做，我还是坚持使用它，原因是经过实测， depth 似乎赋予了歌词一种真实感
+歌词的移动方向不再局限于 y 方向，而是可以结合 XY 和 Z。我最喜欢的移动方式，被我称为 &ldquo;Water Fall&rdquo;， 歌词会向 -Y 和 &#43;Z 方向移动
+
+Immersive Player
+Window Mode
+由于 Swift API 的限制，app之间的 沉浸式空间是互斥的，因此纯沉浸式的 app 存在一些局限性。为了达到一个通用音乐播放器的最低要求，我加入了窗口模式，这样用户就可以在使用其他 app 时同时使用 Immusia">
 <meta name="author" content="Mick">
 <link rel="canonical" href="https://mickjagger19.github.io/posts/misc/the-making-of-immusia/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.7da7716a1f2d0725f74c6ae7f8d6adafc43aabe2b366b65bfbf433448e2a2001.css" integrity="sha256-fadxah8tByX3TGrn&#43;Natr8Q6q&#43;KzZrZb&#43;/QzRI4qIAE=" rel="preload stylesheet" as="style">
@@ -24,19 +34,39 @@
 <meta name="twitter:title" content="(The Making Of) Immusia | Mick&#39; Blog" />
 <meta name="twitter:description" content="Immusia（读作 ɪˈmuːziə, 是拉丁语 Immersio (沉浸) 和 Musica (音乐) 的结合) 是我的第一个 Vision Pro App, 也是我的第一个 VR App
 本文记录了我的创作理念，和一些实现细节
-缘由 之所以想做这样的一个 app, 是因为我由于科幻作品的影响，产生的对 VR 设备的想象。更具体一点，是 Black Mirror。Black Mirror 擅长探讨 高科技对 人文/伦理/社会 的冲击，选材大胆，对我有着比较深的影响。在其最精彩的前几集，多次出现类似 头戴设备的概念，给了观影者极大的想象空间。
-核心功能 Immusia 的核心理念始终是 沉浸式 的音乐聆听体验。借助 “概念专辑” 这类已经被大众认可的丰富精神财产，音乐被赋予了更具像化的概念，从而使音乐可视化有了更合理的依据
-2D 资产 -&gt; 3D 资产 有大量平面资源可以转为双目3D，动机很自然(Vision Pro 的相册 app 也在后来内置了这个功能）， 相关技术也随处可寻，但是视觉效果还是相当可观
-3D Player 为了充分发挥 VR 设备的空间优势，我对传统播放器做了以下改动：
-所有歌词文本都为具有深度的 3D 字体。尽管 Apple 不推荐这么做，我还是坚持使用它，原因是经过实测， depth 似乎赋予了歌词一种真实感 歌词的移动方向不再局限于 y 方向，而是可以结合 XY 和 Z。我最喜欢的移动方式，被我称为 &ldquo;Water Fall&rdquo;， 歌词会向 -Y 和 &#43;Z 方向移动 Immersive Player Window Mode 由于 Swift API 的限制，app之间的 沉浸式空间是互斥的，因此纯沉浸式的 app 存在一些局限性。为了达到一个通用音乐播放器的最低要求，我加入了窗口模式，这样用户就可以在使用其他 app 时同时使用 Immusia" />
+缘由
+之所以想做这样的一个 app, 是因为我由于科幻作品的影响，产生的对 VR 设备的想象。更具体一点，是 Black Mirror。Black Mirror 擅长探讨 高科技对 人文/伦理/社会 的冲击，选材大胆，对我有着比较深的影响。在其最精彩的前几集，多次出现类似 头戴设备的概念，给了观影者极大的想象空间。
+核心功能
+Immusia  的核心理念始终是 沉浸式 的音乐聆听体验。借助 “概念专辑” 这类已经被大众认可的丰富精神财产，音乐被赋予了更具像化的概念，从而使音乐可视化有了更合理的依据
+2D 资产 -&gt; 3D 资产
+有大量平面资源可以转为双目3D，动机很自然(Vision Pro 的相册 app 也在后来内置了这个功能）， 相关技术也随处可寻，但是视觉效果还是相当可观
+3D Player
+为了充分发挥 VR 设备的空间优势，我对传统播放器做了以下改动：
+
+所有歌词文本都为具有深度的 3D 字体。尽管 Apple 不推荐这么做，我还是坚持使用它，原因是经过实测， depth 似乎赋予了歌词一种真实感
+歌词的移动方向不再局限于 y 方向，而是可以结合 XY 和 Z。我最喜欢的移动方式，被我称为 &ldquo;Water Fall&rdquo;， 歌词会向 -Y 和 &#43;Z 方向移动
+
+Immersive Player
+Window Mode
+由于 Swift API 的限制，app之间的 沉浸式空间是互斥的，因此纯沉浸式的 app 存在一些局限性。为了达到一个通用音乐播放器的最低要求，我加入了窗口模式，这样用户就可以在使用其他 app 时同时使用 Immusia" />
 <meta property="og:title" content="(The Making Of) Immusia | Mick&#39; Blog" />
 <meta property="og:description" content="Immusia（读作 ɪˈmuːziə, 是拉丁语 Immersio (沉浸) 和 Musica (音乐) 的结合) 是我的第一个 Vision Pro App, 也是我的第一个 VR App
 本文记录了我的创作理念，和一些实现细节
-缘由 之所以想做这样的一个 app, 是因为我由于科幻作品的影响，产生的对 VR 设备的想象。更具体一点，是 Black Mirror。Black Mirror 擅长探讨 高科技对 人文/伦理/社会 的冲击，选材大胆，对我有着比较深的影响。在其最精彩的前几集，多次出现类似 头戴设备的概念，给了观影者极大的想象空间。
-核心功能 Immusia 的核心理念始终是 沉浸式 的音乐聆听体验。借助 “概念专辑” 这类已经被大众认可的丰富精神财产，音乐被赋予了更具像化的概念，从而使音乐可视化有了更合理的依据
-2D 资产 -&gt; 3D 资产 有大量平面资源可以转为双目3D，动机很自然(Vision Pro 的相册 app 也在后来内置了这个功能）， 相关技术也随处可寻，但是视觉效果还是相当可观
-3D Player 为了充分发挥 VR 设备的空间优势，我对传统播放器做了以下改动：
-所有歌词文本都为具有深度的 3D 字体。尽管 Apple 不推荐这么做，我还是坚持使用它，原因是经过实测， depth 似乎赋予了歌词一种真实感 歌词的移动方向不再局限于 y 方向，而是可以结合 XY 和 Z。我最喜欢的移动方式，被我称为 &ldquo;Water Fall&rdquo;， 歌词会向 -Y 和 &#43;Z 方向移动 Immersive Player Window Mode 由于 Swift API 的限制，app之间的 沉浸式空间是互斥的，因此纯沉浸式的 app 存在一些局限性。为了达到一个通用音乐播放器的最低要求，我加入了窗口模式，这样用户就可以在使用其他 app 时同时使用 Immusia" />
+缘由
+之所以想做这样的一个 app, 是因为我由于科幻作品的影响，产生的对 VR 设备的想象。更具体一点，是 Black Mirror。Black Mirror 擅长探讨 高科技对 人文/伦理/社会 的冲击，选材大胆，对我有着比较深的影响。在其最精彩的前几集，多次出现类似 头戴设备的概念，给了观影者极大的想象空间。
+核心功能
+Immusia  的核心理念始终是 沉浸式 的音乐聆听体验。借助 “概念专辑” 这类已经被大众认可的丰富精神财产，音乐被赋予了更具像化的概念，从而使音乐可视化有了更合理的依据
+2D 资产 -&gt; 3D 资产
+有大量平面资源可以转为双目3D，动机很自然(Vision Pro 的相册 app 也在后来内置了这个功能）， 相关技术也随处可寻，但是视觉效果还是相当可观
+3D Player
+为了充分发挥 VR 设备的空间优势，我对传统播放器做了以下改动：
+
+所有歌词文本都为具有深度的 3D 字体。尽管 Apple 不推荐这么做，我还是坚持使用它，原因是经过实测， depth 似乎赋予了歌词一种真实感
+歌词的移动方向不再局限于 y 方向，而是可以结合 XY 和 Z。我最喜欢的移动方式，被我称为 &ldquo;Water Fall&rdquo;， 歌词会向 -Y 和 &#43;Z 方向移动
+
+Immersive Player
+Window Mode
+由于 Swift API 的限制，app之间的 沉浸式空间是互斥的，因此纯沉浸式的 app 存在一些局限性。为了达到一个通用音乐播放器的最低要求，我加入了窗口模式，这样用户就可以在使用其他 app 时同时使用 Immusia" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mickjagger19.github.io/posts/misc/the-making-of-immusia/" />
 <meta property="article:section" content="posts" />
@@ -70,7 +100,7 @@
   "@type": "BlogPosting",
   "headline": "(The Making Of) Immusia | Mick' Blog",
   "name": "(The Making Of) Immusia",
-  "description": "Immusia（读作 ɪˈmuːziə, 是拉丁语 Immersio (沉浸) 和 Musica (音乐) 的结合) 是我的第一个 Vision Pro App, 也是我的第一个 VR App\n本文记录了我的创作理念，和一些实现细节\n缘由 之所以想做这样的一个 app, 是因为我由于科幻作品的影响，产生的对 VR 设备的想象。更具体一点，是 Black Mirror。Black Mirror 擅长探讨 高科技对 人文/伦理/社会 的冲击，选材大胆，对我有着比较深的影响。在其最精彩的前几集，多次出现类似 头戴设备的概念，给了观影者极大的想象空间。\n核心功能 Immusia 的核心理念始终是 沉浸式 的音乐聆听体验。借助 “概念专辑” 这类已经被大众认可的丰富精神财产，音乐被赋予了更具像化的概念，从而使音乐可视化有了更合理的依据\n2D 资产 -\u0026gt; 3D 资产 有大量平面资源可以转为双目3D，动机很自然(Vision Pro 的相册 app 也在后来内置了这个功能）， 相关技术也随处可寻，但是视觉效果还是相当可观\n3D Player 为了充分发挥 VR 设备的空间优势，我对传统播放器做了以下改动：\n所有歌词文本都为具有深度的 3D 字体。尽管 Apple 不推荐这么做，我还是坚持使用它，原因是经过实测， depth 似乎赋予了歌词一种真实感 歌词的移动方向不再局限于 y 方向，而是可以结合 XY 和 Z。我最喜欢的移动方式，被我称为 \u0026ldquo;Water Fall\u0026rdquo;， 歌词会向 -Y 和 +Z 方向移动 Immersive Player Window Mode 由于 Swift API 的限制，app之间的 沉浸式空间是互斥的，因此纯沉浸式的 app 存在一些局限性。为了达到一个通用音乐播放器的最低要求，我加入了窗口模式，这样用户就可以在使用其他 app 时同时使用 Immusia",
+  "description": "Immusia（读作 ɪˈmuːziə, 是拉丁语 Immersio (沉浸) 和 Musica (音乐) 的结合) 是我的第一个 Vision Pro App, 也是我的第一个 VR App\n本文记录了我的创作理念，和一些实现细节\n缘由 之所以想做这样的一个 app, 是因为我由于科幻作品的影响，产生的对 VR 设备的想象。更具体一点，是 Black Mirror。Black Mirror 擅长探讨 高科技对 人文/伦理/社会 的冲击，选材大胆，对我有着比较深的影响。在其最精彩的前几集，多次出现类似 头戴设备的概念，给了观影者极大的想象空间。\n核心功能 Immusia 的核心理念始终是 沉浸式 的音乐聆听体验。借助 “概念专辑” 这类已经被大众认可的丰富精神财产，音乐被赋予了更具像化的概念，从而使音乐可视化有了更合理的依据\n2D 资产 -\u0026gt; 3D 资产 有大量平面资源可以转为双目3D，动机很自然(Vision Pro 的相册 app 也在后来内置了这个功能）， 相关技术也随处可寻，但是视觉效果还是相当可观\n3D Player 为了充分发挥 VR 设备的空间优势，我对传统播放器做了以下改动：\n所有歌词文本都为具有深度的 3D 字体。尽管 Apple 不推荐这么做，我还是坚持使用它，原因是经过实测， depth 似乎赋予了歌词一种真实感 歌词的移动方向不再局限于 y 方向，而是可以结合 XY 和 Z。我最喜欢的移动方式，被我称为 \u0026ldquo;Water Fall\u0026rdquo;， 歌词会向 -Y 和 +Z 方向移动 Immersive Player Window Mode 由于 Swift API 的限制，app之间的 沉浸式空间是互斥的，因此纯沉浸式的 app 存在一些局限性。为了达到一个通用音乐播放器的最低要求，我加入了窗口模式，这样用户就可以在使用其他 app 时同时使用 Immusia\n",
   "keywords": [
     "Software", "Music", "VisionPro", "VR"
   ],
@@ -417,7 +447,7 @@
                     <a href="#%e6%a0%b8%e5%bf%83%e5%8a%9f%e8%83%bd" aria-label="核心功能">核心功能</a><ul>
                         
                 <li>
-                    <a href="#2d-%e8%b5%84%e4%ba%a7---3d-%e8%b5%84%e4%ba%a7" aria-label="2D 资产 -&amp;gt; 3D 资产">2D 资产 -&gt; 3D 资产</a></li>
+                    <a href="#2d-%e8%b5%84%e4%ba%a7---3d-%e8%b5%84%e4%ba%a7" aria-label="2D 资产 -&gt; 3D 资产">2D 资产 -&gt; 3D 资产</a></li>
                 <li>
                     <a href="#3d-player" aria-label="3D Player">3D Player</a></li>
                 <li>
@@ -508,6 +538,17 @@
                 <a href="https://mickjagger19.github.io/tags/vr/">VR</a>
             </li></ul>
 <nav class="paginav">
+    <a class="prev" href="https://mickjagger19.github.io/posts/ai/inferenceengine/sglang/">
+    <span class="title">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+           class="feather feather-arrow-left" style="user-select: text;"><line x1="19" y1="12" x2="5" y2="12"
+                                                                               style="user-select: text;"></line><polyline
+              points="12 19 5 12 12 5" style="user-select: text;"></polyline></svg>&nbsp;
+    </span>
+        <br>
+        <span>SGlang</span>
+    </a>
     <a class="next" href="https://mickjagger19.github.io/posts/music/my-gears/">
     <span class="title">
       &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -527,7 +568,7 @@
     </main>
     
 <footer class="footer">
-  <span>&copy; 2024 <a href="https://mickjagger19.github.io/">Mick&#39; Blog</a></span><span style="display: inline-block; margin-left: 1em;">
+  <span>&copy; 2025 <a href="https://mickjagger19.github.io/">Mick&#39; Blog</a></span><span style="display: inline-block; margin-left: 1em;">
     <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
   </span>
   <span style="display: inline-block; margin-left: 1em;">

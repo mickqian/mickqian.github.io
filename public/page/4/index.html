@@ -2,7 +2,7 @@
 <html lang="en" dir="auto">
 
 <head>
-	<meta name="generator" content="Hugo 0.130.0"><meta charset="utf-8">
+	<meta name="generator" content="Hugo 0.139.0"><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -36,7 +36,7 @@
   "description": "Blog",
   "thumbnailUrl": "https://mickjagger19.github.io/favicon.ico",
   "sameAs": [
-      "https://github.com/mickjagger19/mickjagger19.github.io"
+      "https://github.com/MickQian"
   ]
 }
 </script>
@@ -336,6 +336,72 @@
   </header>
   <section class="entry-content">
     
+      <p>&lt;!DOCTYPE HTML&gt;Shader - Shadertoy BETAShadertoyWelcome Mick|BrowseNewLogoutNo WebGL available :(0.0000.0 fps0 x 0Views: 0, Tags:Created by in public &#43; apipublicunlistedprivateShader Inputsuniform vec3 iResolution; // viewport resolution (in pixels)
+uniform float iTime; // shader playback time (in seconds)
+uniform float iTimeDelta; // render time (in seconds)
+uniform float iFrameRate; // shader frame rate
+uniform int iFrame; // shader playback frame
+uniform float iChannelTime[4]; // channel playback time (in seconds)
+uniform vec3 iChannelResolution[4]; // channel resolution (in pixels)
+uniform vec4 iMouse; // mouse pixel coords. xy: current (if MLB down), zw: click
+uniform samplerXX iChannel0..3; // input channel. XX = 2D/Cube
+uniform vec4 iDate; // (year, month, day, time in seconds)
+uniform float iSampleRate; // sound sample rate (i.e., 44100)Compiled in 0.0/0.0 secs0 charsXSSMLXLXXLFilternearestlinearmipmapWrapclamprepeatVFlipiChannel0 FilternearestlinearmipmapWrapclamprepeatVFlipiChannel1 FilternearestlinearmipmapWrapclamprepeatVFlipiChannel2 FilternearestlinearmipmapWrapclamprepeatVFlipiChannel3 Comments (0)
+Community ForumsOfficial EventsIn Facebook (english)In Facebook (korean)In Discord (direct link)Feedback and SupportFacebookTwitterPatreonRoadmapEmailShadertoyStoreDocumentationTerms &amp; PrivacyAboutApps and PluginsOfficial iPhone App by ReinderScreensaver by KosroShadertoy plugin by PatuTutorialsShader coding intro by iqShadertoy Unofficial by FabriceNeyret2We use cookies to give you the best experience on our website. If you continue using Shadertoy, we&#39;ll assume that you are happy to receive all cookies on this website. For more information, please review our Terms &amp; Privacy.AcceptSelect input for iChannelMiscTexturesCubemapsVolumesVideosMusicby by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by GLSL HelpThis help only covers the parts of GLSL ES that are relevant for Shadertoy. For the complete specification please have a look at GLSL ES specification
+Language:Version: WebGL 2.0Arithmetic: ( ) &#43; - ! * / %Logical/Relatonal: ~ &lt; &gt; &lt;= &gt;= == != &amp;&amp; ||Bit Operators: &amp; ^ | &lt;&lt; &gt;&gt;Comments: // /* */Types: void bool int uint float vec2 vec3 vec4 bvec2 bvec3 bvec4 ivec2 ivec3 ivec4 uvec2 uvec3 uvec4 mat2 mat3 mat4 mat?x? sampler2D, sampler3D, samplerCubeFormat: float a = 1.0; int b = 1; uint i = 1U; int i = 0x1;Function Parameter Qualifiers: [none], in, out, inoutGlobal Variable Qualifiers: constVector Components: .xyzw .rgba .stpqFlow Control: if else for return break continue switch/caseOutput: vec4 fragColorInput: vec2 fragCoordPreprocessor: #define #undef #if #ifdef #ifndef #else #elif #endif #error #pragma #lineBuilt-in Functions:ftype radians (ftype degrees)ftype degrees (ftype radians)ftype sin (ftype angle)ftype cos (ftype angle)ftype tan (ftype angle)ftype asin (ftype x)ftype acos (ftype x)ftype atan (ftype y, ftype x)ftype atan (ftype y_over_x)ftype sinh (ftype x)ftype cosh (ftype x)ftype tanh (ftype x)ftype asinh (ftype x)ftype acosh (ftype x)ftype atanh f(type x)ftype pow (ftype x, ftype y)ftype exp (ftype x)ftype log (ftype x)ftype exp2 (ftype x)ftype log2 (ftype x)ftype sqrt (ftype x)ftype inversesqrt (ftype x)type abs (type x)type sign (type x)ftype floor (ftype x)ftype ceil (ftype x)ftype trunc (type x)ftype fract (ftype x)ftype mod (ftype x, ftype y)ftype modf (ftype x, out ftype i)type min (type x, type y)type max (type x, type y)type clamp (type x, type minV, type maxV)ftype mix (ftype x, ftype y, ftype a)type step (type edge, type x)ftype smoothstep (ftype a, ftype b, ftype x)float length (vec x)float distance (vec p0, vec p1)float dot (vec x, vec y)vec3 cross (vec3 x, vec3 y)vec normalize (vec x)vec faceforward (vec N, vec I, vec Nref)vec reflect (vec I, vec N)vec refract (vec I, vec N, float eta)float determinant(mat? m)mat?x? outerProduct(vec c, vec r)mat?x? matrixCompMult (mat?x? x, mat?x? y)mat? inverse (mat? inverse)mat?x? transpose (mat?x? inverse)vec4 texture( sampler , vec coord [, float bias])vec4 textureLod( sampler, vec coord, float lod)vec4 textureLodOffset( sampler sampler, vec coord, float lod, ivec offset)vec4 textureGrad( sampler , vec coord, vec2 dPdx, vec2 dPdy)vec4 textureGradOffset sampler , vec coord, vec dPdx, vec dPdy, vec offset)vec4 textureProj( sampler , vec coord [, float bias])vec4 textureProjLod( sampler , vec coord, float lod)vec4 textureProjLodOffset( sampler , vec coord, float lod, vec? offset)vec4 textureProjGrad( sampler , vec coord, vec2 dPdx, vec2 dPdy)vec4 texelFetch( sampler , ivec coord, int lod)vec4 texelFetchOffset( sampler, ivec coord, int lod, ivec offset )ivec textureSize( sampler , int lod)ftype dFdx (ftype x)ftype dFdy (ftype x)ftype fwidth (ftype p)btype isnan (ftype x)btype isinf (ftype x)ftype intBitsToFloat (itype v)ftype uintBitsToFloat (utype v)itype floatBitsToInt (ftype v)utype floatBitsToUint (ftype v)uint packSnorm2x16 (vec2 v)uint packUnorm2x16 (vec2 v)vec2 unpackSnorm2x16 (uint p)vec2 unpackUnorm2x16 (uint p)bvec lessThan (vec x, vec y)bvec lessThanEqual (vec x, vec y)bvec greaterThan (vec x, vec y)bvec greaterThanEqual (vec x, vec y)bvec equal (type x, type y)bvec notEqual (type x, type y)bool any (bvec x)bool all (bvec x)bvec not (bvec x)How-toUse structs: struct myDataType { float occlusion; vec3 color; }; myDataType myData = myDataType(0.7, vec3(1.0, 2.0, 3.0));Initialize arrays: float[] x = float[] (0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6);Do conversions: int a = 3; float b = float(a);Do component swizzling: vec4 a = vec4(1.0,2.0,3.0,4.0); vec4 b = a.zyyw;Access matrix components: mat4 m; m[1] = vec4(2.0); m[0][0] = 1.0; m[2][3] = 2.0;Be careful!the f suffix for floating pont numbers: 1.0f is illegal in GLSL. You must use 1.0saturate(): saturate(x) doesn&#39;t exist in GLSL. Use clamp(x,0.0,1.0) insteadpow/sqrt: please don&#39;t feed sqrt() and pow() with negative numbers. Add an abs() or max(0.0,) to the argumentmod: please don&#39;t do mod(x,0.0). This is undefined in some platformsvariables: initialize your variables! Don&#39;t assume they&#39;ll be set to zero by defaultfunctions: don&#39;t call your functions the same name as any of your variablesShadertoy Inputsvec3iResolutionimage/bufferThe viewport resolution (z is pixel aspect ratio, usually 1.0)floatiTimeimage/sound/bufferCurrent time in secondsfloatiTimeDeltaimage/bufferTime it takes to render a frame, in secondsintiFrameimage/bufferCurrent framefloatiFrameRateimage/bufferNumber of frames rendered per secondfloatiChannelTime[4]image/bufferTime for channel (if video or sound), in secondsvec3iChannelResolution[4]image/buffer/soundInput texture resolution for each channelvec4iMouseimage/bufferxy = current pixel coords (if LMB is down). zw = click pixelsampler2DiChannel{i}image/buffer/soundSampler for input textures ivec4iDateimage/buffer/soundYear, month, day, time in seconds in .xyzwfloatiSampleRateimage/buffer/soundThe sound sample rate (typically 44100)Shadertoy OutputsImage shaders: fragColor is used as output channel. It is not, for now, mandatory but recommended to leave the alpha channel to 1.0.
+Sound shaders: the mainSound() function returns a vec2 containing the left and right (stereo) sound channel wave data.Share your shaderYesNoBBCode Help Codes: You can format your comments by using standard BBCode. The following tags are implemented in Shadertoy: Bold[b]this text goes in bold[/b] Italic[i]this text goes in italic[/i] Images[img]url_to_image[/img] Url[url]http://www.shadertoy.com[/url] Url[url=http://www.shadertoy.com]Shadertoy[/url] Code[code]fixed-width text[/code] Video[video]http://www.youtube.com/watch?v=0ifChJ0nJfM[/video] Emoticons: :) :( :D :love: :octopus: :octopusballoon: Symbols: :alpha:α :beta:β :delta:Δ :epsilon:ε :nabla:∇ :square:² :cube:³ :limit:≐ Share your shaderDirect link:
+Just copy and paste this URL below: Embed:
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; frameborder=&#34;0&#34; src=&#34;https://www.shadertoy.com/embed/4cfcDX?gui=true&amp;t=10&amp;paused=true&amp;muted=false&#34; allowfullscreen&gt; Add to playlist</p>
+    
+  </section>
+  <footer class="entry-footer"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor"
+       stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"
+                                                                                         fill="none"></path><circle
+          cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
+  <span>6 min</span></span><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor"
+       stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"
+                                                                                         fill="none"></path><circle
+          cx="12" cy="7" r="4"></circle><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path></svg>Mick</span>
+</footer>
+  <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/attachments/music/my-gears/nights-backbone-copy/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>
+    </h2>
+  </header>
+  <section class="entry-content">
+    
+      <p>This is a personal note of some useful shader tricks
+Noises Value Noise Gradient Noise Perlin Simplex Noise31 float noise( in vec3 x ) // in [0,1] { vec3 p = floor(x); vec3 f = fract(x); f = f*f*(3.0-2.0*f); float n = p.x &#43; p.y*57.0 &#43; 113.0*p.z; float res = mix(mix(mix( hash(n&#43; 0.0), hash(n&#43; 1.0),f.x), mix( hash(n&#43; 57.0), hash(n&#43; 58.0),f.x),f.y), mix(mix( hash(n&#43;113.0), hash(n&#43;114.0),f.x), mix( hash(n&#43;170.0), hash(n&#43;171.0),f.x),f.y),f.z); return res; } [!Hash 是不连续的 noise] value noise ?
+Noise21 float hash11( float n ) // in [0,1] { return fract(sin(n)*43758.5453); } vec2 hash22( vec2 p ) { p = vec2(dot(p,vec2(127.1,311.7)), dot(p,vec2(269.5,183.3))); return -1.0 &#43; 2.0*fract(sin(p)*43758.5453123); } vec3 hash33(vec3 p3) { p3 = fract(p3 * vec3(.1031,.11369,.13787)); p3 &#43;= dot(p3, p3.yxz&#43;19.19); return -1.0 &#43; 2.0 * fract(vec3(p3.x&#43;p3.y, p3.x&#43;p3.z, p3.y&#43;p3.z)*p3.zyx); } float noise( in vec2 p ) { const float K1 = 0.366025404; // (sqrt(3)-1)/2; const float K2 = 0.211324865; // (3-sqrt(3))/6; vec2 i = floor(p &#43; (p.x&#43;p.y)*K1);	vec2 a = p - i &#43; (i.x&#43;i.y)*K2; vec2 o = (a.x&gt;a.y) ? vec2(1.0,0.0) : vec2(0.0,1.0); //vec2 of = 0.5 &#43; 0.5*vec2(sign(a.x-a.y), sign(a.y-a.x)); vec2 b = a - o &#43; K2; vec2 c = a - 1.0 &#43; 2.0*K2; vec3 h = max(0.5-vec3(dot(a,a), dot(b,b), dot(c,c) ), 0.0 ); vec3 n = h*h*h*h*vec3( dot(a,hash(i&#43;0.0)), dot(b,hash(i&#43;o)), dot(c,hash(i&#43;1.0))); return dot(n, vec3(70.0));	} Voronoise (celular) Great For 爬行动物皮肤纹理或干燥地砖
+...</p>
+    
+  </section>
+  <footer class="entry-footer"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor"
+       stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"
+                                                                                         fill="none"></path><circle
+          cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
+  <span>2 min</span></span><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor"
+       stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"
+                                                                                         fill="none"></path><circle
+          cx="12" cy="7" r="4"></circle><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path></svg>Mick</span>
+</footer>
+  <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/graphics/shaders/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>
+    </h2>
+  </header>
+  <section class="entry-content">
+    
       <p>Immusia
 光照增强
 镜面反射
@@ -345,7 +411,8 @@ Spatial size: 决定一小块的面积，其中一小块中的波浪细节固定
 The width of the ocean surface area being simulated, in meters. This also determines the size of the generated mesh, or the displaced area. Of course, you can scale the object with the Ocean modifier in Object Mode to tweak the apparent size in your scene.
 size: scale，(displace 下)扩大原有object,可能导致mesh细节丢失
 Environments:
-West lake Outside earth, rotating Plastic Beach Rooftop The Wall 其中真实场景考虑使用 photogremetry...</p>
+West lake Outside earth, rotating Plastic Beach Rooftop The Wall 其中真实场景考虑使用 photogremetry
+...</p>
     
   </section>
   <footer class="entry-footer"><span class="meta-item">
@@ -359,7 +426,7 @@ West lake Outside earth, rotating Plastic Beach Rooftop The Wall 其中真实场
                                                                                          fill="none"></path><circle
           cx="12" cy="7" r="4"></circle><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path></svg>Mick</span>
 </footer>
-  <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/immusia-todolist/"></a>
+  <a class="entry-link" aria-label="post link to " href="https://mickjagger19.github.io/posts/misc/immusia-todolist/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -369,7 +436,7 @@ West lake Outside earth, rotating Plastic Beach Rooftop The Wall 其中真实场
     </main>
     
 <footer class="footer">
-  <span>&copy; 2024 <a href="https://mickjagger19.github.io/">Mick&#39; Blog</a></span><span style="display: inline-block; margin-left: 1em;">
+  <span>&copy; 2025 <a href="https://mickjagger19.github.io/">Mick&#39; Blog</a></span><span style="display: inline-block; margin-left: 1em;">
     <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
   </span>
   <span style="display: inline-block; margin-left: 1em;">

@@ -457,50 +457,50 @@
 <p>The mathematics in GAN and WGAN</p>
 <h2 id="notations">Notations<a hidden class="anchor" aria-hidden="true" href="#notations">¶</a></h2>
 <table>
-<thead>
-<tr>
-<th>Notation</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Jensen-Shannon Divergence</td>
-<td>An improved, symmetric version of  $KL$ Divergence:<br>$$D_{JS}(p||q) = \frac{1}{2} D_{KL}\left(p | \frac{p+q}{2}\right)+  \frac{1}{2} D_{KL}\left(q | \frac{p+q}{2}\right)$$</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Notation</th>
+          <th>Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Jensen-Shannon Divergence</td>
+          <td>An improved, symmetric version of  $KL$ Divergence:<br>$$D_{JS}(p||q) = \frac{1}{2} D_{KL}\left(p | \frac{p+q}{2}\right)+  \frac{1}{2} D_{KL}\left(q | \frac{p+q}{2}\right)$$</td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="gan">GAN<a hidden class="anchor" aria-hidden="true" href="#gan">¶</a></h2>
 <table>
-<thead>
-<tr>
-<th>Notation</th>
-<th>Meaning</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>$p_{z}$</td>
-<td>distribution of noise input $z$</td>
-<td></td>
-</tr>
-<tr>
-<td>$p_{g}$</td>
-<td>distribution of generator output $x$</td>
-<td></td>
-</tr>
-<tr>
-<td>$p_{r}$</td>
-<td>distribution of real sample $x$</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Notation</th>
+          <th>Meaning</th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>$p_{z}$</td>
+          <td>distribution of noise input $z$</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>$p_{g}$</td>
+          <td>distribution of generator output $x$</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>$p_{r}$</td>
+          <td>distribution of real sample $x$</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
 </table>
 <h3 id="arch">Arch<a hidden class="anchor" aria-hidden="true" href="#arch">¶</a></h3>
 <p>The original GAN is an <strong>architecture</strong> (does not define the implementation details) consisting of two models:</p>
@@ -588,7 +588,7 @@ Almost in all GANs, for $G$, the objective can always be interpreted as (some ki
       
   <figure align=center class="figure d-block text-center">
   <picture align=center >
-  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/AI/Models/The%20GAN%20Family/IMG-20240120210126755.png?v=fa6bed8c4600e20f2dcc88527acc000c#center" alt="A simulation of $D$ and $G$ to update regardless of each other" loading="lazy" height="550px" width="1305px" />
+  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/AI/Models/The%20GAN%20Family/IMG-20240120210126755.png?v=73447def62a77454637a9acf58974af7#center" alt="A simulation of $D$ and $G$ to update regardless of each other" loading="lazy" height="550px" width="1305px" />
 </picture>
 
   <figcaption class="figure-caption"><p>A simulation of $D$ and $G$ to update regardless of each other</p></figcaption>
@@ -622,7 +622,7 @@ Maybe the idea of <strong>advesarial</strong> and <strong>cooperative</strong>(f
       
   <figure align=center class="figure d-block text-center">
   <picture align=center >
-  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/AI/Models/The%20GAN%20Family/IMG-20240120210126802.png?v=fa6bed8c4600e20f2dcc88527acc000c" alt="The log_gradients of the generator decays quickly. Also, the better the $D$, the smaller the gradient" loading="lazy" height="666px" width="840px" />
+  <img class="figure-img img-fluid" src="https://mickjagger19.github.io/Attachments/AI/Models/The%20GAN%20Family/IMG-20240120210126802.png?v=73447def62a77454637a9acf58974af7" alt="The log_gradients of the generator decays quickly. Also, the better the $D$, the smaller the gradient" loading="lazy" height="666px" width="840px" />
 </picture>
 
   <figcaption class="figure-caption"><p>The log_gradients of the generator decays quickly. Also, the better the $D$, the smaller the gradient</p></figcaption>
@@ -639,30 +639,30 @@ The reason of mode collapse can be interpreted as: the generator finds a local o
 <p>The score given by $D$ does not provide an objective metric of the quality of image.</p>
 <h2 id="sgan">SGAN<a hidden class="anchor" aria-hidden="true" href="#sgan">¶</a></h2>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notations</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">$\delta$ distribution: Dirac delta function</td>
-<td style="text-align:left">A function, whose value is zero everywhere except at zero, and $\int \delta  = 1$</td>
-</tr>
-<tr>
-<td style="text-align:left">$T$</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notations</th>
+          <th style="text-align: left">Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$\delta$ distribution: Dirac delta function</td>
+          <td style="text-align: left">A function, whose value is zero everywhere except at zero, and $\int \delta  = 1$</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$T$</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
 </table>
 <p><strong>SGAN</strong> designs the Discriminator loss as:</p>
 <p>$$
@@ -682,34 +682,34 @@ $$</p>
 <p>And while training, $T(\alpha) \to +\infty, T(\beta) \to -\infty$</p>
 <h2 id="wgan">WGAN<a hidden class="anchor" aria-hidden="true" href="#wgan">¶</a></h2>
 <table>
-<thead>
-<tr>
-<th>Notation</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://en.wikipedia.org/wiki/Wasserstein_metric">Wasserstein Distance</a>(a.k.a. Earth Mover’s distance, short for EM distance) $\mathcal{W}$</td>
-<td>A measure of the distance between two PD, as the minimum energy cost of moving and transforming two PDs for them to be the same, a.k.a. the <strong>optimal transport cost</strong>. <br>$$\mathcal{W}(p,q) = \inf_{\gamma \sim \prod(p,q)}{\mathbb{E}_{(x,y) \sim \gamma}[c(x,y)]}$$</td>
-</tr>
-<tr>
-<td><a href="https://en.wikipedia.org/wiki/Lipschitz_continuity">Lipschitz continuity</a></td>
-<td>A strong form of uniform continuity for functions. If $\vert f(x_{1} - f(x_{2})\vert \le K\vert x_{1} - x_{2}\vert$, f is called $K$-Lipschitz, formally $\vert f\vert _{L} \le K$</td>
-</tr>
-<tr>
-<td>infimum $\inf$</td>
-<td>the greast lower  bound, in most cases the minimum</td>
-</tr>
-<tr>
-<td>supremum $\sup$</td>
-<td>the least upper bound, in most cases the maximum</td>
-</tr>
-<tr>
-<td>critic $f(.)$</td>
-<td>the form of $D$ in WGAN. No longer outputting the realism (a probability) of sample, it learns a specific distance (or a score, of distributions) from samples. $f(x) = D(x)$</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Notation</th>
+          <th>Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://en.wikipedia.org/wiki/Wasserstein_metric">Wasserstein Distance</a>(a.k.a. Earth Mover’s distance, short for EM distance) $\mathcal{W}$</td>
+          <td>A measure of the distance between two PD, as the minimum energy cost of moving and transforming two PDs for them to be the same, a.k.a. the <strong>optimal transport cost</strong>. <br>$$\mathcal{W}(p,q) = \inf_{\gamma \sim \prod(p,q)}{\mathbb{E}_{(x,y) \sim \gamma}[c(x,y)]}$$</td>
+      </tr>
+      <tr>
+          <td><a href="https://en.wikipedia.org/wiki/Lipschitz_continuity">Lipschitz continuity</a></td>
+          <td>A strong form of uniform continuity for functions. If $\vert f(x_{1} - f(x_{2})\vert \le K\vert x_{1} - x_{2}\vert$, f is called $K$-Lipschitz, formally $\vert f\vert _{L} \le K$</td>
+      </tr>
+      <tr>
+          <td>infimum $\inf$</td>
+          <td>the greast lower  bound, in most cases the minimum</td>
+      </tr>
+      <tr>
+          <td>supremum $\sup$</td>
+          <td>the least upper bound, in most cases the maximum</td>
+      </tr>
+      <tr>
+          <td>critic $f(.)$</td>
+          <td>the form of $D$ in WGAN. No longer outputting the realism (a probability) of sample, it learns a specific distance (or a score, of distributions) from samples. $f(x) = D(x)$</td>
+      </tr>
+  </tbody>
 </table>
 <blockquote>
 <p>[!TIP]
@@ -760,26 +760,26 @@ $$
 $$</p>
 <h2 id="f-gan">f-GAN<a hidden class="anchor" aria-hidden="true" href="#f-gan">¶</a></h2>
 <table>
-<thead>
-<tr>
-<th>Notation</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://en.wikipedia.org/wiki/F-divergence">f-divergence</a></td>
-<td>A generalized version of <strong>KL-divergence</strong> and <strong>JS-divergence</strong>: $$\mathcal{D}_{f}(P|Q) = \int{q(x)f(\frac{p(x)}{q(x)})dx}$$, where $f$ is a convex function with measures the difference between PDs</td>
-</tr>
-<tr>
-<td>$T$</td>
-<td>The gradient of $f = \frac{p(x)}{q(x)}$</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Notation</th>
+          <th>Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://en.wikipedia.org/wiki/F-divergence">f-divergence</a></td>
+          <td>A generalized version of <strong>KL-divergence</strong> and <strong>JS-divergence</strong>: $$\mathcal{D}_{f}(P|Q) = \int{q(x)f(\frac{p(x)}{q(x)})dx}$$, where $f$ is a convex function with measures the difference between PDs</td>
+      </tr>
+      <tr>
+          <td>$T$</td>
+          <td>The gradient of $f = \frac{p(x)}{q(x)}$</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
 </table>
 <p>In a nutshell, the $f$-GAN:</p>
 <ul>
@@ -806,38 +806,38 @@ $$</p>
 <h2 id="biggan">BigGAN<a hidden class="anchor" aria-hidden="true" href="#biggan">¶</a></h2>
 <h3 id="notations-1">Notations<a hidden class="anchor" aria-hidden="true" href="#notations-1">¶</a></h3>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notations</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Orthogonal matrix</td>
-<td style="text-align:left">A matrix, which row/column vectors are unit vector, and co-orthogonal. The reverse matrix of an orthogonal matrix is equal to its transpose matrix, $A^{T}A = AA^{T} = I$. The transpose of a real-valued orthogonal matrix is orthogonal.</td>
-</tr>
-<tr>
-<td style="text-align:left">Conjugate transpose</td>
-<td style="text-align:left">A matrix as a result of taking the conjugate of each elements, then transpose the original matrix. For real-valued matrixs, conjugate transpose is equal to transpose, since the conjugate of a real value is itself</td>
-</tr>
-<tr>
-<td style="text-align:left">Singular Value Decomposition(SVD)</td>
-<td style="text-align:left">An algorithm for decomposing matrix as <strong>eigenvector</strong> and <strong>eigenvalue</strong>, representing $A$ as: $A = U\Sigma V^{\ast}$, where $\Sigma$ is eigenvalue, $U$ is left eigenvector, $V$ is right eigenvector</td>
-</tr>
-<tr>
-<td style="text-align:left">Eigenvalue</td>
-<td style="text-align:left">Special value of a matrix, indicating the <strong>energy</strong> of a matrix in according <strong>eigenvector</strong> direction. In the direction of a eigenvector with bigger eigenvalue, data varies faster(e.g. the variation of the projected-matrix is bigger in the direction), so keeping the biggest eigenvalues is ideal in data compresion/dimension reduction</td>
-</tr>
-<tr>
-<td style="text-align:left">Singular Value</td>
-<td style="text-align:left">eigenvalue of the matrix</td>
-</tr>
-<tr>
-<td style="text-align:left">Spectral Norm (a.k.a. Induced 2-norm)</td>
-<td style="text-align:left">Maximum Singular value of the matrix:$$|A|<em>{2} = \max</em>{|x|<em>{2}\ne0} \frac{|Ax|</em>{2}}{|x|_2}$$By restricting spectral norm, Lipschitz can also be controlled.</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notations</th>
+          <th style="text-align: left">Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Orthogonal matrix</td>
+          <td style="text-align: left">A matrix, which row/column vectors are unit vector, and co-orthogonal. The reverse matrix of an orthogonal matrix is equal to its transpose matrix, $A^{T}A = AA^{T} = I$. The transpose of a real-valued orthogonal matrix is orthogonal.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Conjugate transpose</td>
+          <td style="text-align: left">A matrix as a result of taking the conjugate of each elements, then transpose the original matrix. For real-valued matrixs, conjugate transpose is equal to transpose, since the conjugate of a real value is itself</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Singular Value Decomposition(SVD)</td>
+          <td style="text-align: left">An algorithm for decomposing matrix as <strong>eigenvector</strong> and <strong>eigenvalue</strong>, representing $A$ as: $A = U\Sigma V^{\ast}$, where $\Sigma$ is eigenvalue, $U$ is left eigenvector, $V$ is right eigenvector</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Eigenvalue</td>
+          <td style="text-align: left">Special value of a matrix, indicating the <strong>energy</strong> of a matrix in according <strong>eigenvector</strong> direction. In the direction of a eigenvector with bigger eigenvalue, data varies faster(e.g. the variation of the projected-matrix is bigger in the direction), so keeping the biggest eigenvalues is ideal in data compresion/dimension reduction</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Singular Value</td>
+          <td style="text-align: left">eigenvalue of the matrix</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Spectral Norm (a.k.a. Induced 2-norm)</td>
+          <td style="text-align: left">Maximum Singular value of the matrix:$$|A|<em>{2} = \max</em>{|x|<em>{2}\ne0} \frac{|Ax|</em>{2}}{|x|_2}$$By restricting spectral norm, Lipschitz can also be controlled.</td>
+      </tr>
+  </tbody>
 </table>
 <p><strong>BigGAN</strong> bases on <a href="/posts/ai/models/the-gan-family/#sagan">SAGAN</a>, introduce several improvements:</p>
 <ul>
@@ -888,7 +888,7 @@ $$</p>
     </main>
     
 <footer class="footer">
-  <span>&copy; 2024 <a href="https://mickjagger19.github.io/">Mick&#39; Blog</a></span><span style="display: inline-block; margin-left: 1em;">
+  <span>&copy; 2025 <a href="https://mickjagger19.github.io/">Mick&#39; Blog</a></span><span style="display: inline-block; margin-left: 1em;">
     <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>
   </span>
   <span style="display: inline-block; margin-left: 1em;">

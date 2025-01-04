@@ -30,30 +30,30 @@ math: true</li>
 <hr>
 <h2 id="notations">Notations</h2>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notations</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">SSM</td>
-<td style="text-align:left">A math model, used to describe and analyze the behavior of dynamic system. In DL, it helps to process <strong>sequence data</strong>, by projecting the data into latent space. <strong>State Equation</strong> and <strong>Observation Equation</strong> are two important components of a SSM</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notations</th>
+          <th style="text-align: left">Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">SSM</td>
+          <td style="text-align: left">A math model, used to describe and analyze the behavior of dynamic system. In DL, it helps to process <strong>sequence data</strong>, by projecting the data into latent space. <strong>State Equation</strong> and <strong>Observation Equation</strong> are two important components of a SSM</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="background">Background</h2>
 <p><a href="AI/Models/The%20Transformer%20Family.md">The Transformer Family</a> is  notorious for $\mathcal{O}(N^{2})$ time complexity when inferencing, but many of the model targeting this problem has less performance[[ ]]than Transformer.</p>
@@ -83,30 +83,30 @@ Discretization is necessary for calculation efficiency</p>
 <h4 id="2-computation">2. Computation</h4>
 <p>There are two ways to compute</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notations</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">$A(\cdot )$</td>
-<td style="text-align:left">State matrix</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notations</th>
+          <th style="text-align: left">Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$A(\cdot )$</td>
+          <td style="text-align: left">State matrix</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
 </table>
 <h4 id="linear-time-invariance-system">Linear Time Invariance System</h4>
 <p>The parameters calculated in <a href="/posts/ai/models/mamba/#discretization">Discretization</a> is fixed in all timestampes, this property is called <strong>LTI</strong>.</p>
@@ -128,30 +128,30 @@ Discretization is necessary for calculation efficiency</p>
 <h3 id="selection-mechainism">Selection Mechainism</h3>
 <h2 id="notations-1">Notations</h2>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notations</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Input-dependent dynamics</td>
-<td style="text-align:left">A dynamic enabling sequence model to depend on input</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notations</th>
+          <th style="text-align: left">Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Input-dependent dynamics</td>
+          <td style="text-align: left">A dynamic enabling sequence model to depend on input</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
 </table>
 <p><strong>Mamba</strong> promote a <strong>Selection Mechanism</strong>:  increase input-dependent dynamics, with requires a hardware-aware algorithm.</p>
 <p>A way of blending selection mechanism into model, is to let the inputs affects the parameters of sequence co-effects, e.g. inserting into the recurrent dynamics of <strong>RNN</strong> or convolution kernel of <strong>CNN</strong>.</p>

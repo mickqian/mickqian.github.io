@@ -19,35 +19,35 @@
 This work is in progress</p>
 </blockquote>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notations</th>
-<th style="text-align:left">Meaning</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Classifier-guided Diffusion</td>
-<td style="text-align:left">An implementation of Conditional Diffusion Models, which requires a classifier $\nabla_{x}p(x|y)$ to guide its reverse process</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left">Classifier-free Diffusion</td>
-<td style="text-align:left">An implementation of Conditional Diffusion Models, which doesn&rsquo;t require a <strong>classfier</strong>, the condition serves as an input to its <strong>noise predictor</strong></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left">Latent Diffusion Models(LDM)</td>
-<td style="text-align:left">A type of Diffusion Models where diffusion processes are done in <strong>latent space</strong></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notations</th>
+          <th style="text-align: left">Meaning</th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Classifier-guided Diffusion</td>
+          <td style="text-align: left">An implementation of Conditional Diffusion Models, which requires a classifier $\nabla_{x}p(x|y)$ to guide its reverse process</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Classifier-free Diffusion</td>
+          <td style="text-align: left">An implementation of Conditional Diffusion Models, which doesn&rsquo;t require a <strong>classfier</strong>, the condition serves as an input to its <strong>noise predictor</strong></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Latent Diffusion Models(LDM)</td>
+          <td style="text-align: left">A type of Diffusion Models where diffusion processes are done in <strong>latent space</strong></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td></td>
+      </tr>
+  </tbody>
 </table>
 <h1 id="introduction">Introduction</h1>
 <p>Diffusion models usually choose a <strong>UNet</strong> as its backbone for Noise Predictor, first adopted by Ho et al [^1] , which was inherited from <strong>Pixel-CNN++</strong>(widely used as the generator in VAE) with a few changes. Although some works have introduced attention blocks into low-level design, its high-level remains intact.</p>
@@ -55,42 +55,42 @@ This work is in progress</p>
 <p>Also, the scaling behavios of transformers is also explored in DiT</p>
 <h1 id="dit-design-space">DiT Design Space</h1>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notations</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">$C$</td>
-<td style="text-align:left">the channels of input image</td>
-</tr>
-<tr>
-<td style="text-align:left">$I$</td>
-<td style="text-align:left">the dimension of $z$</td>
-</tr>
-<tr>
-<td style="text-align:left">$z \in R^{I \times I \times C}$</td>
-<td style="text-align:left">The latents, also the input of $DiT$</td>
-</tr>
-<tr>
-<td style="text-align:left">Patch</td>
-<td style="text-align:left">The unit of input.</td>
-</tr>
-<tr>
-<td style="text-align:left">$p$</td>
-<td style="text-align:left">the dimension of a single patch</td>
-</tr>
-<tr>
-<td style="text-align:left">Classifier-free Diffusion</td>
-<td style="text-align:left">An implementation of Conditional Diffusion Models, which doesn&rsquo;t require a <strong>classfier</strong>, the condition serves as an input to its <strong>noise predictor</strong></td>
-</tr>
-<tr>
-<td style="text-align:left">Latent Diffusion Models(LDM)</td>
-<td style="text-align:left">A type of Diffusion Models where diffusion processes are done in <strong>latent space</strong></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notations</th>
+          <th style="text-align: left">Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$C$</td>
+          <td style="text-align: left">the channels of input image</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$I$</td>
+          <td style="text-align: left">the dimension of $z$</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$z \in R^{I \times I \times C}$</td>
+          <td style="text-align: left">The latents, also the input of $DiT$</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Patch</td>
+          <td style="text-align: left">The unit of input.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$p$</td>
+          <td style="text-align: left">the dimension of a single patch</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Classifier-free Diffusion</td>
+          <td style="text-align: left">An implementation of Conditional Diffusion Models, which doesn&rsquo;t require a <strong>classfier</strong>, the condition serves as an input to its <strong>noise predictor</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Latent Diffusion Models(LDM)</td>
+          <td style="text-align: left">A type of Diffusion Models where diffusion processes are done in <strong>latent space</strong></td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="1-patchify">1. Patchify</h2>
 <p><strong>Patchify</strong> is the first layer of DiT, which converts the spatial input $z$ into a sequence to $T$ tokens, each of dimension $d$:
@@ -183,62 +183,62 @@ To be completed</p>
       <description>Attention</description>
       <content:encoded><![CDATA[<h2 id="terminologies">Terminologies</h2>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Term</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Receptive_field">Receptive field</a>(a.k.a. sensory space)</td>
-<td style="text-align:left">A concept originally from biology, adopted in modern artificial deep neural networks (especially <strong>CNN</strong>), describing the size of input image which can affects the output of <strong>neurons</strong></td>
-</tr>
-<tr>
-<td style="text-align:left">$d_{model}$</td>
-<td style="text-align:left">dimension of the word embedding(usually 512 = 64 * 8)</td>
-</tr>
-<tr>
-<td style="text-align:left">$d_{k}$</td>
-<td style="text-align:left">dimension of $w_q, w_k$</td>
-</tr>
-<tr>
-<td style="text-align:left">$d_{v}$</td>
-<td style="text-align:left">dimension of $w_v$</td>
-</tr>
-<tr>
-<td style="text-align:left">$w_{q} \in \mathbb{R}^{d_{model} \times d_{k}}$</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left">$w_k \in \mathbb{R}^{d_{model} \times d_{k}}$</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left">$w_{v} \in \mathbb{R}^{d_{model} \times d_{v}}$</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left">$B$</td>
-<td style="text-align:left">Batch size</td>
-</tr>
-<tr>
-<td style="text-align:left">$S$</td>
-<td style="text-align:left">Sequence Length</td>
-</tr>
-<tr>
-<td style="text-align:left">$X$</td>
-<td style="text-align:left">input</td>
-</tr>
-<tr>
-<td style="text-align:left">Structural Prior</td>
-<td style="text-align:left"></td>
-</tr>
-<tr>
-<td style="text-align:left">translation equivariance</td>
-<td style="text-align:left">An attribute of model, the ability of model to recognize objects does not varies with the <strong>geometric</strong> transformations of the input(shift, rotate, projection, etc)</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Term</th>
+          <th style="text-align: left">Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><a href="https://en.wikipedia.org/wiki/Receptive_field">Receptive field</a>(a.k.a. sensory space)</td>
+          <td style="text-align: left">A concept originally from biology, adopted in modern artificial deep neural networks (especially <strong>CNN</strong>), describing the size of input image which can affects the output of <strong>neurons</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$d_{model}$</td>
+          <td style="text-align: left">dimension of the word embedding(usually 512 = 64 * 8)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$d_{k}$</td>
+          <td style="text-align: left">dimension of $w_q, w_k$</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$d_{v}$</td>
+          <td style="text-align: left">dimension of $w_v$</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$w_{q} \in \mathbb{R}^{d_{model} \times d_{k}}$</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$w_k \in \mathbb{R}^{d_{model} \times d_{k}}$</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$w_{v} \in \mathbb{R}^{d_{model} \times d_{v}}$</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$B$</td>
+          <td style="text-align: left">Batch size</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$S$</td>
+          <td style="text-align: left">Sequence Length</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$X$</td>
+          <td style="text-align: left">input</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Structural Prior</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">translation equivariance</td>
+          <td style="text-align: left">An attribute of model, the ability of model to recognize objects does not varies with the <strong>geometric</strong> transformations of the input(shift, rotate, projection, etc)</td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="the-attention-of-human">The Attention of human</h2>
 <p>Selective attention is a mechanism unique to human vision. By swiftly scanning the image, human acquires important areas(a.k.a. focus). After this, human pays more attention to these areas, as there are more valuable information.</p>
@@ -324,18 +324,18 @@ $Var(A \cdot B) = Var\left(\sum\limits{A_{ij}B_{ji}}\right)=\sum\limits Var(A_{i
 <p>However, it is observed that most of the time, the attention matrix $A$ is <em>sparse</em></p>
 <h3 id="sparse-attention-1">Sparse Attention</h3>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notation</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Attention kernel</td>
-<td style="text-align:left">The tokens required for the attention to predict next token</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notation</th>
+          <th style="text-align: left">Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Attention kernel</td>
+          <td style="text-align: left">The tokens required for the attention to predict next token</td>
+      </tr>
+  </tbody>
 </table>
 <p>OpenAI reduces the time complexity by &ldquo;keep the value in small region, enforcing most elements as zero&rdquo;</p>
 <p>It is observed that attention has gained inductive bias similar in CNN:</p>

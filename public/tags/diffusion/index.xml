@@ -19,35 +19,35 @@
 This work is in progress</p>
 </blockquote>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notations</th>
-<th style="text-align:left">Meaning</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Classifier-guided Diffusion</td>
-<td style="text-align:left">An implementation of Conditional Diffusion Models, which requires a classifier $\nabla_{x}p(x|y)$ to guide its reverse process</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left">Classifier-free Diffusion</td>
-<td style="text-align:left">An implementation of Conditional Diffusion Models, which doesn&rsquo;t require a <strong>classfier</strong>, the condition serves as an input to its <strong>noise predictor</strong></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left">Latent Diffusion Models(LDM)</td>
-<td style="text-align:left">A type of Diffusion Models where diffusion processes are done in <strong>latent space</strong></td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notations</th>
+          <th style="text-align: left">Meaning</th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Classifier-guided Diffusion</td>
+          <td style="text-align: left">An implementation of Conditional Diffusion Models, which requires a classifier $\nabla_{x}p(x|y)$ to guide its reverse process</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Classifier-free Diffusion</td>
+          <td style="text-align: left">An implementation of Conditional Diffusion Models, which doesn&rsquo;t require a <strong>classfier</strong>, the condition serves as an input to its <strong>noise predictor</strong></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Latent Diffusion Models(LDM)</td>
+          <td style="text-align: left">A type of Diffusion Models where diffusion processes are done in <strong>latent space</strong></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td></td>
+      </tr>
+  </tbody>
 </table>
 <h1 id="introduction">Introduction</h1>
 <p>Diffusion models usually choose a <strong>UNet</strong> as its backbone for Noise Predictor, first adopted by Ho et al [^1] , which was inherited from <strong>Pixel-CNN++</strong>(widely used as the generator in VAE) with a few changes. Although some works have introduced attention blocks into low-level design, its high-level remains intact.</p>
@@ -55,42 +55,42 @@ This work is in progress</p>
 <p>Also, the scaling behavios of transformers is also explored in DiT</p>
 <h1 id="dit-design-space">DiT Design Space</h1>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notations</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">$C$</td>
-<td style="text-align:left">the channels of input image</td>
-</tr>
-<tr>
-<td style="text-align:left">$I$</td>
-<td style="text-align:left">the dimension of $z$</td>
-</tr>
-<tr>
-<td style="text-align:left">$z \in R^{I \times I \times C}$</td>
-<td style="text-align:left">The latents, also the input of $DiT$</td>
-</tr>
-<tr>
-<td style="text-align:left">Patch</td>
-<td style="text-align:left">The unit of input.</td>
-</tr>
-<tr>
-<td style="text-align:left">$p$</td>
-<td style="text-align:left">the dimension of a single patch</td>
-</tr>
-<tr>
-<td style="text-align:left">Classifier-free Diffusion</td>
-<td style="text-align:left">An implementation of Conditional Diffusion Models, which doesn&rsquo;t require a <strong>classfier</strong>, the condition serves as an input to its <strong>noise predictor</strong></td>
-</tr>
-<tr>
-<td style="text-align:left">Latent Diffusion Models(LDM)</td>
-<td style="text-align:left">A type of Diffusion Models where diffusion processes are done in <strong>latent space</strong></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notations</th>
+          <th style="text-align: left">Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$C$</td>
+          <td style="text-align: left">the channels of input image</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$I$</td>
+          <td style="text-align: left">the dimension of $z$</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$z \in R^{I \times I \times C}$</td>
+          <td style="text-align: left">The latents, also the input of $DiT$</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Patch</td>
+          <td style="text-align: left">The unit of input.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$p$</td>
+          <td style="text-align: left">the dimension of a single patch</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Classifier-free Diffusion</td>
+          <td style="text-align: left">An implementation of Conditional Diffusion Models, which doesn&rsquo;t require a <strong>classfier</strong>, the condition serves as an input to its <strong>noise predictor</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Latent Diffusion Models(LDM)</td>
+          <td style="text-align: left">A type of Diffusion Models where diffusion processes are done in <strong>latent space</strong></td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="1-patchify">1. Patchify</h2>
 <p><strong>Patchify</strong> is the first layer of DiT, which converts the spatial input $z$ into a sequence to $T$ tokens, each of dimension $d$:
@@ -183,85 +183,85 @@ To be completed</p>
       <description>Personal takeaways of DDIM/DDPM</description>
       <content:encoded><![CDATA[<h2 id="terminologies">Terminologies</h2>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Term</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Diffusion Models</td>
-<td style="text-align:left">models that can sample from a highly complex probability distribution(e.g. images of cars)</td>
-</tr>
-<tr>
-<td style="text-align:left">Non-equilibrium thermodynamics</td>
-<td style="text-align:left">a branch of <a href="https://en.wikipedia.org/wiki/Thermodynamics" title="Thermodynamics">thermodynamics</a> that deals with physical systems that are not in <a href="https://en.wikipedia.org/wiki/Thermodynamic_equilibrium" title="Thermodynamic equilibrium">thermodynamic equilibrium</a>, where &ldquo;there are no net <a href="https://en.wikipedia.org/wiki/Macroscopic" title="Macroscopic">macroscopic</a> <a href="https://en.wikipedia.org/wiki/Flow_(mathematics)" title="Flow (mathematics)">flows</a> of <a href="https://en.wikipedia.org/wiki/Matter" title="Matter">matter</a> nor of energy within a system or between systems&rdquo;. <br>It is often used by diffusion models as a technique to sample from distribution.</td>
-</tr>
-<tr>
-<td style="text-align:left">Diffusion</td>
-<td style="text-align:left">the <strong>net movement</strong> of anything, generally from a region of higher <a href="https://en.wikipedia.org/wiki/Concentration" title="Concentration">concentration</a> to a region of lower concentration. <br>Also a technique of <strong>Non-equilibrium thermodynamics</strong></td>
-</tr>
-<tr>
-<td style="text-align:left">DDPM</td>
-<td style="text-align:left">model that improves the performance of <strong>diffusion models</strong> by <strong>variational inference</strong></td>
-</tr>
-<tr>
-<td style="text-align:left">DDIM</td>
-<td style="text-align:left">a generalized version of DDPM, with better performance and less diversity and quality</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Jensen</strong> inequality</td>
-<td style="text-align:left">$f(\sum\limits a_{i}x_{i}) \le \sum\limits a_{i}f(x_{i})$, where $a \ge 0, \sum\limits a_{i} = 1$<br>In other words, the Expected Value of a convex function $\ge$ the value of the function at the Expected Input <br></td>
-</tr>
-<tr>
-<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Evidence_lower_bound">Variational Lower Bound</a>(short for <strong>VLB</strong>, a.k.a. Evidence Lower BOund, short for <strong>ELBO</strong>)</td>
-<td style="text-align:left">A easy-to-train lower bound of Log-Likelihood, derived by using a prior $p(z)$ to approximate (implies <em>variational</em>) an <del>intractable</del> posterior $q$.</td>
-</tr>
-<tr>
-<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant"><strong>Jacobian matrix</strong></a></td>
-<td style="text-align:left">A matrix derived from a vector of function of several variables, with all its first-order partial derivatives. Suppose $f: R^{n} \to R^{m}$:<br>$$<br>J = [\frac{\partial{f}}{\partial{x_{1}}}&hellip;\frac{\partial{f}}{\partial{x_{n}}}]<br>$$</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left"></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Term</th>
+          <th style="text-align: left">Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Diffusion Models</td>
+          <td style="text-align: left">models that can sample from a highly complex probability distribution(e.g. images of cars)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Non-equilibrium thermodynamics</td>
+          <td style="text-align: left">a branch of <a href="https://en.wikipedia.org/wiki/Thermodynamics" title="Thermodynamics">thermodynamics</a> that deals with physical systems that are not in <a href="https://en.wikipedia.org/wiki/Thermodynamic_equilibrium" title="Thermodynamic equilibrium">thermodynamic equilibrium</a>, where &ldquo;there are no net <a href="https://en.wikipedia.org/wiki/Macroscopic" title="Macroscopic">macroscopic</a> <a href="https://en.wikipedia.org/wiki/Flow_(mathematics)" title="Flow (mathematics)">flows</a> of <a href="https://en.wikipedia.org/wiki/Matter" title="Matter">matter</a> nor of energy within a system or between systems&rdquo;. <br>It is often used by diffusion models as a technique to sample from distribution.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Diffusion</td>
+          <td style="text-align: left">the <strong>net movement</strong> of anything, generally from a region of higher <a href="https://en.wikipedia.org/wiki/Concentration" title="Concentration">concentration</a> to a region of lower concentration. <br>Also a technique of <strong>Non-equilibrium thermodynamics</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">DDPM</td>
+          <td style="text-align: left">model that improves the performance of <strong>diffusion models</strong> by <strong>variational inference</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">DDIM</td>
+          <td style="text-align: left">a generalized version of DDPM, with better performance and less diversity and quality</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Jensen</strong> inequality</td>
+          <td style="text-align: left">$f(\sum\limits a_{i}x_{i}) \le \sum\limits a_{i}f(x_{i})$, where $a \ge 0, \sum\limits a_{i} = 1$<br>In other words, the Expected Value of a convex function $\ge$ the value of the function at the Expected Input <br></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://en.wikipedia.org/wiki/Evidence_lower_bound">Variational Lower Bound</a>(short for <strong>VLB</strong>, a.k.a. Evidence Lower BOund, short for <strong>ELBO</strong>)</td>
+          <td style="text-align: left">A easy-to-train lower bound of Log-Likelihood, derived by using a prior $p(z)$ to approximate (implies <em>variational</em>) an <del>intractable</del> posterior $q$.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant"><strong>Jacobian matrix</strong></a></td>
+          <td style="text-align: left">A matrix derived from a vector of function of several variables, with all its first-order partial derivatives. Suppose $f: R^{n} \to R^{m}$:<br>$$<br>J = [\frac{\partial{f}}{\partial{x_{1}}}&hellip;\frac{\partial{f}}{\partial{x_{n}}}]<br>$$</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="notations">Notations</h2>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notation</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">$x_{0}$</td>
-<td style="text-align:left">the data point, where $t$ is the total count of timestamp</td>
-</tr>
-<tr>
-<td style="text-align:left">$x_{t}$</td>
-<td style="text-align:left">the data after applying $t$ times of forward iteration</td>
-</tr>
-<tr>
-<td style="text-align:left">$\epsilon_t$</td>
-<td style="text-align:left">the (standard gaussian) noise</td>
-</tr>
-<tr>
-<td style="text-align:left">$\epsilon_{\theta}(x_t,t)$</td>
-<td style="text-align:left">our model to predict the noise at each timestamp</td>
-</tr>
-<tr>
-<td style="text-align:left">$\mu_{\theta}(x_t, t)$</td>
-<td style="text-align:left">parameterized model to predict $x_{t-1}$ at time $t$</td>
-</tr>
-<tr>
-<td style="text-align:left">$p(x_{0:T})$</td>
-<td style="text-align:left">the joint distribution of $x_{0}, x_{1} &hellip; x_{T}$</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notation</th>
+          <th style="text-align: left">Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$x_{0}$</td>
+          <td style="text-align: left">the data point, where $t$ is the total count of timestamp</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$x_{t}$</td>
+          <td style="text-align: left">the data after applying $t$ times of forward iteration</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$\epsilon_t$</td>
+          <td style="text-align: left">the (standard gaussian) noise</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$\epsilon_{\theta}(x_t,t)$</td>
+          <td style="text-align: left">our model to predict the noise at each timestamp</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$\mu_{\theta}(x_t, t)$</td>
+          <td style="text-align: left">parameterized model to predict $x_{t-1}$ at time $t$</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$p(x_{0:T})$</td>
+          <td style="text-align: left">the joint distribution of $x_{0}, x_{1} &hellip; x_{T}$</td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="introduction">Introduction</h2>
 <p>This article will introduce the definitions of <strong>DDPM</strong> and <strong>DDIM</strong>.</p>
@@ -474,55 +474,55 @@ The conditioned noise predictor depends on $y$, so retraining is required if the
 </blockquote>
 <h2 id="score-based-generative-models">Score-based generative models</h2>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notation</th>
-<th style="text-align:left">Meaning</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Ancestral Sampling</td>
-<td style="text-align:left">A sample method, auto-regressive</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left">Score Distillation Sampling</td>
-<td style="text-align:left">A sampling method(sampler) to generate samples from a diffusion model by <strong>optimizing a loss function</strong>. Basically, it utilizes(distills) the score function of a teacher diffusion model, to train a larger model, with the final result as a sample (as $t \to 0$).</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Informant_(statistics)">score function</a></td>
-<td style="text-align:left">The gradient of the <strong>log</strong>-likelihood function</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left">$U(x) = -\log q(x)$</td>
-<td style="text-align:left">An energy function. The lower the likelihood, the higher the energy</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left">$\mu_{\theta}(x_t, t)$</td>
-<td style="text-align:left">parameterized model to predict $x_{t-1}$ at time $t$</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left">$p(x_{0:T})$</td>
-<td style="text-align:left">the joint distribution of $x_{0}, x_{1} &hellip; x_{T}$</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Metropolis-adjusted_Langevin_algorithm">Langevin dynamic</a></td>
-<td style="text-align:left">A Markov chain Monte Carlo(MCMC) method for obtraining random samples</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align:left"><a href="/">Fisher Divergence</a></td>
-<td style="text-align:left"></td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notation</th>
+          <th style="text-align: left">Meaning</th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Ancestral Sampling</td>
+          <td style="text-align: left">A sample method, auto-regressive</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Score Distillation Sampling</td>
+          <td style="text-align: left">A sampling method(sampler) to generate samples from a diffusion model by <strong>optimizing a loss function</strong>. Basically, it utilizes(distills) the score function of a teacher diffusion model, to train a larger model, with the final result as a sample (as $t \to 0$).</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://en.wikipedia.org/wiki/Informant_(statistics)">score function</a></td>
+          <td style="text-align: left">The gradient of the <strong>log</strong>-likelihood function</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$U(x) = -\log q(x)$</td>
+          <td style="text-align: left">An energy function. The lower the likelihood, the higher the energy</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$\mu_{\theta}(x_t, t)$</td>
+          <td style="text-align: left">parameterized model to predict $x_{t-1}$ at time $t$</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$p(x_{0:T})$</td>
+          <td style="text-align: left">the joint distribution of $x_{0}, x_{1} &hellip; x_{T}$</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="https://en.wikipedia.org/wiki/Metropolis-adjusted_Langevin_algorithm">Langevin dynamic</a></td>
+          <td style="text-align: left">A Markov chain Monte Carlo(MCMC) method for obtraining random samples</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><a href="/">Fisher Divergence</a></td>
+          <td style="text-align: left"></td>
+          <td></td>
+      </tr>
+  </tbody>
 </table>
 <p>Most often, we don&rsquo;t care about the probability $q(x)$ of a certain input $x$, but how it changes through time: therefore, we can utilize score function(gradient, changes) $s(x):=\nabla_{x}\log q(x)$</p>
 <blockquote>
@@ -561,26 +561,26 @@ Notice some white noise is injected, to avoid all samples collapse into some lim
 <p>Multiple (decreasing) noise levels $\sigma$ are applied as an input to score funcion $s$, with the output of previous model $i$ as the input of the next model $i+1$. The whole process resembles an <strong>Anneald Langevn Dynamics</strong></p>
 <h2 id="sde">SDE</h2>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notation</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><a href="https://en.wikipedia.org/wiki/Stochastic_differential_equation">SDE</a></td>
-<td style="text-align:left">A DE in which one or more of the terms is a <strong>stohastic</strong> process</td>
-</tr>
-<tr>
-<td style="text-align:left">$\mathcal{U}(T_{a},T_{b})$</td>
-<td style="text-align:left">Uniform distribution over the time interval $[T_{a}, T_{b}]$</td>
-</tr>
-<tr>
-<td style="text-align:left">In <a href="/posts/ai/models/denoising-diffusion-models/#ddpm">DDPM</a>, we define $t$ as <em>discrete</em> timestamps, however it&rsquo;s more natural to model it as <em>continuous</em> time.</td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notation</th>
+          <th style="text-align: left">Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><a href="https://en.wikipedia.org/wiki/Stochastic_differential_equation">SDE</a></td>
+          <td style="text-align: left">A DE in which one or more of the terms is a <strong>stohastic</strong> process</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$\mathcal{U}(T_{a},T_{b})$</td>
+          <td style="text-align: left">Uniform distribution over the time interval $[T_{a}, T_{b}]$</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">In <a href="/posts/ai/models/denoising-diffusion-models/#ddpm">DDPM</a>, we define $t$ as <em>discrete</em> timestamps, however it&rsquo;s more natural to model it as <em>continuous</em> time.</td>
+          <td></td>
+      </tr>
+  </tbody>
 </table>
 <h3 id="forward-process-1">Forward Process</h3>
 <p>With this premise, we model the forward process with <strong>Stochastic</strong> DE(Differential equation), but not funtion on timestamps:
@@ -618,18 +618,18 @@ where:</p>
 </ul>
 <h2 id="probability-flow-ode">Probability flow ODE</h2>
 <table>
-<thead>
-<tr>
-<th style="text-align:left">Notation</th>
-<th style="text-align:left">Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">PF(Probability flow) ODE</td>
-<td style="text-align:left">The ODE of an SDE</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Notation</th>
+          <th style="text-align: left">Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">PF(Probability flow) ODE</td>
+          <td style="text-align: left">The ODE of an SDE</td>
+      </tr>
+  </tbody>
 </table>
 <p>Despite capable of generating high-quality samples, <em>samplers</em> based on Langevin MCMC and SDE solvers do not provide a way to compute the exact log-likelihood of score-based generative models.</p>
 <p>It has been proved that, it is possible to convert any SDE into an ODE(ordinary differential equation) without changing its marginal distributions $p_{t}(x)$</p>

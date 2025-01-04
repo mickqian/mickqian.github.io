@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mickjagger19.github.io/</loc>
-    <lastmod>2024-08-01T11:27:40+08:00</lastmod>
+    <lastmod>2025-01-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -21,7 +21,10 @@
                 />
   </url><url>
     <loc>https://mickjagger19.github.io/posts/</loc>
-    <lastmod>2024-08-01T11:27:40+08:00</lastmod>
+    <lastmod>2025-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mickjagger19.github.io/posts/ai/inferenceengine/sglang/</loc>
+    <lastmod>2024-12-29T13:10:12+08:00</lastmod>
   </url><url>
     <loc>https://mickjagger19.github.io/posts/misc/the-making-of-immusia/</loc>
     <lastmod>2024-07-20T20:16:13+08:00</lastmod>
@@ -71,7 +74,7 @@
     <loc>https://mickjagger19.github.io/tags/fine-tuning/</loc>
     <lastmod>2024-01-24T19:19:32+08:00</lastmod>
   </url><url>
-    <loc>https://mickjagger19.github.io/posts/ai/peft/</loc>
+    <loc>https://mickjagger19.github.io/posts/ai/rl/peft/</loc>
     <lastmod>2024-01-24T19:19:32+08:00</lastmod>
   </url><url>
     <loc>https://mickjagger19.github.io/posts/ai/models/the-attention-mechanism/</loc>
@@ -116,7 +119,7 @@
     <loc>https://mickjagger19.github.io/tags/deeplearning/</loc>
     <lastmod>2024-01-12T20:22:11+08:00</lastmod>
   </url><url>
-    <loc>https://mickjagger19.github.io/posts/ai/techniques-of-training-nns/</loc>
+    <loc>https://mickjagger19.github.io/posts/ai/models/techniques-of-training-nns/</loc>
     <lastmod>2024-01-12T20:22:11+08:00</lastmod>
   </url><url>
     <loc>https://mickjagger19.github.io/posts/music/bossa-nova-songs-progression/</loc>
@@ -131,11 +134,13 @@
     <loc>https://mickjagger19.github.io/posts/music/music-of-george-harrison/</loc>
     <lastmod>2024-01-06T19:37:13+08:00</lastmod>
   </url><url>
+    <loc>https://mickjagger19.github.io/posts/ai/hardware/hardware/</loc>
+  </url><url>
     <loc>https://mickjagger19.github.io/posts/attachments/music/my-gears/nights-backbone-copy/</loc>
   </url><url>
     <loc>https://mickjagger19.github.io/posts/graphics/shaders/</loc>
   </url><url>
-    <loc>https://mickjagger19.github.io/posts/immusia-todolist/</loc>
+    <loc>https://mickjagger19.github.io/posts/misc/immusia-todolist/</loc>
   </url><url>
     <loc>https://mickjagger19.github.io/archives/</loc>
   </url><url>
