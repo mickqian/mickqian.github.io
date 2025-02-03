@@ -12,7 +12,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca24e314-8070-49a5-8af0-d9cb02cb9702" name="Changes" comment="Update gitignore" />
+    <list default="true" id="ca24e314-8070-49a5-8af0-d9cb02cb9702" name="Changes" comment="Update upload-artifact to v3">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/hugo.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/hugo.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +122,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2NBcpG6gIpQRRCu3OZwd1dvGE08" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -227,30 +232,6 @@
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1679141289380</updated>
-    </task>
-    <task id="LOCAL-00013" summary="fix bugs">
-      <option name="closed" value="true" />
-      <created>1704537774968</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1704537774968</updated>
-    </task>
-    <task id="LOCAL-00014" summary="fix bugs">
-      <option name="closed" value="true" />
-      <created>1704537815431</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1704537815432</updated>
-    </task>
-    <task id="LOCAL-00015" summary="rm">
-      <option name="closed" value="true" />
-      <created>1704538134590</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1704538134590</updated>
     </task>
     <task id="LOCAL-00016" summary="rm">
       <option name="closed" value="true" />
@@ -604,7 +585,31 @@
       <option name="project" value="LOCAL" />
       <updated>1704906201486</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Remove public from git">
+      <option name="closed" value="true" />
+      <created>1738577677673</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1738577677673</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Update upload-artifact to v4">
+      <option name="closed" value="true" />
+      <created>1738577732439</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1738577732439</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Update upload-artifact to v3">
+      <option name="closed" value="true" />
+      <created>1738577917773</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1738577917773</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,6 +621,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="main" />
@@ -665,10 +675,6 @@
       <path value="$PROJECT_DIR$/content/posts/Interview/Profile/Resume" />
       <path value="$PROJECT_DIR$/content/posts" />
     </ignored-roots>
-    <MESSAGE value="vault backup: 2023-10-21 16:01:50&#10;vault backup: 2023-10-21 16:28:36" />
-    <MESSAGE value="vault backup: 2023-10-21 16:01:50" />
-    <MESSAGE value="merge with obsidian" />
-    <MESSAGE value="fix bugs" />
     <MESSAGE value="vault backup: 2024-01-06 18:45:21" />
     <MESSAGE value="rm" />
     <MESSAGE value="rm&#10;vault backup: 2023-12-03 10:27:07" />
@@ -690,6 +696,10 @@
     <MESSAGE value="vault backup: 2024-01-11 00:28:22" />
     <MESSAGE value="vault backup: 2024-01-10 23:31:01" />
     <MESSAGE value="Update gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update gitignore" />
+    <MESSAGE value="Untrack public from git" />
+    <MESSAGE value="Untrack public from git" />
+    <MESSAGE value="Update upload-artifact to v4" />
+    <MESSAGE value="Update upload-artifact to v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update upload-artifact to v3" />
   </component>
 </project>
