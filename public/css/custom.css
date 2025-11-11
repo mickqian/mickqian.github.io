@@ -1,0 +1,126 @@
+/* static/css/custom.css */
+.center-iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+
+/* hero cover background for post title area */
+.post-single .post-header.hero-cover {
+  position: relative;
+  /* pull up to the very top (cancel header height + main top padding) */
+  margin-top: calc(-1 * (var(--header-height) + var(--content-gap)));
+  /* add them back to inner padding so text isn't hidden under header */
+  padding-top: calc(var(--hero-pt, 6rem) + var(--header-height) + var(--content-gap));
+  padding-bottom: var(--hero-pb, 6rem);
+  margin-bottom: var(--content-gap, 1.5rem);
+  color: var(--theme, #fff);
+  min-height: var(--hero-min-vh, 0);
+  /* full-bleed */
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  width: 100vw;
+  z-index: 0;
+}
+
+.post-single .post-header.hero-cover::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--hero-bg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: var(--hero-filter, brightness(0.6));
+  z-index: 0;
+  pointer-events: none;
+}
+
+.post-single .post-header.hero-cover>* {
+  position: relative;
+  z-index: 1;
+  /* re-constrain inner content */
+  max-width: calc(var(--post-width) + var(--gap) * 2);
+  padding-left: var(--gap);
+  padding-right: var(--gap);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* keep global top navigation above hero and respect safe area on iOS */
+.header {
+  position: relative;
+  z-index: 1000;
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+/* When a page has hero, place header above hero and make it transparent */
+body.has-hero .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent !important;
+}
+
+body.has-hero .nav {
+  background: transparent !important;
+}
+
+/* Optional: if theme header had padding/margins causing gap, collapse it on mobile */
+@media screen and (max-width: 768px) {
+  body.has-hero .nav {
+    margin-top: 0;
+  }
+}
+
+/* When page has hero, remove main top padding so hero touches page top */
+body.has-hero .main {
+  padding-top: 0 !important;
+}
+
+/* On hero pages, cancel negative pull and let absolute header overlay instead */
+body.has-hero .post-single .post-header.hero-cover {
+  margin-top: 0 !important;
+}
+
+.post-single .post-header.hero-cover .post-title {
+  color: var(--hero-title-color, #fff);
+}
+
+.post-single .post-header.hero-cover .post-description,
+.post-single .post-header.hero-cover .post-meta {
+  color: var(--hero-meta-color, #f2f2f2);
+}
+
+/* Mobile-specific hero adjustments */
+@media screen and (max-width: 768px) {
+  .post-single .post-header.hero-cover {
+    /* Pull up exactly header height; content-gap already removed on mobile main */
+    margin-top: calc(-1 * (var(--header-height) + env(safe-area-inset-top, 0px)));
+    /* Add back header height + safe area to inner padding */
+    padding-top: calc(var(--hero-pt, 6rem) + var(--header-height) + env(safe-area-inset-top, 0px));
+    /* Ensure full viewport width on mobile */
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    width: 100vw;
+    /* Fix for mobile viewport units */
+    min-height: var(--hero-min-vh, 0);
+  }
+
+  .post-single .post-header.hero-cover::before {
+    /* Extend background to cover any gaps */
+    top: calc(-1 * env(safe-area-inset-top, 0px));
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(100% + env(safe-area-inset-top, 0px));
+  }
+
+  /* Adjust inner content padding for mobile */
+  .post-single .post-header.hero-cover>* {
+    padding-left: calc(var(--gap) * 0.8);
+    padding-right: calc(var(--gap) * 0.8);
+  }
+}
