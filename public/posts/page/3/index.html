@@ -366,6 +366,37 @@
 </footer>
   <a class="entry-link" aria-label="post link to Bossa Nova Songs Progression" href="https://mickqian.github.io/posts/music/bossa-nova-songs-progression/"></a>
 </article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>
+    </h2>
+  </header>
+  <section class="entry-content">
+    
+      <p> Term Meaning dequantization promote 到 bf16/fp16/fp32 QMM(quantized matrix multiplication) AWQ(Activation-Aware Weight Quantization) 一种量化/反量化机制
+根据 weight 的分布（极值），和目标 dtype (如 4-bit)，确定量化步长，进行离散编码；dequant 时反编码，但有较大损耗 per-tensor 量化分组范围，整个 tensor per-channel 量化分组范围，整个 channel(dim) w8a8 weight fp8 activation fp8, 注意 a8的意思是，activation 的 GEMM 的 A * B 在 fp8 执行 Smooth Quant 通过引入平滑因子 s，解决 outliers 拉伸量化范围的问题，通过数学上的逐通道缩放变换的离线操作，将 scale 差异（或者说量化的难度）从激活值迁移到权重上
+解决了权重容易量化，激活难量化(存在 outliers)的问题
+1. 计算出一个s，同时缩放激活值 (X&#39; = X / s) 和权重 (W&#39; = W * s)
+2. 再进行标准的对称(输入的范围关于0对称）/非对称量化（精度可能更高，因为适应了输入数据） GPTQ 逐列（或逐组）量化权重，然后立即更新还未被量化的其他权重，以补偿刚刚产生的量化误差 非对称量化 适用于激活值(RELU 等输出，带偏移，非对称。精度高，量化计算复杂度高) QAT (Quantization Aware Training) 模拟量化过程的训练方式, 在卷积、全连接等算子中，先把权重和激活伪量化成 int8 范围（用浮点存储，但值是量化后的离散值） PTQ (post-training-quant) offline quant or online-quant TorchAO vs pre-quant weights 除了 torchao 的 load and quant 之外，torchao 还有 cuda graph 兼容问题，算子适配问题（只是对 Linear 层应用了 TorchAO 的 quantize_，性能不佳） On-the-fly quant weights 在硬盘上是高精度，加载时被量化为低精度
+bitsandbytes, fp8, modelopt 是常用的工具 offline-quant weights 在磁盘上已经是低精度 Quantization tools (Quantization Backends) Tool name description model_opt fp8, fp4, int4
+集成 TensorRT-LLM torchao int8dq, int8wo, int4wo, fp8 关于难搞懂的命名：
+...</p>
+    
+  </section>
+  <footer class="entry-footer"><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor"
+       stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"
+                                                                                         fill="none"></path><circle
+          cx="12" cy="12" r="9"></circle><polyline points="12 7 12 12 15 15"></polyline></svg>
+  <span>2 min</span></span><span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor"
+       stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"
+                                                                                         fill="none"></path><circle
+          cx="12" cy="7" r="4"></circle><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path></svg>Mick</span>
+</footer>
+  <a class="entry-link" aria-label="post link to " href="https://mickqian.github.io/posts/ai/ai-infra/quantization/"></a>
+</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="https://mickqian.github.io/posts/page/2/">« </a>
