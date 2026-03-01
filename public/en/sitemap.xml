@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mickqian.github.io/posts/music/cover-arts/cover-art---the-mountain/</loc>
+    <lastmod>2026-03-01T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://mickqian.github.io/tags/coverart/</loc>
+    <lastmod>2026-03-01T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://mickqian.github.io/tags/gorillaz/</loc>
+    <lastmod>2026-03-01T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://mickqian.github.io/tags/jamiehewlett/</loc>
+    <lastmod>2026-03-01T10:00:00+08:00</lastmod>
+  </url><url>
     <loc>https://mickqian.github.io/</loc>
     <lastmod>2026-03-01T10:00:00+08:00</lastmod>
     <xhtml:link
@@ -20,22 +32,19 @@
                 href="https://mickqian.github.io/"
                 />
   </url><url>
+    <loc>https://mickqian.github.io/tags/music/</loc>
+    <lastmod>2026-03-01T10:00:00+08:00</lastmod>
+  </url><url>
     <loc>https://mickqian.github.io/posts/</loc>
+    <lastmod>2026-03-01T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://mickqian.github.io/tags/</loc>
     <lastmod>2026-03-01T10:00:00+08:00</lastmod>
   </url><url>
     <loc>https://mickqian.github.io/tags/blur/</loc>
     <lastmod>2025-10-27T10:07:49+08:00</lastmod>
   </url><url>
     <loc>https://mickqian.github.io/posts/music/cover-arts/cover-art---the-magic-whip-%E6%A8%A1%E7%B3%8A%E9%AD%94%E9%9E%AD/</loc>
-    <lastmod>2025-10-27T10:07:49+08:00</lastmod>
-  </url><url>
-    <loc>https://mickqian.github.io/tags/coverart/</loc>
-    <lastmod>2025-10-27T10:07:49+08:00</lastmod>
-  </url><url>
-    <loc>https://mickqian.github.io/tags/music/</loc>
-    <lastmod>2025-10-27T10:07:49+08:00</lastmod>
-  </url><url>
-    <loc>https://mickqian.github.io/tags/</loc>
     <lastmod>2025-10-27T10:07:49+08:00</lastmod>
   </url><url>
     <loc>https://mickqian.github.io/tags/britpop/</loc>
@@ -63,9 +72,6 @@
     <lastmod>2025-06-08T22:51:49+08:00</lastmod>
   </url><url>
     <loc>https://mickqian.github.io/posts/music/cover-arts/cover-art---plastic-beach/</loc>
-    <lastmod>2025-06-02T13:34:49+08:00</lastmod>
-  </url><url>
-    <loc>https://mickqian.github.io/tags/gorillaz/</loc>
     <lastmod>2025-06-02T13:34:49+08:00</lastmod>
   </url><url>
     <loc>https://mickqian.github.io/tags/andywarhol/</loc>
