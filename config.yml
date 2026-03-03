@@ -1,6 +1,6 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-baseURL: "https://mickjagger19.github.io"
+baseURL: "https://mickqian.github.io"
 title: Mick's Blog
 paginate: 5
 theme: PaperModX
@@ -153,10 +153,10 @@ params:
   socialIcons:
     - name: github
       title: View Source on Github
-      url: "https://github.com/mickjagger19/mickjagger19.github.io"
+      url: "https://github.com/mickqian/mickqian.github.io"
     - name: X
       title: Share Blog on X/Twitter
-      url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=mickjagger19.github.io&hashtags=Hugo,PaperMod"
+      url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=mickqian.github.io&hashtags=Hugo,PaperMod"
     - name: KoFi
       title: Buy me a Ko-Fi :)
       url: ""
