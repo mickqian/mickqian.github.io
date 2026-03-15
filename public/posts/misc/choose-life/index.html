@@ -359,7 +359,7 @@
     </nav>
 </header>
 <main class="main post"><article class="post-single">
-    <header class="post-header hero-cover" style="--hero-bg: url('https://dp9a3tyzxd5qs.cloudfront.net/trainspotting-1996-5.jpg');--hero-min-vh: 85vh;--hero-pt: 15rem;">
+    <header class="post-header hero-cover" style="--hero-bg: url('https://dp9a3tyzxd5qs.cloudfront.net/trainspotting-1996-5.jpg');--hero-min-vh: 100vh;">
         <h1 class="post-title">Choose Life?</h1>
         <div class="post-meta"><span class="meta-item">
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -383,6 +383,171 @@
             
             
         </div>
+
+<div id="music-player" class="music-player">
+  <div id="music-pill" class="music-pill">
+    <button id="music-btn" class="music-btn" aria-label="Play music" title="Play music">
+      <svg id="music-icon-play" class="music-icon" viewBox="0 0 24 24" fill="none">
+        <polygon points="9.5,7 17.5,12 9.5,17" fill="currentColor"/>
+      </svg>
+      <svg id="music-icon-pause" class="music-icon" style="display:none" viewBox="0 0 24 24" fill="none">
+        <rect x="8" y="7" width="3" height="10" rx="1" fill="currentColor"/>
+        <rect x="13" y="7" width="3" height="10" rx="1" fill="currentColor"/>
+      </svg>
+      <svg id="music-icon-loading" class="music-icon" style="display:none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M12 2a10 10 0 0 1 10 10" class="music-spin"/>
+      </svg>
+    </button>
+    <div class="music-info">
+      <span id="music-title" class="music-title"></span>
+      
+      <div class="music-eq" id="music-eq">
+        <span class="music-eq-bar"></span>
+        <span class="music-eq-bar"></span>
+        <span class="music-eq-bar"></span>
+      </div>
+    </div>
+    
+    <button id="music-skip" class="music-btn music-btn-skip" aria-label="Next track" title="Next track">
+      <svg class="music-icon" viewBox="0 0 24 24" fill="none">
+        <polygon points="6,7 14,12 6,17" fill="currentColor"/>
+        <rect x="15" y="7" width="2.5" height="10" rx="0.75" fill="currentColor"/>
+      </svg>
+    </button>
+  </div>
+</div>
+
+<div id="yt-container" style="position:absolute;width:0;height:0;overflow:hidden;pointer-events:none;">
+  <div id="yt-player"></div>
+</div>
+
+<script>
+(function() {
+  const playlist = [
+    { id: "KSHY1_ux8rs", title: "Young Americans - David Bowie" },
+  ];
+  if (!playlist.length) return;
+
+  let ytPlayer = null, isReady = false, isPlaying = false, currentIndex = 0;
+
+  const el      = document.getElementById('music-player');
+  const pill    = document.getElementById('music-pill');
+  const btn     = document.getElementById('music-btn');
+  const skipBtn = document.getElementById('music-skip');
+  const titleEl = document.getElementById('music-title');
+  const eq      = document.getElementById('music-eq');
+  const iconPlay    = document.getElementById('music-icon-play');
+  const iconPause   = document.getElementById('music-icon-pause');
+  const iconLoading = document.getElementById('music-icon-loading');
+
+   
+  function showIcon(s) {
+    iconPlay.style.display    = s === 'play'    ? 'block' : 'none';
+    iconPause.style.display   = s === 'pause'   ? 'block' : 'none';
+    iconLoading.style.display = s === 'loading'  ? 'block' : 'none';
+  }
+  function setPlaying(playing) {
+    isPlaying = playing;
+    el.classList.toggle('is-playing', playing);
+    eq.classList.toggle('active', playing);
+    showIcon(playing ? 'pause' : 'play');
+  }
+
+  let hasInteracted = false;
+  function showTitle() {
+    titleEl.textContent = playlist[currentIndex].title || '';
+    el.classList.add('show-title');
+    if (hasInteracted) {
+      clearTimeout(showTitle._t);
+      showTitle._t = setTimeout(() => el.classList.remove('show-title'), 4000);
+    }
+  }
+
+   
+  function setupScrollFix() {
+    const nav = document.querySelector('.header');
+    const navH = nav ? nav.offsetHeight : 64;
+
+     
+    const ph = document.createElement('div');
+    ph.className = 'music-player-placeholder';
+    el.parentNode.insertBefore(ph, el.nextSibling);
+
+    let fixed = false;
+    function onScroll() {
+      const rect = ph.getBoundingClientRect();
+      const shouldFix = rect.top < navH;
+      if (shouldFix === fixed) return;
+      fixed = shouldFix;
+      if (fixed) {
+        ph.style.height = el.offsetHeight + 'px';
+        ph.classList.add('active');
+        el.classList.add('is-fixed');
+        el.style.top = navH + 8 + 'px';
+      } else {
+        ph.classList.remove('active');
+        ph.style.height = '';
+        el.classList.remove('is-fixed');
+        el.style.top = '';
+      }
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', () => {
+      const h = document.querySelector('.header');
+      if (fixed) el.style.top = (h ? h.offsetHeight : 64) + 8 + 'px';
+    }, { passive: true });
+  }
+  setupScrollFix();
+
+   
+  titleEl.textContent = playlist[currentIndex].title || '';
+  el.classList.add('show-title');
+
+   
+  function loadYTAPI() {
+    if (window.YT && window.YT.Player) { initPlayer(); return; }
+    const t = document.createElement('script');
+    t.src = 'https://www.youtube.com/iframe_api';
+    document.head.appendChild(t);
+  }
+  window.onYouTubeIframeAPIReady = initPlayer;
+
+  function initPlayer() {
+    ytPlayer = new YT.Player('yt-player', {
+      height: '0', width: '0',
+      videoId: playlist[currentIndex].id,
+      playerVars: { autoplay: 1, controls: 0, disablekb: 1, fs: 0, modestbranding: 1 },
+      events: {
+        onReady(e)       { isReady = true; e.target.playVideo(); showTitle(); },
+        onStateChange(e) {
+          if (e.data === YT.PlayerState.PLAYING)       setPlaying(true);
+          else if (e.data === YT.PlayerState.PAUSED)   setPlaying(false);
+          else if (e.data === YT.PlayerState.ENDED)    next();
+        },
+        onError() { next(); }
+      }
+    });
+  }
+  function next() {
+    currentIndex = (currentIndex + 1) % playlist.length;
+    ytPlayer.loadVideoById(playlist[currentIndex].id);
+    showTitle();
+  }
+
+  btn.addEventListener('click', () => {
+    hasInteracted = true;
+    if (!isReady) { showIcon('loading'); loadYTAPI(); return; }
+    isPlaying ? ytPlayer.pauseVideo() : (ytPlayer.playVideo(), showTitle());
+  });
+
+  skipBtn.addEventListener('click', () => {
+    hasInteracted = true;
+    if (!isReady) { showIcon('loading'); loadYTAPI(); return; }
+    next();
+  });
+})();
+</script>
+
     </header> 
 
     <div class="post-content"><p> </p>
@@ -420,9 +585,6 @@
 此时耳机里开始播放《Young Americans》。面对晃动的摇摇椅，我听到 David Bowie 问：
 <div align="center">
 <img src="../../Attachments/Misc/No%20Re-Hash/IMG-20250823235111210.jpg" width="280" alt="" align="center">
-</div>
-<div align="center">
-<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;margin-bottom = 30px" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/young-americans/1195107061?i=1195108148"></iframe>
 </div>
 <p>我按下暂停键，摘下耳机。在路灯的照射下，山顶明亮如白昼。周围很安静，除了风声，只有旁边的一对男生谈论和摆弄一个形如巨大风筝的玩意的声音。我意识到这不是一个问题，而是一个回答。当时我被一种强烈的感觉击中：这次即兴的下北泽之旅将会改变我的人生轨迹，但我对它具体会以什么样的方式展开一无所知。不能再犹豫，我需要改变现状</p>
 <p>在结束旅程之后，我尽我所能地去让这个偶然迸发的决定变成现实。我没有选择一些在几年前可能觉得十分诱人的选项，因为这一次我很清楚自己想要什么</p>
@@ -529,7 +691,6 @@
     <path d="M12 6H0l6-6z" />
   </svg>
 </a>
-
 
 <script>
   (function() {
