@@ -467,32 +467,22 @@
   function setupScrollFix() {
     const nav = document.querySelector('.header');
     const navH = nav ? nav.offsetHeight : 64;
-
-     
-    const ph = document.createElement('div');
-    ph.className = 'music-player-placeholder';
-    el.parentNode.insertBefore(ph, el.nextSibling);
+    const threshold = el.offsetTop + el.offsetHeight - navH;
 
     let fixed = false;
     function onScroll() {
-      const rect = ph.getBoundingClientRect();
-      const shouldFix = rect.top < navH;
+      const shouldFix = window.scrollY > threshold;
       if (shouldFix === fixed) return;
       fixed = shouldFix;
-      if (fixed) {
-        ph.style.height = el.offsetHeight + 'px';
-        el.classList.add('is-fixed');
-        el.style.top = navH + 8 + 'px';
-      } else {
-        ph.style.height = '0';
-        el.classList.remove('is-fixed');
-        el.style.top = '';
-      }
+      el.classList.toggle('is-fixed', fixed);
+      el.style.top = fixed ? navH + 8 + 'px' : '';
     }
     window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('resize', () => {
-      const h = document.querySelector('.header');
-      if (fixed) el.style.top = (h ? h.offsetHeight : 64) + 8 + 'px';
+      if (fixed) {
+        const h = document.querySelector('.header');
+        el.style.top = (h ? h.offsetHeight : 64) + 8 + 'px';
+      }
     }, { passive: true });
   }
   setupScrollFix();

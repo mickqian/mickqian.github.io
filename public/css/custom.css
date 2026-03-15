@@ -137,9 +137,8 @@ body.has-hero .post-single .post-header.hero-cover {
   position: relative;
   z-index: 999;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   margin-top: 0.5rem;
-  will-change: position, top;
 }
 
 /* When fixed to top on scroll */
@@ -147,12 +146,6 @@ body.has-hero .post-single .post-header.hero-cover {
   position: fixed;
   right: var(--gap, 24px);
   left: auto;
-  justify-content: flex-end;
-}
-
-/* Placeholder keeps layout stable when player becomes fixed */
-.music-player-placeholder {
-  height: 0;
 }
 
 /* ── Pill ── */
