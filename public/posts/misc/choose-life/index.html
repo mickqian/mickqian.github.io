@@ -463,29 +463,6 @@
     }
   }
 
-   
-  function setupScrollFix() {
-    const nav = document.querySelector('.header');
-    const navH = nav ? nav.offsetHeight : 64;
-    const threshold = el.offsetTop + el.offsetHeight - navH;
-
-    let fixed = false;
-    function onScroll() {
-      const shouldFix = window.scrollY > threshold;
-      if (shouldFix === fixed) return;
-      fixed = shouldFix;
-      el.classList.toggle('is-fixed', fixed);
-      el.style.top = fixed ? navH + 8 + 'px' : '';
-    }
-    window.addEventListener('scroll', onScroll, { passive: true });
-    window.addEventListener('resize', () => {
-      if (fixed) {
-        const h = document.querySelector('.header');
-        el.style.top = (h ? h.offsetHeight : 64) + 8 + 'px';
-      }
-    }, { passive: true });
-  }
-  setupScrollFix();
 
    
   titleEl.textContent = playlist[currentIndex].title || '';
