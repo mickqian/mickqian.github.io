@@ -22,7 +22,7 @@
 <meta property="og:description" content="britpop" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mickqian.github.io/posts/misc/britpop-%E5%9C%A3%E5%9C%B0%E5%B7%A1%E7%A4%BC%E4%B8%AA%E4%BA%BA%E5%90%91/" />
-    <meta property="og:image" content="https://mickqian.github.io/gorillaz-hero.jpg" /><meta property="article:section" content="posts" />
+    <meta property="og:image" content="https://mickqian.github.io/Attachments/Misc/Britpop%20%E5%9C%A3%E5%9C%B0%E5%B7%A1%E7%A4%BC%EF%BC%88%E4%B8%AA%E4%BA%BA%E5%90%91%EF%BC%89/IMG-20250911113305677.jpg" /><meta property="article:section" content="posts" />
   <meta property="article:published_time" content="2025-09-10T04:46:02&#43;01:00" />
   <meta property="article:modified_time" content="2025-09-10T04:46:02&#43;01:00" />
 
@@ -59,7 +59,7 @@
   ],
   "wordCount" : "568",
   "inLanguage": "en",
-  "image":"https://mickqian.github.io/gorillaz-hero.jpg","datePublished": "2025-09-10T04:46:02+01:00",
+  "image":"https://mickqian.github.io/Attachments/Misc/Britpop%20%E5%9C%A3%E5%9C%B0%E5%B7%A1%E7%A4%BC%EF%BC%88%E4%B8%AA%E4%BA%BA%E5%90%91%EF%BC%89/IMG-20250911113305677.jpg","datePublished": "2025-09-10T04:46:02+01:00",
   "dateModified": "2025-09-10T04:46:02+01:00",
   "author":{
     "@type": "Person",
@@ -359,7 +359,7 @@
     </nav>
 </header>
 <main class="main post"><article class="post-single">
-    <header class="post-header hero-cover" style="--hero-bg: url('https://mickqian.github.io/gorillaz-hero.jpg');--hero-min-vh: 80vh;">
+    <header class="post-header hero-cover" style="--hero-bg: url('https://mickqian.github.io/Attachments/Misc/Britpop%20%E5%9C%A3%E5%9C%B0%E5%B7%A1%E7%A4%BC%EF%BC%88%E4%B8%AA%E4%BA%BA%E5%90%91%EF%BC%89/IMG-20250911113305677.jpg');--hero-min-vh: 100vh;">
         <h1 class="post-title">Britpop 圣地巡礼（个人向）</h1>
         <div class="post-meta"><span class="meta-item">
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -383,6 +383,168 @@
             
             
         </div>
+
+<div id="music-player" class="music-player">
+  <div id="music-pill" class="music-pill">
+    <button id="music-btn" class="music-btn" aria-label="Play music" title="Play music">
+      <svg id="music-icon-play" class="music-icon" viewBox="0 0 24 24" fill="none">
+        <polygon points="9.5,7 17.5,12 9.5,17" fill="currentColor"/>
+      </svg>
+      <svg id="music-icon-pause" class="music-icon" style="display:none" viewBox="0 0 24 24" fill="none">
+        <rect x="8" y="7" width="3" height="10" rx="1" fill="currentColor"/>
+        <rect x="13" y="7" width="3" height="10" rx="1" fill="currentColor"/>
+      </svg>
+      <svg id="music-icon-loading" class="music-icon" style="display:none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M12 2a10 10 0 0 1 10 10" class="music-spin"/>
+      </svg>
+    </button>
+    <div class="music-info">
+      <span id="music-title" class="music-title"></span>
+      
+      <div class="music-eq" id="music-eq">
+        <span class="music-eq-bar"></span>
+        <span class="music-eq-bar"></span>
+        <span class="music-eq-bar"></span>
+      </div>
+    </div>
+    
+    <button id="music-skip" class="music-btn music-btn-skip" aria-label="Next track" title="Next track">
+      <svg class="music-icon" viewBox="0 0 24 24" fill="none">
+        <polygon points="6,7 14,12 6,17" fill="currentColor"/>
+        <rect x="15" y="7" width="2.5" height="10" rx="0.75" fill="currentColor"/>
+      </svg>
+    </button>
+  </div>
+</div>
+
+<div id="yt-container" style="position:absolute;width:0;height:0;overflow:hidden;pointer-events:none;">
+  <div id="yt-player"></div>
+</div>
+
+<script>
+(function() {
+  const playlist = [
+    { id: "9qlNDTfecGY", title: "At The Chime Of A City Clock - Nick Drake" },
+  ];
+  if (!playlist.length) return;
+
+  let ytPlayer = null, isReady = false, isPlaying = false, currentIndex = 0;
+
+  const el      = document.getElementById('music-player');
+  const pill    = document.getElementById('music-pill');
+  const btn     = document.getElementById('music-btn');
+  const skipBtn = document.getElementById('music-skip');
+  const titleEl = document.getElementById('music-title');
+  const eq      = document.getElementById('music-eq');
+  const iconPlay    = document.getElementById('music-icon-play');
+  const iconPause   = document.getElementById('music-icon-pause');
+  const iconLoading = document.getElementById('music-icon-loading');
+
+   
+  function showIcon(s) {
+    iconPlay.style.display    = s === 'play'    ? 'block' : 'none';
+    iconPause.style.display   = s === 'pause'   ? 'block' : 'none';
+    iconLoading.style.display = s === 'loading'  ? 'block' : 'none';
+  }
+  function setPlaying(playing) {
+    isPlaying = playing;
+    el.classList.toggle('is-playing', playing);
+    eq.classList.toggle('active', playing);
+    showIcon(playing ? 'pause' : 'play');
+  }
+
+  let hasInteracted = false;
+  function showTitle() {
+    titleEl.textContent = playlist[currentIndex].title || '';
+    el.classList.add('show-title');
+    if (hasInteracted) {
+      clearTimeout(showTitle._t);
+      showTitle._t = setTimeout(() => el.classList.remove('show-title'), 4000);
+    }
+  }
+
+   
+  function setupScrollFix() {
+    const nav = document.querySelector('.header');
+    const navH = nav ? nav.offsetHeight : 64;
+
+     
+    const ph = document.createElement('div');
+    ph.className = 'music-player-placeholder';
+    el.parentNode.insertBefore(ph, el.nextSibling);
+
+    let fixed = false;
+    function onScroll() {
+      const rect = ph.getBoundingClientRect();
+      const shouldFix = rect.top < navH;
+      if (shouldFix === fixed) return;
+      fixed = shouldFix;
+      if (fixed) {
+        ph.style.height = el.offsetHeight + 'px';
+        el.classList.add('is-fixed');
+        el.style.top = navH + 8 + 'px';
+      } else {
+        ph.style.height = '0';
+        el.classList.remove('is-fixed');
+        el.style.top = '';
+      }
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', () => {
+      const h = document.querySelector('.header');
+      if (fixed) el.style.top = (h ? h.offsetHeight : 64) + 8 + 'px';
+    }, { passive: true });
+  }
+  setupScrollFix();
+
+   
+  titleEl.textContent = playlist[currentIndex].title || '';
+  el.classList.add('show-title');
+
+   
+  function loadYTAPI() {
+    if (window.YT && window.YT.Player) { initPlayer(); return; }
+    const t = document.createElement('script');
+    t.src = 'https://www.youtube.com/iframe_api';
+    document.head.appendChild(t);
+  }
+  window.onYouTubeIframeAPIReady = initPlayer;
+
+  function initPlayer() {
+    ytPlayer = new YT.Player('yt-player', {
+      height: '0', width: '0',
+      videoId: playlist[currentIndex].id,
+      playerVars: { autoplay: 1, controls: 0, disablekb: 1, fs: 0, modestbranding: 1 },
+      events: {
+        onReady(e)       { isReady = true; e.target.playVideo(); showTitle(); },
+        onStateChange(e) {
+          if (e.data === YT.PlayerState.PLAYING)       setPlaying(true);
+          else if (e.data === YT.PlayerState.PAUSED)   setPlaying(false);
+          else if (e.data === YT.PlayerState.ENDED)    next();
+        },
+        onError() { next(); }
+      }
+    });
+  }
+  function next() {
+    currentIndex = (currentIndex + 1) % playlist.length;
+    ytPlayer.loadVideoById(playlist[currentIndex].id);
+    showTitle();
+  }
+
+  btn.addEventListener('click', () => {
+    hasInteracted = true;
+    if (!isReady) { showIcon('loading'); loadYTAPI(); return; }
+    isPlaying ? ytPlayer.pauseVideo() : (ytPlayer.playVideo(), showTitle());
+  });
+
+  skipBtn.addEventListener('click', () => {
+    hasInteracted = true;
+    if (!isReady) { showIcon('loading'); loadYTAPI(); return; }
+    next();
+  });
+})();
+</script>
 
     </header> <div class="toc side right">
     <details  open>

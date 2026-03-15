@@ -148,10 +148,7 @@ body.has-hero .post-single .post-header.hero-cover {
 
 /* Placeholder keeps layout stable when player becomes fixed */
 .music-player-placeholder {
-  display: none;
-}
-.music-player-placeholder.active {
-  display: block;
+  height: 0;
 }
 
 /* ── Pill ── */

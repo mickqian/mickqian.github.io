@@ -481,12 +481,10 @@
       fixed = shouldFix;
       if (fixed) {
         ph.style.height = el.offsetHeight + 'px';
-        ph.classList.add('active');
         el.classList.add('is-fixed');
         el.style.top = navH + 8 + 'px';
       } else {
-        ph.classList.remove('active');
-        ph.style.height = '';
+        ph.style.height = '0';
         el.classList.remove('is-fixed');
         el.style.top = '';
       }
