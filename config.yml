@@ -124,7 +124,7 @@ params:
   ShowRssButtonInSectionTermList: true
   ShowAllPagesInArchive: true
   ShowPageNums: true
-  
+
   ShowToc: true
   TocSide: 'right'  # or 'right'
   TocOpen: true
@@ -145,11 +145,22 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "👋 Welcome to Mick's blog"
-    Content: >
+    Title: "Welcome to my blog"
+    Content: "Hi, this is Mick ( `/mɪk/` )\n
+    
+    I'm a programmer, and also: \n
+      - **Guitarist**: I play guitar in some small gigs \n
+      - **VisionOS Developer**: Checkout my vision pro app: **[Immusia](https://apps.apple.com/us/app/immusia/id6499323438)** on AppStore \n
+\n
+    Projects I'm currently on: \n
+      - @ LMSYS Org \n
+      - **[SGLang](https://github.com/sgl-project/sglang)**: Core Dev, Team VLM, Team Diffusion \n
+      - **[Immusia](https://apps.apple.com/us/app/immusia/id6499323438)**: Solo Dev \n
       
-
-
+\n
+    I received a bachelor CS Degree from ZJU in 2020.\n
+    "
+  
   socialIcons:
     - name: github
       title: View Source on Github
