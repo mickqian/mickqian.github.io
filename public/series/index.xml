@@ -5,6 +5,7 @@
     <link>https://mickqian.github.io/series/</link>
     <description>Recent content in Series on Mick&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://mickqian.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <atom:link href="https://mickqian.github.io/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
