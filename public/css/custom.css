@@ -16,13 +16,22 @@
   padding-bottom: var(--hero-pb, 6rem);
   margin-bottom: var(--content-gap, 1.5rem);
   color: var(--theme, #fff);
-  height: var(--hero-min-vh, auto);
+  /* full screen by default; front matter cover.heroMinVh can still override.
+     min-height (not height) so a long title never gets clipped by clip-path */
+  min-height: var(--hero-min-vh, 100vh);
   /* full-bleed */
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
   width: 100vw;
   z-index: 0;
   clip-path: inset(0);
+}
+
+/* small viewport height: on iOS Safari the hero fills exactly the visible screen with toolbars shown */
+@supports (min-height: 100svh) {
+  .post-single .post-header.hero-cover {
+    min-height: var(--hero-min-vh, 100svh);
+  }
 }
 
 .post-single .post-header.hero-cover::before {
@@ -109,8 +118,6 @@ body.has-hero .post-single .post-header.hero-cover {
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
     width: 100vw;
-    /* Fix for mobile viewport units */
-    height: var(--hero-min-vh, auto);
   }
 
   .post-single .post-header.hero-cover::before {
